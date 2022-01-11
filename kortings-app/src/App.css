@@ -73,18 +73,21 @@ body, html {
   color: #000;
   background: #FFF;
 }
+.product-price::before {
+  content:"€";
+}
 .product-price { 
-  background: #FFF;
+  background: #fff;
+  border-radius: 4px;
+  top: 5px;
   color: #000;
-  position: absolute;
-  bottom: -10px;
-  right: -10px;
-  border-radius: 8px;
-  line-height: 35px;
-  width: 70px;
-  text-align: center;
   font-weight: 800;
-  box-shadow: 0px 0px 0px 1px #000;
+  line-height: 20px;
+  position: absolute;
+  right: 5px;
+  text-align: center;
+  font-size: .7em;
+  padding: 0px 5px 0px 5px;
 }
 
 .deal-one-free {}
