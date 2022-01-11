@@ -2,6 +2,7 @@ function Product(props) {
   if(props.item['shop'] === 'AH') {
     return (
       <div className="flex-item shop-ah">
+        <span className="product-image"><img alt={props.item['product']} src={props.item['image']}/></span>
         <span className="product-name">
           {props.item['product']}
           <span className="product-info"> {props.item['productInfo']}</span>
@@ -15,6 +16,7 @@ function Product(props) {
   else
     return (
       <div className="flex-item shop-jumbo">
+        <span className="product-image"><img alt={props.item['product']} src={props.item['image']}/></span>
         <span className="product-name">
           {props.item['product']}
           <span className="product-info"> {props.item['productInfo']}</span>
