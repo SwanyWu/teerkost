@@ -1,11 +1,16 @@
 import albertheijn
 import jumbo
+import json
 import shutil
 
 
 if __name__ == "__main__":
-    albertheijn
-    jumbo
+    jumboOffers = jumbo.returnOffers()
+    ahOffers = albertheijn.returnOffers()
 
-    shutil.move('offer-ah.json', 'kortings-app/src/offer-ah.json')
-    shutil.move('offer-jumbo.json', 'kortings-app/src/offer-jumbo.json')
+    allOffers = jumboOffers + ahOffers
+
+    with open('offers.json', 'a+', encoding='utf-8') as f:
+            json.dump(allOffers, f, indent=4,ensure_ascii = False)
+
+    shutil.move('offers.json', 'kortings-app/src/offers.json')
