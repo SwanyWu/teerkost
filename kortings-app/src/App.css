@@ -43,13 +43,15 @@ body, html {
 }
 
 .shop-ah {
-  background: #FFF;
+  background: #E0EEFF;
+  color: #0c237b;
   box-shadow: 0px 0px 0px 1px #000;
 }
 
 .shop-jumbo {
-  background: lightyellow;
-  color: darkgoldenrod;
+  background: #fafad8;
+  color: #8f6705;
+  box-shadow: 0px 0px 0px 1px #8f6705;
 }
 
 .product-name { 
