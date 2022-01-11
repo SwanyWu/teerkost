@@ -14,7 +14,7 @@ def returnOffers():
     collection = []
 
     for i in data['collection']:
-        offer = {"product":"", "productInfo":"", "deal":"", "price": 0, "dateStart":"", "dateEnd":"", "link": "", "shop":""}
+        offer = {"product":"", "productInfo":"", "image":"", "deal":"", "price": 0, "dateStart":"", "dateEnd":"", "link": "", "shop":""}
         offer.update({"product": i['title']})
         offer.update({"productInfo": i['description']})
         offer.update({"shop": SHOP})
@@ -25,6 +25,8 @@ def returnOffers():
             shield = i['shields'][0]['text']
             toString = " ".join(str(x) for x in shield)
             offer.update({"deal": toString })
+
+        offer.update({"image": i['image']['src']})
 
         href = i['href']
         weekNumber = href.split("week=")[-1]

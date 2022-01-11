@@ -18,7 +18,7 @@ def returnOffers():
     collection = []
 
     for i in data['sections'][0]['current']['promotions']:
-        offer = {"product":"", "productInfo":"", "deal":"", "price": 0, "dateStart":"", "dateEnd":"", "link": "", "shop":""}
+        offer = {"product":"", "productInfo":"", "image":"", "deal":"", "price": 0, "dateStart":"", "dateEnd":"", "link": "", "shop":""}
         
         offer.update({"product": i['name']})
         offer.update({"productInfo": i['summary']})
@@ -27,6 +27,7 @@ def returnOffers():
         #     offer.update({"price": i['price']['now']})
         
         offer.update({"deal": i['tag']})
+        offer.update({"image": i['promotionImage']['main']})
 
         now = datetime.datetime.now()
 
