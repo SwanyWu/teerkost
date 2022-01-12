@@ -7,6 +7,7 @@ function Product(props) {
           {props.item['product']}
           <span className="product-info"> {props.item['productInfo']}</span>
         </span>
+        <span className='product-date-end'>{props.item['dateEnd']}</span>
         <span className="product-price">{props.item['price']}</span>   
         <span className="product-deal">{props.item['deal']}</span>
    
@@ -21,6 +22,7 @@ function Product(props) {
           {props.item['product']}
           <span className="product-info"> {props.item['productInfo']}</span>
         </span>
+        <span className='product-date-end'>{props.item['dateEnd']}</span>
         <span className="product-price">{props.item['price']}</span> 
         <span className="product-deal">{props.item['deal']}</span>
      
