@@ -1,7 +1,8 @@
 name: get-latest-offers
 
 on
-  schedule: '0 12 * * *'
+  push:
+    branches: [ master ] # schedule: '0 12 * * *'
 
 jobs:
   build:
