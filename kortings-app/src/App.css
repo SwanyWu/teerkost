@@ -8,6 +8,35 @@ body, html {
   user-select: none;
 }
 
+@font-face {
+  font-family: 'Dongle-Bold';
+  src: local('Dongle-Bold'),url(fonts/Dongle-Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Dongle-Regular';
+  src: local('Dongle-Regular'),url(fonts/Dongle-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Dongle-Light';
+  src: local('Dongle-Light'),url(fonts/Dongle-Light.ttf) format('truetype');
+}
+
+#logo {
+  width: 120px;
+  height: 120px;
+  line-height: 120px;
+  text-align: center;
+  background: #FFF;
+  color: #b25656;
+  position: absolute;
+  top: 0px;
+  font-weight: 800;
+  transform: rotate(10deg);
+  clip-path: polygon(50% 0%, 57.22% 6.71%, 66.23% 2.71%, 70.89% 11.40%, 80.71% 10.54%, 82.29% 20.27%, 91.86% 22.65%, 90.20% 32.37%, 98.47% 37.73%, 93.74% 46.38%, 99.83% 54.13%, 92.55% 60.78%, 95.79% 70.08%, 86.75% 74.01%, 86.79% 83.86%, 76.96% 84.64%, 73.80% 93.97%, 64.25% 91.51%, 58.23% 99.32%, 50% 93.89%, 41.77% 99.32%, 35.75% 91.51%, 26.20% 93.97%, 23.04% 84.64%, 13.21% 83.86%, 13.25% 74.01%, 4.21% 70.08%, 7.45% 60.78%, 0.17% 54.13%, 6.26% 46.38%, 1.53% 37.73%, 9.80% 32.37%, 8.14% 22.65%, 17.71% 20.27%, 19.29% 10.54%, 29.11% 11.40%, 33.77% 2.71%, 42.78% 6.71%);
+}
+
 .filter {
   position: relative;
   z-index: 900;
@@ -17,9 +46,8 @@ body, html {
 
 #filter-dialog {
   display: none;
-  padding: 15px 15px 15px 15px;
-  box-shadow: 0px 5px 5px -5px #652e2e;
-  background: #FFF;
+  padding: 15px 0px 0px 15px;
+  background: #b25656;
 }
 
 .toggle-on {
@@ -27,44 +55,78 @@ body, html {
 }
 
 .filter-offer, .filter-cat, .filter-shop {
-  max-width: 600px;
-  margin: 0px auto;
-  color: #000;
+  margin: 0px 15px 15px 0px;
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.6);
+  padding: 5px 0px 0px 5px;
+  border-radius: 15px;
 }
-.filter-offer span {
+
+.filter-cat span, .filter-shop span, .filter-offer span {
   display: inline-block;
   border-radius: 15px;
-  padding: 5px 10px 5px 10px;
+  padding: 10px 15px 10px 15px;
   margin: 0px 5px 5px 0px;
-  background: #d6d6d6;
-  color: #4b4b4b;
   font-size: .8em;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.filter-cat::before {
+  content: "product";
+  text-transform: uppercase;
+  padding: 5px 15px 5px 5px;
+  font-size: .8em;
+  font-weight: 800;
+  color: #b25656;
+}
+.filter-shop::before {
+  content: "winkel";
+  text-transform: uppercase;
+  padding: 5px 15px 5px 5px;
+  font-size: .8em;
+  font-weight: 800;
+  color: #b25656;
+}
+.filter-offer::before {
+  content: "korting";
+  text-transform: uppercase;
+  padding: 5px 15px 5px 5px;
+  font-size: .8em;
+  font-weight: 800;
+  color: #b25656;
+}
+
+.filter-offer span {
+  background: #ededed;
+  color: #696969;
 }
 
 .filter-cat span {
-  display: inline-block;
-  border-radius: 15px;
-  padding: 5px 10px 5px 10px;
-  margin: 0px 5px 5px 0px;
-  background: #d6d6d6;
-  color: #4b4b4b;
-  font-size: .8em;
+  background: #ededed;
+  color: #696969;
 }
 
 .filter-shop span {
-  display: inline-block;
-  border-radius: 15px;
-  padding: 5px 10px 5px 10px;
-  margin: 0px 5px 5px 0px;
-  background: #d6d6d6;
-  color: #4b4b4b;
-  font-size: .8em;
+  background: #ededed;
+  color: #696969;
+}
+
+#active-shop {
+  background: #FFF !important;
+  color: #000 !important;
+  box-shadow: 0px 0px 0px 2px #000;
+}
+
+#active-offer {
+  background: #FFF !important;
+  color: #000 !important;
+  box-shadow: 0px 0px 0px 2px #000;
 }
 
 .filter-button {
-  background: #FFF;
-  box-shadow: 0px 9px 8px -9px #652e2e;
-  color: #000;
+  background: #b25656;
+  color: #FFF;
   padding: 0px 15px 0px 15px;
   line-height: 45px;
   text-align: center;
@@ -116,7 +178,7 @@ body, html {
   align-self: auto;
   border-radius: 8px;
   overflow: hidden;
-  box-shadow: 0px 3px 10px -5px #652e2e;
+  box-shadow: 3px 3px 0px 0px #b25656;
   margin: 0px 15px 15px 0px;
   width: 200px;
   position: relative;
@@ -138,7 +200,7 @@ body, html {
   overflow: hidden;
   height: 100px;
   text-align: center;
-  margin: 10px;
+  margin: 10px 10px 0px 10px;
   border-radius: 8px;
 }
 .product-image img {
@@ -166,7 +228,6 @@ body, html {
   text-align: center;
   color: #000;
   background: #FFF;
-  font-family: monospace;
 }
 .product-price::before {
   content:"€";
