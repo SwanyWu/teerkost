@@ -21,7 +21,7 @@ jobs:
           pip install requests
           
       - name: execute py script
-        run: python parse_offers
+        run: python3 parse_offers
           
       - name: commit files
         run: |
