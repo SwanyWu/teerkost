@@ -57,7 +57,7 @@ body, html {
 .filter-offer, .filter-cat, .filter-shop {
   margin: 0px 15px 15px 0px;
   display: inline-block;
-  background: rgba(255, 255, 255, 0.6);
+  background: #FFF;
   padding: 5px 0px 0px 5px;
   border-radius: 15px;
 }
@@ -75,7 +75,7 @@ body, html {
 .filter-cat::before {
   content: "product";
   text-transform: uppercase;
-  padding: 5px 15px 5px 5px;
+  padding: 5px 10px 5px 5px;
   font-size: .8em;
   font-weight: 800;
   color: #b25656;
@@ -83,7 +83,7 @@ body, html {
 .filter-shop::before {
   content: "winkel";
   text-transform: uppercase;
-  padding: 5px 15px 5px 5px;
+  padding: 5px 10px 5px 5px;
   font-size: .8em;
   font-weight: 800;
   color: #b25656;
@@ -91,7 +91,7 @@ body, html {
 .filter-offer::before {
   content: "korting";
   text-transform: uppercase;
-  padding: 5px 15px 5px 5px;
+  padding: 5px 10px 5px 5px;
   font-size: .8em;
   font-weight: 800;
   color: #b25656;
@@ -115,13 +115,13 @@ body, html {
 #active-shop {
   background: #FFF !important;
   color: #000 !important;
-  box-shadow: 0px 0px 0px 2px #000;
+  box-shadow: inset 0px 0px 0px 3px #000;
 }
 
 #active-offer {
   background: #FFF !important;
   color: #000 !important;
-  box-shadow: 0px 0px 0px 2px #000;
+  box-shadow: inset 0px 0px 0px 3px #000;
 }
 
 .filter-button {
