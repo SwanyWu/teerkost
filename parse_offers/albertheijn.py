@@ -1,5 +1,5 @@
 import requests
-import datetime
+from datetime import datetime
 
 def returnOffers(): 
     SHOP = "AH"
@@ -29,9 +29,9 @@ def returnOffers():
 
         href = i['href']
         weekNumber = href.split("week=")[-1]
-        now = datetime.datetime.now()
-        startDate = datetime.date.fromisocalendar(now.year, int(weekNumber), 1)
-        endDate = datetime.date.fromisocalendar(now.year, int(weekNumber), 7)
+        now = datetime.now()
+        startDate = datetime.fromisocalendar(now.year, int(weekNumber), 1)
+        endDate = datetime.fromisocalendar(now.year, int(weekNumber), 7)
         offer.update({"dateStart": str(startDate)})
         offer.update({"dateEnd": str(endDate)})
         

@@ -1,5 +1,5 @@
 import requests
-import datetime
+from datetime import datetime
   
 
 def returnOffers():
@@ -28,10 +28,9 @@ def returnOffers():
         offer.update({"deal": i['tag']})
         offer.update({"image": i['promotionImage']['main']})
 
-        now = datetime.datetime.now()
 
-        startDate = datetime.datetime.fromtimestamp(i['fromDate']/1000).strftime('%Y-%m-%d')
-        endDate = datetime.datetime.fromtimestamp(i['toDate']/1000).strftime('%Y-%m-%d')
+        startDate = datetime.fromtimestamp(i['fromDate']/1000).strftime('%Y-%m-%d')
+        endDate = datetime.fromtimestamp(i['toDate']/1000).strftime('%Y-%m-%d')
         offer.update({"dateStart": str(startDate)})
         offer.update({"dateEnd": str(endDate)})
         
