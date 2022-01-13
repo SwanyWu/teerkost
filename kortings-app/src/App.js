@@ -103,9 +103,9 @@ function App() {
             <span onClick={filterOffer} data-offer="2e halve prijs">2e halve prijs</span>
           </div>
           {/* <div className="filter-cat">
-            <span>Bier</span>
-            <span>Wijn</span>
-            <span>Brood</span>
+            <span>🍺</span>
+            <span>🍞</span>
+            <span>🥫</span>
           </div> */}
         </div>
         <div className="filter-button" onClick={expandFilter}>FILTEREN</div>
