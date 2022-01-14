@@ -11,7 +11,7 @@ jobs:
         working-directory: ./kortings-app
         run: |
           npm ci
-          npm run build
+          CI=false npm run build
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4.2.2
