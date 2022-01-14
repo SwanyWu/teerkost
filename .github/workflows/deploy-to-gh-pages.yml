@@ -15,7 +15,6 @@ jobs:
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4.2.2
-        working-directory: ./kortings-app/build
         with:
           branch: gh-pages
-          folder: .
+          folder: ./kortings-app/build
