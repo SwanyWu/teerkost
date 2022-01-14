@@ -202,11 +202,10 @@ body, html {
   text-align: center;
   margin: 10px 10px 0px 10px;
   border-radius: 8px;
+  box-shadow: 0px 2px 0px 0px #00000042;
 }
 .product-image img {
-  width: 150px;
-  height: 150px;
-  transform: scale(2);
+  width: 130px;
 }
 
 .product-name { 
