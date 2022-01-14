@@ -1,6 +1,6 @@
 # Kortings
 
-*Kortings* is an app that shows the current discounts from Albert Heijn and Jumbo supermarkets.
+Kortings collects the current discounts from popular Dutch supermarkets.
 
 ## Running the app
 
