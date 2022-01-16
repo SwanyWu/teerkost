@@ -30,10 +30,13 @@ def returnOffers():
         href = i['href']
         weekNumber = href.split("week=")[-1]
         now = datetime.now()
-        startDate = datetime.fromisocalendar(now.year, int(weekNumber), 1)
-        endDate = datetime.fromisocalendar(now.year, int(weekNumber), 7)
-        offer.update({"dateStart": str(startDate)})
-        offer.update({"dateEnd": str(endDate)})
+        startDate = str(datetime.fromisocalendar(now.year, int(weekNumber), 1))
+        endDateTime = str(datetime.fromisocalendar(now.year, int(weekNumber), 7))
+
+        startDate = endDateTime.split(" ")
+        endDate = endDateTime.split(" ")
+        offer.update({"dateStart": startDate[0]})
+        offer.update({"dateEnd": endDate[0]})
         
         offer.update({"link": "https://ah.nl" + i['href']})
         collection.append(offer)
