@@ -1,3 +1,6 @@
+import Date from './Date';
+import Price from './Price';
+
 function Product(props) {
   if(props.item['shop'] === 'AH') {
     return (
@@ -7,8 +10,8 @@ function Product(props) {
           {props.item['product']}
           <span className="product-info"> {props.item['productInfo']}</span>
         </span>
-        <span className='product-date-end'>{props.item['dateEnd']}</span>
-        <span className="product-price">{props.item['price']}</span>   
+        <Date dateEnd={props.item['dateEnd']} />
+        <Price newPrice={props.item['price']} />
         <span className="product-deal">{props.item['deal']}</span>
       </div>
     )
@@ -21,8 +24,8 @@ function Product(props) {
           {props.item['product']}
           <span className="product-info"> {props.item['productInfo']}</span>
         </span>
-        <span className='product-date-end'>{props.item['dateEnd']}</span>
-        <span className="product-price">{props.item['price']}</span> 
+        <Date dateEnd={props.item['dateEnd']} />
+        <Price newPrice={props.item['price']} />
         <span className="product-deal">{props.item['deal']}</span>
       </div>
     )
