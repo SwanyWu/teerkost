@@ -246,8 +246,9 @@ body, html {
 }
 
 .product-date-end::before {
-  content: "tot ";
+  content: "t/m ";
 }
+
 .product-date-end {
   background: #fff;
   border-radius: 4px;
