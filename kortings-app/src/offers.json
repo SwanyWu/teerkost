@@ -737,6 +737,17 @@
         "shop": "Jumbo"
     },
     {
+        "product": "Jumbo verzorgingsproducten",
+        "productInfo": "Jumbo Elke Dag Shampoo Heren 500ml, Jumbo Glans Shampoo 500ml, Jumbo Cremespoeling Moroccan Argan Oil 500ml, Jumbo Gezicht Nachtcreme 50ml of Jumbo Gezicht Dagcreme 50ml\n2 verpakkingen",
+        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA1/Jumbo%20verzorging.png",
+        "deal": "1+1 gratis",
+        "price": 0,
+        "dateStart": "2022-01-04",
+        "dateEnd": "2022-02-22",
+        "link": "https://jumbo.com/aanbiedingen/sa01_verzorging",
+        "shop": "Jumbo"
+    },
+    {
         "product": "Beckers Oven Snacks",
         "productInfo": "Alle oven snacks",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA1/Beckers.png",
@@ -1199,7 +1210,7 @@
         "shop": "AH"
     },
     {
-        "product": "Heineken, Brand, Apple Bandid, Affligem en Desperados - bij 3 stuks gratis bezorging",
+        "product": "Heineken, Brand, Apple Bandit, Affligem en Desperados - bij 3 stuks gratis bezorging",
         "productInfo": "hele week",
         "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD515000?rendition=200px&fileType=binary",
         "deal": "gratis bezorging bij 3 stuks",
@@ -1564,7 +1575,7 @@
     {
         "product": "AH Excellent vleeswaren",
         "productInfo": "Bijv. Spianata romana - Per stuk",
-        "image": "https://static.ah.nl/static/product/AHI_43545239373737313836_1_200x200_JPG.JPG",
+        "image": "https://static.ah.nl/static/product/AHI_43545239373637333334_1_200x200_JPG.JPG",
         "deal": "3 voor 5.00",
         "price": 5,
         "dateStart": "2022-01-23",
@@ -2225,7 +2236,7 @@
         "product": "AH Notencups",
         "productInfo": "Bijv. AH Geroosterde amandelen - Bakje 190 gram",
         "image": "https://static.ah.nl/static/product/AHI_43545239383331303135_1_200x200_JPG.JPG",
-        "deal": "€0.50 korting",
+        "deal": "nu voor 2.99",
         "price": 2.99,
         "dateStart": "2022-01-23",
         "dateEnd": "2022-01-23",
