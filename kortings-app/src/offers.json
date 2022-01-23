@@ -1,5 +1,38 @@
 [
     {
+        "product": "Pampers Baby Dry luiers",
+        "productInfo": "M.u.v. maxi en giga packs\n2 verpakkingen",
+        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/EG%20schap%202022/Week%201/Pampers.png",
+        "deal": "2e halve prijs",
+        "price": 0,
+        "dateStart": "2022-01-05",
+        "dateEnd": "2022-03-01",
+        "link": "https://jumbo.com/aanbiedingen/2875001-B-1",
+        "shop": "Jumbo"
+    },
+    {
+        "product": "Colgate of Elmex",
+        "productInfo": "Alle soorten\n2 verpakkingen",
+        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Weekaanbiedingen/Week%203/Colgate-Elmex_280px.png",
+        "deal": "1+1 gratis",
+        "price": 0,
+        "dateStart": "2022-01-18",
+        "dateEnd": "2022-02-01",
+        "link": "https://jumbo.com/aanbiedingen/2923030-B-1",
+        "shop": "Jumbo"
+    },
+    {
+        "product": "Zwitsal deo, Axe, Rexona of Dove",
+        "productInfo": "Alle soorten\n2 verpakkingen",
+        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Weekaanbiedingen/Week%203/Zwitsal%20Deo-Axe-Rexona-Dove_280px.png",
+        "deal": "1+1 gratis",
+        "price": 0,
+        "dateStart": "2022-01-18",
+        "dateEnd": "2022-02-01",
+        "link": "https://jumbo.com/aanbiedingen/2923031-B-1",
+        "shop": "Jumbo"
+    },
+    {
         "product": "Tommies paprika of snoeptomaten",
         "productInfo": "Emmer paprika 300 gram of tomaten 500 gram",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Weekaanbiedingen/Week%203/Tommies_280px.png",
@@ -132,17 +165,6 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Pampers Baby Dry luiers",
-        "productInfo": "M.u.v. maxi en giga packs\n2 verpakkingen",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/EG%20schap%202022/Week%201/Pampers.png",
-        "deal": "2e halve prijs",
-        "price": 0,
-        "dateStart": "2022-01-05",
-        "dateEnd": "2022-03-01",
-        "link": "https://jumbo.com/aanbiedingen/2875001-B-1",
-        "shop": "Jumbo"
-    },
-    {
         "product": "Graze",
         "productInfo": "Alle soorten\n104-128 gram",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/EG%20schap%202022/Week%203/Graze.png",
@@ -162,28 +184,6 @@
         "dateStart": "2022-01-18",
         "dateEnd": "2022-01-25",
         "link": "https://jumbo.com/aanbiedingen/2929041-A-1",
-        "shop": "Jumbo"
-    },
-    {
-        "product": "Colgate of Elmex",
-        "productInfo": "Alle soorten\n2 verpakkingen",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Weekaanbiedingen/Week%203/Colgate-Elmex_280px.png",
-        "deal": "1+1 gratis",
-        "price": 0,
-        "dateStart": "2022-01-18",
-        "dateEnd": "2022-02-01",
-        "link": "https://jumbo.com/aanbiedingen/2923030-B-1",
-        "shop": "Jumbo"
-    },
-    {
-        "product": "Zwitsal deo, Axe, Rexona of Dove",
-        "productInfo": "Alle soorten\n2 verpakkingen",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Weekaanbiedingen/Week%203/Zwitsal%20Deo-Axe-Rexona-Dove_280px.png",
-        "deal": "1+1 gratis",
-        "price": 0,
-        "dateStart": "2022-01-18",
-        "dateEnd": "2022-02-01",
-        "link": "https://jumbo.com/aanbiedingen/2923031-B-1",
         "shop": "Jumbo"
     },
     {
@@ -1400,8 +1400,8 @@
         "product": "AH Kiwi groen",
         "productInfo": "Los",
         "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD515403?rendition=200px&fileType=binary",
-        "deal": "nu voor 0.99",
-        "price": 0.99,
+        "deal": "nu voor 2.98",
+        "price": 2.98,
         "dateStart": "2022-01-23",
         "dateEnd": "2022-01-23",
         "link": "https://ah.nl/bonus/groep/426395?week=3",
