@@ -2695,17 +2695,6 @@
         "shop": "AH"
     },
     {
-        "product": "Thule Crossbody tas",
-        "productInfo": "Per stuk",
-        "image": "https://www.ah.nl/zoeken/assets/341efdfa.svg",
-        "deal": "nu voor 29.99",
-        "price": 29.99,
-        "dateStart": "2022-01-30",
-        "dateEnd": "2022-01-30",
-        "link": "https://ah.nl/bonus/groep/444696?week=4",
-        "shop": "AH"
-    },
-    {
         "product": "BK Splendid koekenpannen",
         "productInfo": "Per stuk",
         "image": "https://static.ah.nl/static/product/AHI_43545239383330323930_1_200x200_JPG.JPG",
@@ -2719,7 +2708,7 @@
     {
         "product": "Tefal Jamie Oliver home cook pannen",
         "productInfo": "Per stuk",
-        "image": "https://static.ah.nl/static/product/AHI_43545239383435383832_1_200x200_JPG.JPG",
+        "image": "https://www.ah.nl/zoeken/assets/341efdfa.svg",
         "deal": "50% korting",
         "price": 19.5,
         "dateStart": "2022-01-30",
@@ -2809,7 +2798,7 @@
         "productInfo": "Bijv. Mucho Mas Rood tempranillo - Fles",
         "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD515099?rendition=200px&fileType=binary",
         "deal": "2e halve prijs",
-        "price": 8.97,
+        "price": 9.88,
         "dateStart": "2022-01-30",
         "dateEnd": "2022-01-30",
         "link": "https://ah.nl/bonus/groep/-12660?week=4",
