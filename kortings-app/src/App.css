@@ -64,6 +64,7 @@ body, html {
 
 .filter-cat span, .filter-shop span, .filter-offer span {
   display: inline-block;
+  position: relative;
   border-radius: 15px;
   padding: 10px 15px 10px 15px;
   margin: 0px 5px 5px 0px;
@@ -73,7 +74,7 @@ body, html {
 }
 
 .filter-cat::before {
-  content: "product";
+  content: "categorie";
   text-transform: uppercase;
   padding: 5px 10px 5px 5px;
   font-size: .8em;
@@ -105,6 +106,7 @@ body, html {
 .filter-cat span {
   background: #ededed;
   color: #696969;
+  padding-left: 40px;
 }
 
 .filter-shop span {
@@ -112,13 +114,15 @@ body, html {
   color: #696969;
 }
 
-#active-shop {
-  background: #FFF !important;
-  color: #000 !important;
-  box-shadow: inset 0px 0px 0px 3px #000;
+i.icon {
+  font-style: normal;
+  font-size: 1.8em;
+  position: absolute;
+  top: 1px;
+  left: 5px;
 }
 
-#active-offer {
+#active-offer, #active-shop, #active-category {
   background: #FFF !important;
   color: #000 !important;
   box-shadow: inset 0px 0px 0px 3px #000;

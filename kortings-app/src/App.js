@@ -41,34 +41,48 @@ function App() {
         clickedElement.id = 'active-shop'
       }
     }
+    else if(type === 'category') {
+      var otherElementCategory = document.getElementById('active-category')
+      if(otherElementCategory !== null) { 
+        if(otherElementCategory === clickedElement) {
+          clickedElement.removeAttribute("id")
+        }
+        else {
+          otherElementCategory.removeAttribute("id") 
+          clickedElement.id = 'active-category'
+        }
+      }
+      else {
+        clickedElement.id = 'active-category'
+      }
+    }
   }
 
   const setFilterByActiveElements = () => {
     var activeShop = document.getElementById("active-shop");
     var activeOffer = document.getElementById("active-offer");
+    var activeCategory = document.getElementById("active-category");
 
-    if(activeShop !== null && activeOffer === null) {
+    var shopFilter = object => object.shop !== null;
+    var offerFilter = object => object.deal !== null;
+    var categoryFilter = object => object.category !== null;
+
+    if(activeShop !== null) { 
       var activeShopValue = activeShop.getAttribute('data-shop');
-      var filtered = Offers.filter(object => object.shop === activeShopValue)
+      shopFilter = object => object.shop === activeShopValue;
     }
-    else if(activeShop === null && activeOffer !== null) {
+    if(activeOffer !== null) {
       var activeOfferValue = activeOffer.getAttribute('data-offer');
-      var filtered = Offers.filter(object => object.deal === activeOfferValue)
+      offerFilter = object => object.deal === activeOfferValue;
     }
-    else if(activeShop !== null && activeOffer !== null){
-      var activeShopValue = activeShop.getAttribute('data-shop');
-      var activeOfferValue = activeOffer.getAttribute('data-offer');
-      var filtered = Offers.filter(object => object.deal === activeOfferValue && object.shop === activeShopValue)
-    }
-    else {
-      var filtered = Offers
+    if(activeCategory !== null) {
+      var activeCategoryValue = activeCategory.getAttribute('data-category');
+      categoryFilter = object => object.category === activeCategoryValue;
     }
 
+    var filtered = Offers.filter(shopFilter).filter(offerFilter).filter(categoryFilter)
+    
     setSelectedOffers(filtered);
-
-    console.log("Shop filter '" + activeShopValue + "' gebruiken")
-    console.log("Offer filter '" + activeOfferValue + "' gebruiken")
-
   }
 
   const filterOffer = (e) => {
@@ -78,6 +92,11 @@ function App() {
 
   const filterShop = (e) => {
     toggleFilterClass(e.target, "shop")
+    setFilterByActiveElements()
+  }
+
+  const filterCategory = (e) => {
+    toggleFilterClass(e.target, "category")
     setFilterByActiveElements()
   }
 
@@ -102,11 +121,11 @@ function App() {
             <span onClick={filterOffer} data-offer="50% korting">50% korting</span>
             <span onClick={filterOffer} data-offer="2e halve prijs">2e halve prijs</span>
           </div>
-          {/* <div className="filter-cat">
-            <span>🍺</span>
-            <span>🍞</span>
-            <span>🥫</span>
-          </div> */}
+          <div className="filter-cat">
+            <span onClick={filterCategory} data-category="bier"><i onClick={(e) => e.stopPropagation()} className="icon">🍺</i> Bier</span>
+            <span onClick={filterCategory} data-category="koffie"><i onClick={(e) => e.stopPropagation()} className="icon">☕</i> Koffie</span>
+            <span onClick={filterCategory} data-category="groente"><i onClick={(e) => e.stopPropagation()} className="icon">🥬</i> Groente</span>
+          </div>
         </div>
         <div className="filter-button" onClick={expandFilter}>FILTEREN</div>
       </div>
