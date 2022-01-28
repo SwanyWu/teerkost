@@ -12,6 +12,10 @@ jobs:
       - name: checkout repo content
         uses: actions/checkout@v2
 
+      - name: pull unrelated histories
+        run: |
+          git pull --allow-unrelated-histories
+
       - name: setup python
         uses: actions/setup-python@v2
         with:
