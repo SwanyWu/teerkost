@@ -1,0 +1,27 @@
+[
+    {
+        "name": "bier",
+        "keywords": [
+            "bier", "bieren", "pils", "Heineken", "Radler", "Speciaalbieren", "Grolsch", "Amstel",
+            "Hertog Jan", "Warsteiner", "Jupiler"
+        ]
+    },
+    {
+        "name": "koffie",
+        "keywords": [
+            "koffie", "koffiebonen", "snelfiltermaling", "koffiepads", "koffiecapsules", "Douwe Egberts"
+        ]
+    },
+    {
+        "name": "groente",
+        "keywords": [
+            "brocolli", "bloemkool", "winterpeen", "wortel", "prei", "andijvie", "boerenkool", "spinazie",
+            "tomaten", "paprika", "avocado", "groenten", "groente", "witlof", "stamppotgroenten", "roerbakgroente",
+            "komkommer", "courgette", "aubergine", "spruitjes", "worteltjes", "champignons", "puntpaprika",
+            "salade ui", "uien", "rucola", "sperziebonen", "ijsbergsla", "knoflook", "romaatje", "trostomaten",
+            "hutspot", "zuurkool", "snijbonen", "bleekselderij", "knolselderij", "wokgroenten", "bieten", "maïs", "pastinaak",
+            "haricots verts", "aardappelen", "sjalotten", "babyspinazie", "kropsla", "bonen", "radijs", "spitskool",
+            "paksoi"
+        ]
+    }
+]

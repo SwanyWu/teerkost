@@ -1,5 +1,6 @@
 import requests
 from datetime import datetime
+import categorize
   
 
 def returnOffers():
@@ -17,10 +18,14 @@ def returnOffers():
     collection = []
 
     for i in data['sections'][0]['current']['promotions']:
-        offer = {"product":"", "productInfo":"", "image":"", "deal":"", "price": 0, "dateStart":"", "dateEnd":"", "link": "", "shop":""}
+        offer = {"product":"", "productInfo":"", "category":"", "image":"", "deal":"", "price": 0, "dateStart":"", "dateEnd":"", "link": "", "shop":""}
         
         offer.update({"product": i['name']})
         offer.update({"productInfo": i['summary']})
+
+        category = categorize.findCategoryForProduct(i['name'], i['summary'])
+        offer.update({"category": category})
+
         offer.update({"shop": SHOP})
         # if('price' in i):
         #     offer.update({"price": i['price']['now']})
