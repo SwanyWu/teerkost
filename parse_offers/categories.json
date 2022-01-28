@@ -3,7 +3,7 @@
         "name": "bier",
         "keywords": [
             "bier", "bieren", "pils", "Heineken", "Radler", "Speciaalbieren", "Grolsch", "Amstel",
-            "Hertog Jan", "Warsteiner", "Jupiler"
+            "Hertog Jan", "Warsteiner", "Jupiler", "Weizen", "ipa"
         ]
     },
     {
@@ -22,6 +22,12 @@
             "hutspot", "zuurkool", "snijbonen", "bleekselderij", "knolselderij", "wokgroenten", "bieten", "maïs", "pastinaak",
             "haricots verts", "aardappelen", "sjalotten", "babyspinazie", "kropsla", "bonen", "radijs", "spitskool",
             "paksoi"
+        ]
+    },
+    {
+        "name": "vis",
+        "keywords": [
+            "kabeljauw", "pangasius", "zalm", "makreel", "makreelflakes", "haring", "tonijn", "tonno"
         ]
     }
 ]
