@@ -8,7 +8,7 @@ function Date(props) {
     var month = allMonths[datestamp[1]-1]
 
     return (
-          <span className="product-date-end">{" " + day + " " + month}</span>
+          <span className="product-date-end">{" " + parseInt(day, 10) + " " + month}</span>
     )
         
 }
