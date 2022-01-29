@@ -535,7 +535,7 @@
         "deal": "3 voor € 8,00",
         "price": 0,
         "dateStart": "2022-02-01",
-        "dateEnd": "2022-03-01",
+        "dateEnd": "2022-02-08",
         "link": "https://jumbo.com/aanbiedingen/9215048-C-1",
         "shop": "Jumbo"
     },
@@ -555,12 +555,12 @@
         "product": "Kies & Mix fruit",
         "productInfo": "Perssinaasappelen net 1,5 kg, rode druiven rood bak 500 gram, blauwe bessen bak 125 gram, frambozen bak 125 gram of mango per stuk",
         "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA2/KM%20fruit.png",
+        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA2/KM%20fruit%20nieuw.png",
         "deal": "3 voor € 4,99",
         "price": 0,
         "dateStart": "2022-02-01",
         "dateEnd": "2022-03-01",
-        "link": "https://jumbo.com/aanbiedingen/9215027-C-1",
+        "link": "https://jumbo.com/aanbiedingen/9215051-C-1",
         "shop": "Jumbo"
     },
     {
@@ -985,7 +985,7 @@
     },
     {
         "product": "HAK appelmoes of Groenten in pot of stazak",
-        "productInfo": "3 potten à 710 ml of stazakken",
+        "productInfo": "3 potten of stazakken",
         "category": "",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA2/HAK_280px.png",
         "deal": "2+1 gratis",
@@ -1021,7 +1021,7 @@
     },
     {
         "product": "Jumbo verse maaltijd of ovenmaaltijd",
-        "productInfo": "2 schalen à 450 gram",
+        "productInfo": "2 schalen à 350-450 gram",
         "category": "",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA2/Jumbo%20Verse%20Maaltijd-Ovenmaaltijd_280px.png",
         "deal": "2 voor € 8,00",
@@ -1189,7 +1189,7 @@
     },
     {
         "product": "Jumbo keukenpapier",
-        "productInfo": "2 pakken à 4 rollen of à 1 Maxi rol",
+        "productInfo": "2 pakken à 4 rollen of 1 Maxi rol",
         "category": "",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA2/Jumbo%20Keukenpapier_280px.png",
         "deal": "2 voor € 3,50",
