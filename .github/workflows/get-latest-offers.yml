@@ -34,6 +34,7 @@ jobs:
         run: python3 parse_offers
           
       - name: commit files
+        continue-on-error: true
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
