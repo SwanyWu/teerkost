@@ -50,10 +50,25 @@ body, html {
   padding: 15px 0px 45px 15px;
   position: fixed;
   bottom: 0px;
+  margin: 5px;
+  border-radius: 8px;
+  overflow-y: scroll;
+}
+
+@media screen and (max-width: 600px) {
+  #filter-dialog {
+    height: 250px;
+  }
 }
 
 .toggle-on {
   display: block !important;
+  animation: popUpDialog 200ms;
+}
+
+@keyframes popUpDialog {
+  0% { bottom: -100%;}
+  100% { bottom: 0px;}  
 }
 
 .filter-offer, .filter-cat, .filter-shop {
@@ -62,6 +77,7 @@ body, html {
   background: #FFF;
   padding: 5px 0px 0px 5px;
   border-radius: 15px;
+  box-shadow: 2px 2px 0px 0px #0000003d;
 }
 
 .filter-cat span, .filter-shop span, .filter-offer span {
@@ -157,16 +173,26 @@ i.icon {
 
 .filter-button {
   background: #FFF;
-  color: #000;
+  color: #b25656;
   padding: 0px 15px 0px 15px;
   line-height: 45px;
+  font-weight: 800;
   text-align: center;
   cursor:pointer;
   position: fixed;
   bottom: 0px;
   right: 0px;
   z-index: 900;
-  margin: 0px auto;
+  margin: 0px 10px 10px 0px;
+  border-radius: 8px;
+  animation: popUp 4s;
+  box-shadow: 2px 2px 0px 0px #00000075, 0px 0px 20px -15px #000;
+}
+
+@keyframes popUp {
+  0% { bottom: -100px;}
+  75% { bottom: -100px;}
+  100% { bottom: 0px;}
 }
 
 .info  {
