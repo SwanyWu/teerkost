@@ -115,7 +115,7 @@ function App() {
             <div className="filter-shop">
               <span onClick={filterShop} data-shop="AH">Albert Heijn</span>
               <span onClick={filterShop} data-shop="Jumbo">Jumbo</span>
-              {/* <span onClick={filterShop} data-shop="Lidl">Lidl</span> */}
+              <span onClick={filterShop} data-shop="Lidl">Lidl</span>
             </div>
             <div className="filter-offer">
               <span onClick={filterOffer} data-offer="1+1 gratis">1+1 gratis</span>
