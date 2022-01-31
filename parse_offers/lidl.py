@@ -17,58 +17,91 @@ def returnOffers():
     for item in soup.find_all("li", {"class": "ACampaignGrid__item"}):
         offer = {"product":"", "productInfo":"", "category":"", "image":"", "deal":"", "price": 0, "dateStart":"", "dateEnd":"", "link": "", "shop":""}
 
+        title = ""
+        description = ""
+        date = ""
+        price = ""
+        oldPrice = ""
+        priceLabel = ""
+        priceLowerLabel = ""
+        priceLabelOnImage = ""
+        imageUrl = ""
+        link = ""
+
         titleElement = item.find("h2", {"class":"product-grid-box__title"})
         if titleElement != None:
-            title = titleElement.get_text()
-            title.strip()
-        else:
-            title = ""
+            title = titleElement.get_text().strip()  
 
         descrElement = item.find("div", {"class":"product-grid-box__desc"})
         if descrElement != None:
-            description = descrElement.get_text()
-            description.strip()
-        else:
-            description = ""
+            description = descrElement.get_text().strip()
         
         dateElement = item.find("p", {"class":"image-ribbons__ribbon--blue"})
         if dateElement != None:
-            date = dateElement.get_text()
-        else:
-            date = ""
+            date = dateElement.get_text().strip()
 
         priceElement = item.find("div", {"class":"m-price__price--small"})
         if priceElement != None:
-            price = priceElement.get_text()
-        else:
-            price = ""
+            price = priceElement.get_text().strip()
+
+        oldPriceElement = item.find("span", {"class":"m-price__rrp"})
+        if oldPriceElement != None:
+            oldPrice = oldPriceElement.get_text().strip()
 
         priceLabelElement = item.find("div", {"class":"m-price__label"})
         if priceLabelElement != None:
-            priceLabel = priceLabelElement.get_text()
+            priceLabel = priceLabelElement.get_text().lower().strip()
+
+        priceLowerLabelElement = item.find("div", {"class":"m-price__base--labelled"})
+        if priceLowerLabelElement != None:
+            priceLowerLabel = priceLowerLabelElement.get_text().lower().strip()
+
+        imageLabelElement = item.find("p", {"class":"image-labels__label--red"})
+        if imageLabelElement != None:
+            priceLabelOnImage = imageLabelElement.get_text().lower().strip()
+
+        imageElement = item.find("img", {"class":"product-grid-box__image"})
+        if imageElement != None:
+            imageUrl = imageElement['src']
+
+        linkElement = item.find("a", {"class":"product-grid-box"})
+        if linkElement != None:
+            link = linkElement['href']
+
+        # collect and concat product information to put in the productInfo
+        if description != "":
+            concatDescription = description
         else:
-            priceLabel = ""
+            concatDescription = ""
+        if priceLowerLabel != "":
+            concatDescription = concatDescription + " " + priceLowerLabel
 
-        # TODO creating collection: add product image
-        # TODO creating collection: parse start and end date
-        # TODO creating collection: add offer info
-        # TODO add product url
+        # find information about the discount and add it to field "deal"
+        if (priceLabel.find("gratis") != -1) or (priceLabel.find("korting") != -1):
+            offer.update({"deal": priceLabel}) # most often contains the discount info
+        else:
+            if priceLabelOnImage != "":
+                offer.update({"deal": priceLabelOnImage}) # sometimes contains the discount
+            elif oldPrice != "" and price != "":
+                oldPrice = oldPrice.replace(".-", "")
+                price = price.replace(".-", "")
+                calculateDeal = int((1 - (float(price)/float(oldPrice))) * 100)
+                offer.update({"deal": str(calculateDeal) + "% korting"}) # no discount info, then calculate the discount
 
-
-        offer.update({"product": title })
-        offer.update({"productInfo": description + ". " + priceLabel})
+            concatDescription = concatDescription + " " + priceLabel # add pricelabel contents to the description
+            
+        offer.update({"productInfo": concatDescription.strip()})
 
         category = categorize.findCategoryForProduct(title, description)
         offer.update({"category": category})
-
+        offer.update({"product": title })
         offer.update({"shop": SHOP})
-        # offer.update({"deal": i['tag']})
-        # offer.update({"image": image})
+        offer.update({"price": price})
+        offer.update({"image": imageUrl})
+        offer.update({"link": "https://www.lidl.nl" + link})
+
         # offer.update({"dateStart": str(startDate)})
         # offer.update({"dateEnd": str(endDate)})
-        # offer.update({"link": "https://jumbo.com/aanbiedingen/" + i['id']})
-
-        print(title + " - " + price + " - " + date)
 
         collection.append(offer)
 
