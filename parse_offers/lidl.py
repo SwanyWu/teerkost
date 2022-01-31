@@ -10,6 +10,7 @@ def returnOffers():
 
     r = requests.get(URL)
     soup = BeautifulSoup(r.content)
+    # FIXME add features="lxml"
 
     collection = []
 
@@ -19,12 +20,14 @@ def returnOffers():
         titleElement = item.find("h2", {"class":"product-grid-box__title"})
         if titleElement != None:
             title = titleElement.get_text()
+            title.strip()
         else:
             title = ""
 
         descrElement = item.find("div", {"class":"product-grid-box__desc"})
         if descrElement != None:
             description = descrElement.get_text()
+            description.strip()
         else:
             description = ""
         
