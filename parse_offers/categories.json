@@ -21,7 +21,7 @@
             "prei", "andijvie", "boerenkool", "spinazie",
             "tomaten", "paprika", "avocado", "groenten", "groente", "witlof", "stamppotgroenten", "roerbakgroente", "kool",
             "komkommer", "courgette", "aubergine", "spruitjes", "worteltjes", "champignons", "puntpaprika",
-            "salade ui", "bosui", "uien", "rucola", "rucolamelange", "sperziebonen", "ijsbergsla", "knoflook", "romaatje", "trostomaten",
+            "salade ui", "bosui", "uien", "rucola", "rucolamelange", "sperziebonen", "ijsbergsla", "romaatje", "trostomaten",
             "hutspot", "zuurkool", "snijbonen", "bleekselderij", "knolselderij", "wokgroenten", "bieten", "maïs", "pastinaak",
             "haricots verts", "aardappelen", "sjalotten", "babyspinazie", "kropsla", "bonen", "radijs", "spitskool",
             "paksoi"
@@ -42,9 +42,9 @@
     {
         "name": "kant-en-klaar",
         "keywords": [
-            "maaltijd", "lunchsalade", "maaltijden", "soep", "soepen", "ovenmaaltijd", "maaltijdcomponenten",
+            "maaltijd", "lunchsalade", "maaltijden", "soep", "pureersoep", "soepen", "ovenmaaltijd", "maaltijdcomponenten",
             "fruitsalades", "fruitsalade", "maaltijdsalade", "maaltijdsalades", "3-vaksmaaltijden", "3-vaksmaaltijd",
-            "ovenschotels", "ovenschotel"
+            "ovenschotels", "ovenschotel", "quiche"
         ]
     }
 ]
