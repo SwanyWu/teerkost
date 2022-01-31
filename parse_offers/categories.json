@@ -4,7 +4,7 @@
         "keywords": [
             "bier", "bieren", "biermerken", "speciaalbier", "pils", "Heineken", "Radler", "speciaalbieren", 
             "Grolsch", "Amstel", "Bavaria", "Affligem", "Trappe", "Brand", "Dors", "Veltins","Dommelsch", "Alfa",
-            "Gulpener",
+            "Gulpener", "Westmalle",
             "Leffe", "Corona", "Warsteiner", "Jupiler", "Weizen", "ipa", "Chouffe", "Jopen", "Afflichem"
         ]
     },
@@ -17,7 +17,7 @@
     {
         "name": "groente",
         "keywords": [
-            "brocolli", "brocolliroosjes", "bloemkool", "bloemkoolroosjes", "spruiten", "winterpeen", "wortel", "wortels", 
+            "broccoli", "broccoliroosjes", "bloemkool", "bloemkoolroosjes", "spruiten", "winterpeen", "bospeen", "wortel", "wortels", 
             "prei", "andijvie", "boerenkool", "spinazie",
             "tomaten", "paprika", "avocado", "groenten", "groente", "witlof", "stamppotgroenten", "roerbakgroente", "kool",
             "komkommer", "courgette", "aubergine", "spruitjes", "worteltjes", "champignons", "puntpaprika",
