@@ -2,9 +2,9 @@ function Price(props) {
 
     const price = props.newPrice;
 
-    if(price !== 0) {
+    if(price !== 0 && price !== "0" && price !== "") {
         return (
-            <span className="product-price">{props.newPrice}</span> 
+            <span className="product-price">{price}</span> 
         )
     }
     else {
