@@ -8,12 +8,9 @@ def findCategoryForProduct(title, description):
         data=jsonFile.read()
 
     categories = json.loads(data)
-
-    title.lower()
-    description.lower()
     
-    wordsList = title.split(' ')
-    descriptionWordList = description.split(' ')
+    wordsList = title.lower().replace(',', '').split(' ')
+    descriptionWordList = description.lower().replace(',', '').split(' ')
     wordsList.extend(descriptionWordList)
 
     foundCategory = ""
