@@ -62,6 +62,7 @@ function App() {
     var activeShop = document.getElementById("active-shop");
     var activeOffer = document.getElementById("active-offer");
     var activeCategory = document.getElementById("active-category");
+    // var activeSearchString = document.getElementById("search").value;
 
     var shopFilter = object => object.shop !== null;
     var offerFilter = object => object.deal !== null;
@@ -100,39 +101,45 @@ function App() {
     setFilterByActiveElements()
   }
 
+  // const searchProducts = (e) => {
+  //   setFilterByActiveElements()
+  // }
+
   const [selectedOffers, setSelectedOffers] = useState(Offers);  
 
   return (
     <div className="App">
       <div className="filter">
-        <div id="filter-dialog">  
-        <div className="filter-shop">
-            <span onClick={filterShop} data-shop="AH">Albert Heijn</span>
-            <span onClick={filterShop} data-shop="Jumbo">Jumbo</span>
-          </div>
-          <div className="filter-offer">
-            <span onClick={filterOffer} data-offer="1+1 gratis">1+1 gratis</span>
-            <span onClick={filterOffer} data-offer="2+1 gratis">2+1 gratis</span>
-            <span onClick={filterOffer} data-offer="3+1 gratis">3+1 gratis</span>
-            <span onClick={filterOffer} data-offer="10% korting">10% korting</span>
-            <span onClick={filterOffer} data-offer="25% korting">25% korting</span>
-            <span onClick={filterOffer} data-offer="30% korting">30% korting</span>
-            <span onClick={filterOffer} data-offer="40% korting">40% korting</span>
-            <span onClick={filterOffer} data-offer="50% korting">50% korting</span>
-            <span onClick={filterOffer} data-offer="2e halve prijs">2e halve prijs</span>
-          </div>
-          <div className="filter-cat">
-            <span onClick={filterCategory} data-category="bier"><i onClick={(e) => e.stopPropagation()} className="icon">🍺</i> Bier</span>
-            <span onClick={filterCategory} data-category="koffie"><i onClick={(e) => e.stopPropagation()} className="icon">☕</i> Koffie</span>
-            <span onClick={filterCategory} data-category="groente"><i onClick={(e) => e.stopPropagation()} className="icon">🥬</i> Groente</span>
-            <span onClick={filterCategory} data-category="vis"><i onClick={(e) => e.stopPropagation()} className="icon">🐟</i> Vis</span>
+        <div id="filter-dialog">
+          <div className="filter-wrap">
+            <div className="filter-shop">
+              <span onClick={filterShop} data-shop="AH">Albert Heijn</span>
+              <span onClick={filterShop} data-shop="Jumbo">Jumbo</span>
+              {/* <span onClick={filterShop} data-shop="Lidl">Lidl</span> */}
+            </div>
+            <div className="filter-offer">
+              <span onClick={filterOffer} data-offer="1+1 gratis">1+1 gratis</span>
+              <span onClick={filterOffer} data-offer="2+1 gratis">2+1 gratis</span>
+              <span onClick={filterOffer} data-offer="3+1 gratis">3+1 gratis</span>
+              <span onClick={filterOffer} data-offer="10% korting">10% korting</span>
+              <span onClick={filterOffer} data-offer="25% korting">25% korting</span>
+              <span onClick={filterOffer} data-offer="30% korting">30% korting</span>
+              <span onClick={filterOffer} data-offer="40% korting">40% korting</span>
+              <span onClick={filterOffer} data-offer="50% korting">50% korting</span>
+              <span onClick={filterOffer} data-offer="2e halve prijs">2e halve prijs</span>
+            </div>
+            <div className="filter-cat">
+              <span onClick={filterCategory} data-category="bier"><i onClick={(e) => e.stopPropagation()} className="icon">🍺</i> Bier</span>
+              <span onClick={filterCategory} data-category="koffie"><i onClick={(e) => e.stopPropagation()} className="icon">☕</i> Koffie</span>
+              <span onClick={filterCategory} data-category="groente"><i onClick={(e) => e.stopPropagation()} className="icon">🥬</i> Groente</span>
+              <span onClick={filterCategory} data-category="vis"><i onClick={(e) => e.stopPropagation()} className="icon">🐟</i> Vis</span>
               <span onClick={filterCategory} data-category="kant-en-klaar"><i onClick={(e) => e.stopPropagation()} className="icon">🍲</i> Kant-en-klaar</span>
             </div>
+            {/* <div className="filter-search"><input id="search" onKeyPress={searchProducts} placeholder="..." type="text"/></div> */}
           </div>
         </div>
-        <div className="filter-button" onClick={expandFilter}>FILTEREN</div>
+        <div className="filter-button" onClick={expandFilter}>FILTER</div>
       </div>
-      {/* <div id="logo">KORTINGS</div> */}
       <div className="flex-container">
       {selectedOffers.map(function(name, index){
         return <Product key={index} item={name}/>;
