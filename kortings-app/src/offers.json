@@ -2,7 +2,7 @@
     {
         "product": "Hertog Jan, La Trappe, Westmalle, Bird Brewery, Brothers in Law of Grimbergen",
         "productInfo": "Diverse soorten",
-        "category": "",
+        "category": "bier",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Weekaanbiedingen/Week%205/Bier-31-1-22.png",
         "deal": "20% korting",
         "price": 0,
@@ -110,7 +110,7 @@
     {
         "product": "Broccoli",
         "productInfo": "Per stuk",
-        "category": "",
+        "category": "groente",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Weekaanbiedingen/Week%204/Broccoli_280px.png",
         "deal": "1 voor € 0,99",
         "price": 0,
@@ -326,7 +326,7 @@
     {
         "product": "Hertog Jan, Bud, Jupiler, Leffe en Corona",
         "productInfo": "Bij aankoop van € 14,00 aan deelnemende artikelen betaal je geen bestelkosten",
-        "category": "",
+        "category": "bier",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Geen%20bestelkosten/week%205/GBK-week-5-Packshot-1.png",
         "deal": "Geen bestelkosten",
         "price": 0,
@@ -1298,7 +1298,7 @@
     {
         "product": "Heineken tray",
         "productInfo": "24 x 33 cl",
-        "category": "",
+        "category": "bier",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA1/Heineken%20online%20only.png",
         "deal": "1 voor € 17,99 ",
         "price": 0,
@@ -1838,7 +1838,7 @@
     {
         "product": "Bud, Hertog Jan en Leffe - bij 3 stuks gratis bezorging",
         "productInfo": "hele week",
-        "category": "",
+        "category": "bier",
         "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD518410?rendition=200px&fileType=binary",
         "deal": "gratis bezorging bij 3 stuks",
         "price": 0,
@@ -1922,7 +1922,7 @@
     {
         "product": "AH Bospeen",
         "productInfo": "Per bos",
-        "category": "",
+        "category": "groente",
         "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD519101?rendition=200px&fileType=binary",
         "deal": "nu voor 1.19",
         "price": 1.19,
@@ -3350,7 +3350,7 @@
     {
         "product": "Heineken, Brand of Birra Moretti krat",
         "productInfo": "Bijv. Heineken pilsener - Krat 24 flesjes à 0.3 lt",
-        "category": "",
+        "category": "bier",
         "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD519055?rendition=200px&fileType=binary",
         "deal": "25% korting",
         "price": 13.27,
@@ -3386,7 +3386,7 @@
     {
         "product": "Affligem 0.0% 6-packs",
         "productInfo": "Alle varianten\r",
-        "category": "",
+        "category": "bier",
         "image": "https://static.ah.nl/static/product/AHI_43545239373838353235_2_200x200_JPG.JPG",
         "deal": "25% korting",
         "price": 4.49,
@@ -3410,7 +3410,7 @@
     {
         "product": "Affligem 6-packs",
         "productInfo": "Alle varianten\r",
-        "category": "",
+        "category": "bier",
         "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD519058?rendition=200px&fileType=binary",
         "deal": "nu voor 6.19",
         "price": 6.19,
