@@ -30,13 +30,21 @@
     {
         "name": "vis",
         "keywords": [
-            "scholfilet","schol", "heek", "surimi","gravad","kabeljauw", "gamba's", "dorade", "doradefilets", 
+            "vissticks","scholfilet","schol", "heek", "surimi","gravad","kabeljauw", "gamba's", "dorade", "doradefilets", 
             "doradefilet", "kabeljauwfilet","kabeljauwfilets", "kabeljauwhaas","kibbeling", "lekkerbek",
             "pangasius", "pangasiusfilet", "zalm", "zalmfilet", "zalmfilets", "ovenzalm", "zalmstaarten", 
             "makreel", "makreelflakes", "makreelzijde", "rivierkreeftenvlees", "mosselen",
             "haring", "braadharing","haringpartjes", "rolmops", "haringsalade","garnalen", "roerbakgarnalen",
             "forelfilets","forelfilet", "sliptong", "bakkeljauw", "oesters", "visschnitzels", "visschnitzel",
             "tonijnfilet", "tonijnsteak","tonijn", "tonno"
+        ]
+    },
+    {
+        "name": "kant-en-klaar",
+        "keywords": [
+            "maaltijd", "lunchsalade", "maaltijden", "soep", "soepen", "ovenmaaltijd", "maaltijdcomponenten",
+            "fruitsalades", "fruitsalade", "maaltijdsalade", "maaltijdsalades", "3-vaksmaaltijden", "3-vaksmaaltijd",
+            "ovenschotels", "ovenschotel"
         ]
     }
 ]
