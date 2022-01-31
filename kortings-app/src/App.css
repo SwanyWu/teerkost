@@ -222,6 +222,8 @@ i.icon {
   align-items: baseline;
   padding: 15px 0px 0px 15px;
   animation: fadeIn 4s;
+  max-width: 1060px;
+  margin: 0px auto;
 }
 
 @keyframes fadeIn {
@@ -247,6 +249,28 @@ i.icon {
   width: 250px;
   position: relative;
 }
+
+@media screen and (max-width: 810px) {
+  .flex-item {
+    width: 30%;
+  }
+
+  @media screen and (max-width: 670px) {
+    .flex-item {
+      width: calc(50% - 15px);
+    }
+  }
+  @media screen and (max-width: 445px) {
+    .flex-item {
+      width: 100%;
+    }
+
+    .product-deal {
+      padding: 10px 15px 10px 15px !important;
+    }
+  }
+}
+
 
 .shop-ah {
   background: #E0EEFF;
