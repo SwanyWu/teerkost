@@ -1,5 +1,29 @@
 [
     {
+        "product": "Hertog Jan, La Trappe, Westmalle, Bird Brewery, Brothers in Law of Grimbergen",
+        "productInfo": "Diverse soorten",
+        "category": "",
+        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Weekaanbiedingen/Week%205/Bier-31-1-22.png",
+        "deal": "20% korting",
+        "price": 0,
+        "dateStart": "2022-02-08",
+        "dateEnd": "2022-02-15",
+        "link": "https://jumbo.com/aanbiedingen/wa05_bier",
+        "shop": "Jumbo"
+    },
+    {
+        "product": "Pampers Baby Dry luiers",
+        "productInfo": "M.u.v. maxi en giga packs\n2 verpakkingen",
+        "category": "",
+        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/EG%20schap%202022/Week%201/Pampers.png",
+        "deal": "2e halve prijs",
+        "price": 0,
+        "dateStart": "2022-01-05",
+        "dateEnd": "2022-03-01",
+        "link": "https://jumbo.com/aanbiedingen/2875001-B-1",
+        "shop": "Jumbo"
+    },
+    {
         "product": "Jumbo ovengebakken kip- of kalkoenfilet",
         "productInfo": "Van de vleeswaren bedieningsafdeling\n2 verpakkingen circa 110-120 gram",
         "category": "",
@@ -110,7 +134,7 @@
     {
         "product": "Zalmfilet zonder huid",
         "productInfo": "Verpakking 260 gram",
-        "category": "",
+        "category": "vis",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Weekaanbiedingen/Week%204/Zalmfilet_280px.png",
         "deal": "1 voor € 5,00 ",
         "price": 0,
@@ -146,7 +170,7 @@
     {
         "product": "Prei",
         "productInfo": "2 stuks",
-        "category": "",
+        "category": "groente",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Weekaanbiedingen/Week%204/Prei.png",
         "deal": "2 voor € 1,00",
         "price": 0,
@@ -177,18 +201,6 @@
         "dateStart": "2022-01-25",
         "dateEnd": "2022-02-01",
         "link": "https://jumbo.com/aanbiedingen/9155008-B-1",
-        "shop": "Jumbo"
-    },
-    {
-        "product": "Pampers Baby Dry luiers",
-        "productInfo": "M.u.v. maxi en giga packs\n2 verpakkingen",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/EG%20schap%202022/Week%201/Pampers.png",
-        "deal": "2e halve prijs",
-        "price": 0,
-        "dateStart": "2022-01-05",
-        "dateEnd": "2022-03-01",
-        "link": "https://jumbo.com/aanbiedingen/2875001-B-1",
         "shop": "Jumbo"
     },
     {
@@ -494,7 +506,7 @@
     {
         "product": "Welke biermerken zijn bij jouw Jumbo in de aanbieding?",
         "productInfo": "Diverse combinaties",
-        "category": "",
+        "category": "bier",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2021/Bierkratten/Lokale%20bierkratten%201b.png",
         "deal": "2e halve prijs",
         "price": 0,
@@ -506,7 +518,7 @@
     {
         "product": "Aardappelen",
         "productInfo": "Zak 3 kilo",
-        "category": "",
+        "category": "groente",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/Eentje%20extra/Aardappelen_280px.png",
         "deal": "1+1 gratis",
         "price": 0,
@@ -662,7 +674,7 @@
     {
         "product": "Kabeljauw of Pangasius",
         "productInfo": "Alle soorten uit het verse visschap\n2 schalen",
-        "category": "",
+        "category": "vis",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA1/Kabeljauw-Pangasius_280px.png",
         "deal": "2e halve prijs",
         "price": 0,
@@ -986,7 +998,7 @@
     {
         "product": "HAK appelmoes of Groenten in pot of stazak",
         "productInfo": "3 potten of stazakken",
-        "category": "",
+        "category": "groente",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA2/HAK_280px.png",
         "deal": "2+1 gratis",
         "price": 0,
@@ -1286,7 +1298,7 @@
     {
         "product": "Heineken tray",
         "productInfo": "24 x 33 cl",
-        "category": "bier",
+        "category": "",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA1/Heineken%20online%20only.png",
         "deal": "1 voor € 17,99 ",
         "price": 0,
@@ -1730,7 +1742,7 @@
     {
         "product": "Kies & Mix kookgroente",
         "productInfo": "Bloemkool roosjes, broccoli roosjes, gebroken sperziebonen, snijbonen, groentenmix, of spruitjes\nZak 150 gram",
-        "category": "",
+        "category": "groente",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Kies%20&%20mix%202022/KM%20kookgroente%202022.png",
         "deal": "2 voor € 2,00 ",
         "price": 0,
@@ -1946,7 +1958,7 @@
     {
         "product": "AH Biologisch Pastinaak",
         "productInfo": "Zak van 400 gram",
-        "category": "",
+        "category": "groente",
         "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD519100?rendition=200px&fileType=binary",
         "deal": "nu voor 1.49",
         "price": 1.49,
@@ -1982,7 +1994,7 @@
     {
         "product": "AH Spruitjes 500 gram",
         "productInfo": "Zak van 500 gram",
-        "category": "",
+        "category": "groente",
         "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD519018?rendition=200px&fileType=binary",
         "deal": "nu voor 0.69",
         "price": 0.69,
@@ -2066,7 +2078,7 @@
     {
         "product": "AH Avocado eetrijp 2 stuks",
         "productInfo": "",
-        "category": "",
+        "category": "groente",
         "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD519016?rendition=200px&fileType=binary",
         "deal": "nu voor 1.99",
         "price": 1.99,
@@ -2126,7 +2138,7 @@
     {
         "product": "AH Pangasiusfilet 2 porties",
         "productInfo": "",
-        "category": "",
+        "category": "vis",
         "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD519019?rendition=200px&fileType=binary",
         "deal": "nu voor 2.79",
         "price": 2.79,
@@ -2835,7 +2847,7 @@
         "product": "Fantini Farnese Pecorino",
         "productInfo": "Fles 0.75 liter",
         "category": "",
-        "image": "https://static.ah.nl/static/product/AHI_43545237313130363431_1_200x200_JPG.JPG",
+        "image": "https://static.ah.nl/static/product/AHI_43545239383437393731_1_200x200_JPG.JPG",
         "deal": "nu voor 4.49",
         "price": 4.49,
         "dateStart": "2022-02-06",
@@ -3207,7 +3219,7 @@
         "product": "Berberana Red Dragon",
         "productInfo": "Fles 0.75 liter",
         "category": "",
-        "image": "https://static.ah.nl/static/product/AHI_434d50313935363533_6_200x200_JPG.JPG",
+        "image": "https://static.ah.nl/static/product/AHI_43545239383437383833_1_200x200_JPG.JPG",
         "deal": "nu voor 2.99",
         "price": 2.99,
         "dateStart": "2022-02-06",
@@ -3338,7 +3350,7 @@
     {
         "product": "Heineken, Brand of Birra Moretti krat",
         "productInfo": "Bijv. Heineken pilsener - Krat 24 flesjes à 0.3 lt",
-        "category": "bier",
+        "category": "",
         "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD519055?rendition=200px&fileType=binary",
         "deal": "25% korting",
         "price": 13.27,
@@ -4012,8 +4024,8 @@
         "productInfo": "Per stuk",
         "category": "",
         "image": "https://static.ah.nl/static/product/AHI_43545239383335383137_1_200x200_JPG.JPG",
-        "deal": "24.99 +500 miles",
-        "price": 39.99,
+        "deal": "50% korting",
+        "price": 49.99,
         "dateStart": "2022-02-06",
         "dateEnd": "2022-02-06",
         "link": "https://ah.nl/bonus/groep/438848?week=5",
@@ -4033,7 +4045,7 @@
     },
     {
         "product": "15% korting bij Bolletje + Hero + Pickwick",
-        "productInfo": "Stel zelf je eigen Combi Deal samen: kies Bolletje & Hero jam & Pickwick",
+        "productInfo": "Stel zelf je eigen Keuze Deal samen: kies Bolletje & Hero jam & Pickwick",
         "category": "",
         "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD519404?rendition=200px&fileType=binary",
         "deal": "15% korting",
@@ -4045,7 +4057,7 @@
     },
     {
         "product": "15% korting bij LB&P + Celebrations + reep",
-        "productInfo": "Stel zelf je eigen Combi Deal samen: kies Love Beauty & Planet & Celebrations & M&M's",
+        "productInfo": "Stel zelf je eigen Keuze Deal samen: kies Love Beauty & Planet & Celebrations & M&M's",
         "category": "",
         "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD519405?rendition=200px&fileType=binary",
         "deal": "15% korting",
