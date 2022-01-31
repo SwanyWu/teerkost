@@ -1,29 +1,5 @@
 [
     {
-        "product": "Hertog Jan, La Trappe, Westmalle, Bird Brewery, Brothers in Law of Grimbergen",
-        "productInfo": "Diverse soorten",
-        "category": "bier",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Weekaanbiedingen/Week%205/Bier-31-1-22.png",
-        "deal": "20% korting",
-        "price": 0,
-        "dateStart": "2022-02-08",
-        "dateEnd": "2022-02-15",
-        "link": "https://jumbo.com/aanbiedingen/wa05_bier",
-        "shop": "Jumbo"
-    },
-    {
-        "product": "Pampers Baby Dry luiers",
-        "productInfo": "M.u.v. maxi en giga packs\n2 verpakkingen",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/EG%20schap%202022/Week%201/Pampers.png",
-        "deal": "2e halve prijs",
-        "price": 0,
-        "dateStart": "2022-01-05",
-        "dateEnd": "2022-03-01",
-        "link": "https://jumbo.com/aanbiedingen/2875001-B-1",
-        "shop": "Jumbo"
-    },
-    {
         "product": "Jumbo ovengebakken kip- of kalkoenfilet",
         "productInfo": "Van de vleeswaren bedieningsafdeling\n2 verpakkingen circa 110-120 gram",
         "category": "",
@@ -201,6 +177,30 @@
         "dateStart": "2022-01-25",
         "dateEnd": "2022-02-01",
         "link": "https://jumbo.com/aanbiedingen/9155008-B-1",
+        "shop": "Jumbo"
+    },
+    {
+        "product": "Hertog Jan, La Trappe, Westmalle, Bird Brewery, Brothers in Law of Grimbergen",
+        "productInfo": "Diverse soorten",
+        "category": "bier",
+        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Weekaanbiedingen/Week%205/Bier-31-1-22.png",
+        "deal": "20% korting",
+        "price": 0,
+        "dateStart": "2022-02-08",
+        "dateEnd": "2022-02-15",
+        "link": "https://jumbo.com/aanbiedingen/wa05_bier",
+        "shop": "Jumbo"
+    },
+    {
+        "product": "Pampers Baby Dry luiers",
+        "productInfo": "M.u.v. maxi en giga packs\n2 verpakkingen",
+        "category": "",
+        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/EG%20schap%202022/Week%201/Pampers.png",
+        "deal": "2e halve prijs",
+        "price": 0,
+        "dateStart": "2022-01-05",
+        "dateEnd": "2022-03-01",
+        "link": "https://jumbo.com/aanbiedingen/2875001-B-1",
         "shop": "Jumbo"
     },
     {
@@ -866,7 +866,7 @@
     {
         "product": "Iglo vissticks 15 stuks of Fish, Ocean, of Green Cuisine",
         "productInfo": "2 pakken vissticks à 15 stuks of Cuisine à 200-480 gram",
-        "category": "",
+        "category": "vis",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA2/Iglo%20Vissticks-Fish-Ocean-Green%20Cuisine_280px.png",
         "deal": "2e halve prijs",
         "price": 0,
@@ -878,7 +878,7 @@
     {
         "product": "Unox of Conimex soep in zak",
         "productInfo": "2e schaatsbaan kaartje gratis bij aankoop van 2 Unox actieartikelen",
-        "category": "",
+        "category": "kant-en-klaar",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA2/Unox-Conimex%20Soep%20in%20zak_280px.png",
         "deal": "2 voor € 4,50",
         "price": 0,
@@ -974,7 +974,7 @@
     {
         "product": "Unox soep in blik",
         "productInfo": "2 blikken à 800 ml",
-        "category": "",
+        "category": "kant-en-klaar",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA1/Unox%20Soep%20in%20blik_280px.png",
         "deal": "2 voor € 3,50",
         "price": 0,
@@ -1034,7 +1034,7 @@
     {
         "product": "Jumbo verse maaltijd of ovenmaaltijd",
         "productInfo": "2 schalen à 350-450 gram",
-        "category": "",
+        "category": "kant-en-klaar",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA2/Jumbo%20Verse%20Maaltijd-Ovenmaaltijd_280px.png",
         "deal": "2 voor € 8,00",
         "price": 0,
@@ -1682,7 +1682,7 @@
     {
         "product": "Kies & Mix Jumbo Oosterse maaltijdcomponenten",
         "productInfo": "126 - 260 gram",
-        "category": "",
+        "category": "kant-en-klaar",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Kies%20&%20mix%202022/KM%20Oosterse%20maaltijden%202022.png",
         "deal": "2 voor € 4,50",
         "price": 0,
@@ -1694,7 +1694,7 @@
     {
         "product": "Kies & Mix Jumbo verse soepen",
         "productInfo": "2 bekers à 500ml",
-        "category": "",
+        "category": "kant-en-klaar",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Kies%20&%20mix%202022/KM-Verse-Soep-jan22.png",
         "deal": "2 voor € 4,50",
         "price": 0,
@@ -1982,7 +1982,7 @@
     {
         "product": "Diverse fruitsalades",
         "productInfo": "Bijv. Ananas - Schaal 130 gram",
-        "category": "",
+        "category": "kant-en-klaar",
         "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD506267?rendition=200px&fileType=binary",
         "deal": "3 voor 4.00",
         "price": 4,
@@ -2090,7 +2090,7 @@
     {
         "product": "AH Maaltijdsalades",
         "productInfo": "Alle varianten\r",
-        "category": "",
+        "category": "kant-en-klaar",
         "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD519020?rendition=200px&fileType=binary",
         "deal": "nu voor 3.99",
         "price": 3.99,
@@ -2114,7 +2114,7 @@
     {
         "product": "AH Hollandse 3-vaksmaaltijden",
         "productInfo": "Alle varianten",
-        "category": "",
+        "category": "kant-en-klaar",
         "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD519085?rendition=200px&fileType=binary",
         "deal": "nu voor 3.49",
         "price": 3.49,
@@ -2174,7 +2174,7 @@
     {
         "product": "AH Ovenschotels kip",
         "productInfo": "Bijv. kipdijfile saté ajam - per 400 gram",
-        "category": "",
+        "category": "kant-en-klaar",
         "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD519028?rendition=200px&fileType=binary",
         "deal": "25% korting",
         "price": 3.28,
@@ -2847,7 +2847,7 @@
         "product": "Fantini Farnese Pecorino",
         "productInfo": "Fles 0.75 liter",
         "category": "",
-        "image": "https://static.ah.nl/static/product/AHI_43545239383437393731_1_200x200_JPG.JPG",
+        "image": "https://static.ah.nl/static/product/AHI_43545237313130363431_1_200x200_JPG.JPG",
         "deal": "nu voor 4.49",
         "price": 4.49,
         "dateStart": "2022-02-06",
@@ -3219,7 +3219,7 @@
         "product": "Berberana Red Dragon",
         "productInfo": "Fles 0.75 liter",
         "category": "",
-        "image": "https://static.ah.nl/static/product/AHI_43545239383437383833_1_200x200_JPG.JPG",
+        "image": "https://static.ah.nl/static/product/AHI_434d50313935363533_6_200x200_JPG.JPG",
         "deal": "nu voor 2.99",
         "price": 2.99,
         "dateStart": "2022-02-06",
@@ -3446,7 +3446,7 @@
     {
         "product": "Unox Soep in zak 570 ml, Cup-a-Soup en Good snacks",
         "productInfo": "Bijv. Good Noodles kip - 2 zakjes à 70 gram",
-        "category": "",
+        "category": "kant-en-klaar",
         "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD519014?rendition=200px&fileType=binary",
         "deal": "1+1 gratis",
         "price": 0.65,
