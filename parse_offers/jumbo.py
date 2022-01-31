@@ -27,12 +27,9 @@ def returnOffers():
         offer.update({"category": category})
 
         offer.update({"shop": SHOP})
-        # if('price' in i):
-        #     offer.update({"price": i['price']['now']})
-        
+
         offer.update({"deal": i['tag']})
         offer.update({"image": i['promotionImage']['main']})
-
 
         startDate = datetime.fromtimestamp(i['fromDate']/1000).strftime('%Y-%m-%d')
         endDate = datetime.fromtimestamp(i['toDate']/1000).strftime('%Y-%m-%d')
