@@ -1,29 +1,5 @@
 [
     {
-        "product": "Hertog Jan, La Trappe, Westmalle, Bird Brewery, Brothers in Law of Grimbergen",
-        "productInfo": "Diverse soorten",
-        "category": "bier",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Weekaanbiedingen/Week%205/Bier-31-1-22.png",
-        "deal": "20% korting",
-        "price": 0,
-        "dateStart": "2022-02-08",
-        "dateEnd": "2022-02-15",
-        "link": "https://jumbo.com/aanbiedingen/wa05_bier",
-        "shop": "Jumbo"
-    },
-    {
-        "product": "Pampers Baby Dry luiers",
-        "productInfo": "M.u.v. maxi en giga packs\n2 verpakkingen",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/EG%20schap%202022/Week%201/Pampers.png",
-        "deal": "2e halve prijs",
-        "price": 0,
-        "dateStart": "2022-01-05",
-        "dateEnd": "2022-03-01",
-        "link": "https://jumbo.com/aanbiedingen/2875001-B-1",
-        "shop": "Jumbo"
-    },
-    {
         "product": "Jumbo ovengebakken kip- of kalkoenfilet",
         "productInfo": "Van de vleeswaren bedieningsafdeling\n2 verpakkingen circa 110-120 gram",
         "category": "",
@@ -201,6 +177,30 @@
         "dateStart": "2022-01-25",
         "dateEnd": "2022-02-01",
         "link": "https://jumbo.com/aanbiedingen/9155008-B-1",
+        "shop": "Jumbo"
+    },
+    {
+        "product": "Hertog Jan, La Trappe, Westmalle, Bird Brewery, Brothers in Law of Grimbergen",
+        "productInfo": "Diverse soorten",
+        "category": "bier",
+        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Weekaanbiedingen/Week%205/Bier-31-1-22.png",
+        "deal": "20% korting",
+        "price": 0,
+        "dateStart": "2022-02-08",
+        "dateEnd": "2022-02-15",
+        "link": "https://jumbo.com/aanbiedingen/wa05_bier",
+        "shop": "Jumbo"
+    },
+    {
+        "product": "Pampers Baby Dry luiers",
+        "productInfo": "M.u.v. maxi en giga packs\n2 verpakkingen",
+        "category": "",
+        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/EG%20schap%202022/Week%201/Pampers.png",
+        "deal": "2e halve prijs",
+        "price": 0,
+        "dateStart": "2022-01-05",
+        "dateEnd": "2022-03-01",
+        "link": "https://jumbo.com/aanbiedingen/2875001-B-1",
         "shop": "Jumbo"
     },
     {
