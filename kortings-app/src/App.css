@@ -50,15 +50,21 @@ body, html {
   padding: 15px 0px 45px 15px;
   position: fixed;
   bottom: 0px;
-  margin: 5px;
-  border-radius: 8px;
-  overflow-y: scroll;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  width: calc(100% - 15px);
 }
 
 @media screen and (max-width: 600px) {
   #filter-dialog {
-    height: 250px;
+    max-height: 50%;
+    overflow-y: scroll;
   }
+}
+
+.filter-wrap {
+  max-width: 1000px;
+  margin: 0px auto;
 }
 
 .toggle-on {
