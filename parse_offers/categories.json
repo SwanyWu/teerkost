@@ -19,7 +19,7 @@
         "keywords": [
             "broccoli", "broccoliroosjes", "bloemkool", "bloemkoolroosjes", "spruiten", "winterpeen", "bospeen", "wortel", "wortels", 
             "prei", "andijvie", "boerenkool", "spinazie",
-            "tomaten", "paprika", "avocado", "groenten", "groente", "witlof", "stamppotgroenten", "roerbakgroente", "kool",
+            "tomaten", "paprika", "avocado", "groenten", "groente", "kookgroente", "kookgroenten","witlof", "stamppotgroenten", "roerbakgroente", "kool",
             "komkommer", "courgette", "aubergine", "spruitjes", "worteltjes", "champignons", "puntpaprika",
             "salade ui", "bosui", "uien", "rucola", "rucolamelange", "sperziebonen", "ijsbergsla", "romaatje", "trostomaten",
             "hutspot", "zuurkool", "snijbonen", "bleekselderij", "knolselderij", "wokgroenten", "bieten", "maïs", "pastinaak",
@@ -32,11 +32,11 @@
         "keywords": [
             "vissticks","scholfilet","schol", "heek", "surimi","gravad","kabeljauw", "gamba's", "dorade", "doradefilets", 
             "doradefilet", "kabeljauwfilet","kabeljauwfilets", "kabeljauwhaas","kibbeling", "lekkerbek",
-            "pangasius", "pangasiusfilet", "zalm", "zalmfilet", "zalmfilets", "ovenzalm", "zalmstaarten", 
+            "pangasius", "pangasiusfilet", "zalm", "zalmfilet", "zalmfilets", "ovenzalm", "zalmstaarten", "zalmstaart",
             "makreel", "makreelflakes", "makreelzijde", "rivierkreeftenvlees", "mosselen",
             "haring", "braadharing","haringpartjes", "rolmops", "haringsalade","garnalen", "roerbakgarnalen",
             "forelfilets","forelfilet", "sliptong", "bakkeljauw", "oesters", "visschnitzels", "visschnitzel",
-            "tonijnfilet", "tonijnsteak","tonijn", "tonno"
+            "tonijnfilet", "tonijnsteak","tonijn", "tonno","ansjovis", "ansjovisfilet", "ansjovisfilets"
         ]
     },
     {
@@ -45,6 +45,13 @@
             "maaltijd", "lunchsalade", "maaltijden", "soep", "pureersoep", "soepen", "ovenmaaltijd", "maaltijdcomponenten",
             "fruitsalades", "fruitsalade", "maaltijdsalade", "maaltijdsalades", "3-vaksmaaltijden", "3-vaksmaaltijd",
             "ovenschotels", "ovenschotel", "quiche", "maaltijdpakket", "maaltijdpakketten"
+        ]
+    },
+    {
+        "name": "fruit",
+        "keywords": [
+            "mandarijnen", "fruit", "perssinaasappelen", "sinaasappels", "aardbeien", "druiven", "bessen", "frambozen", "mango", "appels", 
+            "appeltjes","kiwi", "meloen", "conference", "peren", "ananas", "granaatappel", "elstar", "jonagold"
         ]
     }
 ]

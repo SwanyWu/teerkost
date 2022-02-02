@@ -156,6 +156,7 @@ function App() {
               <span onClick={filterCategory} data-category="koffie"><i onClick={(e) => e.stopPropagation()} className="icon">☕</i> Koffie</span>
               <span onClick={filterCategory} data-category="groente"><i onClick={(e) => e.stopPropagation()} className="icon">🥬</i> Groente</span>
               <span onClick={filterCategory} data-category="vis"><i onClick={(e) => e.stopPropagation()} className="icon">🐟</i> Vis</span>
+              <span onClick={filterCategory} data-category="fruit"><i onClick={(e) => e.stopPropagation()} className="icon">🍓</i> Fruit</span>
               <span onClick={filterCategory} data-category="kant-en-klaar"><i onClick={(e) => e.stopPropagation()} className="icon">🍲</i> Kant-en-klaar</span>
             </div>
             {/* <div className="filter-search"><input id="search" onKeyPress={searchProducts} placeholder="..." type="text"/></div> */}
