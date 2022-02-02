@@ -59,8 +59,8 @@ body, html {
   padding: 15px 0px 45px 15px;
   position: fixed;
   bottom: 0px;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
   width: calc(100% - 15px);
 }
 
@@ -306,9 +306,9 @@ i.icon {
   overflow: hidden;
   height: 100px;
   text-align: center;
-  margin: 10px 10px 0px 10px;
+  margin: 0px 0px 0px 0px;
   border-radius: 8px;
-  box-shadow: 0px 2px 0px 0px #00000042;
+  box-shadow: 0px 2px 0px 0px #0000006e;
 }
 .product-image img {
   width: 130px;
@@ -340,17 +340,19 @@ i.icon {
   content:"€";
 }
 .product-price { 
-  background: #fff;
-  border-radius: 4px;
-  top: 5px;
-  color: #000;
-  font-weight: 800;
-  line-height: 20px;
+  display: inline-block;
   position: absolute;
-  right: 5px;
+  background: #fdd662;
+  color: #71580f;
+  font-weight: 800;
+  line-height: 40px;
   text-align: center;
   font-size: .7em;
-  padding: 0px 5px 0px 5px;
+  padding: 5px;
+  right: 5px;
+  top: -20px;
+  width: 40px;
+  border-radius: 100px;
 }
 
 .product-date-end::before {
@@ -358,47 +360,45 @@ i.icon {
 }
 
 .product-date-end {
+  display: inline-block;
+  position: absolute;
   background: #fff;
-  border-radius: 4px;
-  top: 5px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  right: 15px;
   color: #000;
   font-weight: 800;
-  line-height: 20px;
-  position: absolute;
-  left: calc(50% - 50px);
-  width: 100px;
-  text-align: center;
   font-size: .7em;
-  padding: 0px 5px 0px 5px;
+  margin: 0px 0px 0px 0px;
+  padding: 5px 10px 5px 10px;
 }
 
 .product-shop {
+  display: inline-block;
   background: #fff;
-  border-radius: 4px;
-  top: 5px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  left: 15px;
   color: #000;
   font-weight: 800;
-  line-height: 20px;
-  position: absolute;
-  left: 5px;
   text-align: center;
   font-size: .7em;
-  width: 55px;
-  padding: 0px 5px 0px 5px;
+  width: 50px;
+  position: absolute;
+  margin: 0px 0px 0px 0px;
+  padding: 5px 10px 5px 10px;
   text-transform: uppercase;
 }
 
 .product-shop.Lidl {   
   background: #fff000; 
   color: #0050aa; 
-  box-shadow: inset -1px -1px 0px 0px #da231a;
 }
 
 .product-shop.Jumbo {   
   background: #eeb717; 
   color: #FFF;
   text-shadow: 1px 1px #000;
-  box-shadow: inset -1px -1px 0px 0px #000;
 }
 .product-shop.AH {
   background: #00ade6;
