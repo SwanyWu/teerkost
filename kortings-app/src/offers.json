@@ -348,18 +348,6 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Welke biermerken zijn bij jouw Jumbo in de aanbieding?",
-        "productInfo": "Diverse combinaties",
-        "category": "bier",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2021/Bierkratten/Lokale%20bierkratten%201b.png",
-        "deal": "20% korting bij 2 stuks",
-        "price": 0,
-        "dateStart": "2021-07-20",
-        "dateEnd": "2022-03-01",
-        "link": "https://jumbo.com/aanbiedingen/bierkratten_aanbieding",
-        "shop": "Jumbo"
-    },
-    {
         "product": "Aardappelen",
         "productInfo": "Zak 3 kilo",
         "category": "groente",
@@ -384,15 +372,39 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Kies & Mix vlees, vis of vega",
-        "productInfo": "3 schalen",
+        "product": "Lay's of Cheetos",
+        "productInfo": "2 zakken Lay's à 335 gram, Lay's Wokkels à 125 gram of Cheetos Nibb-it à 150 gram",
         "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA2/Km%20vleesvisvega.png",
-        "deal": "3 voor € 8,00",
+        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA2/Lays-Cheetos_280px.png",
+        "deal": "2 voor € 3,50",
+        "price": 0,
+        "dateStart": "2022-02-01",
+        "dateEnd": "2022-03-01",
+        "link": "https://jumbo.com/aanbiedingen/9213019-C-1",
+        "shop": "Jumbo"
+    },
+    {
+        "product": "Welke biermerken zijn bij jouw Jumbo in de aanbieding?",
+        "productInfo": "Diverse combinaties",
+        "category": "bier",
+        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2021/Bierkratten/Lokale%20bierkratten%201b.png",
+        "deal": "20% korting bij 2 stuks",
+        "price": 0,
+        "dateStart": "2021-07-20",
+        "dateEnd": "2022-03-01",
+        "link": "https://jumbo.com/aanbiedingen/bierkratten_aanbieding",
+        "shop": "Jumbo"
+    },
+    {
+        "product": "Kies & Mix vlees, vis of vega",
+        "productInfo": "Alle items met Kies en Mix sticker\n3 schalen",
+        "category": "",
+        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA1/Kies%20en%20mix%20vlees%20vis%20vega%202.png",
+        "deal": "3 voor 8,00 euro",
         "price": 0,
         "dateStart": "2022-02-01",
         "dateEnd": "2022-02-08",
-        "link": "https://jumbo.com/aanbiedingen/9215048-C-1",
+        "link": "https://jumbo.com/aanbiedingen/sa2_km_vlees",
         "shop": "Jumbo"
     },
     {
@@ -410,7 +422,7 @@
     {
         "product": "Kies & Mix fruit",
         "productInfo": "Perssinaasappelen net 1,5 kg, rode druiven rood bak 500 gram, blauwe bessen bak 125 gram, frambozen bak 125 gram of mango per stuk",
-        "category": "",
+        "category": "fruit",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA2/Km%20fruit%20definitief.png",
         "deal": "3 voor € 4,99",
         "price": 0,
@@ -420,21 +432,9 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Lay's of Cheetos",
-        "productInfo": "2 zakken Lay's à 335 gram, Lay's Wokkels à 125 gram of Cheetos Nibb-it à 150 gram",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA2/Lays-Cheetos_280px.png",
-        "deal": "2 voor € 3,50",
-        "price": 0,
-        "dateStart": "2022-02-01",
-        "dateEnd": "2022-03-01",
-        "link": "https://jumbo.com/aanbiedingen/9213019-C-1",
-        "shop": "Jumbo"
-    },
-    {
         "product": "Mandarijnen of Pink Lady",
         "productInfo": "Mandarijnen net 1 kilo, Pink Lady verpakt 4 stuks",
-        "category": "",
+        "category": "fruit",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA2/Mandarijn%20pinklady.png",
         "deal": "2 voor € 3,50",
         "price": 0,
@@ -477,6 +477,18 @@
         "dateStart": "2022-02-01",
         "dateEnd": "2022-03-01",
         "link": "https://jumbo.com/aanbiedingen/9215025-C-1",
+        "shop": "Jumbo"
+    },
+    {
+        "product": "Kies & Mix tulpen en rozen",
+        "productInfo": "Diverse soorten",
+        "category": "",
+        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Kies%20&%20mix%202022/KM%20tulpen%20en%20rozen.png",
+        "deal": "2 voor € 5,00",
+        "price": 0,
+        "dateStart": "2022-01-02",
+        "dateEnd": "2022-02-04",
+        "link": "https://jumbo.com/aanbiedingen/3100008-C-1",
         "shop": "Jumbo"
     },
     {
@@ -602,7 +614,7 @@
     {
         "product": "Jumbo maaltijdpakket",
         "productInfo": "Alle soorten\nPer doosje",
-        "category": "",
+        "category": "kant-en-klaar",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA2/maaltijdpakket.png",
         "deal": "1 voor € 3,99",
         "price": 0,
@@ -780,18 +792,6 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Jumbo verzorgingsproducten",
-        "productInfo": "Jumbo Elke Dag Shampoo Heren 500ml, Jumbo Glans Shampoo 500ml, Jumbo Cremespoeling Moroccan Argan Oil 500ml, Jumbo Gezicht Nachtcreme 50ml of Jumbo Gezicht Dagcreme 50ml\n2 verpakkingen",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA1/Jumbo%20verzorging.png",
-        "deal": "1+1 gratis",
-        "price": 0,
-        "dateStart": "2022-01-04",
-        "dateEnd": "2022-02-22",
-        "link": "https://jumbo.com/aanbiedingen/sa01_verzorging",
-        "shop": "Jumbo"
-    },
-    {
         "product": "Jumbo Yoghurt Griekse Stijl Naturel of Aardbei",
         "productInfo": "8 x 200g",
         "category": "",
@@ -840,11 +840,11 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Lipton Voordeel",
+        "product": "Cosmetica Voordeel",
         "productInfo": "Diverse grootverpakkingen",
         "category": "",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA2/SA2-Cosmetica.png",
-        "deal": "25% korting",
+        "deal": "30% korting",
         "price": 0,
         "dateStart": "2020-03-17",
         "dateEnd": "2022-03-01",
@@ -876,7 +876,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Huishoud grootverpakkingen",
+        "product": "Baby grootverpakkingen",
         "productInfo": "Diverse soorten",
         "category": "",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA2/SA2-Baby.png",
@@ -885,6 +885,30 @@
         "dateStart": "2020-03-17",
         "dateEnd": "2022-03-01",
         "link": "https://jumbo.com/aanbiedingen/sa2_baby",
+        "shop": "Jumbo"
+    },
+    {
+        "product": "Wijnvoordeel",
+        "productInfo": "Diverse soorten",
+        "category": "",
+        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2021/Grootverpakking%20Los%20Gansos%20-%206%20flessen-.png",
+        "deal": "10% korting",
+        "price": 0,
+        "dateStart": "2020-03-17",
+        "dateEnd": "2022-12-31",
+        "link": "https://jumbo.com/aanbiedingen/sa5_wijnvoordeel",
+        "shop": "Jumbo"
+    },
+    {
+        "product": "Heineken tray",
+        "productInfo": "24 x 33 cl",
+        "category": "bier",
+        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA1/Heineken%20online%20only.png",
+        "deal": "1 voor € 17,99 ",
+        "price": 0,
+        "dateStart": "2022-01-04",
+        "dateEnd": "2022-12-31",
+        "link": "https://jumbo.com/aanbiedingen/9241093-A-1",
         "shop": "Jumbo"
     },
     {
@@ -921,30 +945,6 @@
         "dateStart": "2022-01-04",
         "dateEnd": "2022-03-01",
         "link": "https://jumbo.com/aanbiedingen/sa02_hartevelt",
-        "shop": "Jumbo"
-    },
-    {
-        "product": "Wijnvoordeel",
-        "productInfo": "Diverse soorten",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2021/Grootverpakking%20Los%20Gansos%20-%206%20flessen-.png",
-        "deal": "10% korting",
-        "price": 0,
-        "dateStart": "2020-03-17",
-        "dateEnd": "2022-12-31",
-        "link": "https://jumbo.com/aanbiedingen/sa5_wijnvoordeel",
-        "shop": "Jumbo"
-    },
-    {
-        "product": "Heineken tray",
-        "productInfo": "24 x 33 cl",
-        "category": "bier",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA1/Heineken%20online%20only.png",
-        "deal": "1 voor € 17,99 ",
-        "price": 0,
-        "dateStart": "2022-01-04",
-        "dateEnd": "2022-12-31",
-        "link": "https://jumbo.com/aanbiedingen/9241093-A-1",
         "shop": "Jumbo"
     },
     {
@@ -1226,7 +1226,7 @@
     {
         "product": "Kies & Mix gesneden fruit",
         "productInfo": "90-200 gram",
-        "category": "",
+        "category": "fruit",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Kies%20&%20mix%202022/KM%20fruitmix%202022.png",
         "deal": "3 voor € 5,00",
         "price": 0,
@@ -1269,18 +1269,6 @@
         "dateStart": "2022-01-06",
         "dateEnd": "2022-12-31",
         "link": "https://jumbo.com/aanbiedingen/3755007-B-1",
-        "shop": "Jumbo"
-    },
-    {
-        "product": "Kies & Mix tulpen en rozen",
-        "productInfo": "Diverse soorten",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Kies%20&%20mix%202022/KM%20tulpen%20en%20rozen.png",
-        "deal": "2 voor € 5,00",
-        "price": 0,
-        "dateStart": "2022-01-02",
-        "dateEnd": "2022-02-04",
-        "link": "https://jumbo.com/aanbiedingen/3100008-C-1",
         "shop": "Jumbo"
     },
     {
@@ -1346,7 +1334,7 @@
     {
         "product": "AH Mandarijnen 1 kilo of biologische mandarijnen 750 gram",
         "productInfo": "Bijv. mandarijnen 1 kilo - Per net",
-        "category": "",
+        "category": "fruit",
         "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD519013?rendition=200px&fileType=binary",
         "deal": "25% korting",
         "price": 1.79,
@@ -1370,7 +1358,7 @@
     {
         "product": "AH Zoete kleine appeltjes",
         "productInfo": "Zak van 1 kilo",
-        "category": "",
+        "category": "fruit",
         "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD519098?rendition=200px&fileType=binary",
         "deal": "nu voor 2.49",
         "price": 2.49,
@@ -1394,7 +1382,7 @@
     {
         "product": "AH Galia meloen",
         "productInfo": "Los",
-        "category": "",
+        "category": "fruit",
         "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD519102?rendition=200px&fileType=binary",
         "deal": "nu voor 1.99",
         "price": 1.99,
@@ -1406,7 +1394,7 @@
     {
         "product": "AH Conference schaal",
         "productInfo": "Schaal - 4 stuks",
-        "category": "",
+        "category": "fruit",
         "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD519099?rendition=200px&fileType=binary",
         "deal": "nu voor 1.79",
         "price": 1.79,
@@ -1442,7 +1430,7 @@
     {
         "product": "Diverse fruitsalades",
         "productInfo": "Bijv. Ananas - Schaal 130 gram",
-        "category": "kant-en-klaar",
+        "category": "fruit",
         "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD506267?rendition=200px&fileType=binary",
         "deal": "3 voor 4.00",
         "price": 4,
@@ -1466,7 +1454,7 @@
     {
         "product": "AH ananas schaal 250 gram of AH granaatappelpitjes 100 gram",
         "productInfo": "",
-        "category": "",
+        "category": "fruit",
         "image": "https://static.ah.nl/static/product/AHI_43545239353737343734_1_200x200_JPG.JPG",
         "deal": "2 voor 3.50",
         "price": 3.5,
@@ -1502,7 +1490,7 @@
     {
         "product": "AH Pitloze rode druiven 500 gram",
         "productInfo": "",
-        "category": "",
+        "category": "fruit",
         "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD519015?rendition=200px&fileType=binary",
         "deal": "nu voor 1.79",
         "price": 1.79,
@@ -1514,7 +1502,7 @@
     {
         "product": "AH blauwe bessen 300 gram",
         "productInfo": "",
-        "category": "",
+        "category": "fruit",
         "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD519012?rendition=200px&fileType=binary",
         "deal": "nu voor 3.29",
         "price": 3.29,
@@ -1526,7 +1514,7 @@
     {
         "product": "AH Mango",
         "productInfo": "Los",
-        "category": "",
+        "category": "fruit",
         "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD519010?rendition=200px&fileType=binary",
         "deal": "2 voor 2.00",
         "price": 2,
@@ -2018,7 +2006,7 @@
     {
         "product": "Spa Fruit 1.25 liter",
         "productInfo": "Alle varianten",
-        "category": "",
+        "category": "fruit",
         "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD519052?rendition=200px&fileType=binary",
         "deal": "2 voor 2.50",
         "price": 2.5,
@@ -2954,7 +2942,7 @@
     {
         "product": "Fish Tales",
         "productInfo": "Bijv. Ansjovis filets in olijfolie MSC - 45 gram",
-        "category": "",
+        "category": "vis",
         "image": "https://static.ah.nl/static/product/AHI_43545239383333393136_1_200x200_JPG.JPG",
         "deal": "25% korting",
         "price": 1.76,
@@ -4118,7 +4106,7 @@
     {
         "product": "Blauwe bessen",
         "productInfo": "250 gram",
-        "category": "",
+        "category": "fruit",
         "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/780824/gallery/preview/xs/780824.jpg",
         "deal": "38% korting",
         "price": "1.79",
@@ -4130,7 +4118,7 @@
     {
         "product": "Sinaasappels",
         "productInfo": "",
-        "category": "",
+        "category": "fruit",
         "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/780157/gallery/preview/xs/780157.jpg",
         "deal": "1+1 gratis",
         "price": "2.89",
@@ -4466,7 +4454,7 @@
     {
         "product": "Elstar appels",
         "productInfo": "2 kilo",
-        "category": "",
+        "category": "fruit",
         "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/780241/gallery/preview/xs/780241.jpg",
         "deal": "41% korting",
         "price": "1.99",
@@ -4478,7 +4466,7 @@
     {
         "product": "Aardbeien",
         "productInfo": "500 gram",
-        "category": "",
+        "category": "fruit",
         "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/780810/gallery/preview/xs/780810.jpg",
         "deal": "€1.- korting",
         "price": "2.49",
