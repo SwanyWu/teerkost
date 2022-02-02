@@ -103,7 +103,7 @@ function App() {
       descriptionString = descriptionString.concat(" bij de " + shopValue)
     }
     else {
-      descriptionString = descriptionString.concat(" bij de Jumb, Lidl en AH")
+      descriptionString = descriptionString.concat(" bij de Jumbo, Lidl en AH")
     }
 
     document.getElementById('filter-description').textContent = descriptionString
