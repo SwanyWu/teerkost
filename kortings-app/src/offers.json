@@ -252,6 +252,18 @@
         "shop": "Jumbo"
     },
     {
+        "product": "Jumbo verzorgingsproducten",
+        "productInfo": "Jumbo Elke Dag Shampoo Heren 500ml, Jumbo Glans Shampoo 500ml, Jumbo Cremespoeling Moroccan Argan Oil 500ml, Jumbo Gezicht Nachtcreme 50ml of Jumbo Gezicht Dagcreme 50ml\n2 verpakkingen",
+        "category": "",
+        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA1/Jumbo%20verzorging.png",
+        "deal": "1+1 gratis",
+        "price": 0,
+        "dateStart": "2022-01-04",
+        "dateEnd": "2022-02-22",
+        "link": "https://jumbo.com/aanbiedingen/sa01_verzorging",
+        "shop": "Jumbo"
+    },
+    {
         "product": "Arla Biologisch, Melkunie Breaker, Protein of Milkshake en Lurpak boter",
         "productInfo": "Bij aankoop van € 10,00 aan deelnemende artikelen betaal je geen bestelkosten",
         "category": "",
@@ -324,150 +336,6 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Jumbo snelfiltermaling of koffiebonen",
-        "productInfo": "Alle soorten\n2 pakken snelfiltermaling à 250-500 gram of koffiebonen à 1 kilo",
-        "category": "koffie",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/Eentje%20extra/Jumbo%20Koffiebonen_280px.png",
-        "deal": "1+1 gratis",
-        "price": 0,
-        "dateStart": "2022-01-04",
-        "dateEnd": "2022-02-01",
-        "link": "https://jumbo.com/aanbiedingen/2786009-B-1",
-        "shop": "Jumbo"
-    },
-    {
-        "product": "Wapenaer stukken",
-        "productInfo": "2 stukken van circa 300-500 gram",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/Eentje%20extra/Wapenaer%20stukken%201%20extra.png",
-        "deal": "1+1 gratis",
-        "price": 0,
-        "dateStart": "2022-01-04",
-        "dateEnd": "2022-02-01",
-        "link": "https://jumbo.com/aanbiedingen/2788029-B-1",
-        "shop": "Jumbo"
-    },
-    {
-        "product": "Pastagehakt, gehaktstaaf 4 stuks, saucijzen, grillburger, kipkrokantschnitzel, slavink, gepaneerde- of boerengehaktschnitzel",
-        "productInfo": "2 schalen à 180-400 gram",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/Eentje%20extra/Vlees.png",
-        "deal": "1+1 gratis",
-        "price": 0,
-        "dateStart": "2022-01-04",
-        "dateEnd": "2022-02-01",
-        "link": "https://jumbo.com/aanbiedingen/2788027-B-1",
-        "shop": "Jumbo"
-    },
-    {
-        "product": "Mandarijnen",
-        "productInfo": "2 netten",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/Eentje%20extra/Mandarijnen.png",
-        "deal": "1+1 gratis",
-        "price": 0,
-        "dateStart": "2022-01-04",
-        "dateEnd": "2022-02-01",
-        "link": "https://jumbo.com/aanbiedingen/2788010-B-1",
-        "shop": "Jumbo"
-    },
-    {
-        "product": "Jumbo aardappelen",
-        "productInfo": "2 zakken à 3 kilo",
-        "category": "groente",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/Eentje%20extra/Aardappelen_280px.png",
-        "deal": "1+1 gratis",
-        "price": 0,
-        "dateStart": "2022-01-04",
-        "dateEnd": "2022-02-01",
-        "link": "https://jumbo.com/aanbiedingen/2788022-B-1",
-        "shop": "Jumbo"
-    },
-    {
-        "product": "Robijn",
-        "productInfo": "Alle soorten\n2 verpakkingen",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/Eentje%20extra/Robijn_280px.png",
-        "deal": "1+1 gratis",
-        "price": 0,
-        "dateStart": "2022-01-04",
-        "dateEnd": "2022-02-01",
-        "link": "https://jumbo.com/aanbiedingen/2787004-B-1",
-        "shop": "Jumbo"
-    },
-    {
-        "product": "Alcoholvrije bieren",
-        "productInfo": "2 kratten, verpakkingen met 4, 6 of 12 flesjes of blikjes of losse flesjes of blikjes",
-        "category": "bier",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/Eentje%20extra/Alcoholvrij%20bier%202.png",
-        "deal": "1+1 gratis",
-        "price": 0,
-        "dateStart": "2022-01-04",
-        "dateEnd": "2022-02-01",
-        "link": "https://jumbo.com/aanbiedingen/2786015-B-1",
-        "shop": "Jumbo"
-    },
-    {
-        "product": "Jumbo stamppotgroente",
-        "productInfo": "2 zakken andijvie of boerenkool à 400 gram of hutspot à 500 gram",
-        "category": "groente",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/Eentje%20extra/Stamppotgroente.png",
-        "deal": "1+1 gratis",
-        "price": 0,
-        "dateStart": "2022-01-04",
-        "dateEnd": "2022-02-01",
-        "link": "https://jumbo.com/aanbiedingen/2788013-B-1",
-        "shop": "Jumbo"
-    },
-    {
-        "product": "SUN of Dreft vaatwastabletten",
-        "productInfo": "Alle soorten\n2 verpakkingen",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/Eentje%20extra/Dreft%20Sun.png",
-        "deal": "1+1 gratis",
-        "price": 0,
-        "dateStart": "2022-01-04",
-        "dateEnd": "2022-02-01",
-        "link": "https://jumbo.com/aanbiedingen/2787006-B-1",
-        "shop": "Jumbo"
-    },
-    {
-        "product": "Page Compleet schoon toiletpapier of Kleenex Trusted Care zakdoekjes",
-        "productInfo": "Alle soorten\n2 pakken Page à 6 of 12 rollen of pakken Kleenex à 10 of 56 stuks",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/Eentje%20extra/Page.png",
-        "deal": "1+1 gratis",
-        "price": 0,
-        "dateStart": "2022-01-04",
-        "dateEnd": "2022-02-01",
-        "link": "https://jumbo.com/aanbiedingen/2787007-B-1",
-        "shop": "Jumbo"
-    },
-    {
-        "product": "Reus Wasmiddel, Persil, Silan, Fleuril, K2R of Witte Reus toiletblokken",
-        "productInfo": "Alle soorten\n2 verpakkingen",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/Eentje%20extra/Reus-Persil-Silan-Fleuril-K2R_280px.png",
-        "deal": "1+1 gratis",
-        "price": 0,
-        "dateStart": "2022-01-04",
-        "dateEnd": "2022-02-01",
-        "link": "https://jumbo.com/aanbiedingen/2787005-B-1",
-        "shop": "Jumbo"
-    },
-    {
-        "product": "Lipton Ice Tea",
-        "productInfo": "2 pakken à 1,5 liter",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA1/Lipton%20Ice%20Tea_280px.png",
-        "deal": "1+1 gratis",
-        "price": 0,
-        "dateStart": "2022-01-04",
-        "dateEnd": "2022-02-01",
-        "link": "https://jumbo.com/aanbiedingen/2786003-B-1",
-        "shop": "Jumbo"
-    },
-    {
         "product": "Runderlappen",
         "productInfo": "Alle soorten\nPer 500 gram",
         "category": "",
@@ -484,10 +352,10 @@
         "productInfo": "Diverse combinaties",
         "category": "bier",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2021/Bierkratten/Lokale%20bierkratten%201b.png",
-        "deal": "2e halve prijs",
+        "deal": "20% korting bij 2 stuks",
         "price": 0,
-        "dateStart": "2022-01-04",
-        "dateEnd": "2022-02-01",
+        "dateStart": "2021-07-20",
+        "dateEnd": "2022-03-01",
         "link": "https://jumbo.com/aanbiedingen/bierkratten_aanbieding",
         "shop": "Jumbo"
     },
@@ -564,18 +432,6 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Kerst assortiment",
-        "productInfo": "Diverse kerstartikelen",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Weekaanbiedingen/Week%201/Kerst0.png",
-        "deal": "50% korting",
-        "price": 0,
-        "dateStart": "2021-12-16",
-        "dateEnd": "2022-02-01",
-        "link": "https://jumbo.com/aanbiedingen/sa01_kerstafpr",
-        "shop": "Jumbo"
-    },
-    {
         "product": "Mandarijnen of Pink Lady",
         "productInfo": "Mandarijnen net 1 kilo, Pink Lady verpakt 4 stuks",
         "category": "",
@@ -636,30 +492,6 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Kipfiletblokjes of De Vegetarische Slager kipstuckjes",
-        "productInfo": "Kipfiletblokjes naturel, dijblokjes, tandoori of saté of De Vegetarische Slager kipstuckjes\n2 schalen à 220-350 gram",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA1/Kipfiletblokjes-Vegetarische%20Slager%20Kipstuckjes_280px.png",
-        "deal": "2 voor € 6,00",
-        "price": 0,
-        "dateStart": "2022-01-04",
-        "dateEnd": "2022-02-01",
-        "link": "https://jumbo.com/aanbiedingen/2788019-C-1",
-        "shop": "Jumbo"
-    },
-    {
-        "product": "Kabeljauw of Pangasius",
-        "productInfo": "Alle soorten uit het verse visschap\n2 schalen",
-        "category": "vis",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA1/Kabeljauw-Pangasius_280px.png",
-        "deal": "2e halve prijs",
-        "price": 0,
-        "dateStart": "2022-01-04",
-        "dateEnd": "2022-02-01",
-        "link": "https://jumbo.com/aanbiedingen/2788020-B-1",
-        "shop": "Jumbo"
-    },
-    {
         "product": "Ariel of Lenor",
         "productInfo": "Alle soorten\n3 verpakkingen",
         "category": "",
@@ -669,18 +501,6 @@
         "dateStart": "2022-02-01",
         "dateEnd": "2022-03-01",
         "link": "https://jumbo.com/aanbiedingen/9214020-B-1",
-        "shop": "Jumbo"
-    },
-    {
-        "product": "Waterval wijnen",
-        "productInfo": "Alle soorten\n2 flessen à 750 ml\nLand van herkomst: Zuid-Afrika",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA1/Waterval%20wijnen_280px.png",
-        "deal": "2 voor € 7,49",
-        "price": 0,
-        "dateStart": "2022-01-04",
-        "dateEnd": "2022-02-01",
-        "link": "https://jumbo.com/aanbiedingen/2786014-C-1",
         "shop": "Jumbo"
     },
     {
@@ -696,30 +516,6 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Waterval wijndozen",
-        "productInfo": "25% korting op de gehele doos\nDoos bevat 6 flessen",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA1/wijn%20omdoos/Waterval%20wijnen.png",
-        "deal": "€ 3,37 per fles",
-        "price": 0,
-        "dateStart": "2020-03-17",
-        "dateEnd": "2022-02-01",
-        "link": "https://jumbo.com/aanbiedingen/sa1_waterval",
-        "shop": "Jumbo"
-    },
-    {
-        "product": "Sanytol Multifunctionele Hygiënedoekjes",
-        "productInfo": "72 doekjes per verpakking",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2021/Sanytol-dec.png",
-        "deal": "2 voor € 0,99",
-        "price": 0,
-        "dateStart": "2021-11-16",
-        "dateEnd": "2022-02-01",
-        "link": "https://jumbo.com/aanbiedingen/sa13_sanytol",
-        "shop": "Jumbo"
-    },
-    {
         "product": "Gerookte zalm of makreelflakes",
         "productInfo": "2 verpakkingen gerookte zalm à 100 gram of makreelflakes à 200 gram\nM.u.v. zalm sandwich plakken",
         "category": "vis",
@@ -729,42 +525,6 @@
         "dateStart": "2022-02-01",
         "dateEnd": "2022-03-01",
         "link": "https://jumbo.com/aanbiedingen/9215040-C-1",
-        "shop": "Jumbo"
-    },
-    {
-        "product": "Kies & Mix vlees, vis en vega",
-        "productInfo": "3 schalen",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA1/Kies%20en%20mix%20vlees%20vis%20vega%202.png",
-        "deal": "3 voor € 8,00",
-        "price": 0,
-        "dateStart": "2022-01-04",
-        "dateEnd": "2022-02-01",
-        "link": "https://jumbo.com/aanbiedingen/2788028-C-1",
-        "shop": "Jumbo"
-    },
-    {
-        "product": "Kies & Mix groenten",
-        "productInfo": "Romatomaten verpakking 750 gram, sperziebonen verpakt 500 gram, paprika mix zak 3 stuks of avocado verpakking 2 stuks",
-        "category": "groente",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA1/Kiesmix%20gorenten.png",
-        "deal": "2 voor € 3,49",
-        "price": 0,
-        "dateStart": "2022-01-04",
-        "dateEnd": "2022-02-01",
-        "link": "https://jumbo.com/aanbiedingen/2788030-C-1",
-        "shop": "Jumbo"
-    },
-    {
-        "product": "Kies & Mix fruit",
-        "productInfo": "Tessa appels zak 1 kilo, witte druiven bak 500 gram, blauwe bessen bak 125 gram of Zespri kiwi green 3 stuks",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA1/KMFRUIT.png",
-        "deal": "3 voor € 4,99",
-        "price": 0,
-        "dateStart": "2022-01-04",
-        "dateEnd": "2022-02-01",
-        "link": "https://jumbo.com/aanbiedingen/2788014-C-1",
         "shop": "Jumbo"
     },
     {
@@ -780,18 +540,6 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Riblappen",
-        "productInfo": "Per 500 gram",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA1/Riblappen_280px.png",
-        "deal": "€ 4,99 per 500 gram",
-        "price": 0,
-        "dateStart": "2021-04-20",
-        "dateEnd": "2022-02-01",
-        "link": "https://jumbo.com/aanbiedingen/sa01_riblappen",
-        "shop": "Jumbo"
-    },
-    {
         "product": "Douwe Egberts snelfiltermaling of koffiebonen",
         "productInfo": "2 verpakkingen à 500 gram\nM.u.v. Douwe Egberts Excellent en Café",
         "category": "koffie",
@@ -804,18 +552,6 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Senseo koffiepads",
-        "productInfo": "Alle soorten\n3 zakken à 16-36 stuks",
-        "category": "koffie",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA1/Senseo%20Koffiepads_280px.png",
-        "deal": "3 voor € 10,00",
-        "price": 0,
-        "dateStart": "2022-01-04",
-        "dateEnd": "2022-02-01",
-        "link": "https://jumbo.com/aanbiedingen/2786004-C-1",
-        "shop": "Jumbo"
-    },
-    {
         "product": "Glorix, Andy of Cif",
         "productInfo": "2 verpakkingen\nM.u.v. Glorix bleek",
         "category": "",
@@ -825,18 +561,6 @@
         "dateStart": "2022-02-01",
         "dateEnd": "2022-03-01",
         "link": "https://jumbo.com/aanbiedingen/9214026-B-1",
-        "shop": "Jumbo"
-    },
-    {
-        "product": "Appelsientje, DubbelFriss of BubbelFriss",
-        "productInfo": "2 pakken Appelsientje à 750 ml-1 liter of Dubbelfrisss of Bubbelfrisss pakken of flessen à 1,5 liter\nM.u.v. Appelsientje gekoeld",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA1/Appelsientje-Dubbelfrisss-Bubbelfrisss_280px.png",
-        "deal": "2 voor € 2,50",
-        "price": 0,
-        "dateStart": "2022-01-04",
-        "dateEnd": "2022-02-01",
-        "link": "https://jumbo.com/aanbiedingen/2786005-C-1",
         "shop": "Jumbo"
     },
     {
@@ -864,30 +588,6 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Jean Balmont wijnen",
-        "productInfo": "Alle soorten\n2 flessen à 750 ml\nLand van herkomst: Frankrijk",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA1/Jean%20Balmont%20Wijnen_280px.png",
-        "deal": "2 voor € 6,49",
-        "price": 0,
-        "dateStart": "2022-01-04",
-        "dateEnd": "2022-02-01",
-        "link": "https://jumbo.com/aanbiedingen/2786007-C-1",
-        "shop": "Jumbo"
-    },
-    {
-        "product": "Jean Balmont wijndozen",
-        "productInfo": "25% korting op de gehele doos\nDoos bevat 6 flessen",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA1/wijn%20omdoos/Jean%20Balmont.png",
-        "deal": "€ 2,69 per fles",
-        "price": 0,
-        "dateStart": "2020-03-17",
-        "dateEnd": "2022-02-01",
-        "link": "https://jumbo.com/aanbiedingen/sa1_jean",
-        "shop": "Jumbo"
-    },
-    {
         "product": "Unox vegetarische, magere of Gelderse rookworst",
         "productInfo": "2e schaatsbaan kaartje gratis bij aankoop van 2 Unox actieartikelen",
         "category": "",
@@ -900,18 +600,6 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Jumbo basis maaltijd-, groene of lunchsalades",
-        "productInfo": "2 schalen à 250-450 gram",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA1/Jumbo%20Basis%20Maaltijd-%20Groene-Lunchsalades_280px.png",
-        "deal": "2 voor € 5,00 ",
-        "price": 0,
-        "dateStart": "2022-01-04",
-        "dateEnd": "2022-02-01",
-        "link": "https://jumbo.com/aanbiedingen/2788012-C-1",
-        "shop": "Jumbo"
-    },
-    {
         "product": "Jumbo maaltijdpakket",
         "productInfo": "Alle soorten\nPer doosje",
         "category": "",
@@ -921,18 +609,6 @@
         "dateStart": "2022-02-01",
         "dateEnd": "2022-03-01",
         "link": "https://jumbo.com/aanbiedingen/9215045-A-1",
-        "shop": "Jumbo"
-    },
-    {
-        "product": "Campina vla",
-        "productInfo": "Alle sooten\n2 pakken à 1 liter",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA1/Campina%20Vla_280px.png",
-        "deal": "2 voor € 2,50",
-        "price": 0,
-        "dateStart": "2022-01-04",
-        "dateEnd": "2022-02-01",
-        "link": "https://jumbo.com/aanbiedingen/2788021-C-1",
         "shop": "Jumbo"
     },
     {
@@ -960,30 +636,6 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Unox soep in blik",
-        "productInfo": "2 blikken à 800 ml",
-        "category": "kant-en-klaar",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA1/Unox%20Soep%20in%20blik_280px.png",
-        "deal": "2 voor € 3,50",
-        "price": 0,
-        "dateStart": "2022-01-04",
-        "dateEnd": "2022-02-01",
-        "link": "https://jumbo.com/aanbiedingen/2787001-C-1",
-        "shop": "Jumbo"
-    },
-    {
-        "product": "Unox Rookworst",
-        "productInfo": "2 verpakkingen à 250-285 gram",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA1/Unox%20Rookworst_280px.png",
-        "deal": "2 voor € 4,50",
-        "price": 0,
-        "dateStart": "2022-01-04",
-        "dateEnd": "2022-02-01",
-        "link": "https://jumbo.com/aanbiedingen/2787002-C-1",
-        "shop": "Jumbo"
-    },
-    {
         "product": "HAK appelmoes of Groenten in pot of stazak",
         "productInfo": "3 potten of stazakken",
         "category": "groente",
@@ -996,18 +648,6 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Optimel Drink",
-        "productInfo": "3 pakken à 1 liter",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA1/Optimel%20Drink_280px.png",
-        "deal": "3 voor € 3,00",
-        "price": 0,
-        "dateStart": "2022-01-04",
-        "dateEnd": "2022-02-01",
-        "link": "https://jumbo.com/aanbiedingen/2788025-C-1",
-        "shop": "Jumbo"
-    },
-    {
         "product": "Jumbo verse maaltijd of ovenmaaltijd",
         "productInfo": "2 schalen à 350-450 gram",
         "category": "kant-en-klaar",
@@ -1017,30 +657,6 @@
         "dateStart": "2022-02-01",
         "dateEnd": "2022-03-01",
         "link": "https://jumbo.com/aanbiedingen/9215036-C-1",
-        "shop": "Jumbo"
-    },
-    {
-        "product": "Dr. Oetker Casa di Mama",
-        "productInfo": "Alle soorten\n2 verpakkingen à 390-435 gram",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA1/Dr%20Oetker%20Casa%20Di%20Mama_280px.png",
-        "deal": "2 voor € 4,50",
-        "price": 0,
-        "dateStart": "2022-01-04",
-        "dateEnd": "2022-02-01",
-        "link": "https://jumbo.com/aanbiedingen/2788026-C-1",
-        "shop": "Jumbo"
-    },
-    {
-        "product": "Speciaalbieren van Brand, Hertog Jan, Grolsch, Grimbergen, Lagunitas of Paulaner",
-        "productInfo": "2 verpakkingen met 2, 4 of 6 flesjes of blikjes of losse flesjes of blikjes à 30-50 cl\nM.u.v. alcoholvrij, Radler, geschenksets en geschenkflessen",
-        "category": "bier",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA1/Speciaalbieren%20Brand-Hertog%20Jan-Grolsch-Grimbergen-Lagunitas-Paulaner_280px.png",
-        "deal": "2e halve prijs",
-        "price": 0,
-        "dateStart": "2022-01-04",
-        "dateEnd": "2022-02-01",
-        "link": "https://jumbo.com/aanbiedingen/2786001-B-1",
         "shop": "Jumbo"
     },
     {
@@ -1068,18 +684,6 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Royal Club of Rivella",
-        "productInfo": "2 flessen à 1 liter",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA1/Royal%20Club-Rivella_280px.png",
-        "deal": "2 voor € 2,00",
-        "price": 0,
-        "dateStart": "2022-01-04",
-        "dateEnd": "2022-02-01",
-        "link": "https://jumbo.com/aanbiedingen/2786013-C-1",
-        "shop": "Jumbo"
-    },
-    {
         "product": "Danio Romige Kwark of Vegan",
         "productInfo": "2 verpakkingen à 350-450 gram",
         "category": "",
@@ -1089,18 +693,6 @@
         "dateStart": "2022-02-01",
         "dateEnd": "2022-03-01",
         "link": "https://jumbo.com/aanbiedingen/9215042-C-1",
-        "shop": "Jumbo"
-    },
-    {
-        "product": "Lay's Superchips, Bugles of Cheetos Chipito",
-        "productInfo": "3 zakken Lay's Superchips à 280-300 gram, Bugles à 180 gram of Cheetos Chipito à 170 gram",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA1/Lays-Bugles-Cheetos%20Chipito_280px.png",
-        "deal": "3 voor € 5,00",
-        "price": 0,
-        "dateStart": "2022-01-04",
-        "dateEnd": "2022-02-01",
-        "link": "https://jumbo.com/aanbiedingen/2787009-C-1",
         "shop": "Jumbo"
     },
     {
@@ -1116,18 +708,6 @@
         "shop": "Jumbo"
     },
     {
-        "product": "HAK appelmoes of groenten in pot",
-        "productInfo": "4 potten à 330-370 gram",
-        "category": "groente",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA1/HAK%20Appelmoes-Groenten%20in%20pot_280px.png",
-        "deal": "4 voor € 3,00",
-        "price": 0,
-        "dateStart": "2022-01-04",
-        "dateEnd": "2022-02-01",
-        "link": "https://jumbo.com/aanbiedingen/2787003-C-1",
-        "shop": "Jumbo"
-    },
-    {
         "product": "Amstel, Grolsch, Veltins of Warsteiner pils blik",
         "productInfo": "2 verpakkingen met 6 blikjes à 33-50 cl of losse blikken à 50 cl\nM.u.v. alcoholvrij",
         "category": "bier",
@@ -1137,18 +717,6 @@
         "dateStart": "2022-02-01",
         "dateEnd": "2022-03-01",
         "link": "https://jumbo.com/aanbiedingen/9213016-B-1",
-        "shop": "Jumbo"
-    },
-    {
-        "product": "Chocomel of Fristi",
-        "productInfo": "Houdbaar\n2 pakken à 1 liter",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA1/Chocomel-Fristi_280px.png",
-        "deal": "2 voor € 2,00",
-        "price": 0,
-        "dateStart": "2022-01-04",
-        "dateEnd": "2022-02-01",
-        "link": "https://jumbo.com/aanbiedingen/2786008-C-1",
         "shop": "Jumbo"
     },
     {
@@ -1188,30 +756,6 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Beckers Oven Snacks",
-        "productInfo": "Alle oven snacks",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA1/Beckers.png",
-        "deal": "2e halve prijs",
-        "price": 0,
-        "dateStart": "2022-01-04",
-        "dateEnd": "2022-02-01",
-        "link": "https://jumbo.com/aanbiedingen/2870011-B-1",
-        "shop": "Jumbo"
-    },
-    {
-        "product": "Oatly Haverdrank ongekoeld",
-        "productInfo": "0,5 of 1 liter",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA1/Oatly.png",
-        "deal": "2e halve prijs",
-        "price": 0,
-        "dateStart": "2022-01-04",
-        "dateEnd": "2022-02-01",
-        "link": "https://jumbo.com/aanbiedingen/2870007-B-1",
-        "shop": "Jumbo"
-    },
-    {
         "product": "Leffe, Karmeliet, Affligem, Cornet of Grolsch Speciaalbieren",
         "productInfo": "Alle soorten\n2 verpakkingen\nM.u.v. Radler, kratten of geschenkverpakkingen",
         "category": "bier",
@@ -1236,18 +780,6 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Lipton Ice Tea Sparkling of Green",
-        "productInfo": "4-pack",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Kies%20&%20mix%202022/Lipton-green-sparkling.png",
-        "deal": "3+1 gratis",
-        "price": 0,
-        "dateStart": "2017-01-17",
-        "dateEnd": "2022-02-01",
-        "link": "https://jumbo.com/aanbiedingen/sa01_icetea",
-        "shop": "Jumbo"
-    },
-    {
         "product": "Jumbo verzorgingsproducten",
         "productInfo": "Jumbo Elke Dag Shampoo Heren 500ml, Jumbo Glans Shampoo 500ml, Jumbo Cremespoeling Moroccan Argan Oil 500ml, Jumbo Gezicht Nachtcreme 50ml of Jumbo Gezicht Dagcreme 50ml\n2 verpakkingen",
         "category": "",
@@ -1257,42 +789,6 @@
         "dateStart": "2022-01-04",
         "dateEnd": "2022-02-22",
         "link": "https://jumbo.com/aanbiedingen/sa01_verzorging",
-        "shop": "Jumbo"
-    },
-    {
-        "product": "Taft, Schwarzkopf, Fa, Nature Box en Syoss",
-        "productInfo": "Diverse soorten",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA1/Taft.png",
-        "deal": "50% korting",
-        "price": 0,
-        "dateStart": "2022-01-04",
-        "dateEnd": "2022-02-01",
-        "link": "https://jumbo.com/aanbiedingen/2870008-B-1",
-        "shop": "Jumbo"
-    },
-    {
-        "product": "Stift Altenburg",
-        "productInfo": "Gruner Veltliner en Blauer Zweigelt\nFles 750 ml",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA1/Stifta.png",
-        "deal": "1 voor € 7,99",
-        "price": 0,
-        "dateStart": "2022-01-04",
-        "dateEnd": "2022-02-01",
-        "link": "https://jumbo.com/aanbiedingen/2870009-A-1",
-        "shop": "Jumbo"
-    },
-    {
-        "product": "Centrum Vitamines",
-        "productInfo": "Alle soorten\n2 verpakkingen",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA1/Centrum.png",
-        "deal": "1+1 gratis",
-        "price": 0,
-        "dateStart": "2022-01-04",
-        "dateEnd": "2022-02-01",
-        "link": "https://jumbo.com/aanbiedingen/2870002-B-1",
         "shop": "Jumbo"
     },
     {
@@ -1308,54 +804,6 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Lipton Voordeel",
-        "productInfo": "Diverse grootverpakkingen",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2021/Seizoen/SA9/SA9-Lipton.png",
-        "deal": "10% korting",
-        "price": 0,
-        "dateStart": "2020-03-17",
-        "dateEnd": "2022-02-01",
-        "link": "https://jumbo.com/aanbiedingen/sa01_lipton",
-        "shop": "Jumbo"
-    },
-    {
-        "product": "Huishoud, Cosmetica & Baby Voordeel",
-        "productInfo": "Dove, Neutral, Glorix, SUN, Andy, Axe, Lifebuoy en Robijn grootverpakkingen",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2021/UL-Huishoud-Axe-Baby.png",
-        "deal": "10% korting",
-        "price": 0,
-        "dateStart": "2020-03-17",
-        "dateEnd": "2022-02-01",
-        "link": "https://jumbo.com/aanbiedingen/sa01_axe",
-        "shop": "Jumbo"
-    },
-    {
-        "product": "Huishoud & Baby Grootverpakkingen",
-        "productInfo": "Zwitsal billendoekjes of luiers grootverpakkingen of Robijn vloeibaar wasmiddel color 60 wasbeurten",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2021/Seizoen/SA12/Online%20only/UL-Huishoud-Baby.png",
-        "deal": "30% korting",
-        "price": 0,
-        "dateStart": "2020-03-17",
-        "dateEnd": "2022-02-01",
-        "link": "https://jumbo.com/aanbiedingen/sa01_zwitsal",
-        "shop": "Jumbo"
-    },
-    {
-        "product": "Luxe groene planten",
-        "productInfo": "Potmaat 17 cm\nPer stuk",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA1/Luxe%20Groene%20Planten_280px.png",
-        "deal": "1 voor € 8,00",
-        "price": 0,
-        "dateStart": "2021-12-07",
-        "dateEnd": "2022-02-01",
-        "link": "https://jumbo.com/aanbiedingen/sa01_groenmix",
-        "shop": "Jumbo"
-    },
-    {
         "product": "Mixed Assortiment Heinz",
         "productInfo": "Mixed Assortiment\nPer twee verpakkingen",
         "category": "",
@@ -1365,18 +813,6 @@
         "dateStart": "2022-02-01",
         "dateEnd": "2022-03-01",
         "link": "https://jumbo.com/aanbiedingen/9234017-B-1",
-        "shop": "Jumbo"
-    },
-    {
-        "product": "Sonnema Berenburg, Gorter Jachtbitter of Olifant Jonge jenever",
-        "productInfo": "Fles 1 liter",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA1/Slijterij_Sonnema-Gorter%20Jachtbitter_280px.png",
-        "deal": "20% korting",
-        "price": 0,
-        "dateStart": "2022-01-04",
-        "dateEnd": "2022-02-01",
-        "link": "https://jumbo.com/aanbiedingen/2786012-B-1",
         "shop": "Jumbo"
     },
     {
@@ -1401,18 +837,6 @@
         "dateStart": "2022-02-01",
         "dateEnd": "2022-03-01",
         "link": "https://jumbo.com/aanbiedingen/9234019-B-1",
-        "shop": "Jumbo"
-    },
-    {
-        "product": "Johnnie Walker Whisky, Gordons Gin, Smirnoff Red Vodka of Seedl",
-        "productInfo": "Fles 700 ml",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA1/Gordon%20officieel.png",
-        "deal": "25% korting",
-        "price": 0,
-        "dateStart": "2022-01-04",
-        "dateEnd": "2022-02-01",
-        "link": "https://jumbo.com/aanbiedingen/2786011-B-1",
         "shop": "Jumbo"
     },
     {
@@ -4036,8 +3460,8 @@
         "productInfo": "",
         "category": "",
         "image": "https://static.ah.nl/static/product/AHI_43545239373034343738_1_200x200_JPG.JPG",
-        "deal": "nu voor 2.00",
-        "price": 2,
+        "deal": "nu voor 2.20",
+        "price": 2.2,
         "dateStart": "2022-02-06",
         "dateEnd": "2022-02-06",
         "link": "https://ah.nl/bonus/groep/430082?week=5",
@@ -4125,18 +3549,6 @@
         "dateStart": "2022-02-06",
         "dateEnd": "2022-02-06",
         "link": "https://ah.nl/bonus/groep/-12723?week=5",
-        "shop": "AH"
-    },
-    {
-        "product": "Valdivieso",
-        "productInfo": "Bijv. Valdivieso Chardonnay - Fles",
-        "category": "",
-        "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD519121?rendition=200px&fileType=binary",
-        "deal": "nu voor 4.99",
-        "price": 4.99,
-        "dateStart": "2022-02-06",
-        "dateEnd": "2022-02-06",
-        "link": "https://ah.nl/bonus/groep/-12724?week=5",
         "shop": "AH"
     },
     {
@@ -5016,18 +4428,6 @@
         "shop": "Lidl"
     },
     {
-        "product": "Tulpen",
-        "productInfo": "",
-        "category": "",
-        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/714741714/gallery/preview/xs/714741714.jpg",
-        "deal": "op=op",
-        "price": "",
-        "dateStart": "",
-        "dateEnd": "",
-        "link": "https://www.lidl.nl/p/tulpen/p714741714",
-        "shop": "Lidl"
-    },
-    {
         "product": "Bloembollen in pot",
         "productInfo": "per stuk",
         "category": "",
@@ -5049,6 +4449,18 @@
         "dateStart": "",
         "dateEnd": "",
         "link": "https://www.lidl.nl/p/boom-voor-vogels/p157102",
+        "shop": "Lidl"
+    },
+    {
+        "product": "Tulpen",
+        "productInfo": "3 bossen",
+        "category": "",
+        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/71474171402/gallery/preview/xs/71474171402.jpg",
+        "deal": "55% korting",
+        "price": "4",
+        "dateStart": "",
+        "dateEnd": "",
+        "link": "https://www.lidl.nl/p/tulpen/p71474171402",
         "shop": "Lidl"
     },
     {
