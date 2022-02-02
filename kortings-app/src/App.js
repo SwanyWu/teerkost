@@ -4,7 +4,13 @@ import Offers from './offers.json';
 import Product from './Product';
 import NoProduct from "./NoProduct";
 
-const expandFilter = () => {
+const expandFilter = (e) => {
+  if(e.target.textContent === "FILTER") {
+    e.target.textContent = "X"
+  }
+  else {
+    e.target.textContent = "FILTER"
+  }
   var dialog = document.getElementById("filter-dialog");
   dialog.classList.toggle('toggle-on');
 }
