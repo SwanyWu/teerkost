@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import './App.css';
 import Offers from './offers.json';
 import Product from './Product';
+import NoProduct from "./NoProduct";
 
 const expandFilter = () => {
   var dialog = document.getElementById("filter-dialog");
@@ -9,7 +10,7 @@ const expandFilter = () => {
 }
 
 function App() {
-
+  
   const toggleFilterClass = (clickedElement, type) => {
     if(type === 'offer') {
       var otherElementOffer = document.getElementById('active-offer')
@@ -62,7 +63,6 @@ function App() {
     var activeShop = document.getElementById("active-shop");
     var activeOffer = document.getElementById("active-offer");
     var activeCategory = document.getElementById("active-category");
-    // var activeSearchString = document.getElementById("search").value;
 
     var shopFilter = object => object.shop !== null;
     var offerFilter = object => object.deal !== null;
@@ -83,7 +83,30 @@ function App() {
 
     var filtered = Offers.filter(shopFilter).filter(offerFilter).filter(categoryFilter)
     
+    setFilterDescription(activeShopValue, activeOfferValue, activeCategoryValue)
+
     setSelectedOffers(filtered);
+  }
+
+  const setFilterDescription = (shopValue, offerValue, categoryValue) => {
+    var descriptionString = ""
+    if(offerValue != null) {
+      descriptionString = descriptionString.concat(offerValue)
+    }
+    else {
+      descriptionString = descriptionString.concat("Alle korting ")
+    }
+    if(categoryValue != null) {
+      descriptionString = descriptionString.concat(" op " + categoryValue)
+    }
+    if(shopValue != null) {
+      descriptionString = descriptionString.concat(" bij de " + shopValue)
+    }
+    else {
+      descriptionString = descriptionString.concat(" bij de Jumb, Lidl en AH")
+    }
+
+    document.getElementById('filter-description').textContent = descriptionString
   }
 
   const filterOffer = (e) => {
@@ -118,14 +141,14 @@ function App() {
               <span onClick={filterShop} data-shop="Lidl">Lidl</span>
             </div>
             <div className="filter-offer">
-              <span onClick={filterOffer} data-offer="1+1 gratis">1+1 gratis</span>
-              <span onClick={filterOffer} data-offer="2+1 gratis">2+1 gratis</span>
-              <span onClick={filterOffer} data-offer="3+1 gratis">3+1 gratis</span>
-              <span onClick={filterOffer} data-offer="10% korting">10% korting</span>
-              <span onClick={filterOffer} data-offer="25% korting">25% korting</span>
-              <span onClick={filterOffer} data-offer="30% korting">30% korting</span>
-              <span onClick={filterOffer} data-offer="40% korting">40% korting</span>
-              <span onClick={filterOffer} data-offer="50% korting">50% korting</span>
+              <span onClick={filterOffer} data-offer="1+1 gratis">1+1</span>
+              <span onClick={filterOffer} data-offer="2+1 gratis">2+1</span>
+              <span onClick={filterOffer} data-offer="3+1 gratis">3+1</span>
+              <span onClick={filterOffer} data-offer="10% korting">10%</span>
+              <span onClick={filterOffer} data-offer="25% korting">25%</span>
+              <span onClick={filterOffer} data-offer="30% korting">30%</span>
+              <span onClick={filterOffer} data-offer="40% korting">40%</span>
+              <span onClick={filterOffer} data-offer="50% korting">50%</span>
               <span onClick={filterOffer} data-offer="2e halve prijs">2e halve prijs</span>
             </div>
             <div className="filter-cat">
@@ -140,10 +163,11 @@ function App() {
         </div>
         <div className="filter-button" onClick={expandFilter}>FILTER</div>
       </div>
+      <div id="filter-description">Alle korting bij Jumbo, Lidl en AH</div>
       <div className="flex-container">
-      {selectedOffers.map(function(name, index){
+      { selectedOffers.length > 0 ? selectedOffers.map(function(name, index){
         return <Product key={index} item={name}/>;
-      })}
+      }) : <NoProduct /> }
       </div>
     </div>
   );
