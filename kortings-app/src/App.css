@@ -294,7 +294,6 @@ i.icon {
   }
 }
 
-
 .shop-ah {
   background: #E0EEFF;
   color: #0c237b;
@@ -350,14 +349,13 @@ i.icon {
   background: #fdd662;
   color: #71580f;
   font-weight: 800;
-  line-height: 40px;
+  line-height: 20px;
   text-align: center;
   font-size: .7em;
-  padding: 5px;
+  padding: 5px 10px 5px 10px;
   right: 5px;
-  top: -20px;
-  width: 40px;
-  border-radius: 100px;
+  top: -15px;
+  border-radius: 8px;  
 }
 
 .product-date-end::before {
@@ -388,11 +386,11 @@ i.icon {
   font-weight: 800;
   text-align: center;
   font-size: .7em;
-  width: 50px;
   position: absolute;
   margin: 0px 0px 0px 0px;
   padding: 5px 10px 5px 10px;
   text-transform: uppercase;
+  box-shadow: inset 0px -1px 0px #00000052;
 }
 
 .product-shop.Lidl {   
