@@ -39,15 +39,15 @@ body, html {
 
 #filter-description {
   text-align: center;
-  padding: 10px 10px 0px 10px;
-  color: #FFF;
-  text-shadow: 1px 1px #b25656;
-  font-weight: 800;
+  padding: 20px 120px 20px 10px;
+  color: #B25656;
+  font-weight: 400;
   font-size: 1.5em;
+  background: #FFF;
 }
 
-#filter-description::after {
-  content: " 🛒";
+b.label {
+  /* niks met label */
 }
 
 .filter {
@@ -60,7 +60,7 @@ body, html {
 #filter-dialog {
   display: none;
   background: #0009;
-  padding: 15px 0px 45px 15px;
+  padding: 15px 0px 0px 15px;
   position: fixed;
   bottom: 0px;
   border-top-left-radius: 15px;
@@ -78,7 +78,6 @@ body, html {
 .filter-wrap {
   max-width: 1000px;
   margin: 0px auto;
-  padding-bottom: 10px;
 }
 
 .toggle-on {
@@ -192,27 +191,29 @@ i.icon {
 }
 
 .filter-button {
-  background: #FFF;
-  color: #b25656;
+  background: #F08080;
+  color: #fff;
   padding: 0px 15px 0px 15px;
-  line-height: 45px;
+  line-height: 55px;
   font-weight: 800;
   text-align: center;
-  cursor:pointer;
+  cursor: pointer;
   position: fixed;
-  bottom: 0px;
+  top: 0px;
   right: 0px;
   z-index: 900;
-  margin: 0px 10px 10px 0px;
-  border-radius: 30px;
+  margin: 10px 10px 10px 0px;
+  border-radius: 40px;
   animation: popUp 4s;
-  box-shadow: 2px 2px 0px 0px #00000075, 0px 0px 25px -15px #000;
+  box-shadow: 2px 2px 0px 0px #b25656;
+  text-shadow: 0px 1px #b25656;
+  min-width: 25px;
 }
 
 @keyframes popUp {
-  0% { bottom: -100px;}
-  75% { bottom: -100px;}
-  100% { bottom: 0px;}
+  0% { top: -100px;}
+  75% { top: -100px;}
+  100% { top: 0px;}
 }
 
 .info  {

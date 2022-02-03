@@ -97,22 +97,22 @@ function App() {
   const setFilterDescription = (shopValue, offerValue, categoryValue) => {
     var descriptionString = ""
     if(offerValue != null) {
-      descriptionString = descriptionString.concat(offerValue)
+      descriptionString = descriptionString.concat("<b class='label'>" + offerValue + "</b> ")
     }
     else {
-      descriptionString = descriptionString.concat("Alle korting ")
+      descriptionString = descriptionString.concat("<b class='label'>Alle korting</b> ")
     }
     if(categoryValue != null) {
-      descriptionString = descriptionString.concat(" op " + categoryValue)
+      descriptionString = descriptionString.concat(" op <b class='label'>" + categoryValue + "</b>")
     }
     if(shopValue != null) {
-      descriptionString = descriptionString.concat(" bij de " + shopValue)
+      descriptionString = descriptionString.concat(" bij de <b class='label'>" + shopValue + "</b>")
     }
     else {
-      descriptionString = descriptionString.concat(" bij de Jumbo, Lidl en AH")
+      descriptionString = descriptionString.concat(" bij de <b class='label'>Jumbo, Lidl en AH</b>")
     }
 
-    document.getElementById('filter-description').textContent = descriptionString
+    document.getElementById('filter-description').innerHTML = descriptionString
   }
 
   const filterOffer = (e) => {
@@ -168,9 +168,9 @@ function App() {
             {/* <div className="filter-search"><input id="search" onKeyPress={searchProducts} placeholder="..." type="text"/></div> */}
           </div>
         </div>
-        <div className="filter-button" onClick={expandFilter}>FILTER</div>
       </div>
-      <div id="filter-description">Alle korting bij Jumbo, Lidl en AH</div>
+      <div id="filter-description"><b className="label">Alle korting</b> bij <b className="label">Jumbo, Lidl en AH</b></div>
+      <div className="filter-button" onClick={expandFilter}>FILTER</div>
       <div className="flex-container">
       { selectedOffers.length > 0 ? selectedOffers.map(function(name, index){
         return <Product key={index} item={name}/>;
