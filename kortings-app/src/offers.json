@@ -1,17 +1,5 @@
 [
     {
-        "product": "Hamburgers",
-        "productInfo": "Hamburger 4 stuks, Black angus burger 2 of 4 stuks, New York 2 stuks of Angus burger smokey 2 stuks\nVoeg de broodjes zelf toe aan je winkelmandje",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Weekaanbiedingen/Week%205/Hamburgers.png",
-        "deal": "Gratis hamburgerbroodjes",
-        "price": 0,
-        "dateStart": "2022-02-01",
-        "dateEnd": "2022-02-08",
-        "link": "https://jumbo.com/aanbiedingen/9219019-D-1",
-        "shop": "Jumbo"
-    },
-    {
         "product": "Campina Kwark",
         "productInfo": "2 verpakkingen à 500 gram",
         "category": "",
@@ -201,6 +189,18 @@
         "dateStart": "2022-02-01",
         "dateEnd": "2022-02-08",
         "link": "https://jumbo.com/aanbiedingen/9216010-B-1",
+        "shop": "Jumbo"
+    },
+    {
+        "product": "Hamburgers",
+        "productInfo": "Hamburger 4 stuks, Black angus burger 2 of 4 stuks, New York 2 stuks of Angus burger smokey 2 stuks\nVoeg de broodjes zelf toe aan je winkelmandje",
+        "category": "",
+        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Weekaanbiedingen/Week%205/Hamburgers.png",
+        "deal": "Gratis hamburgerbroodjes",
+        "price": 0,
+        "dateStart": "2022-02-01",
+        "dateEnd": "2022-02-08",
+        "link": "https://jumbo.com/aanbiedingen/9219019-D-1",
         "shop": "Jumbo"
     },
     {
