@@ -432,6 +432,18 @@
         "shop": "Jumbo"
     },
     {
+        "product": "Kies & Mix tulpen en rozen",
+        "productInfo": "Diverse soorten",
+        "category": "",
+        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Kies%20&%20mix%202022/KM%20tulpen%20en%20rozen.png",
+        "deal": "2 voor € 5,00",
+        "price": 0,
+        "dateStart": "2022-01-02",
+        "dateEnd": "2022-02-04",
+        "link": "https://jumbo.com/aanbiedingen/3100008-C-1",
+        "shop": "Jumbo"
+    },
+    {
         "product": "Mandarijnen of Pink Lady",
         "productInfo": "Mandarijnen net 1 kilo, Pink Lady verpakt 4 stuks",
         "category": "fruit",
@@ -477,18 +489,6 @@
         "dateStart": "2022-02-01",
         "dateEnd": "2022-03-01",
         "link": "https://jumbo.com/aanbiedingen/9215025-C-1",
-        "shop": "Jumbo"
-    },
-    {
-        "product": "Kies & Mix tulpen en rozen",
-        "productInfo": "Diverse soorten",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Kies%20&%20mix%202022/KM%20tulpen%20en%20rozen.png",
-        "deal": "2 voor € 5,00",
-        "price": 0,
-        "dateStart": "2022-01-02",
-        "dateEnd": "2022-02-04",
-        "link": "https://jumbo.com/aanbiedingen/3100008-C-1",
         "shop": "Jumbo"
     },
     {
@@ -891,7 +891,7 @@
         "product": "Wijnvoordeel",
         "productInfo": "Diverse soorten",
         "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2021/Grootverpakking%20Los%20Gansos%20-%206%20flessen-.png",
+        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA2/Wijnvoordeel.png",
         "deal": "10% korting",
         "price": 0,
         "dateStart": "2020-03-17",
