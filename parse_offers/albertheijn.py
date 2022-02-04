@@ -22,13 +22,26 @@ def returnOffers():
         offer.update({"category": category})
 
         offer.update({"shop": SHOP})
+
+        calculateDeal = 0
         if('price' in i):
-            offer.update({"price": i['price']['now']})
+            priceNow = i['price']['now']
+            try:
+                priceOld = i['price']["was"]
+                calculateDeal = int((1 - (float(priceNow)/float(priceOld))) * 100)
+            except KeyError:
+                print("Geen oude prijs gevonden, we berekenen geen korting.")
+
+            offer.update({"price": priceNow})
         
+
         if('shields' in i):
             shield = i['shields'][0]['text']
-            toString = " ".join(str(x) for x in shield)
-            offer.update({"deal": toString })
+            dealString = " ".join(str(x) for x in shield)
+            if "nu voor" in dealString and calculateDeal != 0: # indien "nu voor" wordt de korting in de deal gezet
+                offer.update({"deal": str(calculateDeal) + "% korting"})
+            else:
+                offer.update({"deal": dealString })
 
         offer.update({"image": i['image']['src']})
 
