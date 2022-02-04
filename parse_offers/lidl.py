@@ -78,10 +78,10 @@ def returnOffers():
 
         # find information about the discount and add it to field "deal"
         if (priceLabel.find("gratis") != -1) or (priceLabel.find("korting") != -1):
-            offer.update({"deal": priceLabel}) # most often contains the discount info
+            offer.update({"deal": priceLabel.replace(".-", "")}) # most often contains the discount info
         else:
             if priceLabelOnImage != "":
-                offer.update({"deal": priceLabelOnImage}) # sometimes contains the discount
+                offer.update({"deal": priceLabelOnImage.replace(".-", "")}) # sometimes contains the discount
             elif oldPrice != "" and price != "":
                 oldPrice = oldPrice.replace(".-", "")
                 price = price.replace(".-", "")
