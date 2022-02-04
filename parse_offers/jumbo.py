@@ -28,7 +28,13 @@ def returnOffers():
 
         offer.update({"shop": SHOP})
 
-        offer.update({"deal": i['tag']})
+        deal = i['tag']
+        offer.update({"deal": deal})
+        if "voor € " in deal: # indien "voor €" wordt gevonden kan de prijs bepaald worden
+            deal = deal.split("voor € ")
+            price = deal[1]
+            offer.update({"price": price.replace(",", ".")})
+
         offer.update({"image": i['promotionImage']['main']})
 
         startDate = datetime.fromtimestamp(i['fromDate']/1000).strftime('%Y-%m-%d')
