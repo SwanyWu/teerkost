@@ -351,8 +351,8 @@ i.icon {
 .product-price { 
   display: inline-block;
   position: absolute;
-  background: #fdd662;
-  color: #71580f;
+  background: #fffb01;
+  color: #646200;
   font-weight: 800;
   line-height: 20px;
   text-align: center;
@@ -360,7 +360,8 @@ i.icon {
   padding: 5px 10px 5px 10px;
   right: 5px;
   top: -15px;
-  border-radius: 8px;  
+  border-radius: 8px;
+  box-shadow: 0px 0px 0px 5px #fff;
 }
 
 .product-date-end::before {
