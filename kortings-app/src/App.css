@@ -48,10 +48,39 @@ body, html {
   position: fixed;
   width: calc(100% - 130px);
   z-index: 900;
+  cursor: pointer;
 }
 
 b.label {
-  /* niks met label */
+  display: inline-block;
+  padding: 0px 5px 0px 5px;
+  border-radius: 8px;
+  background: #ededed;
+  color: #696969;
+  animation: pop 500ms;
+}
+
+@keyframes pop {
+  0% { transform: scale(1); }
+  50% { transform: scale(.97); }
+  100% { transform: scale(1);}
+}
+
+
+b.label-shop-jumbo {
+  background: #eeb717;
+  color: #FFF;
+  text-shadow: 1px 1px #000;
+}
+
+b.label-shop-ah {
+  background: #00ade6;
+  color: #FFF;
+}
+
+b.label-shop-lidl {
+  background: #fff000;
+  color: #0050aa;
 }
 
 .filter {
@@ -194,7 +223,7 @@ i.icon {
   box-shadow: inset 0px 0px 0px 3px #000;
 }
 
-.filter-button {
+#filter-button {
   background: #F08080;
   color: #fff;
   padding: 0px 10px 0px 10px;
@@ -208,16 +237,9 @@ i.icon {
   z-index: 900;
   margin: 10px 10px 10px 0px;
   border-radius: 40px;
-  animation: popUp 4s;
   box-shadow: 2px 2px 0px 0px #b25656;
   text-shadow: 0px 1px #b25656;
   min-width: 25px;
-}
-
-@keyframes popUp {
-  0% { top: -100px;}
-  75% { top: -100px;}
-  100% { top: 0px;}
 }
 
 .info  {

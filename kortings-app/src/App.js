@@ -5,11 +5,11 @@ import Product from './Product';
 import NoProduct from "./NoProduct";
 
 const expandFilter = (e) => {
-  if(e.target.textContent === "FILTER") {
-    e.target.textContent = "X"
+  if(document.getElementById('filter-button').textContent === "FILTER") {
+    document.getElementById('filter-button').textContent = "X"
   }
   else {
-    e.target.textContent = "FILTER"
+    document.getElementById('filter-button').textContent = "FILTER"
   }
   var dialog = document.getElementById("filter-dialog");
   dialog.classList.toggle('toggle-on');
@@ -106,10 +106,10 @@ function App() {
       descriptionString = descriptionString.concat(" op <b class='label'>" + categoryValue + "</b>")
     }
     if(shopValue != null) {
-      descriptionString = descriptionString.concat(" bij de <b class='label'>" + shopValue + "</b>")
+      descriptionString = descriptionString.concat(" bij de <b class='label label-shop-"+ shopValue.toLowerCase() +"'>" + shopValue + "</b>")
     }
     else {
-      descriptionString = descriptionString.concat(" bij de <b class='label'>Jumbo, Lidl en AH</b>")
+      descriptionString = descriptionString.concat(" bij de <b class='label label-shop-jumbo'>Jumbo</b>, <b class='label label-shop-lidl'>Lidl</b> en <b class='label label-shop-ah'>AH</b>")
     }
 
     document.getElementById('filter-description').innerHTML = descriptionString
@@ -169,8 +169,8 @@ function App() {
           </div>
         </div>
       </div>
-      <div id="filter-description"><b className="label">Alle korting</b> bij <b className="label">Jumbo, Lidl en AH</b></div>
-      <div className="filter-button" onClick={expandFilter}>FILTER</div>
+      <div id="filter-description" onClick={expandFilter}><b className="label">Alle korting</b> bij <b className="label label-shop-jumbo">Jumbo</b>, <b className="label label-shop-lidl">Lidl</b> en <b className="label label-shop-ah">AH</b></div>
+      <div id="filter-button" onClick={expandFilter}>FILTER</div>
       <div className="flex-container">
       { selectedOffers.length > 0 ? selectedOffers.map(function(name, index){
         return <Product key={index} item={name}/>;
