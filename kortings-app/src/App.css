@@ -37,18 +37,21 @@ body, html {
   clip-path: polygon(50% 0%, 57.22% 6.71%, 66.23% 2.71%, 70.89% 11.40%, 80.71% 10.54%, 82.29% 20.27%, 91.86% 22.65%, 90.20% 32.37%, 98.47% 37.73%, 93.74% 46.38%, 99.83% 54.13%, 92.55% 60.78%, 95.79% 70.08%, 86.75% 74.01%, 86.79% 83.86%, 76.96% 84.64%, 73.80% 93.97%, 64.25% 91.51%, 58.23% 99.32%, 50% 93.89%, 41.77% 99.32%, 35.75% 91.51%, 26.20% 93.97%, 23.04% 84.64%, 13.21% 83.86%, 13.25% 74.01%, 4.21% 70.08%, 7.45% 60.78%, 0.17% 54.13%, 6.26% 46.38%, 1.53% 37.73%, 9.80% 32.37%, 8.14% 22.65%, 17.71% 20.27%, 19.29% 10.54%, 29.11% 11.40%, 33.77% 2.71%, 42.78% 6.71%);
 }
 
-#filter-description {
-  text-align: center;
-  padding: 15px 120px 15px 10px;
-  color: #B25656;
-  box-shadow: 0px 3px 0px 0px #8e2e2e82;
-  font-weight: 400;
-  font-size: 1.5em;
-  background: #FFF;
+header#header {
   position: fixed;
-  width: calc(100% - 130px);
-  z-index: 900;
+  text-align: center;
+  width: 100%;
+  box-shadow: 0px 3px 0px 0px #8e2e2e82;
+  background: #FFF;
+  z-index: 800;
+}
+
+#filter-description {
+  padding: 15px 10px 15px 10px;
+  color: #B25656;
+  font-weight: 400;
   cursor: pointer;
+  display: inline-block;
 }
 
 b.label {
@@ -224,19 +227,17 @@ i.icon {
 }
 
 #filter-button {
+  display: inline-block;
+  float: right;
   background: #F08080;
   color: #fff;
-  padding: 0px 10px 0px 10px;
-  line-height: 45px;
+  padding: 5px 10px 5px 10px;
   font-weight: 800;
   text-align: center;
   cursor: pointer;
-  position: fixed;
-  top: 0px;
-  right: 0px;
   z-index: 900;
   margin: 10px 10px 10px 0px;
-  border-radius: 40px;
+  border-radius: 8px;
   box-shadow: 2px 2px 0px 0px #b25656;
   text-shadow: 0px 1px #b25656;
   min-width: 25px;

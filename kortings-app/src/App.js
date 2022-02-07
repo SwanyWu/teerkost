@@ -169,8 +169,12 @@ function App() {
           </div>
         </div>
       </div>
-      <div id="filter-description" onClick={expandFilter}><b className="label">Alle korting</b> bij <b className="label label-shop-jumbo">Jumbo</b>, <b className="label label-shop-lidl">Lidl</b> en <b className="label label-shop-ah">AH</b></div>
-      <div id="filter-button" onClick={expandFilter}>FILTER</div>
+      <header id="header" onClick={expandFilter}>
+      <div id="filter-description">
+        <b className="label">Alle korting</b> bij <b className="label label-shop-jumbo">Jumbo</b>, <b className="label label-shop-lidl">Lidl</b> en <b className="label label-shop-ah">AH</b>
+      </div>
+      <div id="filter-button">FILTER</div>
+      </header>
       <div className="flex-container">
       { selectedOffers.length > 0 ? selectedOffers.map(function(name, index){
         return <Product key={index} item={name}/>;
