@@ -1,53 +1,5 @@
 [
     {
-        "product": "Pampers Baby Dry luiers",
-        "productInfo": "M.u.v. maxi en giga packs\n2 verpakkingen",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/EG%20schap%202022/Week%201/Pampers.png",
-        "deal": "2e halve prijs",
-        "price": 0,
-        "dateStart": "2022-01-05",
-        "dateEnd": "2022-03-01",
-        "link": "https://jumbo.com/aanbiedingen/2875001-B-1",
-        "shop": "Jumbo"
-    },
-    {
-        "product": "Palmolive",
-        "productInfo": "2 verpakkingen douchegel à 250 ml of vloeibare handzeep",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Weekaanbiedingen/Week%205/Palmolive_280px.png",
-        "deal": "2 voor € 3,00",
-        "price": "3.00",
-        "dateStart": "2022-02-01",
-        "dateEnd": "2022-02-15",
-        "link": "https://jumbo.com/aanbiedingen/9221002-C-1",
-        "shop": "Jumbo"
-    },
-    {
-        "product": "Nivea",
-        "productInfo": "2 verpakkingen gezichtsdoekjes, oogmakeupremover, micellair water, douchegel à 250 ml of deodorant à 200 ml",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Weekaanbiedingen/Week%205/Nivea.png",
-        "deal": "1+1 gratis",
-        "price": 0,
-        "dateStart": "2022-02-01",
-        "dateEnd": "2022-02-15",
-        "link": "https://jumbo.com/aanbiedingen/9221001-B-1",
-        "shop": "Jumbo"
-    },
-    {
-        "product": "Jumbo verzorgingsproducten",
-        "productInfo": "Jumbo Elke Dag Shampoo Heren 500ml, Jumbo Glans Shampoo 500ml, Jumbo Cremespoeling Moroccan Argan Oil 500ml, Jumbo Gezicht Nachtcreme 50ml of Jumbo Gezicht Dagcreme 50ml\n2 verpakkingen",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA1/Jumbo%20verzorging.png",
-        "deal": "1+1 gratis",
-        "price": 0,
-        "dateStart": "2022-01-04",
-        "dateEnd": "2022-02-22",
-        "link": "https://jumbo.com/aanbiedingen/sa01_verzorging",
-        "shop": "Jumbo"
-    },
-    {
         "product": "Campina Kwark",
         "productInfo": "2 verpakkingen à 500 gram",
         "category": "",
@@ -204,6 +156,18 @@
         "shop": "Jumbo"
     },
     {
+        "product": "Pampers Baby Dry luiers",
+        "productInfo": "M.u.v. maxi en giga packs\n2 verpakkingen",
+        "category": "",
+        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/EG%20schap%202022/Week%201/Pampers.png",
+        "deal": "2e halve prijs",
+        "price": 0,
+        "dateStart": "2022-01-05",
+        "dateEnd": "2022-03-01",
+        "link": "https://jumbo.com/aanbiedingen/2875001-B-1",
+        "shop": "Jumbo"
+    },
+    {
         "product": "Jumbo Racers, Harten Diefjes & Knapperige Hoola's Ui & Kruiden",
         "productInfo": "Alle soorten\n125 gram",
         "category": "",
@@ -240,6 +204,30 @@
         "shop": "Jumbo"
     },
     {
+        "product": "Palmolive",
+        "productInfo": "2 verpakkingen douchegel à 250 ml of vloeibare handzeep",
+        "category": "",
+        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Weekaanbiedingen/Week%205/Palmolive_280px.png",
+        "deal": "2 voor € 3,00",
+        "price": "3.00",
+        "dateStart": "2022-02-01",
+        "dateEnd": "2022-02-15",
+        "link": "https://jumbo.com/aanbiedingen/9221002-C-1",
+        "shop": "Jumbo"
+    },
+    {
+        "product": "Nivea",
+        "productInfo": "2 verpakkingen gezichtsdoekjes, oogmakeupremover, micellair water, douchegel à 250 ml of deodorant à 200 ml",
+        "category": "",
+        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Weekaanbiedingen/Week%205/Nivea.png",
+        "deal": "1+1 gratis",
+        "price": 0,
+        "dateStart": "2022-02-01",
+        "dateEnd": "2022-02-15",
+        "link": "https://jumbo.com/aanbiedingen/9221001-B-1",
+        "shop": "Jumbo"
+    },
+    {
         "product": "Baileys, Johnnie Walker Red Label Whisky, Captain Morgan Rum, Gordons Dry Gin of Smirnoff Red Vodka",
         "productInfo": "Fles 1 liter",
         "category": "",
@@ -249,6 +237,18 @@
         "dateStart": "2021-04-20",
         "dateEnd": "2022-02-08",
         "link": "https://jumbo.com/aanbiedingen/wa05_baileys",
+        "shop": "Jumbo"
+    },
+    {
+        "product": "Jumbo verzorgingsproducten",
+        "productInfo": "Jumbo Elke Dag Shampoo Heren 500ml, Jumbo Glans Shampoo 500ml, Jumbo Cremespoeling Moroccan Argan Oil 500ml, Jumbo Gezicht Nachtcreme 50ml of Jumbo Gezicht Dagcreme 50ml\n2 verpakkingen",
+        "category": "",
+        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA1/Jumbo%20verzorging.png",
+        "deal": "1+1 gratis",
+        "price": 0,
+        "dateStart": "2022-01-04",
+        "dateEnd": "2022-02-22",
+        "link": "https://jumbo.com/aanbiedingen/sa01_verzorging",
         "shop": "Jumbo"
     },
     {
@@ -434,7 +434,7 @@
     {
         "product": "Kies & Mix vlees, vis of vega",
         "productInfo": "Alle items met Kies en Mix sticker\n3 schalen",
-        "category": "",
+        "category": "vis",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA1/Kies%20en%20mix%20vlees%20vis%20vega%202.png",
         "deal": "3 voor 8,00 euro",
         "price": 0,
@@ -1382,7 +1382,7 @@
     {
         "product": "AH Snoepgroente tomaat 500 gram",
         "productInfo": "",
-        "category": "",
+        "category": "groente",
         "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD520931?rendition=200px&fileType=binary",
         "deal": "nu voor 2.49",
         "price": 2.49,
@@ -1442,7 +1442,7 @@
     {
         "product": "AH Snoepgroente tomaat schaal 250 gram",
         "productInfo": "",
-        "category": "",
+        "category": "groente",
         "image": "https://static.ah.nl/static/product/AHI_43545239363935393530_1_200x200_JPG.JPG",
         "deal": "nu voor 1.49",
         "price": 1.49,
@@ -2030,7 +2030,7 @@
     {
         "product": "Alle capsules voor Nespresso",
         "productInfo": "Bijv. L'Or Espresso lungo profondo - 3 pakken",
-        "category": "",
+        "category": "koffie",
         "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD520862?rendition=200px&fileType=binary",
         "deal": "2+1 gratis",
         "price": 12.98,
@@ -2426,7 +2426,7 @@
     {
         "product": "Tripel Karmeliet 4-pack",
         "productInfo": "",
-        "category": "",
+        "category": "bier",
         "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD520880?rendition=200px&fileType=binary",
         "deal": "25% korting",
         "price": 5.99,
@@ -2438,7 +2438,7 @@
     {
         "product": "Texels Skuumkoppe",
         "productInfo": "",
-        "category": "",
+        "category": "bier",
         "image": "https://static.ah.nl/static/product/AHI_43545239373338353736_1_200x200_JPG.JPG",
         "deal": "25% korting",
         "price": 1.34,
@@ -2450,7 +2450,7 @@
     {
         "product": "Texels Skuumkoppe 4-pack",
         "productInfo": "",
-        "category": "",
+        "category": "bier",
         "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD520883?rendition=200px&fileType=binary",
         "deal": "24% korting",
         "price": 5.29,
