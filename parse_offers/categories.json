@@ -4,14 +4,14 @@
         "keywords": [
             "bier", "bieren", "biermerken", "speciaalbier", "pils", "Heineken", "Radler", "speciaalbieren", 
             "Grolsch", "Amstel", "Bavaria", "Affligem", "Trappe", "Brand", "Dors", "Veltins","Dommelsch", "Alfa",
-            "Gulpener", "Westmalle", "perlenbacher", "hefeweizen", "kordaat", "tequilabier", "finkbrau", "oettinger", "argus",
+            "Gulpener", "Westmalle", "tripel", "cornet" ,"karmeliet", "skuumkoppe", "corona", "bud", "perlenbacher", "hefeweizen", "kordaat", "tequilabier", "finkbrau", "oettinger", "argus",
             "Leffe", "Corona", "Warsteiner", "Jupiler", "Weizen", "ipa", "Chouffe", "Jopen", "Afflichem"
         ]
     },
     {
         "name": "koffie",
         "keywords": [
-            "koffie", "koffiebonen", "snelfiltermaling", "koffiepads", "koffiecups","koffiecapsules", "Douwe Egberts", "Nescafé", "Lavazza", "segafredo", "illy"
+            "koffie", "koffiebonen", "snelfiltermaling", "koffiepads", "koffiecups","koffiecapsules", "Douwe Egberts", "nespresso", "espresso", "lungo", "Nescafé", "Lavazza", "segafredo", "illy"
         ]
     },
     {
@@ -19,7 +19,7 @@
         "keywords": [
             "broccoli", "broccoliroosjes", "bloemkool", "bloemkoolroosjes", "spruiten", "winterpeen", "bospeen", "wortel", "wortels", 
             "prei", "andijvie", "boerenkool", "spinazie",
-            "tomaten", "paprika", "avocado", "groenten", "groentemix","groente", "kookgroente", "kookgroenten","witlof", "stamppotgroenten", "roerbakgroente", "kool",
+            "tomaten", "paprika", "avocado", "snoepgroente", "groenten", "groentemix", "groente", "kookgroente", "kookgroenten","witlof", "stamppotgroenten", "roerbakgroente", "kool",
             "komkommer", "courgette", "aubergine", "spruitjes", "peulen", "haricot", "worteltjes", "champignons", "kastanjechampignons","puntpaprika",
             "salade ui", "bosui", "uien", "rucola", "rucolamelange", "sperziebonen", "ijsbergsla", "romaatje", "trostomaten",
             "hutspot", "zuurkool", "snijbonen", "bleekselderij", "knolselderij", "wokgroenten", "bieten", "maïs", "pastinaak",
@@ -30,7 +30,7 @@
     {
         "name": "vis",
         "keywords": [
-            "vissticks","scholfilet","schol", "heek", "heekfilets", "heekfilet", "surimi","gravad","kabeljauw", "gamba's", "dorade", "doradefilets", 
+            "vis", "vissticks","scholfilet","schol", "heek", "heekfilets", "heekfilet", "surimi","gravad","kabeljauw", "gamba's", "dorade", "doradefilets", 
             "doradefilet", "kabeljauwfilet","kabeljauwfilets", "kabeljauwhaas", "kabeljauwhaasjes","kibbeling", "lekkerbek",
             "pangasius", "pangasiusfilet", "zalm", "zalmburger", "zalmburgers", "zalmfilet", "zalmfilets", "ovenzalm", "zalmstaarten", "zalmstaart",
             "makreel", "makreelflakes", "makreelzijde", "rivierkreeftenvlees", "mosselen",
