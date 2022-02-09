@@ -68,7 +68,7 @@ def returnOffers():
         if linkElement != None:
             link = linkElement['href']
 
-        # collect and concat product information to put in the productInfo
+        # collect and concat product information from description and lower price label
         if description != "":
             concatDescription = description
         else:
@@ -99,9 +99,6 @@ def returnOffers():
         offer.update({"price": price})
         offer.update({"image": imageUrl})
         offer.update({"link": "https://www.lidl.nl" + link})
-
-        # offer.update({"dateStart": str(startDate)})
-        # offer.update({"dateEnd": str(endDate)})
 
         collection.append(offer)
 
