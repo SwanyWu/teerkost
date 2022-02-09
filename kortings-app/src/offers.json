@@ -492,18 +492,6 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Kies & Mix vlees, vis of vega",
-        "productInfo": "Alle items met Kies en Mix sticker\n3 schalen",
-        "category": "vis",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA1/Kies%20en%20mix%20vlees%20vis%20vega%202.png",
-        "deal": "3 voor 8,00 euro",
-        "price": 0,
-        "dateStart": "2022-02-01",
-        "dateEnd": "2022-02-08",
-        "link": "https://jumbo.com/aanbiedingen/sa2_km_vlees",
-        "shop": "Jumbo"
-    },
-    {
         "product": "Kies & Mix groente",
         "productInfo": "Bloemkool per stuk, trostomaten verpakt 5 stuks, zoete aardappelen zak 1 kilo, zoete punt praprika zak 500 gram of Tommies snoep tomaten verpakking 250 gram",
         "category": "groente",
@@ -3113,7 +3101,7 @@
         "category": "",
         "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD519082?rendition=200px&fileType=binary",
         "deal": "50% korting",
-        "price": 19.99,
+        "price": 20,
         "dateStart": "2022-02-13",
         "dateEnd": "2022-02-13",
         "link": "https://ah.nl/bonus/groep/434154?week=6",
