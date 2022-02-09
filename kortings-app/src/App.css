@@ -264,7 +264,7 @@ i.icon {
   align-items: baseline;
   padding: 90px 0px 0px 15px;
   animation: fadeIn 4s;
-  max-width: 1060px;
+  max-width: 1590px;
   margin: 0px auto;
 }
 
@@ -300,8 +300,8 @@ i.icon {
   width: 250px;
   position: relative;
 }
-
-@media screen and (max-width: 810px) {
+/* 795 en 810  */
+@media screen and (max-width: 990px) {
   .flex-item {
     width: 30%;
   }
