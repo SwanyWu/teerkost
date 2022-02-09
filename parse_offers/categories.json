@@ -2,7 +2,7 @@
     {
         "name": "bier",
         "keywords": [
-            "bier", "bieren", "biermerken", "speciaalbier", "pils", "Heineken", "Radler", "speciaalbieren", 
+            "brouwerij", "bier", "bieren", "biermerken", "speciaalbier", "pils", "Heineken", "Radler", "speciaalbieren", 
             "Grolsch", "Amstel", "Bavaria", "Affligem", "Trappe", "Brand", "Dors", "Veltins","Dommelsch", "Alfa",
             "Gulpener", "Westmalle", "tripel", "cornet" ,"karmeliet", "skuumkoppe", "corona", "bud", "perlenbacher", "hefeweizen", "kordaat", "tequilabier", "finkbrau", "oettinger", "argus",
             "Leffe", "Corona", "Warsteiner", "Jupiler", "Weizen", "ipa", "Chouffe", "Jopen", "Afflichem"
@@ -11,7 +11,7 @@
     {
         "name": "koffie",
         "keywords": [
-            "koffie", "koffiebonen", "snelfiltermaling", "koffiepads", "koffiecups","koffiecapsules", "Douwe Egberts", "nespresso", "espresso", "lungo", "Nescafé", "Lavazza", "segafredo", "illy"
+            "oploskoffie", "koffie", "koffiebonen", "snelfiltermaling", "koffiepads", "koffiecups","koffiecapsules", "Douwe Egberts", "nespresso", "espresso", "lungo", "Nescafé", "Lavazza", "segafredo", "illy"
         ]
     },
     {
@@ -42,7 +42,7 @@
     {
         "name": "kant-en-klaar",
         "keywords": [
-            "maaltijd", "lunchsalade", "maaltijden", "soep", "pureersoep", "soepen", "ovenmaaltijd", "maaltijdcomponenten",
+            "stoommaaltijden", "stoommaaltijd", "stamppotten","maaltijd", "lunchsalade", "maaltijden", "soep", "pureersoep", "soepen", "ovenmaaltijd", "ovenmaaltijden","maaltijdcomponenten",
             "fruitsalades", "fruitsalade", "maaltijdsalade", "maaltijdsalades", "3-vaksmaaltijden", "3-vaksmaaltijd",
             "ovenschotels", "ovenschotel", "quiche", "maaltijdpakket", "maaltijdpakketten"
         ]
