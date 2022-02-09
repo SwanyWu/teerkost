@@ -30,7 +30,7 @@ def returnOffers():
 
         deal = i['tag']
         offer.update({"deal": deal})
-        if "voor € " in deal: # indien "voor €" wordt gevonden kan de prijs bepaald worden
+        if "voor € " in deal: # when "voor €" is found, the price can be calculated
             deal = deal.split("voor € ")
             price = deal[1]
             offer.update({"price": price.replace(",", ".")})

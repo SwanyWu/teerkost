@@ -39,7 +39,7 @@ def returnOffers():
             if('shields' in i):
                 shield = i['shields'][0]['text']
                 dealString = " ".join(str(x) for x in shield)
-                if "nu voor" in dealString and calculateDeal != 0: # indien "nu voor" wordt de korting in de deal gezet
+                if "nu voor" in dealString and calculateDeal != 0: # when "nu voor" is found, use discount percentage as deal
                     offer.update({"deal": str(calculateDeal) + "% korting"})
                 else:
                     offer.update({"deal": dealString })
