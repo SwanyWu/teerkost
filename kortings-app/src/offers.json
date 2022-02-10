@@ -3252,54 +3252,6 @@
         "shop": "AH"
     },
     {
-        "product": "Broccoli",
-        "productInfo": "500 gram",
-        "category": "groente",
-        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/9990082904/gallery/preview/xs/9990082904.jpg",
-        "deal": "33% korting",
-        "price": "0.79",
-        "dateStart": "",
-        "dateEnd": "",
-        "link": "https://www.lidl.nl/p/broccoli/p9990082904",
-        "shop": "Lidl"
-    },
-    {
-        "product": "Spinazie",
-        "productInfo": "450 gram",
-        "category": "groente",
-        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/9990082318/gallery/preview/xs/9990082318.jpg",
-        "deal": "31% korting",
-        "price": "1.29",
-        "dateStart": "",
-        "dateEnd": "",
-        "link": "https://www.lidl.nl/p/spinazie/p9990082318",
-        "shop": "Lidl"
-    },
-    {
-        "product": "Mango",
-        "productInfo": "per stuk",
-        "category": "fruit",
-        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/9990080711/gallery/preview/xs/9990080711.jpg",
-        "deal": "37% korting",
-        "price": "0.99",
-        "dateStart": "",
-        "dateEnd": "",
-        "link": "https://www.lidl.nl/p/mango/p9990080711",
-        "shop": "Lidl"
-    },
-    {
-        "product": "Golden Delicious appels",
-        "productInfo": "1 kilo",
-        "category": "fruit",
-        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/9990081295/gallery/preview/xs/9990081295.jpg",
-        "deal": "35% korting",
-        "price": "1.29",
-        "dateStart": "",
-        "dateEnd": "",
-        "link": "https://www.lidl.nl/p/golden-delicious-appels/p9990081295",
-        "shop": "Lidl"
-    },
-    {
         "product": "Vers gesneden groentemix",
         "productInfo": "Alle combinaties mogelijk 450 g per bak 2 bakken",
         "category": "groente",
