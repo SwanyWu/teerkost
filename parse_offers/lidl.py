@@ -1,5 +1,6 @@
 import requests
 import categorize
+import datetime
 from bs4 import BeautifulSoup
 
 def returnOffers():
@@ -94,11 +95,38 @@ def returnOffers():
 
         category = categorize.findCategoryForProduct(title, description)
         offer.update({"category": category})
-        offer.update({"product": title })
+        offer.update({"product": title})
         offer.update({"shop": SHOP})
         offer.update({"price": price})
         offer.update({"image": imageUrl})
         offer.update({"link": "https://www.lidl.nl" + link})
+
+        if "vanaf" in date: # only the startdate is known
+            date = date.replace("vanaf ", "")
+            date = date.split(" ")
+            date = date[1].split("/")
+            currentYear = datetime.datetime.now().year
+            fullDateEnd = str(currentYear) + "-" + monthEnd + "-" + dayEnd
+            offer.update({"dateStart": fullDateStart})
+        else:
+            date = date.split(" - ")
+            dateStringEnd = date[1].split(" ")
+            dateStringEnd = dateStringEnd[1].split("/")
+            dayEnd = dateStringEnd[0]
+            monthEnd = dateStringEnd[1]
+
+            dateStringStart = date[0].split(" ")
+            dateStringStart = dateStringStart[1].split("/")
+            dayStart = dateStringStart[0]
+            monthStart = dateStringStart[1]
+
+            currentYear = datetime.datetime.now().year
+
+            fullDateEnd = str(currentYear) + "-" + monthEnd + "-" + dayEnd
+            fullDateStart = str(currentYear) + "-" + monthStart + "-" + dayStart 
+            
+            offer.update({"dateStart": fullDateStart})
+            offer.update({"dateEnd": fullDateEnd})
 
         collection.append(offer)
 
