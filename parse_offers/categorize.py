@@ -19,7 +19,6 @@ def findCategoryForProduct(title, description):
         for k in categories:
             for keyword in k['keywords']:
                 if keyword.lower() == word:
-                    print("Product gevonden in categorie: " + k['name'])
                     foundCategory = k['name']
     
     return foundCategory
