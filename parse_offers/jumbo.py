@@ -18,31 +18,32 @@ def returnOffers():
     collection = []
 
     for i in data['sections'][0]['current']['promotions']:
-        offer = {"product":"", "productInfo":"", "category":"", "image":"", "deal":"", "price": 0, "dateStart":"", "dateEnd":"", "link": "", "shop":""}
-        
-        offer.update({"product": i['name']})
-        offer.update({"productInfo": i['summary']})
+        if "bezorgkorting" not in i['tag'] and "bestelkosten" not in i['tag']:
+            offer = {"product":"", "productInfo":"", "category":"", "image":"", "deal":"", "price": 0, "dateStart":"", "dateEnd":"", "link": "", "shop":""}
+            
+            offer.update({"product": i['name']})
+            offer.update({"productInfo": i['summary']})
 
-        category = categorize.findCategoryForProduct(i['name'], i['summary'])
-        offer.update({"category": category})
+            category = categorize.findCategoryForProduct(i['name'], i['summary'])
+            offer.update({"category": category})
 
-        offer.update({"shop": SHOP})
+            offer.update({"shop": SHOP})
 
-        deal = i['tag']
-        offer.update({"deal": deal})
-        if "voor € " in deal: # when "voor €" is found, the price can be calculated
-            deal = deal.split("voor € ")
-            price = deal[1]
-            offer.update({"price": price.replace(",", ".")})
+            deal = i['tag']
+            offer.update({"deal": deal})
+            if "voor € " in deal: # when "voor €" is found, the price can be calculated
+                deal = deal.split("voor € ")
+                price = deal[1]
+                offer.update({"price": price.replace(",", ".")})
 
-        offer.update({"image": i['promotionImage']['main']})
+            offer.update({"image": i['promotionImage']['main']})
 
-        startDate = datetime.fromtimestamp(i['fromDate']/1000).strftime('%Y-%m-%d')
-        endDate = datetime.fromtimestamp(i['toDate']/1000).strftime('%Y-%m-%d')
-        offer.update({"dateStart": str(startDate)})
-        offer.update({"dateEnd": str(endDate)})
-        
-        offer.update({"link": "https://jumbo.com/aanbiedingen/" + i['id']})
-        collection.append(offer)
+            startDate = datetime.fromtimestamp(i['fromDate']/1000).strftime('%Y-%m-%d')
+            endDate = datetime.fromtimestamp(i['toDate']/1000).strftime('%Y-%m-%d')
+            offer.update({"dateStart": str(startDate)})
+            offer.update({"dateEnd": str(endDate)})
+            
+            offer.update({"link": "https://jumbo.com/aanbiedingen/" + i['id']})
+            collection.append(offer)
 
     return collection

@@ -15,7 +15,7 @@ def returnOffers():
 
     for i in data['collection']:
         offer = {"product":"", "productInfo":"", "category":"", "image":"", "deal":"", "price": 0, "dateStart":"", "dateEnd":"", "link": "", "shop":""}
-        if i['segmentType'] == "AH":
+        if i['segmentType'] == "AH" and "bezorging" not in i['shields'][0]['text']:
             offer.update({"product": i['title']})
             offer.update({"productInfo": i['description']})
 
