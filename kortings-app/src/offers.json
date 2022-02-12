@@ -876,6 +876,18 @@
         "shop": "Jumbo"
     },
     {
+        "product": "Penalolen",
+        "productInfo": "Alle soorten\nFles 750 ml\nLand van herkomst: Chili",
+        "category": "",
+        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA2/penalolen.png",
+        "deal": "1 voor € 12,50",
+        "price": "12.50",
+        "dateStart": "2022-02-10",
+        "dateEnd": "2022-03-01",
+        "link": "https://jumbo.com/aanbiedingen/9234026-A-1",
+        "shop": "Jumbo"
+    },
+    {
         "product": "Wijnvoordeel",
         "productInfo": "Diverse soorten",
         "category": "",
