@@ -2894,7 +2894,7 @@
     {
         "product": "Waspeen",
         "productInfo": "500 g per zak 2 zakken",
-        "category": "",
+        "category": "groente",
         "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/8882761/gallery/preview/xs/8882761.jpg",
         "deal": "49% korting",
         "price": "1.-",
@@ -2942,7 +2942,7 @@
     {
         "product": "Ovengroenten",
         "productInfo": "Alle combinaties mogelijk 600 g per zak 2 zakken",
-        "category": "",
+        "category": "groente",
         "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/886606488/gallery/preview/xs/886606488.jpg",
         "deal": "25% korting",
         "price": "4.-",
@@ -3026,7 +3026,7 @@
     {
         "product": "Wokgarnalen",
         "productInfo": "450 gram",
-        "category": "",
+        "category": "vis",
         "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/886606650/gallery/preview/xs/886606650.jpg",
         "deal": "op=op",
         "price": "6.99",
@@ -3386,7 +3386,7 @@
     {
         "product": "Pompoenblokjes",
         "productInfo": "400 gram",
-        "category": "",
+        "category": "groente",
         "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/886604593/gallery/preview/xs/886604593.jpg",
         "deal": "25% korting",
         "price": "1.49",
