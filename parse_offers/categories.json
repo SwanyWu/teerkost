@@ -17,11 +17,11 @@
     {
         "name": "groente",
         "keywords": [
-            "broccoli", "broccoliroosjes", "bloemkool", "bloemkoolroosjes", "spruiten", "winterpeen", "bospeen", "wortel", "wortels", 
+            "broccoli", "broccoliroosjes", "bloemkool", "bloemkoolroosjes", "spruiten", "waspeen", "winterpeen", "bospeen", "wortel", "wortels", 
             "prei", "andijvie", "boerenkool", "spinazie",
-            "tomaten", "paprika", "avocado", "snoepgroente", "groenten", "groentemix", "groente", "kookgroente", "kookgroenten","witlof", "stamppotgroenten", "roerbakgroente", "kool",
+            "tomaten", "paprika", "avocado", "snoepgroente", "ovengroente", "ovengroenten", "groenten", "groentemix", "groente", "kookgroente", "kookgroenten","witlof", "stamppotgroenten", "roerbakgroente", "kool",
             "komkommer", "courgette", "aubergine", "spruitjes", "peulen", "haricot", "worteltjes", "champignons", "kastanjechampignons","puntpaprika",
-            "salade ui", "bosui", "uien", "rucola", "rucolamelange", "sperziebonen", "ijsbergsla", "romaatje", "trostomaten",
+            "salade ui", "bosui", "uien", "rucola", "rucolamelange", "sperziebonen", "ijsbergsla", "romaatje", "trostomaten", "pompoen", "pompoenblokjes",
             "hutspot", "zuurkool", "snijbonen", "bleekselderij", "knolselderij", "wokgroenten", "bieten", "maïs", "pastinaak",
             "haricots verts", "aardappelen", "sjalotten", "babyspinazie", "kropsla", "bonen", "radijs", "spitskool",
             "paksoi"
@@ -34,7 +34,7 @@
             "doradefilet", "kabeljauwfilet","kabeljauwfilets", "kabeljauwhaas", "kabeljauwhaasjes","kibbeling", "lekkerbek",
             "pangasius", "pangasiusfilet", "zalm", "zalmburger", "zalmburgers", "zalmfilet", "zalmfilets", "ovenzalm", "zalmstaarten", "zalmstaart",
             "makreel", "makreelflakes", "makreelzijde", "rivierkreeftenvlees", "mosselen",
-            "haring", "braadharing","haringpartjes", "rolmops", "haringsalade","garnalen", "roerbakgarnalen",
+            "haring", "braadharing","haringpartjes", "rolmops", "haringsalade","garnalen", "roerbakgarnalen", "wokgarnalen", 
             "forelfilets","forelfilet", "sliptong", "bakkeljauw", "oesters", "visschnitzels", "visschnitzel",
             "tonijnfilet", "tonijnsteak","tonijn", "tonno","ansjovis", "ansjovisfilet", "ansjovisfilets"
         ]
