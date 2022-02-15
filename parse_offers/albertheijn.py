@@ -16,7 +16,10 @@ def returnOffers():
     for i in data['collection']:
         offer = {"product":"", "productInfo":"", "category":"", "image":"", "deal":"", "price": 0, "dateStart":"", "dateEnd":"", "link": "", "shop":""}
         if i['segmentType'] == "AH" and i['category'] != 'Koken, tafelen, vrije tijd' and "bezorging" not in i['shields'][0]['text']:
-            offer.update({"product": i['title']})
+            
+            cleanTitle = i['title'].replace("Alle AH ", "").replace("Diverse AH ", "").replace("Alle ", "").replace("AH ", "").capitalize()
+            offer.update({"product": cleanTitle})
+            
             offer.update({"productInfo": i['description']})
 
             category = categorize.findCategoryForProduct(i['title'], i['description'])
