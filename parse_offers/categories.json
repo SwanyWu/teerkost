@@ -2,10 +2,10 @@
     {
         "name": "bier",
         "keywords": [
-            "brouwerij", "bier", "bieren", "biermerken", "speciaalbier", "pils", "Heineken", "Radler", "speciaalbieren", 
-            "Grolsch", "Amstel", "Bavaria", "Affligem", "Trappe", "Brand", "Dors", "Veltins","Dommelsch", "Alfa",
+            "brouwerij", "brewery", "bier", "bieren", "biermerken", "speciaalbier", "0.0", "pils", "Heineken", "Radler", "speciaalbieren", 
+            "Grolsch", "Amstel", "Bavaria", "Affligem", "Trappe", "Brand", "birra", "moretti", "Dors", "Veltins","Dommelsch", "Alfa",
             "Gulpener", "Westmalle", "tripel", "cornet" ,"karmeliet", "skuumkoppe", "corona", "bud", "perlenbacher", "hefeweizen", "kordaat", "tequilabier", "finkbrau", "oettinger", "argus",
-            "Leffe", "Corona", "Warsteiner", "Jupiler", "Weizen", "ipa", "Chouffe", "Jopen", "Afflichem"
+            "Leffe", "Corona", "Warsteiner", "Jupiler", "Weizen", "ipa", "Chouffe", "Jopen", "Afflichem", "Duvel"
         ]
     },
     {
@@ -19,11 +19,12 @@
         "keywords": [
             "broccoli", "broccoliroosjes", "bloemkool", "bloemkoolroosjes", "spruiten", "waspeen", "winterpeen", "bospeen", "wortel", "wortels", 
             "prei", "andijvie", "boerenkool", "spinazie",
-            "tomaten", "paprika", "avocado", "snoepgroente", "ovengroente", "ovengroenten", "groenten", "groentemix", "groente", "kookgroente", "kookgroenten","witlof", "stamppotgroenten", "roerbakgroente", "kool",
+            "tomaten", "paprika", "avocado", "snoepgroente", "ovengroente", "ovengroenten", "groenten", "groentemix", "groente", "kookgroente", 
+            "kookgroenten","witlof", "stamppotgroenten", "roerbakgroente", "kool",
             "komkommer", "courgette", "aubergine", "spruitjes", "peulen", "haricot", "worteltjes", "champignons", "kastanjechampignons","puntpaprika",
             "salade ui", "bosui", "uien", "rucola", "rucolamelange", "sperziebonen", "ijsbergsla", "romaatje", "trostomaten", "pompoen", "pompoenblokjes",
             "hutspot", "zuurkool", "snijbonen", "bleekselderij", "knolselderij", "wokgroenten", "bieten", "maïs", "pastinaak",
-            "haricots verts", "aardappelen", "sjalotten", "babyspinazie", "kropsla", "bonen", "radijs", "spitskool",
+            "haricots verts", "aardappelen", "sjalotten", "babyspinazie", "kropsla", "slamelange", "slamelanges", "bonen", "radijs", "spitskool",
             "paksoi"
         ]
     },
