@@ -1,5 +1,29 @@
 [
     {
+        "product": "Pampers Baby Dry luiers",
+        "productInfo": "M.u.v. maxi en giga packs\n2 verpakkingen",
+        "category": "",
+        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/EG%20schap%202022/Week%201/Pampers.png",
+        "deal": "2e halve prijs",
+        "price": 0,
+        "dateStart": "2022-01-05",
+        "dateEnd": "2022-03-01",
+        "link": "https://jumbo.com/aanbiedingen/2875001-B-1",
+        "shop": "Jumbo"
+    },
+    {
+        "product": "Jumbo verzorgingsproducten",
+        "productInfo": "Jumbo Elke Dag Shampoo Heren 500ml, Jumbo Glans Shampoo 500ml, Jumbo Cremespoeling Moroccan Argan Oil 500ml, Jumbo Gezicht Nachtcreme 50ml of Jumbo Gezicht Dagcreme 50ml\n2 verpakkingen",
+        "category": "",
+        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA1/Jumbo%20verzorging.png",
+        "deal": "1+1 gratis",
+        "price": 0,
+        "dateStart": "2022-01-04",
+        "dateEnd": "2022-02-22",
+        "link": "https://jumbo.com/aanbiedingen/sa01_verzorging",
+        "shop": "Jumbo"
+    },
+    {
         "product": "Jumbo slagersachterham, achterham, casselerrib of boerenmetworst",
         "productInfo": "Alle soorten van de vleeswaren bedieningsafdeling\n2 verpakkingen à circa 60-120 gram",
         "category": "",
@@ -228,18 +252,6 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Pampers Baby Dry luiers",
-        "productInfo": "M.u.v. maxi en giga packs\n2 verpakkingen",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/EG%20schap%202022/Week%201/Pampers.png",
-        "deal": "2e halve prijs",
-        "price": 0,
-        "dateStart": "2022-01-05",
-        "dateEnd": "2022-03-01",
-        "link": "https://jumbo.com/aanbiedingen/2875001-B-1",
-        "shop": "Jumbo"
-    },
-    {
         "product": "Appelsientje vers geperst of Coolbest fruitontbijt",
         "productInfo": "Appelsientje fles à 1L of Coolbest fles à 750ML\nPer 2 flessen",
         "category": "",
@@ -297,18 +309,6 @@
         "dateStart": "2021-04-20",
         "dateEnd": "2022-02-15",
         "link": "https://jumbo.com/aanbiedingen/wa06_bacardi",
-        "shop": "Jumbo"
-    },
-    {
-        "product": "Jumbo verzorgingsproducten",
-        "productInfo": "Jumbo Elke Dag Shampoo Heren 500ml, Jumbo Glans Shampoo 500ml, Jumbo Cremespoeling Moroccan Argan Oil 500ml, Jumbo Gezicht Nachtcreme 50ml of Jumbo Gezicht Dagcreme 50ml\n2 verpakkingen",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA1/Jumbo%20verzorging.png",
-        "deal": "1+1 gratis",
-        "price": 0,
-        "dateStart": "2022-01-04",
-        "dateEnd": "2022-02-22",
-        "link": "https://jumbo.com/aanbiedingen/sa01_verzorging",
         "shop": "Jumbo"
     },
     {
@@ -1476,18 +1476,6 @@
         "shop": "AH"
     },
     {
-        "product": "AH verspakketten soep",
-        "productInfo": "1 stuk",
-        "category": "kant-en-klaar",
-        "image": "https://static.ah.nl/static/product/AHI_43545236313232333734_3_200x200_JPG.JPG",
-        "deal": "25% korting",
-        "price": 2.99,
-        "dateStart": "2022-02-20",
-        "dateEnd": "2022-02-20",
-        "link": "https://ah.nl/bonus/groep/439587?week=7",
-        "shop": "AH"
-    },
-    {
         "product": "AH Spitskool",
         "productInfo": "Per stuk",
         "category": "groente",
@@ -1800,18 +1788,6 @@
         "shop": "AH"
     },
     {
-        "product": "Almhof yoghurt 500 gram",
-        "productInfo": "Per beker",
-        "category": "",
-        "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD522851?rendition=200px&fileType=binary",
-        "deal": "2 voor 2.25",
-        "price": 2.25,
-        "dateStart": "2022-02-20",
-        "dateEnd": "2022-02-20",
-        "link": "https://ah.nl/bonus/groep/439557?week=7",
-        "shop": "AH"
-    },
-    {
         "product": "Alpro houdbare drinks literpakken",
         "productInfo": "Bijv. barista haver - Per pak",
         "category": "",
@@ -1821,18 +1797,6 @@
         "dateStart": "2022-02-20",
         "dateEnd": "2022-02-20",
         "link": "https://ah.nl/bonus/groep/439561?week=7",
-        "shop": "AH"
-    },
-    {
-        "product": "AH Valentijnsassortiment van de bakkerij",
-        "productInfo": "Alle varianten",
-        "category": "",
-        "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD520923?rendition=200px&fileType=binary",
-        "deal": "25% korting",
-        "price": 2.25,
-        "dateStart": "2022-02-20",
-        "dateEnd": "2022-02-20",
-        "link": "https://ah.nl/bonus/groep/443313?week=7",
         "shop": "AH"
     },
     {
@@ -1881,18 +1845,6 @@
         "dateStart": "2022-02-20",
         "dateEnd": "2022-02-20",
         "link": "https://ah.nl/bonus/groep/443032?week=7",
-        "shop": "AH"
-    },
-    {
-        "product": "Alle Kellogg's",
-        "productInfo": "Bijv. Cornflakes - 2 pakken à 375 gram",
-        "category": "",
-        "image": "https://static.ah.nl/static/product/AHI_43545239363436303430_2_200x200_JPG.JPG",
-        "deal": "2e gratis",
-        "price": 2.49,
-        "dateStart": "2022-02-20",
-        "dateEnd": "2022-02-20",
-        "link": "https://ah.nl/bonus/groep/445364?week=7",
         "shop": "AH"
     },
     {
@@ -2547,7 +2499,7 @@
         "product": "Haribo 175-260 gram",
         "productInfo": "Bijv. Kikkers",
         "category": "",
-        "image": "https://static.ah.nl/static/product/AHI_43545239353732373033_5_200x200_JPG.JPG",
+        "image": "https://static.ah.nl/static/product/AHI_43545239353732373033_4_200x200_JPG.JPG",
         "deal": "2 voor 2.69",
         "price": 2.69,
         "dateStart": "2022-02-20",
@@ -3461,7 +3413,7 @@
         "category": "",
         "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/886606258/gallery/preview/xs/886606258.jpg",
         "deal": "op=op",
-        "price": "9.-",
+        "price": "8.25",
         "dateStart": "2022-02-17",
         "dateEnd": "",
         "link": "https://www.lidl.nl/p/runderriblappen/p886606258",
