@@ -3,7 +3,7 @@
         "product": "Valentijn artikelen",
         "productInfo": "Diverse soorten",
         "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA2/Valentijn.png",
+        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Weekaanbiedingen/Week%207/Valentijn.png",
         "deal": "1+1 gratis",
         "price": 0,
         "dateStart": "2022-02-14",
@@ -168,18 +168,6 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Pampers Baby Dry luiers",
-        "productInfo": "M.u.v. maxi en giga packs\n2 verpakkingen",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/EG%20schap%202022/Week%201/Pampers.png",
-        "deal": "2e halve prijs",
-        "price": 0,
-        "dateStart": "2022-01-05",
-        "dateEnd": "2022-03-01",
-        "link": "https://jumbo.com/aanbiedingen/2875001-B-1",
-        "shop": "Jumbo"
-    },
-    {
         "product": "Alpro Barista",
         "productInfo": "Alle soorten\n1 verpakking à 750-1000ml",
         "category": "",
@@ -189,6 +177,18 @@
         "dateStart": "2022-02-15",
         "dateEnd": "2022-02-22",
         "link": "https://jumbo.com/aanbiedingen/9255013-A-1",
+        "shop": "Jumbo"
+    },
+    {
+        "product": "Pampers Baby Dry luiers",
+        "productInfo": "M.u.v. maxi en giga packs\n2 verpakkingen",
+        "category": "",
+        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/EG%20schap%202022/Week%201/Pampers.png",
+        "deal": "2e halve prijs",
+        "price": 0,
+        "dateStart": "2022-01-05",
+        "dateEnd": "2022-03-01",
+        "link": "https://jumbo.com/aanbiedingen/2875001-B-1",
         "shop": "Jumbo"
     },
     {
