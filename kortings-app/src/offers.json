@@ -2412,18 +2412,6 @@
         "shop": "Lidl"
     },
     {
-        "product": "Stuk brokkelkaas 45+",
-        "productInfo": "300 gram",
-        "category": "",
-        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/886603522/gallery/preview/xs/886603522.jpg",
-        "deal": "18% korting",
-        "price": "2.99",
-        "dateStart": "2022-02-17",
-        "dateEnd": "2022-02-20",
-        "link": "https://www.lidl.nl/p/stuk-brokkelkaas-45/p886603522",
-        "shop": "Lidl"
-    },
-    {
         "product": "Mini-appeltaartjes",
         "productInfo": "*bron: favorflav, januari 2021",
         "category": "",
@@ -3322,6 +3310,18 @@
         "dateEnd": "2022-02-20",
         "link": "https://ah.nl/bonus/groep/444126?week=7",
         "shop": "AH"
+    },
+    {
+        "product": "Stuk brokkelkaas 45+",
+        "productInfo": "300 gram",
+        "category": "kaas",
+        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/886603522/gallery/preview/xs/886603522.jpg",
+        "deal": "18% korting",
+        "price": "2.99",
+        "dateStart": "2022-02-17",
+        "dateEnd": "2022-02-20",
+        "link": "https://www.lidl.nl/p/stuk-brokkelkaas-45/p886603522",
+        "shop": "Lidl"
     },
     {
         "product": "Unox of Conimex soep in zak",
