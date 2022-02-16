@@ -17,16 +17,34 @@
     {
         "name": "groente",
         "keywords": [
-            "broccoli", "broccoliroosjes", "bloemkool", "bloemkoolroosjes", "spruiten", "waspeen", "winterpeen", "bospeen", "wortel", "wortels", 
+            "groenteshots", "groenteshot", "broccoli", "broccoliroosjes", "bloemkool", "bloemkoolroosjes", "spruiten", "waspeen", "winterpeen", "bospeen", "wortel", "wortels", 
             "prei", "andijvie", "boerenkool", "spinazie",
             "tomaten", "paprika", "avocado", "snoepgroente", "ovengroente", "ovengroenten", "groenten", "groentemix", "groente", "kookgroente", 
             "kookgroenten","witlof", "stamppotgroenten", "roerbakgroente", "kool",
             "komkommer", "courgette", "aubergine", "spruitjes", "peulen", "haricot", "worteltjes", "champignons", "kastanjechampignons","puntpaprika",
             "salade ui", "bosui", "uien", "rucola", "rucolamelange", "sperziebonen", "ijsbergsla", "romaatje", "trostomaten", "pompoen", "pompoenblokjes",
             "hutspot", "zuurkool", "snijbonen", "bleekselderij", "knolselderij", "wokgroenten", "bieten", "maïs", "pastinaak",
-            "haricots verts", "aardappelen", "sjalotten", "babyspinazie", "kropsla", "slamelange", "slamelanges", "bonen", "radijs", "spitskool",
+            "haricots verts", "sjalotten", "babyspinazie", "kropsla", "slamelange", "slamelanges", "bonen", "radijs", "spitskool",
             "paksoi"
         ]
+    },
+    {
+        "name": "aardappel",
+        "keywords": [ "aardappelen", "krieltjes", "mini-krieltjes", "aardappelschijfjes", "aardappelkroketjes",
+             "aardappelbolletjes", "aardappelfrites", "frites", "patat", "pommes", "frietjes", "friet", "aardappelgratin",
+             "aardappelroosjes", "aardappelpuree", "aardappel", "aardappelpartjes", "aardappelblokjes",
+              "aardappelwedges", "opbakaardappelen", "rosti", "rostirondjes", "smulfriet" ]
+    },
+    {
+        "name": "brood",
+        "keywords": [ "brood", "broodje", "broodjes", "pistolet", "pistoletjes", "zonnebloempittenbrood", "sesamvolkorenbrood",
+             "vruchtenbrood", "bakkersbrood", "meerzadenbroodje", "meerzadenbrood", "volkorenbrood", "sesambrood", "meergranenbrood"]
+    },
+    {
+        "name": "kaas",
+        "keywords": [ "milner", "boerenkaas", "boerderijkaas", "kaas", "kaasplakken", 
+            "borrelkaas", "borrelkaasjes", "geitenkaas", "goudse", 
+            "parrano", "parmazan", "mozerella"]
     },
     {
         "name": "vis",
