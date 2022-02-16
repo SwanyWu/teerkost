@@ -371,12 +371,15 @@ i.icon {
 }
 
 .product-deal { 
-  padding: 5px 10px 10px 10px;
+  padding: 10px 0px 10px 0px;
   position: relative;
   display: block;
   text-align: center;
-  color: #000;
+  color: #35322a;
+  font-weight: 800;
   background: #FFF;
+  box-shadow: inset 0px 1px 0px 0px #35322a;
+  margin: 0px 10px 0px 10px;
 }
 .product-price::before {
   content:"€";
@@ -384,15 +387,15 @@ i.icon {
 .product-price { 
   display: inline-block;
   position: absolute;
-  background: #009b27;
+  background: #16b000;
   color: #fff;
   font-weight: 800;
   line-height: 20px;
   text-align: center;
-  font-size: .7em;
-  padding: 5px 10px 5px 10px;
+  padding: 10px 10px 10px 10px;
   right: 10px;
-  top: -15px;
+  top: 30px;
+  text-shadow: 1px 1px #005305;
   clip-path: polygon(50% 0%, 57.22% 6.71%, 66.23% 2.71%, 70.89% 11.40%, 80.71% 10.54%, 82.29% 20.27%, 91.86% 22.65%, 90.20% 32.37%, 98.47% 37.73%, 93.74% 46.38%, 99.83% 54.13%, 92.55% 60.78%, 95.79% 70.08%, 86.75% 74.01%, 86.79% 83.86%, 76.96% 84.64%, 73.80% 93.97%, 64.25% 91.51%, 58.23% 99.32%, 50% 93.89%, 41.77% 99.32%, 35.75% 91.51%, 26.20% 93.97%, 23.04% 84.64%, 13.21% 83.86%, 13.25% 74.01%, 4.21% 70.08%, 7.45% 60.78%, 0.17% 54.13%, 6.26% 46.38%, 1.53% 37.73%, 9.80% 32.37%, 8.14% 22.65%, 17.71% 20.27%, 19.29% 10.54%, 29.11% 11.40%, 33.77% 2.71%, 42.78% 6.71%);
 }
 
