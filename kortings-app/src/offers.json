@@ -12,18 +12,6 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Johma Salades",
-        "productInfo": "Voor op brood of toast \n3 bakjes à 175 gram",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Weekaanbiedingen/Week%207/Johma%20Salades.png",
-        "deal": "3 voor € 6,00",
-        "price": "6.00",
-        "dateStart": "2022-02-15",
-        "dateEnd": "2022-02-22",
-        "link": "https://jumbo.com/aanbiedingen/9257041-C-1",
-        "shop": "Jumbo"
-    },
-    {
         "product": "Lipton Ice Tea",
         "productInfo": "2 flessen à 1,5 liter",
         "category": "",
@@ -396,18 +384,6 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Milner plakken, stukken of geraspte kaas",
-        "productInfo": "Uit de kaas wandkoeling\n2 verpakkingen à 150-450 gram",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA2/Milner_280px.png",
-        "deal": "2e halve prijs",
-        "price": 0,
-        "dateStart": "2022-02-01",
-        "dateEnd": "2022-03-01",
-        "link": "https://jumbo.com/aanbiedingen/9215033-B-1",
-        "shop": "Jumbo"
-    },
-    {
         "product": "Beenham",
         "productInfo": "Naturel, honing mosterd, Amerikaans of Italiaans\nPer 500 gram",
         "category": "",
@@ -708,18 +684,6 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Kies & Mix kaas",
-        "productInfo": "Diverse soorten",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2021/K&M%20Kaas%20P8%202021.png",
-        "deal": "3 voor € 5,00",
-        "price": "5.00",
-        "dateStart": "2020-07-02",
-        "dateEnd": "2022-12-31",
-        "link": "https://jumbo.com/aanbiedingen/kiesmix_kaas1",
-        "shop": "Jumbo"
-    },
-    {
         "product": "Kies & Mix paaseitjes",
         "productInfo": "Diverse soorten\n3 verpakkingen",
         "category": "",
@@ -756,18 +720,6 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Kies & Mix plakken kaas",
-        "productInfo": "Alle Kies en Mix soorten\n2 verpakkingen met Kies en Mix sticker 190 gram",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Kies%20&%20mix%202022/KM%20kaas%20plakken%202022.png",
-        "deal": "2 voor € 3,50",
-        "price": "3.50",
-        "dateStart": "2022-01-04",
-        "dateEnd": "2022-12-31",
-        "link": "https://jumbo.com/aanbiedingen/3176002-C-1",
-        "shop": "Jumbo"
-    },
-    {
         "product": "Kies & Mix filet, paté, salades",
         "productInfo": "Diverse soorten",
         "category": "",
@@ -801,30 +753,6 @@
         "dateStart": "2022-01-04",
         "dateEnd": "2022-12-31",
         "link": "https://jumbo.com/aanbiedingen/3755004-C-1",
-        "shop": "Jumbo"
-    },
-    {
-        "product": "Kies & Mix broodjes",
-        "productInfo": "Per zak",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Kies%20&%20mix%202022/KM%20Broodjes%202022.png",
-        "deal": "1 voor € 1,00 ",
-        "price": "1.00 ",
-        "dateStart": "2022-01-04",
-        "dateEnd": "2022-12-31",
-        "link": "https://jumbo.com/aanbiedingen/3755005-A-1",
-        "shop": "Jumbo"
-    },
-    {
-        "product": "Kies & Mix broodjes",
-        "productInfo": "Diverse soorten",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2021/K&M%20broodjes%20offline.png",
-        "deal": "4 voor 1,00",
-        "price": 0,
-        "dateStart": "2019-03-19",
-        "dateEnd": "2022-12-31",
-        "link": "https://jumbo.com/aanbiedingen/kies_en_mix_broodjes",
         "shop": "Jumbo"
     },
     {
@@ -900,18 +828,6 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Kies & Mix brood en toast salades",
-        "productInfo": "Alle soorten met Kies en Mix logo\n2 verpakkingen à 175 gram",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Kies%20&%20mix%202022/KM%20brood%20toast%20salades%202022.png",
-        "deal": "2 voor € 3,00 ",
-        "price": "3.00 ",
-        "dateStart": "2022-01-04",
-        "dateEnd": "2022-12-31",
-        "link": "https://jumbo.com/aanbiedingen/3176005-C-1",
-        "shop": "Jumbo"
-    },
-    {
         "product": "Kies & Mix ongezouten verse noten",
         "productInfo": "Cup à 110-250 gram",
         "category": "",
@@ -957,18 +873,6 @@
         "dateStart": "2022-02-20",
         "dateEnd": "2022-02-20",
         "link": "https://ah.nl/bonus/groep/337359?week=7",
-        "shop": "AH"
-    },
-    {
-        "product": "Groenteshots",
-        "productInfo": "6 stuks",
-        "category": "",
-        "image": "https://static.ah.nl/static/product/AHI_43545236323035383032_3_200x200_JPG.JPG",
-        "deal": "6=5 gratis",
-        "price": 5,
-        "dateStart": "2022-02-20",
-        "dateEnd": "2022-02-20",
-        "link": "https://ah.nl/bonus/groep/439319?week=7",
         "shop": "AH"
     },
     {
@@ -1128,18 +1032,6 @@
         "shop": "AH"
     },
     {
-        "product": "Borrelkaasjes",
-        "productInfo": "Diverse varianten*, combineren mogelijk",
-        "category": "",
-        "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD513820?rendition=200px&fileType=binary",
-        "deal": "3 voor 5.00",
-        "price": 5,
-        "dateStart": "2022-02-20",
-        "dateEnd": "2022-02-20",
-        "link": "https://ah.nl/bonus/groep/389073?week=7",
-        "shop": "AH"
-    },
-    {
         "product": "Borrelgemak van de versafdeling*",
         "productInfo": "Bijv. olijven met knoflook - 3 bakjes à 150 gram",
         "category": "",
@@ -1200,54 +1092,6 @@
         "shop": "AH"
     },
     {
-        "product": "Parrano 60-100 gram",
-        "productInfo": "Per zak",
-        "category": "",
-        "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD522850?rendition=200px&fileType=binary",
-        "deal": "45% korting",
-        "price": 1.19,
-        "dateStart": "2022-02-20",
-        "dateEnd": "2022-02-20",
-        "link": "https://ah.nl/bonus/groep/439525?week=7",
-        "shop": "AH"
-    },
-    {
-        "product": "Geitenkaas",
-        "productInfo": "Bijv. geitenkaas schijfjes - 200 gram",
-        "category": "",
-        "image": "https://static.ah.nl/static/product/AHI_434d50363631373532_2_200x200_JPG.JPG",
-        "deal": "10% korting",
-        "price": 1.97,
-        "dateStart": "2022-02-20",
-        "dateEnd": "2022-02-20",
-        "link": "https://ah.nl/bonus/groep/439527?week=7",
-        "shop": "AH"
-    },
-    {
-        "product": "Goudse kaas in stukken van de zelfbedieningsafdeling",
-        "productInfo": "Per 100 gram",
-        "category": "",
-        "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD522847?rendition=200px&fileType=binary",
-        "deal": "13% korting",
-        "price": 0.99,
-        "dateStart": "2022-02-20",
-        "dateEnd": "2022-02-20",
-        "link": "https://ah.nl/bonus/groep/444125?week=7",
-        "shop": "AH"
-    },
-    {
-        "product": "Milner van de versafdeling",
-        "productInfo": "Per 100 gram",
-        "category": "",
-        "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD522845?rendition=200px&fileType=binary",
-        "deal": "38% korting",
-        "price": 0.99,
-        "dateStart": "2022-02-20",
-        "dateEnd": "2022-02-20",
-        "link": "https://ah.nl/bonus/groep/444126?week=7",
-        "shop": "AH"
-    },
-    {
         "product": "Blue band",
         "productInfo": "Bijv. voor koken, bakken en braden - 2 pakjes",
         "category": "",
@@ -1305,54 +1149,6 @@
         "dateStart": "2022-02-20",
         "dateEnd": "2022-02-20",
         "link": "https://ah.nl/bonus/groep/439561?week=7",
-        "shop": "AH"
-    },
-    {
-        "product": "Bakkersbrood les pains half",
-        "productInfo": "Per stuk",
-        "category": "",
-        "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD522849?rendition=200px&fileType=binary",
-        "deal": "33% korting",
-        "price": 0.79,
-        "dateStart": "2022-02-20",
-        "dateEnd": "2022-02-20",
-        "link": "https://ah.nl/bonus/groep/439537?week=7",
-        "shop": "AH"
-    },
-    {
-        "product": "Triangel meergranen, meerzadenbroodje, italiaanse bol",
-        "productInfo": "Vers uit onze oven - Per stuk",
-        "category": "",
-        "image": "https://static.ah.nl/static/product/AHI_434d50313139353231_1_200x200_JPG.JPG",
-        "deal": "18% korting",
-        "price": 0.49,
-        "dateStart": "2022-02-20",
-        "dateEnd": "2022-02-20",
-        "link": "https://ah.nl/bonus/groep/439539?week=7",
-        "shop": "AH"
-    },
-    {
-        "product": "Bakkersbrood les pains heel",
-        "productInfo": "Per stuk",
-        "category": "",
-        "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD522871?rendition=200px&fileType=binary",
-        "deal": "34% korting",
-        "price": 1.49,
-        "dateStart": "2022-02-20",
-        "dateEnd": "2022-02-20",
-        "link": "https://ah.nl/bonus/groep/443030?week=7",
-        "shop": "AH"
-    },
-    {
-        "product": "Vruchtenbrood",
-        "productInfo": "Bijv. Krenten rozijnbrood - Per Stuk",
-        "category": "",
-        "image": "https://static.ah.nl/static/product/AHI_434d50323532303736_3_200x200_JPG.JPG",
-        "deal": "16% korting",
-        "price": 1.5,
-        "dateStart": "2022-02-20",
-        "dateEnd": "2022-02-20",
-        "link": "https://ah.nl/bonus/groep/443032?week=7",
         "shop": "AH"
     },
     {
@@ -1944,18 +1740,6 @@
         "shop": "AH"
     },
     {
-        "product": "Beyerlander frites",
-        "productInfo": "Per zak",
-        "category": "",
-        "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD522822?rendition=200px&fileType=binary",
-        "deal": "58% korting",
-        "price": 0.99,
-        "dateStart": "2022-02-20",
-        "dateEnd": "2022-02-20",
-        "link": "https://ah.nl/bonus/groep/439430?week=7",
-        "shop": "AH"
-    },
-    {
         "product": "Elvive",
         "productInfo": "Per stuk",
         "category": "",
@@ -2241,54 +2025,6 @@
         "dateStart": "2022-02-14",
         "dateEnd": "2022-02-16",
         "link": "https://www.lidl.nl/p/basilicum/p8884651",
-        "shop": "Lidl"
-    },
-    {
-        "product": "Toscaanse stijl aardappelpartjes",
-        "productInfo": "500 gram",
-        "category": "",
-        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/886601950/gallery/preview/xs/886601950.jpg",
-        "deal": "33% korting",
-        "price": "0.59",
-        "dateStart": "2022-02-14",
-        "dateEnd": "2022-02-20",
-        "link": "https://www.lidl.nl/p/toscaanse-stijl-aardappelpartjes/p886601950",
-        "shop": "Lidl"
-    },
-    {
-        "product": "Zonnebloempittenbrood",
-        "productInfo": "800 g per brood 2 broden",
-        "category": "",
-        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/882459/gallery/preview/xs/882459.jpg",
-        "deal": "34% korting",
-        "price": "2.50",
-        "dateStart": "2022-02-14",
-        "dateEnd": "2022-02-20",
-        "link": "https://www.lidl.nl/p/zonnebloempittenbrood/p882459",
-        "shop": "Lidl"
-    },
-    {
-        "product": "Halfje sesamvolkorenbrood",
-        "productInfo": "400 g per halfje",
-        "category": "",
-        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/886568/gallery/preview/xs/886568.jpg",
-        "deal": "20% korting",
-        "price": "0.79",
-        "dateStart": "2022-02-14",
-        "dateEnd": "2022-02-20",
-        "link": "https://www.lidl.nl/p/halfje-sesamvolkorenbrood/p886568",
-        "shop": "Lidl"
-    },
-    {
-        "product": "Witte pistoletjes",
-        "productInfo": "5 stuks",
-        "category": "",
-        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/881256/gallery/preview/xs/881256.jpg",
-        "deal": "20% korting",
-        "price": "1.-",
-        "dateStart": "2022-02-14",
-        "dateEnd": "2022-02-20",
-        "link": "https://www.lidl.nl/p/witte-pistoletjes/p881256",
         "shop": "Lidl"
     },
     {
@@ -2616,18 +2352,6 @@
         "shop": "Lidl"
     },
     {
-        "product": "Mini-krieltjes",
-        "productInfo": "700 gram",
-        "category": "",
-        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/886605369/gallery/preview/xs/886605369.jpg",
-        "deal": "20% korting",
-        "price": "0.79",
-        "dateStart": "2022-02-17",
-        "dateEnd": "2022-02-20",
-        "link": "https://www.lidl.nl/p/mini-krieltjes/p886605369",
-        "shop": "Lidl"
-    },
-    {
         "product": "Slavinken",
         "productInfo": "400 g per pak 2 pakken",
         "category": "",
@@ -2721,6 +2445,66 @@
         "dateStart": "2022-02-19",
         "dateEnd": "2022-02-20",
         "link": "https://www.lidl.nl/p/siropen/p88123443",
+        "shop": "Lidl"
+    },
+    {
+        "product": "Aardappelen",
+        "productInfo": "Zak 3 kilo",
+        "category": "aardappel",
+        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/Eentje%20extra/Aardappelen_280px.png",
+        "deal": "1+1 gratis",
+        "price": 0,
+        "dateStart": "2022-02-01",
+        "dateEnd": "2022-03-01",
+        "link": "https://jumbo.com/aanbiedingen/9215030-B-1",
+        "shop": "Jumbo"
+    },
+    {
+        "product": "Beyerlander frites",
+        "productInfo": "Per zak",
+        "category": "aardappel",
+        "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD522822?rendition=200px&fileType=binary",
+        "deal": "58% korting",
+        "price": 0.99,
+        "dateStart": "2022-02-20",
+        "dateEnd": "2022-02-20",
+        "link": "https://ah.nl/bonus/groep/439430?week=7",
+        "shop": "AH"
+    },
+    {
+        "product": "Vastkokende en kruimige aardappelen",
+        "productInfo": "Alle combinaties mogelijk",
+        "category": "aardappel",
+        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/8883242/gallery/preview/xs/8883242.jpg",
+        "deal": "1+1 gratis",
+        "price": "1.59",
+        "dateStart": "2022-02-14",
+        "dateEnd": "2022-02-16",
+        "link": "https://www.lidl.nl/p/vastkokende-en-kruimige-aardappelen/p8883242",
+        "shop": "Lidl"
+    },
+    {
+        "product": "Toscaanse stijl aardappelpartjes",
+        "productInfo": "500 gram",
+        "category": "aardappel",
+        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/886601950/gallery/preview/xs/886601950.jpg",
+        "deal": "33% korting",
+        "price": "0.59",
+        "dateStart": "2022-02-14",
+        "dateEnd": "2022-02-20",
+        "link": "https://www.lidl.nl/p/toscaanse-stijl-aardappelpartjes/p886601950",
+        "shop": "Lidl"
+    },
+    {
+        "product": "Mini-krieltjes",
+        "productInfo": "700 gram",
+        "category": "aardappel",
+        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/886605369/gallery/preview/xs/886605369.jpg",
+        "deal": "20% korting",
+        "price": "0.79",
+        "dateStart": "2022-02-17",
+        "dateEnd": "2022-02-20",
+        "link": "https://www.lidl.nl/p/mini-krieltjes/p886605369",
         "shop": "Lidl"
     },
     {
@@ -2889,6 +2673,138 @@
         "dateStart": "2022-02-14",
         "dateEnd": "2022-02-20",
         "link": "https://www.lidl.nl/p/kordaat-twist-off/p886605321",
+        "shop": "Lidl"
+    },
+    {
+        "product": "Johma Salades",
+        "productInfo": "Voor op brood of toast \n3 bakjes à 175 gram",
+        "category": "brood",
+        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Weekaanbiedingen/Week%207/Johma%20Salades.png",
+        "deal": "3 voor € 6,00",
+        "price": "6.00",
+        "dateStart": "2022-02-15",
+        "dateEnd": "2022-02-22",
+        "link": "https://jumbo.com/aanbiedingen/9257041-C-1",
+        "shop": "Jumbo"
+    },
+    {
+        "product": "Kies & Mix broodjes",
+        "productInfo": "Per zak",
+        "category": "brood",
+        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Kies%20&%20mix%202022/KM%20Broodjes%202022.png",
+        "deal": "1 voor € 1,00 ",
+        "price": "1.00 ",
+        "dateStart": "2022-01-04",
+        "dateEnd": "2022-12-31",
+        "link": "https://jumbo.com/aanbiedingen/3755005-A-1",
+        "shop": "Jumbo"
+    },
+    {
+        "product": "Kies & Mix broodjes",
+        "productInfo": "Diverse soorten",
+        "category": "brood",
+        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2021/K&M%20broodjes%20offline.png",
+        "deal": "4 voor 1,00",
+        "price": 0,
+        "dateStart": "2019-03-19",
+        "dateEnd": "2022-12-31",
+        "link": "https://jumbo.com/aanbiedingen/kies_en_mix_broodjes",
+        "shop": "Jumbo"
+    },
+    {
+        "product": "Kies & Mix brood en toast salades",
+        "productInfo": "Alle soorten met Kies en Mix logo\n2 verpakkingen à 175 gram",
+        "category": "brood",
+        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Kies%20&%20mix%202022/KM%20brood%20toast%20salades%202022.png",
+        "deal": "2 voor € 3,00 ",
+        "price": "3.00 ",
+        "dateStart": "2022-01-04",
+        "dateEnd": "2022-12-31",
+        "link": "https://jumbo.com/aanbiedingen/3176005-C-1",
+        "shop": "Jumbo"
+    },
+    {
+        "product": "Bakkersbrood les pains half",
+        "productInfo": "Per stuk",
+        "category": "brood",
+        "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD522849?rendition=200px&fileType=binary",
+        "deal": "33% korting",
+        "price": 0.79,
+        "dateStart": "2022-02-20",
+        "dateEnd": "2022-02-20",
+        "link": "https://ah.nl/bonus/groep/439537?week=7",
+        "shop": "AH"
+    },
+    {
+        "product": "Triangel meergranen, meerzadenbroodje, italiaanse bol",
+        "productInfo": "Vers uit onze oven - Per stuk",
+        "category": "brood",
+        "image": "https://static.ah.nl/static/product/AHI_434d50313139353231_1_200x200_JPG.JPG",
+        "deal": "18% korting",
+        "price": 0.49,
+        "dateStart": "2022-02-20",
+        "dateEnd": "2022-02-20",
+        "link": "https://ah.nl/bonus/groep/439539?week=7",
+        "shop": "AH"
+    },
+    {
+        "product": "Bakkersbrood les pains heel",
+        "productInfo": "Per stuk",
+        "category": "brood",
+        "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD522871?rendition=200px&fileType=binary",
+        "deal": "34% korting",
+        "price": 1.49,
+        "dateStart": "2022-02-20",
+        "dateEnd": "2022-02-20",
+        "link": "https://ah.nl/bonus/groep/443030?week=7",
+        "shop": "AH"
+    },
+    {
+        "product": "Vruchtenbrood",
+        "productInfo": "Bijv. Krenten rozijnbrood - Per Stuk",
+        "category": "brood",
+        "image": "https://static.ah.nl/static/product/AHI_434d50323532303736_3_200x200_JPG.JPG",
+        "deal": "16% korting",
+        "price": 1.5,
+        "dateStart": "2022-02-20",
+        "dateEnd": "2022-02-20",
+        "link": "https://ah.nl/bonus/groep/443032?week=7",
+        "shop": "AH"
+    },
+    {
+        "product": "Zonnebloempittenbrood",
+        "productInfo": "800 g per brood 2 broden",
+        "category": "brood",
+        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/882459/gallery/preview/xs/882459.jpg",
+        "deal": "34% korting",
+        "price": "2.50",
+        "dateStart": "2022-02-14",
+        "dateEnd": "2022-02-20",
+        "link": "https://www.lidl.nl/p/zonnebloempittenbrood/p882459",
+        "shop": "Lidl"
+    },
+    {
+        "product": "Halfje sesamvolkorenbrood",
+        "productInfo": "400 g per halfje",
+        "category": "brood",
+        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/886568/gallery/preview/xs/886568.jpg",
+        "deal": "20% korting",
+        "price": "0.79",
+        "dateStart": "2022-02-14",
+        "dateEnd": "2022-02-20",
+        "link": "https://www.lidl.nl/p/halfje-sesamvolkorenbrood/p886568",
+        "shop": "Lidl"
+    },
+    {
+        "product": "Witte pistoletjes",
+        "productInfo": "5 stuks",
+        "category": "brood",
+        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/881256/gallery/preview/xs/881256.jpg",
+        "deal": "20% korting",
+        "price": "1.-",
+        "dateStart": "2022-02-14",
+        "dateEnd": "2022-02-20",
+        "link": "https://www.lidl.nl/p/witte-pistoletjes/p881256",
         "shop": "Lidl"
     },
     {
@@ -3072,18 +2988,6 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Aardappelen",
-        "productInfo": "Zak 3 kilo",
-        "category": "groente",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/Eentje%20extra/Aardappelen_280px.png",
-        "deal": "1+1 gratis",
-        "price": 0,
-        "dateStart": "2022-02-01",
-        "dateEnd": "2022-03-01",
-        "link": "https://jumbo.com/aanbiedingen/9215030-B-1",
-        "shop": "Jumbo"
-    },
-    {
         "product": "Kies & Mix groente",
         "productInfo": "Bloemkool per stuk, trostomaten verpakt 5 stuks, zoete aardappelen zak 1 kilo, zoete punt praprika zak 500 gram of Tommies snoep tomaten verpakking 250 gram",
         "category": "groente",
@@ -3192,6 +3096,18 @@
         "shop": "AH"
     },
     {
+        "product": "Groenteshots",
+        "productInfo": "6 stuks",
+        "category": "groente",
+        "image": "https://static.ah.nl/static/product/AHI_43545236323035383032_3_200x200_JPG.JPG",
+        "deal": "6=5 gratis",
+        "price": 5,
+        "dateStart": "2022-02-20",
+        "dateEnd": "2022-02-20",
+        "link": "https://ah.nl/bonus/groep/439319?week=7",
+        "shop": "AH"
+    },
+    {
         "product": "Roerbakgroente 400 gram",
         "productInfo": "Per zak",
         "category": "groente",
@@ -3264,18 +3180,6 @@
         "shop": "Lidl"
     },
     {
-        "product": "Vastkokende en kruimige aardappelen",
-        "productInfo": "Alle combinaties mogelijk",
-        "category": "groente",
-        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/8883242/gallery/preview/xs/8883242.jpg",
-        "deal": "1+1 gratis",
-        "price": "1.59",
-        "dateStart": "2022-02-14",
-        "dateEnd": "2022-02-16",
-        "link": "https://www.lidl.nl/p/vastkokende-en-kruimige-aardappelen/p8883242",
-        "shop": "Lidl"
-    },
-    {
         "product": "Ovengroenten",
         "productInfo": "Alle combinaties mogelijk 600 g per zak 2 zakken",
         "category": "groente",
@@ -3322,6 +3226,102 @@
         "dateEnd": "2022-02-20",
         "link": "https://www.lidl.nl/p/pompoenblokjes/p886604593",
         "shop": "Lidl"
+    },
+    {
+        "product": "Milner plakken, stukken of geraspte kaas",
+        "productInfo": "Uit de kaas wandkoeling\n2 verpakkingen à 150-450 gram",
+        "category": "kaas",
+        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA2/Milner_280px.png",
+        "deal": "2e halve prijs",
+        "price": 0,
+        "dateStart": "2022-02-01",
+        "dateEnd": "2022-03-01",
+        "link": "https://jumbo.com/aanbiedingen/9215033-B-1",
+        "shop": "Jumbo"
+    },
+    {
+        "product": "Kies & Mix kaas",
+        "productInfo": "Diverse soorten",
+        "category": "kaas",
+        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2021/K&M%20Kaas%20P8%202021.png",
+        "deal": "3 voor € 5,00",
+        "price": "5.00",
+        "dateStart": "2020-07-02",
+        "dateEnd": "2022-12-31",
+        "link": "https://jumbo.com/aanbiedingen/kiesmix_kaas1",
+        "shop": "Jumbo"
+    },
+    {
+        "product": "Kies & Mix plakken kaas",
+        "productInfo": "Alle Kies en Mix soorten\n2 verpakkingen met Kies en Mix sticker 190 gram",
+        "category": "kaas",
+        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Kies%20&%20mix%202022/KM%20kaas%20plakken%202022.png",
+        "deal": "2 voor € 3,50",
+        "price": "3.50",
+        "dateStart": "2022-01-04",
+        "dateEnd": "2022-12-31",
+        "link": "https://jumbo.com/aanbiedingen/3176002-C-1",
+        "shop": "Jumbo"
+    },
+    {
+        "product": "Borrelkaasjes",
+        "productInfo": "Diverse varianten*, combineren mogelijk",
+        "category": "kaas",
+        "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD513820?rendition=200px&fileType=binary",
+        "deal": "3 voor 5.00",
+        "price": 5,
+        "dateStart": "2022-02-20",
+        "dateEnd": "2022-02-20",
+        "link": "https://ah.nl/bonus/groep/389073?week=7",
+        "shop": "AH"
+    },
+    {
+        "product": "Parrano 60-100 gram",
+        "productInfo": "Per zak",
+        "category": "kaas",
+        "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD522850?rendition=200px&fileType=binary",
+        "deal": "45% korting",
+        "price": 1.19,
+        "dateStart": "2022-02-20",
+        "dateEnd": "2022-02-20",
+        "link": "https://ah.nl/bonus/groep/439525?week=7",
+        "shop": "AH"
+    },
+    {
+        "product": "Geitenkaas",
+        "productInfo": "Bijv. geitenkaas schijfjes - 200 gram",
+        "category": "kaas",
+        "image": "https://static.ah.nl/static/product/AHI_434d50363631373532_2_200x200_JPG.JPG",
+        "deal": "10% korting",
+        "price": 1.97,
+        "dateStart": "2022-02-20",
+        "dateEnd": "2022-02-20",
+        "link": "https://ah.nl/bonus/groep/439527?week=7",
+        "shop": "AH"
+    },
+    {
+        "product": "Goudse kaas in stukken van de zelfbedieningsafdeling",
+        "productInfo": "Per 100 gram",
+        "category": "kaas",
+        "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD522847?rendition=200px&fileType=binary",
+        "deal": "13% korting",
+        "price": 0.99,
+        "dateStart": "2022-02-20",
+        "dateEnd": "2022-02-20",
+        "link": "https://ah.nl/bonus/groep/444125?week=7",
+        "shop": "AH"
+    },
+    {
+        "product": "Milner van de versafdeling",
+        "productInfo": "Per 100 gram",
+        "category": "kaas",
+        "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD522845?rendition=200px&fileType=binary",
+        "deal": "38% korting",
+        "price": 0.99,
+        "dateStart": "2022-02-20",
+        "dateEnd": "2022-02-20",
+        "link": "https://ah.nl/bonus/groep/444126?week=7",
+        "shop": "AH"
     },
     {
         "product": "Unox of Conimex soep in zak",
