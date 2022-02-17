@@ -55,25 +55,29 @@ header#header {
   top: 0px;
   width: 100%;
   cursor: pointer;
-  box-shadow: var(--shadow-elevation-medium);
-  background: #FFFFFFF0;
+  background: var(--main-color);
   z-index: 800;
 }
 
 #filter-description {
-  padding: 15px 10px 15px 10px;
+  padding: 10px 0px 10px 10px;
+  margin: 10px 10px 10px 10px;
   color: #B25656;
+  border-radius: 8px;
+  background: #FFF;
   font-weight: 400;
   display: inline-block;
 }
 
 b.label {
   display: inline-block;
-  padding: 0px 5px 0px 5px;
+  padding: 5px 10px 5px 10px;
   border-radius: 8px;
   background: #ededed;
   color: #696969;
   animation: pop 500ms;
+  margin: 0px 10px 0px 0px;
+  box-shadow: inset 0px -1px 0px 0px #0000006b;
 }
 
 @keyframes pop {
@@ -85,17 +89,21 @@ b.label {
 b.label-shop-jumbo {
   background: #eeb717;
   color: #FFF;
+  text-transform: uppercase;
   text-shadow: 1px 1px #000;
 }
 
 b.label-shop-ah {
   background: #00ade6;
   color: #FFF;
+  text-transform: uppercase;
+
 }
 
 b.label-shop-lidl {
   background: #fff000;
   color: #0050aa;
+  text-transform: uppercase;
 }
 
 .filter {
@@ -249,7 +257,7 @@ i.icon {
   z-index: 900;
   margin: 10px 10px 10px 0px;
   border-radius: 8px;
-  box-shadow: 2px 2px 0px 0px #b25656;
+  box-shadow: inset 0px 0px 0px 1px #b25656;
   text-shadow: 0px 1px #b25656;
   min-width: 25px;
 }
