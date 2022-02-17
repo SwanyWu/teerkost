@@ -97,19 +97,19 @@ function App() {
   const setFilterDescription = (shopValue, offerValue, categoryValue) => {
     var descriptionString = ""
     if(offerValue != null) {
-      descriptionString = descriptionString.concat("<b class='label'>" + offerValue + "</b> ")
+      descriptionString = descriptionString.concat("<b class='label'>" + offerValue + "</b>")
     }
     else {
-      descriptionString = descriptionString.concat("<b class='label'>Alle korting</b> ")
+      descriptionString = descriptionString.concat("<b class='label'>Alle korting</b>")
     }
     if(categoryValue != null) {
-      descriptionString = descriptionString.concat(" op <b class='label'>" + categoryValue + "</b>")
+      descriptionString = descriptionString.concat("<b class='label'>" + categoryValue + "</b>")
     }
     if(shopValue != null) {
-      descriptionString = descriptionString.concat(" bij de <b class='label label-shop-"+ shopValue.toLowerCase() +"'>" + shopValue + "</b>")
+      descriptionString = descriptionString.concat("<b class='label label-shop-"+ shopValue.toLowerCase() +"'>" + shopValue + "</b>")
     }
     else {
-      descriptionString = descriptionString.concat(" bij de <b class='label label-shop-jumbo'>Jumbo</b>, <b class='label label-shop-lidl'>Lidl</b> en <b class='label label-shop-ah'>AH</b>")
+      descriptionString = descriptionString.concat("<b class='label label-shop-jumbo'>Jumbo</b><b class='label label-shop-lidl'>Lidl</b><b class='label label-shop-ah'>AH</b>")
     }
 
     document.getElementById('filter-description').innerHTML = descriptionString
@@ -171,7 +171,7 @@ function App() {
       </div>
       <header id="header" onClick={expandFilter}>
       <div id="filter-description">
-        <b className="label">Alle korting</b> bij <b className="label label-shop-jumbo">Jumbo</b>, <b className="label label-shop-lidl">Lidl</b> en <b className="label label-shop-ah">AH</b>
+        <b className="label">Alle korting</b><b className="label label-shop-jumbo">Jumbo</b><b className="label label-shop-lidl">Lidl</b><b className="label label-shop-ah">AH</b>
       </div>
       <div id="filter-button">FILTER</div>
       </header>
