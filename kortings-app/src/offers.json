@@ -456,6 +456,18 @@
         "shop": "Jumbo"
     },
     {
+        "product": "Mondkapjes Type 2",
+        "productInfo": "Diverse soorten",
+        "category": "",
+        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA2/Mondkapjes.png",
+        "deal": "2 voor € 4,00",
+        "price": "4.00",
+        "dateStart": "2021-09-15",
+        "dateEnd": "2022-03-01",
+        "link": "https://jumbo.com/aanbiedingen/sa02_mondkapjes",
+        "shop": "Jumbo"
+    },
+    {
         "product": "Jumbo keukenpapier",
         "productInfo": "2 pakken à 4 rollen of 1 Maxi rol",
         "category": "",
@@ -1695,7 +1707,7 @@
         "product": "Haribo 175-260 gram",
         "productInfo": "Bijv. Kikkers",
         "category": "",
-        "image": "https://static.ah.nl/static/product/AHI_43545239353732373033_5_200x200_JPG.JPG",
+        "image": "https://static.ah.nl/static/product/AHI_43545239353732373033_4_200x200_JPG.JPG",
         "deal": "2 voor 2.69",
         "price": 2.69,
         "dateStart": "2022-02-20",
@@ -2014,18 +2026,6 @@
         "dateEnd": "2022-02-20",
         "link": "https://ah.nl/bonus/groep/439521?week=7",
         "shop": "AH"
-    },
-    {
-        "product": "Basilicum",
-        "productInfo": "per pot",
-        "category": "",
-        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/8884651/gallery/preview/xs/8884651.jpg",
-        "deal": "33% korting",
-        "price": "0.99",
-        "dateStart": "2022-02-14",
-        "dateEnd": "2022-02-16",
-        "link": "https://www.lidl.nl/p/basilicum/p8884651",
-        "shop": "Lidl"
     },
     {
         "product": "Casselerrib",
@@ -2458,18 +2458,6 @@
         "dateEnd": "2022-02-20",
         "link": "https://ah.nl/bonus/groep/439430?week=7",
         "shop": "AH"
-    },
-    {
-        "product": "Vastkokende en kruimige aardappelen",
-        "productInfo": "Alle combinaties mogelijk",
-        "category": "aardappel",
-        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/8883242/gallery/preview/xs/8883242.jpg",
-        "deal": "1+1 gratis",
-        "price": "1.59",
-        "dateStart": "2022-02-14",
-        "dateEnd": "2022-02-16",
-        "link": "https://www.lidl.nl/p/vastkokende-en-kruimige-aardappelen/p8883242",
-        "shop": "Lidl"
     },
     {
         "product": "Toscaanse stijl aardappelpartjes",
@@ -2916,18 +2904,6 @@
         "shop": "AH"
     },
     {
-        "product": "Elstar appels",
-        "productInfo": "per kilo",
-        "category": "fruit",
-        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/8880241/gallery/preview/xs/8880241.jpg",
-        "deal": "47% korting",
-        "price": "0.99",
-        "dateStart": "2022-02-14",
-        "dateEnd": "2022-02-16",
-        "link": "https://www.lidl.nl/p/elstar-appels/p8880241",
-        "shop": "Lidl"
-    },
-    {
         "product": "Hand- en perssinaasappelen",
         "productInfo": "Alle combinaties mogelijk",
         "category": "fruit",
@@ -3142,30 +3118,6 @@
         "dateEnd": "2022-02-20",
         "link": "https://ah.nl/bonus/groep/444283?week=7",
         "shop": "AH"
-    },
-    {
-        "product": "Waspeen",
-        "productInfo": "500 g per zak 2 zakken",
-        "category": "groente",
-        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/8882761/gallery/preview/xs/8882761.jpg",
-        "deal": "49% korting",
-        "price": "1.-",
-        "dateStart": "2022-02-14",
-        "dateEnd": "2022-02-16",
-        "link": "https://www.lidl.nl/p/waspeen/p8882761",
-        "shop": "Lidl"
-    },
-    {
-        "product": "Prei",
-        "productInfo": "3 stuks",
-        "category": "groente",
-        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/8882256/gallery/preview/xs/8882256.jpg",
-        "deal": "44% korting",
-        "price": "0.99",
-        "dateStart": "2022-02-14",
-        "dateEnd": "2022-02-16",
-        "link": "https://www.lidl.nl/p/prei/p8882256",
-        "shop": "Lidl"
     },
     {
         "product": "Ovengroenten",
