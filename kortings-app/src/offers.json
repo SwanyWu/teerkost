@@ -1020,6 +1020,18 @@
         "shop": "AH"
     },
     {
+        "product": "Paté kleinverpakking",
+        "productInfo": "Bijv. Ardennerpate - 2 stuks",
+        "category": "",
+        "image": "https://static.ah.nl/static/product/AHI_43545239383238303039_1_200x200_JPG.JPG",
+        "deal": "2 voor 2.00",
+        "price": 2,
+        "dateStart": "2022-02-20",
+        "dateEnd": "2022-02-20",
+        "link": "https://ah.nl/bonus/groep/433880?week=7",
+        "shop": "AH"
+    },
+    {
         "product": "Scrocchi en pico",
         "productInfo": "Bijv. Scrocchi mare met zeezout - 2 stuks",
         "category": "",
@@ -1296,7 +1308,7 @@
         "shop": "AH"
     },
     {
-        "product": "Red bull smaken",
+        "product": "Red bull sugarfree en smaken",
         "productInfo": "Bijv. Energy drink zero - 0.25 Liter",
         "category": "",
         "image": "https://static.ah.nl/static/product/AHI_43545239373032333138_1_200x200_JPG.JPG",
@@ -2932,11 +2944,11 @@
         "productInfo": "Verpakking 3 stuks",
         "category": "groente",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Weekaanbiedingen/Week%207/Paprika_Mix.png",
-        "deal": "1 voor € 1,75",
-        "price": "1.75",
-        "dateStart": "2022-02-15",
+        "deal": "1 voor € 1,69",
+        "price": "1.69",
+        "dateStart": "2022-02-16",
         "dateEnd": "2022-02-22",
-        "link": "https://jumbo.com/aanbiedingen/9258040-A-1",
+        "link": "https://jumbo.com/aanbiedingen/9258041-A-1",
         "shop": "Jumbo"
     },
     {
