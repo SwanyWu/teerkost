@@ -37,7 +37,7 @@
     },
     {
         "name": "brood",
-        "keywords": [ "brood", "broodje", "broodjes", "pistolet", "pistoletjes", "zonnebloempittenbrood", "sesamvolkorenbrood",
+        "keywords": [ "brood", "broodje", "broodjes", "croissant", "croissantjes", "pistolet", "pistoletjes", "zonnebloempittenbrood", "sesamvolkorenbrood",
              "vruchtenbrood", "bakkersbrood", "meerzadenbroodje", "meerzadenbrood", "volkorenbrood", "sesambrood", "meergranenbrood"]
     },
     {
@@ -62,10 +62,16 @@
         "name": "kant-en-klaar",
         "keywords": [
             "stoommaaltijden", "stoommaaltijd", "stamppotten","maaltijd", "lunchsalade", "maaltijden", "soep", "pureersoep", "soepen", "ovenmaaltijd", "ovenmaaltijden","maaltijdcomponenten",
-            "fruitsalades", "fruitsalade", "maaltijdsalade", "maaltijdsalades", "3-vaksmaaltijden", "3-vaksmaaltijd",
+            "fruitsalades", "fruitsalade", "maaltijdsalade", "pastasalade", "pastasalades", "maaltijdsalades", "3-vaksmaaltijden", "3-vaksmaaltijd",
             "ovenschotels", "ovenschotel", "quiche", "maaltijdpakket", "maaltijdpakketten"
         ]
     },
+    {
+        "name": "noten",
+        "keywords": [
+            "cashewnoten", "studentenhaver", "nootjes", "edamame", "noten", "pinda's", "amandellen"
+        ]
+    }
     {
         "name": "fruit",
         "keywords": [
