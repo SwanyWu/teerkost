@@ -840,18 +840,6 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Kies & Mix ongezouten verse noten",
-        "productInfo": "Cup à 110-250 gram",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Kies%20&%20mix%202022/KM%20notenmix%202022.png",
-        "deal": "2 voor € 5,00",
-        "price": "5.00",
-        "dateStart": "2022-01-19",
-        "dateEnd": "2022-12-31",
-        "link": "https://jumbo.com/aanbiedingen/3100012-C-1",
-        "shop": "Jumbo"
-    },
-    {
         "product": "Mondkapjes",
         "productInfo": "Uitwasbare mondkapjes of wegwerp mondkapjes 10 stuks\n2 verpakkingen",
         "category": "",
@@ -864,7 +852,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Slamelanges*",
+        "product": "Slamelanges",
         "productInfo": "Per zak",
         "category": "",
         "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD522852?rendition=200px&fileType=binary",
@@ -921,18 +909,6 @@
         "dateStart": "2022-02-20",
         "dateEnd": "2022-02-20",
         "link": "https://ah.nl/bonus/groep/439455?week=7",
-        "shop": "AH"
-    },
-    {
-        "product": "Kleine salades of pastasalades",
-        "productInfo": "Per stuk",
-        "category": "",
-        "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD522830?rendition=200px&fileType=binary",
-        "deal": "24% korting",
-        "price": 2.49,
-        "dateStart": "2022-02-20",
-        "dateEnd": "2022-02-20",
-        "link": "https://ah.nl/bonus/groep/439459?week=7",
         "shop": "AH"
     },
     {
@@ -1056,7 +1032,7 @@
         "shop": "AH"
     },
     {
-        "product": "Borrelgemak van de versafdeling*",
+        "product": "Borrelgemak van de versafdeling",
         "productInfo": "Bijv. olijven met knoflook - 3 bakjes à 150 gram",
         "category": "",
         "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD522809?rendition=200px&fileType=binary",
@@ -1121,7 +1097,7 @@
         "category": "",
         "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD522821?rendition=200px&fileType=binary",
         "deal": "2e halve prijs",
-        "price": 2.32,
+        "price": 2.33,
         "dateStart": "2022-02-20",
         "dateEnd": "2022-02-20",
         "link": "https://ah.nl/bonus/groep/439420?week=7",
@@ -1140,7 +1116,7 @@
         "shop": "AH"
     },
     {
-        "product": "Alpro not m*lk",
+        "product": "Alpro not mlk",
         "productInfo": "Bijv. Not M*LK Drink Plantaardig & Halfvol",
         "category": "",
         "image": "https://static.ah.nl/static/product/AHI_43545239383234353131_30_200x200_JPG.JPG",
@@ -1596,18 +1572,6 @@
         "shop": "AH"
     },
     {
-        "product": "Nootjes",
-        "productInfo": "Bijv. Studentenhaver - 3 zakjes à 200 gram",
-        "category": "",
-        "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD384066?rendition=200px&fileType=binary",
-        "deal": "3 voor 5.00",
-        "price": 5,
-        "dateStart": "2022-02-20",
-        "dateEnd": "2022-02-20",
-        "link": "https://ah.nl/bonus/groep/266576?week=7",
-        "shop": "AH"
-    },
-    {
         "product": "Delicata sparkling eitjes",
         "productInfo": "Bijv. delicata melk pecan karam",
         "category": "",
@@ -1620,7 +1584,7 @@
         "shop": "AH"
     },
     {
-        "product": "Lonka nougat en fudge*",
+        "product": "Lonka nougat en fudge",
         "productInfo": "Bijv. Lonka Caramel Fudge",
         "category": "",
         "image": "https://static.ah.nl/static/product/AHI_43545239373135383236_1_200x200_JPG.JPG",
@@ -1641,18 +1605,6 @@
         "dateStart": "2022-02-20",
         "dateEnd": "2022-02-20",
         "link": "https://ah.nl/bonus/groep/439361?week=7",
-        "shop": "AH"
-    },
-    {
-        "product": "Handje noten",
-        "productInfo": "Bijv. Handje noten pinda, amandel & edamame",
-        "category": "",
-        "image": "https://static.ah.nl/static/product/AHI_43545239383331333233_1_200x200_JPG.JPG",
-        "deal": "20% korting",
-        "price": 1.99,
-        "dateStart": "2022-02-20",
-        "dateEnd": "2022-02-20",
-        "link": "https://ah.nl/bonus/groep/439367?week=7",
         "shop": "AH"
     },
     {
@@ -1824,7 +1776,7 @@
         "shop": "AH"
     },
     {
-        "product": "Dettol*",
+        "product": "Dettol",
         "productInfo": "Per stuk",
         "category": "",
         "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD522836?rendition=200px&fileType=binary",
@@ -1836,7 +1788,7 @@
         "shop": "AH"
     },
     {
-        "product": "A-merk vitaminen, mineralen en supplementen*",
+        "product": "A-merk vitaminen, mineralen en supplementen",
         "productInfo": "Bijv. Roter vitamine C 1000 mg bruistabletten",
         "category": "",
         "image": "https://static.ah.nl/static/product/AHI_43545239373036363234_3_200x200_JPG.JPG",
@@ -1860,7 +1812,7 @@
         "shop": "AH"
     },
     {
-        "product": "Glorix*",
+        "product": "Glorix",
         "productInfo": "Per stuk",
         "category": "",
         "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD522839?rendition=200px&fileType=binary",
@@ -2004,7 +1956,7 @@
         "shop": "AH"
     },
     {
-        "product": "A-merk tissues of zakdoekjes*",
+        "product": "A-merk tissues of zakdoekjes",
         "productInfo": "Per pak",
         "category": "",
         "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD522844?rendition=200px&fileType=binary",
@@ -2016,7 +1968,7 @@
         "shop": "AH"
     },
     {
-        "product": "A-merkvochtig toiletpapier*",
+        "product": "A-merkvochtig toiletpapier",
         "productInfo": "Per pak",
         "category": "",
         "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD522843?rendition=200px&fileType=binary",
@@ -2145,18 +2097,6 @@
         "dateStart": "2022-02-14",
         "dateEnd": "2022-02-20",
         "link": "https://www.lidl.nl/p/pringles/p889092",
-        "shop": "Lidl"
-    },
-    {
-        "product": "Cashewnoten",
-        "productInfo": "200 g per zak 2 zakken",
-        "category": "",
-        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/8812971/gallery/preview/xs/8812971.jpg",
-        "deal": "39% korting",
-        "price": "3.-",
-        "dateStart": "2022-02-14",
-        "dateEnd": "2022-02-20",
-        "link": "https://www.lidl.nl/p/cashewnoten/p8812971",
         "shop": "Lidl"
     },
     {
@@ -2412,18 +2352,6 @@
         "shop": "Lidl"
     },
     {
-        "product": "Croissant met bakkersroomvulling",
-        "productInfo": "2 stuks",
-        "category": "",
-        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/886001723/gallery/preview/xs/886001723.jpg",
-        "deal": "op=op",
-        "price": "1.-",
-        "dateStart": "2022-02-17",
-        "dateEnd": "",
-        "link": "https://www.lidl.nl/p/croissant-met-bakkersroomvulling/p886001723",
-        "shop": "Lidl"
-    },
-    {
         "product": "Mini-appeltaartjes",
         "productInfo": "*bron: favorflav, januari 2021",
         "category": "",
@@ -2592,7 +2520,7 @@
         "shop": "AH"
     },
     {
-        "product": "Heineken of brand*",
+        "product": "Heineken of brand",
         "productInfo": "Bijv. Heineken pils 6-pack - 6 blikjes à 0.33 l",
         "category": "bier",
         "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD522825?rendition=200px&fileType=binary",
@@ -2793,6 +2721,18 @@
         "dateStart": "2022-02-14",
         "dateEnd": "2022-02-20",
         "link": "https://www.lidl.nl/p/witte-pistoletjes/p881256",
+        "shop": "Lidl"
+    },
+    {
+        "product": "Croissant met bakkersroomvulling",
+        "productInfo": "2 stuks",
+        "category": "brood",
+        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/886001723/gallery/preview/xs/886001723.jpg",
+        "deal": "op=op",
+        "price": "1.-",
+        "dateStart": "2022-02-17",
+        "dateEnd": "",
+        "link": "https://www.lidl.nl/p/croissant-met-bakkersroomvulling/p886001723",
         "shop": "Lidl"
     },
     {
@@ -3348,6 +3288,18 @@
         "shop": "Jumbo"
     },
     {
+        "product": "Kleine salades of pastasalades",
+        "productInfo": "Per stuk",
+        "category": "kant-en-klaar",
+        "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD522830?rendition=200px&fileType=binary",
+        "deal": "24% korting",
+        "price": 2.49,
+        "dateStart": "2022-02-20",
+        "dateEnd": "2022-02-20",
+        "link": "https://ah.nl/bonus/groep/439459?week=7",
+        "shop": "AH"
+    },
+    {
         "product": "Iglo maaltijden",
         "productInfo": "Per stuk",
         "category": "kant-en-klaar",
@@ -3408,6 +3360,54 @@
         "shop": "Jumbo"
     },
     {
+        "product": "Kies & Mix ongezouten verse noten",
+        "productInfo": "Cup à 110-250 gram",
+        "category": "noten",
+        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Kies%20&%20mix%202022/KM%20notenmix%202022.png",
+        "deal": "2 voor € 5,00",
+        "price": "5.00",
+        "dateStart": "2022-01-19",
+        "dateEnd": "2022-12-31",
+        "link": "https://jumbo.com/aanbiedingen/3100012-C-1",
+        "shop": "Jumbo"
+    },
+    {
+        "product": "Nootjes",
+        "productInfo": "Bijv. Studentenhaver - 3 zakjes à 200 gram",
+        "category": "noten",
+        "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD384066?rendition=200px&fileType=binary",
+        "deal": "3 voor 5.00",
+        "price": 5,
+        "dateStart": "2022-02-20",
+        "dateEnd": "2022-02-20",
+        "link": "https://ah.nl/bonus/groep/266576?week=7",
+        "shop": "AH"
+    },
+    {
+        "product": "Handje noten",
+        "productInfo": "Bijv. Handje noten pinda, amandel & edamame",
+        "category": "noten",
+        "image": "https://static.ah.nl/static/product/AHI_43545239383331333233_1_200x200_JPG.JPG",
+        "deal": "20% korting",
+        "price": 1.99,
+        "dateStart": "2022-02-20",
+        "dateEnd": "2022-02-20",
+        "link": "https://ah.nl/bonus/groep/439367?week=7",
+        "shop": "AH"
+    },
+    {
+        "product": "Cashewnoten",
+        "productInfo": "200 g per zak 2 zakken",
+        "category": "noten",
+        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/8812971/gallery/preview/xs/8812971.jpg",
+        "deal": "39% korting",
+        "price": "3.-",
+        "dateStart": "2022-02-14",
+        "dateEnd": "2022-02-20",
+        "link": "https://www.lidl.nl/p/cashewnoten/p8812971",
+        "shop": "Lidl"
+    },
+    {
         "product": "Garnalen",
         "productInfo": "Schaal grote knoflook garnalen 200 gram, garnalen 150 gram of Hollandse garnalen 100 gram",
         "category": "vis",
@@ -3456,7 +3456,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Kabeljauw*",
+        "product": "Kabeljauw",
         "productInfo": "Bijv. Kabeljauwhaas 2 porties - Schaal 260 gram",
         "category": "vis",
         "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD522862?rendition=200px&fileType=binary",
