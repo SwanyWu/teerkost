@@ -12,6 +12,18 @@
         "shop": "Jumbo"
     },
     {
+        "product": "Johma Salades",
+        "productInfo": "Voor op brood of toast \n3 bakjes à 175 gram",
+        "category": "",
+        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Weekaanbiedingen/Week%207/Johma%20Salades.png",
+        "deal": "3 voor € 6,00",
+        "price": "6.00",
+        "dateStart": "2022-02-15",
+        "dateEnd": "2022-02-22",
+        "link": "https://jumbo.com/aanbiedingen/9257041-C-1",
+        "shop": "Jumbo"
+    },
+    {
         "product": "Lipton Ice Tea",
         "productInfo": "2 flessen à 1,5 liter",
         "category": "",
@@ -837,6 +849,18 @@
         "dateStart": "2022-01-04",
         "dateEnd": "2022-12-31",
         "link": "https://jumbo.com/aanbiedingen/4368007-B-1",
+        "shop": "Jumbo"
+    },
+    {
+        "product": "Kies & Mix brood en toast salades",
+        "productInfo": "Alle soorten met Kies en Mix logo\n2 verpakkingen à 175 gram",
+        "category": "",
+        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Kies%20&%20mix%202022/KM%20brood%20toast%20salades%202022.png",
+        "deal": "2 voor € 3,00 ",
+        "price": "3.00 ",
+        "dateStart": "2022-01-04",
+        "dateEnd": "2022-12-31",
+        "link": "https://jumbo.com/aanbiedingen/3176005-C-1",
         "shop": "Jumbo"
     },
     {
@@ -1671,7 +1695,7 @@
         "product": "Haribo 175-260 gram",
         "productInfo": "Bijv. Kikkers",
         "category": "",
-        "image": "https://static.ah.nl/static/product/AHI_43545239353732373033_5_200x200_JPG.JPG",
+        "image": "https://static.ah.nl/static/product/AHI_43545239353732373033_4_200x200_JPG.JPG",
         "deal": "2 voor 2.69",
         "price": 2.69,
         "dateStart": "2022-02-20",
@@ -2592,18 +2616,6 @@
         "shop": "Lidl"
     },
     {
-        "product": "Johma Salades",
-        "productInfo": "Voor op brood of toast \n3 bakjes à 175 gram",
-        "category": "brood",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Weekaanbiedingen/Week%207/Johma%20Salades.png",
-        "deal": "3 voor € 6,00",
-        "price": "6.00",
-        "dateStart": "2022-02-15",
-        "dateEnd": "2022-02-22",
-        "link": "https://jumbo.com/aanbiedingen/9257041-C-1",
-        "shop": "Jumbo"
-    },
-    {
         "product": "Kies & Mix broodjes",
         "productInfo": "Per zak",
         "category": "brood",
@@ -2625,18 +2637,6 @@
         "dateStart": "2019-03-19",
         "dateEnd": "2022-12-31",
         "link": "https://jumbo.com/aanbiedingen/kies_en_mix_broodjes",
-        "shop": "Jumbo"
-    },
-    {
-        "product": "Kies & Mix brood en toast salades",
-        "productInfo": "Alle soorten met Kies en Mix logo\n2 verpakkingen à 175 gram",
-        "category": "brood",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Kies%20&%20mix%202022/KM%20brood%20toast%20salades%202022.png",
-        "deal": "2 voor € 3,00 ",
-        "price": "3.00 ",
-        "dateStart": "2022-01-04",
-        "dateEnd": "2022-12-31",
-        "link": "https://jumbo.com/aanbiedingen/3176005-C-1",
         "shop": "Jumbo"
     },
     {
