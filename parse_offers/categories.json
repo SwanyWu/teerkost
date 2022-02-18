@@ -37,8 +37,10 @@
     },
     {
         "name": "brood",
-        "keywords": [ "brood", "broodje", "broodjes", "croissant", "croissantjes", "pistolet", "pistoletjes", "zonnebloempittenbrood", "sesamvolkorenbrood",
-             "vruchtenbrood", "bakkersbrood", "meerzadenbroodje", "meerzadenbrood", "volkorenbrood", "sesambrood", "meergranenbrood"]
+        "keywords": [ 
+            "broodje", "broodjes", "croissant", "croissantjes", "pistolet", "pistoletjes", "zonnebloempittenbrood", "sesamvolkorenbrood",
+             "vruchtenbrood", "bakkersbrood", "meerzadenbroodje", "meerzadenbrood", "volkorenbrood", "sesambrood", "meergranenbrood"
+            ]
     },
     {
         "name": "kaas",
