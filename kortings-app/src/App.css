@@ -144,6 +144,7 @@ b.label-shop-lidl {
   display: inline-block;
   white-space: nowrap;
   overflow-x: scroll;
+  scroll-snap-type: block;
   width: 100%;
 }
 
@@ -156,6 +157,7 @@ b.label-shop-lidl {
   font-size: .8em;
   font-weight: 800;
   cursor: pointer;
+  scroll-snap-align: start;
 }
 
 .filter-offer span {
