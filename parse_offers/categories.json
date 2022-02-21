@@ -17,8 +17,8 @@
     {
         "name": "groente",
         "keywords": [
-            "groenteshots", "groenteshot", "broccoli", "broccoliroosjes", "bloemkool", "bloemkoolroosjes", "spruiten", "waspeen", "winterpeen", "bospeen", "wortel", "wortels", 
-            "prei", "andijvie", "boerenkool", "spinazie",
+            "groentegemak","groenteshots", "groenteshot", "broccoli", "broccoliroosjes", "bloemkool", "bloemkoolroosjes", "spruiten", "waspeen", "winterpeen", "bospeen", "wortel", "wortels", 
+            "prei", "andijvie", "boerenkool", "spinazie", "wortelen", "kinderappels",
             "tomaten", "paprika", "avocado", "snoepgroente", "ovengroente", "ovengroenten", "groenten", "groentemix", "groente", "kookgroente", 
             "kookgroenten","witlof", "stamppotgroenten", "roerbakgroente", "kool",
             "komkommer", "courgette", "aubergine", "spruitjes", "peulen", "haricot", "worteltjes", "champignons", "kastanjechampignons","puntpaprika",
@@ -32,28 +32,29 @@
         "name": "aardappel",
         "keywords": [ "aardappelen", "krieltjes", "mini-krieltjes", "aardappelschijfjes", "aardappelkroketjes",
              "aardappelbolletjes", "aardappelfrites", "frites", "patat", "pommes", "frietjes", "friet", "aardappelgratin",
-             "aardappelroosjes", "aardappelpuree", "aardappel", "aardappelpartjes", "aardappelblokjes",
+             "aardappelroosjes", "aardappelgolfjes", "aardappelpuree", "aardappel", "aardappelpartjes", "aardappelblokjes",
               "aardappelwedges", "opbakaardappelen", "rosti", "rostirondjes", "smulfriet" ]
     },
     {
         "name": "brood",
         "keywords": [ 
-            "broodje", "broodjes", "croissant", "croissantjes", "pistolet", "pistoletjes", "zonnebloempittenbrood", "sesamvolkorenbrood",
+            "broodje", "brood", "broodjes", "pitabroodjes", "croissant", "croissantjes", "pistolet", "pistoletjes", "krentenbollen", "mini-rozijnen-krentenbollen", "mini-krentenbollen", "frikandelbroodje", "zonnebloempittenbrood", "sesamvolkorenbrood",
              "vruchtenbrood", "bakkersbrood", "meerzadenbroodje", "meerzadenbrood", "volkorenbrood", "sesambrood", "meergranenbrood"
             ]
     },
     {
         "name": "kaas",
-        "keywords": [ "milner", "boerenkaas", "boerderijkaas", "kaas", "kaasplakken", 
+        "keywords": ["zaanlander", "zanetti", "milner", "boerenkaas", "boerderijkaas",
+            "kaas", "specialiteitenkaas",  "kaasplakken", "gatenkaas", "fondeu",
             "borrelkaas", "borrelkaasjes", "brokkelkaas", "geitenkaas", "goudse", 
-            "parrano", "parmazan", "mozerella"]
+            "parrano", "parmazan", "parmigiano", "reggiano", "gorgonzola", "mozzerella", "buffelmozzerella"]
     },
     {
         "name": "vis",
         "keywords": [
             "vis", "vissticks","scholfilet","schol", "heek", "heekfilets", "heekfilet", "surimi","gravad","kabeljauw", "gamba's", "dorade", "doradefilets", 
             "doradefilet", "kabeljauwfilet","kabeljauwfilets", "kabeljauwhaas", "kabeljauwhaasjes","kibbeling", "lekkerbek",
-            "pangasius", "pangasiusfilet", "zalm", "zalmburger", "zalmburgers", "zalmfilet", "zalmfilets", "ovenzalm", "zalmstaarten", "zalmstaart",
+            "pangasius", "pangasiusfilet", "pangasiusfilets", "zalm", "zalmzijde", "zalmburger", "zalmburgers", "zalmfilet", "zalmfilets", "ovenzalm", "zalmstaarten", "zalmstaart",
             "makreel", "makreelflakes", "makreelzijde", "rivierkreeftenvlees", "mosselen",
             "haring", "braadharing","haringpartjes", "rolmops", "haringsalade","garnalen", "roerbakgarnalen", "wokgarnalen", 
             "forelfilets","forelfilet", "sliptong", "bakkeljauw", "oesters", "visschnitzels", "visschnitzel",
@@ -63,7 +64,7 @@
     {
         "name": "kant-en-klaar",
         "keywords": [
-            "stoommaaltijden", "stoommaaltijd", "stamppotten","maaltijd", "lunchsalade", "maaltijden", "soep", "pureersoep", "soepen", "ovenmaaltijd", "ovenmaaltijden","maaltijdcomponenten",
+            "stoommaaltijden", "2-vaks", "3-vaks", "stoommaaltijd", "stamppotten","maaltijd", "lunchsalade", "maaltijden", "soep", "erwtensoep", "pureersoep", "soepen", "ovenmaaltijd", "ovenmaaltijden","maaltijdcomponenten",
             "fruitsalades", "fruitsalade", "maaltijdsalade", "pastasalade", "pastasalades", "maaltijdsalades", "3-vaksmaaltijden", "3-vaksmaaltijd",
             "ovenschotels", "ovenschotel", "quiche", "maaltijdpakket", "maaltijdpakketten"
         ]
@@ -71,13 +72,13 @@
     {
         "name": "noten",
         "keywords": [
-            "cashewnoten", "studentenhaver", "nootjes", "edamame", "noten", "pinda's", "amandellen"
+            "cashewnoten", "studentenhaver", "nootjes", "edamame", "noten", "pinda's", "amandelen", "notemix", "pistache", "macadamia"
         ]
     },
     {
         "name": "fruit",
         "keywords": [
-            "mandarijnen", "fruit", "perssinaasappelen", "sinaasappels", "aardbeien", "druiven", "bessen", "frambozen", "mango", "appels", 
+            "mandarijnen", "bessen", "minneola", "dadels", "fruit", "perssinaasappelen", "sinaasappels", "aardbeien", "druiven", "bessen", "frambozen", "mango", "appels", 
             "appeltjes","kiwi", "meloen", "conference", "peren", "ananas", "granaatappel", "elstar", "jonagold"
         ]
     }
