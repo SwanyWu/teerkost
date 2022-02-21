@@ -89,7 +89,7 @@ function App() {
 
     var filtered = Offers.filter(shopFilter).filter(offerFilter).filter(categoryFilter)
     
-    setFilterDescription(activeShopValue, activeOfferValue, activeCategoryValue)
+    // setFilterDescription(activeShopValue, activeOfferValue, activeCategoryValue)
 
     setSelectedOffers(filtered);
   }
@@ -173,12 +173,15 @@ function App() {
           </div>
         </div>
       </div>
-      <header id="header" onClick={expandFilter}>
-      <div id="filter-description">
+      {/* <header id="header">
+
+      </header> */}
+      {/* <header id="header" onClick={expandFilter}> */}
+      {/* <div id="filter-description">
         <b className="label">Alle korting</b><b className="label label-shop-jumbo">Jumbo</b><b className="label label-shop-lidl">Lidl</b><b className="label label-shop-ah">AH</b>
       </div>
-      <div id="filter-button">FILTER</div>
-      </header>
+      <div id="filter-button">FILTER</div> */}
+      {/* </header> */}
       <div className="flex-container">
       { selectedOffers.length > 0 ? selectedOffers.map(function(name, index){
         return <Product key={index} item={name}/>;

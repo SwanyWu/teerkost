@@ -107,29 +107,23 @@ b.label-shop-lidl {
 }
 
 .filter {
-  position: fixed;
+  position: sticky;
   z-index: 900;
-  bottom: 0px;
+  top: 0px;
   width: 100%;
+  background: #d05f5fd6;
 }
 
 #filter-dialog {
-  display: none;
-  background: #0009;
-  padding: 15px 0px 0px 15px;
-  position: fixed;
-  bottom: 0px;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-  width: calc(100% - 15px);
-}
+  padding: 10px 0px 0px 10px;
+ }
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
   #filter-dialog {
     max-height: 75%;
     overflow-y: scroll;
   }
-}
+} */
 
 .filter-wrap {
   max-width: 1000px;
@@ -147,48 +141,21 @@ b.label-shop-lidl {
 }
 
 .filter-offer, .filter-cat, .filter-shop {
-  margin: 0px 15px 15px 0px;
   display: inline-block;
-  background: #FFF;
-  padding: 5px 0px 0px 5px;
-  border-radius: 15px;
-  box-shadow: 2px 2px 0px 0px #0000003d;
+  white-space: nowrap;
+  overflow-x: scroll;
+  width: 100%;
 }
 
 .filter-cat span, .filter-shop span, .filter-offer span {
   display: inline-block;
   position: relative;
   border-radius: 15px;
-  padding: 10px 15px 10px 15px;
-  margin: 0px 5px 5px 0px;
+  padding: 15px 15px 15px 15px;
+  margin: 0px 10px 5px 0px;
   font-size: .8em;
   font-weight: 800;
   cursor: pointer;
-}
-
-.filter-cat::before {
-  content: "categorie";
-  text-transform: uppercase;
-  padding: 5px 10px 5px 5px;
-  font-size: .8em;
-  font-weight: 800;
-  color: #b25656;
-}
-.filter-shop::before {
-  content: "winkel";
-  text-transform: uppercase;
-  padding: 5px 10px 5px 5px;
-  font-size: .8em;
-  font-weight: 800;
-  color: #b25656;
-}
-.filter-offer::before {
-  content: "korting";
-  text-transform: uppercase;
-  padding: 5px 10px 5px 5px;
-  font-size: .8em;
-  font-weight: 800;
-  color: #b25656;
 }
 
 .filter-offer span {
@@ -236,14 +203,15 @@ i.icon {
   font-style: normal;
   font-size: 1.8em;
   position: absolute;
-  top: 1px;
+  top: 5px;
   left: 5px;
 }
 
 #active-offer, #active-shop, #active-category {
-  background: #FFF !important;
-  color: #000 !important;
-  box-shadow: inset 0px 0px 0px 3px #000;
+  box-shadow: var(--shadow-elevation-medium), inset 0px 0px 0px 3px #FFF, inset 0px 0px 2px 5px #318a35;
+  color: #FFF !important;
+  text-shadow: 1px 1px #005305;
+  background: #16b000 !important;
 }
 
 #filter-button {
