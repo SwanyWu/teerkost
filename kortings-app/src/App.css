@@ -118,13 +118,6 @@ b.label-shop-lidl {
   padding: 10px 0px 0px 10px;
  }
 
-/* @media screen and (max-width: 600px) {
-  #filter-dialog {
-    max-height: 75%;
-    overflow-y: scroll;
-  }
-} */
-
 .filter-wrap {
   max-width: 1000px;
   margin: 0px auto;
@@ -158,6 +151,7 @@ b.label-shop-lidl {
   font-weight: 800;
   cursor: pointer;
   scroll-snap-align: start;
+  box-shadow: var(--shadow-elevation-medium);
 }
 
 .filter-offer span {
