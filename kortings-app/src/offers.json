@@ -48,18 +48,6 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Johma Salades",
-        "productInfo": "Voor op brood of toast \n3 bakjes à 175 gram",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Weekaanbiedingen/Week%207/Johma%20Salades.png",
-        "deal": "3 voor € 6,00",
-        "price": "6.00",
-        "dateStart": "2022-02-15",
-        "dateEnd": "2022-02-22",
-        "link": "https://jumbo.com/aanbiedingen/9257041-C-1",
-        "shop": "Jumbo"
-    },
-    {
         "product": "Lipton Ice Tea",
         "productInfo": "2 flessen à 1,5 liter",
         "category": "",
@@ -840,18 +828,6 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Kies & Mix brood en toast salades",
-        "productInfo": "Alle soorten met Kies en Mix logo\n2 verpakkingen à 175 gram",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Kies%20&%20mix%202022/KM%20brood%20toast%20salades%202022.png",
-        "deal": "2 voor € 3,00 ",
-        "price": "3.00 ",
-        "dateStart": "2022-01-04",
-        "dateEnd": "2022-12-31",
-        "link": "https://jumbo.com/aanbiedingen/3176005-C-1",
-        "shop": "Jumbo"
-    },
-    {
         "product": "Mondkapjes",
         "productInfo": "Uitwasbare mondkapjes of wegwerp mondkapjes 10 stuks\n2 verpakkingen",
         "category": "",
@@ -885,30 +861,6 @@
         "dateStart": "2022-02-27",
         "dateEnd": "2022-02-27",
         "link": "https://ah.nl/bonus/groep/441731?week=8",
-        "shop": "AH"
-    },
-    {
-        "product": "Minneola",
-        "productInfo": "Los - Per 500 gram",
-        "category": "",
-        "image": "https://static.ah.nl/static/product/AHI_434d50303133303532_2_200x200_JPG.JPG",
-        "deal": "nu voor 0.99",
-        "price": 0.99,
-        "dateStart": "2022-02-27",
-        "dateEnd": "2022-02-27",
-        "link": "https://ah.nl/bonus/groep/452431?week=8",
-        "shop": "AH"
-    },
-    {
-        "product": "Medjoul dadels schaal 250 gram",
-        "productInfo": "Per schaal",
-        "category": "",
-        "image": "https://static.ah.nl/static/product/AHI_434d50323639383937_5_200x200_JPG.JPG",
-        "deal": "nu voor 2.49",
-        "price": 2.49,
-        "dateStart": "2022-02-27",
-        "dateEnd": "2022-02-27",
-        "link": "https://ah.nl/bonus/groep/451442?week=8",
         "shop": "AH"
     },
     {
@@ -1008,18 +960,6 @@
         "shop": "AH"
     },
     {
-        "product": "Zaanlander in plakken of stukken",
-        "productInfo": "Bijv. jong belegen 48+ in plakken - Per 100 gram",
-        "category": "",
-        "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD524636?rendition=200px&fileType=binary",
-        "deal": "25% korting",
-        "price": 11.77,
-        "dateStart": "2022-02-27",
-        "dateEnd": "2022-02-27",
-        "link": "https://ah.nl/bonus/groep/441682?week=8",
-        "shop": "AH"
-    },
-    {
         "product": "Paté kleinverpakking",
         "productInfo": "Bijv. Ardennerpate - 2 stuks",
         "category": "",
@@ -1092,30 +1032,6 @@
         "shop": "AH"
     },
     {
-        "product": "Zanetti van de zelfbedieningsafdeling",
-        "productInfo": "Bijv. Parmigiano Reggiano - 2 zakjes à 40 gram",
-        "category": "",
-        "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD524639?rendition=200px&fileType=binary",
-        "deal": "2e halve prijs",
-        "price": 3.07,
-        "dateStart": "2022-02-27",
-        "dateEnd": "2022-02-27",
-        "link": "https://ah.nl/bonus/groep/441686?week=8",
-        "shop": "AH"
-    },
-    {
-        "product": "Gaten- en specialiteitenkaas",
-        "productInfo": "Bijv. Rookkaas naturel plakken 45+",
-        "category": "",
-        "image": "https://static.ah.nl/static/product/AHI_43545239383331303234_1_200x200_JPG.JPG",
-        "deal": "10% korting",
-        "price": 1.44,
-        "dateStart": "2022-02-27",
-        "dateEnd": "2022-02-27",
-        "link": "https://ah.nl/bonus/groep/441688?week=8",
-        "shop": "AH"
-    },
-    {
         "product": "Emmi fondue en raclette",
         "productInfo": "Bijv. Fondue original - 2 stuks",
         "category": "",
@@ -1137,18 +1053,6 @@
         "dateStart": "2022-02-27",
         "dateEnd": "2022-02-27",
         "link": "https://ah.nl/bonus/groep/442124?week=8",
-        "shop": "AH"
-    },
-    {
-        "product": "Biologisch buffelmozzarella, gorgonzola of parmigiano reggiano",
-        "productInfo": "Bijv. AH Biologisch buffelmozzarella",
-        "category": "",
-        "image": "https://static.ah.nl/static/product/AHI_43545239363437353731_1_200x200_JPG.JPG",
-        "deal": "10% korting",
-        "price": 2.33,
-        "dateStart": "2022-02-27",
-        "dateEnd": "2022-02-27",
-        "link": "https://ah.nl/bonus/groep/442747?week=8",
         "shop": "AH"
     },
     {
@@ -1233,18 +1137,6 @@
         "dateStart": "2022-02-27",
         "dateEnd": "2022-02-27",
         "link": "https://ah.nl/bonus/groep/441702?week=8",
-        "shop": "AH"
-    },
-    {
-        "product": "Koolhydraat verlaagd brood",
-        "productInfo": "Bijv. Koolhydraat verlaagd volkoren half",
-        "category": "",
-        "image": "https://static.ah.nl/static/product/AHI_43545239383331383538_1_200x200_JPG.JPG",
-        "deal": "15% korting",
-        "price": 1.44,
-        "dateStart": "2022-02-27",
-        "dateEnd": "2022-02-27",
-        "link": "https://ah.nl/bonus/groep/441699?week=8",
         "shop": "AH"
     },
     {
@@ -1944,54 +1836,6 @@
         "shop": "AH"
     },
     {
-        "product": "Wortelen",
-        "productInfo": "1 kilo",
-        "category": "",
-        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/2022080082761/gallery/preview/xs/2022080082761.jpg",
-        "deal": "38% korting",
-        "price": "0.49",
-        "dateStart": "2022-02-21",
-        "dateEnd": "2022-02-23",
-        "link": "https://www.lidl.nl/p/wortelen/p2022080082761",
-        "shop": "Lidl"
-    },
-    {
-        "product": "Kinderappels",
-        "productInfo": "1 kilo",
-        "category": "",
-        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/2022080080271/gallery/preview/xs/2022080080271.jpg",
-        "deal": "50% korting",
-        "price": "0.99",
-        "dateStart": "2022-02-21",
-        "dateEnd": "2022-02-23",
-        "link": "https://www.lidl.nl/p/kinderappels/p2022080080271",
-        "shop": "Lidl"
-    },
-    {
-        "product": "Mini-rozijnen-krentenbollen",
-        "productInfo": "360 g, 9 stuks per zak 2 zakken",
-        "category": "",
-        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/2022080006771/gallery/preview/xs/2022080006771.jpg",
-        "deal": "32% korting",
-        "price": "2.-",
-        "dateStart": "2022-02-21",
-        "dateEnd": "2022-02-27",
-        "link": "https://www.lidl.nl/p/mini-rozijnen-krentenbollen/p2022080006771",
-        "shop": "Lidl"
-    },
-    {
-        "product": "Frikandelbroodje",
-        "productInfo": "2 stuks",
-        "category": "",
-        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/2022086606228/gallery/preview/xs/2022086606228.jpg",
-        "deal": "41% korting",
-        "price": "1.-",
-        "dateStart": "2022-02-21",
-        "dateEnd": "2022-02-27",
-        "link": "https://www.lidl.nl/p/frikandelbroodje/p2022086606228",
-        "shop": "Lidl"
-    },
-    {
         "product": "Rabarber-kruimelvlaaitje",
         "productInfo": "per stuk",
         "category": "",
@@ -2088,18 +1932,6 @@
         "shop": "Lidl"
     },
     {
-        "product": "Amandelen",
-        "productInfo": "200 g per zak 2 zakken",
-        "category": "",
-        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/2022080123652/gallery/preview/xs/2022080123652.jpg",
-        "deal": "24% korting",
-        "price": "3.-",
-        "dateStart": "2022-02-21",
-        "dateEnd": "2022-02-27",
-        "link": "https://www.lidl.nl/p/amandelen/p2022080123652",
-        "shop": "Lidl"
-    },
-    {
         "product": "Notenmix",
         "productInfo": "Alle combinaties mogelijk 200 g per zak 2 zakken",
         "category": "",
@@ -2109,18 +1941,6 @@
         "dateStart": "2022-02-21",
         "dateEnd": "2022-02-27",
         "link": "https://www.lidl.nl/p/notenmix/p2022080003569",
-        "shop": "Lidl"
-    },
-    {
-        "product": "Erwtensoep met rookworst",
-        "productInfo": "Bron: VRIJ (Telegraaf) januari 2021 2 x 800 ml",
-        "category": "",
-        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/2022080002121/gallery/preview/xs/2022080002121.jpg",
-        "deal": "best getest",
-        "price": "2.-",
-        "dateStart": "2022-02-21",
-        "dateEnd": "2022-02-27",
-        "link": "https://www.lidl.nl/p/erwtensoep-met-rookworst/p2022080002121",
         "shop": "Lidl"
     },
     {
@@ -2316,18 +2136,6 @@
         "shop": "Lidl"
     },
     {
-        "product": "Gekruide aardappelgolfjes",
-        "productInfo": "500 g per zak 2 zakken",
-        "category": "",
-        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/20220806601953/gallery/preview/xs/20220806601953.jpg",
-        "deal": "36% korting",
-        "price": "1.-",
-        "dateStart": "2022-02-24",
-        "dateEnd": "2022-02-27",
-        "link": "https://www.lidl.nl/p/gekruide-aardappelgolfjes/p20220806601953",
-        "shop": "Lidl"
-    },
-    {
         "product": "Gemarineerde kippendijen",
         "productInfo": "600 gram",
         "category": "",
@@ -2352,18 +2160,6 @@
         "shop": "Lidl"
     },
     {
-        "product": "Pangasiusfilets",
-        "productInfo": "400 gram",
-        "category": "",
-        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/2022086607910/gallery/preview/xs/2022086607910.jpg",
-        "deal": "op=op",
-        "price": "4.49",
-        "dateStart": "2022-02-24",
-        "dateEnd": "",
-        "link": "https://www.lidl.nl/p/pangasiusfilets/p2022086607910",
-        "shop": "Lidl"
-    },
-    {
         "product": "Hamburgers",
         "productInfo": "200 g per pak 2 pakken",
         "category": "",
@@ -2376,30 +2172,6 @@
         "shop": "Lidl"
     },
     {
-        "product": "2-vaks stamppot",
-        "productInfo": "Bron: AD december 2020 500 gram",
-        "category": "",
-        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/2022086600207/gallery/preview/xs/2022086600207.jpg",
-        "deal": "goed getest",
-        "price": "2.24",
-        "dateStart": "2022-02-24",
-        "dateEnd": "2022-02-27",
-        "link": "https://www.lidl.nl/p/2-vaks-stamppot/p2022086600207",
-        "shop": "Lidl"
-    },
-    {
-        "product": "Hele zalmzijde",
-        "productInfo": "prijs per verpakking: €13,90 (ca. 1 kg) per 100 gram",
-        "category": "",
-        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/2022086607294/gallery/preview/xs/2022086607294.jpg",
-        "deal": "op=op",
-        "price": "1.39",
-        "dateStart": "2022-02-24",
-        "dateEnd": "",
-        "link": "https://www.lidl.nl/p/hele-zalmzijde/p2022086607294",
-        "shop": "Lidl"
-    },
-    {
         "product": "Shoarma",
         "productInfo": "500 gram",
         "category": "",
@@ -2409,18 +2181,6 @@
         "dateStart": "2022-02-26",
         "dateEnd": "2022-02-27",
         "link": "https://www.lidl.nl/p/shoarma/p2022080002865",
-        "shop": "Lidl"
-    },
-    {
-        "product": "Pitabroodjes",
-        "productInfo": "500 g, 10 stuks per pak 2 pakken",
-        "category": "",
-        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/2022080001660/gallery/preview/xs/2022080001660.jpg",
-        "deal": "27% korting",
-        "price": "1.-",
-        "dateStart": "2022-02-26",
-        "dateEnd": "2022-02-27",
-        "link": "https://www.lidl.nl/p/pitabroodjes/p2022080001660",
         "shop": "Lidl"
     },
     {
@@ -2482,6 +2242,18 @@
         "dateEnd": "2022-03-01",
         "link": "https://jumbo.com/aanbiedingen/9215030-B-1",
         "shop": "Jumbo"
+    },
+    {
+        "product": "Gekruide aardappelgolfjes",
+        "productInfo": "500 g per zak 2 zakken",
+        "category": "aardappel",
+        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/20220806601953/gallery/preview/xs/20220806601953.jpg",
+        "deal": "36% korting",
+        "price": "1.-",
+        "dateStart": "2022-02-24",
+        "dateEnd": "2022-02-27",
+        "link": "https://www.lidl.nl/p/gekruide-aardappelgolfjes/p20220806601953",
+        "shop": "Lidl"
     },
     {
         "product": "Hertog Jan pils",
@@ -2640,6 +2412,18 @@
         "shop": "AH"
     },
     {
+        "product": "Johma Salades",
+        "productInfo": "Voor op brood of toast \n3 bakjes à 175 gram",
+        "category": "brood",
+        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Weekaanbiedingen/Week%207/Johma%20Salades.png",
+        "deal": "3 voor € 6,00",
+        "price": "6.00",
+        "dateStart": "2022-02-15",
+        "dateEnd": "2022-02-22",
+        "link": "https://jumbo.com/aanbiedingen/9257041-C-1",
+        "shop": "Jumbo"
+    },
+    {
         "product": "Kies & Mix broodjes",
         "productInfo": "Per zak",
         "category": "brood",
@@ -2664,6 +2448,42 @@
         "shop": "Jumbo"
     },
     {
+        "product": "Kies & Mix brood en toast salades",
+        "productInfo": "Alle soorten met Kies en Mix logo\n2 verpakkingen à 175 gram",
+        "category": "brood",
+        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Kies%20&%20mix%202022/KM%20brood%20toast%20salades%202022.png",
+        "deal": "2 voor € 3,00 ",
+        "price": "3.00 ",
+        "dateStart": "2022-01-04",
+        "dateEnd": "2022-12-31",
+        "link": "https://jumbo.com/aanbiedingen/3176005-C-1",
+        "shop": "Jumbo"
+    },
+    {
+        "product": "Koolhydraat verlaagd brood",
+        "productInfo": "Bijv. Koolhydraat verlaagd volkoren half",
+        "category": "brood",
+        "image": "https://static.ah.nl/static/product/AHI_43545239383331383538_1_200x200_JPG.JPG",
+        "deal": "15% korting",
+        "price": 1.44,
+        "dateStart": "2022-02-27",
+        "dateEnd": "2022-02-27",
+        "link": "https://ah.nl/bonus/groep/441699?week=8",
+        "shop": "AH"
+    },
+    {
+        "product": "Mini-rozijnen-krentenbollen",
+        "productInfo": "360 g, 9 stuks per zak 2 zakken",
+        "category": "brood",
+        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/2022080006771/gallery/preview/xs/2022080006771.jpg",
+        "deal": "32% korting",
+        "price": "2.-",
+        "dateStart": "2022-02-21",
+        "dateEnd": "2022-02-27",
+        "link": "https://www.lidl.nl/p/mini-rozijnen-krentenbollen/p2022080006771",
+        "shop": "Lidl"
+    },
+    {
         "product": "Grof volkorenbrood",
         "productInfo": "800 g per brood 2 broden",
         "category": "brood",
@@ -2673,6 +2493,30 @@
         "dateStart": "2022-02-21",
         "dateEnd": "2022-02-27",
         "link": "https://www.lidl.nl/p/grof-volkorenbrood/p2022080004848",
+        "shop": "Lidl"
+    },
+    {
+        "product": "Frikandelbroodje",
+        "productInfo": "2 stuks",
+        "category": "brood",
+        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/2022086606228/gallery/preview/xs/2022086606228.jpg",
+        "deal": "41% korting",
+        "price": "1.-",
+        "dateStart": "2022-02-21",
+        "dateEnd": "2022-02-27",
+        "link": "https://www.lidl.nl/p/frikandelbroodje/p2022086606228",
+        "shop": "Lidl"
+    },
+    {
+        "product": "Pitabroodjes",
+        "productInfo": "500 g, 10 stuks per pak 2 pakken",
+        "category": "brood",
+        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/2022080001660/gallery/preview/xs/2022080001660.jpg",
+        "deal": "27% korting",
+        "price": "1.-",
+        "dateStart": "2022-02-26",
+        "dateEnd": "2022-02-27",
+        "link": "https://www.lidl.nl/p/pitabroodjes/p2022080001660",
         "shop": "Lidl"
     },
     {
@@ -2748,6 +2592,30 @@
         "shop": "AH"
     },
     {
+        "product": "Minneola",
+        "productInfo": "Los - Per 500 gram",
+        "category": "fruit",
+        "image": "https://static.ah.nl/static/product/AHI_434d50303133303532_2_200x200_JPG.JPG",
+        "deal": "nu voor 0.99",
+        "price": 0.99,
+        "dateStart": "2022-02-27",
+        "dateEnd": "2022-02-27",
+        "link": "https://ah.nl/bonus/groep/452431?week=8",
+        "shop": "AH"
+    },
+    {
+        "product": "Medjoul dadels schaal 250 gram",
+        "productInfo": "Per schaal",
+        "category": "fruit",
+        "image": "https://static.ah.nl/static/product/AHI_434d50323639383937_5_200x200_JPG.JPG",
+        "deal": "nu voor 2.49",
+        "price": 2.49,
+        "dateStart": "2022-02-27",
+        "dateEnd": "2022-02-27",
+        "link": "https://ah.nl/bonus/groep/451442?week=8",
+        "shop": "AH"
+    },
+    {
         "product": "Diverse fruitsalades",
         "productInfo": "Bijv. Ananas - Schaal 130 gram",
         "category": "fruit",
@@ -2763,7 +2631,7 @@
         "product": "Pitloze witte druiven en sable druiven",
         "productInfo": "2 schalen",
         "category": "fruit",
-        "image": "https://static.ah.nl/static/product/AHI_43545236323334373438_8_200x200_JPG.JPG",
+        "image": "https://static.ah.nl/static/product/AHI_43545239383336343831_1_200x200_JPG.JPG",
         "deal": "1+1 gratis",
         "price": 2.39,
         "dateStart": "2022-02-27",
@@ -2976,6 +2844,30 @@
         "shop": "AH"
     },
     {
+        "product": "Wortelen",
+        "productInfo": "1 kilo",
+        "category": "groente",
+        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/2022080082761/gallery/preview/xs/2022080082761.jpg",
+        "deal": "38% korting",
+        "price": "0.49",
+        "dateStart": "2022-02-21",
+        "dateEnd": "2022-02-23",
+        "link": "https://www.lidl.nl/p/wortelen/p2022080082761",
+        "shop": "Lidl"
+    },
+    {
+        "product": "Kinderappels",
+        "productInfo": "1 kilo",
+        "category": "groente",
+        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/2022080080271/gallery/preview/xs/2022080080271.jpg",
+        "deal": "50% korting",
+        "price": "0.99",
+        "dateStart": "2022-02-21",
+        "dateEnd": "2022-02-23",
+        "link": "https://www.lidl.nl/p/kinderappels/p2022080080271",
+        "shop": "Lidl"
+    },
+    {
         "product": "Fijngesneden andijvie",
         "productInfo": "400 gram",
         "category": "groente",
@@ -3072,6 +2964,18 @@
         "shop": "Jumbo"
     },
     {
+        "product": "Zaanlander in plakken of stukken",
+        "productInfo": "Bijv. jong belegen 48+ in plakken - Per 100 gram",
+        "category": "kaas",
+        "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD524636?rendition=200px&fileType=binary",
+        "deal": "25% korting",
+        "price": 11.77,
+        "dateStart": "2022-02-27",
+        "dateEnd": "2022-02-27",
+        "link": "https://ah.nl/bonus/groep/441682?week=8",
+        "shop": "AH"
+    },
+    {
         "product": "Borrelkaasjes",
         "productInfo": "Diverse varianten*, combineren mogelijk",
         "category": "kaas",
@@ -3093,6 +2997,42 @@
         "dateStart": "2022-02-27",
         "dateEnd": "2022-02-27",
         "link": "https://ah.nl/bonus/groep/441684?week=8",
+        "shop": "AH"
+    },
+    {
+        "product": "Zanetti van de zelfbedieningsafdeling",
+        "productInfo": "Bijv. Parmigiano Reggiano - 2 zakjes à 40 gram",
+        "category": "kaas",
+        "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD524639?rendition=200px&fileType=binary",
+        "deal": "2e halve prijs",
+        "price": 3.07,
+        "dateStart": "2022-02-27",
+        "dateEnd": "2022-02-27",
+        "link": "https://ah.nl/bonus/groep/441686?week=8",
+        "shop": "AH"
+    },
+    {
+        "product": "Gaten- en specialiteitenkaas",
+        "productInfo": "Bijv. Rookkaas naturel plakken 45+",
+        "category": "kaas",
+        "image": "https://static.ah.nl/static/product/AHI_43545239383331303234_1_200x200_JPG.JPG",
+        "deal": "10% korting",
+        "price": 1.44,
+        "dateStart": "2022-02-27",
+        "dateEnd": "2022-02-27",
+        "link": "https://ah.nl/bonus/groep/441688?week=8",
+        "shop": "AH"
+    },
+    {
+        "product": "Biologisch buffelmozzarella, gorgonzola of parmigiano reggiano",
+        "productInfo": "Bijv. AH Biologisch buffelmozzarella",
+        "category": "kaas",
+        "image": "https://static.ah.nl/static/product/AHI_43545239363437353731_1_200x200_JPG.JPG",
+        "deal": "10% korting",
+        "price": 2.33,
+        "dateStart": "2022-02-27",
+        "dateEnd": "2022-02-27",
+        "link": "https://ah.nl/bonus/groep/442747?week=8",
         "shop": "AH"
     },
     {
@@ -3180,6 +3120,18 @@
         "shop": "AH"
     },
     {
+        "product": "Erwtensoep met rookworst",
+        "productInfo": "Bron: VRIJ (Telegraaf) januari 2021 2 x 800 ml",
+        "category": "kant-en-klaar",
+        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/2022080002121/gallery/preview/xs/2022080002121.jpg",
+        "deal": "best getest",
+        "price": "2.-",
+        "dateStart": "2022-02-21",
+        "dateEnd": "2022-02-27",
+        "link": "https://www.lidl.nl/p/erwtensoep-met-rookworst/p2022080002121",
+        "shop": "Lidl"
+    },
+    {
         "product": "Verse pureersoep",
         "productInfo": "528/638 g per bak",
         "category": "kant-en-klaar",
@@ -3189,6 +3141,18 @@
         "dateStart": "2022-02-24",
         "dateEnd": "2022-02-27",
         "link": "https://www.lidl.nl/p/verse-pureersoep/p20220866079192",
+        "shop": "Lidl"
+    },
+    {
+        "product": "2-vaks stamppot",
+        "productInfo": "Bron: AD december 2020 500 gram",
+        "category": "kant-en-klaar",
+        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/2022086600207/gallery/preview/xs/2022086600207.jpg",
+        "deal": "goed getest",
+        "price": "2.24",
+        "dateStart": "2022-02-24",
+        "dateEnd": "2022-02-27",
+        "link": "https://www.lidl.nl/p/2-vaks-stamppot/p2022086600207",
         "shop": "Lidl"
     },
     {
@@ -3312,6 +3276,18 @@
         "shop": "AH"
     },
     {
+        "product": "Amandelen",
+        "productInfo": "200 g per zak 2 zakken",
+        "category": "noten",
+        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/2022080123652/gallery/preview/xs/2022080123652.jpg",
+        "deal": "24% korting",
+        "price": "3.-",
+        "dateStart": "2022-02-21",
+        "dateEnd": "2022-02-27",
+        "link": "https://www.lidl.nl/p/amandelen/p2022080123652",
+        "shop": "Lidl"
+    },
+    {
         "product": "Garnalen",
         "productInfo": "Schaal grote knoflook garnalen 200 gram, garnalen 150 gram of Hollandse garnalen 100 gram",
         "category": "vis",
@@ -3430,5 +3406,29 @@
         "dateEnd": "2022-02-27",
         "link": "https://ah.nl/bonus/groep/441757?week=8",
         "shop": "AH"
+    },
+    {
+        "product": "Pangasiusfilets",
+        "productInfo": "400 gram",
+        "category": "vis",
+        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/2022086607910/gallery/preview/xs/2022086607910.jpg",
+        "deal": "op=op",
+        "price": "4.49",
+        "dateStart": "2022-02-24",
+        "dateEnd": "",
+        "link": "https://www.lidl.nl/p/pangasiusfilets/p2022086607910",
+        "shop": "Lidl"
+    },
+    {
+        "product": "Hele zalmzijde",
+        "productInfo": "prijs per verpakking: €13,90 (ca. 1 kg) per 100 gram",
+        "category": "vis",
+        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/2022086607294/gallery/preview/xs/2022086607294.jpg",
+        "deal": "op=op",
+        "price": "1.39",
+        "dateStart": "2022-02-24",
+        "dateEnd": "",
+        "link": "https://www.lidl.nl/p/hele-zalmzijde/p2022086607294",
+        "shop": "Lidl"
     }
 ]
