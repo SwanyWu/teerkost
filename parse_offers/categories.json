@@ -38,9 +38,11 @@
     {
         "name": "brood",
         "keywords": [ 
-            "broodje", "brood", "broodjes", "pitabroodjes", "croissant", "croissantjes", "pistolet", "pistoletjes", "krentenbollen", "mini-rozijnen-krentenbollen", "mini-krentenbollen", "frikandelbroodje", "zonnebloempittenbrood", "sesamvolkorenbrood",
-             "vruchtenbrood", "bakkersbrood", "meerzadenbroodje", "meerzadenbrood", "volkorenbrood", "sesambrood", "meergranenbrood"
-            ]
+            "broodje", "brood", "broodjes", "pitabroodjes", "croissant", "croissantjes", "pistolet", "pistoletjes",
+            "krentenbollen", "mini-rozijnen-krentenbollen", "mini-krentenbollen", "frikandelbroodje", "frikandelbroodjes",
+            "saucijzenbroodjes", "saucijzenbroodje", "zonnebloempittenbrood", "sesamvolkorenbrood",
+            "vruchtenbrood", "bakkersbrood", "meerzadenbroodje", "meerzadenbrood", "volkorenbrood", "sesambrood", "meergranenbrood"
+        ]
     },
     {
         "name": "kaas",
@@ -80,6 +82,24 @@
         "keywords": [
             "mandarijnen", "bessen", "minneola", "dadels", "fruit", "perssinaasappelen", "sinaasappels", "aardbeien", "druiven", "bessen", "frambozen", "mango", "appels", 
             "appeltjes","kiwi", "meloen", "conference", "peren", "ananas", "granaatappel", "elstar", "jonagold"
+        ]
+    },
+    {
+        "name": "verzorging",
+        "keywords": [
+            "pampers, luiers", "prodent", "zendium", "page", "axe", "zwitsal", "oral-b","palmolive","vaseline",
+            "always", "guhl", "andrélon", "edet", "nalys", "dettol", "dove", "rexona", "axe", "gillette", "venus", "elmex",
+            "navulmesjes", "shampoo", "conditioner", "douchegel", "cremespoeling", "nachtcreme", "dagcreme", "handzeep", "verzorgingsproduct", "verzorgingsproducten",
+            "mondkapje", "mondkapjes", "cosmetica", "baby", "toiletpapier", "soft-picks", "verzorging"
+        ]
+    },
+    {
+        "name": "huishoudelijk",
+        "keywords": [
+            "robijn", "ariel", "lenor", "glorix", "andy", "cif", "dreft", "sun", "reus",
+            "bleek", "wasmiddel", "wasmiddelen", "wasverzachter", "wasbeurt", "wasbeurten", "keukenpapier", 
+            "huishoud", "huishoudelijk", "afwasmiddel", "handafwas", "vaatwas",
+            "vaatwasmiddel", "reinigingsdoekje", "reinigingsdoekjes", "allesreiniger"
         ]
     }
 ]
