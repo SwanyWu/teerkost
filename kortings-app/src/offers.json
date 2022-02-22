@@ -699,7 +699,7 @@
         "product": "Verse pizza's 30 cm",
         "productInfo": "Per stuk",
         "category": "",
-        "image": "https://static.ah.nl/static/product/AHI_43545239383431333737_1_200x200_JPG.JPG",
+        "image": "https://static.ah.nl/static/product/AHI_43545239373736303230_1_200x200_JPG.JPG",
         "deal": "16% korting",
         "price": 4.99,
         "dateStart": "2022-02-27",
@@ -3036,6 +3036,18 @@
         "shop": "Jumbo"
     },
     {
+        "product": "Gillette of Venus",
+        "productInfo": "M.u.v. navulmesjes 3-5 stuks\n2 verpakkingen",
+        "category": "verzorging",
+        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/EG%20schap%202022/Week%207/Gilette%2007.png",
+        "deal": "1+1 gratis",
+        "price": 0,
+        "dateStart": "2022-02-15",
+        "dateEnd": "2022-02-22",
+        "link": "https://jumbo.com/aanbiedingen/9255012-B-1",
+        "shop": "Jumbo"
+    },
+    {
         "product": "Prodent of Zendium",
         "productInfo": "3 verpakkingen\nM.u.v. multiverpakkingen",
         "category": "verzorging",
@@ -3069,18 +3081,6 @@
         "dateStart": "2022-02-15",
         "dateEnd": "2022-03-01",
         "link": "https://jumbo.com/aanbiedingen/9259044-B-1",
-        "shop": "Jumbo"
-    },
-    {
-        "product": "Gillette of Venus",
-        "productInfo": "M.u.v. navulmesjes 3-5 stuks\n2 verpakkingen",
-        "category": "verzorging",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/EG%20schap%202022/Week%207/Gilette%2007.png",
-        "deal": "1+1 gratis",
-        "price": 0,
-        "dateStart": "2022-02-15",
-        "dateEnd": "2022-02-22",
-        "link": "https://jumbo.com/aanbiedingen/9255012-B-1",
         "shop": "Jumbo"
     },
     {
