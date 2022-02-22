@@ -136,7 +136,7 @@ b.label-shop-lidl {
 .filter-offer, .filter-cat, .filter-shop {
   display: inline-block;
   white-space: nowrap;
-  overflow-x: scroll;
+  overflow-x: auto;
   scroll-snap-type: block;
   width: 100%;
 }
