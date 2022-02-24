@@ -1,5 +1,5 @@
 import requests
-import categorize
+from cleanup import categorize
 import datetime
 from bs4 import BeautifulSoup
 

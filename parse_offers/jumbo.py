@@ -1,6 +1,6 @@
 import requests
 from datetime import datetime
-import categorize
+from cleanup import categorize
   
 
 def returnOffers():

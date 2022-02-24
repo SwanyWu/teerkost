@@ -1,8 +1,10 @@
 import json
+import sys
+import os
 
 def findCategoryForProduct(title, description):
 
-    CATEGORIES_JSON = "parse_offers/categories.json"
+    CATEGORIES_JSON = os.path.join(os.path.dirname(__file__), "categories.json")
 
     with open(CATEGORIES_JSON, 'r') as jsonFile:
         data=jsonFile.read()

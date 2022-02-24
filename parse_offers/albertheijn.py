@@ -1,6 +1,6 @@
 import requests
 from datetime import datetime
-import categorize
+from cleanup import categorize
 
 def returnOffers(): 
     SHOP = "AH"
@@ -64,3 +64,6 @@ def returnOffers():
             collection.append(offer)
 
     return collection
+
+if __name__ == "__main__":
+    returnOffers
