@@ -1,6 +1,7 @@
 import json
 import sys
 import os
+import re
 
 def findCategoryForProduct(title, description):
 
@@ -11,8 +12,8 @@ def findCategoryForProduct(title, description):
 
     categories = json.loads(data)
     
-    wordsList = title.lower().replace(',', '').split(' ')
-    descriptionWordList = description.lower().replace(',', '').split(' ')
+    wordsList = re.split(' |-', title.lower().replace(',', ''))
+    descriptionWordList = re.split(' |-', description.lower().replace(',', ''))
     wordsList.extend(descriptionWordList)
 
     foundCategory = ""
