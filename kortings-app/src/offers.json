@@ -192,6 +192,18 @@
         "shop": "Jumbo"
     },
     {
+        "product": "Oral-B",
+        "productInfo": "Alle soorten\n2 verpakkingen",
+        "category": "",
+        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Weekaanbiedingen/Week%207/Oral_B.png",
+        "deal": "1+1 gratis",
+        "price": 0,
+        "dateStart": "2022-02-15",
+        "dateEnd": "2022-03-01",
+        "link": "https://jumbo.com/aanbiedingen/9259041-B-1",
+        "shop": "Jumbo"
+    },
+    {
         "product": "William Lawson Whisky, Bacardi Rum of Eristoff Vodka",
         "productInfo": "Fles 1000 ml",
         "category": "",
@@ -969,18 +981,6 @@
         "dateStart": "2022-01-04",
         "dateEnd": "2022-12-31",
         "link": "https://jumbo.com/aanbiedingen/4368005-C-1",
-        "shop": "Jumbo"
-    },
-    {
-        "product": "Kies & Mix salademixen",
-        "productInfo": "Dressing 70ml, Olijfschijfjes 50gr, Noten- en zadenmix 40-50gr, Croutonmix 25-35gr",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Kies%20&%20mix%202022/KM%20salademixen.png",
-        "deal": "3 voor € 2,00",
-        "price": "2.00",
-        "dateStart": "2022-01-04",
-        "dateEnd": "2022-12-31",
-        "link": "https://jumbo.com/aanbiedingen/4368006-C-1",
         "shop": "Jumbo"
     },
     {
@@ -1836,6 +1836,18 @@
         "shop": "AH"
     },
     {
+        "product": "Gum",
+        "productInfo": "Bijv. Soft-Picks Regular - 3 stuks",
+        "category": "",
+        "image": "https://static.ah.nl/static/product/AHI_43545239373133313638_1_200x200_JPG.JPG",
+        "deal": "2+1 gratis",
+        "price": 11.98,
+        "dateStart": "2022-02-27",
+        "dateEnd": "2022-02-27",
+        "link": "https://ah.nl/bonus/groep/441654?week=8",
+        "shop": "AH"
+    },
+    {
         "product": "Sun",
         "productInfo": "Bijv. all-in-1 citroen - 2 dozen à 24 tabs",
         "category": "",
@@ -2109,6 +2121,18 @@
         "dateStart": "2022-02-24",
         "dateEnd": "2022-02-27",
         "link": "https://www.lidl.nl/p/hamburgers/p2022086601064",
+        "shop": "Lidl"
+    },
+    {
+        "product": "2-vaks stamppot",
+        "productInfo": "Bron: AD december 2020 500 gram",
+        "category": "",
+        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/2022086600207/gallery/preview/xs/2022086600207.jpg",
+        "deal": "goed getest",
+        "price": "2.24",
+        "dateStart": "2022-02-24",
+        "dateEnd": "2022-02-27",
+        "link": "https://www.lidl.nl/p/2-vaks-stamppot/p2022086600207",
         "shop": "Lidl"
     },
     {
@@ -3324,18 +3348,6 @@
         "shop": "Lidl"
     },
     {
-        "product": "2-vaks stamppot",
-        "productInfo": "Bron: AD december 2020 500 gram",
-        "category": "kant-en-klaar",
-        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/2022086600207/gallery/preview/xs/2022086600207.jpg",
-        "deal": "goed getest",
-        "price": "2.24",
-        "dateStart": "2022-02-24",
-        "dateEnd": "2022-02-27",
-        "link": "https://www.lidl.nl/p/2-vaks-stamppot/p2022086600207",
-        "shop": "Lidl"
-    },
-    {
         "product": "Nescafé Dolce Gusto",
         "productInfo": "3 doosjes à 16 stuks",
         "category": "koffie",
@@ -3456,6 +3468,18 @@
         "shop": "AH"
     },
     {
+        "product": "Kies & Mix salademixen",
+        "productInfo": "Dressing 70ml, Olijfschijfjes 50gr, Noten- en zadenmix 40-50gr, Croutonmix 25-35gr",
+        "category": "noten",
+        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Kies%20&%20mix%202022/KM%20salademixen.png",
+        "deal": "3 voor € 2,00",
+        "price": "2.00",
+        "dateStart": "2022-01-04",
+        "dateEnd": "2022-12-31",
+        "link": "https://jumbo.com/aanbiedingen/4368006-C-1",
+        "shop": "Jumbo"
+    },
+    {
         "product": "Kies & Mix ongezouten verse noten",
         "productInfo": "Cup à 110-250 gram",
         "category": "noten",
@@ -3537,18 +3561,6 @@
         "dateStart": "2022-02-15",
         "dateEnd": "2022-03-01",
         "link": "https://jumbo.com/aanbiedingen/9259042-B-1",
-        "shop": "Jumbo"
-    },
-    {
-        "product": "Oral-B",
-        "productInfo": "Alle soorten\n2 verpakkingen",
-        "category": "verzorging",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Weekaanbiedingen/Week%207/Oral_B.png",
-        "deal": "1+1 gratis",
-        "price": 0,
-        "dateStart": "2022-02-15",
-        "dateEnd": "2022-03-01",
-        "link": "https://jumbo.com/aanbiedingen/9259041-B-1",
         "shop": "Jumbo"
     },
     {
@@ -3669,18 +3681,6 @@
         "dateStart": "2022-02-27",
         "dateEnd": "2022-02-27",
         "link": "https://ah.nl/bonus/groep/441652?week=8",
-        "shop": "AH"
-    },
-    {
-        "product": "Gum",
-        "productInfo": "Bijv. Soft-Picks Regular - 3 stuks",
-        "category": "verzorging",
-        "image": "https://static.ah.nl/static/product/AHI_43545239373133313638_1_200x200_JPG.JPG",
-        "deal": "2+1 gratis",
-        "price": 11.98,
-        "dateStart": "2022-02-27",
-        "dateEnd": "2022-02-27",
-        "link": "https://ah.nl/bonus/groep/441654?week=8",
         "shop": "AH"
     },
     {
