@@ -492,18 +492,6 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Wokgroente",
-        "productInfo": "2 verpakkingen à 400 gram",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA3/wokgroente.png",
-        "deal": "2 voor € 4,00",
-        "price": "4.00",
-        "dateStart": "2022-03-01",
-        "dateEnd": "2022-03-29",
-        "link": "https://jumbo.com/aanbiedingen/9318019-C-1",
-        "shop": "Jumbo"
-    },
-    {
         "product": "Honig maaltijdmixen",
         "productInfo": "Alle soorten",
         "category": "",
@@ -681,18 +669,6 @@
         "dateStart": "2022-03-01",
         "dateEnd": "2022-03-29",
         "link": "https://jumbo.com/aanbiedingen/9338041-B-1",
-        "shop": "Jumbo"
-    },
-    {
-        "product": "Ajax",
-        "productInfo": "Diverse soorten",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA3/ajax.png",
-        "deal": "2e halve prijs",
-        "price": 0,
-        "dateStart": "2022-03-01",
-        "dateEnd": "2022-03-29",
-        "link": "https://jumbo.com/aanbiedingen/9338042-B-1",
         "shop": "Jumbo"
     },
     {
@@ -1620,18 +1596,6 @@
         "shop": "AH"
     },
     {
-        "product": "Desperados 6-packs",
-        "productInfo": "Per set",
-        "category": "",
-        "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD524624?rendition=200px&fileType=binary",
-        "deal": "23% korting",
-        "price": 6.49,
-        "dateStart": "2022-02-27",
-        "dateEnd": "2022-02-27",
-        "link": "https://ah.nl/bonus/groep/441628?week=8",
-        "shop": "AH"
-    },
-    {
         "product": "Grand'italia",
         "productInfo": "Bijv. fusilli volkoren - 2 pakken à 500 gram",
         "category": "",
@@ -1953,18 +1917,6 @@
         "dateStart": "2022-02-21",
         "dateEnd": "2022-02-27",
         "link": "https://www.lidl.nl/p/merlot/p2022080034519",
-        "shop": "Lidl"
-    },
-    {
-        "product": "Notenmix",
-        "productInfo": "Alle combinaties mogelijk 200 g per zak 2 zakken",
-        "category": "",
-        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/2022080003569/gallery/preview/xs/2022080003569.jpg",
-        "deal": "23% korting",
-        "price": "3.50",
-        "dateStart": "2022-02-21",
-        "dateEnd": "2022-02-27",
-        "link": "https://www.lidl.nl/p/notenmix/p2022080003569",
         "shop": "Lidl"
     },
     {
@@ -2364,6 +2316,18 @@
         "shop": "AH"
     },
     {
+        "product": "Desperados 6-packs",
+        "productInfo": "Per set",
+        "category": "bier",
+        "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD524624?rendition=200px&fileType=binary",
+        "deal": "23% korting",
+        "price": 6.49,
+        "dateStart": "2022-02-27",
+        "dateEnd": "2022-02-27",
+        "link": "https://ah.nl/bonus/groep/441628?week=8",
+        "shop": "AH"
+    },
+    {
         "product": "Hertog jan of bud",
         "productInfo": "Bijv. Hertog Jan pils - Set 6 blikjes à 0.33 liter",
         "category": "bier",
@@ -2748,6 +2712,18 @@
         "shop": "Jumbo"
     },
     {
+        "product": "Wokgroente",
+        "productInfo": "2 verpakkingen à 400 gram",
+        "category": "groente",
+        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA3/wokgroente.png",
+        "deal": "2 voor € 4,00",
+        "price": "4.00",
+        "dateStart": "2022-03-01",
+        "dateEnd": "2022-03-29",
+        "link": "https://jumbo.com/aanbiedingen/9318019-C-1",
+        "shop": "Jumbo"
+    },
+    {
         "product": "Kies & Mix kookgroente",
         "productInfo": "Bloemkool roosjes, broccoli roosjes, gebroken sperziebonen, snijbonen, groentenmix, of spruitjes\nZak 150 gram",
         "category": "groente",
@@ -2973,6 +2949,18 @@
         "dateStart": "2022-03-01",
         "dateEnd": "2022-03-29",
         "link": "https://jumbo.com/aanbiedingen/9317021-B-1",
+        "shop": "Jumbo"
+    },
+    {
+        "product": "Ajax",
+        "productInfo": "Diverse soorten",
+        "category": "huishoudelijk",
+        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA3/ajax.png",
+        "deal": "2e halve prijs",
+        "price": 0,
+        "dateStart": "2022-03-01",
+        "dateEnd": "2022-03-29",
+        "link": "https://jumbo.com/aanbiedingen/9338042-B-1",
         "shop": "Jumbo"
     },
     {
@@ -3525,6 +3513,18 @@
         "dateStart": "2022-02-21",
         "dateEnd": "2022-02-27",
         "link": "https://www.lidl.nl/p/amandelen/p2022080123652",
+        "shop": "Lidl"
+    },
+    {
+        "product": "Notenmix",
+        "productInfo": "Alle combinaties mogelijk 200 g per zak 2 zakken",
+        "category": "noten",
+        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/2022080003569/gallery/preview/xs/2022080003569.jpg",
+        "deal": "23% korting",
+        "price": "3.50",
+        "dateStart": "2022-02-21",
+        "dateEnd": "2022-02-27",
+        "link": "https://www.lidl.nl/p/notenmix/p2022080003569",
         "shop": "Lidl"
     },
     {
