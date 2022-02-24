@@ -33,4 +33,4 @@ jobs:
       - name: execute py script
         run: |
           cd parse_offers
-          python3 -m unittest -b
+          python3 -m unittest -b -v
