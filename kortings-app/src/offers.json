@@ -337,7 +337,7 @@
     },
     {
         "product": "Grand Sud en JP Chenet",
-        "productInfo": "Alle soorten\n2 flessen à 750 ml\nLand van herkomst: Frankrijk",
+        "productInfo": "Alle soorten\n2 flessen à 750 ml of 1 liter\nLand van herkomst: Frankrijk",
         "category": "",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA3/Grand%20Sud-JP%20Chenet_280px.png",
         "deal": "2 voor € 8,99",
@@ -372,8 +372,8 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Jumbo chocolade repen en tabletten, inclusief vegan",
-        "productInfo": "Alle soorten \n80 en 200 gram",
+        "product": "Jumbo chocolade repen en tabletten",
+        "productInfo": "Alle soorten, inclusief vegan \n80 en 200 gram",
         "category": "",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA3/Jumbo%20Repen-Tabletten_280px.png",
         "deal": "2e halve prijs",
@@ -420,8 +420,8 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Jumbo kipkrokant schnitzel 6 stuks, gyros 750 gram, slagersgehaktbal 8 stuks, kip cordon bleu 5 stuks of slavinken 9 stuks",
-        "productInfo": "Per verpakking",
+        "product": "Slagerij diversen",
+        "productInfo": "Jumbo kipkrokant schnitzel 6 stuks, gyros 750 gram, slagersgehaktbal 8 stuks, kip cordon bleu 5 stuks of slavinken 9 stuks",
         "category": "",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA3/Grootverpakkingen%20Vlees_280px.png",
         "deal": "1 voor € 5,00",
@@ -483,7 +483,7 @@
         "product": "Wokgroente",
         "productInfo": "2 verpakkingen à 400 gram",
         "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA2/Roerbakgroente.png",
+        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA3/wokgroente.png",
         "deal": "2 voor € 4,00",
         "price": "4.00",
         "dateStart": "2022-03-01",
@@ -565,7 +565,7 @@
     },
     {
         "product": "Dubbelfrisss en Bubbelfrisss",
-        "productInfo": "Pakken en flessen á 1,5L\nPer 3 pakken of flessen",
+        "productInfo": "Pakken en flessen á 1,5L",
         "category": "",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA3/Dubbelfrisss-Bubbelfrisss_280px.png",
         "deal": "3 voor € 3,50",
@@ -577,7 +577,7 @@
     },
     {
         "product": "Lipton Ice Tea",
-        "productInfo": "Flessen á 1,5 liter\nPer twee flessen",
+        "productInfo": "Flessen á 1,5 liter",
         "category": "",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA3/Lipton%20Ice%20Tea_280px.png",
         "deal": "2 voor € 3,50",
@@ -2233,7 +2233,7 @@
     },
     {
         "product": "Pils van Heineken, Brand of Birra Moretti",
-        "productInfo": "Heineken of Brand 6-pack fles of blik óf alle soorten Birra",
+        "productInfo": "Heineken, Brand of Birra Moretti 6-pack fles of blik",
         "category": "bier",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA3/Heineken-Brand-Birra%20Moretti_280px.png",
         "deal": "2e halve prijs",
@@ -2497,9 +2497,9 @@
     },
     {
         "product": "Kies & Mix fruit",
-        "productInfo": "Blauwe bessen bak 125gr, Kanzi appels zak 1kg, Rode druiven pitloos bak 500gr, Zespri kiwi schaal 3 st of Mandarijnen net 1kg\nBak 125-500gr, zak/net 1 kilo, schaal 3 stuks",
+        "productInfo": "Blauwe bessen bak 125gr, Kanzi appels zak 1kg, Rode druiven pitloos bak 500gr, Zespri kiwi schaal 3 st of Mandarijnen net 1kg",
         "category": "fruit",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA2/KM%20fruit.png",
+        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA3/KM%20fruit%20sa3.png",
         "deal": "2 voor € 3,50",
         "price": "3.50",
         "dateStart": "2022-03-01",
@@ -2691,7 +2691,7 @@
         "product": "Kies & Mix groente",
         "productInfo": "Sperziebonen zak 500 gram, Romatomaten bak 750 gram, snijbonen zak 400 gram, avocado schaal 2 stuks \nZak 400-500 gram, bak 750 gram of schaal 2 stuks",
         "category": "groente",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA2/KM%20groente.png",
+        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA3/KM%20groente.png",
         "deal": "2 voor € 3,50",
         "price": "3.50",
         "dateStart": "2022-03-01",
@@ -3246,9 +3246,9 @@
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA2/Jumbo%20Verse%20Maaltijd-Ovenmaaltijd_280px.png",
         "deal": "2 voor € 8,00",
         "price": "8.00",
-        "dateStart": "2022-02-01",
+        "dateStart": "2022-02-23",
         "dateEnd": "2022-03-01",
-        "link": "https://jumbo.com/aanbiedingen/9215036-C-1",
+        "link": "https://jumbo.com/aanbiedingen/9215055-C-1",
         "shop": "Jumbo"
     },
     {
@@ -3771,7 +3771,7 @@
         "product": "Kies & Mix vlees, vis en vega",
         "productInfo": "3 schalen",
         "category": "vis",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA2/Km%20vleesvisvega.png",
+        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA3/KMvlees-24-2.png",
         "deal": "3 voor € 9,00",
         "price": "9.00",
         "dateStart": "2022-03-01",
