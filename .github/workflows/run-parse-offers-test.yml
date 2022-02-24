@@ -1,8 +1,10 @@
-name: get-latest-offers
+name: run-parse-offers-test
 
 on:
+  schedule:
+    - cron: '0 0 * * *'
   workflow_run:
-    workflows: ["run-parse-offers-test"]
+    workflows: ["deploy-to-gh-pages"]
     types:
       - completed
 
@@ -29,18 +31,6 @@ jobs:
           pip install requests bs4
           
       - name: execute py script
-        run: python3 parse_offers
-          
-      - name: commit files
-        continue-on-error: true
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add -A
-          git commit -m "update data" -a
-          
-      - name: push changes
-        uses: ad-m/github-push-action@v0.6.0
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: main  
+          cd parse_offers
+          python3 -m unittest -b
