@@ -155,19 +155,19 @@ b.label-shop-lidl {
 }
 
 .filter-offer span {
-  background: #ededed;
-  color: #696969;
+  background: #e0ffdb;
+  color: #117902;
 }
 
 .filter-cat span {
-  background: #ededed;
-  color: #696969;
+  background: #ffd2d2;
+  color: #954c4c;
   padding-left: 40px;
 }
 
 .filter-shop span {
-  background: #ededed;
-  color: #696969;
+  background: #fdeec4;
+  color: #80692a;
 }
 
 .filter-search {
