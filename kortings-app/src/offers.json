@@ -636,6 +636,18 @@
         "shop": "Jumbo"
     },
     {
+        "product": "Lipton Ice Tea Sparkling",
+        "productInfo": "4-pack",
+        "category": "",
+        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Kies%20&%20mix%202022/Lipton-green-sparkling.png",
+        "deal": "3+1 gratis",
+        "price": 0,
+        "dateStart": "2017-01-17",
+        "dateEnd": "2022-03-29",
+        "link": "https://jumbo.com/aanbiedingen/sa03_lipton",
+        "shop": "Jumbo"
+    },
+    {
         "product": "Huls",
         "productInfo": "Alle soorten",
         "category": "",
@@ -2355,7 +2367,7 @@
         "product": "Affligem 0.0 6-packs",
         "productInfo": "Per set",
         "category": "bier",
-        "image": "https://static.ah.nl/static/product/AHI_43545239373838353235_3_200x200_JPG.JPG",
+        "image": "https://static.ah.nl/static/product/AHI_43545239373838353235_2_200x200_JPG.JPG",
         "deal": "25% korting",
         "price": 4.49,
         "dateStart": "2022-02-27",
