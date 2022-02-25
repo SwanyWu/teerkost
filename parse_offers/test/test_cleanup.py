@@ -1,6 +1,6 @@
 import unittest
 
-from cleanup import categorize
+from cleanup import categorize, cleantext
 
 class TestCleanup(unittest.TestCase):
 
@@ -59,7 +59,15 @@ class TestCleanup(unittest.TestCase):
         ✅ Categorie voor product wordt leeg teruggegeven bij onbekend product 👉 
         """
         resultingCategory = categorize.findCategoryForProduct("niets", "niks")
-        self.assertTrue(resultingCategory == '')          
+        self.assertTrue(resultingCategory == '')
+
+    def test_clean_title(self):
+        """
+        ✅ Titel van een product wordt opgeschoond 👉 
+        """
+        cleanTitle = cleantext.cleanUpTitle("Alle AH bananen* met schil ")
+        expectedTitle = "Bananen met schil"
+        self.assertEqual(cleanTitle, expectedTitle)
 
 if __name__ == '__main__':
     unittest.main(verbosity=0)
