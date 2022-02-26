@@ -204,6 +204,18 @@
         "shop": "Jumbo"
     },
     {
+        "product": "Vegan paté of smeerworst",
+        "productInfo": "2 verpakkingen",
+        "category": "",
+        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Weekaanbiedingen/Week%209/Vegan%20pate.png",
+        "deal": "1+1 gratis",
+        "price": 0,
+        "dateStart": "2022-02-15",
+        "dateEnd": "2022-03-08",
+        "link": "https://jumbo.com/aanbiedingen/wa09_vegan",
+        "shop": "Jumbo"
+    },
+    {
         "product": "William Lawson Whisky, Bacardi Rum of Eristoff Vodka",
         "productInfo": "Fles 1000 ml",
         "category": "",
@@ -636,7 +648,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Lipton Ice Tea Sparkling",
+        "product": "Lipton Ice Tea Sparkling of Green",
         "productInfo": "4-pack",
         "category": "",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Kies%20&%20mix%202022/Lipton-green-sparkling.png",
@@ -924,10 +936,10 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Kies & Mix gebak",
-        "productInfo": "Alle varianten met een Kies en Mix sticker\nPer twee stuks",
+        "product": "Kies & Mix bakkerij",
+        "productInfo": "Diverse varianten",
         "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Kies%20&%20mix%202022/KM%20gebak%202022.png",
+        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA3/KM%20Bakkerij.png",
         "deal": "2 voor € 5,00",
         "price": "5.00",
         "dateStart": "2022-01-04",
@@ -3291,7 +3303,7 @@
         "product": "Kies & Mix Jumbo verse soepen",
         "productInfo": "2 bekers à 500ml",
         "category": "kant-en-klaar",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Kies%20&%20mix%202022/KM-Verse-Soep-jan22.png",
+        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA3/KM%20soep.png",
         "deal": "2 voor € 4,50",
         "price": "4.50",
         "dateStart": "2022-01-04",
@@ -3661,7 +3673,7 @@
     },
     {
         "product": "Mondkapjes",
-        "productInfo": "Uitwasbare mondkapjes of wegwerp mondkapjes 10 stuks\n2 verpakkingen",
+        "productInfo": "Wegwerp mondkapjes 10 stuks\n2 verpakkingen",
         "category": "verzorging",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Kies%20&%20mix%202022/Mondkapje%202.png",
         "deal": "1+1 gratis",
