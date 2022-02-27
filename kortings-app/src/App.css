@@ -209,6 +209,10 @@ i.icon {
   color: #FFF !important;
   text-shadow: 1px 1px #005305;
   background: #16b000 !important;
+  position: sticky;
+  right: 10px;
+  left: 0px;
+  z-index: 900;
 }
 
 #filter-button {
