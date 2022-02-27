@@ -1,6 +1,6 @@
 import requests
 from datetime import datetime
-from cleanup import categorize
+from cleanup import categorize, cleantext
   
 
 def returnOffers():
@@ -21,10 +21,11 @@ def returnOffers():
         if "bezorgkorting" not in i['tag'] and "bestelkosten" not in i['tag']:
             offer = {"product":"", "productInfo":"", "category":"", "image":"", "deal":"", "price": 0, "dateStart":"", "dateEnd":"", "link": "", "shop":""}
             
-            offer.update({"product": i['name']})
+            cleanTitle = cleantext.cleanUpTitle(i['name'])
+            offer.update({"product": cleanTitle})
             offer.update({"productInfo": i['summary']})
 
-            category = categorize.findCategoryForProduct(i['name'], i['summary'])
+            category = categorize.findCategoryForProduct(cleanTitle, i['summary'])
             offer.update({"category": category})
 
             offer.update({"shop": SHOP})
