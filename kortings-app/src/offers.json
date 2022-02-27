@@ -1,17 +1,5 @@
 [
     {
-        "product": "Vegan paté of smeerworst",
-        "productInfo": "2 verpakkingen",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Weekaanbiedingen/Week%209/Vegan%20pate.png",
-        "deal": "1+1 gratis",
-        "price": 0,
-        "dateStart": "2022-02-15",
-        "dateEnd": "2022-03-08",
-        "link": "https://jumbo.com/aanbiedingen/wa09_vegan",
-        "shop": "Jumbo"
-    },
-    {
         "product": "Boerengehakt-, kipkrokant- of gepaneerde schnitzel, slavink, saucijs, grillburger, biologische hamburger of pastarundergehakt",
         "productInfo": "3 schalen à 180-350 gram",
         "category": "",
@@ -24,7 +12,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Klein Vriend",
+        "product": "Klein vriend",
         "productInfo": "Alle soorten\n2 flessen à 750 ml\nLand van herkomst: Zuid Afrika",
         "category": "",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Weekaanbiedingen/Week%208/Klein%20Vriend.png",
@@ -36,7 +24,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Mora snackbroodjes, Tostini of Loempia's of Mora of Hebro saté",
+        "product": "Mora snackbroodjes, tostini of loempia's of mora of hebro saté",
         "productInfo": "2 verpakkingen à 150-200 gram",
         "category": "",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Weekaanbiedingen/Week%208/Mora.png",
@@ -48,7 +36,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Verkade Knappertjes, Maria, Nizza, Frou Frou, Meesterbaksels, Mokka Sticks, Sprits of San Francisco",
+        "product": "Verkade knappertjes, maria, nizza, frou frou, meesterbaksels, mokka sticks, sprits of san francisco",
         "productInfo": "2 verpakkingen à 150-320 gram",
         "category": "",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Weekaanbiedingen/Week%208/Verkade.png",
@@ -84,7 +72,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Jumbo ontbijtspek of bacon",
+        "product": "Ontbijtspek of bacon",
         "productInfo": "Let op: Voeg ook de eieren aan je mandje toe\nVan de vleeswaren bedieningsafdeling\n2 verpakkingen à 50-115 gram",
         "category": "",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Weekaanbiedingen/Week%208/Ontbijtspek%20en%20bacon.png",
@@ -120,7 +108,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Mas de Montbrun Vin de France Biologisch",
+        "product": "Mas de montbrun vin de france biologisch",
         "productInfo": "Fles 750 ml\nLand van herkomst: Frankrijk",
         "category": "",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Weekaanbiedingen/Week%208/Wijn_Mas%20de%20Montbrun.png",
@@ -132,7 +120,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Corvezzo Prosecco biologisch",
+        "product": "Corvezzo prosecco biologisch",
         "productInfo": "Fles 750 ml\nLand van herkomst: Italië",
         "category": "",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Weekaanbiedingen/Week%208/Wijn_Corvezzo%20Prosecco%20Biologisch.png",
@@ -144,7 +132,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Jumbo Foccacia",
+        "product": "Foccacia",
         "productInfo": "Gekoeld\nPer verpakking",
         "category": "",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Weekaanbiedingen/Week%208/Foccacia.png",
@@ -168,7 +156,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Arla Biologisch",
+        "product": "Arla biologisch",
         "productInfo": "2 verpakkingen à 450 gram of à 500-1000 ml",
         "category": "",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Weekaanbiedingen/Week%208/Arla%20Biologisch.png",
@@ -180,7 +168,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "El Bio wijnen",
+        "product": "El bio wijnen",
         "productInfo": "Tempranillo Cabernet Sauvignon en Verdejo Sauvignon Blanc\nFles 750 ml\nLand van herkomst: Spanje",
         "category": "",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/EG%20schap%202022/Week%208/el%20bio.png",
@@ -204,7 +192,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Oral-B",
+        "product": "Oral-b",
         "productInfo": "Alle soorten\n2 verpakkingen",
         "category": "",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Weekaanbiedingen/Week%207/Oral_B.png",
@@ -216,7 +204,19 @@
         "shop": "Jumbo"
     },
     {
-        "product": "William Lawson Whisky, Bacardi Rum of Eristoff Vodka",
+        "product": "Vegan paté of smeerworst",
+        "productInfo": "2 verpakkingen",
+        "category": "",
+        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Weekaanbiedingen/Week%209/Vegan%20pate.png",
+        "deal": "1+1 gratis",
+        "price": 0,
+        "dateStart": "2022-02-15",
+        "dateEnd": "2022-03-08",
+        "link": "https://jumbo.com/aanbiedingen/wa09_vegan",
+        "shop": "Jumbo"
+    },
+    {
+        "product": "William lawson whisky, bacardi rum of eristoff vodka",
         "productInfo": "Fles 1000 ml",
         "category": "",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Weekaanbiedingen/Week%208/Slijterij_William%20whisky%20Bacardi.png",
@@ -228,7 +228,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Boswandeling of Rocket Shot",
+        "product": "Boswandeling of rocket shot",
         "productInfo": "Fles 700 ml",
         "category": "",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Weekaanbiedingen/Week%208/Slijterij_Boswandeling.png",
@@ -240,7 +240,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Berentzen, Puschkin, Trojka, Dropshot, Sierra Tequila, Sourz of Safari",
+        "product": "Berentzen, puschkin, trojka, dropshot, sierra tequila, sourz of safari",
         "productInfo": "2 flessen Puschkin, Trojka, Dropshot, Sierra Tequilla, Sourz of Safari à 700 ml of Berentzen of Safari à 1000 ml",
         "category": "",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Weekaanbiedingen/Week%208/Slijterij_Berentzen.png",
@@ -264,7 +264,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Los Gansos",
+        "product": "Los gansos",
         "productInfo": "Alle soorten\n2 flessen à 750 ml\nLand van herkomst: Chili",
         "category": "",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA2/Los%20Gansos_280px.png",
@@ -276,7 +276,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Lay's of Cheetos",
+        "product": "Lay's of cheetos",
         "productInfo": "2 zakken Lay's à 335 gram, Lay's Wokkels à 125 gram of Cheetos Nibb-it à 150 gram",
         "category": "",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA2/Lays-Cheetos_280px.png",
@@ -288,7 +288,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "De Vegetarische Slager, Garden Gourmet en Valess",
+        "product": "De vegetarische slager, garden gourmet en valess",
         "productInfo": "Alle vleesvervangers\n125-300 gram",
         "category": "",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA3/Vegetarische%20Slager-Garden%20Gourmet-Valess_280px.png",
@@ -300,7 +300,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Kies & Mix tulpen en rozen",
+        "product": "Kies & mix tulpen en rozen",
         "productInfo": "Diverse soorten",
         "category": "",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA2/Rozen%20en%20planten.png",
@@ -312,7 +312,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Unox vegetarische, magere of Gelderse rookworst",
+        "product": "Unox vegetarische, magere of gelderse rookworst",
         "productInfo": "2e schaatsbaan kaartje gratis bij aankoop van 2 Unox actieartikelen",
         "category": "",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA2/Unox%20Vegetarische-Magere-Gelderse%20Rookworst_280px.png",
@@ -336,7 +336,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Gato Negro",
+        "product": "Gato negro",
         "productInfo": "Alle soorten\n2 flessen à 750 ml\nLand van herkomst: Chili",
         "category": "",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA3/Gato%20Negro_280px.png",
@@ -348,7 +348,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Karvan Cévitam",
+        "product": "Karvan cévitam",
         "productInfo": "2 flesjes à 48 ml of blikken à 500-750 ml",
         "category": "",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA2/Karvan%20Cevitam_280px.png",
@@ -360,7 +360,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Grand Sud en JP Chenet",
+        "product": "Grand sud en jp chenet",
         "productInfo": "Alle soorten\n2 flessen à 750 ml of 1 liter\nLand van herkomst: Frankrijk",
         "category": "",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA3/Grand%20Sud-JP%20Chenet_280px.png",
@@ -384,7 +384,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Dr. Oetker Big Americans",
+        "product": "Dr. oetker big americans",
         "productInfo": "Alle soorten\n2 verpakkingen à 385 - 460 gram",
         "category": "",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA3/Dr%20Oetker%20Big%20Americans_280px.png",
@@ -396,7 +396,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Jumbo chocolade repen en tabletten",
+        "product": "Chocolade repen en tabletten",
         "productInfo": "Alle soorten, inclusief vegan \n80 en 200 gram",
         "category": "",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA3/Jumbo%20Repen-Tabletten_280px.png",
@@ -456,7 +456,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Lay's Sensations, Lay's Oven & Hamka's",
+        "product": "Lay's sensations, lay's oven & hamka's",
         "productInfo": "150 & 170 gram",
         "category": "",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA3/Lays_280px.png",
@@ -468,7 +468,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Arla Skyr en Melkunie Protein",
+        "product": "Arla skyr en melkunie protein",
         "productInfo": "Alle soorten\n2 verpakkingen à 200-450 gram",
         "category": "",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA3/Arla-Skyr-Melkunie%20Protein_280px.png",
@@ -492,7 +492,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Campina Vla",
+        "product": "Campina vla",
         "productInfo": "Alle soorten\n2 verpakkingen à 1 liter",
         "category": "",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA3/Campina%20Vla_280px.png",
@@ -516,7 +516,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Jumbo spekreepjes of -blokjes",
+        "product": "Spekreepjes of -blokjes",
         "productInfo": "2 verpakkingen à 250 gram",
         "category": "",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA2/Jumbo%20Spekreepjes-blokjes_280px.png",
@@ -528,7 +528,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Campina Langlekker",
+        "product": "Campina langlekker",
         "productInfo": "2 verpakkingen à 1 liter",
         "category": "",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA2/Campina%20Langlekker_280px.png",
@@ -552,7 +552,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Danio Romige Kwark of Vegan",
+        "product": "Danio romige kwark of vegan",
         "productInfo": "2 verpakkingen à 350-450 gram",
         "category": "",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA2/Danio%20Romige%20kwark-Vegan_280px.png",
@@ -564,7 +564,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Knorr wereldgerechten, Tratorria of Foodtrips",
+        "product": "Knorr wereldgerechten, tratorria of foodtrips",
         "productInfo": "Alle soorten\n2 verpakkingen",
         "category": "",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA2/Knorr%20Wereldgerechten_280px.png",
@@ -576,7 +576,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Dubbelfrisss en Bubbelfrisss",
+        "product": "Dubbelfrisss en bubbelfrisss",
         "productInfo": "Pakken en flessen á 1,5L",
         "category": "",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA3/Dubbelfrisss-Bubbelfrisss_280px.png",
@@ -588,7 +588,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Lipton Ice Tea",
+        "product": "Lipton ice tea",
         "productInfo": "Flessen á 1,5 liter",
         "category": "",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA3/Lipton%20Ice%20Tea_280px.png",
@@ -600,7 +600,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Chocomel of Fristi",
+        "product": "Chocomel of fristi",
         "productInfo": "Houdbare Chocomel of Fristi 1 liter\n2 verpakkingen à 1 liter",
         "category": "",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA3/Chocomel-Fristi_280px.png",
@@ -624,7 +624,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Biologisch Half om Half gehakt, gemengd gehakt of vers vega gehakt",
+        "product": "Biologisch half om half gehakt, gemengd gehakt of vers vega gehakt",
         "productInfo": "2 schalen à 300 gram of 500 gram",
         "category": "",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA2/Jumbo%20gemengd%20gehakt%20vlees%20vega.png",
@@ -636,7 +636,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Lipton Ice Tea Sparkling of Green",
+        "product": "Lipton ice tea sparkling of green",
         "productInfo": "4-pack",
         "category": "",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Kies%20&%20mix%202022/Lipton-green-sparkling.png",
@@ -648,7 +648,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Lipton Ice Tea Sparkling of Green",
+        "product": "Lipton ice tea sparkling of green",
         "productInfo": "4-pack",
         "category": "",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Kies%20&%20mix%202022/Lipton-green-sparkling.png",
@@ -672,7 +672,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Céréal en WeCare",
+        "product": "Céréal en wecare",
         "productInfo": "35-320 gram en 750ml",
         "category": "",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA3/Cereal%20Wecare%20(1).png",
@@ -684,7 +684,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Boursin, La Vache Qui Rit, Mini Babybel",
+        "product": "Boursin, la vache qui rit, mini babybel",
         "productInfo": "2 verpakkingen 80-320 gram",
         "category": "",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA3/boursin.png",
@@ -696,7 +696,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Signature de Princess",
+        "product": "Signature de princess",
         "productInfo": "Alle soorten\nFles 750 ml\nLand van herkomst: Frankrijk",
         "category": "",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA3/princess.png",
@@ -708,7 +708,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Red Bull grootverpakking",
+        "product": "Red bull grootverpakking",
         "productInfo": "24 blikjes à 250 ml",
         "category": "",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA3/RedbullSugarfree.png",
@@ -720,7 +720,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Jumbo Yoghurt Griekse Stijl Naturel of Aardbei",
+        "product": "Yoghurt griekse stijl naturel of aardbei",
         "productInfo": "8 x 200g",
         "category": "",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA2/Jumbo-Pouches-P2.png",
@@ -732,7 +732,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Mixed Assortiment Heinz",
+        "product": "Mixed assortiment heinz",
         "productInfo": "Mixed Assortiment\nPer twee verpakkingen",
         "category": "",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA2/Heinz%20online%20only.png",
@@ -744,7 +744,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Campina, Chocomel of Vifit",
+        "product": "Campina, chocomel of vifit",
         "productInfo": "Alle grootverpakkingen\n6 - 12 liter",
         "category": "",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA2/Omdozen%20online%20only.png",
@@ -756,7 +756,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Best for your Friend",
+        "product": "Best for your friend",
         "productInfo": "Alle soorten\n95-135 gram",
         "category": "",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA2/Best%20for%20your%20friend%20online%20only.png",
@@ -768,7 +768,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Lipton Voordeel",
+        "product": "Lipton voordeel",
         "productInfo": "Diverse grootverpakkingen",
         "category": "",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA2/SA2-Lipton.png",
@@ -780,7 +780,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Lipton Voordeel",
+        "product": "Lipton voordeel",
         "productInfo": "Diverse grootverpakkingen",
         "category": "",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA2/SA2-Lipton.png",
@@ -828,7 +828,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Glen Talloch Whiskey, Esbjaerg Vodka en Old Captain Rum bruin en wit",
+        "product": "Glen talloch whiskey, esbjaerg vodka en old captain rum bruin en wit",
         "productInfo": "Fles 1000 ml",
         "category": "",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA2/Slijterij_Glen_Talloch_280px.png",
@@ -840,7 +840,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Hartevelt Jonge Jenever en Vieux",
+        "product": "Hartevelt jonge jenever en vieux",
         "productInfo": "Fles 1000 ml",
         "category": "",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA2/Slijterij_Hartevelt.png",
@@ -852,7 +852,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Kies & Mix tapas",
+        "product": "Kies & mix tapas",
         "productInfo": "Diverse soorten",
         "category": "",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Kies%20&%20mix%202022/KM-Borrel-Jan.png",
@@ -864,7 +864,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Kies & Mix paaseitjes",
+        "product": "Kies & mix paaseitjes",
         "productInfo": "Diverse soorten\n3 verpakkingen",
         "category": "",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Kies%20&%20mix%202022/Paaseitjes%20KM.png",
@@ -876,7 +876,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Kies & Mix Jumbo chocolaatjes",
+        "product": "Kies & mix chocolaatjes",
         "productInfo": "120 - 150 gram",
         "category": "",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Kies%20&%20mix%202022/KM%20chocola%20nieuw.png",
@@ -888,7 +888,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Kies & Mix voorverpakte vleeswaren",
+        "product": "Kies & mix voorverpakte vleeswaren",
         "productInfo": "Alle Kies en Mix soorten\n2 verpakkingen met Kies en Mix sticker à 100-175 gram",
         "category": "",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Kies%20&%20mix%202022/KM%20Vleeswaren%202022.png",
@@ -900,7 +900,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Kies & Mix filet, paté, salades",
+        "product": "Kies & mix filet, paté, salades",
         "productInfo": "Diverse soorten",
         "category": "",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Kies%20&%20mix%202022/KM%20filet%20pate%202022.png",
@@ -912,7 +912,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Kies & Mix Grill en Gemak",
+        "product": "Kies & mix grill en gemak",
         "productInfo": "Diverse soorten",
         "category": "",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Kies%20&%20mix%202022/KM%20grill%20gemak.png",
@@ -924,7 +924,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Kies & Mix toetjes",
+        "product": "Kies & mix toetjes",
         "productInfo": "75-100 gram",
         "category": "",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Kies%20&%20mix%202022/KM%20toetjes%202022.png",
@@ -936,7 +936,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Kies & Mix bakkerij",
+        "product": "Kies & mix bakkerij",
         "productInfo": "Diverse varianten",
         "category": "",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA3/KM%20Bakkerij.png",
@@ -948,7 +948,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Kies & Mix verse koekjes",
+        "product": "Kies & mix verse koekjes",
         "productInfo": "Alle koekjes met Kies en Mix sticker\nPer 2 bakjes",
         "category": "",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Kies%20&%20mix%202022/KM%20koekjes%202022.png",
@@ -960,7 +960,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Kies & Mix Jumbo pizza's",
+        "product": "Kies & mix pizza's",
         "productInfo": "3 dozen",
         "category": "",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Kies%20&%20mix%202022/KM%20Pizza%202022.png",
@@ -972,7 +972,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Kies & Mix Jumbo kroepoek",
+        "product": "Kies & mix kroepoek",
         "productInfo": "3 zakken à 66-75 gram",
         "category": "",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Kies%20&%20mix%202022/KM%20kroepoek.png",
@@ -984,7 +984,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Kies & Mix Jumbo kwartblikjes",
+        "product": "Kies & mix kwartblikjes",
         "productInfo": "Blikken 212 ml",
         "category": "",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Kies%20&%20mix%202022/KM%20kwartblikjes%202022.png",
@@ -2424,7 +2424,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Jumbo kookgroente, gesneden champignons of duopak aardappelen",
+        "product": "Kookgroente, gesneden champignons of duopak aardappelen",
         "productInfo": "Kookgroente à 400 gram, gesneden witte champignons à 250 gram of duopak aardappelen à 2x350 gram\n2 verpakkingen",
         "category": "aardappel",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA3/Gekoelde%20groenten_280px.png",
@@ -2436,7 +2436,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Brand of Heineken Pils",
+        "product": "Brand of heineken pils",
         "productInfo": "2 6-packs Brand pils à 30-33 cl of 6-packs Heineken blik à 33-50 cl\nM.u.v. coolcans",
         "category": "bier",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Weekaanbiedingen/Week%208/Brand%20en%20Heineken.png",
@@ -2448,7 +2448,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Welke biermerken zijn bij jouw Jumbo in de aanbieding?",
+        "product": "Welke biermerken zijn bij jouw in de aanbieding?",
         "productInfo": "Diverse combinaties",
         "category": "bier",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2021/Bierkratten/Lokale%20bierkratten%201b.png",
@@ -2460,7 +2460,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Pils van Heineken, Brand of Birra Moretti",
+        "product": "Pils van heineken, brand of birra moretti",
         "productInfo": "Heineken, Brand of Birra Moretti 6-pack fles of blik",
         "category": "bier",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA3/Heineken-Brand-Birra%20Moretti_280px.png",
@@ -2472,7 +2472,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Speciaalbieren van Hertog Jan, Karmeliet of Kasteelbier",
+        "product": "Speciaalbieren van hertog jan, karmeliet of kasteelbier",
         "productInfo": "Alle verpakkingen",
         "category": "bier",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA3/Speciaalbieren%20Hertog%20Jan-Karmeliet-Kasteelbier_280px.png",
@@ -2484,7 +2484,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Speciaalbieren van Brand, Affligem, Grimbergen of Jopen",
+        "product": "Speciaalbieren van brand, affligem, grimbergen of jopen",
         "productInfo": "Alle verpakkingen",
         "category": "bier",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA3/Speciaalbier%20Brand-Affligem-Grimbergen-Jopen_280px.png",
@@ -2496,7 +2496,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Amstel, Grolsch, Veltins of Warsteiner pils blik",
+        "product": "Amstel, grolsch, veltins of warsteiner pils blik",
         "productInfo": "2 verpakkingen met 6 blikjes à 33-50 cl of losse blikken à 50 cl\nM.u.v. alcoholvrij",
         "category": "bier",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA2/Amstel.png",
@@ -2508,7 +2508,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Leffe, Karmeliet, Affligem, Cornet of Grolsch Speciaalbieren",
+        "product": "Leffe, karmeliet, affligem, cornet of grolsch speciaalbieren",
         "productInfo": "Alle soorten\n2 verpakkingen\nM.u.v. Radler, kratten of geschenkverpakkingen",
         "category": "bier",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA2/Speciaalbier.png",
@@ -2607,7 +2607,7 @@
         "product": "Affligem 0.0 6-packs",
         "productInfo": "Per set",
         "category": "bier",
-        "image": "https://static.ah.nl/static/product/AHI_43545239373838353235_3_200x200_JPG.JPG",
+        "image": "https://static.ah.nl/static/product/AHI_43545239373838353235_2_200x200_JPG.JPG",
         "deal": "25% korting",
         "price": 4.49,
         "dateStart": "2022-02-27",
@@ -2628,7 +2628,7 @@
         "shop": "AH"
     },
     {
-        "product": "Kies & Mix broodjes",
+        "product": "Kies & mix broodjes",
         "productInfo": "Per zak",
         "category": "brood",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Kies%20&%20mix%202022/KM%20Broodjes%202022.png",
@@ -2640,7 +2640,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Kies & Mix broodjes",
+        "product": "Kies & mix broodjes",
         "productInfo": "Diverse soorten",
         "category": "brood",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2021/K&M%20broodjes%20offline.png",
@@ -2652,7 +2652,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Kies & Mix brood en toast salades",
+        "product": "Kies & mix brood en toast salades",
         "productInfo": "Alle soorten met Kies en Mix logo\n2 verpakkingen à 175 gram",
         "category": "brood",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Kies%20&%20mix%202022/KM%20brood%20toast%20salades%202022.png",
@@ -2700,7 +2700,7 @@
         "shop": "Lidl"
     },
     {
-        "product": "Kies & Mix fruit",
+        "product": "Kies & mix fruit",
         "productInfo": "Blauwe bessen bak 125gr, Kanzi appels zak 1kg, Rode druiven pitloos bak 500gr, Zespri kiwi schaal 3 st of Mandarijnen net 1kg",
         "category": "fruit",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA3/KM%20fruit%20sa3.png",
@@ -2712,7 +2712,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Kies & Mix fruit",
+        "product": "Kies & mix fruit",
         "productInfo": "Perssinaasappelen net 1,5 kg, rode druiven rood bak 500 gram, blauwe bessen bak 125 gram, frambozen bak 125 gram of mango per stuk",
         "category": "fruit",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA2/Km%20fruit%20definitief.png",
@@ -2724,7 +2724,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Mandarijnen of Pink Lady",
+        "product": "Mandarijnen of pink lady",
         "productInfo": "Mandarijnen net 1 kilo, Pink Lady verpakt 4 stuks",
         "category": "fruit",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA2/Mandarijn%20pinklady.png",
@@ -2736,7 +2736,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Kies & Mix gesneden fruit",
+        "product": "Kies & mix gesneden fruit",
         "productInfo": "90-200 gram",
         "category": "fruit",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Kies%20&%20mix%202022/KM%20fruitmix%202022.png",
@@ -2868,7 +2868,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Kies & Mix groente",
+        "product": "Kies & mix groente",
         "productInfo": "Bloemkool per stuk, trostomaten verpakt 5 stuks, zoete aardappelen zak 1 kilo, zoete punt praprika zak 500 gram of Tommies snoep tomaten verpakking 250 gram",
         "category": "groente",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA2/KM%20groente.png",
@@ -2880,7 +2880,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Kies & Mix groente",
+        "product": "Kies & mix groente",
         "productInfo": "Sperziebonen zak 500 gram, Romatomaten bak 750 gram, snijbonen zak 400 gram, avocado schaal 2 stuks \nZak 400-500 gram, bak 750 gram of schaal 2 stuks",
         "category": "groente",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA3/KM%20groente.png",
@@ -2892,7 +2892,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Jumbo roerbakgroente of koolhydraatvervangers",
+        "product": "Roerbakgroente of koolhydraatvervangers",
         "productInfo": "2 zakken roerbakgroente à 400 gram of koolhydraatvervangers à 300-400 gram",
         "category": "groente",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA2/Roerbakgroente.png",
@@ -2904,7 +2904,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "HAK appelmoes of Groenten in pot of stazak",
+        "product": "Hak appelmoes of groenten in pot of stazak",
         "productInfo": "3 potten of stazakken",
         "category": "groente",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA2/HAK_280px.png",
@@ -2928,7 +2928,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Kies & Mix kookgroente",
+        "product": "Kies & mix kookgroente",
         "productInfo": "Bloemkool roosjes, broccoli roosjes, gebroken sperziebonen, snijbonen, groentenmix, of spruitjes\nZak 150 gram",
         "category": "groente",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Kies%20&%20mix%202022/KM%20kookgroente%202022.png",
@@ -3084,7 +3084,7 @@
         "shop": "Lidl"
     },
     {
-        "product": "SUN, Dreft of Finish Vaatwastabletten",
+        "product": "Sun, dreft of finish vaatwastabletten",
         "productInfo": "Alle soorten\n2 verpakkingen",
         "category": "huishoudelijk",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA3/Sun-Dreft-Finish%20Vaatwastabletten_280px.png",
@@ -3096,7 +3096,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Robijn Classics of Collections vloeibaar wasmiddel, Geurstokjes of Dry Wash",
+        "product": "Robijn classics of collections vloeibaar wasmiddel, geurstokjes of dry wash",
         "productInfo": "Alle soorten\n2 verpakkingen",
         "category": "huishoudelijk",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA2/Robijn_280px.png",
@@ -3108,7 +3108,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Ariel of Lenor",
+        "product": "Ariel of lenor",
         "productInfo": "Alle soorten\n3 verpakkingen",
         "category": "huishoudelijk",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA2/Ariel-Lenor_280px.png",
@@ -3120,7 +3120,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Glorix, Andy of Cif",
+        "product": "Glorix, andy of cif",
         "productInfo": "2 verpakkingen\nM.u.v. Glorix bleek",
         "category": "huishoudelijk",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA2/Glorix-Andy-Cif_280px.png",
@@ -3132,7 +3132,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Robijn Capsules, Wasverzachter of Dry Wash",
+        "product": "Robijn capsules, wasverzachter of dry wash",
         "productInfo": "Alle soorten\n2 verpakkingen",
         "category": "huishoudelijk",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA3/Robijn_280px.png",
@@ -3144,7 +3144,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Jumbo keukenpapier",
+        "product": "Keukenpapier",
         "productInfo": "2 pakken à 4 rollen of 1 Maxi rol",
         "category": "huishoudelijk",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA2/Jumbo%20Keukenpapier_280px.png",
@@ -3156,7 +3156,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Ariel of Lenor Unstoppables",
+        "product": "Ariel of lenor unstoppables",
         "productInfo": "Alle soorten\n3 verpakkingen",
         "category": "huishoudelijk",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA3/Ariel-Lenor_280px.png",
@@ -3264,7 +3264,7 @@
         "shop": "Lidl"
     },
     {
-        "product": "Jumbo pondstukken kaas",
+        "product": "Pondstukken kaas",
         "productInfo": "2 verpakkingen 430-545 gram",
         "category": "kaas",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA3/Jumbo%20Goudse%20Kaas%20stukken_280px.png",
@@ -3288,7 +3288,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Kies & Mix kaas",
+        "product": "Kies & mix kaas",
         "productInfo": "Diverse soorten",
         "category": "kaas",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2021/K&M%20Kaas%20P8%202021.png",
@@ -3300,7 +3300,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Kies & Mix plakken kaas",
+        "product": "Kies & mix plakken kaas",
         "productInfo": "Alle Kies en Mix soorten\n2 verpakkingen met Kies en Mix sticker 190 gram",
         "category": "kaas",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Kies%20&%20mix%202022/KM%20kaas%20plakken%202022.png",
@@ -3384,7 +3384,7 @@
         "shop": "AH"
     },
     {
-        "product": "Unox of Conimex soep in zak",
+        "product": "Unox of conimex soep in zak",
         "productInfo": "2e schaatsbaan kaartje gratis bij aankoop van 2 Unox actieartikelen",
         "category": "kant-en-klaar",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA2/Unox-Conimex%20Soep%20in%20zak_280px.png",
@@ -3396,7 +3396,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "La Place of Jumbo Italiaanse maaltijden",
+        "product": "La place of italiaanse maaltijden",
         "productInfo": "Koelverse lasagnes of Buon Appetito maaltijden",
         "category": "kant-en-klaar",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA3/La%20Place-Jumbo%20Italiaanse%20Maaltijden_280px.png",
@@ -3420,7 +3420,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Jumbo maaltijdpakket",
+        "product": "Maaltijdpakket",
         "productInfo": "Alle soorten\nPer doosje",
         "category": "kant-en-klaar",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA2/maaltijdpakket.png",
@@ -3432,7 +3432,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Jumbo verse maaltijd of ovenmaaltijd",
+        "product": "Verse maaltijd of ovenmaaltijd",
         "productInfo": "2 schalen à 350-450 gram",
         "category": "kant-en-klaar",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA2/Jumbo%20Verse%20Maaltijd-Ovenmaaltijd_280px.png",
@@ -3444,7 +3444,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Kies & Mix Jumbo Oosterse maaltijdcomponenten",
+        "product": "Kies & mix oosterse maaltijdcomponenten",
         "productInfo": "126 - 260 gram",
         "category": "kant-en-klaar",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Kies%20&%20mix%202022/KM%20Oosterse%20maaltijden%202022.png",
@@ -3456,7 +3456,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Kies & Mix Jumbo verse soepen",
+        "product": "Kies & mix verse soepen",
         "productInfo": "2 bekers à 500ml",
         "category": "kant-en-klaar",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA3/KM%20soep.png",
@@ -3492,7 +3492,7 @@
         "shop": "AH"
     },
     {
-        "product": "Nescafé Dolce Gusto",
+        "product": "Nescafé dolce gusto",
         "productInfo": "3 doosjes à 16 stuks",
         "category": "koffie",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Weekaanbiedingen/Week%208/Nescafe%20Dolce%20Gusto.png",
@@ -3504,7 +3504,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Alle koffie capsules",
+        "product": "Koffie capsules",
         "productInfo": "Alle soorten\n10 - 40 stuks",
         "category": "koffie",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA3/Koffiecapsules_280px.png",
@@ -3516,7 +3516,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "La Place koffiebonen",
+        "product": "La place koffiebonen",
         "productInfo": "2 verpakkingen",
         "category": "koffie",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA2/La%20Place%20Koffiebonen_280px.png",
@@ -3528,7 +3528,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Douwe Egberts snelfiltermaling of koffiebonen",
+        "product": "Douwe egberts snelfiltermaling of koffiebonen",
         "productInfo": "2 verpakkingen à 500 gram\nM.u.v. Douwe Egberts Excellent en Café",
         "category": "koffie",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA2/Douwe%20Egberts_280px.png",
@@ -3540,7 +3540,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Nescafé Dolce Gusto",
+        "product": "Nescafé dolce gusto",
         "productInfo": "30 stuks",
         "category": "koffie",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA3/Nescafe.png",
@@ -3552,7 +3552,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Douwe Egberts Aroma Rood snelfiltermaling",
+        "product": "Douwe egberts aroma rood snelfiltermaling",
         "productInfo": "Pak met 6 verpakkingen à 250 gram",
         "category": "koffie",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Kies%20&%20mix%202022/KM%20DE%202022.png",
@@ -3564,7 +3564,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Kies & Mix La Place koffiecapsules",
+        "product": "Kies & mix la place koffiecapsules",
         "productInfo": "3 doosjes à 10 capsules",
         "category": "koffie",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Kies%20&%20mix%202022/KM%20La%20place%20koffie%202022.png",
@@ -3636,7 +3636,7 @@
         "shop": "Lidl"
     },
     {
-        "product": "Kies & Mix salademixen",
+        "product": "Kies & mix salademixen",
         "productInfo": "Dressing 70ml, Olijfschijfjes 50gr, Noten- en zadenmix 40-50gr, Croutonmix 25-35gr",
         "category": "noten",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Kies%20&%20mix%202022/KM%20salademixen.png",
@@ -3648,7 +3648,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Kies & Mix ongezouten verse noten",
+        "product": "Kies & mix ongezouten verse noten",
         "productInfo": "Cup à 110-250 gram",
         "category": "noten",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Kies%20&%20mix%202022/KM%20notenmix%202022.png",
@@ -3684,7 +3684,7 @@
         "shop": "AH"
     },
     {
-        "product": "Pampers Baby Dry luiers",
+        "product": "Pampers baby dry luiers",
         "productInfo": "M.u.v. maxi en giga packs\n2 verpakkingen",
         "category": "verzorging",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/EG%20schap%202022/Week%201/Pampers.png",
@@ -3696,7 +3696,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Zwitsal of Neutral",
+        "product": "Zwitsal of neutral",
         "productInfo": "M.u.v. Zwitsal Deodorant\n2 verpakkingen",
         "category": "verzorging",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/EG%20schap%202022/Week%208/neutral.png",
@@ -3708,7 +3708,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Prodent of Zendium",
+        "product": "Prodent of zendium",
         "productInfo": "3 verpakkingen\nM.u.v. multiverpakkingen",
         "category": "verzorging",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Weekaanbiedingen/Week%207/Prodent_Zendium.png",
@@ -3744,7 +3744,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Mondkapjes Type 2",
+        "product": "Mondkapjes type 2",
         "productInfo": "Diverse soorten",
         "category": "verzorging",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA2/Mondkapjes.png",
@@ -3756,7 +3756,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Cosmetica Voordeel",
+        "product": "Cosmetica voordeel",
         "productInfo": "Diverse grootverpakkingen",
         "category": "verzorging",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA2/SA2-Cosmetica.png",
@@ -3768,7 +3768,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Cosmetica Voordeel",
+        "product": "Cosmetica voordeel",
         "productInfo": "Diverse grootverpakkingen",
         "category": "verzorging",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA2/SA2-Cosmetica.png",
@@ -3792,7 +3792,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Page Original of Kussenzacht",
+        "product": "Page original of kussenzacht",
         "productInfo": "Pak Original 24 rollen of Kussenzacht 18 rollen",
         "category": "verzorging",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Kies%20&%20mix%202022/KM%20Page.png",
@@ -3912,7 +3912,7 @@
         "shop": "Lidl"
     },
     {
-        "product": "Kies & Mix vlees, vis en vega",
+        "product": "Kies & mix vlees, vis en vega",
         "productInfo": "3 schalen",
         "category": "vis",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA3/KMvlees-24-2.png",
@@ -3924,7 +3924,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Kies & Mix vlees, vis of vega",
+        "product": "Kies & mix vlees, vis of vega",
         "productInfo": "3 schalen",
         "category": "vis",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA2/Km%20vleesvisvega.png",
@@ -3960,7 +3960,7 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Iglo vissticks 15 stuks of Fish, Ocean, of Green Cuisine",
+        "product": "Iglo vissticks 15 stuks of fish, ocean, of green cuisine",
         "productInfo": "2 pakken vissticks à 15 stuks of Cuisine à 200-480 gram",
         "category": "vis",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA2/Iglo%20Vissticks-Fish-Ocean-Green%20Cuisine_280px.png",
