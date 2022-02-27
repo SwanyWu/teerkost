@@ -63,9 +63,9 @@ class TestCleanup(unittest.TestCase):
 
     def test_clean_title(self):
         """
-        ✅ Titel van een product wordt opgeschoond 👉 
+        ✅ Titel van een product is netjes 👉 
         """
-        cleanTitle = cleantext.cleanUpTitle("Alle AH bananen* met schil ")
+        cleanTitle = cleantext.cleanUpTitle("Jumbo Alle AH bananen* met schil ")
         expectedTitle = "Bananen met schil"
         self.assertEqual(cleanTitle, expectedTitle)
 
