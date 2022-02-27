@@ -157,6 +157,7 @@ b.label-shop-lidl {
 .filter-offer span {
   background: #e0ffdb;
   color: #117902;
+  padding: 8px 15px 8px 15px;
 }
 
 .filter-cat span {
