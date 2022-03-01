@@ -1,17 +1,5 @@
 [
     {
-        "product": "Vegan paté of smeerworst",
-        "productInfo": "2 verpakkingen",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Weekaanbiedingen/Week%209/Vegan%20pate.png",
-        "deal": "1+1 gratis",
-        "price": 0,
-        "dateStart": "2022-02-15",
-        "dateEnd": "2022-03-08",
-        "link": "https://jumbo.com/aanbiedingen/wa09_vegan",
-        "shop": "Jumbo"
-    },
-    {
         "product": "Boerengehakt-, kipkrokant- of gepaneerde schnitzel, slavink, saucijs, grillburger, biologische hamburger of pastarundergehakt",
         "productInfo": "3 schalen à 180-350 gram",
         "category": "",
@@ -213,6 +201,18 @@
         "dateStart": "2022-02-15",
         "dateEnd": "2022-03-01",
         "link": "https://jumbo.com/aanbiedingen/9259041-B-1",
+        "shop": "Jumbo"
+    },
+    {
+        "product": "Vegan paté of smeerworst",
+        "productInfo": "2 verpakkingen",
+        "category": "",
+        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Weekaanbiedingen/Week%209/Vegan%20pate.png",
+        "deal": "1+1 gratis",
+        "price": 0,
+        "dateStart": "2022-02-15",
+        "dateEnd": "2022-03-08",
+        "link": "https://jumbo.com/aanbiedingen/wa09_vegan",
         "shop": "Jumbo"
     },
     {
@@ -1188,18 +1188,6 @@
         "shop": "AH"
     },
     {
-        "product": "Old amsterdam of maaslander",
-        "productInfo": "Bijv. Old Amsterdam 48+ in plakken - Per 100 gram",
-        "category": "",
-        "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD526639?rendition=200px&fileType=binary",
-        "deal": "25% korting",
-        "price": 1.53,
-        "dateStart": "2022-03-06",
-        "dateEnd": "2022-03-06",
-        "link": "https://ah.nl/bonus/groep/443536?week=9",
-        "shop": "AH"
-    },
-    {
         "product": "Paturain 90-185 gram",
         "productInfo": "Alle varianten",
         "category": "",
@@ -1233,18 +1221,6 @@
         "dateStart": "2022-03-06",
         "dateEnd": "2022-03-06",
         "link": "https://ah.nl/bonus/groep/447481?week=9",
-        "shop": "AH"
-    },
-    {
-        "product": "Nurishh",
-        "productInfo": "Bijv. Camembert - 140 gram",
-        "category": "",
-        "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD526671?rendition=200px&fileType=binary",
-        "deal": "30% korting",
-        "price": 3.14,
-        "dateStart": "2022-03-06",
-        "dateEnd": "2022-03-06",
-        "link": "https://ah.nl/bonus/groep/447879?week=9",
         "shop": "AH"
     },
     {
@@ -1320,18 +1296,6 @@
         "shop": "AH"
     },
     {
-        "product": "Donuts",
-        "productInfo": "Bijv. gedecoreerd - Schaal 5 stuks",
-        "category": "",
-        "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD526644?rendition=200px&fileType=binary",
-        "deal": "25% korting",
-        "price": 2.25,
-        "dateStart": "2022-03-06",
-        "dateEnd": "2022-03-06",
-        "link": "https://ah.nl/bonus/groep/443566?week=9",
-        "shop": "AH"
-    },
-    {
         "product": "Eierkoeken",
         "productInfo": "Bijv. AH Brabantse eierkoek - 4 stuks",
         "category": "",
@@ -1341,18 +1305,6 @@
         "dateStart": "2022-03-06",
         "dateEnd": "2022-03-06",
         "link": "https://ah.nl/bonus/groep/443951?week=9",
-        "shop": "AH"
-    },
-    {
-        "product": "A-merk crackers, rijstwafels en knäckebröd",
-        "productInfo": "Bijv. Wasa vezelrijk - 3 pakken à 300 gram",
-        "category": "",
-        "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD526622?rendition=200px&fileType=binary",
-        "deal": "2+1 gratis",
-        "price": 3.18,
-        "dateStart": "2022-03-06",
-        "dateEnd": "2022-03-06",
-        "link": "https://ah.nl/bonus/groep/443452?week=9",
         "shop": "AH"
     },
     {
@@ -1853,7 +1805,7 @@
         "category": "",
         "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD526632?rendition=200px&fileType=binary",
         "deal": "1+1 gratis",
-        "price": 1.75,
+        "price": 1.99,
         "dateStart": "2022-03-06",
         "dateEnd": "2022-03-06",
         "link": "https://ah.nl/bonus/groep/443493?week=9",
@@ -1918,78 +1870,6 @@
         "dateEnd": "2022-03-06",
         "link": "https://ah.nl/bonus/groep/443532?week=9",
         "shop": "AH"
-    },
-    {
-        "product": "Rode paprika's",
-        "productInfo": "3 stuks",
-        "category": "",
-        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/2022022282615/gallery/preview/xs/2022022282615_01.jpg",
-        "deal": "33% korting",
-        "price": "0.99",
-        "dateStart": "2022-02-28",
-        "dateEnd": "2022-03-02",
-        "link": "https://www.lidl.nl/p/rode-paprika-s/p2022022282615",
-        "shop": "Lidl"
-    },
-    {
-        "product": "Roerbakgroenten",
-        "productInfo": "Alle combinaties mogelijk 400 g per zak 2 zakken",
-        "category": "",
-        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/202202226600484/gallery/preview/xs/202202226600484_01.jpg",
-        "deal": "37% korting",
-        "price": "2.50",
-        "dateStart": "2022-02-28",
-        "dateEnd": "2022-03-02",
-        "link": "https://www.lidl.nl/p/roerbakgroenten/p202202226600484",
-        "shop": "Lidl"
-    },
-    {
-        "product": "Veldsla",
-        "productInfo": "150 gram",
-        "category": "",
-        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/2022022266005327/gallery/preview/xs/2022022266005327_01.jpg",
-        "deal": "op=op",
-        "price": "1.29",
-        "dateStart": "2022-02-28",
-        "dateEnd": "",
-        "link": "https://www.lidl.nl/p/veldsla/p2022022266005327",
-        "shop": "Lidl"
-    },
-    {
-        "product": "Baguette",
-        "productInfo": "250 g per stuk 2 stuks",
-        "category": "",
-        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/2022022227984/gallery/preview/xs/2022022227984_01.jpg",
-        "deal": "23% korting",
-        "price": "1.-",
-        "dateStart": "2022-02-28",
-        "dateEnd": "2022-03-06",
-        "link": "https://www.lidl.nl/p/baguette/p2022022227984",
-        "shop": "Lidl"
-    },
-    {
-        "product": "Chocoladecronut",
-        "productInfo": "per stuk",
-        "category": "",
-        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/20220222159134/gallery/preview/xs/20220222159134_01.jpg",
-        "deal": "op=op",
-        "price": "0.79",
-        "dateStart": "2022-02-28",
-        "dateEnd": "",
-        "link": "https://www.lidl.nl/p/chocoladecronut/p20220222159134",
-        "shop": "Lidl"
-    },
-    {
-        "product": "Luxe crackers",
-        "productInfo": "300 g megapak",
-        "category": "",
-        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/202202226605377/gallery/preview/xs/202202226605377_01.jpg",
-        "deal": "op=op",
-        "price": "1.99",
-        "dateStart": "2022-02-28",
-        "dateEnd": "",
-        "link": "https://www.lidl.nl/p/luxe-crackers/p202202226605377",
-        "shop": "Lidl"
     },
     {
         "product": "Witte mini-puntjes",
@@ -2145,18 +2025,6 @@
         "dateStart": "2022-02-28",
         "dateEnd": "",
         "link": "https://www.lidl.nl/p/gevulde-koeken/p202202226602262",
-        "shop": "Lidl"
-    },
-    {
-        "product": "Pikante augurken",
-        "productInfo": "1550 gram",
-        "category": "",
-        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/2022022228378/gallery/preview/xs/2022022228378_01.jpg",
-        "deal": "op=op",
-        "price": "1.69",
-        "dateStart": "2022-02-28",
-        "dateEnd": "",
-        "link": "https://www.lidl.nl/p/pikante-augurken/p2022022228378",
         "shop": "Lidl"
     },
     {
@@ -2337,18 +2205,6 @@
         "dateStart": "2022-03-03",
         "dateEnd": "2022-03-06",
         "link": "https://www.lidl.nl/p/hand-en-perssinaasappels/p2022022280142",
-        "shop": "Lidl"
-    },
-    {
-        "product": "Haricots verts",
-        "productInfo": "250 gram",
-        "category": "",
-        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/2022022282221/gallery/preview/xs/2022022282221_01.jpg",
-        "deal": "35% korting",
-        "price": "1.29",
-        "dateStart": "2022-03-03",
-        "dateEnd": "2022-03-06",
-        "link": "https://www.lidl.nl/p/haricots-verts/p2022022282221",
         "shop": "Lidl"
     },
     {
@@ -2736,6 +2592,18 @@
         "shop": "AH"
     },
     {
+        "product": "Donuts",
+        "productInfo": "Bijv. gedecoreerd - Schaal 5 stuks",
+        "category": "brood",
+        "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD526644?rendition=200px&fileType=binary",
+        "deal": "25% korting",
+        "price": 2.25,
+        "dateStart": "2022-03-06",
+        "dateEnd": "2022-03-06",
+        "link": "https://ah.nl/bonus/groep/443566?week=9",
+        "shop": "AH"
+    },
+    {
         "product": "Speciaal bakkersbrood stevig half",
         "productInfo": "",
         "category": "brood",
@@ -2748,6 +2616,42 @@
         "shop": "AH"
     },
     {
+        "product": "A-merk crackers, rijstwafels en knäckebröd",
+        "productInfo": "Bijv. Wasa vezelrijk - 3 pakken à 300 gram",
+        "category": "brood",
+        "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD526622?rendition=200px&fileType=binary",
+        "deal": "2+1 gratis",
+        "price": 3.18,
+        "dateStart": "2022-03-06",
+        "dateEnd": "2022-03-06",
+        "link": "https://ah.nl/bonus/groep/443452?week=9",
+        "shop": "AH"
+    },
+    {
+        "product": "Baguette",
+        "productInfo": "250 g per stuk 2 stuks",
+        "category": "brood",
+        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/2022022227984/gallery/preview/xs/2022022227984_01.jpg",
+        "deal": "23% korting",
+        "price": "1.-",
+        "dateStart": "2022-02-28",
+        "dateEnd": "2022-03-06",
+        "link": "https://www.lidl.nl/p/baguette/p2022022227984",
+        "shop": "Lidl"
+    },
+    {
+        "product": "Chocoladecronut",
+        "productInfo": "per stuk",
+        "category": "brood",
+        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/20220222159134/gallery/preview/xs/20220222159134_01.jpg",
+        "deal": "op=op",
+        "price": "0.79",
+        "dateStart": "2022-02-28",
+        "dateEnd": "",
+        "link": "https://www.lidl.nl/p/chocoladecronut/p20220222159134",
+        "shop": "Lidl"
+    },
+    {
         "product": "Krentenbollen",
         "productInfo": "520 g, 8 stuks per zak",
         "category": "brood",
@@ -2757,6 +2661,18 @@
         "dateStart": "2022-02-28",
         "dateEnd": "",
         "link": "https://www.lidl.nl/p/krentenbollen/p202202226603154",
+        "shop": "Lidl"
+    },
+    {
+        "product": "Luxe crackers",
+        "productInfo": "300 g megapak",
+        "category": "brood",
+        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/202202226605377/gallery/preview/xs/202202226605377_01.jpg",
+        "deal": "op=op",
+        "price": "1.99",
+        "dateStart": "2022-02-28",
+        "dateEnd": "",
+        "link": "https://www.lidl.nl/p/luxe-crackers/p202202226605377",
         "shop": "Lidl"
     },
     {
@@ -3132,6 +3048,54 @@
         "shop": "Lidl"
     },
     {
+        "product": "Rode paprika's",
+        "productInfo": "3 stuks",
+        "category": "groente",
+        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/2022022282615/gallery/preview/xs/2022022282615_01.jpg",
+        "deal": "33% korting",
+        "price": "0.99",
+        "dateStart": "2022-02-28",
+        "dateEnd": "2022-03-02",
+        "link": "https://www.lidl.nl/p/rode-paprika-s/p2022022282615",
+        "shop": "Lidl"
+    },
+    {
+        "product": "Roerbakgroenten",
+        "productInfo": "Alle combinaties mogelijk 400 g per zak 2 zakken",
+        "category": "groente",
+        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/202202226600484/gallery/preview/xs/202202226600484_01.jpg",
+        "deal": "37% korting",
+        "price": "2.50",
+        "dateStart": "2022-02-28",
+        "dateEnd": "2022-03-02",
+        "link": "https://www.lidl.nl/p/roerbakgroenten/p202202226600484",
+        "shop": "Lidl"
+    },
+    {
+        "product": "Veldsla",
+        "productInfo": "150 gram",
+        "category": "groente",
+        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/2022022266005327/gallery/preview/xs/2022022266005327_01.jpg",
+        "deal": "op=op",
+        "price": "1.29",
+        "dateStart": "2022-02-28",
+        "dateEnd": "",
+        "link": "https://www.lidl.nl/p/veldsla/p2022022266005327",
+        "shop": "Lidl"
+    },
+    {
+        "product": "Pikante augurken",
+        "productInfo": "1550 gram",
+        "category": "groente",
+        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/2022022228378/gallery/preview/xs/2022022228378_01.jpg",
+        "deal": "op=op",
+        "price": "1.69",
+        "dateStart": "2022-02-28",
+        "dateEnd": "",
+        "link": "https://www.lidl.nl/p/pikante-augurken/p2022022228378",
+        "shop": "Lidl"
+    },
+    {
         "product": "Spinazie",
         "productInfo": "450 gram",
         "category": "groente",
@@ -3153,6 +3117,18 @@
         "dateStart": "2022-03-03",
         "dateEnd": "2022-03-06",
         "link": "https://www.lidl.nl/p/broccoli/p2022022282904",
+        "shop": "Lidl"
+    },
+    {
+        "product": "Haricots verts",
+        "productInfo": "250 gram",
+        "category": "groente",
+        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/2022022282221/gallery/preview/xs/2022022282221_01.jpg",
+        "deal": "35% korting",
+        "price": "1.29",
+        "dateStart": "2022-03-03",
+        "dateEnd": "2022-03-06",
+        "link": "https://www.lidl.nl/p/haricots-verts/p2022022282221",
         "shop": "Lidl"
     },
     {
@@ -3432,6 +3408,18 @@
         "shop": "AH"
     },
     {
+        "product": "Old amsterdam of maaslander",
+        "productInfo": "Bijv. Old Amsterdam 48+ in plakken - Per 100 gram",
+        "category": "kaas",
+        "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD526639?rendition=200px&fileType=binary",
+        "deal": "25% korting",
+        "price": 1.53,
+        "dateStart": "2022-03-06",
+        "dateEnd": "2022-03-06",
+        "link": "https://ah.nl/bonus/groep/443536?week=9",
+        "shop": "AH"
+    },
+    {
         "product": "Geraspte specialiteitenkaas",
         "productInfo": "Bijv. cheddar - 2 zakken à 150 gram",
         "category": "kaas",
@@ -3453,6 +3441,18 @@
         "dateStart": "2022-03-06",
         "dateEnd": "2022-03-06",
         "link": "https://ah.nl/bonus/groep/443542?week=9",
+        "shop": "AH"
+    },
+    {
+        "product": "Nurishh",
+        "productInfo": "Bijv. Camembert - 140 gram",
+        "category": "kaas",
+        "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD526671?rendition=200px&fileType=binary",
+        "deal": "30% korting",
+        "price": 3.14,
+        "dateStart": "2022-03-06",
+        "dateEnd": "2022-03-06",
+        "link": "https://ah.nl/bonus/groep/447879?week=9",
         "shop": "AH"
     },
     {
