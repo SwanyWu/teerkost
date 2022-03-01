@@ -19,10 +19,10 @@
         "keywords": [
             "groentegemak", "groenteshots", "groenteshot", "broccoli", "broccoliroosjes", "bloemkool", "bloemkoolroosjes", "spruiten", "waspeen", "winterpeen", "bospeen", "wortel", "wortels", 
             "prei", "andijvie", "boerenkool", "spinazie", "wortelen", "kinderappels",
-            "tomaten", "paprika", "avocado", "snoepgroente", "ovengroente", "ovengroenten", "groenten", "groentemix", "groente", "kookgroente", 
-            "kookgroenten","witlof", "stamppotgroenten", "roerbakgroente", "kool",
-            "komkommer", "courgette", "aubergine", "spruitjes", "peulen", "haricot", "worteltjes", "champignons", "kastanjechampignons","puntpaprika",
-            "salade ui", "bosui", "uien", "rucola", "rucolamelange", "sperziebonen", "ijsbergsla", "romaatje", "trostomaten", "pompoen", "pompoenblokjes",
+            "tomaten", "paprika", "paprika's", "veldsla", "avocado", "snoepgroente", "ovengroente", "ovengroenten", "groenten", "groentemix", "groente", "kookgroente", 
+            "kookgroenten","witlof", "stamppotgroenten", "roerbakgroente", "roerbakgroenten", "kool",
+            "komkommer", "courgette", "aubergine", "spruitjes", "haricots", "peulen", "haricot", "worteltjes", "champignons", "kastanjechampignons","puntpaprika",
+            "salade ui", "bosui", "uien", "augurken", "rucola", "rucolamelange", "sperziebonen", "ijsbergsla", "romaatje", "trostomaten", "pompoen", "pompoenblokjes",
             "hutspot", "zuurkool", "snijbonen", "bleekselderij", "knolselderij", "wokgroenten", "wokgroente", "bieten", "maïs", "pastinaak",
             "haricots verts", "sjalotten", "babyspinazie", "kropsla", "slamelange", "slamelanges", "bonen", "radijs", "spitskool",
             "paksoi"
@@ -38,18 +38,19 @@
     {
         "name": "brood",
         "keywords": [ 
-            "broodje", "brood", "broodjes", "pitabroodjes", "croissant", "croissantjes", "pistolet", "pistoletjes",
-            "krentenbollen", "mini-rozijnen-krentenbollen", "mini-krentenbollen", "frikandelbroodje", "frikandelbroodjes",
+            "broodje", "brood", "broodjes", "baguette", "crackers", "chocoladecronut", "donut", "donuts", 
+            "pitabroodjes", "focaccia","croissant", "croissantjes", "pistolet", "pistoletjes",
+            "krentenbollen", "mini-puntjes", "mini-rozijnen-krentenbollen", "mini-krentenbollen", "frikandelbroodje", "frikandelbroodjes",
             "saucijzenbroodjes", "saucijzenbroodje", "zonnebloempittenbrood", "sesamvolkorenbrood",
             "vruchtenbrood", "bakkersbrood", "meerzadenbroodje", "meerzadenbrood", "volkorenbrood", "sesambrood", "meergranenbrood"
         ]
     },
     {
         "name": "kaas",
-        "keywords": ["zaanlander", "zanetti", "milner", "boerenkaas", "boerderijkaas",
+        "keywords": ["zaanlander", "zanetti", "milner", "maaslander", "boerenkaas", "boerderijkaas",
             "kaas", "specialiteitenkaas",  "kaasplakken", "gatenkaas", "fondeu",
             "borrelkaas", "borrelkaasjes", "brokkelkaas", "geitenkaas", "goudse", 
-            "parrano", "parmazan", "parmigiano", "reggiano", "gorgonzola", "mozzerella", "buffelmozzerella"]
+            "parrano", "parmazan", "camembert","parmigiano", "reggiano", "gorgonzola", "mozzerella", "buffelmozzerella"]
     },
     {
         "name": "vis",
