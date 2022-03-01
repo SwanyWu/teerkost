@@ -19,20 +19,6 @@ class TestCleanup(unittest.TestCase):
         resultingCategory = categorize.findCategoryForProduct("een flesje", "water bier")
         self.assertTrue(resultingCategory == 'bier')
 
-    def test_return_category_by_title_w_minus(self):
-        """
-        ✅ Categorie voor product wordt gevonden in beschrijving met minteken 👉 
-        """
-        resultingCategory = categorize.findCategoryForProduct("een flesje", "bier-klein-bier")
-        self.assertTrue(resultingCategory == 'bier')
-
-    def test_return_category_by_description_w_minus(self):
-        """
-        ✅ Categorie voor product wordt gevonden in titel met minteken 👉 
-        """
-        resultingCategory = categorize.findCategoryForProduct("flesje-bier-groot", "een flesje")
-        self.assertTrue(resultingCategory == 'bier')
-
     def test_return_category_w_empty_title(self):
         """
         ✅ Categorie voor product wordt gevonden met ontbrekende titel 👉 
