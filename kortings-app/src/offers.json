@@ -306,9 +306,9 @@
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA2/Rozen%20en%20planten.png",
         "deal": "2 voor € 5,00",
         "price": "5.00",
-        "dateStart": "2022-01-31",
-        "dateEnd": "2022-02-27",
-        "link": "https://jumbo.com/aanbiedingen/3100014-C-1",
+        "dateStart": "2022-02-27",
+        "dateEnd": "2022-03-27",
+        "link": "https://jumbo.com/aanbiedingen/3100016-C-1",
         "shop": "Jumbo"
     },
     {
@@ -369,6 +369,18 @@
         "dateStart": "2022-03-01",
         "dateEnd": "2022-03-29",
         "link": "https://jumbo.com/aanbiedingen/9316011-C-1",
+        "shop": "Jumbo"
+    },
+    {
+        "product": "Kwv wijnen",
+        "productInfo": "Alle soorten\nFles 750 ml\n Land van herkomst: Zuid-Afrika",
+        "category": "",
+        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/EG%20schap%202022/Week%209/KWV.png",
+        "deal": "1 voor € 4,99",
+        "price": "4.99",
+        "dateStart": "2022-03-01",
+        "dateEnd": "2022-03-29",
+        "link": "https://jumbo.com/aanbiedingen/9324004-A-1",
         "shop": "Jumbo"
     },
     {
@@ -789,6 +801,18 @@
         "dateStart": "2020-03-17",
         "dateEnd": "2022-03-29",
         "link": "https://jumbo.com/aanbiedingen/sa3_lipton",
+        "shop": "Jumbo"
+    },
+    {
+        "product": "Baby grootverpakkingen",
+        "productInfo": "Diverse grootverpakkingen",
+        "category": "",
+        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA2/SA2-Baby.png",
+        "deal": "30% korting",
+        "price": 0,
+        "dateStart": "2020-03-17",
+        "dateEnd": "2022-03-29",
+        "link": "https://jumbo.com/aanbiedingen/sa3_baby",
         "shop": "Jumbo"
     },
     {
@@ -3253,7 +3277,7 @@
     },
     {
         "product": "Huishoud grootverpakkingen",
-        "productInfo": "Diverse soorten",
+        "productInfo": "Diverse grootverpakkingen",
         "category": "huishoudelijk",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA2/SA2-Huishoud.png",
         "deal": "30% korting",
@@ -3261,18 +3285,6 @@
         "dateStart": "2020-03-17",
         "dateEnd": "2022-03-29",
         "link": "https://jumbo.com/aanbiedingen/sa3_huishoud",
-        "shop": "Jumbo"
-    },
-    {
-        "product": "Huishoud grootverpakkingen",
-        "productInfo": "Diverse soorten",
-        "category": "huishoudelijk",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA2/SA2-Baby.png",
-        "deal": "30% korting",
-        "price": 0,
-        "dateStart": "2020-03-17",
-        "dateEnd": "2022-03-29",
-        "link": "https://jumbo.com/aanbiedingen/sa3_baby",
         "shop": "Jumbo"
     },
     {
