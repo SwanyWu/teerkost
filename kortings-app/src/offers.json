@@ -1,17 +1,5 @@
 [
     {
-        "product": "Vegan paté of smeerworst",
-        "productInfo": "2 verpakkingen",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Weekaanbiedingen/Week%209/Vegan%20pate.png",
-        "deal": "1+1 gratis",
-        "price": 0,
-        "dateStart": "2022-02-15",
-        "dateEnd": "2022-03-08",
-        "link": "https://jumbo.com/aanbiedingen/wa09_vegan",
-        "shop": "Jumbo"
-    },
-    {
         "product": "Boerengehakt-, kipkrokant- of gepaneerde schnitzel, slavink, saucijs, grillburger, biologische hamburger of pastarundergehakt",
         "productInfo": "3 schalen à 180-350 gram",
         "category": "",
@@ -201,6 +189,18 @@
         "dateStart": "2022-02-22",
         "dateEnd": "2022-03-01",
         "link": "https://jumbo.com/aanbiedingen/9309011-B-1",
+        "shop": "Jumbo"
+    },
+    {
+        "product": "Vegan paté of smeerworst",
+        "productInfo": "2 verpakkingen",
+        "category": "",
+        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Weekaanbiedingen/Week%209/Vegan%20pate.png",
+        "deal": "1+1 gratis",
+        "price": 0,
+        "dateStart": "2022-02-15",
+        "dateEnd": "2022-03-08",
+        "link": "https://jumbo.com/aanbiedingen/wa09_vegan",
         "shop": "Jumbo"
     },
     {
