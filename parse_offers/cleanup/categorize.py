@@ -12,8 +12,8 @@ def findCategoryForProduct(title, description):
 
     categories = json.loads(data)
     
-    wordsList = re.split(' |-', title.lower().replace(',', ''))
-    descriptionWordList = re.split(' |-', description.lower().replace(',', ''))
+    wordsList = re.split(' ', title.lower().replace(',', ''))
+    descriptionWordList = re.split(' ', description.lower().replace(',', ''))
     wordsList.extend(descriptionWordList)
 
     foundCategory = ""
