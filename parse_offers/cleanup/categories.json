@@ -40,7 +40,7 @@
         "keywords": [ 
             "broodje", "brood", "broodjes", "baguette", "crackers", "chocoladecronut", "donut", "donuts", 
             "pitabroodjes", "focaccia","croissant", "croissantjes", "pistolet", "pistoletjes",
-            "krentenbollen", "mini-puntjes", "mini-rozijnen-krentenbollen", "mini-krentenbollen", "frikandelbroodje", "frikandelbroodjes",
+            "krentenbollen", "mini-puntjes", "puntjes", "mini-rozijnen-krentenbollen", "mini-krentenbollen", "frikandelbroodje", "frikandelbroodjes",
             "saucijzenbroodjes", "saucijzenbroodje", "zonnebloempittenbrood", "sesamvolkorenbrood",
             "vruchtenbrood", "bakkersbrood", "meerzadenbroodje", "meerzadenbrood", "volkorenbrood", "sesambrood", "meergranenbrood"
         ]
@@ -81,8 +81,11 @@
     {
         "name": "fruit",
         "keywords": [
-            "mandarijnen", "bessen", "minneola", "dadels", "fruit", "perssinaasappelen", "sinaasappels", "aardbeien", "druiven", "bessen", "frambozen", "mango", "appels", 
-            "appeltjes","kiwi", "meloen", "conference", "peren", "ananas", "granaatappel", "elstar", "jonagold"
+            "mandarijnen", "bessen", "minneola", "dadels", "fruit", "perssinaasappels", 
+            "perssinaasappelen", "sinaasappels", "aardbeien", "druiven", "bessen", 
+            "handsinaasappels", "frambozen", "mango", "appels", 
+            "appeltjes","kiwi", "meloen", "conference", "peren", "ananas", "granaatappel", 
+            "elstar", "jonagold"
         ]
     },
     {
