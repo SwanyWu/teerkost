@@ -3,6 +3,7 @@ import './App.css';
 import Offers from './offers.json';
 import Product from './Product';
 import NoProduct from "./NoProduct";
+import Footer from './Footer';
 
 const expandFilter = (e) => {
   if(document.getElementById('filter-button').textContent === "FILTER") {
@@ -181,6 +182,7 @@ function App() {
         return <Product key={index} item={name}/>;
       }) : <NoProduct /> }
       </div>
+      <Footer/>
     </div>
   );
 }
