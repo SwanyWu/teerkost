@@ -1,11 +1,10 @@
 name: deploy-to-gh-pages
 
 on:
-  push:
-    branches:
-      - main
-  schedule:
-    - cron: '0 2 * * *'
+  workflow_run:
+    workflows: ["get-latest-offers"]
+    types:
+      - completed
 
 jobs:
   build-and-deploy:
