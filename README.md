@@ -1,8 +1,8 @@
 [![get-latest-offers](https://github.com/Ffyud/kortings/actions/workflows/get-latest-offers.yml/badge.svg)](https://github.com/Ffyud/kortings/actions/workflows/get-latest-offers.yml) [![deploy-to-gh-pages](https://github.com/Ffyud/kortings/actions/workflows/deploy-to-gh-pages.yml/badge.svg)](https://github.com/Ffyud/kortings/actions/workflows/deploy-to-gh-pages.yml) [![run-parse-offers-test](https://github.com/Ffyud/kortings/actions/workflows/run-parse-offers-test.yml/badge.svg)](https://github.com/Ffyud/kortings/actions/workflows/run-parse-offers-test.yml)
 
-# Kortings
+# Teerkost
 
-Kortings collects the current discounts from popular Dutch supermarkets.
+Teerkost collects the current discounts from popular Dutch supermarkets.
 
 ## Running the app
 
