@@ -1,20 +1,9 @@
-import React, {useState} from "react";
+import React, {useState, Suspense, lazy} from "react";
 import './App.css';
 import Offers from './offers.json';
-import Product from './Product';
-import NoProduct from "./NoProduct";
 import Footer from './Footer';
 
-const expandFilter = (e) => {
-  if(document.getElementById('filter-button').textContent === "FILTER") {
-    document.getElementById('filter-button').textContent = "X"
-  }
-  else {
-    document.getElementById('filter-button').textContent = "FILTER"
-  }
-  var dialog = document.getElementById("filter-dialog");
-  dialog.classList.toggle('toggle-on');
-}
+const ProductsContainer = React.lazy(() => import ('./ProductsContainer'));
 
 function App() {
   
@@ -177,11 +166,9 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="flex-container">
-      { selectedOffers.length > 0 ? selectedOffers.map(function(name, index){
-        return <Product key={index} item={name}/>;
-      }) : <NoProduct /> }
-      </div>
+      <Suspense fallback={<div className="even-geduld">Even geduld...</div>}>
+        <ProductsContainer selectedOffers={selectedOffers}/>
+      </Suspense>
       <Footer/>
     </div>
   );
