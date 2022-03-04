@@ -36,18 +36,6 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Ovenaardappelen",
-        "productInfo": "Alle soorten \n2 schalen à 300-450 gram",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Weekaanbiedingen/Week%209/Jumbo%20Ovenaardappelen.png",
-        "deal": "2 voor € 3,00",
-        "price": "3.00",
-        "dateStart": "2022-03-01",
-        "dateEnd": "2022-03-08",
-        "link": "https://jumbo.com/aanbiedingen/9329046-C-1",
-        "shop": "Jumbo"
-    },
-    {
         "product": "Sparen voor kuhn rikon messen",
         "productInfo": "Sparen voor Kuhn Rikon Messen kan t/m 21 juni 2022.\nHet inleveren van een volle spaarkaart kan t/m 5 juli 2022.",
         "category": "",
@@ -120,18 +108,6 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Aardbei calinda",
-        "productInfo": "2 bakken à 400 gram",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Weekaanbiedingen/Week%209/Calinda%20Aardbeien.png",
-        "deal": "2 voor € 5,00",
-        "price": "5.00",
-        "dateStart": "2022-03-01",
-        "dateEnd": "2022-03-08",
-        "link": "https://jumbo.com/aanbiedingen/9330046-C-1",
-        "shop": "Jumbo"
-    },
-    {
         "product": "Almhof portieverpakkingen",
         "productInfo": "Hoekje, Roomyoghurt, Choco en Vegan dessert\n2 verpakkingen à 150-180 gram",
         "category": "",
@@ -168,18 +144,6 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Parodontax of sensodyne",
-        "productInfo": "3 verpakkingen\n M.u.v. duo verpakkingen",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Weekaanbiedingen/Week%209/Parodontax-Sensodyne.png",
-        "deal": "2+1 gratis",
-        "price": 0,
-        "dateStart": "2022-03-01",
-        "dateEnd": "2022-03-15",
-        "link": "https://jumbo.com/aanbiedingen/9331051-B-1",
-        "shop": "Jumbo"
-    },
-    {
         "product": "Vegan paté of smeerworst",
         "productInfo": "2 verpakkingen",
         "category": "",
@@ -187,7 +151,7 @@
         "deal": "1+1 gratis",
         "price": 0,
         "dateStart": "2022-02-15",
-        "dateEnd": "2022-03-08",
+        "dateEnd": "2022-03-15",
         "link": "https://jumbo.com/aanbiedingen/wa09_vegan",
         "shop": "Jumbo"
     },
@@ -1884,6 +1848,18 @@
         "shop": "Lidl"
     },
     {
+        "product": "Ovenaardappelen",
+        "productInfo": "Alle soorten \n2 schalen à 300-450 gram",
+        "category": "aardappel",
+        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Weekaanbiedingen/Week%209/Jumbo%20Ovenaardappelen.png",
+        "deal": "2 voor € 3,00",
+        "price": "3.00",
+        "dateStart": "2022-03-01",
+        "dateEnd": "2022-03-08",
+        "link": "https://jumbo.com/aanbiedingen/9329046-C-1",
+        "shop": "Jumbo"
+    },
+    {
         "product": "Kookgroente, gesneden champignons of duopak aardappelen",
         "productInfo": "Kookgroente à 400 gram, gesneden witte champignons à 250 gram of duopak aardappelen à 2x350 gram\n2 verpakkingen",
         "category": "aardappel",
@@ -2206,6 +2182,18 @@
         "dateEnd": "2022-03-06",
         "link": "https://www.lidl.nl/p/witte-mini-puntjes/p202202221482",
         "shop": "Lidl"
+    },
+    {
+        "product": "Aardbei calinda",
+        "productInfo": "2 bakken à 400 gram",
+        "category": "fruit",
+        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Weekaanbiedingen/Week%209/Calinda%20Aardbeien.png",
+        "deal": "2 voor € 5,00",
+        "price": "5.00",
+        "dateStart": "2022-03-01",
+        "dateEnd": "2022-03-08",
+        "link": "https://jumbo.com/aanbiedingen/9330046-C-1",
+        "shop": "Jumbo"
     },
     {
         "product": "Kies & mix fruit",
@@ -3106,6 +3094,18 @@
         "dateEnd": "2022-03-06",
         "link": "https://ah.nl/bonus/groep/443433?week=9",
         "shop": "AH"
+    },
+    {
+        "product": "Parodontax of sensodyne",
+        "productInfo": "3 verpakkingen\n M.u.v. duo verpakkingen",
+        "category": "verzorging",
+        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Weekaanbiedingen/Week%209/Parodontax-Sensodyne.png",
+        "deal": "2+1 gratis",
+        "price": 0,
+        "dateStart": "2022-03-01",
+        "dateEnd": "2022-03-15",
+        "link": "https://jumbo.com/aanbiedingen/9331051-B-1",
+        "shop": "Jumbo"
     },
     {
         "product": "Andrélon specials",
