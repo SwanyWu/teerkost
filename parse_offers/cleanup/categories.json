@@ -33,7 +33,7 @@
         "keywords": [ "aardappelen", "krieltjes", "mini-krieltjes", "aardappelschijfjes", "aardappelkroketjes",
              "aardappelbolletjes", "aardappelfrites", "frites", "patat", "pommes", "boerenfriet", "frietjes", "friet", "aardappelgratin",
              "aardappelroosjes", "aardappelgolfjes", "aardappelpuree", "aardappel", "aardappelpartjes", "aardappelblokjes",
-              "aardappelwedges", "opbakaardappelen", "rosti", "rostirondjes", "smulfriet" ]
+              "aardappelwedges", "ovenaardappelen", "opbakaardappelen", "rosti", "rostirondjes", "smulfriet" ]
     },
     {
         "name": "brood",
@@ -83,7 +83,7 @@
         "keywords": [
             "mandarijnen", "bessen", "minneola", "dadels", "fruit", "perssinaasappels", 
             "perssinaasappelen", "sinaasappels", "aardbeien", "druiven", "bessen", 
-            "handsinaasappels", "frambozen", "mango", "appels", 
+            "handsinaasappels", "frambozen", "mango", "appels", "calinda",
             "appeltjes","kiwi", "meloen", "conference", "peren", "ananas", "granaatappel", 
             "elstar", "jonagold"
         ]
@@ -92,7 +92,7 @@
         "name": "verzorging",
         "keywords": [
             "pampers, luiers", "prodent", "zendium", "page", "axe", "zwitsal", "oral-b","palmolive","vaseline",
-            "always", "kneipp", "listerine", "borotalco", "periodeverzorging", "lucovitaal", "pampers", "tissues", "zakdoekjes", "guhl", "andrélon", "edet", "nalys", "dettol", "dove", "rexona", "axe", "gillette", "venus", "elmex",
+            "always", "kneipp", "paradontax", "sensodyne", "listerine", "borotalco", "periodeverzorging", "lucovitaal", "pampers", "tissues", "zakdoekjes", "guhl", "andrélon", "edet", "nalys", "dettol", "dove", "rexona", "axe", "gillette", "venus", "elmex",
             "navulmesjes", "shampoo", "conditioner", "douchegel", "cremespoeling", "nachtcreme", "dagcreme", "handzeep", "verzorgingsproduct", "verzorgingsproducten",
             "mondkapje", "mondkapjes", "cosmetica", "baby", "toiletpapier", "soft-picks", "verzorging"
         ]
