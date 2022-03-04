@@ -39,7 +39,7 @@ footer {
   text-align: center;
   height: 100vh;
   position: relative;
-  background: #d05f5fd6;
+  background: var(--main-color);
   box-shadow: inset 0px -40vh 0px 0px #FFF;
 }
 
