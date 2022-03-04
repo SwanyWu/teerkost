@@ -108,6 +108,18 @@
         "shop": "Jumbo"
     },
     {
+        "product": "Kipborrelhapjes",
+        "productInfo": "Naturel, gekruid of piri piri\nPer schaal circa 727-780 gram",
+        "category": "",
+        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Weekaanbiedingen/Week%209/Kip%20borrelhapjes.png",
+        "deal": "€ 4,49 per kilo",
+        "price": 0,
+        "dateStart": "2022-02-08",
+        "dateEnd": "2022-03-08",
+        "link": "https://jumbo.com/aanbiedingen/wa09_kipborrel",
+        "shop": "Jumbo"
+    },
+    {
         "product": "Aardbei calinda",
         "productInfo": "2 bakken à 400 gram",
         "category": "",
@@ -1025,7 +1037,7 @@
         "category": "",
         "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD526606?rendition=200px&fileType=binary",
         "deal": "2+1 gratis",
-        "price": 4.38,
+        "price": 4.4,
         "dateStart": "2022-03-06",
         "dateEnd": "2022-03-06",
         "link": "https://ah.nl/bonus/groep/443347?week=9",
@@ -1932,6 +1944,18 @@
         "shop": "Jumbo"
     },
     {
+        "product": "Warsteiner winter of blond speciaalbier mix",
+        "productInfo": "6 flesjes of 12 flesjes à 330 ml",
+        "category": "bier",
+        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA3/Warsteiner.png",
+        "deal": "25% korting",
+        "price": 0,
+        "dateStart": "2022-03-01",
+        "dateEnd": "2022-03-29",
+        "link": "https://jumbo.com/aanbiedingen/sa03_warsteiner",
+        "shop": "Jumbo"
+    },
+    {
         "product": "Speciaalbieren van hertog jan, karmeliet of kasteelbier",
         "productInfo": "Alle verpakkingen",
         "category": "bier",
@@ -2117,7 +2141,7 @@
         "category": "brood",
         "image": "https://static.ah.nl/mam/bonus/AHMAM_PRD526622?rendition=200px&fileType=binary",
         "deal": "2+1 gratis",
-        "price": 3.18,
+        "price": 3.2,
         "dateStart": "2022-03-06",
         "dateEnd": "2022-03-06",
         "link": "https://ah.nl/bonus/groep/443452?week=9",
