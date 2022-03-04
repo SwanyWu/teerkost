@@ -40,36 +40,59 @@ footer {
   height: 100vh;
   position: relative;
   background: #d05f5fd6;
+  box-shadow: inset 0px -40vh 0px 0px #FFF;
 }
 
 footer .title {
   clip-path: polygon(50% 0%, 57.22% 6.71%, 66.23% 2.71%, 70.89% 11.40%, 80.71% 10.54%, 82.29% 20.27%, 91.86% 22.65%, 90.20% 32.37%, 98.47% 37.73%, 93.74% 46.38%, 99.83% 54.13%, 92.55% 60.78%, 95.79% 70.08%, 86.75% 74.01%, 86.79% 83.86%, 76.96% 84.64%, 73.80% 93.97%, 64.25% 91.51%, 58.23% 99.32%, 50% 93.89%, 41.77% 99.32%, 35.75% 91.51%, 26.20% 93.97%, 23.04% 84.64%, 13.21% 83.86%, 13.25% 74.01%, 4.21% 70.08%, 7.45% 60.78%, 0.17% 54.13%, 6.26% 46.38%, 1.53% 37.73%, 9.80% 32.37%, 8.14% 22.65%, 17.71% 20.27%, 19.29% 10.54%, 29.11% 11.40%, 33.77% 2.71%, 42.78% 6.71%);
   text-transform: uppercase;
   display: inline-block;
-  color: #000;
-  background: white;
+  color: #fff;
+  background: #973434;
   width: 150px;
   height: 150px;
   line-height: 150px;
   font-weight: 800;
   font-size: 1em;
   left: calc(50% - 75px);
-  bottom: 150px;
+  bottom: 30vh;
   transform: rotate(10deg);
   position: absolute;
 }
 footer .sub-title {
   margin: 0px auto;
-  text-shadow: 1px 1px var(--shadow-color);
   font-size: .8em;
   display: block;
   padding: 15px 0px 15px 0px;
-  color: #FFF;
+  color: #000;
   width: 200px;
   text-align: center;
   left: calc(50% - 100px);
   position: absolute;
-  bottom: 50px;
+  bottom: 15vh;
+}
+footer .source-link {
+  display: inline-block;
+  text-decoration: underline;
+  color: #666;
+}
+
+.even-geduld {
+  text-align: center;
+  color: #FFF;
+  margin: 0px auto;
+  height: 100vh;
+  line-height: 50vh;
+}
+.even-geduld span {
+  animation: bounce 1500ms infinite;
+  display: inline-block;
+}
+
+@keyframes bounce {
+  0% { padding: 0px;}
+  50% { padding: 3px 0px 0px 0px; }
+  100% { padding: 0px;}  
 }
 
 #logo {
@@ -148,7 +171,7 @@ b.label-shop-lidl {
   z-index: 900;
   top: 0px;
   width: 100%;
-  background: #d05f5fd6;
+  background: #d05f5fed;
 }
 
 #filter-dialog {
@@ -288,7 +311,6 @@ i.icon {
   justify-content: center;
   align-items: baseline;
   padding: 15px 0px 0px 15px;
-  animation: fadeIn 4s;
   max-width: 1590px;
   margin: 0px auto;
 }
