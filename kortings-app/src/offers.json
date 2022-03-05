@@ -1920,18 +1920,6 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Warsteiner winter of blond speciaalbier mix",
-        "productInfo": "6 flesjes of 12 flesjes à 330 ml",
-        "category": "bier",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA3/Warsteiner.png",
-        "deal": "25% korting",
-        "price": 0,
-        "dateStart": "2022-03-01",
-        "dateEnd": "2022-03-29",
-        "link": "https://jumbo.com/aanbiedingen/sa03_warsteiner",
-        "shop": "Jumbo"
-    },
-    {
         "product": "Speciaalbieren van hertog jan, karmeliet of kasteelbier",
         "productInfo": "Alle verpakkingen",
         "category": "bier",
@@ -1965,6 +1953,18 @@
         "dateStart": "2022-01-04",
         "dateEnd": "2022-12-31",
         "link": "https://jumbo.com/aanbiedingen/9241093-A-1",
+        "shop": "Jumbo"
+    },
+    {
+        "product": "Warsteiner winter of blond speciaalbier mix",
+        "productInfo": "6 flesjes of 12 flesjes à 330 ml",
+        "category": "bier",
+        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA3/Warsteiner.png",
+        "deal": "25% korting",
+        "price": 0,
+        "dateStart": "2022-03-01",
+        "dateEnd": "2022-03-29",
+        "link": "https://jumbo.com/aanbiedingen/sa03_warsteiner",
         "shop": "Jumbo"
     },
     {
