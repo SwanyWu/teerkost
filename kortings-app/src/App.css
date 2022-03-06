@@ -363,6 +363,13 @@ i.icon {
       width: 100%;
     }
 
+    .product-image {
+      height: 70px !important;
+    }
+    .product-image img {
+      width: 100px !important;
+    }
+
     .product-deal {
       padding: 10px 15px 10px 15px !important;
     }
