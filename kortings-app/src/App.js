@@ -128,7 +128,7 @@ function App() {
 
   return (
     <div className="App">
-      <div className="filter">
+      <header className="filter">
         <div id="filter-dialog">
           <div className="filter-wrap">
             <div className="filter-shop">
@@ -165,7 +165,7 @@ function App() {
             {/* <div className="filter-search"><input id="search" onKeyPress={searchProducts} placeholder="..." type="text"/></div> */}
           </div>
         </div>
-      </div>
+      </header>
       <Suspense fallback={<div className="even-geduld">Even geduld...</div>}>
         <ProductsContainer selectedOffers={selectedOffers}/>
       </Suspense>
