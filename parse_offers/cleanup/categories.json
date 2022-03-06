@@ -22,7 +22,7 @@
             "tomaten", "paprika", "paprika's", "veldsla", "avocado", "snoepgroente", "ovengroente", "ovengroenten", "groenten", "groentemix", "groente", "kookgroente", 
             "kookgroenten","witlof", "stamppotgroenten", "roerbakgroente", "roerbakgroenten", "kool",
             "komkommer", "courgette", "aubergine", "spruitjes", "haricots", "peulen", "haricot", "worteltjes", "champignons", "kastanjechampignons","puntpaprika",
-            "salade ui", "bosui", "uien", "augurken", "rucola", "rucolamelange", "sperziebonen", "ijsbergsla", "romaatje", "trostomaten", "pompoen", "pompoenblokjes",
+            "salade ui", "bosui", "bosuien", "uien", "augurken", "rucola", "rucolamelange", "sperziebonen", "ijsbergsla", "romaatje", "trostomaten", "pompoen", "pompoenblokjes",
             "hutspot", "zuurkool", "snijbonen", "bleekselderij", "knolselderij", "wokgroenten", "wokgroente", "bieten", "maïs", "pastinaak",
             "haricots verts", "sjalotten", "babyspinazie", "kropsla", "slamelange", "slamelanges", "bonen", "radijs", "spitskool",
             "paksoi"
@@ -31,16 +31,16 @@
     {
         "name": "aardappel",
         "keywords": [ "aardappelen", "krieltjes", "mini-krieltjes", "aardappelschijfjes", "aardappelkroketjes",
-             "aardappelbolletjes", "aardappelfrites", "frites", "patat", "pommes", "boerenfriet", "frietjes", "friet", "aardappelgratin",
+             "aardappelbolletjes", "aardappelfrites", "aardappelfriet", "pofaardappelen", "frites", "patat", "pommes", "boerenfriet", "frietjes", "friet", "aardappelgratin",
              "aardappelroosjes", "aardappelgolfjes", "aardappelpuree", "aardappel", "aardappelpartjes", "aardappelblokjes",
               "aardappelwedges", "ovenaardappelen", "opbakaardappelen", "rosti", "rostirondjes", "smulfriet" ]
     },
     {
         "name": "brood",
         "keywords": [ 
-            "broodje", "brood", "broodjes", "baguette", "crackers", "chocoladecronut", "donut", "donuts", 
+            "broodje", "brood", "broodjes", "kaiserbroodje", "kaiserbroodjes", "baguette", "crackers", "chocoladecronut", "donut", "donuts", 
             "pitabroodjes", "foccacia","croissant", "croissantjes", "pistolet", "pistoletjes",
-            "krentenbollen", "mini-puntjes", "puntjes", "mini-rozijnen-krentenbollen", "mini-krentenbollen", "frikandelbroodje", "frikandelbroodjes",
+            "krentenbollen", "meergranenbollen", "mini-puntjes", "puntjes", "mini-rozijnen-krentenbollen", "mini-krentenbollen", "frikandelbroodje", "frikandelbroodjes",
             "saucijzenbroodjes", "saucijzenbroodje", "zonnebloempittenbrood", "sesamvolkorenbrood",
             "vruchtenbrood", "bakkersbrood", "meerzadenbroodje", "meerzadenbrood", "volkorenbrood", "sesambrood", "meergranenbrood"
         ]
@@ -83,7 +83,7 @@
         "keywords": [
             "mandarijnen", "bessen", "minneola", "dadels", "fruit", "perssinaasappels", 
             "perssinaasappelen", "sinaasappels", "aardbeien", "druiven", "bessen", 
-            "handsinaasappels", "frambozen", "mango", "appels", "calinda",
+            "handsinaasappels", "frambozen", "nectarines", "mango", "appels", "calinda",
             "appeltjes","kiwi", "meloen", "conference", "peren", "ananas", "granaatappel", 
             "elstar", "jonagold"
         ]
