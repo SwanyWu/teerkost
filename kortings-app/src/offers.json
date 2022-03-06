@@ -1,29 +1,5 @@
 [
     {
-        "product": "Sparen voor kuhn rikon messen",
-        "productInfo": "Sparen voor Kuhn Rikon Messen kan t/m 21 juni 2022.\nHet inleveren van een volle spaarkaart kan t/m 5 juli 2022.",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Messen%20actie/Messen.png",
-        "deal": "Bij 50 zegels",
-        "price": 0,
-        "dateStart": "2022-03-01",
-        "dateEnd": "2022-07-05",
-        "link": "https://jumbo.com/aanbiedingen/sp_messen",
-        "shop": "Jumbo"
-    },
-    {
-        "product": "Vegan paté of smeerworst",
-        "productInfo": "2 verpakkingen",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Weekaanbiedingen/Week%209/Vegan%20pate.png",
-        "deal": "1+1 gratis",
-        "price": 0,
-        "dateStart": "2022-02-15",
-        "dateEnd": "2022-03-15",
-        "link": "https://jumbo.com/aanbiedingen/wa09_vegan",
-        "shop": "Jumbo"
-    },
-    {
         "product": "Liga of belvita",
         "productInfo": "2 verpakkingen à 160-300 gram",
         "category": "",
@@ -57,6 +33,18 @@
         "dateStart": "2022-03-01",
         "dateEnd": "2022-03-08",
         "link": "https://jumbo.com/aanbiedingen/9328020-C-1",
+        "shop": "Jumbo"
+    },
+    {
+        "product": "Sparen voor kuhn rikon messen",
+        "productInfo": "Sparen voor Kuhn Rikon Messen kan t/m 21 juni 2022.\nHet inleveren van een volle spaarkaart kan t/m 5 juli 2022.",
+        "category": "",
+        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Messen%20actie/Messen.png",
+        "deal": "Bij 50 zegels",
+        "price": 0,
+        "dateStart": "2022-03-01",
+        "dateEnd": "2022-07-05",
+        "link": "https://jumbo.com/aanbiedingen/sp_messen",
         "shop": "Jumbo"
     },
     {
@@ -153,6 +141,18 @@
         "dateStart": "2022-03-01",
         "dateEnd": "2022-03-08",
         "link": "https://jumbo.com/aanbiedingen/9328041-B-1",
+        "shop": "Jumbo"
+    },
+    {
+        "product": "Vegan paté of smeerworst",
+        "productInfo": "2 verpakkingen",
+        "category": "",
+        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Weekaanbiedingen/Week%209/Vegan%20pate.png",
+        "deal": "1+1 gratis",
+        "price": 0,
+        "dateStart": "2022-02-15",
+        "dateEnd": "2022-03-15",
+        "link": "https://jumbo.com/aanbiedingen/wa09_vegan",
         "shop": "Jumbo"
     },
     {
@@ -1404,30 +1404,6 @@
         "shop": "AH"
     },
     {
-        "product": "Kaiserbroodjes",
-        "productInfo": "6 stuks",
-        "category": "",
-        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/556221/gallery/preview/xs/556221_01.jpg",
-        "deal": "16% korting",
-        "price": "1",
-        "dateStart": "2022-03-07",
-        "dateEnd": "2022-03-13",
-        "link": "https://www.lidl.nl/p/kaiserbroodjes/p556221",
-        "shop": "Lidl"
-    },
-    {
-        "product": "Meergranenbollen",
-        "productInfo": "300 g 6 bollen",
-        "category": "",
-        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/56603095/gallery/preview/xs/56603095.jpg",
-        "deal": "23% korting",
-        "price": "0.99",
-        "dateStart": "2022-03-07",
-        "dateEnd": "2022-03-13",
-        "link": "https://www.lidl.nl/p/meergranenbollen/p56603095",
-        "shop": "Lidl"
-    },
-    {
         "product": "Kersenvlaaitje",
         "productInfo": "per stuk",
         "category": "",
@@ -1740,54 +1716,6 @@
         "shop": "Lidl"
     },
     {
-        "product": "Nectarines",
-        "productInfo": "per kilo",
-        "category": "",
-        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/580385/gallery/preview/xs/580385.jpg",
-        "deal": "20% korting",
-        "price": "2.79",
-        "dateStart": "2022-03-10",
-        "dateEnd": "2022-03-13",
-        "link": "https://www.lidl.nl/p/nectarines/p580385",
-        "shop": "Lidl"
-    },
-    {
-        "product": "Bosuien",
-        "productInfo": "per bos",
-        "category": "",
-        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/582236/gallery/preview/xs/582236.jpg",
-        "deal": "33% korting",
-        "price": "0.39",
-        "dateStart": "2022-03-10",
-        "dateEnd": "2022-03-13",
-        "link": "https://www.lidl.nl/p/bosuien/p582236",
-        "shop": "Lidl"
-    },
-    {
-        "product": "Zoete aardappelfriet",
-        "productInfo": "400 gram",
-        "category": "",
-        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/56604624/gallery/preview/xs/56604624.jpg",
-        "deal": "25% korting",
-        "price": "1.49",
-        "dateStart": "2022-03-10",
-        "dateEnd": "2022-03-13",
-        "link": "https://www.lidl.nl/p/zoete-aardappelfriet/p56604624",
-        "shop": "Lidl"
-    },
-    {
-        "product": "Pofaardappelen met saus",
-        "productInfo": "450 gram",
-        "category": "",
-        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/56604848/gallery/preview/xs/56604848.jpg",
-        "deal": "op=op",
-        "price": "1.69",
-        "dateStart": "2022-03-10",
-        "dateEnd": "",
-        "link": "https://www.lidl.nl/p/pofaardappelen-met-saus/p56604848",
-        "shop": "Lidl"
-    },
-    {
         "product": "Daim of Milka taart",
         "productInfo": "400/450 gram",
         "category": "",
@@ -1905,6 +1833,30 @@
         "dateStart": "2022-03-10",
         "dateEnd": "2022-03-13",
         "link": "https://www.lidl.nl/p/aardappelpartjes-met-schil/p56603198",
+        "shop": "Lidl"
+    },
+    {
+        "product": "Zoete aardappelfriet",
+        "productInfo": "400 gram",
+        "category": "aardappel",
+        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/56604624/gallery/preview/xs/56604624.jpg",
+        "deal": "25% korting",
+        "price": "1.49",
+        "dateStart": "2022-03-10",
+        "dateEnd": "2022-03-13",
+        "link": "https://www.lidl.nl/p/zoete-aardappelfriet/p56604624",
+        "shop": "Lidl"
+    },
+    {
+        "product": "Pofaardappelen met saus",
+        "productInfo": "450 gram",
+        "category": "aardappel",
+        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/56604848/gallery/preview/xs/56604848.jpg",
+        "deal": "op=op",
+        "price": "1.69",
+        "dateStart": "2022-03-10",
+        "dateEnd": "",
+        "link": "https://www.lidl.nl/p/pofaardappelen-met-saus/p56604848",
         "shop": "Lidl"
     },
     {
@@ -2136,6 +2088,30 @@
         "shop": "AH"
     },
     {
+        "product": "Kaiserbroodjes",
+        "productInfo": "6 stuks",
+        "category": "brood",
+        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/556221/gallery/preview/xs/556221_01.jpg",
+        "deal": "16% korting",
+        "price": "1",
+        "dateStart": "2022-03-07",
+        "dateEnd": "2022-03-13",
+        "link": "https://www.lidl.nl/p/kaiserbroodjes/p556221",
+        "shop": "Lidl"
+    },
+    {
+        "product": "Meergranenbollen",
+        "productInfo": "300 g 6 bollen",
+        "category": "brood",
+        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/56603095/gallery/preview/xs/56603095.jpg",
+        "deal": "23% korting",
+        "price": "0.99",
+        "dateStart": "2022-03-07",
+        "dateEnd": "2022-03-13",
+        "link": "https://www.lidl.nl/p/meergranenbollen/p56603095",
+        "shop": "Lidl"
+    },
+    {
         "product": "Koolhydraatverlaagd brood",
         "productInfo": "400 g per halfje",
         "category": "brood",
@@ -2301,6 +2277,18 @@
         "dateStart": "2022-03-07",
         "dateEnd": "2022-03-09",
         "link": "https://www.lidl.nl/p/mandarijnen/p580088",
+        "shop": "Lidl"
+    },
+    {
+        "product": "Nectarines",
+        "productInfo": "per kilo",
+        "category": "fruit",
+        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/580385/gallery/preview/xs/580385.jpg",
+        "deal": "20% korting",
+        "price": "2.79",
+        "dateStart": "2022-03-10",
+        "dateEnd": "2022-03-13",
+        "link": "https://www.lidl.nl/p/nectarines/p580385",
         "shop": "Lidl"
     },
     {
@@ -2505,6 +2493,18 @@
         "dateStart": "2022-03-07",
         "dateEnd": "2022-03-13",
         "link": "https://www.lidl.nl/p/sperziebonen-en-snijbonen/p56601698",
+        "shop": "Lidl"
+    },
+    {
+        "product": "Bosuien",
+        "productInfo": "per bos",
+        "category": "groente",
+        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/582236/gallery/preview/xs/582236.jpg",
+        "deal": "33% korting",
+        "price": "0.39",
+        "dateStart": "2022-03-10",
+        "dateEnd": "2022-03-13",
+        "link": "https://www.lidl.nl/p/bosuien/p582236",
         "shop": "Lidl"
     },
     {
