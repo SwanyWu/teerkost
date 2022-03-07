@@ -11,21 +11,27 @@
     {
         "name": "koffie",
         "keywords": [
-            "oploskoffie", "koffie", "koffiebonen", "snelfiltermaling", "koffiepads", "koffiecups","koffiecapsules", "Douwe Egberts", "nespresso", "espresso", "lungo", "Nescafé", "Lavazza", "segafredo", "illy"
+            "oploskoffie", "koffie", "koffiebonen", "snelfiltermaling", "koffiepads", "koffiecups","koffiecapsules", 
+            "Douwe Egberts", "nespresso", "espresso", "lungo", "Nescafé", "perla", "Lavazza", "segafredo", "illy"
         ]
     },
     {
         "name": "groente",
         "keywords": [
-            "groentegemak", "groenteshots", "groenteshot", "broccoli", "broccoliroosjes", "bloemkool", "bloemkoolroosjes", "spruiten", "waspeen", "winterpeen", "bospeen", "wortel", "wortels", 
+            "groentegemak", "groenteshots", "groenteshot", "broccoli", "broccoliroosjes", "bloemkool",
+            "bloemkoolroosjes", "spruiten", "waspeen", "winterpeen", "bospeen", "wortel", "wortels", 
             "prei", "andijvie", "boerenkool", "spinazie", "wortelen", "kinderappels",
-            "tomaten", "paprika", "paprika's", "veldsla", "avocado", "snoepgroente", "ovengroente", "ovengroenten", "groenten", "groentemix", "groente", "kookgroente", 
+            "tomaten", "paprika", "paprika's", "veldsla", "avocado", "snoepgroente", "ovengroente", 
+            "ovengroenten", "groenten", "groentemix", "groente", "kookgroente", 
             "kookgroenten","witlof", "stamppotgroenten", "roerbakgroente", "roerbakgroenten", "kool",
-            "komkommer", "courgette", "aubergine", "spruitjes", "haricots", "peulen", "haricot", "worteltjes", "champignons", "kastanjechampignons","puntpaprika",
-            "salade ui", "bosui", "bosuien", "uien", "augurken", "rucola", "rucolamelange", "sperziebonen", "ijsbergsla", "romaatje", "trostomaten", "pompoen", "pompoenblokjes",
-            "hutspot", "zuurkool", "snijbonen", "bleekselderij", "knolselderij", "wokgroenten", "wokgroente", "bieten", "maïs", "pastinaak",
-            "haricots verts", "sjalotten", "babyspinazie", "kropsla", "slamelange", "slamelanges", "bonen", "radijs", "spitskool",
-            "paksoi"
+            "komkommer", "courgette", "aubergine", "spruitjes", "haricots", "peulen", "haricot", 
+            "worteltjes", "champignons", "kastanjechampignons","puntpaprika",
+            "salade ui", "bosui", "bosuien", "uien", "augurken", "rucola", "rucolamelange", "sperziebonen", 
+            "ijsbergsla", "romaatje", "trostomaten", "pompoen", "pompoenblokjes",
+            "hutspot", "zuurkool", "snijbonen", "bleekselderij", "knolselderij", "wokgroenten", 
+            "wokgroente", "bieten", "maïs", "pastinaak",
+            "haricots verts", "sjalotten", "babyspinazie", "kropsla", "slamelange", "slamelanges", 
+            "bonen", "radijs", "spitskool", "paksoi"
         ]
     },
     {
@@ -40,7 +46,7 @@
         "keywords": [ 
             "broodje", "brood", "broodjes", "kaiserbroodje", "kaiserbroodjes", "baguette", "crackers", "chocoladecronut", "donut", "donuts", 
             "pitabroodjes", "foccacia","croissant", "croissantjes", "pistolet", "pistoletjes",
-            "krentenbollen", "meergranenbollen", "mini-puntjes", "puntjes", "mini-rozijnen-krentenbollen", "mini-krentenbollen", "frikandelbroodje", "frikandelbroodjes",
+            "krentenbollen", "bakkersbollen", "meergranenbollen", "mini-puntjes", "puntjes", "mini-rozijnen-krentenbollen", "mini-krentenbollen", "frikandelbroodje", "frikandelbroodjes",
             "saucijzenbroodjes", "saucijzenbroodje", "zonnebloempittenbrood", "sesamvolkorenbrood",
             "vruchtenbrood", "bakkersbrood", "meerzadenbroodje", "meerzadenbrood", "volkorenbrood", "sesambrood", "meergranenbrood"
         ]
@@ -67,15 +73,19 @@
     {
         "name": "kant-en-klaar",
         "keywords": [
-            "stoommaaltijden", "2-vaks", "3-vaks", "stoommaaltijd", "stamppotten","maaltijd", "lunchsalade", "maaltijden", "soep", "erwtensoep", "pureersoep", "soepen", "ovenmaaltijd", "ovenmaaltijden","maaltijdcomponenten",
-            "fruitsalades", "fruitsalade", "maaltijdsalade", "pastasalade", "pastasalades", "maaltijdsalades", "3-vaksmaaltijden", "3-vaksmaaltijd",
+            "stoommaaltijden", "2-vaks", "3-vaks", "stoommaaltijd", "stamppotten","maaltijd", 
+            "lunchsalade", "maaltijden", "soep", "erwtensoep", "pureersoep", "soepen", 
+            "ovenmaaltijd", "ovenmaaltijden","maaltijdcomponenten",
+            "fruitsalades", "fruitsalade", "maaltijdsalade", "pastasalade", "pastasalades", 
+            "maaltijdsalades", "3-vaksmaaltijden", "3-vaksmaaltijd", "2-vaks-maaltijd", "2-vaks-maaltijden",
             "ovenschotels", "ovenschotel", "quiche", "maaltijdpakket", "maaltijdpakketten"
         ]
     },
     {
         "name": "noten",
         "keywords": [
-            "notenmix", "cashewnoten", "studentenhaver", "nootjes", "edamame", "noten", "pinda's", "amandelen", "notemix", "pistache", "macadamia"
+            "notenmix", "cashewnoten", "studentenhaver", "nootjes", "edamame", "noten", 
+            "pinda's", "amandelen", "notemix", "pistache", "macadamia"
         ]
     },
     {
@@ -92,18 +102,25 @@
         "name": "verzorging",
         "keywords": [
             "pampers, luiers", "prodent", "zendium", "page", "axe", "zwitsal", "oral-b","palmolive","vaseline",
-            "always", "kneipp", "paradontax", "sensodyne", "listerine", "borotalco", "periodeverzorging", "lucovitaal", "pampers", "tissues", "zakdoekjes", "guhl", "andrélon", "edet", "nalys", "dettol", "dove", "rexona", "axe", "gillette", "venus", "elmex",
-            "navulmesjes", "shampoo", "conditioner", "douchegel", "cremespoeling", "nachtcreme", "dagcreme", "handzeep", "verzorgingsproduct", "verzorgingsproducten",
+            "always", "kneipp", "sanex", "suplementen", "paradontax", "sensodyne", "listerine", "borotalco", 
+            "periodeverzorging", "lucovitaal", "pampers", "tissues", "zakdoekjes", "guhl", "cien", 
+            "andrélon", "edet", "nalys", "dettol", "dove", "rexona", "axe", "gillette", "venus", "elmex",
+            "navulmesjes", "shampoo", "conditioner", "douchegel", "cremespoeling", "nachtcreme", 
+            "dagcreme", "handzeep", "verzorgingsproduct", "verzorgingsproducten", "gezichtsverzorging",
             "mondkapje", "mondkapjes", "cosmetica", "baby", "toiletpapier", "soft-picks", "verzorging"
         ]
     },
     {
         "name": "huishoudelijk",
         "keywords": [
-            "ajax", "robijn", "ariel", "lenor", "glorix", "andy", "cif", "dreft", "sun", "reus",
-            "bleek", "wasmiddel", "wasmiddelen", "wasverzachter", "wasbeurt", "wasbeurten", "keukenpapier", 
+            "ajax", "ambi-pur", "robijn","swiffer", "antikal", "ariel", "lenor", 
+            "glorix", "andy", "cif", "dreft", "sun", "reus",
+            "bleek", "luchtverfrissers", "luchtverfrisser", "vlekverwijderaar", "vlekverwijderaars",
+            "wasmiddel", "wasmiddelen", 
+            "wasverzachter", "wasbeurt", "wasbeurten", "keukenpapier", 
             "huishoud", "huishoudelijk", "afwasmiddel", "handafwas", "vaatwas",
-            "vaatwasmiddel", "schoonmaakdoekjes", "schoonmaaksprays", "reinigingsdoekje", "reinigingsdoekjes", "allesreiniger"
+            "vaatwasmiddel", "schoonmaakdoekjes", "schoonmaaksprays", "reinigingsdoekje", 
+            "reinigingsdoekjes", "allesreiniger"
         ]
     }
 ]
