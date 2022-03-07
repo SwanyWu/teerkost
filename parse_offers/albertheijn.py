@@ -47,6 +47,9 @@ def returnOffers():
                 else:
                     offer.update({"deal": dealString })
 
+                if "2e gratis" in dealString:
+                    offer.update({"deal": "1+1 gratis"})
+
             offer.update({"image": i['image']['src']})
 
             href = i['href']
