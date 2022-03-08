@@ -18,7 +18,7 @@ def returnOffers():
     collection = []
 
     for i in data['sections'][0]['current']['promotions']:
-        if "sparen voor" not in i['name'] or ("bezorgkorting" not in i['tag'] and "bestelkosten" not in i['tag']):
+        if "Sparen voor" not in i['name'] and "bezorgkorting" not in i['tag'] and "bestelkosten" not in i['tag']:
             offer = {"product":"", "productInfo":"", "category":"", "image":"", "deal":"", "price": 0, "dateStart":"", "dateEnd":"", "link": "", "shop":""}
             
             cleanTitle = cleantext.cleanUpTitle(i['name'])
