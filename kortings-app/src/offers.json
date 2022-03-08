@@ -1,5 +1,17 @@
 [
     {
+        "product": "Vegan paté of smeerworst",
+        "productInfo": "2 verpakkingen",
+        "category": "",
+        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Weekaanbiedingen/Week%209/Vegan%20pate.png",
+        "deal": "1+1 gratis",
+        "price": 0,
+        "dateStart": "2022-02-15",
+        "dateEnd": "2022-03-15",
+        "link": "https://jumbo.com/aanbiedingen/wa09_vegan",
+        "shop": "Jumbo"
+    },
+    {
         "product": "Liga of belvita",
         "productInfo": "2 verpakkingen à 160-300 gram",
         "category": "",
@@ -33,18 +45,6 @@
         "dateStart": "2022-03-01",
         "dateEnd": "2022-03-08",
         "link": "https://jumbo.com/aanbiedingen/9328020-C-1",
-        "shop": "Jumbo"
-    },
-    {
-        "product": "Sparen voor kuhn rikon messen",
-        "productInfo": "Sparen voor Kuhn Rikon Messen kan t/m 21 juni 2022.\nHet inleveren van een volle spaarkaart kan t/m 5 juli 2022.",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Messen%20actie/Messen.png",
-        "deal": "Bij 50 zegels",
-        "price": 0,
-        "dateStart": "2022-03-01",
-        "dateEnd": "2022-07-05",
-        "link": "https://jumbo.com/aanbiedingen/sp_messen",
         "shop": "Jumbo"
     },
     {
@@ -132,18 +132,6 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Vegan paté of smeerworst",
-        "productInfo": "2 verpakkingen",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Weekaanbiedingen/Week%209/Vegan%20pate.png",
-        "deal": "1+1 gratis",
-        "price": 0,
-        "dateStart": "2022-02-15",
-        "dateEnd": "2022-03-15",
-        "link": "https://jumbo.com/aanbiedingen/wa09_vegan",
-        "shop": "Jumbo"
-    },
-    {
         "product": "Malt whisky",
         "productInfo": "Singleton, Talisker, Dalwinnie, Cardhu, Lagavullin of Vat 69\nFles 700 ml",
         "category": "",
@@ -153,66 +141,6 @@
         "dateStart": "2021-04-20",
         "dateEnd": "2022-03-08",
         "link": "https://jumbo.com/aanbiedingen/wa09_malt",
-        "shop": "Jumbo"
-    },
-    {
-        "product": "Meatless farm",
-        "productInfo": "Bij aankoop van € 6,00 aan deelnemende Meatless Farm artikelen betaal je geen bestelkosten",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Geen%20bestelkosten/week%2010/GBK-week-10-Packshot-2.jpg",
-        "deal": "Geen bestelkosten",
-        "price": 0,
-        "dateStart": "2022-03-06",
-        "dateEnd": "2022-03-13",
-        "link": "https://jumbo.com/aanbiedingen/gb10_meatless",
-        "shop": "Jumbo"
-    },
-    {
-        "product": "De vegetarische slager, knorr en conimex",
-        "productInfo": "Bij aankoop van € 11,50 aan deelnemende artikelen betaal je geen bestelkosten",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Geen%20bestelkosten/week%2010/GBK-week-10-Packshot-4.jpg",
-        "deal": "Geen bestelkosten",
-        "price": 0,
-        "dateStart": "2022-03-06",
-        "dateEnd": "2022-03-13",
-        "link": "https://jumbo.com/aanbiedingen/gb10_knorr",
-        "shop": "Jumbo"
-    },
-    {
-        "product": "Karvan, wijko, de ruijter en heinz",
-        "productInfo": "Bij aankoop van € 11,50 aan deelnemende artikelen betaal je geen bestelkosten",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Geen%20bestelkosten/week%2010/GBK-week-10-Packshot-6.jpg",
-        "deal": "Geen bestelkosten",
-        "price": 0,
-        "dateStart": "2022-03-06",
-        "dateEnd": "2022-03-13",
-        "link": "https://jumbo.com/aanbiedingen/gb10_heinz",
-        "shop": "Jumbo"
-    },
-    {
-        "product": "Verstegen original spice blends",
-        "productInfo": "Bij aankoop van 3 stuks aan deelnemende Verstegen artikelen betaal je geen bestelkosten",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Geen%20bestelkosten/week%2010/GBK-week-10-Packshot-7.jpg",
-        "deal": "Geen bestelkosten",
-        "price": 0,
-        "dateStart": "2022-03-06",
-        "dateEnd": "2022-03-13",
-        "link": "https://jumbo.com/aanbiedingen/gb10_verstegen",
-        "shop": "Jumbo"
-    },
-    {
-        "product": "Quaker, lay's, duyvis, doritos en snack a jacks",
-        "productInfo": "Bij aankoop van elke 2 stuks aan deelnemende artikelen krijg je € 1,00 bezorgkorting",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Geen%20bestelkosten/week%2010/GBK-week-10-Packshot-8.jpg",
-        "deal": "€ 1,00 bezorgkorting",
-        "price": 0,
-        "dateStart": "2022-03-06",
-        "dateEnd": "2022-03-13",
-        "link": "https://jumbo.com/aanbiedingen/gb10_pepsico",
         "shop": "Jumbo"
     },
     {
@@ -783,7 +711,7 @@
         "product": "Varkens shoarma",
         "productInfo": "Bijv. ah varkens shoarma 500gr",
         "category": "",
-        "image": "https://static.ah.nl/static/product/AHI_43545239383534363837_1_200x200_JPG.JPG",
+        "image": "https://static.ah.nl/static/product/AHI_43545239383533393635_1_200x200_JPG.JPG",
         "deal": "€1 korting",
         "price": 3.09,
         "dateStart": "2022-03-07",
@@ -1872,18 +1800,6 @@
         "shop": "Lidl"
     },
     {
-        "product": "Grolsch en peroni",
-        "productInfo": "Bij aankoop van € 10,00 aan deelnemende Grolsch of Peroni artikelen betaal je geen bestelkosten",
-        "category": "bier",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Geen%20bestelkosten/week%2010/GBK-week-10-Packshot-1.jpg",
-        "deal": "Geen bestelkosten",
-        "price": 0,
-        "dateStart": "2022-03-06",
-        "dateEnd": "2022-03-13",
-        "link": "https://jumbo.com/aanbiedingen/gb10_grolsch",
-        "shop": "Jumbo"
-    },
-    {
         "product": "Welke biermerken zijn bij jouw in de aanbieding?",
         "productInfo": "Diverse combinaties",
         "category": "bier",
@@ -2856,18 +2772,6 @@
         "shop": "AH"
     },
     {
-        "product": "Garden gourmet, felix, maggi, nescafé dolce gusto en wunda",
-        "productInfo": "Bij aankoop van € 10,50 aan deelnemende artikelen betaal je geen bestelkosten",
-        "category": "koffie",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Geen%20bestelkosten/week%2010/GBK-week-10-Packshot-3.jpg",
-        "deal": "Geen bestelkosten",
-        "price": 0,
-        "dateStart": "2022-03-06",
-        "dateEnd": "2022-03-13",
-        "link": "https://jumbo.com/aanbiedingen/gb10_nestle",
-        "shop": "Jumbo"
-    },
-    {
         "product": "Nespresso koffie capsules",
         "productInfo": "Alle soorten\n10 - 40 stuks",
         "category": "koffie",
@@ -3057,18 +2961,6 @@
         "dateStart": "2022-03-01",
         "dateEnd": "2022-03-15",
         "link": "https://jumbo.com/aanbiedingen/9331048-B-1",
-        "shop": "Jumbo"
-    },
-    {
-        "product": "Page, huggies dry nites of huggies little swimmers",
-        "productInfo": "Bij aankoop van 4 stuks aan deelnemende artikelen betaal je geen bestelkosten",
-        "category": "verzorging",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Geen%20bestelkosten/week%2010/GBK-week-10-Packshot-5.jpg",
-        "deal": "Geen bestelkosten",
-        "price": 0,
-        "dateStart": "2022-03-06",
-        "dateEnd": "2022-03-13",
-        "link": "https://jumbo.com/aanbiedingen/gb10_page",
         "shop": "Jumbo"
     },
     {
