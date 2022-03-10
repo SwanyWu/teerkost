@@ -330,9 +330,9 @@
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Seizoensaanbiedingen/SA3/Arla-Skyr-Melkunie%20Protein_280px.png",
         "deal": "2 voor € 2,00",
         "price": "2.00",
-        "dateStart": "2022-03-01",
-        "dateEnd": "2022-03-29",
-        "link": "https://jumbo.com/aanbiedingen/9318038-C-1",
+        "dateStart": "2022-03-08",
+        "dateEnd": "2022-03-28",
+        "link": "https://jumbo.com/aanbiedingen/9318043-C-1",
         "shop": "Jumbo"
     },
     {
@@ -2184,30 +2184,6 @@
         "shop": "AH"
     },
     {
-        "product": "Conference peren",
-        "productInfo": "per kilo",
-        "category": "fruit",
-        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/580285/gallery/preview/xs/580285.jpg",
-        "deal": "35% korting",
-        "price": "1.29",
-        "dateStart": "2022-03-07",
-        "dateEnd": "2022-03-09",
-        "link": "https://www.lidl.nl/p/conference-peren/p580285",
-        "shop": "Lidl"
-    },
-    {
-        "product": "Mandarijnen",
-        "productInfo": "1 kilo",
-        "category": "fruit",
-        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/580088/gallery/preview/xs/580088.jpg",
-        "deal": "32% korting",
-        "price": "1.49",
-        "dateStart": "2022-03-07",
-        "dateEnd": "2022-03-09",
-        "link": "https://www.lidl.nl/p/mandarijnen/p580088",
-        "shop": "Lidl"
-    },
-    {
         "product": "Nectarines",
         "productInfo": "per kilo",
         "category": "fruit",
@@ -2386,30 +2362,6 @@
         "dateEnd": "2022-03-13",
         "link": "https://ah.nl/bonus/groep/445447?week=10",
         "shop": "AH"
-    },
-    {
-        "product": "Bloemkool",
-        "productInfo": "per stuk",
-        "category": "groente",
-        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/582876/gallery/preview/xs/582876.jpg",
-        "deal": "35% korting",
-        "price": "1.29",
-        "dateStart": "2022-03-07",
-        "dateEnd": "2022-03-09",
-        "link": "https://www.lidl.nl/p/bloemkool/p582876",
-        "shop": "Lidl"
-    },
-    {
-        "product": "Bio wortelen",
-        "productInfo": "1 kilo",
-        "category": "groente",
-        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/582761/gallery/preview/xs/582761_01.jpg",
-        "deal": "41% korting",
-        "price": "0.99",
-        "dateStart": "2022-03-07",
-        "dateEnd": "2022-03-09",
-        "link": "https://www.lidl.nl/p/bio-wortelen/p582761",
-        "shop": "Lidl"
     },
     {
         "product": "Sperziebonen en snijbonen",
@@ -2907,7 +2859,7 @@
         "product": "Biologisch noten, pitten en peulvruchten",
         "productInfo": "Bijv. ah bio pijnboompit - 100 gram",
         "category": "noten",
-        "image": "https://static.ah.nl/static/product/AHI_43545239363334303135_1_200x200_JPG.JPG",
+        "image": "https://static.ah.nl/static/product/AHI_43545239363338343034_1_200x200_JPG.JPG",
         "deal": "15% korting",
         "price": 4.84,
         "dateStart": "2022-03-07",
@@ -2931,7 +2883,7 @@
         "product": "Noten in zak",
         "productInfo": "Gezouten en ongezouten",
         "category": "noten",
-        "image": "https://static.ah.nl/static/product/AHI_43545239363333383036_1_200x200_JPG.JPG",
+        "image": "https://static.ah.nl/static/product/AHI_43545239363335393530_1_200x200_JPG.JPG",
         "deal": "2 voor 4.50",
         "price": 4.5,
         "dateStart": "2022-03-07",
