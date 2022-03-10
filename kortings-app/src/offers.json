@@ -112,11 +112,11 @@
         "productInfo": "2 blikken à 250 ml",
         "category": "",
         "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Weekaanbiedingen/Week%2010/Bullit_280px.png",
-        "deal": "2 voor € 1,00 ",
-        "price": "1.00 ",
-        "dateStart": "2022-03-08",
+        "deal": "2 voor € 1,00",
+        "price": "1.00",
+        "dateStart": "2022-03-09",
         "dateEnd": "2022-03-15",
-        "link": "https://jumbo.com/aanbiedingen/9357018-C-1",
+        "link": "https://jumbo.com/aanbiedingen/9357039-C-1",
         "shop": "Jumbo"
     },
     {
@@ -2182,18 +2182,6 @@
         "dateEnd": "2022-03-13",
         "link": "https://ah.nl/bonus/groep/445634?week=10",
         "shop": "AH"
-    },
-    {
-        "product": "Nectarines",
-        "productInfo": "per kilo",
-        "category": "fruit",
-        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/580385/gallery/preview/xs/580385.jpg",
-        "deal": "20% korting",
-        "price": "2.79",
-        "dateStart": "2022-03-10",
-        "dateEnd": "2022-03-13",
-        "link": "https://www.lidl.nl/p/nectarines/p580385",
-        "shop": "Lidl"
     },
     {
         "product": "Aardbeien",
