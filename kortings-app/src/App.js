@@ -1,4 +1,4 @@
-import React, {useState, Suspense, lazy} from "react";
+import React, {useState, useEffect, Suspense, lazy} from "react";
 import './App.css';
 import Offers from './offers.json';
 import Footer from './Footer';
@@ -7,6 +7,10 @@ const ProductsContainer = React.lazy(() => import ('./ProductsContainer'));
 
 function App() {
   
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
+
   const toggleFilterClass = (clickedElement, type) => {
     if(type === 'offer') {
       var otherElementOffer = document.getElementById('active-offer')
