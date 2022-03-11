@@ -1,5 +1,9 @@
+import React, {Suspense, lazy} from "react";
+
 import Date from './Date';
 import Price from './Price';
+
+const Image = React.lazy(() => import ('./Image'));
 
 function Product(props) {
     return (
@@ -7,7 +11,9 @@ function Product(props) {
         <span className={"product-shop " + props.item['shop']}>{props.item['shop']}</span>
         <Date dateEnd={props.item['dateEnd']} dateStart={props.item['dateStart']}/>
         <Price newPrice={props.item['price']} />
-        <span className="product-image"><img alt={props.item['product']} src={props.item['image']}/></span>
+        <Suspense fallback={<div className="even-geduld-image"></div>}>
+          <Image image={props.item['image']} />
+        </Suspense> 
         <summary className="product-name">
           {props.item['product']}
           <span className="product-info"> {props.item['productInfo']}</span>
