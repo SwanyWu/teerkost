@@ -21,7 +21,7 @@
             "groentegemak", "groenteshots", "groenteshot", "broccoli", "broccoliroosjes", "bloemkool",
             "bloemkoolroosjes", "spruiten", "waspeen", "winterpeen", "bospeen", "wortel", "wortels", 
             "prei", "andijvie", "boerenkool", "spinazie", "wortelen", "kinderappels",
-            "tomaten", "paprika", "paprika's", "veldsla", "avocado", "snoepgroente", "ovengroente", 
+            "tomaten", "paprika", "paprika's", "veldsla", "avocado", "snoeptomaatjes", "snoepgroente", "ovengroente", 
             "ovengroenten", "groenten", "groentemix", "groente", "kookgroente", 
             "kookgroenten","witlof", "stamppotgroenten", "roerbakgroente", "roerbakgroenten", "kool",
             "komkommer", "courgette", "aubergine", "spruitjes", "haricots", "peulen", "haricot", 
@@ -61,7 +61,7 @@
     {
         "name": "vis",
         "keywords": [
-            "vis", "vissticks","scholfilet","schol", "heek", "heekfilets", "heekfilet", "surimi","gravad","kabeljauw", "gamba's", "dorade", "doradefilets", 
+            "vis", "vissticks", "princes", "scholfilet","schol", "heek", "heekfilets", "heekfilet", "surimi","gravad","kabeljauw", "gamba's", "dorade", "doradefilets", 
             "doradefilet", "kabeljauwfilet","kabeljauwfilets", "kabeljauwhaas", "kabeljauwhaasjes","kibbeling", "lekkerbek",
             "pangasius", "pangasiusfilet", "pangasiusfilets", "zalm", "zalmzijde", "zalmburger", "zalmburgers", "zalmfilet", "zalmfilets", "ovenzalm", "zalmstaarten", "zalmstaart",
             "makreel", "makreelflakes", "makreelzijde", "rivierkreeftenvlees", "mosselen",
