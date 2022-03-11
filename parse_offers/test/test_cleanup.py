@@ -59,9 +59,9 @@ class TestCleanup(unittest.TestCase):
         """
         ✅ Productinfo van een product is netjes 👉 
         """
-        cleanTitle = cleantext.cleanUpTitle("Alle soorten 300 gram")
-        expectedTitle = "300 gram"
-        self.assertEqual(cleanTitle, expectedTitle)    
+        cleanInfoText = cleantext.cleanUpInfo("Alle soorten 300 gram")
+        expectedInfoText = "300 gram"
+        self.assertEqual(cleanInfoText, expectedInfoText)    
 
 if __name__ == '__main__':
     unittest.main(verbosity=0)
