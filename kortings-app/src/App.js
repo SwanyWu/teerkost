@@ -83,30 +83,8 @@ function App() {
 
     var filtered = Offers.filter(shopFilter).filter(offerFilter).filter(categoryFilter)
     
-    // setFilterDescription(activeShopValue, activeOfferValue, activeCategoryValue)
-
     setSelectedOffers(filtered);
-  }
 
-  const setFilterDescription = (shopValue, offerValue, categoryValue) => {
-    var descriptionString = ""
-    if(offerValue != null) {
-      descriptionString = descriptionString.concat("<b class='label'>" + offerValue + "</b>")
-    }
-    else {
-      descriptionString = descriptionString.concat("<b class='label'>Alle korting</b>")
-    }
-    if(categoryValue != null) {
-      descriptionString = descriptionString.concat("<b class='label'>" + categoryValue + "</b>")
-    }
-    if(shopValue != null) {
-      descriptionString = descriptionString.concat("<b class='label label-shop-"+ shopValue.toLowerCase() +"'>" + shopValue + "</b>")
-    }
-    else {
-      descriptionString = descriptionString.concat("<b class='label label-shop-jumbo'>Jumbo</b><b class='label label-shop-lidl'>Lidl</b><b class='label label-shop-ah'>AH</b>")
-    }
-
-    document.getElementById('filter-description').innerHTML = descriptionString
   }
 
   const filterOffer = (e) => {
@@ -123,10 +101,6 @@ function App() {
     toggleFilterClass(e.target, "category")
     setFilterByActiveElements()
   }
-
-  // const searchProducts = (e) => {
-  //   setFilterByActiveElements()
-  // }
 
   const [selectedOffers, setSelectedOffers] = useState(Offers);  
 
@@ -166,7 +140,6 @@ function App() {
               <span onClick={filterOffer} data-offer="50% korting">50%</span>
               <span onClick={filterOffer} data-offer="2e halve prijs">2e halve prijs</span>
             </div>
-            {/* <div className="filter-search"><input id="search" onKeyPress={searchProducts} placeholder="..." type="text"/></div> */}
           </div>
         </div>
       </header>
