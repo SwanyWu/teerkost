@@ -316,7 +316,7 @@ i.icon {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: baseline;
+  align-items: flex-start ;
   padding: 15px 0px 0px 15px;
   max-width: 1590px;
   margin: 0px auto;
