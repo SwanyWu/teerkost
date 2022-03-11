@@ -23,7 +23,9 @@ def returnOffers():
             
             cleanTitle = cleantext.cleanUpTitle(i['name'])
             offer.update({"product": cleanTitle})
-            offer.update({"productInfo": i['summary']})
+            
+            cleanInfoText = cleantext.cleanUpInfo(i['summary'])
+            offer.update({"productInfo": cleanInfoText})
 
             category = categorize.findCategoryForProduct(cleanTitle, i['summary'])
             offer.update({"category": category})

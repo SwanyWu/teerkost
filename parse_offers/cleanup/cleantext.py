@@ -9,3 +9,14 @@ def cleanUpTitle(title):
     cleanTitle = title.strip().capitalize()
     
     return cleanTitle
+
+def cleanUpInfo(infoText):
+
+    badWords = ['Alle soorten ', 'Alle combinaties mogelijk ']
+
+    for word in badWords:
+        infoText = infoText.replace(word, '')
+
+    cleanInfoText = infoText.strip().capitalize()
+    
+    return cleanInfoText

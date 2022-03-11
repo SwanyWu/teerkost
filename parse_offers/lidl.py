@@ -1,5 +1,5 @@
 import requests
-from cleanup import categorize
+from cleanup import categorize, cleantext
 import datetime
 from bs4 import BeautifulSoup
 
@@ -91,7 +91,8 @@ def returnOffers():
 
             concatDescription = concatDescription + " " + priceLabel # add pricelabel contents to the description
             
-        offer.update({"productInfo": concatDescription.strip()})
+        cleanInfoText = cleantext.cleanUpInfo(concatDescription.strip())
+        offer.update({"productInfo": cleanInfoText})
 
         category = categorize.findCategoryForProduct(title, description)
         offer.update({"category": category})
