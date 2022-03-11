@@ -40,7 +40,7 @@ footer {
   height: 100vh;
   position: relative;
   background: var(--main-color);
-  box-shadow: inset 0px -40vh 0px 0px #FFF;
+  box-shadow: inset 0px -40vh 0px 0px #d05f5fed;
 }
 
 footer .title {
@@ -64,7 +64,8 @@ footer .sub-title {
   font-size: .8em;
   display: block;
   padding: 15px 0px 15px 0px;
-  color: #000;
+  color: #FFF;
+  text-shadow: 0px 1px #973434;
   width: 200px;
   text-align: center;
   left: calc(50% - 100px);
@@ -74,7 +75,8 @@ footer .sub-title {
 footer .source-link {
   display: inline-block;
   text-decoration: underline;
-  color: #666;
+  color: #ffc9c9;
+  padding-top: 10px;
 }
 
 .even-geduld {
