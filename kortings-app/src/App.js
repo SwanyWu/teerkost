@@ -1,6 +1,6 @@
 import React, {useState, useEffect, Suspense, lazy} from "react";
 import './App.css';
-import { BrowserRouter, Routes, Route, Link, useNavigate } from "react-router-dom";
+// import { BrowserRouter, Routes, Route, Link, useNavigate } from "react-router-dom";
 import Offers from './offers.json';
 import Footer from './Footer';
 import Counter from './Counter';
