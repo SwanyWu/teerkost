@@ -1,7 +1,9 @@
 import React, {useState, useEffect, Suspense, lazy} from "react";
 import './App.css';
+import { BrowserRouter, Routes, Route, Link, useNavigate } from "react-router-dom";
 import Offers from './offers.json';
 import Footer from './Footer';
+import Counter from './Counter';
 
 const ProductsContainer = React.lazy(() => import ('./ProductsContainer'));
 
@@ -106,7 +108,9 @@ function App() {
 
   return (
     <div className="App">
+      <h1 className="page-title">Teerkost</h1>
       <header className="filter">
+        {/* <Counter selectedOffers={5} totalOffers={10}/> */}
         <div id="filter-dialog">
           <div className="filter-wrap">
             <div className="filter-shop">
@@ -143,6 +147,10 @@ function App() {
           </div>
         </div>
       </header>
+      {/* <Routes>
+        <Route path="/" element={"derp"} />
+        <Route path="/about" element={"meer derp"} />
+      </Routes> */}
       <Suspense fallback={<div className="even-geduld">Even geduld...</div>}>
         <ProductsContainer selectedOffers={selectedOffers}/>
       </Suspense>
