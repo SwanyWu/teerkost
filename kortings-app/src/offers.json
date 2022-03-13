@@ -747,7 +747,7 @@
         "product": "Varkens shoarma",
         "productInfo": "Bijv. ah varkens shoarma 500gr",
         "category": "",
-        "image": "https://static.ah.nl/static/product/AHI_434d50313333323939_6_200x200_JPG.JPG",
+        "image": "https://static.ah.nl/static/product/AHI_43545239383534363837_1_200x200_JPG.JPG",
         "deal": "€1 korting",
         "price": 3.09,
         "dateStart": "2022-03-07",
@@ -867,7 +867,7 @@
         "product": "Stukjes worst van de versafdeling",
         "productInfo": "Bijv. ah ossenworst - 200 gram",
         "category": "",
-        "image": "https://static.ah.nl/static/product/AHI_43545239363334383032_1_200x200_JPG.JPG",
+        "image": "https://static.ah.nl/static/product/AHI_43545239363336383437_1_200x200_JPG.JPG",
         "deal": "25% korting",
         "price": 2.24,
         "dateStart": "2022-03-07",
@@ -1404,42 +1404,6 @@
         "shop": "AH"
     },
     {
-        "product": "Paprikamix",
-        "productInfo": "3-pack",
-        "category": "",
-        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/6682586/gallery/preview/xs/6682586.jpg",
-        "deal": "31% korting",
-        "price": "1.29",
-        "dateStart": "2022-03-14",
-        "dateEnd": "2022-03-16",
-        "link": "https://www.lidl.nl/p/paprikamix/p6682586",
-        "shop": "Lidl"
-    },
-    {
-        "product": "Courgettes",
-        "productInfo": "2 stuks",
-        "category": "",
-        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/6682346/gallery/preview/xs/6682346.jpg",
-        "deal": "43% korting",
-        "price": "1.-",
-        "dateStart": "2022-03-14",
-        "dateEnd": "2022-03-16",
-        "link": "https://www.lidl.nl/p/courgettes/p6682346",
-        "shop": "Lidl"
-    },
-    {
-        "product": "Volkorenpuntjes",
-        "productInfo": "6 puntjes",
-        "category": "",
-        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/666605046/gallery/preview/xs/666605046.jpg",
-        "deal": "24% korting",
-        "price": "0.79",
-        "dateStart": "2022-03-14",
-        "dateEnd": "2022-03-20",
-        "link": "https://www.lidl.nl/p/volkorenpuntjes/p666605046",
-        "shop": "Lidl"
-    },
-    {
         "product": "Cinnamon bun",
         "productInfo": "Per stuk",
         "category": "",
@@ -1449,30 +1413,6 @@
         "dateStart": "2022-03-14",
         "dateEnd": "",
         "link": "https://www.lidl.nl/p/cinnamon-bun/p666506569",
-        "shop": "Lidl"
-    },
-    {
-        "product": "Grofvolkorenbrood",
-        "productInfo": "2 broden",
-        "category": "",
-        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/6604848/gallery/preview/xs/6604848.jpg",
-        "deal": "32% korting",
-        "price": "2.-",
-        "dateStart": "2022-03-14",
-        "dateEnd": "2022-03-20",
-        "link": "https://www.lidl.nl/p/grofvolkorenbrood/p6604848",
-        "shop": "Lidl"
-    },
-    {
-        "product": "Kampioentjes",
-        "productInfo": "5 stuks",
-        "category": "",
-        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/6692785/gallery/preview/xs/6692785.jpg",
-        "deal": "33% korting",
-        "price": "1.-",
-        "dateStart": "2022-03-14",
-        "dateEnd": "2022-03-20",
-        "link": "https://www.lidl.nl/p/kampioentjes/p6692785",
         "shop": "Lidl"
     },
     {
@@ -1632,18 +1572,6 @@
         "shop": "Lidl"
     },
     {
-        "product": "XG2 reiniger",
-        "productInfo": "Per stuk",
-        "category": "",
-        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/668718801/gallery/preview/xs/668718801.jpg",
-        "deal": "op=op",
-        "price": "1.99",
-        "dateStart": "2022-03-14",
-        "dateEnd": "",
-        "link": "https://www.lidl.nl/p/xg2-reiniger/p668718801",
-        "shop": "Lidl"
-    },
-    {
         "product": "Fruitstruik",
         "productInfo": "Per stuk",
         "category": "",
@@ -1713,18 +1641,6 @@
         "dateStart": "2022-03-16",
         "dateEnd": "2022-03-20",
         "link": "https://www.lidl.nl/p/hyacinten/p6669780",
-        "shop": "Lidl"
-    },
-    {
-        "product": "Eikenblad-slamelange",
-        "productInfo": "100 gram",
-        "category": "",
-        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/666601669/gallery/preview/xs/666601669.jpg",
-        "deal": "30% korting",
-        "price": "0.69",
-        "dateStart": "2022-03-17",
-        "dateEnd": "2022-03-20",
-        "link": "https://www.lidl.nl/p/eikenblad-slamelange/p666601669",
         "shop": "Lidl"
     },
     {
@@ -2100,6 +2016,42 @@
         "shop": "AH"
     },
     {
+        "product": "Volkorenpuntjes",
+        "productInfo": "6 puntjes",
+        "category": "brood",
+        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/666605046/gallery/preview/xs/666605046.jpg",
+        "deal": "24% korting",
+        "price": "0.79",
+        "dateStart": "2022-03-14",
+        "dateEnd": "2022-03-20",
+        "link": "https://www.lidl.nl/p/volkorenpuntjes/p666605046",
+        "shop": "Lidl"
+    },
+    {
+        "product": "Grofvolkorenbrood",
+        "productInfo": "2 broden",
+        "category": "brood",
+        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/6604848/gallery/preview/xs/6604848.jpg",
+        "deal": "32% korting",
+        "price": "2.-",
+        "dateStart": "2022-03-14",
+        "dateEnd": "2022-03-20",
+        "link": "https://www.lidl.nl/p/grofvolkorenbrood/p6604848",
+        "shop": "Lidl"
+    },
+    {
+        "product": "Kampioentjes",
+        "productInfo": "5 stuks",
+        "category": "brood",
+        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/6692785/gallery/preview/xs/6692785.jpg",
+        "deal": "33% korting",
+        "price": "1.-",
+        "dateStart": "2022-03-14",
+        "dateEnd": "2022-03-20",
+        "link": "https://www.lidl.nl/p/kampioentjes/p6692785",
+        "shop": "Lidl"
+    },
+    {
         "product": "Kies & mix fruit",
         "productInfo": "Blauwe bessen bak 125gr, kanzi appels zak 1kg, rode druiven pitloos bak 500gr, zespri kiwi schaal 3 st of mandarijnen net 1kg",
         "category": "fruit",
@@ -2376,6 +2328,30 @@
         "shop": "AH"
     },
     {
+        "product": "Paprikamix",
+        "productInfo": "3-pack",
+        "category": "groente",
+        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/6682586/gallery/preview/xs/6682586.jpg",
+        "deal": "31% korting",
+        "price": "1.29",
+        "dateStart": "2022-03-14",
+        "dateEnd": "2022-03-16",
+        "link": "https://www.lidl.nl/p/paprikamix/p6682586",
+        "shop": "Lidl"
+    },
+    {
+        "product": "Courgettes",
+        "productInfo": "2 stuks",
+        "category": "groente",
+        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/6682346/gallery/preview/xs/6682346.jpg",
+        "deal": "43% korting",
+        "price": "1.-",
+        "dateStart": "2022-03-14",
+        "dateEnd": "2022-03-16",
+        "link": "https://www.lidl.nl/p/courgettes/p6682346",
+        "shop": "Lidl"
+    },
+    {
         "product": "Bio kastanjechampignons",
         "productInfo": "250 gram",
         "category": "groente",
@@ -2397,6 +2373,18 @@
         "dateStart": "2022-03-17",
         "dateEnd": "2022-03-20",
         "link": "https://www.lidl.nl/p/broccoli/p6682904",
+        "shop": "Lidl"
+    },
+    {
+        "product": "Eikenblad-slamelange",
+        "productInfo": "100 gram",
+        "category": "groente",
+        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/666601669/gallery/preview/xs/666601669.jpg",
+        "deal": "30% korting",
+        "price": "0.69",
+        "dateStart": "2022-03-17",
+        "dateEnd": "2022-03-20",
+        "link": "https://www.lidl.nl/p/eikenblad-slamelange/p666601669",
         "shop": "Lidl"
     },
     {
@@ -2577,6 +2565,18 @@
         "dateStart": "2022-03-14",
         "dateEnd": "",
         "link": "https://www.lidl.nl/p/floralys-keukenpapier/p6670660",
+        "shop": "Lidl"
+    },
+    {
+        "product": "XG2 reiniger",
+        "productInfo": "Per stuk",
+        "category": "huishoudelijk",
+        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/668718801/gallery/preview/xs/668718801.jpg",
+        "deal": "op=op",
+        "price": "1.99",
+        "dateStart": "2022-03-14",
+        "dateEnd": "",
+        "link": "https://www.lidl.nl/p/xg2-reiniger/p668718801",
         "shop": "Lidl"
     },
     {
