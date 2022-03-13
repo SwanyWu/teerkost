@@ -1,5 +1,6 @@
 
 def cleanUpTitle(title):
+    """Removes words from a string that are not useful."""
 
     badWords = ['Alle AH ', 'Diverse AH ', 'Alle ', 'AH ', '*', 'Jumbo ']
 
@@ -11,6 +12,7 @@ def cleanUpTitle(title):
     return cleanTitle
 
 def cleanUpInfo(infoText):
+    """Removes words from a string that are not useful."""
 
     badWords = ['Alle soorten ', 'Alle combinaties mogelijk ']
 

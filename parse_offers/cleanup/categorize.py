@@ -4,6 +4,7 @@ import os
 import re
 
 def findCategoryForProduct(title, description):
+    """Finds and returns a category based on two provided strings."""
 
     CATEGORIES_JSON = os.path.join(os.path.dirname(__file__), "categories.json")
 
