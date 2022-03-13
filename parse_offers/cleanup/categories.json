@@ -21,16 +21,16 @@
             "groentegemak", "groenteshots", "groenteshot", "broccoli", "broccoliroosjes", "bloemkool",
             "bloemkoolroosjes", "spruiten", "waspeen", "winterpeen", "bospeen", "wortel", "wortels", 
             "prei", "andijvie", "boerenkool", "spinazie", "wortelen", "kinderappels",
-            "tomaten", "paprika", "paprika's", "veldsla", "avocado", "snoeptomaatjes", "snoepgroente", "ovengroente", 
+            "tomaten", "paprika", "paprika's", "paprikamix", "veldsla", "avocado", "snoeptomaatjes", "snoepgroente", "ovengroente", 
             "ovengroenten", "groenten", "groentemix", "groente", "kookgroente", 
             "kookgroenten","witlof", "stamppotgroenten", "roerbakgroente", "roerbakgroenten", "kool",
-            "komkommer", "courgette", "aubergine", "spruitjes", "haricots", "peulen", "haricot", 
+            "komkommer", "courgette", "courgettes", "aubergine", "spruitjes", "haricots", "peulen", "haricot", 
             "worteltjes", "champignons", "kastanjechampignons","puntpaprika",
             "salade ui", "bosui", "bosuien", "uien", "augurken", "rucola", "rucolamelange", "sperziebonen", 
             "ijsbergsla", "romaatje", "trostomaten", "pompoen", "pompoenblokjes",
             "hutspot", "zuurkool", "snijbonen", "bleekselderij", "knolselderij", "wokgroenten", 
             "wokgroente", "bieten", "maïs", "pastinaak",
-            "haricots verts", "sjalotten", "babyspinazie", "kropsla", "slamelange", "slamelanges", 
+            "haricots verts", "sjalotten", "babyspinazie", "kropsla", "slamelange", "eikenblad-slamelange", "slamelanges", 
             "bonen", "radijs", "spitskool", "paksoi"
         ]
     },
@@ -44,11 +44,14 @@
     {
         "name": "brood",
         "keywords": [ 
-            "broodje", "brood", "broodjes", "kaiserbroodje", "kaiserbroodjes", "baguette", "crackers", "chocoladecronut", "donut", "donuts", 
-            "pitabroodjes", "foccacia","croissant", "croissantjes", "pistolet", "pistoletjes",
-            "krentenbollen", "bakkersbollen", "meergranenbollen", "mini-puntjes", "puntjes", "mini-rozijnen-krentenbollen", "mini-krentenbollen", "frikandelbroodje", "frikandelbroodjes",
+            "broodje", "brood", "broodjes", "kaiserbroodje", "kaiserbroodjes", "baguette", "crackers", 
+            "chocoladecronut", "donut", "donuts", 
+            "pitabroodjes", "foccacia","croissant", "croissantjes", "kampioentjes", "pistolet", "pistoletjes",
+            "krentenbollen", "bakkersbollen", "meergranenbollen", "mini-puntjes", "volkorenpuntjes",
+            "puntjes", "mini-rozijnen-krentenbollen", "mini-krentenbollen", "frikandelbroodje", "frikandelbroodjes",
             "saucijzenbroodjes", "saucijzenbroodje", "zonnebloempittenbrood", "sesamvolkorenbrood",
-            "vruchtenbrood", "bakkersbrood", "meerzadenbroodje", "meerzadenbrood", "volkorenbrood", "sesambrood", "meergranenbrood"
+            "vruchtenbrood", "bakkersbrood", "meerzadenbroodje", "meerzadenbrood", "volkorenbrood", 
+            "grofvolkorenbrood", "sesambrood", "meergranenbrood"
         ]
     },
     {
@@ -114,13 +117,13 @@
         "name": "huishoudelijk",
         "keywords": [
             "ajax", "ambi-pur", "robijn","swiffer", "antikal", "ariel", "lenor", 
-            "glorix", "andy", "cif", "dreft", "sun", "reus",
+            "glorix", "andy", "cif", "dreft", "sun", "XG2", "reus",
             "bleek", "luchtverfrissers", "luchtverfrisser", "vlekverwijderaar", "vlekverwijderaars",
             "wasmiddel", "wasmiddelen", 
             "wasverzachter", "wasbeurt", "wasbeurten", "keukenpapier", 
             "huishoud", "huishoudelijk", "afwasmiddel", "handafwas", "vaatwas",
             "vaatwasmiddel", "schoonmaakdoekjes", "schoonmaaksprays", "reinigingsdoekje", 
-            "reinigingsdoekjes", "allesreiniger"
+            "reinigingsdoekjes", "allesreiniger", "reiniger"
         ]
     }
 ]
