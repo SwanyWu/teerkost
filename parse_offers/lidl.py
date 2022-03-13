@@ -77,17 +77,17 @@ def returnOffers():
         if priceLowerLabel != "":
             concatDescription = concatDescription + " " + priceLowerLabel
 
-        # find information about the discount and add it to field "deal"
+        # try and find information about the discount
         if (priceLabel.find("gratis") != -1) or (priceLabel.find("korting") != -1):
-            offer.update({"deal": priceLabel.replace(".-", "")}) # most often contains the discount info
+            offer.update({"deal": priceLabel.replace(".-", "")}) # option 1: pricelabel contains the discount info
         else:
-            if priceLabelOnImage != "":
-                offer.update({"deal": priceLabelOnImage.replace(".-", "")}) # sometimes contains the discount
-            elif oldPrice != "" and price != "":
+            if priceLabelOnImage != "": # option 2: the discount is displayed on the image
+                offer.update({"deal": priceLabelOnImage.replace(".-", "")})
+            elif oldPrice != "" and price != "": # option 3: calculate the discount based on the price displayed
                 oldPrice = oldPrice.replace(".-", "")
                 price = price.replace(".-", "")
                 calculateDeal = int((1 - (float(price)/float(oldPrice))) * 100)
-                offer.update({"deal": str(calculateDeal) + "% korting"}) # no discount info, then calculate the discount
+                offer.update({"deal": str(calculateDeal) + "% korting"})
 
             concatDescription = concatDescription + " " + priceLabel # add pricelabel contents to the description
             
@@ -102,33 +102,35 @@ def returnOffers():
         offer.update({"image": imageUrl})
         offer.update({"link": "https://www.lidl.nl" + link})
 
-        if "vanaf" in date: # only the startdate is known
-            date = date.replace("vanaf ", "")
-            date = date.split(" ")
-            date = date[1].split("/")
-            currentYear = datetime.datetime.now().year
-            fullDateEnd = str(currentYear) + "-" + monthEnd + "-" + dayEnd
-            offer.update({"dateStart": fullDateStart})
-        else:
-            date = date.split(" - ")
-            dateStringEnd = date[1].split(" ")
-            dateStringEnd = dateStringEnd[1].split("/")
-            dayEnd = dateStringEnd[0]
-            monthEnd = dateStringEnd[1]
+        if len(date) != 0: # check if something of a date is found
+            if "vanaf" in date: # check if only the startdate is provided
+                date = date.replace("vanaf ", "")
+                date = date.split(" ")
+                date = date[1].split("/")
+                currentYear = datetime.datetime.now().year
+                fullDateEnd = str(currentYear) + "-" + monthEnd + "-" + dayEnd
+                offer.update({"dateStart": fullDateStart})
+            else: # start and end date is provided
+                date = date.split(" - ")
+                dateStringEnd = date[1].split(" ")
+                dateStringEnd = dateStringEnd[1].split("/")
+                dayEnd = dateStringEnd[0]
+                monthEnd = dateStringEnd[1]
 
-            dateStringStart = date[0].split(" ")
-            dateStringStart = dateStringStart[1].split("/")
-            dayStart = dateStringStart[0]
-            monthStart = dateStringStart[1]
+                dateStringStart = date[0].split(" ")
+                dateStringStart = dateStringStart[1].split("/")
+                dayStart = dateStringStart[0]
+                monthStart = dateStringStart[1]
 
-            currentYear = datetime.datetime.now().year
+                currentYear = datetime.datetime.now().year
 
-            fullDateEnd = str(currentYear) + "-" + monthEnd + "-" + dayEnd
-            fullDateStart = str(currentYear) + "-" + monthStart + "-" + dayStart 
-            
-            offer.update({"dateStart": fullDateStart})
-            offer.update({"dateEnd": fullDateEnd})
+                fullDateEnd = str(currentYear) + "-" + monthEnd + "-" + dayEnd
+                fullDateStart = str(currentYear) + "-" + monthStart + "-" + dayStart 
+                
+                offer.update({"dateStart": fullDateStart})
+                offer.update({"dateEnd": fullDateEnd})
 
-        collection.append(offer)
+        if(offer.get('deal') != ""): # if no deal is found, don't add it
+            collection.append(offer)
 
     return collection
