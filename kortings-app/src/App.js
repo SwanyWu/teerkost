@@ -29,7 +29,7 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/excellent-vleeswaren" element={<SingleProduct item={name} />} />
+        <Route path="/walnoten" element={<SingleProduct item={name} />} />
         <Route path="/" element={<Main />}/>
       </Routes>
 
