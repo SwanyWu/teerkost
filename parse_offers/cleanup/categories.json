@@ -2,7 +2,7 @@
     {
         "name": "bier",
         "keywords": [
-            "brouwerij", "brewery", "bier", "bieren", "biermerken", "speciaalbier", "0.0", "pils", "Heineken", "Radler", "speciaalbieren", 
+            "brouwerij", "brewery", "bier", "bieren", "biermerken", "speciaalbier", "0.0", "pilsener", "pils", "Heineken", "Radler", "speciaalbieren", 
             "Grolsch", "desperados", "Amstel", "Bavaria", "Affligem", "Trappe", "Brand", "birra", "moretti", "Dors", "Veltins","Dommelsch", "Alfa",
             "Gulpener", "Westmalle", "tripel", "cornet" ,"karmeliet", "skuumkoppe", "corona", "bud", "perlenbacher", "hefeweizen", "kordaat", "tequilabier", "finkbrau", "oettinger", "argus",
             "Leffe", "Corona", "Warsteiner", "Jupiler", "Weizen", "ipa", "Chouffe", "Jopen", "Afflichem", "Duvel"
@@ -46,7 +46,8 @@
         "keywords": [ 
             "broodje", "brood", "broodjes", "kaiserbroodje", "kaiserbroodjes", "baguette", "crackers", 
             "chocoladecronut", "donut", "donuts", 
-            "pitabroodjes", "foccacia","croissant", "croissantjes", "kampioentjes", "pistolet", "pistoletjes",
+            "pitabroodjes", "foccacia","croissant", "croissantjes", "kampioentjes", "desempisolet", "desempistolets",
+            "pistolets","pistolet", "pistoletjes",
             "krentenbollen", "bakkersbollen", "meergranenbollen", "mini-puntjes", "volkorenpuntjes",
             "puntjes", "mini-rozijnen-krentenbollen", "mini-krentenbollen", "frikandelbroodje", "frikandelbroodjes",
             "saucijzenbroodjes", "saucijzenbroodje", "zonnebloempittenbrood", "sesamvolkorenbrood",
@@ -56,10 +57,13 @@
     },
     {
         "name": "kaas",
-        "keywords": ["zaanlander", "zanetti", "milner", "maaslander", "boerenkaas", "boerderijkaas",
-            "kaas", "specialiteitenkaas",  "kaasplakken", "gatenkaas", "fondeu",
-            "borrelkaas", "borrelkaasjes", "brokkelkaas", "brie", "rochebaron", "geitenkaas", "goudse", 
-            "parrano", "parmazan", "camembert","parmigiano", "reggiano", "gorgonzola", "mozzerella", "buffelmozzerella"]
+        "keywords": ["zaanlander", "beemster", "galbani", "président", "zanetti", 
+            "milner", "maaslander", "boerenkaas", "boerderijkaas",
+            "kaas", "specialiteitenkaas",  "kaasplakken", "gatenkaas", 
+            "fondeu", "borrelkazen", "borrelkaas", "borrelkaasjes", "brokkelkaas",
+            "brie", "rochebaron", "geitenkaas", "goudse", 
+            "parrano", "parmazan", "camembert","parmigiano", "reggiano", 
+            "gorgonzola", "mozzerella", "buffelmozzerella"]
     },
     {
         "name": "vis",
@@ -70,7 +74,7 @@
             "makreel", "makreelflakes", "makreelzijde", "rivierkreeftenvlees", "mosselen",
             "haring", "braadharing","haringpartjes", "rolmops", "haringsalade","garnalen", "roerbakgarnalen", "wokgarnalen", 
             "forelfilets","forelfilet", "sliptong", "bakkeljauw", "oesters", "visschnitzels", "visschnitzel",
-            "tonijnfilet", "tonijnsteak","tonijn", "tonno","ansjovis", "ansjovisfilet", "ansjovisfilets"
+            "tonijnfilet", "fishtales", "tonijnsteak","tonijn", "tonno","ansjovis", "ansjovisfilet", "ansjovisfilets"
         ]
     },
     {
@@ -95,9 +99,9 @@
         "name": "fruit",
         "keywords": [
             "mandarijnen", "bessen", "minneola", "dadels", "fruit", "perssinaasappels", 
-            "perssinaasappelen", "sinaasappels", "aardbeien", "druiven", "bessen", 
-            "handsinaasappels", "frambozen", "nectarines", "mango", "appels", "calinda",
-            "appeltjes","kiwi", "meloen", "conference", "peren", "ananas", "granaatappel", 
+            "perssinaasappelen", "sinaasappels", "bloedsinaasappelen", "bloedsinaasappels", "aardbei", "aardbeien", "druiven", "bessen", 
+            "handsinaasappels", "watermeloen", "frambozen", "nectarines", "mango", "appels", "calinda",
+            "appeltjes","kiwi", "kiwi's", "meloen", "conference", "peren", "ananas", "granaatappel", 
             "elstar", "jonagold"
         ]
     },
