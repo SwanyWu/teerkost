@@ -1,11 +1,11 @@
 import NoProduct from "./NoProduct";
-import Product from "./Product";
+import ProductCard from "./ProductCard";
 
 function ProductsContainer(props) {
     return (
         <main className="flex-container">
         { props.selectedOffers.length > 0 ? props.selectedOffers.map(function(name, index){
-          return <Product key={index} item={name}/>;
+          return <ProductCard key={index} item={name}/>;
         }) : <NoProduct /> }
         </main>
     )

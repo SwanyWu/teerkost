@@ -6,7 +6,7 @@ import Category from './Category';
 
 const Image = React.lazy(() => import ('./Image'));
 
-function Product(props) {
+function ProductCard(props) {
     return (
       <article className="flex-item">
         <span className={"product-shop " + props.item['shop']}>{props.item['shop']}</span>
@@ -27,4 +27,4 @@ function Product(props) {
     )
 }
 
-export default Product;
+export default ProductCard;
