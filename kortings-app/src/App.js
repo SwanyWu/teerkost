@@ -1,6 +1,6 @@
 import React, {useEffect} from "react";
 import './App.css';
-import { BrowserRouter, Routes, Route, Link, useNavigate } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Footer from './Footer';
 import Main from './Main';
 import SingleProduct from './SingleProduct';
@@ -29,14 +29,12 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/walnoten" element={<SingleProduct item={name} />} />
-        <Route path="/" element={<Main />}/>
+        <Route path="/">
+          <Route index element={<Main />} />
+          <Route path="walnoten" element={<SingleProduct item={name} />} />
+        </Route>
       </Routes>
-
-              {/* <Counter selectedOffers={5} totalOffers={10}/> */}
-
-      <h1 className="page-title">Teerkost</h1>
-      
+      <h1 className="page-title">Teerkost</h1>      
       <Footer/>
     </div>
   );
