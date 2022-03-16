@@ -31,10 +31,9 @@ function App() {
       <Routes>
         <Route path="/">
           <Route index element={<Main />} />
-          <Route path="jumbo" element={<Main shop="jumbo" />} />
-
+          {/* <Route path="jumbolol" element={<Main shop="jumbo" />} /> */}
           {Offers.map((item) => {
-           return <Route path={ item.shop +"/" + convertProductToLink(item.product) + ""} element={<SingleProduct item={item} />} />
+           return <Route path={ "" + item.shop +"/" + convertProductToLink(item.product) + ""} element={<SingleProduct item={item} />} />
           })}
         </Route>
       </Routes>
