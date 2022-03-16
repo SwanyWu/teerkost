@@ -24,18 +24,6 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Aviko aardappelspecialiteiten",
-        "productInfo": "Specialiteiten of puree\n2 verpakkingen à 400-750 gram",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Weekaanbiedingen/Week%2011/Aviko.png",
-        "deal": "2e halve prijs",
-        "price": 0,
-        "dateStart": "2022-03-15",
-        "dateEnd": "2022-03-22",
-        "link": "https://jumbo.com/aanbiedingen/9409013-B-1",
-        "shop": "Jumbo"
-    },
-    {
         "product": "Red band stazakken of venco",
         "productInfo": "3 zakken à 146-280 gram",
         "category": "",
@@ -2014,6 +2002,18 @@
         "dateEnd": "",
         "link": "https://www.lidl.nl/p/aster/p6613785",
         "shop": "Lidl"
+    },
+    {
+        "product": "Aviko aardappelspecialiteiten",
+        "productInfo": "Specialiteiten of puree\n2 verpakkingen à 400-750 gram",
+        "category": "aardappel",
+        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Weekaanbiedingen/Week%2011/Aviko.png",
+        "deal": "2e halve prijs",
+        "price": 0,
+        "dateStart": "2022-03-15",
+        "dateEnd": "2022-03-22",
+        "link": "https://jumbo.com/aanbiedingen/9409013-B-1",
+        "shop": "Jumbo"
     },
     {
         "product": "Kookgroente, gesneden champignons of duopak aardappelen",
