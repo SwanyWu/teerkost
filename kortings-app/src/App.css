@@ -39,7 +39,7 @@ footer {
   text-align: center;
   height: 100vh;
   position: relative;
-  box-shadow: inset 0px -40vh 0px 0px #d05f5fed;
+  box-shadow: inset 0px -50vh 0px 0px #d05f5fed;
 }
 
 footer .title {
@@ -54,7 +54,7 @@ footer .title {
   font-weight: 800;
   font-size: 1em;
   left: calc(50% - 75px);
-  bottom: 30vh;
+  bottom: 38vh;
   transform: rotate(10deg);
   position: absolute;
 }
