@@ -37,7 +37,7 @@ function App() {
           })}
         </Route>
       </Routes>
-      <h1 className="page-title">Teerkost</h1>      
+      {/* <h1 className="page-title">Teerkost</h1>       */}
       <Footer/>
     </div>
   );
