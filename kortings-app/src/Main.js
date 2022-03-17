@@ -3,9 +3,13 @@ import Offers from './offers.json';
 
 const ProductsContainer = React.lazy(() => import ('./ProductsContainer'));
 
-function Main() {
-    
-    const toggleFilterClass = (clickedElement, type) => {
+function Main(props) {
+   
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
+
+  const toggleFilterClass = (clickedElement, type) => {
         if(type === 'offer') {
           var otherElementOffer = document.getElementById('active-offer')
           if(otherElementOffer !== null) { 

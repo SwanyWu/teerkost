@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import React from "react";
 import './App.css';
 import { Routes, Route } from "react-router-dom";
 import Footer from './Footer';
@@ -10,10 +10,6 @@ import Offers from './offers.json';
 
 function App() {
   
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  });
-
   const convertProductToLink = (product) => {
 
     product = product.trim();
