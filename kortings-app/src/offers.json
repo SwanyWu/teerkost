@@ -24,18 +24,6 @@
         "shop": "Jumbo"
     },
     {
-        "product": "Aviko aardappelspecialiteiten",
-        "productInfo": "Specialiteiten of puree\n2 verpakkingen à 400-750 gram",
-        "category": "",
-        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Weekaanbiedingen/Week%2011/Aviko.png",
-        "deal": "2e halve prijs",
-        "price": 0,
-        "dateStart": "2022-03-15",
-        "dateEnd": "2022-03-22",
-        "link": "https://jumbo.com/aanbiedingen/9409013-B-1",
-        "shop": "Jumbo"
-    },
-    {
         "product": "Red band stazakken of venco",
         "productInfo": "3 zakken à 146-280 gram",
         "category": "",
@@ -655,7 +643,7 @@
         "deal": "2 voor € 3,50",
         "price": "3.50",
         "dateStart": "2022-01-04",
-        "dateEnd": "2022-12-31",
+        "dateEnd": "2022-04-05",
         "link": "https://jumbo.com/aanbiedingen/3755006-C-1",
         "shop": "Jumbo"
     },
@@ -2016,6 +2004,18 @@
         "shop": "Lidl"
     },
     {
+        "product": "Aviko aardappelspecialiteiten",
+        "productInfo": "Specialiteiten of puree\n2 verpakkingen à 400-750 gram",
+        "category": "aardappel",
+        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/Weekaanbiedingen/Week%2011/Aviko.png",
+        "deal": "2e halve prijs",
+        "price": 0,
+        "dateStart": "2022-03-15",
+        "dateEnd": "2022-03-22",
+        "link": "https://jumbo.com/aanbiedingen/9409013-B-1",
+        "shop": "Jumbo"
+    },
+    {
         "product": "Kookgroente, gesneden champignons of duopak aardappelen",
         "productInfo": "Kookgroente à 400 gram, gesneden witte champignons à 250 gram of duopak aardappelen à 2x350 gram\n2 verpakkingen",
         "category": "aardappel",
@@ -2038,18 +2038,6 @@
         "dateEnd": "2022-03-20",
         "link": "https://ah.nl/bonus/groep/460553?week=11",
         "shop": "AH"
-    },
-    {
-        "product": "Vastkokende en kruimige aardappelen",
-        "productInfo": "Alle combinaties mogelijk",
-        "category": "aardappel",
-        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/6683257/gallery/preview/xs/6683257.jpg",
-        "deal": "1+1 gratis",
-        "price": "3.79",
-        "dateStart": "2022-03-14",
-        "dateEnd": "2022-03-16",
-        "link": "https://www.lidl.nl/p/vastkokende-en-kruimige-aardappelen/p6683257",
-        "shop": "Lidl"
     },
     {
         "product": "Voorgekookte krieltjes",
@@ -2520,18 +2508,6 @@
         "shop": "AH"
     },
     {
-        "product": "Evelina appels",
-        "productInfo": "Per kilo",
-        "category": "fruit",
-        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/665260/gallery/preview/xs/665260.jpg",
-        "deal": "40% korting",
-        "price": "1.49",
-        "dateStart": "2022-03-14",
-        "dateEnd": "2022-03-16",
-        "link": "https://www.lidl.nl/p/evelina-appels/p665260",
-        "shop": "Lidl"
-    },
-    {
         "product": "Xenia peren",
         "productInfo": "Per kilo",
         "category": "fruit",
@@ -2577,6 +2553,18 @@
         "dateStart": "2022-03-01",
         "dateEnd": "2022-03-29",
         "link": "https://jumbo.com/aanbiedingen/9318022-C-1",
+        "shop": "Jumbo"
+    },
+    {
+        "product": "Hak groenten of appelmoes in pot",
+        "productInfo": "Diverse soorten",
+        "category": "groente",
+        "image": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2022/EG%20schap%202022/Week%2011/hak.png",
+        "deal": "3+1 gratis",
+        "price": 0,
+        "dateStart": "2022-03-15",
+        "dateEnd": "2022-04-12",
+        "link": "https://jumbo.com/aanbiedingen/9431001-B-1",
         "shop": "Jumbo"
     },
     {
@@ -2698,30 +2686,6 @@
         "dateEnd": "2022-03-20",
         "link": "https://ah.nl/bonus/groep/447263?week=11",
         "shop": "AH"
-    },
-    {
-        "product": "Paprikamix",
-        "productInfo": "3-pack",
-        "category": "groente",
-        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/6682586/gallery/preview/xs/6682586.jpg",
-        "deal": "31% korting",
-        "price": "1.29",
-        "dateStart": "2022-03-14",
-        "dateEnd": "2022-03-16",
-        "link": "https://www.lidl.nl/p/paprikamix/p6682586",
-        "shop": "Lidl"
-    },
-    {
-        "product": "Courgettes",
-        "productInfo": "2 stuks",
-        "category": "groente",
-        "image": "https://nl.cat-ret.assets.lidl/catalog5media/nl/article/6682346/gallery/preview/xs/6682346.jpg",
-        "deal": "43% korting",
-        "price": "1.-",
-        "dateStart": "2022-03-14",
-        "dateEnd": "2022-03-16",
-        "link": "https://www.lidl.nl/p/courgettes/p6682346",
-        "shop": "Lidl"
     },
     {
         "product": "Bio kastanjechampignons",
