@@ -1,4 +1,4 @@
-import React, {useState, Suspense} from "react";
+import React, {useState, useEffect, Suspense} from "react";
 import Offers from './offers.json';
 
 const ProductsContainer = React.lazy(() => import ('./ProductsContainer'));
