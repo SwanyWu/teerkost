@@ -10,8 +10,7 @@ def returnOffers():
 
 
     r = requests.get(URL)
-    soup = BeautifulSoup(r.content)
-    # FIXME add features="lxml"
+    soup = BeautifulSoup(r.content, features="lxml")
 
     collection = []
 
