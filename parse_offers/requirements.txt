@@ -1,3 +1,8 @@
 bs4
 requests
 shutil
+PIL
+uuid
+os
+time
+shutil
