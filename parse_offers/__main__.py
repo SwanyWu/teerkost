@@ -12,8 +12,11 @@ import uuid
 def updateImageUrlForOffer(url, offer):
     """Update the field for image in the json object"""
 
-    print("     ✅ Update de locatie van de afbeelding: " + url)
-    offer.update({"image": url})
+    if(offer['image'] == url):
+        print("     🤔 De remote url blijven we helaas gebruiken: " + url)
+    else:    
+        offer.update({"image": url})
+        print("     ✅ De lokale URL wordt gebruikt:" + url)
 
 
 def tryAndSaveTheImage(url, destination):
@@ -45,12 +48,12 @@ def tryAndSaveTheImage(url, destination):
                         print("     🤔 Converteren naar webp mislukt, we blijven bij png.")
                         resultingUrl = domain + '' + newFileName + '.png'
             except Exception as e:
-                print("     🟥 Opslaan lijkt mislukt.")
+                print("     🟥 Opslaan is mislukt, we gaan verder.")
                 print("         " + e)
         else:
-            print("     🟥 Antwoord " + str(response.status_code) + " teruggekregen.")
+            print("     🟥 Antwoord " + str(response.status_code) + ", laat maar zitten.")
     except requests.exceptions.Timeout:
-        print("     🟥 Helemaal mis!")
+        print("     🟥 Time out ontvangen, laat maar zitten.")
             
     return resultingUrl
 
@@ -63,7 +66,12 @@ def moveFolder(folderPath, destination):
         print("✅ Folder " + folderPath + " bestaat op " + destination + " -> inhoud verwijderen.")
 
     shutil.move(folderPath, destination)
-    print("✅ Folder " + folderPath + " uit project verplaatsen naar " + destination + ".")
+    if os.path.exists(destination):
+        print("✅ Folder " + folderPath + " uit project verplaatst naar " + destination + ".")
+    else:
+        raise Exception("     🟥 Verplaatsen niet gelukt: folder "+folderPath +" niet gevonden op " + destination + ".")    
+
+
 
 
 def moveFile(file, destination):
@@ -109,6 +117,7 @@ if __name__ == "__main__":
     index = 0    
     try:
         for offer in allOffers:
+            print(" ")
             print("     🔎 Afbeelding " + str(index+1))
             index = index+1
             imageUrl = offer['image']
