@@ -1,7 +1,7 @@
 bs4
 requests
 shutil
-PIL
+PIL.Image
 uuid
 os
 time
