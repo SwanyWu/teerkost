@@ -49,5 +49,5 @@ def returnOffers():
             offer.update({"link": "https://jumbo.com/aanbiedingen/" + i['id']})
             collection.append(offer)
 
-    print("🟢 Aanbiedingen van de Jumbo zijn bij elkaar verzameld.")
+    print("📄 " + str(len(collection)) + " aanbiedingen van de Jumbo bij elkaar verzameld.")
     return collection

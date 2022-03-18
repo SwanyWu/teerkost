@@ -13,10 +13,10 @@ def updateImageUrlForOffer(url, offer):
     """Update the field for image in the json object"""
 
     if(offer['image'] == url):
-        print("     🤔 De remote url blijven we helaas gebruiken: " + url)
+        print("     🤔 De remote URL blijven we gebruiken: " + url)
     else:    
         offer.update({"image": url})
-        print("     ✅ De lokale URL wordt gebruikt:" + url)
+        print("     ✅ De lokale URL wordt gebruikt: " + url)
 
 
 def tryAndSaveTheImage(url, destination):
@@ -27,12 +27,10 @@ def tryAndSaveTheImage(url, destination):
 
     try:
         response = requests.get(imageUrl,timeout=5)
-
         if response.status_code == 200:
-            imageData = requests.get(imageUrl, headers=headers).content
-            newFileName = str(uuid.uuid4().hex)
-
             try:
+                imageData = requests.get(imageUrl, headers=headers).content
+                newFileName = str(uuid.uuid4().hex)
                 with open(destination + '/'+ newFileName +'.png', 'wb') as i:
                     i.write(imageData)
                     print("     ✅ Afbeelding " + newFileName + " opslaan.")
@@ -49,7 +47,7 @@ def tryAndSaveTheImage(url, destination):
                         resultingUrl = domain + '' + newFileName + '.png'
             except Exception as e:
                 print("     🟥 Opslaan is mislukt, we gaan verder.")
-                print("         " + e)
+                pass
         else:
             print("     🟥 Antwoord " + str(response.status_code) + ", laat maar zitten.")
     except requests.exceptions.Timeout:
@@ -69,10 +67,7 @@ def moveFolder(folderPath, destination):
     if os.path.exists(destination):
         print("✅ Folder " + folderPath + " uit project verplaatst naar " + destination + ".")
     else:
-        raise Exception("     🟥 Verplaatsen niet gelukt: folder "+folderPath +" niet gevonden op " + destination + ".")    
-
-
-
+        raise Exception("     🟥 Verplaatsen niet gelukt: folder " +folderPath + " niet gevonden op " + destination + ".")    
 
 def moveFile(file, destination):
     """Moves the provided file to the destination."""
@@ -95,7 +90,7 @@ if __name__ == "__main__":
         "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:97.0) Gecko/20100101 Firefox/97.0"
         }
 
-    print("🟢 Er zijn "+str(len(allOffers))+" aanbiedingen gevonden.")
+    print("📄 Er zijn " + str(len(allOffers)) + " aanbiedingen gevonden.")
     time.sleep(take_it_easy)
     print(" ")
     print("✊ Aan de slag met afbeeldingen downloaden en converteren naar webp.")

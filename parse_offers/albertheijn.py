@@ -66,7 +66,7 @@ def returnOffers():
             offer.update({"link": "https://ah.nl" + i['href']})
             collection.append(offer)
 
-    print("🟢 Aanbiedingen van de Albert Heijn zijn bij elkaar verzameld.")
+    print("📄 " + str(len(collection)) + " aanbiedingen van de Albert Heijn bij elkaar verzameld.")
     return collection
 
 if __name__ == "__main__":
