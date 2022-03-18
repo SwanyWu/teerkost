@@ -10,7 +10,7 @@ def returnOffers():
 
 
     r = requests.get(URL)
-    soup = BeautifulSoup(r.content, features="lxml")
+    soup = BeautifulSoup(r.content, "html.parser")
 
     collection = []
 
