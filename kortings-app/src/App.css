@@ -54,7 +54,7 @@ footer .title {
   font-weight: 800;
   font-size: 1em;
   left: calc(50% - 75px);
-  bottom: 38vh;
+  bottom: calc(50vh - 75px);
   transform: rotate(10deg);
   position: absolute;
 }
