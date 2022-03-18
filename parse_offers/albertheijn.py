@@ -34,7 +34,7 @@ def returnOffers():
                     priceOld = i['price']['was']
                     calculateDeal = int((1 - (float(priceNow)/float(priceOld))) * 100)
                 except KeyError:
-                    print("Geen oude prijs gevonden, we berekenen geen korting.")
+                    pass
 
                 offer.update({"price": priceNow})
             
@@ -66,6 +66,7 @@ def returnOffers():
             offer.update({"link": "https://ah.nl" + i['href']})
             collection.append(offer)
 
+    print("🟢 Aanbiedingen van de Albert Heijn zijn bij elkaar verzameld.")
     return collection
 
 if __name__ == "__main__":
