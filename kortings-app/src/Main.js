@@ -108,35 +108,35 @@ function Main(props) {
                 <div id="filter-dialog">
                 <div className="filter-wrap">
                     <div className="filter-shop">
-                    <span onClick={filterShop} data-shop="AH">Albert Heijn</span>
-                    <span onClick={filterShop} data-shop="Jumbo">Jumbo</span>
-                    <span onClick={filterShop} data-shop="Lidl">Lidl</span>
+                      <span onClick={filterShop} data-shop="AH">Albert Heijn</span>
+                      <span onClick={filterShop} data-shop="Jumbo">Jumbo</span>
+                      <span onClick={filterShop} data-shop="Lidl">Lidl</span>
                     </div>
                     <div className="filter-cat">
-                    <span onClick={filterCategory} data-category="bier"><i onClick={(e) => e.stopPropagation()} className="icon">🍺</i> Bier</span>
-                    <span onClick={filterCategory} data-category="koffie"><i onClick={(e) => e.stopPropagation()} className="icon">☕</i> Koffie</span>
-                    <span onClick={filterCategory} data-category="groente"><i onClick={(e) => e.stopPropagation()} className="icon">🥬</i> Groente</span>
-                    <span onClick={filterCategory} data-category="vis"><i onClick={(e) => e.stopPropagation()} className="icon">🐟</i> Vis</span>
-                    <span onClick={filterCategory} data-category="fruit"><i onClick={(e) => e.stopPropagation()} className="icon">🍓</i> Fruit</span>
-                    <span onClick={filterCategory} data-category="kant-en-klaar"><i onClick={(e) => e.stopPropagation()} className="icon">🍲</i> Kant-en-klaar</span>
-                    <span onClick={filterCategory} data-category="aardappel"><i onClick={(e) => e.stopPropagation()} className="icon">🥔</i> Aardappel</span>
-                    <span onClick={filterCategory} data-category="brood"><i onClick={(e) => e.stopPropagation()} className="icon">🍞</i> Brood</span>
-                    <span onClick={filterCategory} data-category="kaas"><i onClick={(e) => e.stopPropagation()} className="icon">🧀</i> Kaas</span>
-                    <span onClick={filterCategory} data-category="noten"><i onClick={(e) => e.stopPropagation()} className="icon">🥜</i> Noten</span>
-                    <span onClick={filterCategory} data-category="verzorging"><i onClick={(e) => e.stopPropagation()} className="icon">🛁</i> Verzorging</span>
-                    <span onClick={filterCategory} data-category="huishoudelijk"><i onClick={(e) => e.stopPropagation()} className="icon">🧽</i> Huishoudelijk</span>
-
+                      <span onClick={filterCategory} data-category="bier">Bier</span>
+                      <span onClick={filterCategory} data-category="koffie">Koffie</span>
+                      <span onClick={filterCategory} data-category="groente">Groente</span>
+                      <span onClick={filterCategory} data-category="vis">Vis</span>
+                      <span onClick={filterCategory} data-category="fruit">Fruit</span>
+                      <span onClick={filterCategory} data-category="kant-en-klaar">Kant-en-klaar</span>
+                      <span onClick={filterCategory} data-category="aardappel">Aardappel</span>
+                      <span onClick={filterCategory} data-category="brood">Brood</span>
+                      <span onClick={filterCategory} data-category="kaas">Kaas</span>
+                      <span onClick={filterCategory} data-category="noten">Noten</span>
+                      <span onClick={filterCategory} data-category="zuivel">Zuivel</span>
+                      <span onClick={filterCategory} data-category="verzorging">Verzorging</span>
+                      <span onClick={filterCategory} data-category="huishoudelijk">Huishoudelijk</span>
                     </div>
                     <div className="filter-offer">
-                    <span onClick={filterOffer} data-offer="1+1 gratis">1+1</span>
-                    <span onClick={filterOffer} data-offer="2+1 gratis">2+1</span>
-                    <span onClick={filterOffer} data-offer="3+1 gratis">3+1</span>
-                    <span onClick={filterOffer} data-offer="10% korting">10%</span>
-                    <span onClick={filterOffer} data-offer="25% korting">25%</span>
-                    <span onClick={filterOffer} data-offer="30% korting">30%</span>
-                    <span onClick={filterOffer} data-offer="40% korting">40%</span>
-                    <span onClick={filterOffer} data-offer="50% korting">50%</span>
-                    <span onClick={filterOffer} data-offer="2e halve prijs">2e halve prijs</span>
+                      <span onClick={filterOffer} data-offer="1+1 gratis">1+1</span>
+                      <span onClick={filterOffer} data-offer="2+1 gratis">2+1</span>
+                      <span onClick={filterOffer} data-offer="3+1 gratis">3+1</span>
+                      <span onClick={filterOffer} data-offer="10% korting">10%</span>
+                      <span onClick={filterOffer} data-offer="25% korting">25%</span>
+                      <span onClick={filterOffer} data-offer="30% korting">30%</span>
+                      <span onClick={filterOffer} data-offer="40% korting">40%</span>
+                      <span onClick={filterOffer} data-offer="50% korting">50%</span>
+                      <span onClick={filterOffer} data-offer="2e halve prijs">2e halve prijs</span>
                     </div>
                 </div>
                 </div>
