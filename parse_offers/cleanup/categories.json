@@ -12,7 +12,7 @@
         "name": "koffie",
         "keywords": [
             "oploskoffie", "koffie", "ijskoffie", "koffiebonen", "snelfiltermaling", "koffiepads", "koffiecups","koffiecapsules", 
-            "Douwe Egberts", "nespresso", "espresso", "lungo", "Nescafé", "perla", "Lavazza", "segafredo", "illy"
+            "Douwe Egberts", "nespresso", "senseo", "espresso", "lungo", "Nescafé", "perla", "Lavazza", "segafredo", "illy"
         ]
     },
     {
@@ -67,7 +67,8 @@
     },
     {
         "name": "zuivel",
-        "keywords": ["karnemelk", "melk", "vla", "skyr", "yoghurt"]
+        "keywords": ["karnemelk", "campina", "fage", "melkunie", "danio",
+             "kwark", "haverdrank", "vla", "skyr", "yoghurt"]
     },
     {
         "name": "vis",
@@ -85,17 +86,17 @@
         "name": "kant-en-klaar",
         "keywords": [
             "stoommaaltijden", "2-vaks", "3-vaks", "stoommaaltijd", "stamppotten","maaltijd", 
-            "lunchsalade", "maaltijden", "soep", "erwtensoep", "pureersoep", "soepen", 
+            "lunchsalade", "maaltijden", "soep", "erwtensoep", "pureersoepen", "pureersoep", "soepen", 
             "ovenmaaltijd", "ovenmaaltijden","maaltijdcomponenten",
             "fruitsalades", "fruitsalade", "maaltijdsalade", "pastasalade", "pastasalades", 
             "maaltijdsalades", "3-vaksmaaltijden", "3-vaksmaaltijd", "2-vaks-maaltijd", "2-vaks-maaltijden",
-            "ovenschotels", "ovenschotel", "quiche", "maaltijdpakket", "maaltijdpakketten"
+            "ovenschotels", "ovenschotel", "prei-kerrie-ovenschotel", "quiche", "maaltijdpakket", "maaltijdpakketten"
         ]
     },
     {
         "name": "noten",
         "keywords": [
-            "notenmix", "cashewnoten", "studentenhaver", "nootjes", "edamame", "noten", 
+            "notenmix", "cashewnoten", "walnoten", "studentenhaver", "nootjes", "edamame", "noten", 
             "pinda's", "amandelen", "notemix", "pistache", "macadamia"
         ]
     },
@@ -124,7 +125,7 @@
     {
         "name": "huishoudelijk",
         "keywords": [
-            "ajax", "ambi-pur", "robijn","swiffer", "sorbo", "antikal", "ariel", "lenor", 
+            "ajax", "plenty", "ambi-pur", "robijn","swiffer", "sorbo", "antikal", "ariel", "lenor", 
             "glorix", "andy", "leifheit", "cif", "dreft", "sun", "XG2", "reus", "persil", "fleuril", "finish",
             "bleek", "luchtverfrissers", "luchtverfrisser", "vlekverwijderaar", "vlekverwijderaars",
             "wasmiddel", "wasmiddelen", "stofzuigerzakken", "schoonmaakazijn",
