@@ -11,7 +11,7 @@
     {
         "name": "koffie",
         "keywords": [
-            "oploskoffie", "koffie", "koffiebonen", "snelfiltermaling", "koffiepads", "koffiecups","koffiecapsules", 
+            "oploskoffie", "koffie", "ijskoffie", "koffiebonen", "snelfiltermaling", "koffiepads", "koffiecups","koffiecapsules", 
             "Douwe Egberts", "nespresso", "espresso", "lungo", "Nescafé", "perla", "Lavazza", "segafredo", "illy"
         ]
     },
@@ -66,6 +66,10 @@
             "gorgonzola", "mozzerella", "buffelmozzerella"]
     },
     {
+        "name": "zuivel",
+        "keywords": ["karnemelk", "melk", "vla", "skyr", "yoghurt"]
+    },
+    {
         "name": "vis",
         "keywords": [
             "vis", "vissticks", "princes", "scholfilet","schol", "heek", "heekfilets", "heekfilet", "surimi","gravad","kabeljauw", "gamba's", "dorade", "doradefilets", 
@@ -109,24 +113,25 @@
         "name": "verzorging",
         "keywords": [
             "pampers, luiers", "prodent", "zendium", "page", "axe", "zwitsal", "oral-b","palmolive","vaseline",
-            "always", "kneipp", "sanex", "suplementen", "paradontax", "sensodyne", "listerine", "borotalco", 
+            "always", "kneipp", "nivea", "sanex", "suplementen", "paradontax", "sensodyne", "listerine", "borotalco", 
             "periodeverzorging", "lucovitaal", "pampers", "tissues", "zakdoekjes", "guhl", "cien", 
             "andrélon", "edet", "nalys", "dettol", "dove", "rexona", "axe", "gillette", "venus", "elmex",
-            "navulmesjes", "shampoo", "conditioner", "douchegel", "cremespoeling", "nachtcreme", 
-            "dagcreme", "handzeep", "verzorgingsproduct", "verzorgingsproducten", "gezichtsverzorging",
+            "navulmesjes", "shampoo", "conditioner", "deodorant", "douchegel", "cremespoeling", "nachtcreme", 
+            "dagcreme", "handzeep", "lichaamsverzorging", "verzorgingsproduct", "verzorgingsproducten", "gezichtsverzorging",
             "mondkapje", "mondkapjes", "cosmetica", "baby", "toiletpapier", "soft-picks", "verzorging"
         ]
     },
     {
         "name": "huishoudelijk",
         "keywords": [
-            "ajax", "ambi-pur", "robijn","swiffer", "antikal", "ariel", "lenor", 
-            "glorix", "andy", "cif", "dreft", "sun", "XG2", "reus",
+            "ajax", "ambi-pur", "robijn","swiffer", "sorbo", "antikal", "ariel", "lenor", 
+            "glorix", "andy", "leifheit", "cif", "dreft", "sun", "XG2", "reus", "persil", "fleuril", "finish",
             "bleek", "luchtverfrissers", "luchtverfrisser", "vlekverwijderaar", "vlekverwijderaars",
-            "wasmiddel", "wasmiddelen", 
-            "wasverzachter", "wasbeurt", "wasbeurten", "keukenpapier", 
-            "huishoud", "huishoudelijk", "afwasmiddel", "handafwas", "vaatwas",
-            "vaatwasmiddel", "schoonmaakdoekjes", "schoonmaaksprays", "reinigingsdoekje", 
+            "wasmiddel", "wasmiddelen", "stofzuigerzakken", "schoonmaakazijn",
+            "wasverzachter", "wasbeurt", "wasbeurten", "schuurspons", "keukenpapier", 
+            "huishoud", "vloerwisser", "huishoudelijk", "afwasmiddel", "handafwas", "vaatwas",
+            "vaatwasmiddel", "vaatwastablet", "vaatwastabletten","schoonmaakartikelen", 
+            "schoonmaakbenodigdheden", "schoonmaakdoekjes", "schoonmaaksprays", "reinigingsdoekje", 
             "reinigingsdoekjes", "allesreiniger", "reiniger"
         ]
     }
