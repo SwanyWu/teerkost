@@ -61,7 +61,7 @@ def moveFolder(folderPath, destination):
     print(" ")
     if os.path.exists(destination):
         shutil.rmtree(destination)
-        print("✅ Folder " + folderPath + " bestaat op " + destination + " -> inhoud verwijderen.")
+        print("✅ Folder " + folderPath + " bestaat op " + destination + ", die gooien we eerst weg.")
 
     shutil.move(folderPath, destination)
     if os.path.exists(destination):
