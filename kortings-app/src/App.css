@@ -247,18 +247,19 @@ b.label-shop-lidl {
 .filter-offer span {
   background: #e0ffdb;
   color: #117902;
-  padding: 8px 15px 8px 15px;
+  padding: 8px 10px 8px 10px;
 }
 
 .filter-cat span {
   background: #d2e8ff;
   color: #01245bb5;
-  padding-left: 40px;
+  padding: 10px 15px 10px 15px;
 }
 
 .filter-shop span {
   background: #fdeec4;
   color: #80692a;
+  padding: 12px 12px 12px 12px;
 }
 
 .filter-search {
@@ -284,14 +285,6 @@ b.label-shop-lidl {
   font-size: 1em;
   border-radius: 15px;
   padding: 5px 5px 5px 5px;
-}
-
-i.icon {
-  font-style: normal;
-  font-size: 1.8em;
-  position: absolute;
-  top: 5px;
-  left: 5px;
 }
 
 #active-offer, #active-shop, #active-category {
