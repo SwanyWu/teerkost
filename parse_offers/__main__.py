@@ -72,12 +72,17 @@ def moveFolder(folderPath, destination):
 def moveFile(file, destination):
     """Moves the provided file to the destination."""
 
+    print(" ")
+    if os.path.exists(destination + file):
+        os.remove(destination + file)
+        print("✅ " + file + " bestaat op " + destination + ", die gooien we eerst weg.")
+    
     print("✅ Verplaats " + file + " uit het project naar " + destination + ".")
     shutil.move(file, destination + file)
 
 if __name__ == "__main__":
 
-    take_it_easy = 2
+    take_it_easy = 0
 
     jumboOffers = jumbo.returnOffers()
     ahOffers = albertheijn.returnOffers()
