@@ -50,11 +50,7 @@ def returnOffers():
         startDateSection = section['data-rel']
         sectionIndex = sectionIndex + 1
         if returnWeekday(startDateSection) == 'maandag': # weekoffers only start on monday, ignore the rest
-            print("     ")
-            print("📅 Section van " + startDateSection)
             for article in section.find_all("div", {"class", articleDiv}):
-                print(" ")
-                print("     🔎 Artikel")
                 offer = {"product":"", "productInfo":"", "category":"", "image":"", "deal":"", "price": 0, "dateStart":"", "dateEnd":"", "link": "", "shop":""}
 
                 title = ""
@@ -124,7 +120,8 @@ def returnOffers():
                 offer.update({"link": link})
                 offer.update({"shop": SHOP})
                 
-                collection.append(offer)
+                if(offer.get('deal') != ""): # if no deal is found, don't add it
+                    collection.append(offer)
 
     print("📄 " + str(len(collection)) + " aanbiedingen van de Aldi bij elkaar verzameld.")
     return collection
