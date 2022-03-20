@@ -111,6 +111,7 @@ function Main(props) {
                       <span onClick={filterShop} data-shop="AH">Albert Heijn</span>
                       <span onClick={filterShop} data-shop="Jumbo">Jumbo</span>
                       <span onClick={filterShop} data-shop="Lidl">Lidl</span>
+                      <span onClick={filterShop} data-shop="Aldi">Aldi</span>
                     </div>
                     <div className="filter-cat">
                       <span onClick={filterCategory} data-category="bier">Bier</span>

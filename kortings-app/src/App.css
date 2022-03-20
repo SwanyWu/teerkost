@@ -388,6 +388,7 @@ b.label-shop-lidl {
   width: 250px;
   position: relative;
 }
+
 /* 795 en 810  */
 @media screen and (max-width: 990px) {
   .flex-item {
@@ -555,6 +556,8 @@ b.label-shop-lidl {
 .product-shop.Lidl {   
   background: #fff000; 
   color: #0050aa; 
+  text-decoration: underline;
+  text-decoration-color: red;
 }
 
 .product-shop.Jumbo {   
@@ -565,4 +568,10 @@ b.label-shop-lidl {
 .product-shop.AH {
   background: #00ade6;
   color: #FFF;
+}
+.product-shop.Aldi {
+  background: #202b78;
+  color: #FFF;
+  text-decoration: underline;
+  text-decoration-color: red;
 }
