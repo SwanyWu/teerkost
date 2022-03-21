@@ -7,8 +7,28 @@ import Category from './Category';
 const Image = React.lazy(() => import ('./Image'));
 
 function ProductCard(props) {
+
+  // FIXME niet netjes, lostrekken
+  const convertProductToLink = (product) => {
+
+    product = product.trim();
+  
+    const parsedProduct = product.normalize('NFD').replace(/[\u0300-\u036f]/g, '') // Remove accents
+    .replace(/([^\w]+|\s+)/g, '-') // Replace space and other characters by hyphen
+    .replace(/\-\-+/g, '-')	// Replaces multiple hyphens by one hyphen
+    .replace(/(^-+|-+$)/g, ''); 
+  
+    return parsedProduct;
+  }
+
     return (
       <article className="flex-item">
+        <div className="item-overlay">
+          <ul>
+            <li><a href={props.item['link']}>Open op {props.item['shop']}</a></li>
+            <li><a href={"https://teerkost.nl/#/" + props.item['shop'] +"/" + convertProductToLink(props.item['product']) + ""}>Open unieke link</a></li>
+          </ul>
+        </div>
         <span className={"product-shop " + props.item['shop']}>{props.item['shop']}</span>
         <Category category={props.item['category']}/>
         <Date dateEnd={props.item['dateEnd']} dateStart={props.item['dateStart']}/>
