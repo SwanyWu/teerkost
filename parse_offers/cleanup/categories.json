@@ -5,7 +5,7 @@
             "brouwerij", "brewery", "bier", "bieren", "biermerken", "speciaalbier", "0.0", "pilsener", "pils", "Heineken", "Radler", "speciaalbieren", 
             "Grolsch", "desperados", "Amstel", "Bavaria", "Affligem", "Trappe", "Brand", "birra", "moretti", "Dors", "Veltins","Dommelsch", "Alfa",
             "Gulpener", "Westmalle", "tripel", "cornet" ,"karmeliet", "skuumkoppe", "corona", "bud", "perlenbacher", "hefeweizen", 
-            "kordaat", "tequilabier", "finkbrau", "oettinger", "argus", "6-pack",
+            "kordaat", "tequilabier", "finkbrau", "oettinger", "argus", "hertog", "steenbrugge",
             "Leffe", "Corona", "Warsteiner", "Jupiler", "Weizen", "ipa", "Chouffe", "Jopen", "Afflichem", "Duvel"
         ]
     },
@@ -30,7 +30,7 @@
             "salade ui", "bosui", "bosuien", "uien", "augurken", "rucola", "rucolamelange", "sperziebonen", 
             "ijsbergsla", "romaatje", "trostomaten", "pompoen", "pompoenblokjes",
             "hutspot", "zuurkool", "snijbonen", "bleekselderij", "knolselderij", "wokgroenten", 
-            "wokgroente", "bieten", "maïs", "pastinaak",
+            "wokgroente", "maïskorrels","bieten", "pastinaak",
             "haricots verts", "sjalotten", "babyspinazie", "kropsla", "slamelange", "eikenblad-slamelange", "slamelanges", 
             "bonen", "radijs", "spitskool", "paksoi"
         ]
@@ -59,8 +59,8 @@
     {
         "name": "kaas",
         "keywords": ["zaanlander", "beemster", "galbani", "président", "zanetti", 
-            "milner", "maaslander", "boerenkaas", "boerderijkaas",
-            "kaas", "specialiteitenkaas",  "kaasplakken", "gatenkaas", 
+            "milner", "maaslander", "boerenkaas", "boerderijkaas", "gruyere",
+            "kaas", "specialiteitenkaas",  "kaasplakken", "gatenkaas", "rustique",
             "fondeu", "borrelkazen", "borrelkaas", "borrelkaasjes", "brokkelkaas",
             "brie", "rochebaron", "geitenkaas", "goudse", "walnootkaas", "roomsmeerkaas",
             "parrano", "parmazan", "camembert","parmigiano", "reggiano", 
@@ -90,8 +90,9 @@
             "lunchsalade", "maaltijden", "soep", "erwtensoep", "pureersoepen", "pureersoep", "soepen", 
             "ovenmaaltijd", "ovenmaaltijden","maaltijdcomponenten",
             "fruitsalades", "fruitsalade", "maaltijdsalade", "pastasalade", "pastasalades", 
-            "maaltijdsalades", "3-vaksmaaltijden", "3-vaksmaaltijd", "2-vaks-maaltijd", "2-vaks-maaltijden",
-            "ovenschotels", "ovenschotel", "prei-kerrie-ovenschotel", "quiche", "maaltijdpakket", "maaltijdpakketten"
+            "maaltijdsalades", "3-vaks-maaltijden","3-vaksmaaltijden", "3-vaks-maaltijd",
+            "3-vaksmaaltijd", "2-vaks-maaltijd", "2-vaks-maaltijden", "ovenschotels", "ovenschotel", 
+            "prei-kerrie-ovenschotel", "quiche", "maaltijdpakket", "maaltijdpakketten"
         ]
     },
     {
@@ -115,26 +116,27 @@
     {
         "name": "verzorging",
         "keywords": [
-            "pampers, luiers", "prodent", "zendium", "page", "axe", "zwitsal", "oral-b","palmolive","vaseline",
+            "pampers, luiers", "prodent", "zendium", "elvive", "blends", "fa", "taft", "biodermal", "page", "axe", "zwitsal", "oral-b","palmolive","vaseline",
             "always", "kneipp", "nivea", "sanex", "suplementen", "paradontax", "sensodyne", "listerine", "borotalco", 
             "periodeverzorging", "lucovitaal", "pampers", "tissues", "zakdoekjes", "guhl", "cien", 
             "andrélon", "edet", "nalys", "dettol", "dove", "rexona", "axe", "gillette", "venus", "elmex",
             "navulmesjes", "shampoo", "conditioner", "deodorant", "douchegel", "cremespoeling", "nachtcreme", 
-            "dagcreme", "handzeep", "lichaamsverzorging", "verzorgingsproduct", "verzorgingsproducten", "gezichtsverzorging",
+            "dagcreme", "handzeep", "lichaamsverzorging", "verzorgingsproduct", "verzorgingsproducten", "zonbescherming",
+            "gezichtsverzorging",
             "mondkapje", "mondkapjes", "cosmetica", "baby", "toiletpapier", "soft-picks", "verzorging"
         ]
     },
     {
         "name": "huishoudelijk",
         "keywords": [
-            "ajax", "plenty", "ambi-pur", "robijn","swiffer", "sorbo", "antikal", "ariel", "lenor", 
+            "ajax", "plenty", "lenor", "sun", "ambi-pur", "robijn","swiffer", "sorbo", "antikal", "ariel", "lenor", 
             "glorix", "andy", "leifheit", "cif", "dreft", "sun", "XG2", "reus", "persil", "fleuril", "finish",
             "bleek", "luchtverfrissers", "luchtverfrisser", "vlekverwijderaar", "vlekverwijderaars",
             "wasmiddel", "wasmiddelen", "stofzuigerzakken", "schoonmaakazijn",
             "wasverzachter", "wasbeurt", "wasbeurten", "schuurspons", "keukenpapier", 
             "huishoud", "luchtverfrisser", "luchtverfrisserspray", "ontkalker", "wasmachinereiniger",
             "vloerwisser", "ontvetterdoekjes", "huishoudelijk", "afwasmiddel", "handafwas", "vaatwas",
-            "vaatwasmiddel", "vaatwastablet", "vaatwastabletten","schoonmaakartikelen", 
+            "vaatwasmiddel", "vaatwascapsules", "vaatwastablet", "vaatwastabletten","schoonmaakartikelen", 
             "schoonmaakbenodigdheden", "schoonmaakdoekjes", "schoonmaaksprays", "reinigingsdoekje", 
             "reinigingsdoekjes", "allesreiniger", "reiniger", "containerzakken", "vuilniszakken"
         ]
