@@ -20,9 +20,9 @@
         "name": "groente",
         "keywords": [
             "groentegemak", "groenteshots", "groenteshot", "broccoli", "broccoliroosjes", "bloemkool",
-            "bloemkoolroosjes", "spruiten", "waspeen", "winterpeen", "bospeen", "wortel", "wortels", 
+            "bloemkoolroosjes", "spruiten", "waspeen", "winterpeen", "winterpenen", "bospeen", "bospenen", "wortel", "wortels", 
             "prei", "andijvie", "boerenkool", "spinazie", "wortelen", "kinderappels",
-            "tomaten", "paprika", "paprika's", "paprikamix", "veldsla", "avocado", "snoeptomaatjes", "snoepgroente", "ovengroente", 
+            "tomaten", "paprika", "paprika's", "paprikamix", "veldsla", "bladsla", "avocado", "snoeptomaatjes", "snoepgroente", "ovengroente", 
             "ovengroenten", "groenten", "groentemix", "groente", "kookgroente", 
             "kookgroenten","witlof", "stamppotgroenten", "roerbakgroente", "roerbakgroenten", "kool",
             "komkommer", "courgette", "courgettes", "aubergine", "spruitjes", "haricots", "peulen", "haricot", 
@@ -46,9 +46,9 @@
         "name": "brood",
         "keywords": [ 
             "broodje", "brood", "broodjes", "kaiserbroodje", "kaiserbroodjes", "baguette", "crackers", 
-            "chocoladecronut", "donut", "donuts", "mueslibollen",
+            "chocoladecronut", "donut", "donuts", "mueslibollen", "tijgerbollen",
             "pitabroodjes", "foccacia","croissant", "croissantjes", "kampioentjes", "desempisolet", "desempistolets",
-            "pistolets","pistolet", "pistoletjes",
+            "pistolets","pistolet", "pistoletjes", "olijvenbrood",
             "krentenbollen", "vloerbrood", "bakkersbollen", "meergranenbollen", "mini-puntjes", "volkorenpuntjes",
             "puntjes", "mini-rozijnen-krentenbollen", "mini-krentenbollen", "frikandelbroodje", "frikandelbroodjes",
             "saucijzenbroodjes", "saucijzenbroodje", "zonnebloempittenbrood", "sesamvolkorenbrood",
@@ -100,7 +100,8 @@
         "keywords": [
             "notenmix", "cashewnoten", "walnoten", "studentenhaver", 
             "nootjes", "edamame", "noten", "notenmelange",
-            "pinda's", "amandelen", "notemix", "pistache", "macadamia"
+            "pinda's", "amandelen", "notemix", "pistache", "pistachenoten",
+            "macadamia"
         ]
     },
     {
@@ -108,7 +109,7 @@
         "keywords": [
             "mandarijnen", "bessen", "minneola", "dadels", "pruimen", "fruit", "perssinaasappels", 
             "perssinaasappelen", "sinaasappels", "bloedsinaasappelen", "bloedsinaasappels", "aardbei", "aardbeien", "druiven", "bessen", 
-            "handsinaasappels", "watermeloen", "frambozen", "nectarines", "mango", "mango's", "appels", "calinda",
+            "handsinaasappels", "citroenen", "watermeloen", "frambozen", "nectarines", "mango", "mango's", "appels", "calinda",
             "appeltjes","kiwi", "kiwi's", "meloen", "conference", "peren", "ananas", "granaatappel", 
             "elstar", "jonagold"
         ]
@@ -122,7 +123,7 @@
             "andrélon", "edet", "nalys", "dettol", "dove", "rexona", "axe", "gillette", "venus", "elmex",
             "navulmesjes", "shampoo", "conditioner", "deodorant", "douchegel", "cremespoeling", "nachtcreme", 
             "dagcreme", "handzeep", "lichaamsverzorging", "verzorgingsproduct", "verzorgingsproducten", "zonbescherming",
-            "gezichtsverzorging",
+            "gezichtsverzorging", "luiers",
             "mondkapje", "mondkapjes", "cosmetica", "baby", "toiletpapier", "soft-picks", "verzorging"
         ]
     },
