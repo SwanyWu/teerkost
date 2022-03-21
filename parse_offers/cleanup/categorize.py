@@ -20,9 +20,9 @@ def findCategoryForProduct(title, description):
     foundCategory = ""
 
     for word in wordsList:
-        for k in categories:
-            for keyword in k['keywords']:
+        for category in categories:
+            for keyword in category['keywords']:
                 if keyword.lower() == word:
-                    foundCategory = k['name']
+                    foundCategory = category['name']
     
     return foundCategory
