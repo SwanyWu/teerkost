@@ -1,4 +1,4 @@
-import React, {Suspense, lazy} from "react";
+import React, {Suspense, useState} from "react";
 
 import Date from './Date';
 import Price from './Price';
@@ -7,6 +7,8 @@ import Category from './Category';
 const Image = React.lazy(() => import ('./Image'));
 
 function ProductCard(props) {
+
+  const [isOpen, setIsOpen] = useState(false);
 
   // FIXME niet netjes, lostrekken
   const convertProductToLink = (product) => {
@@ -21,14 +23,20 @@ function ProductCard(props) {
     return parsedProduct;
   }
 
+  const toggleOverlay = () => {
+    setIsOpen(isOpen => !isOpen)
+  }
+
     return (
-      <article className="flex-item">
-        <div className="item-overlay">
+      <article className="flex-item" onClick={toggleOverlay}>
+        {isOpen && (
+          <div className="item-overlay">
           <ul>
-            <li><a href={props.item['link']}>Open op {props.item['shop']}</a></li>
+            <li><a href={props.item['link']}>Open op {props.item['shop'] + ".nl"}</a></li>
             <li><a href={"https://teerkost.nl/#/" + props.item['shop'] +"/" + convertProductToLink(props.item['product']) + ""}>Open unieke link</a></li>
           </ul>
         </div>
+        )}
         <span className={"product-shop " + props.item['shop']}>{props.item['shop']}</span>
         <Category category={props.item['category']}/>
         <Date dateEnd={props.item['dateEnd']} dateStart={props.item['dateStart']}/>
