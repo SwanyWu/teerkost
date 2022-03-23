@@ -14,7 +14,9 @@ def cleanUpTitle(title):
 def cleanUpInfo(infoText):
     """Removes words from a string that are not useful."""
 
-    badWords = ['Alle soorten ', 'Alle combinaties mogelijk ']
+    badWords = ['Jumbo ', 'Alle soorten\n3 verpakkingen', 'Alle soorten\n2 verpakkingen',
+    'Alle soorten ', 'Alle soorten\n',
+    'Alle soorten\n2 ', 'Alle soorten\n3 ', 'Alle soorten, ', 'Alle combinaties mogelijk ']
 
     for word in badWords:
         infoText = infoText.replace(word, '')
