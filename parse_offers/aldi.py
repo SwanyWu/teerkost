@@ -96,7 +96,7 @@ def returnOffers():
 
                 deal = ""
                 if "%" in priceLabel: # a percentage is known, use it as the deal
-                    priceLabel = priceLabel.replace("-", "")
+                    priceLabel = priceLabel.replace("-", "").replace(" korting", "")
                     deal = str(priceLabel) + " korting"
                 else:
                     if oldPrice != "" and price != "": # calculate the deal when old and new price is found
