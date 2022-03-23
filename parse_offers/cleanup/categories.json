@@ -37,7 +37,7 @@
     },
     {
         "name": "aardappel",
-        "keywords": [ "aardappelen", "krieltjes", "mini-krieltjes", "aardappelspecialiteiten", "aardappelspecialiteit", "aardappelschijfjes", "aardappelkroketjes",
+        "keywords": [ "Aardappel-", "aardappelen", "krieltjes", "mini-krieltjes", "aardappelspecialiteiten", "aardappelspecialiteit", "aardappelschijfjes", "aardappelkroketjes",
              "aardappelbolletjes", "aardappelfrites", "aardappelfriet", "pofaardappelen", "frites", "patat", "pommes", "boerenfriet", "frietjes", "friet", "aardappelgratin",
              "aardappelroosjes", "aardappelgolfjes", "aardappelpuree", "aardappel", "aardappelpartjes", "aardappelblokjes",
               "aardappelwedges", "ovenaardappelen", "opbakaardappelen", "rosti", "rostirondjes", "smulfriet" ]
@@ -45,7 +45,7 @@
     {
         "name": "brood",
         "keywords": [ 
-            "broodje", "brood", "broodjes", "kaiserbroodje", "kaiserbroodjes", "baguette", "crackers", 
+            "broodje", "brood", "broodjes", "bananenbrood", "kaiserbroodje", "kaiserbroodjes", "baguette", "crackers", 
             "chocoladecronut", "donut", "donuts", "mueslibollen", "tijgerbollen",
             "pitabroodjes", "foccacia","croissant", "croissantjes", "kampioentjes", "desempisolet", "desempistolets",
             "pistolets","pistolet", "pistoletjes", "olijvenbrood",
@@ -74,7 +74,7 @@
     {
         "name": "vis",
         "keywords": [
-            "vis", "vissticks", "princes", "scholfilet","schol", "heek", "heekfilets", "heekfilet", "surimi","gravad","kabeljauw", "gamba's", "dorade", "doradefilets", 
+            "vis", "vissticks", "iglo", "fish", "princes", "scholfilet","schol", "heek", "heekfilets", "heekfilet", "surimi","gravad","kabeljauw", "gamba's", "dorade", "doradefilets", 
             "doradefilet", "kabeljauwfilet","kabeljauwfilets", "kabeljauwhaas", "kabeljauwhaasjes","kibbeling", "lekkerbek",
             "pangasius", "pangasiusfilet", "pangasiusfilets", "zalm", "zalmzijde", "zalmburger", "zalmburgers", "zalmfilet", "zalmfilets", "ovenzalm", "zalmstaarten", "zalmstaart",
             "makreel", "makreelflakes", "makreelzijde", "rivierkreeftenvlees", "mosselen",
