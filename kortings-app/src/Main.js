@@ -138,6 +138,7 @@ function Main(props) {
                       <span onClick={filterOffer} data-offer="40% korting">40%</span>
                       <span onClick={filterOffer} data-offer="50% korting">50%</span>
                       <span onClick={filterOffer} data-offer="2e halve prijs">2e halve prijs</span>
+                      <span onClick={filterOffer} data-offer="op=op">op=op</span>
                     </div>
                 </div>
                 </div>
