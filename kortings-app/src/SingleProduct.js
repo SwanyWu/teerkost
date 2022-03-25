@@ -1,4 +1,4 @@
-import React, {Suspense, lazy} from "react";
+import React, {Suspense, useEffect} from "react";
 
 import Date from './Date';
 import Price from './Price';
@@ -7,6 +7,11 @@ import Category from './Category';
 const Image = React.lazy(() => import ('./Image'));
 
 function SingleProduct(props) {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
+
     return (
       <div className="container">
       <article className="single-item">
