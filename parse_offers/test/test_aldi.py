@@ -2,20 +2,21 @@ import unittest
 
 import aldi
 
+collection = aldi.returnOffers()
+
 class TestAldi(unittest.TestCase):
 
     def test_return_list(self):
         """
         ✅ Aldi geeft aanbiedingen terug 👉 
         """
-        collectionLength = len(aldi.returnOffers())
+        collectionLength = len(collection)
         self.assertTrue(collectionLength != 0)
 
     def test_list_has_product_title(self):
         """
         ✅ Alle Aldi aanbiedingen hebben een titel 👉 
         """
-        collection = aldi.returnOffers()
         for item in collection:
             self.assertTrue(item['product'] != '') # Item heeft een titel
 
@@ -23,7 +24,6 @@ class TestAldi(unittest.TestCase):
         """
         ✅ Alle Aldi aanbiedingen hebben een deal 👉 
         """
-        collection = aldi.returnOffers()
         for item in collection:
             self.assertTrue(item['deal'] != '') # Item heeft een deal
 
@@ -31,7 +31,6 @@ class TestAldi(unittest.TestCase):
         """
         ✅ Alle Aldi aanbiedingen hebben een startdatum 👉 
         """
-        collection = aldi.returnOffers()
         for item in collection:
             self.assertTrue(item['dateStart'] != '') # Item heeft een startdatum
             
