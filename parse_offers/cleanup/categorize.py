@@ -12,8 +12,13 @@ def findCategoryForProduct(title, description):
         data=jsonFile.read()
 
     categories = json.loads(data)
-    
-    wordsList = re.split(' ', title.lower().replace(',', ''))
+    wordsList = []
+
+    if ' ' in title:
+        wordsList = re.split(' ', title.lower().replace(',', ''))
+    else:
+        wordsList.append(title.lower())   
+
     descriptionWordList = re.split(' ', description.lower().replace(',', ''))
     wordsList.extend(descriptionWordList)
 

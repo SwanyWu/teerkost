@@ -9,7 +9,6 @@ class TestCleanup(unittest.TestCase):
         ✅ Categorie voor product wordt gevonden in titel 👉 
         """
         resultingCategory = categorize.findCategoryForProduct("bier water", "een flesje")
-
         self.assertTrue(resultingCategory == 'bier')
 
     def test_return_category_by_description(self):
@@ -32,6 +31,13 @@ class TestCleanup(unittest.TestCase):
         """
         resultingCategory = categorize.findCategoryForProduct("bier", "")
         self.assertTrue(resultingCategory == 'bier')   
+
+    def test_return_single_word_capitalized(self):
+        """
+        ✅ Categorie voor product wordt gevonden met enkel woord en hoofdletter 👉 
+        """        
+        resultingCategory = categorize.findCategoryForProduct("Lenor", "derp derp")
+        self.assertTrue(resultingCategory == 'huishouden')
 
     def test_return_empty_w_empty_input(self):
         """
