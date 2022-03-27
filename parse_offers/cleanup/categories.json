@@ -5,7 +5,7 @@
             "brouwerij", "brewery", "bier", "bieren", "biermerken", "speciaalbier", "0.0", "pilsener", "pils", "Heineken", "Radler", "speciaalbieren", 
             "Grolsch", "desperados", "Amstel", "Bavaria", "Affligem", "Trappe", "Brand", "birra", "moretti", "Dors", "Veltins","Dommelsch", "Alfa",
             "Gulpener", "Westmalle", "tripel", "cornet" ,"karmeliet", "skuumkoppe", "corona", "bud", "perlenbacher", "hefeweizen", 
-            "kordaat", "tequilabier", "finkbrau", "oettinger", "argus", "hertog", "steenbrugge",
+            "kordaat", "tequilabier", "finkbrau", "oettinger", "argus", "hertog", "steenbrugge", "Schultenbräu",
             "Leffe", "Corona", "Warsteiner", "Jupiler", "Weizen", "ipa", "Chouffe", "Jopen", "Afflichem", "Duvel"
         ]
     },
@@ -13,14 +13,14 @@
         "name": "koffie",
         "keywords": [
             "oploskoffie", "koffie", "ijskoffie", "koffiebonen", "snelfiltermaling", "koffiepads", "koffiecups","koffiecapsules", 
-            "Douwe Egberts", "nespresso", "senseo", "espresso", "lungo", "Nescafé", "perla", "Lavazza", "segafredo", "illy"
+            "Douwe", "Egberts", "nespresso", "senseo", "espresso", "lungo", "Nescafé", "perla", "Lavazza", "segafredo", "illy"
         ]
     },
     {
         "name": "groente",
         "keywords": [
             "groentegemak", "groenteshots", "groenteshot", "broccoli", "broccoliroosjes", "bloemkool",
-            "bloemkoolroosjes", "spruiten", "waspeen", "winterpeen", "winterpenen", "bospeen", "bospenen", "wortel", "wortels", 
+            "bloemkoolroosjes", "spruiten", "waspenen", "waspeen", "winterpeen", "winterpenen", "bospeen", "bospenen", "wortel", "wortels", 
             "prei", "andijvie", "boerenkool", "spinazie", "wortelen", "kinderappels",
             "tomaten", "paprika", "paprika's", "paprikamix", "veldsla", "bladsla", "avocado", "snoeptomaatjes", "snoepgroente", "ovengroente", 
             "ovengroenten", "groenten", "groentemix", "groente", "kookgroente", 
@@ -37,21 +37,21 @@
     },
     {
         "name": "aardappel",
-        "keywords": [ "Aardappel-", "aardappelen", "krieltjes", "mini-krieltjes", "aardappelspecialiteiten", "aardappelspecialiteit", "aardappelschijfjes", "aardappelkroketjes",
+        "keywords": [ "Aardappel-", "aardappelen", "potatoes", "krieltjes", "mini-krieltjes", "aardappelspecialiteiten", "aardappelspecialiteit", "aardappelschijfjes", "aardappelkroketjes",
              "aardappelbolletjes", "aardappelfrites", "aardappelfriet", "pofaardappelen", "frites", "patat", "pommes", "boerenfriet", "frietjes", "friet", "aardappelgratin",
-             "aardappelroosjes", "aardappelgolfjes", "aardappelpuree", "aardappel", "aardappelpartjes", "aardappelblokjes",
+             "aardappelroosjes", "aardappelgolfjes", "aardappelpuree", "aardappel", "krielaardappelen", "aardappelpartjes", "aardappelblokjes",
               "aardappelwedges", "ovenaardappelen", "opbakaardappelen", "rosti", "rostirondjes", "smulfriet" ]
     },
     {
         "name": "brood",
         "keywords": [ 
             "broodje", "brood", "broodjes", "bananenbrood", "kaiserbroodje", "kaiserbroodjes", "baguette", "crackers", 
-            "chocoladecronut", "donut", "donuts", "mueslibollen", "tijgerbollen",
+            "chocoladecronut", "chocoladebroodje", "chocoladebroodjes", "roomboterpuntjes", "donut", "donuts", "mueslibollen", "tijgerbollen",
             "pitabroodjes", "foccacia","croissant", "croissantjes", "kampioentjes", "desempisolet", "desempistolets",
-            "pistolets","pistolet", "pistoletjes", "olijvenbrood",
+            "pistolets","pistolet", "pistoletjes", "olijvenbrood", "pecanbroodje", "worstenbrood",
             "krentenbollen", "vloerbrood", "bakkersbollen", "meergranenbollen", "mini-puntjes", "volkorenpuntjes",
             "puntjes", "mini-rozijnen-krentenbollen", "mini-krentenbollen", "frikandelbroodje", "frikandelbroodjes",
-            "saucijzenbroodjes", "saucijzenbroodje", "zonnebloempittenbrood", "sesamvolkorenbrood",
+            "saucijzenbroodjes", "stol", "volkorenstol", "saucijzenbroodje", "zonnebloempittenbrood", "sesamvolkorenbrood",
             "vruchtenbrood", "bakkersbrood", "meerzadenbroodje", "meerzadenbrood", "volkorenbrood", 
             "grofvolkorenbrood", "sesambrood", "meergranenbrood"
         ]
@@ -68,7 +68,7 @@
     },
     {
         "name": "zuivel",
-        "keywords": ["karnemelk", "campina", "fage", "melkunie", "danio",
+        "keywords": ["karnemelk", "campina", "fage", "melkunie", "optimel", "danio",
              "kwark", "haverdrank", "vla", "skyr", "drinkyoghurt", "yoghurt"]
     },
     {
@@ -99,9 +99,9 @@
         "name": "noten",
         "keywords": [
             "notenmix", "cashewnoten", "walnoten", "studentenhaver", 
-            "nootjes", "edamame", "noten", "notenmelange",
+            "nootjes", "edamame", "noten", "notenmelange", "pecannoten",
             "pinda's", "amandelen", "notemix", "pistache", "pistachenoten",
-            "macadamia"
+            "macadamia", "borrelnoten"
         ]
     },
     {
@@ -128,16 +128,16 @@
         ]
     },
     {
-        "name": "huishoudelijk",
+        "name": "huishouden",
         "keywords": [
-            "ajax", "plenty", "lenor", "sun", "ambi-pur", "robijn","swiffer", "sorbo", "antikal", "ariel", "lenor", 
+            "ajax", "plenty", "lenor", "sun", "ambi-pur", "robijn", "formil", "swiffer", "sorbo", "antikal", "ariel", "lenor", 
             "glorix", "andy", "leifheit", "cif", "dreft", "sun", "XG2", "reus", "persil", "fleuril", "finish",
             "bleek", "luchtverfrissers", "luchtverfrisser", "vlekverwijderaar", "vlekverwijderaars",
-            "wasmiddel", "wasmiddelen", "stofzuigerzakken", "schoonmaakazijn",
+            "wasmiddel", "wasmiddelen", "stofzuigerzakken", "schoonmaakazijn", "waspoeder",
             "wasverzachter", "wasbeurt", "wasbeurten", "schuurspons", "keukenpapier", 
             "huishoud", "luchtverfrisser", "luchtverfrisserspray", "ontkalker", "wasmachinereiniger",
             "vloerwisser", "ontvetterdoekjes", "huishoudelijk", "afwasmiddel", "handafwas", "vaatwas",
-            "vaatwasmiddel", "vaatwascapsules", "vaatwastablet", "vaatwastabletten","schoonmaakartikelen", 
+            "vaatwasmiddel", "parketreiniger", "vaatwascapsules", "vaatwastablet", "vaatwastabletten","schoonmaakartikelen", 
             "schoonmaakbenodigdheden", "schoonmaakdoekjes", "schoonmaaksprays", "reinigingsdoekje", 
             "reinigingsdoekjes", "allesreiniger", "reiniger", "containerzakken", "vuilniszakken"
         ]
