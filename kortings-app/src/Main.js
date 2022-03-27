@@ -126,7 +126,7 @@ function Main(props) {
                       <span onClick={filterCategory} data-category="noten">Noten</span>
                       <span onClick={filterCategory} data-category="zuivel">Zuivel</span>
                       <span onClick={filterCategory} data-category="verzorging">Verzorging</span>
-                      <span onClick={filterCategory} data-category="huishoudelijk">Huishoudelijk</span>
+                      <span onClick={filterCategory} data-category="huishouden">huishouden</span>
                     </div>
                     <div className="filter-offer">
                       <span onClick={filterOffer} data-offer="1+1 gratis">1+1</span>
