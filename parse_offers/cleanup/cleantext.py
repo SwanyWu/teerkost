@@ -4,6 +4,7 @@ def cleanUpTitle(title):
 
     badWords = ['Alle AH ', 'Diverse AH ', 'Alle ', 'AH ', '*', 'Jumbo ']
 
+    title = title.replace("’", "'") # sanitize different kinds of apostrophes
     for word in badWords:
         title = title.replace(word, '')
 
@@ -18,6 +19,7 @@ def cleanUpInfo(infoText):
     'Alle soorten ', 'Alle soorten\n',
     'Alle soorten\n2 ', 'Alle soorten\n3 ', 'Alle soorten, ', 'Alle combinaties mogelijk ']
 
+    infoText = infoText.replace("’", "'") # sanitize different kinds of apostrophes
     for word in badWords:
         infoText = infoText.replace(word, '')
 

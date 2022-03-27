@@ -39,6 +39,13 @@ class TestCleanup(unittest.TestCase):
         resultingCategory = categorize.findCategoryForProduct("Lenor", "derp derp")
         self.assertTrue(resultingCategory == 'huishouden')
 
+    def test_return_single_word_w_apostrof(self):
+        """
+        ✅ Categorie voor product wordt gevonden met enkel woord en apostrof 👉 
+        """        
+        resultingCategory = categorize.findCategoryForProduct("Mango's Ready to Eat", "2-pack")
+        self.assertTrue(resultingCategory == 'fruit')    
+
     def test_return_empty_w_empty_input(self):
         """
         ✅ Categorie voor product wordt leeg teruggegeven bij lege titel input 👉 
