@@ -109,8 +109,8 @@ def returnOffers():
                             deal = str(priceLabel)
                         deal = deal.lower()
 
-                offer.update({"product": title})
-                offer.update({"productInfo": info})
+                offer.update({"product": cleantext.cleanUpTitle(title)})
+                offer.update({"productInfo": cleantext.cleanUpInfo(info)})
                 offer.update({"category": categorize.findCategoryForProduct(title, info)})
                 offer.update({"image": imageLink})
                 offer.update({"deal": deal})
