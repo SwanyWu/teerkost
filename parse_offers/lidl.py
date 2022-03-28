@@ -91,11 +91,12 @@ def returnOffers():
             concatDescription = concatDescription + " " + priceLabel # add pricelabel contents to the description
             
         cleanInfoText = cleantext.cleanUpInfo(concatDescription.strip())
+        cleanTitle = cleantext.cleanUpTitle(title)
         offer.update({"productInfo": cleanInfoText})
 
-        category = categorize.findCategoryForProduct(title, description)
+        category = categorize.findCategoryForProduct(cleanTitle, description)
         offer.update({"category": category})
-        offer.update({"product": title})
+        offer.update({"product": cleanTitle})
         offer.update({"shop": SHOP})
         offer.update({"price": price})
         offer.update({"image": imageUrl})
