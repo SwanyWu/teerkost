@@ -18,12 +18,19 @@ npm build
 
 ## Getting discounts
 
-The data is collected trough a Python package called *parse_offers*. It will populate a json file containing all the discount and move it to the app source code.
+The data is collected trough a Python package called *parse_offers*. 
+
+It will populate a json file containing all the discount and move it to the app source code.
 
 Run the Python script:
 
 ```
 python parse_offers
+```
+
+Run the tests from within the parse_offers folder:
+```
+python -m unittest -b -v
 ```
 
 ## Continuous deployment
