@@ -6,7 +6,7 @@
             "Grolsch", "desperados", "Amstel", "Bavaria", "Affligem", "Trappe", "Brand", "birra", "moretti", "Dors", "Veltins","Dommelsch", "Alfa",
             "Gulpener", "Westmalle", "tripel", "cornet" ,"karmeliet", "skuumkoppe", "corona", "bud", "perlenbacher", "hefeweizen", 
             "kordaat", "tequilabier", "finkbrau", "oettinger", "argus", "hertog", "steenbrugge", "Schultenbräu",
-            "Leffe", "Corona", "Warsteiner", "Jupiler", "Weizen", "ipa", "Chouffe", "Jopen", "Afflichem", "Duvel"
+            "Leffe", "Corona", "Warsteiner", "Jupiler", "Weizen", "witbieren", "witbier", "weizenbier", "weizenbieren", "ipa", "Chouffe", "Jopen", "Afflichem", "Duvel"
         ]
     },
     {
@@ -105,7 +105,7 @@
     {
         "name": "kant-en-klaar",
         "keywords": [
-            "stoommaaltijden", "2-vaks", "3-vaks", "stoommaaltijd", "stamppotten","maaltijd", 
+            "poffertjes", "pizza", "pizza's","stoommaaltijden", "2-vaks", "3-vaks", "stoommaaltijd", "stamppotten","maaltijd", 
             "lunchsalade", "maaltijden", "soep", "erwtensoep", "pureersoepen", "pureersoep", "soepen", 
             "ovenmaaltijd", "ovenmaaltijden","maaltijdcomponenten", "lunchsalade", "lunchsalades",
             "fruitsalades", "fruitsalade", "maaltijdsalade", "maaltijdsalades", "pastasalade", "pastasalades", 
@@ -131,6 +131,21 @@
             "handsinaasappels", "citroenen", "watermeloen", "frambozen", "nectarines", "mango", "mango's", "appels", "calinda",
             "appeltjes","kiwi", "kiwi's", "meloen", "conference", "peren", "ananas", "granaatappel", 
             "elstar", "jonagold"
+        ]
+    },
+    {
+        "name": "wijn",
+        "keywords": [
+            "wijn", "wijnen", "wijnvoordeel", "wijndoos",
+            "waterval", "bradshaw", "villebois",
+            "merlot", "pinot", "grigio", "sauvignon", "montaignan",
+            "chardonnay", "winzer", "krems", "neleman", "bloemfontein",
+            "windheuvel", "bayride", "neleman", "chenin", "pinotage",
+            "crianza", "valpolicella", "solatio", "vino", "frizzante",
+            "prosecco", "cadis", "tempranillo", "côtes", "rhône-villages",
+            "chianti", "beblenheim", "riesling", "puklavec", "nederburg",
+            "baronne", "undurrage", "reserva", "winemaker", "winemaker's",
+            "cabernet", "cabernet-shiraz", "pig", "burgunder" 
         ]
     },
     {
