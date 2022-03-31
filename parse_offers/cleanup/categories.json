@@ -17,6 +17,24 @@
         ]
     },
     {
+        "name": "vlees",
+        "keywords": [
+            "schouderkarbonade", "ribkarbonade", "haaskarbonade", "kipfilet", "kipfilethaasjes",
+            "kipdrumsticks", "gehaktbal", "gehaktballen", "filetlapjes", "rookworst", "kipblokjes",
+            "rund", "varken", "kipkrokant", "kipdijfilet", "knakworst", "braadworst", "cordon",
+            "gehakt", "shoarma", "dijfilet", "slavink", "rundersaucijs", "saucijs", "gehaktschnitzel",
+            "dijshoarma", "speklappen", "kipburger", "bifi", "slagersgehaktbal", "kipgehakt",
+            "gyros", "spekblokjes", "chipolataworst", "filetlapjes", "rundercarpaccio", "rundervinken",
+            "speklap", "kipvleugels", "leverpastei", "boomstam", "kipfiletreepjes", "runderreepjes",
+            "drumsticks", "scharrelkip", "braadstick", "tartaar", "smac", "varkensribeye", "angus",
+            "meat", "riblap", "poulet", "snackworst", "wokblokjes", "runderstooflap", "bout",
+            "ham", "gehaktstaaf", "runderhamburgers", "gehaktballetjes",
+            "biefstuk", "ossenhaas", "ribeye", "entrecote", "ardennerpate", "spekreepjes", "worsten",
+            "carpaccio", "varkenshaas", "vleeswaren", "kookham", "wahid", "rundergehakt", "gehakt",
+            "hamlappen", "prosciutto", "pavé", "venkelsalami", "salami"
+        ]
+    },
+    {
         "name": "groente",
         "keywords": [
             "groentegemak", "groenteshots", "groenteshot", "broccoli", "broccoliroosjes", "bloemkool",
