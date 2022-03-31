@@ -1,6 +1,6 @@
 import React, {Suspense, useState} from "react";
 
-import Date from './Date';
+import DateLabel from './DateLabel';
 import Price from './Price';
 import Category from './Category';
 
@@ -39,7 +39,7 @@ function ProductCard(props) {
         )}
         <span className={"product-shop " + props.item['shop']}>{props.item['shop']}</span>
         <Category category={props.item['category']}/>
-        <Date dateEnd={props.item['dateEnd']} dateStart={props.item['dateStart']}/>
+        <DateLabel dateEnd={props.item['dateEnd']} dateStart={props.item['dateStart']}/>
         <Price newPrice={props.item['price']} />
         <Suspense fallback={<div className="even-geduld-image"></div>}>
           <Image image={props.item['image']} />
