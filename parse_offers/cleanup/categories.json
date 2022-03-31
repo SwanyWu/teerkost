@@ -37,38 +37,39 @@
     },
     {
         "name": "aardappel",
-        "keywords": [ "Aardappel-", "aardappelen", "potatoes", "krieltjes", "mini-krieltjes", "aardappelspecialiteiten", "aardappelspecialiteit", "aardappelschijfjes", "aardappelkroketjes",
+        "keywords": [ "Aardappel-", "aardappelen", "potatoes", "krieltjes", "minikrieltjes", "mini-krieltjes", "aardappelspecialiteiten", "aardappelspecialiteit", "aardappelschijfjes", "aardappelkroketjes",
              "aardappelbolletjes", "aardappelfrites", "aardappelfriet", "pofaardappelen", "frites", "patat", "pommes", "boerenfriet", "frietjes", "friet", "aardappelgratin",
              "aardappelroosjes", "aardappelgolfjes", "aardappelpuree", "aardappel", "krielaardappelen", "aardappelpartjes", "aardappelblokjes",
-              "aardappelwedges", "ovenaardappelen", "opbakaardappelen", "rosti", "rostirondjes", "smulfriet" ]
+              "aardappelwedges", "ovenaardappelen", "opbakaardappelen", "rosti", "rostirondjes", "smulfriet", "cêlavita"
+             ]
     },
     {
         "name": "brood",
         "keywords": [ 
-            "broodje", "brood", "broodjes", "bananenbrood", "kaiserbroodje", "kaiserbroodjes", "baguette", "crackers", 
+            "broodje", "brood", "bakkerij", "bollen", "knäckebröd", "broodjes", "bananenbrood", "kaiserbroodje", "kaiserbroodjes", "baguette", "crackers", 
             "chocoladecronut", "chocoladebroodje", "chocoladebroodjes", "roomboterpuntjes", "donut", "donuts", "mueslibollen", "tijgerbollen",
             "pitabroodjes", "foccacia","croissant", "croissantjes", "kampioentjes", "desempisolet", "desempistolets",
             "pistolets","pistolet", "pistoletjes", "olijvenbrood", "pecanbroodje", "worstenbrood",
             "krentenbollen", "vloerbrood", "bakkersbollen", "meergranenbollen", "mini-puntjes", "volkorenpuntjes",
             "puntjes", "mini-rozijnen-krentenbollen", "mini-krentenbollen", "frikandelbroodje", "frikandelbroodjes",
-            "saucijzenbroodjes", "stol", "volkorenstol", "saucijzenbroodje", "zonnebloempittenbrood", "sesamvolkorenbrood",
+            "saucijzenbroodjes", "stol", "volkorenstol", "volkorennotenstol", "notenstol", "saucijzenbroodje", "zonnebloempittenbrood", "sesamvolkorenbrood",
             "vruchtenbrood", "bakkersbrood", "meerzadenbroodje", "meerzadenbrood", "volkorenbrood", 
-            "grofvolkorenbrood", "sesambrood", "meergranenbrood"
+            "grofvolkorenbrood", "sesambrood", "meergranenbrood", "krokantjes"
         ]
     },
     {
         "name": "kaas",
-        "keywords": ["zaanlander", "beemster", "galbani", "président", "zanetti", 
+        "keywords": ["zaanlander", "beemster", "galbani", "président", "zanetti", "roomkaas", "roomkaasrolletjes",
             "milner", "maaslander", "boerenkaas", "boerderijkaas", "gruyere",
             "kaas", "specialiteitenkaas",  "kaasplakken", "gatenkaas", "rustique",
             "fondeu", "borrelkazen", "borrelkaas", "borrelkaasjes", "brokkelkaas",
             "brie", "rochebaron", "geitenkaas", "goudse", "walnootkaas", "roomsmeerkaas",
-            "parrano", "parmazan", "camembert","parmigiano", "reggiano", 
+            "parrano", "feta", "fondue", "parmazan", "camembert","parmigiano", "reggiano", 
             "gorgonzola", "mozzerella", "buffelmozzerella"]
     },
     {
         "name": "zuivel",
-        "keywords": ["karnemelk", "campina", "fage", "melkunie", "optimel", "danio",
+        "keywords": ["karnemelk", "campina", "fage", "melkunie", "mona", "optimel", "danio",
              "kwark", "haverdrank", "vla", "skyr", "drinkyoghurt", "yoghurt"]
     },
     {
@@ -88,11 +89,11 @@
         "keywords": [
             "stoommaaltijden", "2-vaks", "3-vaks", "stoommaaltijd", "stamppotten","maaltijd", 
             "lunchsalade", "maaltijden", "soep", "erwtensoep", "pureersoepen", "pureersoep", "soepen", 
-            "ovenmaaltijd", "ovenmaaltijden","maaltijdcomponenten",
-            "fruitsalades", "fruitsalade", "maaltijdsalade", "pastasalade", "pastasalades", 
+            "ovenmaaltijd", "ovenmaaltijden","maaltijdcomponenten", "lunchsalade", "lunchsalades",
+            "fruitsalades", "fruitsalade", "maaltijdsalade", "maaltijdsalades", "pastasalade", "pastasalades", 
             "maaltijdsalades", "3-vaks-maaltijden","3-vaksmaaltijden", "3-vaks-maaltijd",
             "3-vaksmaaltijd", "2-vaks-maaltijd", "2-vaks-maaltijden", "ovenschotels", "ovenschotel", 
-            "prei-kerrie-ovenschotel", "quiche", "maaltijdpakket", "maaltijdpakketten"
+            "prei-kerrie-ovenschotel", "quiche", "maaltijdpakket", "maaltijdpakketten", "pannenkoeken"
         ]
     },
     {
@@ -123,7 +124,7 @@
             "andrélon", "edet", "nalys", "dettol", "dove", "rexona", "axe", "gillette", "venus", "elmex",
             "navulmesjes", "shampoo", "conditioner", "deodorant", "douchegel", "cremespoeling", "nachtcreme", 
             "dagcreme", "handzeep", "lichaamsverzorging", "verzorgingsproduct", "verzorgingsproducten", "zonbescherming",
-            "gezichtsverzorging", "luiers",
+            "gezichtsverzorging", "luiers", "zonnebrand", "aftersun", "snoetenpoetsers",
             "mondkapje", "mondkapjes", "cosmetica", "baby", "toiletpapier", "soft-picks", "verzorging"
         ]
     },
@@ -139,7 +140,7 @@
             "vloerwisser", "ontvetterdoekjes", "huishoudelijk", "afwasmiddel", "handafwas", "vaatwas",
             "vaatwasmiddel", "parketreiniger", "vaatwascapsules", "vaatwastablet", "vaatwastabletten","schoonmaakartikelen", 
             "schoonmaakbenodigdheden", "schoonmaakdoekjes", "schoonmaaksprays", "reinigingsdoekje", 
-            "reinigingsdoekjes", "allesreiniger", "reiniger", "containerzakken", "vuilniszakken"
+            "reinigingsdoekjes", "allesreiniger", "aanslagreiniger", "reiniger", "containerzakken", "vuilniszakken"
         ]
     }
 ]
