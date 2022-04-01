@@ -15,11 +15,12 @@ function ProductCard(props) {
 
     product = product.trim();
   
-    const parsedProduct = product.normalize('NFD').replace(/[\u0300-\u036f]/g, '') // Remove accents
+    var parsedProduct = product.normalize('NFD').replace(/[\u0300-\u036f]/g, '') // Remove accents
     .replace(/([^\w]+|\s+)/g, '-') // Replace space and other characters by hyphen
     .replace(/\-\-+/g, '-')	// Replaces multiple hyphens by one hyphen
     .replace(/(^-+|-+$)/g, ''); 
-  
+    parsedProduct = parsedProduct.toLowerCase(); 
+
     return parsedProduct;
   }
 
@@ -33,7 +34,7 @@ function ProductCard(props) {
           <div className="item-overlay">
           <ul>
             <li><a href={props.item['link']}>Open op {props.item['shop'] + ".nl"}</a></li>
-            <li><a href={"https://teerkost.nl/#/" + props.item['shop'] +"?product=" + convertProductToLink(props.item['product']) + ""}>Open unieke link</a></li>
+            <li><a href={"https://teerkost.nl/#/" + props.item['shop'] +"/product/" + convertProductToLink(props.item['product']) + ""}>Open unieke link</a></li>
           </ul>
         </div>
         )}
