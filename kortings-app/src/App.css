@@ -591,23 +591,23 @@ b.label-shop-lidl {
   box-shadow: inset 0px -1px 0px #00000052;
 }
 
-.product-shop.Lidl {   
+.product-shop.lidl {   
   background: #fff000; 
   color: #0050aa; 
   text-decoration: underline;
   text-decoration-color: red;
 }
 
-.product-shop.Jumbo {   
+.product-shop.jumbo {   
   background: #eeb717; 
   color: #FFF;
   text-shadow: 1px 1px #000;
 }
-.product-shop.AH {
+.product-shop.ah {
   background: #00ade6;
   color: #FFF;
 }
-.product-shop.Aldi {
+.product-shop.aldi {
   background: #202b78;
   color: #FFF;
   text-decoration: underline;
