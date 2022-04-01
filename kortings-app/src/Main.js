@@ -92,10 +92,30 @@ function Main(props) {
     setSelectedOffers(filtered);
     console.log(filtered.length)
   }
-        
+
+  const shareApi = () => {
+    if (navigator.share) {
+      navigator.share({
+        title: 'Teerkost',
+        url: 'https://teerkost.nl'
+      }).then(() => {
+        console.log('Dankje');
+      })
+      .catch(console.error);
+    } else {
+      // shareDialog.classList.add('is-open');
+      console.log("helaas dit werkt niet")
+    }
+  }
+     
   return (
     <div>
-        <header className="filter"> 
+        <header className="filter">
+            {navigator.share && (
+                <div onClick={shareApi} className="share-button">
+                  <i class="ri-share-box-fill"></i>
+                </div>
+            )}  
             <div id="filter-dialog">
             <div className="filter-wrap">
                 <div className="filter-shop">
@@ -119,7 +139,7 @@ function Main(props) {
                   <span onClick={() => clickOnCat("zuivel")} data-category="zuivel">Zuivel</span>
                   <span onClick={() => clickOnCat("vlees")} data-category="vlees">Vlees</span>
                   <span onClick={() => clickOnCat("verzorging")} data-category="verzorging">Verzorging</span>
-                  <span onClick={() => clickOnCat("huishouden")} data-category="huishouden">huishouden</span>
+                  <span onClick={() => clickOnCat("huishouden")} data-category="huishouden">Huishouden</span>
                 </div>
                 <div className="filter-deal">
                   <span onClick={() => clickOnDeal("1+1 gratis")} data-deal="1+1 gratis">1+1</span>

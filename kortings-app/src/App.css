@@ -163,6 +163,19 @@ header#header {
   z-index: 800;
 }
 
+.share-button {
+  cursor: pointer;
+  position: absolute;
+  right: 0px;
+  margin: 0px;
+  color: #fff;
+  text-align: center;
+  border-radius: 8px;
+  padding: 10px 10px 10px 10px;
+  font-size: 1.2em;
+  text-shadow: 1px 1px 0px #820101;
+}
+
 #filter-description {
   padding: 10px 0px 10px 10px;
   margin: 10px 10px 10px 10px;
