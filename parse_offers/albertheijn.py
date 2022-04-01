@@ -3,7 +3,7 @@ from datetime import datetime
 from cleanup import categorize, cleantext
 
 def returnOffers(): 
-    SHOP = "AH"
+    SHOP = "ah"
 
     URL = "https://www.ah.nl/bonus/api/segments?segmentType=-PREMIUM"
     

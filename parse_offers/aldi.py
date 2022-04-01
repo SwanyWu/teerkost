@@ -33,7 +33,7 @@ def returnCalculatedDate(datestring, plusDays):
 
 def returnOffers():
 
-    SHOP = "Aldi"
+    SHOP = "aldi"
     URL = "https://www.aldi.nl/aanbiedingen.html?ftl-pty=Weekactie"
 
     r = requests.get(URL)

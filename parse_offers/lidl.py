@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 
 def returnOffers():
 
-    SHOP = "Lidl"
+    SHOP = "lidl"
     URL = "https://www.lidl.nl/c/aanbiedingen/a10008785"
 
 

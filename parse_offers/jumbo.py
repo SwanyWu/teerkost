@@ -4,7 +4,7 @@ from cleanup import categorize, cleantext
   
 
 def returnOffers():
-    SHOP = "Jumbo"
+    SHOP = "jumbo"
     URL = "https://mobileapi.jumbo.com/v17/promotions"
     
     HEADERS = {
