@@ -237,7 +237,7 @@ b.label-shop-lidl {
   100% { bottom: 0px;}  
 }
 
-.filter-offer, .filter-cat, .filter-shop {
+.filter-deal, .filter-cat, .filter-shop {
   display: inline-block;
   white-space: nowrap;
   overflow-x: auto;
@@ -245,7 +245,7 @@ b.label-shop-lidl {
   width: 100%;
 }
 
-.filter-cat span, .filter-shop span, .filter-offer span {
+.filter-cat span, .filter-shop span, .filter-deal span {
   display: inline-block;
   position: relative;
   z-index: 700;
@@ -259,7 +259,7 @@ b.label-shop-lidl {
   box-shadow: var(--shadow-elevation-medium);
 }
 
-.filter-offer span {
+.filter-deal span {
   background: #e0ffdb;
   color: #117902;
   padding: 8px 10px 8px 10px;
@@ -302,8 +302,8 @@ b.label-shop-lidl {
   padding: 5px 5px 5px 5px;
 }
 
-#active-offer, #active-shop, #active-category {
-  box-shadow: var(--shadow-elevation-medium), inset 0px 0px 0px 3px #FFF, inset 0px 0px 2px 5px #318a35;
+#active-deal, #active-shop, #active-category {
+  box-shadow: var(--shadow-elevation-medium),inset 0 0 0 3px #fff,inset 0 -1px 2px 3px #318a35;
   color: #FFF !important;
   text-shadow: 1px 1px #005305;
   background: #16b000 !important;
