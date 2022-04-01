@@ -22,14 +22,35 @@ function App() {
     return parsedProduct;
   }
 
+  const shops = ["jumbo", "aldi", "ah", "lidl"]
+  const categories = ["bier", "koffie", "groente", "vis", "fruit", "kant-en-klaar", "wijn", "aardappel", "brood", "kaas", "noten", "zuivel", "vlees", "verzorging", "huishouden"]
+
   return (
     <div className="App">
       <Routes>
         <Route path="/">
           <Route index element={<Main />} />
-          {Offers.map((item) => {
+
+          {Offers.map((item) => { // Map all routes to the offers
            return <Route path={ "" + item.shop +"/product/" + convertProductToLink(item.product) + ""} element={<SingleProduct item={item} />} />
           })}
+
+          {shops.map((shop, key) => { // Map all routes for shops
+            return <Route key={key} path={shop} element={<Main shop={shop} />} />
+          })}
+
+          {shops.map((shop) => { // Map all routes for shops and categories
+            return categories.map((category, key) => {
+              return <Route key={key} path={shop + "/" + category} element={<Main shop={shop} cat={category} />} />
+            })
+          })}
+
+          {categories.map((category, key) => { // Map all routes for categories for all shops
+              return <Route key={key} path={"alle-winkels/" + category} element={<Main cat={category} />} />
+            })}
+          
+          <Route path="alle-winkels" element={<Main />} /> { /* Map all routes for all shops with everything */ }
+
         </Route>
       </Routes>
       <Footer/>
