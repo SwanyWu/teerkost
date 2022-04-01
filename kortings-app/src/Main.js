@@ -14,6 +14,14 @@ function Main(props) {
   const [selectedDealRoute, setSelectedDealRoute] = useState(props.deal);
   const [selectedCatRoute, setSelectedCatRoute] = useState(props.cat);
 
+  useEffect(() => {
+    toggleFilterButton(selectedShopRoute, "shop")
+    toggleFilterButton(selectedCatRoute, "category")
+    toggleFilterButton(selectedDealRoute, "deal")
+
+    updateOfferList(selectedShopRoute, selectedCatRoute, selectedDealRoute)
+  }, [])
+
   const clickOnShop = (name) => {
     toggleFilterButton(name, "shop")
     if(selectedShopRoute === name) {
@@ -91,10 +99,10 @@ function Main(props) {
             <div id="filter-dialog">
             <div className="filter-wrap">
                 <div className="filter-shop">
-                  <span onClick={() => clickOnShop("AH")} data-shop="AH">Albert Heijn</span>
-                  <span onClick={() => clickOnShop("Jumbo")}  data-shop="Jumbo">Jumbo</span>
-                  <span onClick={() => clickOnShop("Lidl")} data-shop="Lidl">Lidl</span>
-                  <span onClick={() => clickOnShop("Aldi")}  data-shop="Aldi">Aldi</span>
+                  <span onClick={() => clickOnShop("ah")} data-shop="ah">Albert Heijn</span>
+                  <span onClick={() => clickOnShop("jumbo")}  data-shop="jumbo">Jumbo</span>
+                  <span onClick={() => clickOnShop("lidl")} data-shop="lidl">Lidl</span>
+                  <span onClick={() => clickOnShop("aldi")}  data-shop="aldi">Aldi</span>
                 </div>
                 <div className="filter-cat">
                   <span onClick={() => clickOnCat("bier")} data-category="bier">Bier</span>
