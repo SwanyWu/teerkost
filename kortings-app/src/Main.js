@@ -5,6 +5,14 @@ const ProductsContainer = React.lazy(() => import ('./ProductsContainer'));
 
 function Main(props) {
   
+  let categories = [
+    ['bier', 0], ['koffie', 0], ['groente', 0], ['vis', 0],['fruit', 0],['kant-en-klaar', 0],
+    ['wijn', 0], ['aardappel', 0], ['brood', 0], ['kaas', 0], ['noten', 0], ['zuivel', 0], 
+    ['vlees', 0], ['frisdrank', 0], ['verzorging', 0], ['huishouden', 0]
+  ]
+
+  const [categoriesList, setCategoriesList] = useState(categories)
+
   useEffect(() => {
     window.scrollTo(0, 0);
   });
@@ -19,8 +27,32 @@ function Main(props) {
     toggleFilterButton(selectedCatRoute, "category")
     toggleFilterButton(selectedDealRoute, "deal")
 
+    setCounterPerCategory(selectedShopRoute)
+
     updateOfferList(selectedShopRoute, selectedCatRoute, selectedDealRoute)
   }, [])
+
+  const setCounterPerCategory = (shop) => {
+    if(shop !== undefined) {
+      var shopFilter = object => object.shop === shop;
+
+    }
+    else {
+      var shopFilter = object => object.shop !== null;
+    }
+  
+    let tempList = []
+    categoriesList.map((category, key) => {
+      var categoryFilter = object => object.category === category[0];
+
+      var filterByCategory = Offers.filter(shopFilter).filter(categoryFilter)
+      var numberCountByCategory = filterByCategory.length
+
+      let categoryObjectTemp = [category[0], numberCountByCategory]
+      return tempList.push(categoryObjectTemp)
+    })
+    setCategoriesList(tempList)
+  }
 
   const clickOnShop = (name) => {
     toggleFilterButton(name, "shop")
@@ -28,6 +60,7 @@ function Main(props) {
       name = undefined
     }
     setSelectedShopRoute(name)
+    setCounterPerCategory(name)
     updateOfferList(name, selectedCatRoute, selectedDealRoute)
   }
 
@@ -85,12 +118,12 @@ function Main(props) {
       shopFilter = object => object.shop === selectedShopRoute;
       console.log("Filter voor shop met " + selectedShopRoute + " ingesteld.")
     }
-    console.log(Offers.length)
+    console.log("Totale aantal aanbiedingen: " + Offers.length)
 
     var filtered = Offers.filter(shopFilter).filter(dealFilter).filter(categoryFilter)
     
     setSelectedOffers(filtered);
-    console.log(filtered.length)
+    console.log("Aantal aanbiedingen na filter: " + filtered.length)
   }
 
   const shareApi = () => {
@@ -107,7 +140,7 @@ function Main(props) {
       console.log("helaas dit werkt niet")
     }
   }
-     
+  
   return (
     <div>
         <header className="filter">
@@ -125,22 +158,14 @@ function Main(props) {
                   <span onClick={() => clickOnShop("aldi")}  data-shop="aldi">Aldi</span>
                 </div>
                 <div className="filter-cat">
-                  <span onClick={() => clickOnCat("bier")} data-category="bier">Bier</span>
-                  <span onClick={() => clickOnCat("koffie")} data-category="koffie">Koffie</span>
-                  <span onClick={() => clickOnCat("groente")} data-category="groente">Groente</span>
-                  <span onClick={() => clickOnCat("vis")} data-category="vis">Vis</span>
-                  <span onClick={() => clickOnCat("fruit")} data-category="fruit">Fruit</span>
-                  <span onClick={() => clickOnCat("kant-en-klaar")} data-category="kant-en-klaar">Kant-en-klaar</span>
-                  <span onClick={() => clickOnCat("wijn")} data-category="wijn">Wijn</span>
-                  <span onClick={() => clickOnCat("aardappel")} data-category="aardappel">Aardappel</span>
-                  <span onClick={() => clickOnCat("brood")} data-category="brood">Brood</span>
-                  <span onClick={() => clickOnCat("kaas")} data-category="kaas">Kaas</span>
-                  <span onClick={() => clickOnCat("noten")} data-category="noten">Noten</span>
-                  <span onClick={() => clickOnCat("zuivel")} data-category="zuivel">Zuivel</span>
-                  <span onClick={() => clickOnCat("vlees")} data-category="vlees">Vlees</span>
-                  <span onClick={() => clickOnCat("frisdrank")} data-category="frisdrank">Frisdrank</span>
-                  <span onClick={() => clickOnCat("verzorging")} data-category="verzorging">Verzorging</span>
-                  <span onClick={() => clickOnCat("huishouden")} data-category="huishouden">Huishouden</span>
+                  {categoriesList.map((category, key) => {
+                    if(category[1] === 0) {
+                      return <span className='filter-no-interest' key={key} onClick={() => clickOnCat(category[0])} data-category={category[0]}>{category[0]}</span>
+                    }
+                    else {
+                      return <span key={key} onClick={() => clickOnCat(category[0])} data-category={category[0]}>{category[0]} <i className="counter" data-category="bier">{category[1]}</i></span>
+                    }
+                  })}
                 </div>
                 <div className="filter-deal">
                   <span onClick={() => clickOnDeal("1+1 gratis")} data-deal="1+1 gratis">1+1</span>

@@ -281,7 +281,27 @@ b.label-shop-lidl {
 .filter-cat span {
   background: #d2e8ff;
   color: #01245bb5;
-  padding: 10px 15px 10px 15px;
+  padding: 10px 0px 10px 15px;
+  overflow: hidden;
+}
+
+.filter-cat span.filter-no-interest:not(#active-category) {
+  opacity: .3;
+  filter: grayscale();
+  color: #000;
+  padding: 10px 10px 10px 10px;
+}
+.filter-cat #active-category.filter-no-interest{
+  padding: 10px 10px 10px 10px;
+}
+
+.filter-cat i.counter {
+  background: #FFF;
+  color: #4a4a4a;
+  text-shadow: none;
+  font-style: normal;
+  padding: 10px 5px 10px 5px;
+  margin-left: 5px;
 }
 
 .filter-shop span {
