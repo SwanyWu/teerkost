@@ -138,6 +138,7 @@ function Main(props) {
                   <span onClick={() => clickOnCat("noten")} data-category="noten">Noten</span>
                   <span onClick={() => clickOnCat("zuivel")} data-category="zuivel">Zuivel</span>
                   <span onClick={() => clickOnCat("vlees")} data-category="vlees">Vlees</span>
+                  <span onClick={() => clickOnCat("frisdrank")} data-category="frisdrank">Frisdrank</span>
                   <span onClick={() => clickOnCat("verzorging")} data-category="verzorging">Verzorging</span>
                   <span onClick={() => clickOnCat("huishouden")} data-category="huishouden">Huishouden</span>
                 </div>
