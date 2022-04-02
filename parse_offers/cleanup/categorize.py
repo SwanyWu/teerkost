@@ -14,10 +14,10 @@ def findCategoryForProduct(title, description):
     categories = json.loads(data)
     wordsList = []
 
-    if ' ' in title:
+    if ' ' in title: # space found, so split string by space
         wordsList = re.split(' ', title.lower().replace(',', ''))
-    else:
-        wordsList.append(title.lower())   
+    else: # no space, just one word
+        wordsList.append(title.lower()) 
 
     descriptionWordList = re.split(' ', description.lower().replace(',', ''))
     wordsList.extend(descriptionWordList)
@@ -27,7 +27,15 @@ def findCategoryForProduct(title, description):
     for word in wordsList:
         for category in categories:
             for keyword in category['keywords']:
-                if keyword.lower() == word:
+                if keyword.lower() == word: # keyword matched, so use the relevant category
                     foundCategory = category['name']
-    
+                        
+    if foundCategory != "": # if category found, check for words that should be ignored
+        for word in wordsList:
+            for category in categories:
+                if category['name'] == foundCategory:
+                    for ignore in category['ignore']:
+                        if ignore.lower() == word: # bad word found, so remove category
+                            foundCategory = ""
+
     return foundCategory

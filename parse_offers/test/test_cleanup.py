@@ -4,6 +4,25 @@ from cleanup import categorize, cleantext
 
 class TestCleanup(unittest.TestCase):
 
+    def test_return_category_but_ignore_words(self):
+        """
+        ✅ Categorie voor product vinden maar ook woorden negeren 👉 
+        """
+        resultingCategory = categorize.findCategoryForProduct("filet american", "dikke bak")
+        self.assertTrue(resultingCategory == 'vlees')
+
+        resultingCategory = categorize.findCategoryForProduct("gigantische biefstuk", "maar wel echt een dier")
+        self.assertTrue(resultingCategory == 'vlees')
+
+        resultingCategory = categorize.findCategoryForProduct("gigantische biefstuk", "maar wel vegetarisch lol")
+        self.assertTrue(resultingCategory != 'vlees')
+
+        resultingCategory = categorize.findCategoryForProduct("vegetarische filet american", "dikke bak")
+        self.assertTrue(resultingCategory != 'vlees')
+
+        resultingCategory = categorize.findCategoryForProduct("vegetarische brood volkoren", "heel veel")
+        self.assertTrue(resultingCategory == 'brood')
+
     def test_return_category_by_title(self):
         """
         ✅ Categorie voor product wordt gevonden in titel 👉 
