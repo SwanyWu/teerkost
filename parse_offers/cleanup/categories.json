@@ -5,7 +5,7 @@
             "brouwerij", "brewery", "bier", "bieren", "biermerken", "speciaalbier", "0.0", "pilsener", "pils", "Heineken", "Radler", "speciaalbieren", 
             "Grolsch", "desperados", "Amstel", "Bavaria", "Affligem", "Trappe", "Brand", "birra", "moretti", "Dors", "Veltins","Dommelsch", "Alfa",
             "Gulpener", "Westmalle", "tripel", "cornet" ,"karmeliet", "skuumkoppe", "corona", "bud", "perlenbacher", "hefeweizen", 
-            "kordaat", "tequilabier", "finkbrau", "oettinger", "argus", "steenbrugge", "Schultenbräu",
+            "kordaat", "tequilabier", "finkbrau", "oettinger", "argus", "steenbrugge", "Schultenbräu", "palm",
             "Leffe", "Corona", "Warsteiner", "Jupiler", "Weizen", "witbieren", "witbier", "weizenbier", "hertog", "weizenbieren", "ipa", "Chouffe", "Jopen", "Afflichem", "Duvel"
         ],
         "ignore": ["stoofvlees", "runderhachee", "ijs", "ijssalon"]
@@ -23,16 +23,17 @@
         "keywords": [
             "schouderkarbonade", "ribkarbonade", "haaskarbonade", "kipfilet", "kipfilethaasjes",
             "kipdrumsticks", "gehaktbal", "gehaktballen", "filetlapjes", "rookworst", "kipblokjes",
-            "rund", "varken", "kipkrokant", "kipdijfilet", "kipschnitzels", "kaasschnitzel", "kaasschnitzels", "knakworst", "braadworst", "cordon",
+            "rund", "varken", "kipkrokant", "kipdijfilet", "kipschnitsels", "kaasschnitzel", "kaasschnitzels", "knakworst", "braadworst", "cordon",
             "gehakt", "shoarma", "dijfilet", "slavink", "rundersaucijs", "saucijs", "gehaktschnitzel",
             "dijshoarma", "speklappen", "kipburger", "bifi", "slagersgehaktbal", "kipgehakt",
             "gyros", "spekblokjes", "chipolataworst", "filetlapjes", "rundercarpaccio", "rundervinken",
             "speklap", "kipvleugels", "leverpastei", "boomstam", "kipfiletreepjes", "runderreepjes",
             "drumsticks", "scharrelkip", "braadstick", "tartaar", "smac", "varkensribeye", "angus",
-            "meat", "riblap", "poulet", "snackworst", "wokblokjes", "runderstooflap", "bout",
-            "ham", "gehaktstaaf", "runderhamburgers", "rundvleeshamburgers", "gehaktballetjes", "filet",
+            "meat", "riblap", "poulet", "snackworst", "wokblokjes", "runderstooflap", "stoofvlees", "runderhachee",
+            "bout", "soepballetjes", "scharrelkipfilets", "varkensfiletlapjes",
+            "ham", "beenham", "truffelham", "gehaktstaaf", "runderhamburgers", "rundvleeshamburgers", "gehaktballetjes", "filet",
             "biefstuk", "ossenhaas", "ribeye", "entrecote", "ardennerpate", "spekreepjes", "worsten",
-            "carpaccio", "varkenshaas", "vleeswaren", "kookham", "wahid", "rundergehakt", "gehakt",
+            "carpaccio", "varkenshaas", "vleeswaren", "kookham", "wahid", "rundergehakt", "gehakt", "iberico",
             "hamlappen", "prosciutto", "pavé", "venkelsalami", "salami", "bbq", "grill", "paté", "mekkafood"
         ],
         "ignore": ["vega", "vegan", "vegetarisch", "vegetarische"]
@@ -44,22 +45,22 @@
             "bloemkoolroosjes", "spruiten", "waspenen", "waspeen", "winterpeen", "winterpenen", "bospeen", "bospenen", "wortel", "wortels", 
             "prei", "andijvie", "boerenkool", "spinazie", "wortelen", "kinderappels",
             "tomaten", "paprika", "paprika's", "paprikamix", "veldsla", "bladsla", "avocado", "avocado's", "snoeptomaatjes", "snoepgroente", "ovengroente", 
-            "ovengroenten", "groenten", "groentemix", "groente", "kookgroente", 
+            "ovengroenten", "groenten", "groentemix", "groente", "kookgroente", "soepgroenten", "soepgroente",
             "kookgroenten","witlof", "stamppotgroenten", "roerbakgroente", "roerbakgroenten", "kool",
             "komkommer", "courgette", "courgettes", "aubergine", "spruitjes", "haricots", "peulen", "haricot", 
             "worteltjes", "champignons", "kastanjechampignons","puntpaprika",
             "salade ui", "bosui", "bosuien", "uien", "augurken", "rucola", "rucolamelange", "sperziebonen", 
             "ijsbergsla", "romaatje", "trostomaten", "pompoen", "pompoenblokjes",
             "hutspot", "zuurkool", "snijbonen", "bleekselderij", "knolselderij", "wokgroenten", 
-            "wokgroente", "maïskorrels","bieten", "pastinaak",
-            "haricots verts", "sjalotten", "babyspinazie", "kropsla", "slamelange", "eikenblad-slamelange", "slamelanges", 
-            "bonen", "radijs", "spitskool", "paksoi"
+            "wokgroente", "maïskorrels","bieten", "pastinaak", 
+            "haricots verts", "sjalotten", "babyspinazie", "kropsla", "sla", "slamelange", "eikenblad-slamelange", "slamelanges", 
+            "bonen", "radijs", "radijsjes", "spitskool", "paksoi"
         ],
         "ignore": []
     },
     {
         "name": "aardappel",
-        "keywords": [ "Aardappel-", "aardappelen", "potatoes", "krieltjes", "minikrieltjes", "mini-krieltjes", "aardappelspecialiteiten", "aardappelspecialiteit", "aardappelschijfjes", "aardappelkroketjes",
+        "keywords": [ "Aardappel-", "aardappelen", "aardappels", "potatoes", "krieltjes", "minikrieltjes", "mini-krieltjes", "aardappelspecialiteiten", "aardappelspecialiteit", "aardappelschijfjes", "aardappelkroketjes",
              "aardappelbolletjes", "aardappelfrites", "aardappelfriet", "pofaardappelen", "frites", "patat", "pommes", "boerenfriet", "frietjes", "friet", "aardappelgratin",
              "aardappelroosjes", "aardappelgolfjes", "aardappelpuree", "aardappel", "krielaardappelen", "aardappelpartjes", "aardappelblokjes",
               "aardappelwedges", "ovenaardappelen", "opbakaardappelen", "rosti", "rostirondjes", "smulfriet", "cêlavita"
@@ -75,7 +76,7 @@
             "pitabroodjes", "foccacia","croissant", "croissantjes", "kampioentjes", "desempisolet", "desempistolets",
             "pistolets","pistolet", "pistoletjes", "olijvenbrood", "pecanbroodje", "worstenbrood",
             "krentenbollen", "vloerbrood", "bakkersbollen", "meergranenbollen", "mini-puntjes", "volkorenpuntjes",
-            "puntjes", "mini-rozijnen-krentenbollen", "mini-krentenbollen", "frikandelbroodje", "frikandelbroodjes",
+            "puntjes", "mini-rozijnen-krentenbollen", "rozijnenbollen", "mini-krentenbollen", "frikandelbroodje", "frikandelbroodjes",
             "saucijzenbroodjes", "stol", "volkorenstol", "volkorennotenstol", "notenstol", "saucijzenbroodje", "zonnebloempittenbrood", "sesamvolkorenbrood",
             "vruchtenbrood", "bakkersbrood", "meerzadenbroodje", "meerzadenbrood", "volkorenbrood", 
             "grofvolkorenbrood", "sesambrood", "meergranenbrood", "krokantjes"
@@ -90,7 +91,8 @@
             "fondeu", "borrelkazen", "borrelkaas", "borrelkaasjes", "brokkelkaas",
             "brie", "rochebaron", "geitenkaas", "goudse", "walnootkaas", "roomsmeerkaas",
             "parrano", "feta", "fondue", "parmazan", "camembert","parmigiano", "reggiano", 
-            "gorgonzola", "mozzerella", "buffelmozzerella"
+            "gorgonzola", "mozzerella", "buffelmozzerella", "kaasplateau", "babybell", "babybel", 
+            "vache", "nurishh", "salut"
         ],
         "ignore": []
     },
@@ -106,7 +108,7 @@
         "name": "vis",
         "keywords": [
             "vis", "vissticks", "iglo", "fish", "princes", "scholfilet","schol", "heek", "heekfilets", "heekfilet", "surimi","gravad","kabeljauw", "gamba's", "dorade", "doradefilets", 
-            "doradefilet", "kabeljauwfilet","kabeljauwfilets", "kabeljauwhaas", "kabeljauwhaasjes","kibbeling", "lekkerbek",
+            "doradefilet", "kabeljauwfilet","kabeljauwfilets", "kabeljauwhaas", "kabeljauwschnitzels", "kabeljauwhaasjes","kibbeling", "lekkerbek",
             "pangasius", "pangasiusfilet", "pangasiusfilets", "zalm", "zalmzijde", "zalmburger", "zalmburgers", "zalmfilet", "zalmfilets", "ovenzalm", "zalmstaarten", "zalmstaart",
             "makreel", "makreelflakes", "makreelzijde", "rivierkreeftenvlees", "mosselen",
             "haring", "braadharing","haringpartjes", "rolmops", "haringsalade","garnalen", "roerbakgarnalen", "wokgarnalen", 
@@ -119,7 +121,7 @@
         "name": "kant-en-klaar",
         "keywords": [
             "poffertjes", "pizza", "pizza's","stoommaaltijden", "2-vaks", "3-vaks", "stoommaaltijd", "stamppotten","maaltijd", 
-            "lunchsalade", "maaltijden", "soep", "erwtensoep", "pureersoepen", "pureersoep", "soepen", 
+            "lunchsalade", "maaltijden", "soep", "aspergesoep", "erwtensoep", "pureersoepen", "pureersoep", "soepen", 
             "ovenmaaltijd", "ovenmaaltijden","maaltijdcomponenten", "lunchsalade", "lunchsalades",
             "fruitsalades", "fruitsalade", "maaltijdsalade", "maaltijdsalades", "pastasalade", "pastasalades", 
             "maaltijdsalades", "3-vaks-maaltijden","3-vaksmaaltijden", "3-vaks-maaltijd",
@@ -182,18 +184,18 @@
     {
         "name": "huishouden",
         "keywords": [
-            "ajax", "plenty", "lenor", "sun", "ambi-pur", "robijn", "formil", "swiffer", "sorbo", "antikal", "ariel", "lenor", 
+            "ajax", "plenty", "solo", "purpose", "servetten", "lenor", "sun", "ambi-pur", "robijn", "formil", "swiffer", "sorbo", "antikal", "ariel", "lenor", 
             "glorix", "andy", "leifheit", "cif", "dreft", "sun", "XG2", "reus", "persil", "fleuril", "finish",
             "bleek", "luchtverfrissers", "luchtverfrisser", "vlekverwijderaar", "vlekverwijderaars",
             "wasmiddel", "wasmiddelen", "stofzuigerzakken", "schoonmaakazijn", "waspoeder",
-            "wasverzachter", "wasbeurt", "wasbeurten", "schuurspons", "keukenpapier", 
+            "wasverzachter", "wasbeurt", "wasbeurten", "schuurspons", "keukenpapier", "toiletblok", "toiletblokken",
             "huishoud", "luchtverfrisser", "luchtverfrisserspray", "ontkalker", "wasmachinereiniger",
             "vloerwisser", "ontvetterdoekjes", "huishoudelijk", "afwasmiddel", "handafwas", "vaatwas",
             "vaatwasmiddel", "parketreiniger", "vaatwascapsules", "vaatwastablet", "vaatwastabletten","schoonmaakartikelen", 
-            "schoonmaakbenodigdheden", "schoonmaakdoekjes", "schoonmaaksprays", "reinigingsdoekje", 
+            "schoonmaakbenodigdheden", "schoonmaakdoekjes", "schoonmaaksprays", "reinigingsdoekje", "reinigingsmiddel", "reinigingsmiddelen",
             "reinigingsdoekjes", "allesreiniger", "aanslagreiniger", "reiniger", "containerzakken", "vuilniszakken",
             "bloemen", "geranium", "fuchsia", "rhododendron", "onkruid", "pokon", "violen", "tulpen", "tulpenboeket",
-            "magnolia", "bonsaiboompje", "geldboompje", "bonsai-/geldboompje", "plant", "bloemen"
+            "magnolia", "bonsaiboompje", "geldboompje", "bonsai-/geldboompje", "plant", "bloemen", "hyacinten"
         ],
         "ignore": []
     },
@@ -201,7 +203,7 @@
         "name": "frisdrank",
         "keywords": [
             "spa", "pepsi", "rivella", "coolbest", "fanta", "sprite", "fernandes",
-            "lipton", "coca-cola", "7up"
+            "lipton", "coca-cola", "7up", "cassis", "river", "cola"
         ],
         "ignore": []
     }
