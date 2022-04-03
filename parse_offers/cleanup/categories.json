@@ -84,6 +84,12 @@
         "ignore": ["salade", "salades"]
     },
     {
+        "name": "beleg",
+        "keywords": [ "calvé", "pindakaas", "ruijter", "broodbeleg", "sandwichspread", "hagelslag"
+        ],
+        "ignore": []
+    },
+    {
         "name": "kaas",
         "keywords": ["zaanlander", "beemster", "galbani", "président", "zanetti", "roomkaas", "roomkaasrolletjes",
             "milner", "maaslander", "boerenkaas", "boerderijkaas", "gruyere",
