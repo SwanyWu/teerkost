@@ -15,7 +15,22 @@ function Main(props) {
 
   useEffect(() => {
     window.scrollTo(0, 0);
+    window.addEventListener("scroll", handleScroll);
   });
+
+  const handleScroll = () => {
+    const position = window.pageYOffset;
+    var dealFilter = document.querySelector("div.filter-deal")
+    if(dealFilter.querySelector('#active-deal') === null)
+    {
+      if(position > 200) {
+        dealFilter.classList.add("filter-move-away")
+      }
+      else {
+        dealFilter.classList.remove("filter-move-away")
+      }
+    }
+  }
 
   const [selectedOffers, setSelectedOffers] = useState(Offers);  
   const [selectedShopRoute, setSelectedShopRoute] = useState(props.shop);

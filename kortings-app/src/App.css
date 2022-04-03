@@ -229,6 +229,7 @@ b.label-shop-lidl {
   top: 0px;
   width: 100%;
   background: #d05f5fed;
+  overflow: hidden;
 }
 
 #filter-dialog {
@@ -256,6 +257,11 @@ b.label-shop-lidl {
   overflow-x: auto;
   scroll-snap-type: block;
   width: 100%;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  float: left;
+  position: relative;
+  animation: moveIntoView 500ms;
 }
 
 .filter-cat span, .filter-shop span, .filter-deal span {
@@ -302,6 +308,22 @@ b.label-shop-lidl {
   font-style: normal;
   padding: 10px 5px 10px 5px;
   margin-left: 5px;
+}
+
+.filter-move-away {
+  margin-top: -100px;
+  opacity: 0;
+  animation: moveAway 500ms;
+}
+
+@keyframes moveAway {
+  0% { margin-top: 0px; opacity: 1;}
+  100% {margin-top: -100px; opacity: 0;}
+}
+
+@keyframes moveIntoView {
+  0% { margin-top: -100px; opacity: 0;}
+  100% {margin-top: 0px; opacity: 1;}
 }
 
 .filter-shop span {
