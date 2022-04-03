@@ -264,6 +264,22 @@ b.label-shop-lidl {
   animation: moveIntoView 500ms;
 }
 
+@keyframes moveIntoView {
+  0% { margin-top: -100px; opacity: 0;}
+  50% { opacity: 0;}
+  100% {margin-top: 0px; opacity: 1;}
+}
+
+@media screen and (min-width: 1000px ) {
+  .filter-deal, .filter-cat, .filter-shop {
+    white-space:normal;
+  }
+  .filter-cat {
+    margin-bottom: 0px;
+  }
+}  
+
+
 .filter-cat span, .filter-shop span, .filter-deal span {
   display: inline-block;
   position: relative;
@@ -310,20 +326,46 @@ b.label-shop-lidl {
   margin-left: 5px;
 }
 
-.filter-move-away {
-  margin-top: -100px;
-  opacity: 0;
-  animation: moveAway 500ms;
+.filter-deal.filter-smaller span {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  animation: smallerDeal 500ms;
 }
 
-@keyframes moveAway {
-  0% { margin-top: 0px; opacity: 1;}
-  100% {margin-top: -100px; opacity: 0;}
+.filter-shop.filter-smaller span {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  animation: smallerShop 500ms;
+}
+.filter-cat.filter-smaller span.filter-no-interest:not(#active-category) {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  animation: smallerCat 500ms;
 }
 
-@keyframes moveIntoView {
-  0% { margin-top: -100px; opacity: 0;}
-  100% {margin-top: 0px; opacity: 1;}
+.filter-cat.filter-smaller span#active-category {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  animation: smallerCat 500ms;
+}
+
+.filter-cat.filter-smaller span {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  animation: smallerCat 500ms;
+}
+
+@keyframes smallerDeal {
+  0% { padding-top: 8px; padding-bottom: 8px;}
+  100% {padding-top: 5px; padding-bottom: 5px;}
+}
+@keyframes smallerShop {
+  0% { padding-top: 12px; padding-bottom: 12px;}
+  100% {padding-top: 8px; padding-bottom: 8px;}
+}
+@keyframes smallerCat {
+  0% { padding-top: 10px; padding-bottom: 10px;}
+  100% {padding-top: 5px; padding-bottom: 5px;}
 }
 
 .filter-shop span {
@@ -563,7 +605,7 @@ b.label-shop-lidl {
 
 .product-category {
   position: absolute;
-  top: 50px;
+  top: 40px;
   left: 5px;
   display: inline-block;
   background: #d2e8ff;
@@ -620,7 +662,7 @@ b.label-shop-lidl {
   right: 5px;
   color: #35322a;
   font-weight: 800;
-  font-size: .7em;
+  font-size: .8em;
   margin: 0px 0px 0px 0px;
   padding: 5px 5px 5px 5px;
   top: 5px;
@@ -637,11 +679,12 @@ b.label-shop-lidl {
   top: 5px;
   color: #000;
   font-weight: 800;
+  min-width: 60px;
   text-align: center;
   font-size: .8em;
   position: absolute;
   margin: 0px 0px 0px 0px;
-  padding: 10px 10px 10px 10px;
+  padding: 5px 10px 5px 10px;
   text-transform: uppercase;
   box-shadow: inset 0px -1px 0px #00000052;
 }
