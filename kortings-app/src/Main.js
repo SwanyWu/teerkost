@@ -21,15 +21,20 @@ function Main(props) {
   const handleScroll = () => {
     const position = window.pageYOffset;
     var dealFilter = document.querySelector("div.filter-deal")
-    if(dealFilter.querySelector('#active-deal') === null)
-    {
-      if(position > 200) {
-        dealFilter.classList.add("filter-move-away")
-      }
-      else {
-        dealFilter.classList.remove("filter-move-away")
-      }
+    var shopFilter = document.querySelector("div.filter-shop")
+    var catFilter = document.querySelector("div.filter-cat")
+
+    if(position > 200) {
+        dealFilter.classList.add("filter-smaller")
+        shopFilter.classList.add("filter-smaller")
+        catFilter.classList.add("filter-smaller")
     }
+    else {
+      dealFilter.classList.remove("filter-smaller")
+      shopFilter.classList.remove("filter-smaller")
+      catFilter.classList.remove("filter-smaller")
+    }
+    
   }
 
   const [selectedOffers, setSelectedOffers] = useState(Offers);  
