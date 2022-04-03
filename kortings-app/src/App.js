@@ -24,7 +24,9 @@ function App() {
   }
 
   const shops = ["jumbo", "aldi", "ah", "lidl"]
-  const categories = ["bier", "koffie", "groente", "vis", "fruit", "kant-en-klaar", "wijn", "aardappel", "brood", "kaas", "noten", "zuivel", "vlees", "frisdrank", "verzorging", "huishouden"]
+  const categories = ["bier", "koffie", "groente", "vis", "fruit", 
+  "kant-en-klaar", "wijn", "aardappel", "brood", "beleg", "kaas", 
+  "noten", "zuivel", "vlees", "frisdrank", "verzorging", "huishouden"]
 
   return (
     <div className="App">

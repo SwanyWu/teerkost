@@ -7,8 +7,8 @@ function Main(props) {
   
   let categories = [
     ['bier', 0], ['koffie', 0], ['groente', 0], ['vis', 0],['fruit', 0],['kant-en-klaar', 0],
-    ['wijn', 0], ['aardappel', 0], ['brood', 0], ['kaas', 0], ['noten', 0], ['zuivel', 0], 
-    ['vlees', 0], ['frisdrank', 0], ['verzorging', 0], ['huishouden', 0]
+    ['wijn', 0], ['aardappel', 0], ['brood', 0], ['kaas', 0], ['noten', 0], ['beleg', 0],
+    ['zuivel', 0], ['vlees', 0], ['frisdrank', 0], ['verzorging', 0], ['huishouden', 0]
   ]
 
   const [categoriesList, setCategoriesList] = useState(categories)
