@@ -132,7 +132,7 @@
             "lunchsalade", "maaltijden", "soep", "aspergesoep", "erwtensoep", "pureersoepen", "pureersoep", "soepen", 
             "ovenmaaltijd", "ovenmaaltijden","maaltijdcomponenten", "lunchsalade", "lunchsalades",
             "fruitsalades", "fruitsalade", "maaltijdsalade", "maaltijdsalades", "pastasalade", "pastasalades", 
-            "maaltijdsalades", "3-vaks-maaltijden","3-vaksmaaltijden", "3-vaks-maaltijd",
+            "maaltijdsalades", "3-vaks-maaltijden","3-vaksmaaltijden", "3-vaks-maaltijd", "cup-a-soup",
             "3-vaksmaaltijd", "2-vaks-maaltijd", "2-vaks-maaltijden", "ovenschotels", "ovenschotel", 
             "prei-kerrie-ovenschotel", "quiche", "maaltijdpakket", "maaltijdpakketten", "pannenkoeken"
         ],
@@ -180,7 +180,7 @@
     {
         "name": "verzorging",
         "keywords": [
-            "pampers, luiers", "prodent", "zendium", "elvive", "blends", "fa", "taft", "biodermal", "page", "axe", "zwitsal", "oral-b","palmolive","vaseline",
+            "pampers", "luiers", "aquafresh", "colgate", "prodent", "zendium", "elvive", "blends", "fa", "taft", "biodermal", "page", "axe", "zwitsal", "oral-b","palmolive","vaseline",
             "always", "kneipp", "nivea", "sanex", "suplementen", "paradontax", "sensodyne", "listerine", "borotalco", 
             "periodeverzorging", "lucovitaal", "pampers", "tissues", "zakdoekjes", "guhl", "cien", "maandverband", "maandverb", "yoni",
             "andrélon", "edet", "nalys", "dettol", "dove", "rexona", "axe", "gillette", "venus", "elmex",
