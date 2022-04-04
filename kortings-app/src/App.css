@@ -1,6 +1,7 @@
 
 :root {
   --main-color: #f08080;
+  --main-secondary-color: #c65b5b;
   --article-bg: #FFF;
   --shadow-color: #00000030;
   --shadow-elevation-medium:
@@ -39,7 +40,7 @@ footer {
   text-align: center;
   height: 100vh;
   position: relative;
-  box-shadow: inset 0px -50vh 0px 0px #d05f5fed;
+  box-shadow: inset 0px -50vh 0px 0px var(--main-secondary-color);
 }
 
 footer .title {
@@ -153,16 +154,6 @@ footer .source-link:hover {
   clip-path: polygon(50% 0%, 57.22% 6.71%, 66.23% 2.71%, 70.89% 11.40%, 80.71% 10.54%, 82.29% 20.27%, 91.86% 22.65%, 90.20% 32.37%, 98.47% 37.73%, 93.74% 46.38%, 99.83% 54.13%, 92.55% 60.78%, 95.79% 70.08%, 86.75% 74.01%, 86.79% 83.86%, 76.96% 84.64%, 73.80% 93.97%, 64.25% 91.51%, 58.23% 99.32%, 50% 93.89%, 41.77% 99.32%, 35.75% 91.51%, 26.20% 93.97%, 23.04% 84.64%, 13.21% 83.86%, 13.25% 74.01%, 4.21% 70.08%, 7.45% 60.78%, 0.17% 54.13%, 6.26% 46.38%, 1.53% 37.73%, 9.80% 32.37%, 8.14% 22.65%, 17.71% 20.27%, 19.29% 10.54%, 29.11% 11.40%, 33.77% 2.71%, 42.78% 6.71%);
 }
 
-header#header {
-  position: sticky;
-  text-align: center;
-  top: 0px;
-  width: 100%;
-  cursor: pointer;
-  background: var(--main-color);
-  z-index: 800;
-}
-
 .share-button {
   cursor: pointer;
   position: absolute;
@@ -228,9 +219,33 @@ b.label-shop-lidl {
   z-index: 900;
   top: 0px;
   width: 100%;
-  background: #d05f5fed;
+  background: var(--main-secondary-color);
   overflow: hidden;
+  border-radius: 15px;
+  animation: moveIntoView 500ms;
 }
+
+@keyframes moveIntoView {
+  0% { transform: translateY(-50px); opacity: 0;}
+  75% { opacity: 1;}
+  100% {transform: translateY(-0px);}
+}
+
+@media screen and (min-width: 1000px ) {
+  .filter {
+    top: 10px;
+    margin: 0px 10px 10px 10px;
+    width: calc(100% - 20px);
+  }
+}
+@media screen and (min-width: 1590px ) {
+  .filter {
+    top: 10px;
+    margin: 5px auto;
+    max-width: 1590px;
+  }
+}  
+
 
 #filter-dialog {
   padding: 10px 0px 0px 10px;
@@ -261,13 +276,6 @@ b.label-shop-lidl {
   margin-bottom: 5px;
   float: left;
   position: relative;
-  animation: moveIntoView 500ms;
-}
-
-@keyframes moveIntoView {
-  0% { margin-top: -100px; opacity: 0;}
-  50% { opacity: 0;}
-  100% {margin-top: 0px; opacity: 1;}
 }
 
 @media screen and (min-width: 1000px ) {
@@ -283,7 +291,7 @@ b.label-shop-lidl {
   z-index: 700;
   border-radius: 15px;
   padding: 15px 15px 15px 15px;
-  margin: 0px 5px 5px 0px;
+  margin: 0px 5px 0px 0px;
   font-size: .8em;
   font-weight: 800;
   cursor: pointer;
@@ -295,6 +303,7 @@ b.label-shop-lidl {
   background: #e0ffdb;
   color: #117902;
   padding: 8px 10px 8px 10px;
+  margin: 0px 5px 5px 0px;
 }
 
 .filter-cat span {
@@ -302,12 +311,6 @@ b.label-shop-lidl {
   color: #01245bb5;
   padding: 10px 0px 10px 15px;
   overflow: hidden;
-}
-
-@media (hover: none) and (pointer: coarse) {
-  .filter-cat span {
-    margin-bottom: 0px;
-  }
 }
 
 .filter-cat span.filter-no-interest:not(#active-category) {
@@ -374,7 +377,17 @@ b.label-shop-lidl {
 .filter-shop span {
   background: #fdeec4;
   color: #80692a;
-  padding: 12px 12px 12px 12px;
+  overflow: hidden;
+  padding: 12px 0px 12px 12px;
+}
+
+.filter-shop i.counter {
+  background: #FFF;
+  color: #4a4a4a;
+  text-shadow: none;
+  font-style: normal;
+  padding: 12px 5px 12px 5px;
+  margin-left: 5px;
 }
 
 .filter-search {
