@@ -307,6 +307,12 @@ b.label-shop-lidl {
   overflow: hidden;
 }
 
+@media (hover: none) and (pointer: coarse) {
+  .filter-cat span {
+    margin-bottom: 0px;
+  }
+}
+
 .filter-cat span.filter-no-interest:not(#active-category) {
   opacity: .3;
   filter: grayscale();
