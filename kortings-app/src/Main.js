@@ -11,7 +11,12 @@ function Main(props) {
     ['zuivel', 0], ['vlees', 0], ['frisdrank', 0], ['verzorging', 0], ['huishouden', 0]
   ]
 
+  let shops = [
+    ['ah', 0], ['jumbo', 0], ['lidl', 0], ['aldi', 0]
+  ]
+
   const [categoriesList, setCategoriesList] = useState(categories)
+  const [shopsList, setShopsList] = useState(shops)
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -34,7 +39,6 @@ function Main(props) {
       shopFilter.classList.remove("filter-smaller")
       catFilter.classList.remove("filter-smaller")
     }
-    
   }
 
   const [selectedOffers, setSelectedOffers] = useState(Offers);  
@@ -48,9 +52,24 @@ function Main(props) {
     toggleFilterButton(selectedDealRoute, "deal")
 
     setCounterPerCategory(selectedShopRoute)
+    setCounterPerShop()
 
     updateOfferList(selectedShopRoute, selectedCatRoute, selectedDealRoute)
   }, [])
+
+  const setCounterPerShop = () => {
+    let tempList = []
+    shopsList.map((shop, key) => {
+      var shopFilter = object => object.shop === shop[0];
+
+      var filterByShop = Offers.filter(shopFilter)
+      var numberCountByShop = filterByShop.length
+
+      let shopObjectTemp = [shop[0], numberCountByShop]
+      return tempList.push(shopObjectTemp)
+    })
+    setShopsList(tempList)
+  }
 
   const setCounterPerCategory = (shop) => {
     if(shop !== undefined) {
@@ -172,10 +191,10 @@ function Main(props) {
             <div id="filter-dialog">
             <div className="filter-wrap">
                 <div className="filter-shop">
-                  <span onClick={() => clickOnShop("ah")} data-shop="ah">Albert Heijn</span>
-                  <span onClick={() => clickOnShop("jumbo")}  data-shop="jumbo">Jumbo</span>
-                  <span onClick={() => clickOnShop("lidl")} data-shop="lidl">Lidl</span>
-                  <span onClick={() => clickOnShop("aldi")}  data-shop="aldi">Aldi</span>
+                  {shopsList.map((shop, key) => {
+                    return <span onClick={() => clickOnShop(shop[0])} data-shop={shop[0]}>{shop[0]} <i className="counter">{shop[1]}</i></span>
+
+                  })}
                 </div>
                 <div className="filter-cat">
                   {categoriesList.map((category, key) => {
