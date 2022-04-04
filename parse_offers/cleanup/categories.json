@@ -32,7 +32,7 @@
             "meat", "riblap", "poulet", "snackworst", "wokblokjes", "runderstooflap", "stoofvlees", "runderhachee",
             "bout", "soepballetjes", "scharrelkipfilets", "varkensfiletlapjes", "spareribs", "patéplakken", "crémepaté",
             "borrelschotel", "quarterpounders",
-            "ham", "beenham", "truffelham", "gehaktstaaf", "runderhamburgers", "rundvleeshamburgers", "gehaktballetjes", "filet",
+            "ham", "beenham", "yorkham", "achterham", "truffelham", "gehaktstaaf", "runderhamburgers", "rundvleeshamburgers", "gehaktballetjes", "filet",
             "biefstuk", "ossenhaas", "ribeye", "entrecote", "ardennerpate", "spekreepjes", "worsten",
             "carpaccio", "varkenshaas", "vleeswaren", "kookham", "wahid", "rundergehakt", "gehakt", "iberico",
             "hamlappen", "prosciutto", "pavé", "venkelsalami", "salami", "bbq", "grill", "paté", "mekkafood"
@@ -42,7 +42,7 @@
     {
         "name": "groente",
         "keywords": [
-            "groentegemak", "groenteshots", "groenteshot", "broccoli", "broccoliroosjes", "bloemkool",
+            "groentegemak", "groenteshots", "groenteshot", "diepvriesgroente", "broccoli", "broccoliroosjes", "bloemkool",
             "bloemkoolroosjes", "spruiten", "waspenen", "waspeen", "winterpeen", "winterpenen", "bospeen", "bospenen", "wortel", "wortels", 
             "prei", "andijvie", "boerenkool", "spinazie", "wortelen", "kinderappels",
             "tomaten", "paprika", "paprika's", "paprikamix", "veldsla", "bladsla", "avocado", "avocado's", "snoeptomaatjes", "snoepgroente", "ovengroente", 
@@ -53,8 +53,8 @@
             "salade ui", "bosui", "bosuien", "uien", "augurken", "rucola", "rucolamelange", "sperziebonen", 
             "ijsbergsla", "romaatje", "trostomaten", "pompoen", "pompoenblokjes",
             "hutspot", "zuurkool", "snijbonen", "bleekselderij", "knolselderij", "wokgroenten", 
-            "wokgroente", "maïskorrels","bieten", "pastinaak", 
-            "haricots verts", "sjalotten", "babyspinazie", "kropsla", "sla", "slamelange", "eikenblad-slamelange", "slamelanges", 
+            "wokgroente", "maïskorrels","bieten", "pastinaak", "asperges", 
+            "haricots", "sjalotten", "babyspinazie", "kropsla", "sla", "slamelange", "eikenblad-slamelange", "slamelanges", 
             "bonen", "radijs", "radijsjes", "spitskool", "paksoi"
         ],
         "ignore": []
@@ -164,7 +164,7 @@
         "keywords": [
             "wijn", "wijnen", "wijnvoordeel", "wijndoos",
             "waterval", "bradshaw", "villebois", "concha", "marques",
-            "codorníu", "brut", "rosso", "fantini", "brancot", "spatburgunder",
+            "codorníu", "brut", "rosso", "fantini", "brancott", "spatburgunder",
             "tulipe", "bastard",  
             "merlot", "pinot", "grigio", "sauvignon", "montaignan",
             "chardonnay", "winzer", "krems", "neleman", "bloemfontein",
@@ -205,7 +205,7 @@
             "schoonmaakbenodigdheden", "schoonmaakdoekjes", "schoonmaaksprays", "reinigingsdoekje", "reinigingsmiddel", "reinigingsmiddelen",
             "reinigingsdoekjes", "allesreiniger", "aanslagreiniger", "reiniger", "containerzakken", "vuilniszakken",
             "bloemen", "geranium", "fuchsia", "rhododendron", "onkruid", "pokon", "violen", "tulpen", "tulpenboeket",
-            "magnolia", "bonsaiboompje", "geldboompje", "bonsai-/geldboompje", "plant", "bloemen", "hyacinten", "narcissen", "calla"
+            "magnolia", "bonsaiboompje", "geldboompje", "bonsai-/geldboompje", "plant", "hyacinten", "narcissen", "calla"
         ],
         "ignore": []
     },
@@ -213,7 +213,7 @@
         "name": "frisdrank",
         "keywords": [
             "spa", "pepsi", "rivella", "coolbest", "fanta", "sprite", "fernandes",
-            "lipton", "coca-cola", "7up", "cassis", "river", "cola"
+            "lipton", "coca-cola", "7up", "cassis", "river", "cola", "crystal"
         ],
         "ignore": []
     }
