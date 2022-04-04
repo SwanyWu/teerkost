@@ -116,8 +116,8 @@
         "keywords": [
             "vis", "vissticks", "iglo", "fish", "princes", "scholfilet","schol", "heek", "heekfilets", "heekfilet", "surimi","gravad","kabeljauw", "gamba's", "dorade", "doradefilets", 
             "doradefilet", "kabeljauwfilet","kabeljauwfilets", "kabeljauwhaas", "kabeljauwschnitzels", "kabeljauwhaasjes","kibbeling", "lekkerbek",
-            "pangasius", "pangasiusfilet", "pangasiusfilets", "zalm", "zalmbonbon", "zalmzijde", "zalmburger", 
-            "zalmtaartaar", "zalmburgers", "zalmfilet", "zalmfilets", "ovenzalm", "zalmstaarten", "zalmstaart", "zalmrolletjes", "zalmhaas",
+            "pangasius", "pangasiusfilet", "pangasiusfilets", "zalm", "zalmbonbon", "zalmzijde", "zalmburger", "zalmhaas-carpaccio",
+            "zalmtartaar", "zalmburgers", "zalmfilet", "zalmfilets", "ovenzalm", "zalmstaarten", "zalmstaart", "zalmrolletjes", "zalmhaas",
             "makreel", "makreelflakes", "makreelzijde", "rivierkreeftenvlees", "mosselen",
             "haring", "braadharing","haringpartjes", "rolmops", "haringsalade","garnalen", "roerbakgarnalen", "wokgarnalen", 
             "forelfilets","forelfilet", "sliptong", "bakkeljauw", "oesters", "visschnitzels", "visschnitzel",
@@ -134,7 +134,7 @@
             "fruitsalades", "fruitsalade", "maaltijdsalade", "maaltijdsalades", "pastasalade", "pastasalades", 
             "maaltijdsalades", "3-vaks-maaltijden","3-vaksmaaltijden", "3-vaks-maaltijd", "cup-a-soup",
             "3-vaksmaaltijd", "2-vaks-maaltijd", "2-vaks-maaltijden", "ovenschotels", "ovenschotel", 
-            "prei-kerrie-ovenschotel", "quiche", "maaltijdpakket", "maaltijdpakketten", "pannenkoeken"
+            "prei-kerrie-ovenschotel", "quiche", "zalm-aspergequiche", "maaltijdpakket", "maaltijdpakketten", "pannenkoeken"
         ],
         "ignore": []
     },
@@ -214,6 +214,30 @@
         "keywords": [
             "spa", "pepsi", "rivella", "coolbest", "fanta", "sprite", "fernandes",
             "lipton", "coca-cola", "7up", "cassis", "river", "cola", "crystal"
+        ],
+        "ignore": []
+    },
+    {
+        "name": "chocola",
+        "keywords": [
+            "mars", "bros", "lion", "smarties", "kitkat", "rolo", "chocolaatjes", "chocolade", "paaseitjes",
+            "paaseieren", "milka", "delft", "delicata", "snickers", "twix", "chocoladedragees", "choco", "paashaas",
+            "reuzenpaasei"
+        ],
+        "ignore": []
+    },
+    {
+        "name": "chips",
+        "keywords": [
+            "cheetos", "lay's", "doritos", "bugles", "chips"
+        ],
+        "ignore": []
+    },
+    {
+        "name": "koek",
+        "keywords": [
+            "koekjes", "eierkoeken", "oreo", "bugles", "chips", "koeken", "cakejes", "paascakejes",
+            "spekkoek", "aardbeiencakejes", "kano's"
         ],
         "ignore": []
     }
