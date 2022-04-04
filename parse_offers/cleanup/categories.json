@@ -5,7 +5,7 @@
             "brouwerij", "brewery", "bier", "bieren", "biermerken", "speciaalbier", "0.0", "pilsener", "pils", "Heineken", "Radler", "speciaalbieren", 
             "Grolsch", "desperados", "Amstel", "Bavaria", "Affligem", "Trappe", "Brand", "birra", "moretti", "Dors", "Veltins","Dommelsch", "Alfa",
             "Gulpener", "Westmalle", "tripel", "cornet" ,"karmeliet", "skuumkoppe", "corona", "bud", "perlenbacher", "hefeweizen", 
-            "kordaat", "tequilabier", "finkbrau", "oettinger", "argus", "steenbrugge", "Schultenbräu", "palm",
+            "kordaat", "tequilabier", "finkbrau", "oettinger", "argus", "steenbrugge", "Schultenbräu", "palm", "lefort",
             "Leffe", "Corona", "Warsteiner", "Jupiler", "Weizen", "witbieren", "witbier", "weizenbier", "hertog", "weizenbieren", "ipa", "Chouffe", "Jopen", "Afflichem", "Duvel"
         ],
         "ignore": ["stoofvlees", "runderhachee", "ijs", "ijssalon"]
@@ -25,12 +25,13 @@
             "kipdrumsticks", "gehaktbal", "gehaktballen", "filetlapjes", "rookworst", "kipblokjes",
             "rund", "varken", "kipkrokant", "kipdijfilet", "kipschnitsels", "kaasschnitzel", "kaasschnitzels", "knakworst", "braadworst", "cordon",
             "gehakt", "shoarma", "dijfilet", "slavink", "rundersaucijs", "saucijs", "gehaktschnitzel",
-            "dijshoarma", "speklappen", "kipburger", "bifi", "slagersgehaktbal", "kipgehakt",
+            "dijshoarma", "speklappen", "kipburger", "bifi", "slagersgehaktbal", "kipgehakt", "kipkluifjes",
             "gyros", "spekblokjes", "chipolataworst", "filetlapjes", "rundercarpaccio", "rundervinken",
             "speklap", "kipvleugels", "leverpastei", "boomstam", "kipfiletreepjes", "runderreepjes",
             "drumsticks", "scharrelkip", "braadstick", "tartaar", "smac", "varkensribeye", "angus",
             "meat", "riblap", "poulet", "snackworst", "wokblokjes", "runderstooflap", "stoofvlees", "runderhachee",
-            "bout", "soepballetjes", "scharrelkipfilets", "varkensfiletlapjes",
+            "bout", "soepballetjes", "scharrelkipfilets", "varkensfiletlapjes", "spareribs", "patéplakken", "crémepaté",
+            "borrelschotel", "quarterpounders",
             "ham", "beenham", "truffelham", "gehaktstaaf", "runderhamburgers", "rundvleeshamburgers", "gehaktballetjes", "filet",
             "biefstuk", "ossenhaas", "ribeye", "entrecote", "ardennerpate", "spekreepjes", "worsten",
             "carpaccio", "varkenshaas", "vleeswaren", "kookham", "wahid", "rundergehakt", "gehakt", "iberico",
@@ -71,7 +72,7 @@
     {
         "name": "brood",
         "keywords": [ 
-            "broodje", "brood", "bakkerij", "bollen", "knäckebröd", "broodjes", "bananenbrood", "kaiserbroodje", "kaiserbroodjes", "baguette", "crackers", 
+            "broodje", "brood", "suikerbrood", "feeststol", "bakkerij", "bollen", "knäckebröd", "broodjes", "bananenbrood", "kaiserbroodje", "kaiserbroodjes", "baguette", "crackers", 
             "chocoladecronut", "chocoladebroodje", "chocoladebroodjes", "roomboterpuntjes", "donut", "donuts", "mueslibollen", "tijgerbollen",
             "pitabroodjes", "foccacia","croissant", "croissantjes", "kampioentjes", "desempisolet", "desempistolets",
             "pistolets","pistolet", "pistoletjes", "olijvenbrood", "pecanbroodje", "worstenbrood",
@@ -79,7 +80,7 @@
             "puntjes", "mini-rozijnen-krentenbollen", "rozijnenbollen", "mini-krentenbollen", "frikandelbroodje", "frikandelbroodjes",
             "saucijzenbroodjes", "stol", "volkorenstol", "volkorennotenstol", "notenstol", "saucijzenbroodje", "zonnebloempittenbrood", "sesamvolkorenbrood",
             "vruchtenbrood", "bakkersbrood", "meerzadenbroodje", "meerzadenbrood", "volkorenbrood", 
-            "grofvolkorenbrood", "sesambrood", "meergranenbrood", "krokantjes"
+            "grofvolkorenbrood", "sesambrood", "meergranenbrood", "krokantjes", "paashaasbroodjes"
         ],
         "ignore": ["salade", "salades"]
     },
@@ -115,7 +116,8 @@
         "keywords": [
             "vis", "vissticks", "iglo", "fish", "princes", "scholfilet","schol", "heek", "heekfilets", "heekfilet", "surimi","gravad","kabeljauw", "gamba's", "dorade", "doradefilets", 
             "doradefilet", "kabeljauwfilet","kabeljauwfilets", "kabeljauwhaas", "kabeljauwschnitzels", "kabeljauwhaasjes","kibbeling", "lekkerbek",
-            "pangasius", "pangasiusfilet", "pangasiusfilets", "zalm", "zalmzijde", "zalmburger", "zalmburgers", "zalmfilet", "zalmfilets", "ovenzalm", "zalmstaarten", "zalmstaart",
+            "pangasius", "pangasiusfilet", "pangasiusfilets", "zalm", "zalmbonbon", "zalmzijde", "zalmburger", 
+            "zalmtaartaar", "zalmburgers", "zalmfilet", "zalmfilets", "ovenzalm", "zalmstaarten", "zalmstaart", "zalmrolletjes", "zalmhaas",
             "makreel", "makreelflakes", "makreelzijde", "rivierkreeftenvlees", "mosselen",
             "haring", "braadharing","haringpartjes", "rolmops", "haringsalade","garnalen", "roerbakgarnalen", "wokgarnalen", 
             "forelfilets","forelfilet", "sliptong", "bakkeljauw", "oesters", "visschnitzels", "visschnitzel",
@@ -161,7 +163,9 @@
         "name": "wijn",
         "keywords": [
             "wijn", "wijnen", "wijnvoordeel", "wijndoos",
-            "waterval", "bradshaw", "villebois",
+            "waterval", "bradshaw", "villebois", "concha", "marques",
+            "codorníu", "brut", "rosso", "fantini", "brancot", "spatburgunder",
+            "tulipe", "bastard",  
             "merlot", "pinot", "grigio", "sauvignon", "montaignan",
             "chardonnay", "winzer", "krems", "neleman", "bloemfontein",
             "windheuvel", "bayride", "neleman", "chenin", "pinotage",
@@ -178,7 +182,7 @@
         "keywords": [
             "pampers, luiers", "prodent", "zendium", "elvive", "blends", "fa", "taft", "biodermal", "page", "axe", "zwitsal", "oral-b","palmolive","vaseline",
             "always", "kneipp", "nivea", "sanex", "suplementen", "paradontax", "sensodyne", "listerine", "borotalco", 
-            "periodeverzorging", "lucovitaal", "pampers", "tissues", "zakdoekjes", "guhl", "cien", 
+            "periodeverzorging", "lucovitaal", "pampers", "tissues", "zakdoekjes", "guhl", "cien", "maandverband", "maandverb", "yoni",
             "andrélon", "edet", "nalys", "dettol", "dove", "rexona", "axe", "gillette", "venus", "elmex",
             "navulmesjes", "shampoo", "conditioner", "deodorant", "douchegel", "cremespoeling", "nachtcreme", 
             "dagcreme", "handzeep", "lichaamsverzorging", "verzorgingsproduct", "verzorgingsproducten", "zonbescherming",
