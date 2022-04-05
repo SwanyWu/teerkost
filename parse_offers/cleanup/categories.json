@@ -224,7 +224,7 @@
             "paaseieren", "milka", "delft", "delicata", "snickers", "twix", "chocoladedragees", "choco", "paashaas",
             "reuzenpaasei"
         ],
-        "ignore": []
+        "ignore": ["kalanchoë"]
     },
     {
         "name": "chips",
