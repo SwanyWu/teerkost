@@ -5,7 +5,6 @@ import { Routes, Route } from "react-router-dom";
 import Footer from './Footer';
 import Main from './Main';
 import SingleProduct from './SingleProduct';
-import Counter from './Counter';
 import Offers from './offers.json';
 
 
