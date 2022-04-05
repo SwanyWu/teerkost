@@ -3,6 +3,7 @@ import React, {Suspense, useState} from "react";
 import DateLabel from './DateLabel';
 import Price from './Price';
 import Category from './Category';
+import Deal from './Deal';
 
 const Image = React.lazy(() => import ('./Image'));
 
@@ -49,9 +50,7 @@ function ProductCard(props) {
           {props.item['product']}
           <span className="product-info"> {props.item['productInfo']}</span>
         </summary>
-        <span className="product-deal">
-          {props.item['deal']}
-        </span>
+        <Deal deal={props.item['deal']} />
       </article>
     )
 }
