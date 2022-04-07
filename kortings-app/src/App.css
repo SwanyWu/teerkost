@@ -482,6 +482,70 @@ b.label-shop-lidl {
   max-width: 250px;
   text-align: center;
 }
+.not-found {
+  display: block;
+  margin: 0px auto;
+  padding-top: 100px;
+  color: #b25656;
+  max-width: 500px;
+  text-align: center;
+}
+.not-found .link-suggest { display: block; color: #FFF;}
+.not-found .example-shop::before {
+ animation: toggleExampleShop 17s infinite;
+ animation-play-state: inherit;
+ display: inline-block;
+ content: "#/jumbo";
+ opacity: 0;
+ transform: translateY(10px);
+ color: #FFF;
+}
+
+@keyframes toggleExampleShop {
+  7% { opacity: 1; transform: translateY(0px); content: "#/jumbo";}
+  25% { opacity: 1; transform: translateY(0px);  content: "#/jumbo";}
+  27% { opacity: 0; transform: translateY(10px);}
+  
+  31% { opacity: 1; transform: translateY(0px); content: "#/aldi";}
+  50% { opacity: 1; transform: translateY(0px); content: "#/aldi";}
+  52% { opacity: 0;transform: translateY(10px);}
+  
+  57% { opacity: 1; transform: translateY(0px); content: "#/ah";}
+  75% { opacity: 1; transform: translateY(0px); content: "#/ah";}
+  77% { opacity: 0;transform: translateY(10px);}
+  
+  82% { opacity: 1; transform: translateY(0px); content: "#/lidl"}
+  98% { opacity: 1; transform: translateY(0px); content: "#/lidl";}
+  100% {opacity: 0;transform: translateY(10px);}
+}
+
+.not-found .example-cat::before {
+  animation: toggleExampleCat 17s infinite;
+  animation-play-state: inherit;
+  display: inline-block;
+  opacity: 0;
+  transform: translateY(10px);
+  content: "/bier";
+  color: #FFF;
+}
+ 
+ @keyframes toggleExampleCat {
+  7% { opacity: 1; transform: translateY(0px); content: "/bier";}
+  25% { opacity: 1; transform: translateY(0px);  content: "/bier";}
+  27% { opacity: 0; transform: translateY(10px);}
+  
+  31% { opacity: 1; transform: translateY(0px); content: "/brood";}
+  50% { opacity: 1; transform: translateY(0px); content: "/brood";}
+  52% { opacity: 0;transform: translateY(10px);}
+  
+  57% { opacity: 1; transform: translateY(0px); content: "/groente";}
+  75% { opacity: 1; transform: translateY(0px); content: "/groente";}
+  77% { opacity: 0;transform: translateY(10px);}
+  
+  82% { opacity: 1; transform: translateY(0px); content: "/koffie"}
+  98% { opacity: 1; transform: translateY(0px); content: "/koffie";}
+  100% {opacity: 0;transform: translateY(10px);}
+ }
 
 .single-item {
   z-index: 100;
