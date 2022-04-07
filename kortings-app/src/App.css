@@ -69,18 +69,22 @@ footer .title:hover {
   background: #480000;
 }
 
-footer .sub-title {
-  margin: 0px auto;
-  font-size: .8em;
-  display: block;
-  padding: 15px 0px 15px 0px;
-  color: #FFF;
-  text-shadow: 0px 1px #973434;
-  width: 200px;
-  text-align: center;
-  left: calc(50% - 100px);
+footer .sub-title-wrap {
   position: absolute;
-  bottom: 15vh;
+  top: calc(100% - 33vh);
+  width: 100%;
+  left: 0px;
+}
+
+footer .sub-title {
+  color: #fff;
+  display: block;
+  margin: 0 auto;
+  padding: 15px 15px 15px 15px;
+  text-align: center;
+  text-shadow: 1px 1px #973434;
+  font-weight: 800;
+  max-width: 300px;
 }
 footer .source-link {
   display: inline-block;
@@ -91,8 +95,11 @@ footer .source-link {
   vertical-align: middle;
   background: #FFF;
   text-shadow: none;
-  margin-top: 20px;
   border-radius: 8px;
+  position: absolute;
+  bottom: 5px;
+  font-size: .8em;
+  right: 5px;
 }
 footer .source-link:hover {
   background: #480000;
@@ -138,15 +145,15 @@ footer .source-link:hover {
 }
 
 @keyframes dotdotdot {
-  10% { content: ".";}
-  20% { content: ".."; }
-  30% { content: "...";} 
-  40% { content: "....";}  
+  10% { content: ".........";}
+  20% { content: "........"; }
+  30% { content: ".......";} 
+  40% { content: "......";}  
   50% { content: ".....";}  
-  60% { content: "......";}  
-  70% { content: ".......";}  
-  80% { content: "........";}  
-  90% { content: ".........";}  
+  60% { content: "....";}  
+  70% { content: "...";}  
+  80% { content: "..";}  
+  90% { content: ".";}  
  
 }
 .even-geduld-image {
