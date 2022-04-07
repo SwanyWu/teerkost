@@ -2,7 +2,9 @@
 function NoProduct() {
     return (
       <div className="no-offers">
-        <h2>🧐<br/> Geen korting gevonden. Probeer een andere filter.</h2>
+        <div className='notify-wrap'>
+          Geen korting gevonden met deze filter.
+        </div>
       </div>
     )
 }

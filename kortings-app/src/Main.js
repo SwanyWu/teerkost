@@ -222,7 +222,7 @@ function Main(props) {
             </div>
             </div>
         </header>
-        <Suspense fallback={<div className="even-geduld">Even geduld...</div>}>
+        <Suspense fallback={<div className="even-geduld"><div className="notify-wrap"><span className='dot-dot-dot'></span></div></div>}>
             <ProductsContainer selectedOffers={selectedOffers}/>
         </Suspense>
     </div>
