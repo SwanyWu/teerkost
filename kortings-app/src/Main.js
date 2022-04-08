@@ -165,12 +165,12 @@ function Main(props) {
   
   return (
     <div className="app-wrap">
+        {/* {navigator.share && (
+          <div onClick={shareApi} className="share-button">
+            <i class="ri-share-box-fill"></i>
+          </div>
+        )}   */}
         <header className="filter">
-            {navigator.share && (
-                <div onClick={shareApi} className="share-button">
-                  <i class="ri-share-box-fill"></i>
-                </div>
-            )}  
             <div id="filter-dialog">
             <div className="filter-wrap">
                 <div className="filter-shop">
