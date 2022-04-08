@@ -236,7 +236,7 @@
     {
         "name": "koek",
         "keywords": [
-            "koekjes", "eierkoeken", "oreo", "bugles", "koeken", "cakejes", "paascakejes",
+            "koekjes", "eierkoeken", "oreo", "koeken", "cakejes", "paascakejes",
             "spekkoek", "aardbeiencakejes", "kano's"
         ],
         "ignore": []
