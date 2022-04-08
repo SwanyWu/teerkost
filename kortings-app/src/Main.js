@@ -38,6 +38,7 @@ function Main(props) {
     setCounterPerShop()
 
     updateOfferList(selectedShopRoute, selectedCatRoute, selectedDealRoute)
+    updatePageTitle(selectedShopRoute, selectedCatRoute)
   }, [])
 
   const setCounterPerShop = () => {
@@ -76,6 +77,41 @@ function Main(props) {
     setCategoriesList(tempList)
   }
 
+  const updateUrl = (shopName, catName) => {
+    var shopUrlPart = ""
+    var catUrlPart = ""
+    if(shopName !== undefined) {
+      shopUrlPart = "/#/" + shopName;
+    }
+    if(catName !== undefined) {
+      if(shopName === undefined) {
+        shopUrlPart = "/#/alle-winkels"
+      }
+      catUrlPart = "/" + catName;
+    }
+    window.history.pushState({}, '', shopUrlPart + catUrlPart);
+    updatePageTitle(shopName, catName)
+  }
+
+  const updatePageTitle = (shopName, catName) => {
+    var shopPart = ""
+    var catPart = ""
+    var titlePart = "Teerkost"
+    if(shopName !== undefined) {
+      shopPart = " / " + shopName + " ";
+    }
+    if(catName !== undefined) {
+      if(shopName === undefined) {
+        shopPart = " "
+      }
+      catPart = catName;
+    }
+    if(shopName !== undefined || catName !== undefined) {
+      titlePart = "- Teerkost"
+    } 
+    document.title = catPart + "" + shopPart + titlePart 
+  }
+
   const clickOnShop = (name) => {
     toggleFilterButton(name, "shop")
     if(selectedShopRoute === name) {
@@ -84,6 +120,7 @@ function Main(props) {
     setSelectedShopRoute(name)
     setCounterPerCategory(name)
     updateOfferList(name, selectedCatRoute, selectedDealRoute)
+    updateUrl(name, selectedCatRoute)
   }
 
   const clickOnCat = (name) => {
@@ -93,6 +130,7 @@ function Main(props) {
     }
     setSelectedCatRoute(name)
     updateOfferList(selectedShopRoute, name, selectedDealRoute)
+    updateUrl(selectedShopRoute, name)
   }
 
   const clickOnDeal = (name) => {
