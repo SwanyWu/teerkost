@@ -20,20 +20,8 @@ body, html {
   background: var(--main-color);
   user-select: none;
 }
-
-@font-face {
-  font-family: 'Dongle-Bold';
-  src: local('Dongle-Bold'),url(fonts/Dongle-Bold.ttf) format('truetype');
-}
-
-@font-face {
-  font-family: 'Dongle-Regular';
-  src: local('Dongle-Regular'),url(fonts/Dongle-Regular.ttf) format('truetype');
-}
-
-@font-face {
-  font-family: 'Dongle-Light';
-  src: local('Dongle-Light'),url(fonts/Dongle-Light.ttf) format('truetype');
+.app-wrap {
+  min-height: 100vh;
 }
 
 .title {
@@ -242,10 +230,8 @@ b.label-shop-lidl {
   z-index: 900;
   top: 0px;
   width: 100%;
-  background: var(--main-secondary-color);
+  background: var(--main-color);
   overflow: hidden;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
   animation: moveIntoView 500ms;
 }
 
@@ -254,19 +240,6 @@ b.label-shop-lidl {
   75% { opacity: 1;}
   100% {transform: translateY(-0px);}
 }
-
-@media screen and (min-width: 1000px ) {
-  .filter {
-    margin: 0px 10px 10px 10px;
-    width: calc(100% - 20px);
-  }
-}
-@media screen and (min-width: 1590px ) {
-  .filter {
-    margin: 0px auto;
-    max-width: 1590px;
-  }
-}  
 
 #filter-dialog {
   padding: 10px 0px 0px 10px;
@@ -299,13 +272,6 @@ b.label-shop-lidl {
   position: relative;
 }
 
-@media screen and (min-width: 1000px ) {
-  .filter-deal, .filter-cat, .filter-shop {
-    white-space:normal;
-  }
-}  
-
-
 .filter-cat span, .filter-shop span, .filter-deal span {
   display: inline-block;
   position: relative;
@@ -330,7 +296,7 @@ b.label-shop-lidl {
 .filter-cat span {
   background: #d2e8ff;
   color: #01245bb5;
-  padding: 10px 0px 10px 15px;
+  padding: 10px 0px 10px 10px;
   overflow: hidden;
 }
 
@@ -353,53 +319,11 @@ b.label-shop-lidl {
   margin-left: 5px;
 }
 
-.filter-deal.filter-smaller span {
-  padding-top: 5px;
-  padding-bottom: 5px;
-  animation: smallerDeal 500ms;
-}
-
-.filter-shop.filter-smaller span {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  animation: smallerShop 500ms;
-}
-.filter-cat.filter-smaller span.filter-no-interest:not(#active-category) {
-  padding-top: 5px;
-  padding-bottom: 5px;
-  animation: smallerCat 500ms;
-}
-
-.filter-cat.filter-smaller span#active-category {
-  padding-top: 5px;
-  padding-bottom: 5px;
-  animation: smallerCat 500ms;
-}
-
-.filter-cat.filter-smaller span {
-  padding-top: 5px;
-  padding-bottom: 5px;
-  animation: smallerCat 500ms;
-}
-
-@keyframes smallerDeal {
-  0% { padding-top: 8px; padding-bottom: 8px;}
-  100% {padding-top: 5px; padding-bottom: 5px;}
-}
-@keyframes smallerShop {
-  0% { padding-top: 12px; padding-bottom: 12px;}
-  100% {padding-top: 8px; padding-bottom: 8px;}
-}
-@keyframes smallerCat {
-  0% { padding-top: 10px; padding-bottom: 10px;}
-  100% {padding-top: 5px; padding-bottom: 5px;}
-}
-
 .filter-shop span {
   background: #fdeec4;
   color: #80692a;
   overflow: hidden;
-  padding: 12px 0px 12px 12px;
+  padding: 10px 0px 10px 10px;
 }
 
 .filter-shop i.counter {
@@ -407,7 +331,7 @@ b.label-shop-lidl {
   color: #4a4a4a;
   text-shadow: none;
   font-style: normal;
-  padding: 12px 5px 12px 5px;
+  padding: 10px 5px 10px 5px;
   margin-left: 5px;
 }
 
@@ -442,7 +366,7 @@ b.label-shop-lidl {
   text-shadow: 1px 1px #005305;
   background: #16b000 !important;
   position: sticky;
-  right: 10px;
+  right: 0px;
   left: 0px;
   z-index: 800;
 }
@@ -847,4 +771,29 @@ b.label-shop-lidl {
   color: #FFF;
   text-decoration: underline;
   text-decoration-color: red;
+}
+
+/* menu to the side on a large screen */
+@media screen and (min-width: 850px) {
+  .flex-container {
+    position: relative;
+    width: calc(75% - 15px);
+  }
+  .filter {
+    background: none;
+    float: left;
+    /* height: 100vh; */
+    width: 25%;
+    position: relative;
+  }
+  .filter-wrap {
+    max-width: 250px;
+    margin: 0px;
+    float: right;
+  }
+  
+  .filter-deal, .filter-cat, .filter-shop {
+    white-space:normal;
+    text-align: right;
+  }
 }
