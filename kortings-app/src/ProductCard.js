@@ -34,7 +34,7 @@ function ProductCard(props) {
         {isOpen && (
           <div className="item-overlay">
           <ul>
-            <li><a href={props.item['link']}>Open op {props.item['shop'] + ".nl"}</a></li>
+            <li><a target="_blank" rel="noreferrer" href={props.item['link']}>Open op {props.item['shop'] + ".nl"}</a></li>
             <li><a href={"https://teerkost.nl/#/" + props.item['shop'] +"/product/" + convertProductToLink(props.item['product']) + ""}>Open unieke link</a></li>
           </ul>
         </div>
