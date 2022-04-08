@@ -71,6 +71,35 @@ footer {
   box-shadow: inset 0px -50vh 0px 0px var(--main-secondary-color);
 }
 
+footer .donate {
+  display: none;
+  width: 185px;
+  position: sticky;
+  left: 85vw;
+  bottom: 25vh;
+  background: #FFD944;
+  margin: 50vh 10px 10px 10px;
+  padding: 10px;
+  border-radius: 15px;
+  transform: rotate(-5deg);
+  font-size: .8em;
+  color: #6a5a19;
+  box-shadow: -1px 2px 2px -2px #000;
+  top: 75vh;
+}
+footer a { text-decoration: none;}
+footer .donate i { 
+  text-decoration: underline;
+  font-style: normal;
+  color: #665202;
+  font-weight: 800;
+}
+footer .donate .wave {
+  font-size: 2em;
+  display: block;
+  text-decoration: none;
+}
+
 footer .title {
   left: calc(50% - 75px);
   bottom: calc(50vh - 75px);
@@ -807,6 +836,9 @@ b.label-shop-lidl {
 
 /* menu to the side, large screen */
 @media screen and (min-width: 850px) {
+
+  footer .donate { display: block; }
+
   a.title-sober { display: block; }
   .flex-container {
     position: relative;
