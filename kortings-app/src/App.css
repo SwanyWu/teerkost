@@ -44,18 +44,23 @@ body, html {
     background: #480000;
 }
 
-.title-sober {
+a.title-sober {
+  text-decoration: none;
   display: none;
+  text-align: right;
+
+}
+a.title-sober span {
+  display: inline-block;
   color: #fff;
   font-weight: 800;
   font-size: 1.5em;
   text-transform: uppercase;
-  float: right;
   padding: 5px 10px 5px 10px;
   background: #973434;
-  margin: 0px 0px 10px 0px;
+  margin: 0px 0px 0px 0px;
 }
-.title-sober:hover {
+a.title-sober span:hover {
   background: #480000;
 }
 
@@ -802,7 +807,7 @@ b.label-shop-lidl {
 
 /* menu to the side, large screen */
 @media screen and (min-width: 850px) {
-  .title-sober { display: inline-block; }
+  a.title-sober { display: block; }
   .flex-container {
     position: relative;
     width: calc(75% - 15px);

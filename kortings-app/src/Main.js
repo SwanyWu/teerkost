@@ -171,7 +171,7 @@ function Main(props) {
           </div>
         )}   */}
         <header className="filter">
-        <a href='https://teerkost.nl'><span className="title-sober">Teerkost</span></a>
+        <a className="title-sober" href='https://teerkost.nl'><span>Teerkost</span></a>
             <div id="filter-dialog">
             <div className="filter-wrap">
                 <div className="filter-shop">
