@@ -39,6 +39,9 @@ body, html {
   transform: rotate(10deg);
   cursor: pointer;
 }
+.title:hover {
+    background: #480000;
+}
 
 footer {
   text-align: center;
@@ -51,10 +54,6 @@ footer .title {
   left: calc(50% - 75px);
   bottom: calc(50vh - 75px);
   position: absolute;
-}
-
-footer .title:hover {
-  background: #480000;
 }
 
 footer .sub-title-wrap {
