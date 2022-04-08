@@ -7,7 +7,7 @@ function Footer() {
             Altijd de actuele aanbiedingen van de Albert Heijn, Jumbo, Lidl en Aldi. 
             </span>
           </span>
-          <a href="https://github.com/ffyud/teerkost" className="source-link">Open source op Github</a>
+          <a href="https://github.com/ffyud/teerkost" className="source-link"><i class="ri-github-fill"></i></a>
       </footer>
     )
 }
