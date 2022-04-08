@@ -21,26 +21,8 @@ function Main(props) {
 
   useEffect(() => {
     window.scrollTo(0, 0);
-    window.addEventListener("scroll", handleScroll);
   });
 
-  const handleScroll = () => {
-    const position = window.pageYOffset;
-    var dealFilter = document.querySelector("div.filter-deal")
-    var shopFilter = document.querySelector("div.filter-shop")
-    var catFilter = document.querySelector("div.filter-cat")
-
-    if(position > 200) {
-        dealFilter.classList.add("filter-smaller")
-        shopFilter.classList.add("filter-smaller")
-        catFilter.classList.add("filter-smaller")
-    }
-    else {
-      dealFilter.classList.remove("filter-smaller")
-      shopFilter.classList.remove("filter-smaller")
-      catFilter.classList.remove("filter-smaller")
-    }
-  }
 
   const [selectedOffers, setSelectedOffers] = useState(Offers);  
   const [selectedShopRoute, setSelectedShopRoute] = useState(props.shop);
@@ -182,7 +164,7 @@ function Main(props) {
   }
   
   return (
-    <div>
+    <div className="app-wrap">
         <header className="filter">
             {navigator.share && (
                 <div onClick={shareApi} className="share-button">
