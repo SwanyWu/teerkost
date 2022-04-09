@@ -237,7 +237,25 @@
         "name": "koek",
         "keywords": [
             "koekjes", "eierkoeken", "oreo", "koeken", "cakejes", "paascakejes",
-            "spekkoek", "aardbeiencakejes", "kano's"
+            "spekkoek", "aardbeiencakejes", "kano's", "b'tween"
+        ],
+        "ignore": []
+    },
+    {
+        "name": "vegan",
+        "keywords": [
+            "vegan", "snaqs", "vegetarisch", "vegetarische", "veggie", "soja", "vega", 
+            "haverdrink", "amandeldrink", "plantaardig", "plantaardige", "haver"
+        ],
+        "ignore": []
+    },
+    {
+        "name": "ijs",
+        "keywords": [
+            "ijssalon", "ijs", "jerry's", "ijsdessert", "ola", "ijsjes", 
+            "vrieslollies", "festini", "calippo", "magnum", "roomijs", "slagroomijs",
+            "schepijs", "häagen-dazs", "viennetta", "waterijs", "waterijsjes", 
+            "sorbetijs", "ice", "fruitijs", "fruitijsjes", "ijsstam"
         ],
         "ignore": []
     }
