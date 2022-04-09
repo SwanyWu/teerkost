@@ -82,6 +82,8 @@ function Main(props) {
     var catUrlPart = ""
     if(shopName !== undefined) {
       shopUrlPart = "/#/" + shopName;
+    } else {
+      shopUrlPart = "/#/alle-winkels"
     }
     if(catName !== undefined) {
       if(shopName === undefined) {
@@ -98,16 +100,16 @@ function Main(props) {
     var catPart = ""
     var titlePart = "Teerkost"
     if(shopName !== undefined) {
-      shopPart = " / " + shopName + " ";
+      shopPart = " " + shopName + " - ";
     }
     if(catName !== undefined) {
       if(shopName === undefined) {
         shopPart = " "
       }
-      catPart = catName;
+      catPart = catName + " - ";
     }
     if(shopName !== undefined || catName !== undefined) {
-      titlePart = "- Teerkost"
+      titlePart = "Teerkost"
     } 
     document.title = catPart + "" + shopPart + titlePart 
   }
