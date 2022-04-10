@@ -55,10 +55,12 @@ a.title-sober span {
   color: #fff;
   font-weight: 800;
   font-size: 1.5em;
+  border-radius: 8px;
   text-transform: uppercase;
-  padding: 5px 10px 5px 10px;
+  padding: 0px 10px 0px 10px;
   background: #973434;
-  margin: 0px 0px 0px 0px;
+  margin: 15px 0px 0px 0px;
+  line-height: 40px;
 }
 a.title-sober span:hover {
   background: #480000;
