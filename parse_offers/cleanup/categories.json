@@ -257,6 +257,6 @@
             "schepijs", "häagen-dazs", "viennetta", "waterijs", "waterijsjes", 
             "sorbetijs", "ice", "fruitijs", "fruitijsjes", "ijsstam"
         ],
-        "ignore": []
+        "ignore": ["lipton", "tea"]
     }
 ]
