@@ -211,15 +211,141 @@ footer .source-link:hover {
 
 .share-button {
   cursor: pointer;
-  position: absolute;
-  right: 0px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 900;
+  float: right;
   margin: 0px;
+  line-height: 40px;
   color: #fff;
+  background: #973434;
   text-align: center;
-  border-radius: 8px;
-  padding: 10px 10px 10px 10px;
+  padding: 0px 10px 0px 10px;
   font-size: 1.2em;
-  text-shadow: 1px 1px 0px #820101;
+  height: 40px;
+  overflow: hidden;
+  border-radius: 8px;
+  animation: slideIn 2000ms;
+}
+
+@keyframes slideIn {
+  0% { transform: translateY(100px);}
+  75% {transform: translateY(100px);}
+  100% { transform: translateY(0px);}
+}
+
+#dialog-on {
+  display: block;
+}
+.share-dialog-wrap {
+  display: none;
+  background: #0000008a;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 999;
+}
+.share-dialog {
+  position: fixed;
+  z-index: 999;
+  background: #FFF;
+  width: 300px;
+  left: calc(50% - 125px);
+  top: 25vh;
+  box-shadow: var(--shadow-elevation-medium);
+  border-radius: 8px;
+  text-align: center;
+  animation: modal 200ms;
+}
+
+@keyframes modal {
+  0% { opacity: 0; transform: translateY(20px);}
+  100% { opacity: 1; transform: translateY(0px);}
+}
+
+.share-dialog .title {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  font-size: .7em;
+  display: block;
+  top: -50px;
+  position: absolute;
+  left: calc(50% - 50px);
+}
+.share-dialog .title:hover {
+  background: #973434;
+}
+
+.share-dialog .share-title {
+  display: block;
+  padding-top: 65px;
+  color: #737373;
+  font-weight: 800;
+}
+
+.share-dialog .url-share {
+  display: table;
+  font-size: .8em;
+  background: #d27070;
+  margin: 10px 0px 10px 0px;
+  padding: 10px 5px 10px 5px;
+  position: relative;
+  width: calc(100% - 10px);
+  border-spacing: 0px;
+}
+
+.share-dialog .url-share input {
+  font-weight: 800;
+  padding: 0px 10px 0px 10px;
+  line-height: 40px;
+  border: none;
+
+  display: inline-block;
+  outline: none;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+}
+.share-dialog .url-share .url-copy {
+  cursor: pointer;
+  display: inline-block;
+  line-height: 40px;
+  border: none;
+  padding: 0px 10px 0px 10px;
+  background: #882F2F;
+  color: #FFF;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+  font-weight: 800;
+}
+.share-dialog .url-share .url-copy:hover {
+  background: #480000;
+}
+
+.share-dialog .socials {
+  margin: 0px 0px 10px 0px;
+  display: table;
+  width: 100%;
+}
+
+.share-dialog .socials a {
+  display: table-cell;
+}
+.share-dialog .socials a.telegram { color: #0088cc;}
+.share-dialog .socials a.whatsapp { color: #075e54;}
+.share-dialog .socials a.twitter { color: #1da1f2;}
+.share-dialog .socials a.reddit { color: #ff4500;}
+.share-dialog .socials a.mail { color: #505264;}
+
+.share-dialog .socials a:hover i {
+  color: #000;
+}
+
+.share-dialog .socials i {
+  padding: 10px;
+  font-size: 1.7em;
+  display: inline-block;
 }
 
 #filter-description {
