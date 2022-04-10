@@ -14,22 +14,25 @@ function SingleProduct(props) {
   });
 
     return (
-      <div className="container">
-      <article className="single-item">
-        <span className={"product-shop " + props.item['shop']}>{props.item['shop']}</span>
-        <Category category={props.item['category']}/>
-        <DateLabel dateEnd={props.item['dateEnd']} dateStart={props.item['dateStart']}/>
-        <Price newPrice={props.item['price']} />
-        <Suspense fallback={<div className="even-geduld-image"></div>}>
-          <Image image={props.item['image']} />
-        </Suspense> 
-        <summary className="product-name">
-          {props.item['product']}
-          <span className="product-info"> {props.item['productInfo']}</span>
-        </summary>
-        <Deal deal={props.item['deal']} />
-      </article>
+      <div className="app-wrap">
+        <div className="container">
+        <article className="single-item">
+          <span className={"product-shop " + props.item['shop']}>{props.item['shop']}</span>
+          <Category category={props.item['category']}/>
+          <DateLabel dateEnd={props.item['dateEnd']} dateStart={props.item['dateStart']}/>
+          <Price newPrice={props.item['price']} />
+          <Suspense fallback={<div className="even-geduld-image"></div>}>
+            <Image image={props.item['image']} />
+          </Suspense> 
+          <summary className="product-name">
+            {props.item['product']}
+            <span className="product-info"> {props.item['productInfo']}</span>
+          </summary>
+          <Deal deal={props.item['deal']} />
+        </article>
+        </div>
       </div>
+
     )
 }
 
