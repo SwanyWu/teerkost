@@ -132,7 +132,7 @@ footer .source-link {
   position: absolute;
   bottom: 10px;
   font-size: 2em;
-  right: 10px;
+  left: 10px;
 }
 footer .source-link:hover {
   color: #000;
