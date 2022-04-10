@@ -61,7 +61,9 @@ a.title-sober span {
   background: #973434;
   margin: 15px 0px 0px 0px;
   line-height: 40px;
+  box-shadow: inset 0px -4px 2px -4px #4d2323;
 }
+
 a.title-sober span:hover {
   background: #480000;
 }
