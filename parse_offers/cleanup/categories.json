@@ -86,9 +86,9 @@
     },
     {
         "name": "beleg",
-        "keywords": [ "calvé", "pindakaas", "ruijter", "broodbeleg", "sandwichspread", "hagelslag"
+        "keywords": [ "calvé", "pindakaas", "ruijter", "broodbeleg", "sandwichspread", "hagelslag", "jam"
         ],
-        "ignore": []
+        "ignore": ["saus"]
     },
     {
         "name": "kaas",
@@ -99,7 +99,7 @@
             "brie", "rochebaron", "geitenkaas", "goudse", "walnootkaas", "roomsmeerkaas",
             "parrano", "feta", "fondue", "parmazan", "camembert","parmigiano", "reggiano", 
             "gorgonzola", "mozzerella", "buffelmozzerella", "kaasplateau", "babybell", "babybel", 
-            "vache", "nurishh", "salut"
+            "vache", "nurishh", "salut", "burrata"
         ],
         "ignore": []
     },
@@ -133,7 +133,7 @@
             "ovenmaaltijd", "ovenmaaltijden","maaltijdcomponenten", "lunchsalade", "lunchsalades",
             "fruitsalades", "fruitsalade", "maaltijdsalade", "maaltijdsalades", "pastasalade", "pastasalades", 
             "maaltijdsalades", "3-vaks-maaltijden","3-vaksmaaltijden", "3-vaks-maaltijd", "cup-a-soup",
-            "3-vaksmaaltijd", "2-vaks-maaltijd", "2-vaks-maaltijden", "ovenschotels", "ovenschotel", 
+            "3-vaksmaaltijd", "2-vaks-maaltijd", "2-vaks-maaltijden", "ovenschotels", "ovenschotel", "saladeschotel", 
             "prei-kerrie-ovenschotel", "quiche", "zalm-aspergequiche", "maaltijdpakket", "maaltijdpakketten", "pannenkoeken"
         ],
         "ignore": []
@@ -204,8 +204,10 @@
             "vaatwasmiddel", "parketreiniger", "vaatwascapsules", "vaatwastablet", "vaatwastabletten","schoonmaakartikelen", 
             "schoonmaakbenodigdheden", "schoonmaakdoekjes", "schoonmaaksprays", "reinigingsdoekje", "reinigingsmiddel", "reinigingsmiddelen",
             "reinigingsdoekjes", "allesreiniger", "aanslagreiniger", "reiniger", "containerzakken", "vuilniszakken",
-            "bloemen", "geranium", "fuchsia", "rhododendron", "onkruid", "pokon", "violen", "tulpen", "tulpenboeket", "bolhortensia", "rozen", "oleander", "bougainvillea", "astilbe",
-            "magnolia", "bonsaiboompje", "geldboompje", "bonsai-/geldboompje", "plant", "hyacinten", "narcissen", "calla", "kamerplant", "kamerplanten", "keramische"
+            "bloemen", "geranium", "fuchsia", "rhododendron", "onkruid", "pokon", "violen", "tulpen", "tulpenboeket", 
+            "bolhortensia", "rozen", "oleander", "bougainvillea", "astilbe", "pioenrozen",
+            "magnolia", "bonsaiboompje", "geldboompje", "bonsai-/geldboompje", "plant", "hyacinten", 
+            "narcissen", "calla", "kamerplant", "kamerplanten", "keramische"
         ],
         "ignore": []
     },
