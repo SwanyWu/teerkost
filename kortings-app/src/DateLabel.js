@@ -48,6 +48,13 @@ function DateLabel(props) {
                         </span>
                     )
                 }
+                else if(dateEndParsed < dateNowParsed) {
+                    return (
+                        <span className="product-date date-now">
+                            {"verlopen"}
+                        </span>
+                    )                    
+                }
                 else {
                     return (
                         <span className="product-date">
