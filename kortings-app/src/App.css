@@ -343,7 +343,7 @@ footer .source-link:hover {
 .share-dialog .socials a.whatsapp { color: #075e54;}
 .share-dialog .socials a.twitter { color: #1da1f2;}
 .share-dialog .socials a.reddit { color: #ff4500;}
-.share-dialog .socials a.mail { color: #505264;}
+.share-dialog .socials a.linkedin { color: #0077b5;}
 
 .share-dialog .socials a:hover i {
   color: #000;
@@ -351,7 +351,7 @@ footer .source-link:hover {
 
 .share-dialog .socials i {
   padding: 10px;
-  font-size: 1.7em;
+  font-size: 1.5em;
   display: inline-block;
 }
 
