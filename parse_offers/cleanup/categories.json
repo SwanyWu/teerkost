@@ -35,7 +35,7 @@
             "ham", "beenham", "yorkham", "achterham", "truffelham", "gehaktstaaf", "runderhamburgers", "rundvleeshamburgers", "gehaktballetjes", "filet",
             "biefstuk", "ossenhaas", "ribeye", "entrecote", "ardennerpate", "spekreepjes", "worsten",
             "carpaccio", "varkenshaas", "vleeswaren", "kookham", "wahid", "rundergehakt", "gehakt", "iberico",
-            "hamlappen", "prosciutto", "pavé", "venkelsalami", "salami", "bbq", "grill", "paté", "mekkafood"
+            "hamlappen", "fund", "prosciutto", "pavé", "venkelsalami", "salami", "bbq", "grill", "paté", "mekkafood"
         ],
         "ignore": ["vega", "vegan", "vegetarisch", "vegetarische"]
     },
