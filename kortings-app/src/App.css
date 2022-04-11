@@ -232,6 +232,10 @@ footer .source-link:hover {
   animation: slideIn 2000ms;
 }
 
+.share-button:hover {
+  background: #480000;
+}
+
 @keyframes slideIn {
   0% { transform: translateY(100px);}
   75% {transform: translateY(100px);}
