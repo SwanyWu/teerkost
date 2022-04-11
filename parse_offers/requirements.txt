@@ -2,8 +2,4 @@ bs4
 requests
 Pillow
 selenium
-webdriver_manager.firefox
-selenium.webdriver.firefox.options
-selenium.webdriver.common.by
-selenium.webdriver.support.ui
-selenium.webdriver.support
+webdriver_manager
