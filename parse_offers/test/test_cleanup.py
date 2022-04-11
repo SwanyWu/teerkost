@@ -8,20 +8,20 @@ class TestCleanup(unittest.TestCase):
         """
         ✅ Categorie voor product vinden maar ook woorden negeren 👉 
         """
-        resultingCategory = categorize.findCategoryForProduct("filet american", "dikke bak")
+        resultingCategory = categorize.findCategoryForProduct("een biefstuk", "bla bla")
         self.assertTrue(resultingCategory == 'vlees')
 
-        resultingCategory = categorize.findCategoryForProduct("gigantische biefstuk", "maar wel echt een dier")
-        self.assertTrue(resultingCategory == 'vlees')
+        resultingCategory = categorize.findCategoryForProduct("een vegan", "bla bla")
+        self.assertTrue(resultingCategory == 'vegan')
 
-        resultingCategory = categorize.findCategoryForProduct("gigantische biefstuk", "maar wel vegetarisch lol")
-        self.assertTrue(resultingCategory != 'vlees')
+        resultingCategory = categorize.findCategoryForProduct("een vegan biefstuk", "bla bla")
+        self.assertTrue(resultingCategory == 'vegan')
 
-        resultingCategory = categorize.findCategoryForProduct("vegetarische filet american", "dikke bak")
-        self.assertTrue(resultingCategory != 'vlees')
+        resultingCategory = categorize.findCategoryForProduct("een biefstuk vegan", "bla bla")
+        self.assertTrue(resultingCategory == 'vegan')
 
-        resultingCategory = categorize.findCategoryForProduct("vegetarische brood volkoren", "heel veel")
-        self.assertTrue(resultingCategory == 'brood')
+        resultingCategory = categorize.findCategoryForProduct("een biefstuk vegan biefstuk", "bla bla")
+        self.assertTrue(resultingCategory == 'vegan')
 
     def test_return_category_by_title(self):
         """

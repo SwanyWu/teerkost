@@ -24,18 +24,16 @@ def findCategoryForProduct(title, description):
 
     foundCategory = ""
 
+    categoriesToIgnore = []
     for word in wordsList:
         for category in categories:
+            for ignore in category['ignore']:
+                if ignore.lower() == word: # bad word found, add category to ignoreList
+                    categoriesToIgnore.append(category['name'])
+                    print("" + word + " is bij " + category['name']+ " is een te negeren woord.")
             for keyword in category['keywords']:
-                if keyword.lower() == word: # keyword matched, so use the relevant category
+                if keyword.lower() == word and category['name'] not in categoriesToIgnore: # keyword matched and not an ignored category
                     foundCategory = category['name']
-                        
-    if foundCategory != "": # if category found, check for words that should be ignored
-        for word in wordsList:
-            for category in categories:
-                if category['name'] == foundCategory:
-                    for ignore in category['ignore']:
-                        if ignore.lower() == word: # bad word found, so remove category
-                            foundCategory = ""
+                    print("categorie voor " + foundCategory + " gevonden bij woord " + word)
 
     return foundCategory
