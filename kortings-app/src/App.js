@@ -25,7 +25,7 @@ function App() {
 
   const shops = ["jumbo", "aldi", "ah", "lidl", "ekoplaza"]
   const categories = ["bier", "koffie", "groente", "vis", "fruit", 
-  "kant-en-klaar", "wijn", "aardappel", "brood", "beleg", "kaas", 
+  "kant-en-klaar", "wijn", "aardappel", "brood", "beleg", "kaas", "thee",
   "noten", "zuivel", "vlees", "vegan", "frisdrank", "ijs", "chocola", "chips", "koek", "verzorging", "huishouden"]
 
   return (

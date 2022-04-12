@@ -5,7 +5,7 @@
             "brouwerij", "brewery", "bier", "bieren", "biermerken", "speciaalbier", "0.0", "pilsener", "pils", "Heineken", "Radler", "speciaalbieren", 
             "Grolsch", "desperados", "Amstel", "Bavaria", "Affligem", "Trappe", "Brand", "birra", "moretti", "Dors", "Veltins","Dommelsch", "Alfa",
             "Gulpener", "Westmalle", "tripel", "cornet" ,"karmeliet", "skuumkoppe", "corona", "bud", "perlenbacher", "hefeweizen", 
-            "kordaat", "tequilabier", "finkbrau", "oettinger", "argus", "steenbrugge", "Schultenbräu", "palm", "lefort",
+            "kordaat", "tequilabier", "finkbrau", "oettinger", "argus", "steenbrugge", "Schultenbräu", "palm", "lefort", "ale", "lowlander",
             "Leffe", "Corona", "Warsteiner", "Jupiler", "Weizen", "witbieren", "witbier", "weizenbier", "hertog", "weizenbieren", "ipa", "Chouffe", "Jopen", "Afflichem", "Duvel"
         ],
         "ignore": ["stoofvlees", "runderhachee", "ijs", "ijssalon"]
@@ -267,5 +267,15 @@
             "sorbetijs", "ice", "fruitijs", "fruitijsjes", "ijsstam"
         ],
         "ignore": ["lipton", "tea"]
+    },
+    {
+        "name": "thee",
+        "keywords": ["thee", "piramide", "venkelthee", "brandnetelthee", "kruidenthee",
+            "kamillethee", "kurkumathee", "lindebloesemthee", "pepermuntthee", "rozenbottelthee",
+            "saliethee", "sterrenmix", "zoethoutthee", "rooibosthee", "verveinethee", 
+            "pickwick", "clipper", "kamille", "sterrenmunt", "twinings", "celestial", "theefilter",
+            "theefilters", "pukka", "lipton", "yogi", "chai", "maa", "ceylon", "grey"
+        ],
+        "ignore": ["ice"]
     }
 ]
