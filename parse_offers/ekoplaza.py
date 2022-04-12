@@ -43,6 +43,9 @@ def returnOffers():
     soup = BeautifulSoup(productSectionHTML, "html.parser")
     collection = []
 
+    dateStart = ""
+    dateEnd = ""
+    
     dateElement = soup.find("div", {"class": "sub-wrapper"}).find("span", {"class": "sub-title"})
     if dateElement != None:
         fullDateString = dateElement.get_text().strip()
@@ -82,8 +85,6 @@ def returnOffers():
         price = ""
         deal = ""
         label = ""
-        dateStart = ""
-        dateEnd = ""
         link = ""
 
         titleElement = product.find("h4", {"class", "title"})
