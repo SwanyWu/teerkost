@@ -45,7 +45,7 @@ def returnOffers():
 
     dateStart = ""
     dateEnd = ""
-    
+
     dateElement = soup.find("div", {"class": "sub-wrapper"}).find("span", {"class": "sub-title"})
     if dateElement != None:
         fullDateString = dateElement.get_text().strip()
@@ -123,7 +123,7 @@ def returnOffers():
         linkElement = product.find("a", {"class", "link-contnet"})
         if linkElement != None:
             linkHref = linkElement['href']
-            link = "https://www.ekoplaze.nl" + linkHref
+            link = "https://www.ekoplaza.nl" + linkHref
 
         offer = {
             "product":"", 
