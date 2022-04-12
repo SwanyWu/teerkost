@@ -4,6 +4,7 @@ import DateLabel from './DateLabel';
 import Price from './Price';
 import Category from './Category';
 import Deal from './Deal';
+import ShareDialog from "./ShareDialog";
 
 const Image = React.lazy(() => import ('./Image'));
 
@@ -15,6 +16,7 @@ function SingleProduct(props) {
 
     return (
       <div className="app-wrap">
+        <ShareDialog />
         <div className="container">
         <article className="single-item">
           <span className={"product-shop " + props.item['shop']}>{props.item['shop']}</span>
