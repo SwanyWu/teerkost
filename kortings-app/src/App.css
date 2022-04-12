@@ -821,7 +821,7 @@ b.label-shop-lidl {
   border-radius: 8px;
 }
 .product-image img {
-  width: 130px;
+  max-width: 130px;
 }
 
 .product-name { 
@@ -984,7 +984,7 @@ b.label-shop-lidl {
     }
 
     .product-image img {
-      width: 100px !important;
+      max-width: 100px !important;
     }
 
     .product-deal {
@@ -1000,8 +1000,6 @@ b.label-shop-lidl {
 
   }
 }
-
-
 
 /* menu to the side, large screen */
 @media screen and (min-width: 850px) {
