@@ -113,7 +113,7 @@ def returnOffers():
                 calculateDeal = int((1 - (float(price)/float(oldPrice))) * 100)
                 deal = str(calculateDeal) + "% korting" 
         else: # or use the label for the discount
-            deal = label
+            deal = label.lower()
 
         imageElement = product.find("img")
         if imageElement != None:
