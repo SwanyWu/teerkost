@@ -58,7 +58,6 @@ function DateLabel(props) {
                 else {
                     return (
                         <span className="product-date">
-                            {"" + parseInt(dayStart, 10) + " " + monthStart}
                             {" t/m " + parseInt(dayEnd, 10) + " " + monthEnd}
                         </span>
                     )
