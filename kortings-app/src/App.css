@@ -599,6 +599,35 @@ b.label-shop-lidl {
   100% {opacity: 1;}
 }
 
+.flex-container .show-more {
+  text-align: center;
+  width: 100%;
+  margin: 15px 15px 0px 0px;
+}
+
+.flex-container .show-more span {
+  background: #0000001C;
+  display: inline-block;
+  border-radius: 8px;
+  padding: 10px 45px 10px 45px;
+  animation: attention 12s infinite;
+  color: #FFF;
+  cursor: pointer;
+  text-shadow: 1px 1px #97343482;
+  text-transform: uppercase;
+}
+.flex-container .show-more span:hover {
+  background: #97343482;
+}  
+
+@keyframes attention {
+  0% { transform: translateY(0px);}
+  95% { transform: translateY(0px);}
+  97% { transform: translateY(10px);}
+  99% { transform: translateY(-2px);}
+  100% { transform: translateY(0px);}
+}
+
 .no-offers {
   display: inline-block;
   padding: 100px 10px 10px 10px;
