@@ -4,7 +4,7 @@ function Footer() {
           <a href='https://teerkost.nl'><span className="title">Teerkost</span></a>
           <span className="sub-title-wrap">
             <span className="sub-title">
-            Altijd de actuele aanbiedingen van de Albert Heijn, Jumbo, Lidl en Aldi. 
+            Altijd de actuele aanbiedingen van supermarkten.
             </span>
           </span>
           <a target="_blank" rel="noreferrer" href="https://www.paypal.com/donate/?business=27RC7XCK9VHH4&no_recurring=0&currency_code=EUR">
