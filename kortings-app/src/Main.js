@@ -15,7 +15,7 @@ function Main(props) {
   ]
 
   let shops = [
-    ['ah', 0], ['jumbo', 0], ['lidl', 0], ['aldi', 0]
+    ['ah', 0], ['jumbo', 0], ['lidl', 0], ['aldi', 0], ['ekoplaza', 0]
   ]
 
   const [categoriesList, setCategoriesList] = useState(categories)
@@ -24,7 +24,6 @@ function Main(props) {
   useEffect(() => {
     window.scrollTo(0, 0);
   });
-
 
   const [selectedOffers, setSelectedOffers] = useState(Offers);  
   const [selectedShopRoute, setSelectedShopRoute] = useState(props.shop);

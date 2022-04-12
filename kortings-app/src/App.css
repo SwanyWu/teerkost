@@ -915,6 +915,13 @@ b.label-shop-lidl {
   text-decoration: underline;
   text-decoration-color: red;
 }
+.product-shop.ekoplaza {
+  color: #FFF;
+  background: #6d1f80;
+  text-decoration: none;
+  font-size: .6em;
+  padding: 5px 5px 5px 5px;
+}
 
 
 @media screen and (max-width: 1000px) {

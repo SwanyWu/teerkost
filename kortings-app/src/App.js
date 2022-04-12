@@ -23,7 +23,7 @@ function App() {
     return parsedProduct;
   }
 
-  const shops = ["jumbo", "aldi", "ah", "lidl"]
+  const shops = ["jumbo", "aldi", "ah", "lidl", "ekoplaza"]
   const categories = ["bier", "koffie", "groente", "vis", "fruit", 
   "kant-en-klaar", "wijn", "aardappel", "brood", "beleg", "kaas", 
   "noten", "zuivel", "vlees", "vegan", "frisdrank", "ijs", "chocola", "chips", "koek", "verzorging", "huishouden"]
