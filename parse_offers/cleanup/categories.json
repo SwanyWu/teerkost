@@ -55,7 +55,7 @@
             "hutspot", "zuurkool", "snijbonen", "bleekselderij", "knolselderij", "wokgroenten", 
             "wokgroente", "maïskorrels","bieten", "pastinaak", "asperges", "kwartblikjes", "conserven",
             "haricots", "sjalotten", "babyspinazie", "kropsla", "sla", "slamelange", "eikenblad-slamelange", "slamelanges", 
-            "bonen", "radijs", "radijsjes", "spitskool", "paksoi"
+            "bonen", "radijs", "radijsjes", "spitskool", "paksoi", "bimi"
         ],
         "ignore": ["roomsaus", "saus"]
     },
@@ -80,7 +80,7 @@
             "puntjes", "mini-rozijnen-krentenbollen", "rozijnenbollen", "mini-krentenbollen", "frikandelbroodje", "frikandelbroodjes",
             "saucijzenbroodjes", "stol", "volkorenstol", "volkorennotenstol", "notenstol", "saucijzenbroodje", "zonnebloempittenbrood", "sesamvolkorenbrood",
             "vruchtenbrood", "bakkersbrood", "meerzadenbroodje", "meerzadenbrood", "volkorenbrood", "passiebrood", "passiebroden",
-            "grofvolkorenbrood", "sesambrood", "meergranenbrood", "krokantjes", "paashaasbroodjes", "schnittbroodjes", "kruidenbroodje",
+            "grofvolkorenbrood", "sesambrood", "meergranenbroodje", "meergranenbrood", "krokantjes", "paashaasbroodjes", "schnittbroodjes", "kruidenbroodje",
             "breekbrood", "desembol", "desembrood", "maisbrood", "speltbaguette", "seitanbroodje", "speltbroodjes", "stokbrood"
         ],
         "ignore": ["salade", "salades", "chips"]
@@ -253,7 +253,8 @@
         "name": "vegan",
         "keywords": [
             "vegan", "snaqs", "vegetarisch", "vegetarische", "veggie", "soja", "vega", "biovegan",
-            "haverdrink", "amandeldrink", "plantaardig", "plantaardige", "haver", "quorn"
+            "haverdrink", "amandeldrink", "plantaardig", "plantaardige", "haver", "quorn",
+            "falafel", "falafelballetjes"
         ],
         "ignore": []
     },
