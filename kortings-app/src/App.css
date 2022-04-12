@@ -892,13 +892,13 @@ b.label-shop-lidl {
   display: inline-block;
   position: absolute;
   background: #fdfdfd;
-  right: 5px;
+  right: 0px;
   color: #35322a;
   font-weight: 800;
   font-size: .8em;
   margin: 0px 0px 0px 0px;
   padding: 5px 5px 5px 5px;
-  top: 5px;
+  top: 0px;
   border-radius: 8px;
 }
 .date-now { color: #aa3a3a;}
@@ -912,7 +912,7 @@ b.label-shop-lidl {
   top: 5px;
   color: #000;
   font-weight: 800;
-  min-width: 60px;
+  min-width: 85px;
   text-align: center;
   font-size: .8em;
   position: absolute;
@@ -948,7 +948,7 @@ b.label-shop-lidl {
   color: #FFF;
   background: #6d1f80;
   text-decoration: none;
-  font-size: .6em;
+  font-size: .65em;
   padding: 5px 5px 5px 5px;
 }
 
