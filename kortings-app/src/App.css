@@ -78,7 +78,7 @@ footer {
 footer .donate {
   display: none;
   width: 185px;
-  position: sticky;
+  position: relative;
   left: 73vw;
   background: #FFD944;
   margin: 50vh 10px 10px 10px;
@@ -288,8 +288,8 @@ footer .source-link:hover {
 
 .share-dialog .share-title {
   display: block;
-  padding-top: 65px;
-  color: #737373;
+  padding-top: 40px;
+  color: #882f2f;
   font-weight: 800;
 }
 
