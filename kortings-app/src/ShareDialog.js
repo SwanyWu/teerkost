@@ -1,7 +1,8 @@
 function ShareDialog(props) {
   
-  var shareText = "Altijd de actuele aanbiedingen van de Albert Heijn, Jumbo, Lidl en Aldi."
-  var shareUrl = "https://teerkost.nl"
+  var shareText = "Altijd de actuele aanbiedingen van supermarkten."
+  var shareUrl = window.location.href
+  var shareTitle = document.title
 
   const copyMe = () => {
     var linkElement = document.querySelector(".url-share input");
@@ -11,8 +12,8 @@ function ShareDialog(props) {
   const shareApi = (e) => {
     if (navigator.share) {
       navigator.share({
-        title: 'Teerkost',
-        url: 'https://teerkost.nl'
+        title: shareTitle,
+        url: shareUrl
       }).then(() => {
         console.log('Dankje');
       })
@@ -40,7 +41,6 @@ function ShareDialog(props) {
     }
   }
 
-  
   return (
     <div>
       <div className="share-dialog-wrap">
@@ -48,7 +48,7 @@ function ShareDialog(props) {
           <span className="title">teerkost</span>
           <span className="share-title">DEEL TEERKOST</span>
           <div className="url-share">
-            <input value="https://teerkost.nl"/>
+            <input value={shareUrl}/>
             <span onClick={copyMe} className="url-copy">kopieer</span>
           </div>
           <div className="socials">
@@ -61,7 +61,7 @@ function ShareDialog(props) {
           <a className="twitter" href={"https://twitter.com/intent/tweet?url="+shareUrl+"&text="+shareText+""}>
             <i class="ri-twitter-fill"></i>
           </a>
-          <a className="reddit" href={"https://reddit.com/submit?url="+shareUrl+"&title=Teerkost"}>
+          <a className="reddit" href={"https://reddit.com/submit?url="+shareUrl+"&title="+shareTitle+""}>
             <i class="ri-reddit-fill"></i>
           </a>
           <a className="linkedin" href={"https://www.linkedin.com/sharing/share-offsite/?url="+shareUrl+""}>
