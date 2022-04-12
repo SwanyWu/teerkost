@@ -2,6 +2,7 @@ import albertheijn
 import jumbo
 import lidl
 import aldi
+import ekoplaza
 import json
 import shutil
 import requests
@@ -89,8 +90,9 @@ if __name__ == "__main__":
     ahOffers = albertheijn.returnOffers()
     lidlOffers = lidl.returnOffers()
     aldiOffers = aldi.returnOffers()
+    ekoplazaOffers = ekoplaza.returnOffers()
 
-    allOffers = jumboOffers + ahOffers + lidlOffers + aldiOffers
+    allOffers = jumboOffers + ahOffers + lidlOffers + aldiOffers + ekoplazaOffers
     allOffers = sorted(allOffers, key=lambda p: p['category'])
 
     headers = {
