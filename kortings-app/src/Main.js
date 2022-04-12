@@ -189,44 +189,9 @@ function Main(props) {
     console.log("Aantal aanbiedingen na filter: " + filtered.length)
   }
 
-  const shareApi = (e) => {
-    if (navigator.share) {
-      navigator.share({
-        title: 'Teerkost',
-        url: 'https://teerkost.nl'
-      }).then(() => {
-        console.log('Dankje');
-      })
-      .catch(console.error);
-    } else {
-      var shareButtonElement = document.querySelector('.share-button')
-      var shareDialogElement = document.querySelector('.share-dialog')
-      var wrapElement = document.querySelector('.share-dialog-wrap')
-
-      var clickOutside = function(e) {
-        if ( !shareDialogElement.contains(e.target) && !shareButtonElement.contains(e.target)) {
-          wrapElement.removeAttribute("id") 
-          if(!wrapElement.hasAttribute("id")) { // stop listening to clicks outside the dialog
-            return document.removeEventListener('click', clickOutside)
-          }
-        }
-      }  
-
-      if(! wrapElement.hasAttribute("id")) {
-        wrapElement.id = "dialog-on"
-        if(wrapElement.id === "dialog-on") { // listen to clicks outside the dialog
-          document.addEventListener('click', clickOutside) 
-        }   
-      }
-    }
-  }
-  
   return (
     <div className="app-wrap">
         <ShareDialog />
-        <div onClick={shareApi} className="share-button">
-          <i class="ri-share-box-fill"></i>
-        </div>
         <header className="filter">
         <a className="title-sober" href='https://teerkost.nl'><span>Teerkost</span></a>
             <div id="filter-dialog">
