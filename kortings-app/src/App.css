@@ -246,6 +246,7 @@ footer .source-link:hover {
   display: block;
 }
 .share-dialog-wrap {
+  top: 0px;
   display: none;
   background: #0000008a;
   width: 100vw;
