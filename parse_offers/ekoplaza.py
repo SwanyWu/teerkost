@@ -55,26 +55,31 @@ def returnOffers():
 
         currentYear = datetime.datetime.now().year
 
-        startDay = fullDateString[0]
-        fullDateStringMonthStart = fullDateString[1]
-        startMonth = returnMonthNumber(fullDateStringMonthStart)
+        if fullDateString[0] == 'Vandaag':
+            startDay = datetime.datetime.now().day
+            startMonth = datetime.datetime.now().month
+        else:
+            startDay = fullDateString[0]
+            fullDateStringMonthStart = fullDateString[1]
+            startMonth = returnMonthNumber(fullDateStringMonthStart)
+
+        formattedStartDate = str(currentYear) + "-" + str(startMonth) + "-" + str(startDay)
+        dateStart = formattedStartDate    
         
         if fullDateString[3] == 'Vandaag':
             endDay = datetime.datetime.now().day
             endMonth = datetime.datetime.now().month
-
-            formattedEndDate = str(currentYear) + "-" + str(endMonth) + "-" + str(endDay)
-            dateEnd = formattedEndDate
-        else:    
+        elif fullDateString[0] == 'Vandaag':
+            endDay = fullDateString[2]
+            fullDateStringMonth = fullDateString[3]
+            endMonth = returnMonthNumber(fullDateStringMonth)           
+        else:
             endDay = fullDateString[3]
             fullDateStringMonth = fullDateString[4]
             endMonth = returnMonthNumber(fullDateStringMonth)
 
-            formattedEndDate = str(currentYear) + "-" + endMonth + "-" + endDay
-            dateEnd = formattedEndDate
-
-        formattedStartDate = str(currentYear) + "-" + startMonth + "-" + startDay
-        dateStart = formattedStartDate
+        formattedEndDate = str(currentYear) + "-" + str(endMonth) + "-" + str(endDay)
+        dateEnd = formattedEndDate
 
     productTile = "product-tile"
     for product in soup.find_all("div", {"class": productTile}):
