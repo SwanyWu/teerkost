@@ -90,7 +90,7 @@
         "keywords": [ "calvé", "pindakaas", "ruijter", "broodbeleg", "sandwichspread", 
             "hagelslag", "jam", "johma", "fruitbeleg", "honing", "bloemenhoning", "notenpasta"
         ],
-        "ignore": ["saus", "sauzen"]
+        "ignore": ["saus", "sauzen", "partysauzen"]
     },
     {
         "name": "kaas",
