@@ -23,6 +23,9 @@ class TestCleanup(unittest.TestCase):
         resultingCategory = categorize.findCategoryForProduct("een biefstuk vegan biefstuk", "bla bla")
         self.assertTrue(resultingCategory == 'vegan')
 
+        resultingCategory = categorize.findCategoryForProduct("calvé saus", "bla bla")
+        self.assertTrue(resultingCategory != 'beleg')
+
     def test_return_category_by_title(self):
         """
         ✅ Categorie voor product wordt gevonden in titel 👉 
