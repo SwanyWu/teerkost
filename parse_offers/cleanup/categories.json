@@ -168,7 +168,7 @@
             "waterval", "bradshaw", "villebois", "concha", "marques", "lindeman's", "rosé",
             "codorníu", "brut", "rosso", "fantini", "brancott", "spatburgunder",
             "tulipe", "bastard",  "gort", "veltliner", "provence", "vinãs",
-            "cordier","malbec", "zinfandel",  "clairette", 
+            "cordier","malbec", "zinfandel",  "clairette", "mezzacorona",
             "merlot", "pinot", "grigio", "sauvignon", "montaignan",
             "chardonnay", "winzer", "krems", "neleman", "bloemfontein",
             "windheuvel", "bayride", "neleman", "chenin", "pinotage",
@@ -230,7 +230,7 @@
             "mars", "bros", "lion", "smarties", "kitkat", "rolo", "chocolaatjes", "chocolade", "paaseitjes",
             "paaseieren", "milka", "delft", "delicata", "snickers", "twix", "chocoladedragees", "choco", "paashaas",
             "reuzenpaasei", "chocolade-eieren", "eitjes", "chocoladepizza", "chocolade-eitjes",  "paaschocolade",
-            "chololadehartjes", "melkchocolade", "d'or"
+            "chololadehartjes", "melkchocolade", "d'or", "cacao"
         ],
         "ignore": ["kalanchoë"]
     },
@@ -277,5 +277,13 @@
             "theefilters", "pukka", "lipton", "yogi", "chai", "maa", "ceylon", "grey", "tea"
         ],
         "ignore": ["ice"]
+    },
+    {
+        "name": "pasta",
+        "keywords": [
+            "pasta", "pastasauzen", "cecco", "linguine", "spaghetti", "penne",
+            "tagliatelle"
+        ],
+        "ignore": ["salade"]
     }
 ]
