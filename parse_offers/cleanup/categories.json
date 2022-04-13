@@ -26,7 +26,7 @@
             "rund", "varken", "kipkrokant", "kipdijfilet", "kipschnitsels", "kipschnitzels", "kaasschnitzel", "kaasschnitzels", "knakworst", "braadworst", "cordon",
             "gehakt", "shoarma", "dijfilet", "slavink", "rundersaucijs", "saucijs", "gehaktschnitzel",
             "dijshoarma", "speklappen", "kipburger", "bifi", "slagersgehaktbal", "kipgehakt", "kipkluifjes",
-            "gyros", "spekblokjes", "chipolataworst", "filetlapjes", "rundercarpaccio", "rundervinken",
+            "gyros", "spekblokjes", "chipolataworst", "filetlapjes", "rundercarpaccio", "rundervinken", "varkensrollade", "filetrollade",
             "speklap", "kipvleugels", "leverpastei", "boomstam", "kipfiletreepjes", "runderreepjes", "carpacciosteak",
             "drumsticks", "scharrelkip", "braadstick", "tartaar", "smac", "varkensribeye", "angus", "lamsvlees", "stegeman", "huls", "chorizo",
             "meat", "riblap", "poulet", "snackworst", "wokblokjes", "runderstooflap", "stoofvlees", "runderhachee", "varkensfiletrollade",
@@ -57,7 +57,7 @@
             "haricots", "sjalotten", "babyspinazie", "kropsla", "sla", "slamelange", "eikenblad-slamelange", "slamelanges", 
             "bonen", "radijs", "radijsjes", "spitskool", "paksoi", "bimi"
         ],
-        "ignore": ["roomsaus", "saus"]
+        "ignore": ["roomsaus", "saus", "hummus", "quiche", "pesto", "chips"]
     },
     {
         "name": "aardappel",
@@ -109,7 +109,7 @@
         "name": "zuivel",
         "keywords": ["karnemelk", "campina", "fage", "melkunie", "mona", "optimel", "danio",
              "kwark", "haverdrank", "vla", "skyr", "drinkyoghurt", "yoghurt", "zuivelspread",
-             "lurpak", "vruchtenkwark", "arla", "kuipen", "boter", "roomboter", "boerenboter"
+             "lurpak", "vruchtenkwark", "arla", "kuipen", "boter", "roomboter", "boerenboter", "roomboterfiguur"
         ],
         "ignore": []
     },
@@ -168,7 +168,7 @@
             "waterval", "bradshaw", "villebois", "concha", "marques", "lindeman's", "rosé",
             "codorníu", "brut", "rosso", "fantini", "brancott", "spatburgunder",
             "tulipe", "bastard",  "gort", "veltliner", "provence", "vinãs",
-            "cordier","malbec",
+            "cordier","malbec", "zinfandel",  "clairette", 
             "merlot", "pinot", "grigio", "sauvignon", "montaignan",
             "chardonnay", "winzer", "krems", "neleman", "bloemfontein",
             "windheuvel", "bayride", "neleman", "chenin", "pinotage",
@@ -230,7 +230,7 @@
             "mars", "bros", "lion", "smarties", "kitkat", "rolo", "chocolaatjes", "chocolade", "paaseitjes",
             "paaseieren", "milka", "delft", "delicata", "snickers", "twix", "chocoladedragees", "choco", "paashaas",
             "reuzenpaasei", "chocolade-eieren", "eitjes", "chocoladepizza", "chocolade-eitjes",  "paaschocolade",
-            "chololadehartjes", "melkchocolade"
+            "chololadehartjes", "melkchocolade", "d'or"
         ],
         "ignore": ["kalanchoë"]
     },
@@ -254,7 +254,7 @@
         "keywords": [
             "vegan", "snaqs", "vegetarisch", "vegetarische", "veggie", "soja", "vega", "biovegan",
             "haverdrink", "amandeldrink", "plantaardig", "plantaardige", "haver", "quorn",
-            "falafel", "falafelballetjes"
+            "falafel", "falafelballetjes", "abbot", "noomo"
         ],
         "ignore": []
     },
