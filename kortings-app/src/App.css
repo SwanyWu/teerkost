@@ -813,14 +813,17 @@ b.label-shop-lidl {
 }
 
 .product-image {
-  background: #FFF;
-  display: block;
-  overflow: hidden;
-  height: 100px;
-  text-align: center;
-  margin: 0px 0px 0px 0px;
+  background: #fff;
   border-radius: 8px;
+  display: flex;
+  height: 100px;
+  margin: 0;
+  overflow: hidden;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
+
 .product-image img {
   max-width: 130px;
 }
