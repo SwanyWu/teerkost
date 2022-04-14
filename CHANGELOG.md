@@ -11,6 +11,7 @@ All notable changes to the project are documented here. There is no versioning f
 
 ### Changed
 - Provide product id to all offers that stays the same
+- Remove link to source code
   
 # 13-04-2022
 ### Added
