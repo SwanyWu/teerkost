@@ -7,6 +7,7 @@ import json
 import shutil
 import requests
 from PIL import Image
+from cleanup import giveid
 import os
 import time
 import uuid
@@ -93,6 +94,8 @@ if __name__ == "__main__":
     ekoplazaOffers = ekoplaza.returnOffers()
 
     allOffers = jumboOffers + ahOffers + lidlOffers + aldiOffers + ekoplazaOffers
+
+    allOffers = giveid.giveIdToOffers(allOffers)
     allOffers = sorted(allOffers, key=lambda p: p['category'])
 
     headers = {
