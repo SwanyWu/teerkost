@@ -126,20 +126,6 @@ footer .sub-title {
   font-weight: 800;
   max-width: 300px;
 }
-footer .source-link {
-  display: inline-block;
-  text-decoration: none;
-  color: #480000;
-  width: 50px;
-  text-align: center;
-  position: absolute;
-  bottom: 10px;
-  font-size: 2em;
-  left: 10px;
-}
-footer .source-link:hover {
-  color: #000;
-}
 
 .page-title {
   user-select: none;
