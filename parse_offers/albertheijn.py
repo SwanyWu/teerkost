@@ -14,9 +14,11 @@ def returnOffers():
     collection = []
 
     for i in data['collection']:
-        offer = {"product":"", "productInfo":"", "category":"", "image":"", "deal":"", "price": 0, "dateStart":"", "dateEnd":"", "link": "", "shop":""}
+        offer = {"productId": "","product":"", "productInfo":"", "category":"", "image":"", "deal":"", "price": 0, "dateStart":"", "dateEnd":"", "link": "", "shop":""}
         try:
             if i['segmentType'] == "AH" and i['category'] != 'Koken, tafelen, vrije tijd' and "bezorging" not in i['shields'][0]['text'] and "miles" not in i['shields'][0]['text']:
+                
+                offer.update({"productId": i['id']})
                 cleanTitle = cleantext.cleanUpTitle(i['title'])
                 offer.update({"product": cleanTitle})
                 

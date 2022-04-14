@@ -15,7 +15,7 @@ def returnOffers():
     collection = []
 
     for item in soup.find_all("li", {"class": "ACampaignGrid__item"}):
-        offer = {"product":"", "productInfo":"", "category":"", "image":"", "deal":"", "price": 0, "dateStart":"", "dateEnd":"", "link": "", "shop":""}
+        offer = {"productId":"", "product":"", "productInfo":"", "category":"", "image":"", "deal":"", "price": 0, "dateStart":"", "dateEnd":"", "link": "", "shop":""}
 
         title = ""
         description = ""
@@ -67,6 +67,11 @@ def returnOffers():
         linkElement = item.find("a", {"class":"product-grid-box"})
         if linkElement != None:
             link = linkElement['href']
+            # Example /p/astilbe/p880139760
+
+            linkElementsList = linkElement['href'].split("/")
+            linkElementsList.reverse()
+            productId = linkElementsList[0]
 
         # collect and concat product information from description and lower price label
         if description != "":
@@ -93,7 +98,9 @@ def returnOffers():
         cleanInfoText = cleantext.cleanUpInfo(concatDescription.strip())
         cleanTitle = cleantext.cleanUpTitle(title)
         offer.update({"productInfo": cleanInfoText})
-
+        
+        offer.update({"productId": productId})
+        
         category = categorize.findCategoryForProduct(cleanTitle, description)
         offer.update({"category": category})
         offer.update({"product": cleanTitle})

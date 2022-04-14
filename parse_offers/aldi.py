@@ -51,7 +51,7 @@ def returnOffers():
         sectionIndex = sectionIndex + 1
         if returnWeekday(startDateSection) == 'maandag': # weekoffers only start on monday, ignore the rest
             for article in section.find_all("div", {"class", articleDiv}):
-                offer = {"product":"", "productInfo":"", "category":"", "image":"", "deal":"", "price": 0, "dateStart":"", "dateEnd":"", "link": "", "shop":""}
+                offer = {"productId":"","product":"", "productInfo":"", "category":"", "image":"", "deal":"", "price": 0, "dateStart":"", "dateEnd":"", "link": "", "shop":""}
 
                 title = ""
                 info = ""
@@ -93,7 +93,11 @@ def returnOffers():
                 linkElement = article.find("a", {"class", "mod-article-tile__action"}) 
                 if linkElement != None:
                     link = "https://www.aldi.nl" + linkElement['href']
-
+                    # Example: /aanbiedingen/wk15_vanaf_maandag_11-04/kaiser-en-schnittbroodjes-wit-4790-1-0.article.html 
+                    linkElementsList = linkElement['href'].split("-")
+                    linkElementsList.reverse()
+                    productIdFromLink = linkElementsList[2] # get the productId part from the href
+                
                 deal = ""
                 if "%" in priceLabel: # a percentage is known, use it as the deal
                     priceLabel = priceLabel.replace("-", "").replace(" korting", "")
@@ -111,6 +115,7 @@ def returnOffers():
 
                 cleanTitle = cleantext.cleanUpTitle(title)
                 cleanInfo = cleantext.cleanUpInfo(info)
+                offer.update({"productId": productIdFromLink})
                 offer.update({"product": cleanTitle})
                 offer.update({"productInfo": cleanInfo})
                 offer.update({"category": categorize.findCategoryForProduct(cleanTitle, cleanInfo)})

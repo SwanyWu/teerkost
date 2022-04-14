@@ -129,8 +129,13 @@ def returnOffers():
         if linkElement != None:
             linkHref = linkElement['href']
             link = "https://www.ekoplaza.nl" + linkHref
+            # Example /nl/producten/product/groene-asperges-0001184648
+            linkElementsList = linkHref.split("-")
+            linkElementsList.reverse()
+            productId = linkElementsList[0]
 
         offer = {
+            "productId":"",
             "product":"", 
             "productInfo":"", 
             "category":"", 
@@ -144,6 +149,7 @@ def returnOffers():
 
         cleanTitle = cleantext.cleanUpTitle(title)
         cleanInfo = cleantext.cleanUpInfo(info)
+        offer.update({"productId": productId})
         offer.update({"product": cleanTitle})
         offer.update({"productInfo": cleanInfo})
         offer.update({"category": categorize.findCategoryForProduct(cleanTitle, cleanInfo)})

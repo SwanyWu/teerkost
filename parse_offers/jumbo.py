@@ -19,7 +19,7 @@ def returnOffers():
 
     for i in data['sections'][0]['current']['promotions']:
         if "zegels" not in i['tag'] and "bezorgkorting" not in i['tag'] and "bestelkosten" not in i['tag']:
-            offer = {"product":"", "productInfo":"", "category":"", "image":"", "deal":"", "price": 0, "dateStart":"", "dateEnd":"", "link": "", "shop":""}
+            offer = {"productId":"", "product":"", "productInfo":"", "category":"", "image":"", "deal":"", "price": 0, "dateStart":"", "dateEnd":"", "link": "", "shop":""}
             
             cleanTitle = cleantext.cleanUpTitle(i['name'])
             offer.update({"product": cleanTitle})
@@ -27,6 +27,8 @@ def returnOffers():
             cleanInfoText = cleantext.cleanUpInfo(i['summary'])
             offer.update({"productInfo": cleanInfoText})
 
+            offer.update({"productId": i['id']})
+            
             category = categorize.findCategoryForProduct(cleanTitle, cleanInfoText)
             offer.update({"category": category})
 
