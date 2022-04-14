@@ -2,6 +2,16 @@
 
 All notable changes to the project are documented here. There is no versioning for now, just what is changed on what date.
 
+# 14-04-2022
+### Fixed
+- Fix for when Jumbo does not provide an image
+
+### Added
+- Unittests for collecting 'Ekoplaza' offers
+
+### Changed
+- Provide product id to all offers that stays the same
+  
 # 13-04-2022
 ### Added
 - Category filter for 'ontbijt'.
