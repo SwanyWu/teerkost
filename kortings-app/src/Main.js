@@ -211,7 +211,14 @@ function Main(props) {
 
   return (
     <div className="app-wrap">
-        <ShareDialog />
+        <div className="bottom-buttons">
+          {/* <div className="button-cell">
+            <div className="button personal-list-button">
+              <i class="ri-bookmark-line"></i>
+            </div>
+          </div> */}
+          <ShareDialog />
+        </div>
         <header className="filter">
         <a className="title-sober" href='https://teerkost.nl'><span>Teerkost</span></a>
             <div id="filter-dialog">
