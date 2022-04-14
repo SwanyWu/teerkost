@@ -33,7 +33,7 @@
             "bout", "soepballetjes", "scharrelkipfilets", "varkensfiletlapjes", "spareribs", "patéplakken", "crémepaté", "varkenshaas", "kalkoenrollade", "mini-kalkoenrollade",
             "borrelschotel", "quarterpounders", "gourmet", "eendenborst", "eendenborstfilet", "gourmet-mini's", "mini-hamburgers",
             "ham", "beenham", "yorkham", "achterham", "truffelham", "gehaktstaaf", "runderhamburgers", "rundvleeshamburgers", "gehaktballetjes", "filet",
-            "biefstuk", "ossenhaas", "ribeye", "entrecote", "ardennerpate", "spekreepjes", "worsten", "rundvlees",
+            "biefstuk", "ossenhaas", "ribeye", "entrecote", "ardennerpate", "spekreepjes", "worsten", "rundvlees", "kipmedaillons",
             "carpaccio", "varkenshaas", "vleeswaren", "kookham", "wahid", "rundergehakt", "iberico", "pate", "roompaté", "lamsham",
             "hamlappen", "fund", "prosciutto", "pavé", "venkelsalami", "salami", "bbq", "grill", "paté", "mekkafood"
         ],
@@ -91,6 +91,15 @@
             "hagelslag", "jam", "johma", "fruitbeleg", "honing", "bloemenhoning", "notenpasta"
         ],
         "ignore": ["saus", "sauzen", "partysauzen"]
+    },
+    {
+        "name": "ontbijt",
+        "keywords": [ "beschuit", "bolletje", "volkorenbeschuit", "cracottes", "vitalu",
+            "cruesli", "muesli", "ontbijtgraan", "ontbijtgranen", "breaker", "wasa", "graanontbijt",
+            "ontbijt", "brinta", "ontbijtkoek", "havermout", "kellogg's", "granola", "cornflakes",
+            "jordans",  "haverflokken", "tarwezemelen", "lijnzaad", "weetabix"
+        ],
+        "ignore": ["saus", "sauzen", "partysauzen", "olie"]
     },
     {
         "name": "kaas",
@@ -191,7 +200,7 @@
             "dagcreme", "handzeep", "lichaamsverzorging", "verzorgingsproduct", "verzorgingsproducten", "zonbescherming",
             "gezichtsverzorging", "luiers", "zonnebrand", "aftersun", "snoetenpoetsers", "supplementen",
             "mondkapje", "mondkapjes", "cosmetica", "baby", "toiletpapier", "soft-picks", "verzorging",
-            "bodybutter", "bodyscrub", "handcrème", "huidcrème", "nachtcrème", "dagcrème",
+            "bodybutter", "bodyscrub", "handcrème", "huidcrème", "nachtcrème", "dagcrème", "covid-19", "zelftest",
             "douche", "cosmetics", "bodymilk", "hair", "gezichtsscrub", "shampoobar", "conditionerbar"
         ],
         "ignore": []

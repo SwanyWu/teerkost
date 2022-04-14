@@ -28,7 +28,7 @@ function App() {
     "bier", "groente", "vlees", "vis", "fruit", 
     "zuivel", "wijn", "vegan", "kant-en-klaar", 
     "aardappel", "brood", "kaas", 
-    "koffie", "thee", "beleg",
+    "koffie", "thee", "beleg", "ontbijt",
     "noten", "frisdrank", "ijs", "pasta", "chocola", 
     "chips", "koek", "verzorging", "huishouden"
   ]
