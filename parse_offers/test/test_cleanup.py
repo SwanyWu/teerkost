@@ -1,6 +1,6 @@
 import unittest
 
-from cleanup import categorize, cleantext
+from cleanup import categorize, cleantext, giveid
 
 class TestCleanup(unittest.TestCase):
 
@@ -97,6 +97,63 @@ class TestCleanup(unittest.TestCase):
         cleanInfoText = cleantext.cleanUpInfo("Alle soorten 300 gram")
         expectedInfoText = "300 gram"
         self.assertEqual(cleanInfoText, expectedInfoText)    
+
+    def test_give_id(self):
+        """
+        ✅ Product van een eigen ID voorzien 👉 
+        """
+        testOfferObject = [{
+            'product': 'Luxe stol',
+            'productInfo': '1 kilo',
+            'category': 'brood',
+            'image': 'plaatje',
+            'deal': '€1 korting',
+            'price': '1.99',
+            'dateStart': '2022-04-11',
+            'dateEnd': '2022-04-18',
+            'link': 'linkje',
+            'shop': 'lidl'
+        }, {
+            'product': 'Hero jam',
+            'productInfo': 'Minder zoet',
+            'category': 'beleg',
+            'image': 'plaatje',
+            'deal': 'op=op',
+            'price': '1.49',
+            'dateStart': '2022-04-11',
+            'dateEnd': '',
+            'link': 'linkje',
+            'shop': 'lidl'
+        }]
+
+        testOfferObjectExpected = [{
+            'product': 'Luxe stol',
+            'productInfo': '1 kilo',
+            'category': 'brood',
+            'image': 'plaatje',
+            'deal': '€1 korting',
+            'price': '1.99',
+            'dateStart': '2022-04-11',
+            'dateEnd': '2022-04-18',
+            'link': 'linkje',
+            'shop': 'lidl',
+            'id': 1
+        }, {
+            'product': 'Hero jam',
+            'productInfo': 'Minder zoet',
+            'category': 'beleg',
+            'image': 'plaatje',
+            'deal': 'op=op',
+            'price': '1.49',
+            'dateStart': '2022-04-11',
+            'dateEnd': '',
+            'link': 'linkje',
+            'shop': 'lidl',
+            'id': 2
+        }]
+
+        addId = giveid.giveIdToOffers(testOfferObject)
+        self.assertEqual(addId, testOfferObjectExpected)        
 
 if __name__ == '__main__':
     unittest.main(verbosity=0)
