@@ -39,7 +39,10 @@ def returnOffers():
                 price = deal[1]
                 offer.update({"price": price.replace(",", ".")})
 
-            offer.update({"image": i['promotionImage']['main']})
+            if "promotionImage" in i:
+                offer.update({"image": i['promotionImage']['main']})
+            else:
+                print("Geen afbeelding gevonden bij " + cleanTitle + ".")
 
             startDate = datetime.fromtimestamp(i['fromDate']/1000).strftime('%Y-%m-%d')
             endDate = datetime.fromtimestamp(i['toDate']/1000).strftime('%Y-%m-%d')
@@ -51,3 +54,6 @@ def returnOffers():
 
     print("📄 " + str(len(collection)) + " aanbiedingen van de Jumbo bij elkaar verzameld.")
     return collection
+
+if __name__ == "__main__":
+    returnOffers()     
