@@ -20,6 +20,13 @@ class TestJumbo(unittest.TestCase):
         for item in collection:
             self.assertTrue(item['product'] != '') # Item heeft een titel
 
+    def test_list_has_product_id(self):
+        """
+        ✅ Alle Jumbo aanbiedingen hebben een productId 👉 
+        """
+        for item in collection:
+            self.assertTrue(item['productId'] != '')       
+
     def test_list_has_product_deal(self):
         """
         ✅ Alle Jumbo aanbiedingen hebben een deal 👉 
