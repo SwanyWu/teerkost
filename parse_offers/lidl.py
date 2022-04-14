@@ -135,3 +135,6 @@ def returnOffers():
 
     print("📄 " + str(len(collection)) + " aanbiedingen van de Lidl bij elkaar verzameld.")
     return collection
+
+if __name__ == "__main__":
+    returnOffers() 
