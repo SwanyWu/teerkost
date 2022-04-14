@@ -70,8 +70,10 @@ function ShareDialog(props) {
           </div>
         </div>
       </div>
-      <div onClick={shareApi} className="share-button">
-        <i class="ri-share-box-fill"></i>
+      <div className="button-cell">
+        <div onClick={shareApi} className="button share-button">
+          <i class="ri-share-box-fill"></i>
+        </div>
       </div>
     </div>
   )
