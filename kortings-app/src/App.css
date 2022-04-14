@@ -196,8 +196,6 @@ footer .source-link:hover {
   background: #eee;
 }
 
-
-
 #logo {
   width: 120px;
   height: 120px;
@@ -212,14 +210,27 @@ footer .source-link:hover {
   clip-path: polygon(50% 0%, 57.22% 6.71%, 66.23% 2.71%, 70.89% 11.40%, 80.71% 10.54%, 82.29% 20.27%, 91.86% 22.65%, 90.20% 32.37%, 98.47% 37.73%, 93.74% 46.38%, 99.83% 54.13%, 92.55% 60.78%, 95.79% 70.08%, 86.75% 74.01%, 86.79% 83.86%, 76.96% 84.64%, 73.80% 93.97%, 64.25% 91.51%, 58.23% 99.32%, 50% 93.89%, 41.77% 99.32%, 35.75% 91.51%, 26.20% 93.97%, 23.04% 84.64%, 13.21% 83.86%, 13.25% 74.01%, 4.21% 70.08%, 7.45% 60.78%, 0.17% 54.13%, 6.26% 46.38%, 1.53% 37.73%, 9.80% 32.37%, 8.14% 22.65%, 17.71% 20.27%, 19.29% 10.54%, 29.11% 11.40%, 33.77% 2.71%, 42.78% 6.71%);
 }
 
-.share-button {
-  cursor: pointer;
+@keyframes slideIn {
+  0% { transform: translateY(100px);}
+  75% {transform: translateY(100px);}
+  100% { transform: translateY(0px);}
+}
+
+.bottom-buttons {
   position: fixed;
   bottom: 10px;
+  display: table;
   right: 10px;
-  z-index: 900;
-  float: right;
-  margin: 0px;
+  z-index: 999;
+  animation: slideIn 2000ms;
+}
+.bottom-buttons .button-cell {
+  display: table-cell;
+}
+
+.bottom-buttons .button {
+  margin: 0px 0px 0px 5px;
+  cursor: pointer;
   line-height: 40px;
   color: #fff;
   background: #973434;
@@ -227,26 +238,25 @@ footer .source-link:hover {
   padding: 0px 10px 0px 10px;
   font-size: 1.2em;
   height: 40px;
-  overflow: hidden;
   border-radius: 8px;
-  animation: slideIn 2000ms;
 }
+.bottom-buttons .button span { margin: 0px 0px 0px 5px;}
 
-.share-button:hover {
+.bottom-buttons .button:hover {
   background: #480000;
 }
 
-@keyframes slideIn {
-  0% { transform: translateY(100px);}
-  75% {transform: translateY(100px);}
-  100% { transform: translateY(0px);}
-}
+/* .bottom-buttons .button.personal-list-button {
+  display: table-cell;
+} */
 
 #dialog-on {
   display: block;
 }
+
 .share-dialog-wrap {
   top: 0px;
+  left: 0px;
   display: none;
   background: #0000008a;
   width: 100vw;
@@ -255,8 +265,7 @@ footer .source-link:hover {
   z-index: 999;
 }
 .share-dialog {
-  position: fixed;
-  z-index: 999;
+  position: relative;
   background: #FFF;
   width: 300px;
   left: calc(50% - 125px);
