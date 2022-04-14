@@ -14,7 +14,7 @@
         "name": "koffie",
         "keywords": [
             "oploskoffie", "koffie", "ijskoffie", "koffiebonen", "snelfiltermaling", "koffiepads", "koffiecups","koffiecapsules", "barista",
-            "Douwe", "Egberts", "nespresso", "senseo", "espresso", "lungo", "Nescafé", "perla", "Lavazza", "segafredo", "illy", "l'or"
+            "Douwe", "Egberts", "nespresso", "senseo", "espresso", "lungo", "starbucks", "Nescafé", "perla", "Lavazza", "segafredo", "illy", "l'or"
         ],
         "ignore": []
     },
@@ -35,7 +35,9 @@
             "ham", "beenham", "yorkham", "achterham", "truffelham", "gehaktstaaf", "runderhamburgers", "rundvleeshamburgers", "gehaktballetjes", "filet",
             "biefstuk", "ossenhaas", "ribeye", "entrecote", "ardennerpate", "spekreepjes", "worsten", "rundvlees", "kipmedaillons",
             "carpaccio", "varkenshaas", "vleeswaren", "kookham", "wahid", "rundergehakt", "iberico", "pate", "roompaté", "lamsham",
-            "hamlappen", "fund", "prosciutto", "pavé", "venkelsalami", "salami", "bbq", "grill", "paté", "mekkafood"
+            "hamlappen", "fund", "prosciutto", "pavé", "venkelsalami", "salami", "bbq", "grill", "paté", "mekkafood",
+            "boerengehaktschnitzels", "saucijzen", "gehaktstaven", "snackbroodje", "snackbroodjes", "mora", "bapao", "pita",
+            "unox", "knaks"
         ],
         "ignore": ["vega", "vegan", "vegetarisch", "vegetarische"]
     },
@@ -52,7 +54,7 @@
             "worteltjes", "champignons", "kastanjechampignons","puntpaprika", "portobello", "portabella", "portabella's",
             "salade ui", "bosui", "bosuien", "uien", "augurken", "rucola", "rucolamelange", "sperziebonen", 
             "ijsbergsla", "romaatje", "trostomaten", "pompoen", "pompoenblokjes", "cherrytomaat", "cherrytomaatjes",
-            "hutspot", "zuurkool", "snijbonen", "bleekselderij", "knolselderij", "wokgroenten", 
+            "hutspot", "zuurkool", "snijbonen", "bleekselderij", "knolselderij", "wokgroenten", "bonduelle",
             "wokgroente", "maïskorrels","bieten", "pastinaak", "asperges", "kwartblikjes", "conserven",
             "haricots", "sjalotten", "babyspinazie", "kropsla", "sla", "slamelange", "eikenblad-slamelange", "slamelanges", 
             "bonen", "radijs", "radijsjes", "spitskool", "paksoi", "bimi"
@@ -87,7 +89,7 @@
     },
     {
         "name": "beleg",
-        "keywords": [ "calvé", "pindakaas", "ruijter", "broodbeleg", "sandwichspread", 
+        "keywords": [ "calvé", "pindakaas", "ruijter", "broodbeleg", "sandwichspread", "smeerkaas",
             "hagelslag", "jam", "johma", "fruitbeleg", "honing", "bloemenhoning", "notenpasta"
         ],
         "ignore": ["saus", "sauzen", "partysauzen"]
@@ -264,7 +266,7 @@
         "keywords": [
             "vegan", "snaqs", "vegetarisch", "vegetarische", "veggie", "soja", "vega", "biovegan",
             "haverdrink", "amandeldrink", "plantaardig", "plantaardige", "haver", "quorn",
-            "falafel", "falafelballetjes", "abbot", "noomo"
+            "falafel", "falafelballetjes", "abbot", "noomo", "meatless"
         ],
         "ignore": []
     },
