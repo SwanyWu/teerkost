@@ -21,23 +21,23 @@
     {
         "name": "vlees",
         "keywords": [
-            "schouderkarbonade", "ribkarbonade", "haaskarbonade", "kipfilet", "kiprollade", "kipfilethaasjes","kipmedaillons", "lamshaasjes",
+            "schouderkarbonade", "ribkarbonade", "haaskarbonade", "kipfilet", "kiprollade", "kipfilethaasjes", "lamshaasjes",
             "kipdrumsticks", "gehaktbal", "gehaktballen", "filetlapjes", "rookworst", "kipblokjes",
             "rund", "varken", "kipkrokant", "kipdijfilet", "kipschnitsels", "kipschnitzels", "kaasschnitzel", "kaasschnitzels", "knakworst", "braadworst", "cordon",
             "gehakt", "shoarma", "dijfilet", "slavink", "rundersaucijs", "saucijs", "gehaktschnitzel",
-            "dijshoarma", "speklappen", "kipburger", "bifi", "slagersgehaktbal", "kipgehakt", "kipkluifjes",
-            "gyros", "spekblokjes", "chipolataworst", "filetlapjes", "rundercarpaccio", "rundervinken", "varkensrollade", "filetrollade",
+            "dijshoarma", "speklappen", "kipburger", "bifi", "slagersgehaktbal", "kipgehakt", "kipkluifjes", "spek", 
+            "gyros", "spekblokjes", "chipolataworst", "chipolataworstjes", "filetlapjes", "rundercarpaccio", "rundervinken", "varkensrollade", "filetrollade",
             "speklap", "kipvleugels", "leverpastei", "boomstam", "kipfiletreepjes", "runderreepjes", "carpacciosteak",
             "drumsticks", "scharrelkip", "braadstick", "tartaar", "smac", "varkensribeye", "angus", "lamsvlees", "stegeman", "huls", "chorizo",
             "meat", "riblap", "poulet", "snackworst", "wokblokjes", "runderstooflap", "stoofvlees", "runderhachee", "varkensfiletrollade",
             "bout", "soepballetjes", "scharrelkipfilets", "varkensfiletlapjes", "spareribs", "patéplakken", "crémepaté", "varkenshaas", "kalkoenrollade", "mini-kalkoenrollade",
             "borrelschotel", "quarterpounders", "gourmet", "eendenborst", "eendenborstfilet", "gourmet-mini's", "mini-hamburgers",
-            "ham", "beenham", "yorkham", "achterham", "truffelham", "gehaktstaaf", "runderhamburgers", "rundvleeshamburgers", "gehaktballetjes", "filet",
+            "ham", "beenham", "mini-beenham", "yorkham", "achterham", "truffelham", "gehaktstaaf", "runderhamburgers", "rundvleeshamburgers", "gehaktballetjes", "filet",
             "biefstuk", "ossenhaas", "ribeye", "entrecote", "ardennerpate", "spekreepjes", "worsten", "rundvlees", "kipmedaillons",
             "carpaccio", "varkenshaas", "vleeswaren", "kookham", "wahid", "rundergehakt", "iberico", "pate", "roompaté", "lamsham",
-            "hamlappen", "fund", "prosciutto", "pavé", "venkelsalami", "salami", "bbq", "grill", "paté", "mekkafood",
+            "hamlappen", "fund", "prosciutto", "pavé", "venkelsalami", "salami", "bbq", "grill", "paté", "mekkafood", 
             "boerengehaktschnitzels", "saucijzen", "gehaktstaven", "snackbroodje", "snackbroodjes", "mora", "bapao", "pita",
-            "unox", "knaks"
+            "unox", "knaks", "kipfiletblokjes", "speklapjes", "zigeunerschnitzels"
         ],
         "ignore": ["vega", "vegan", "vegetarisch", "vegetarische"]
     },
@@ -53,7 +53,7 @@
             "komkommer", "courgette", "courgettes", "aubergine", "spruitjes", "haricots", "peulen", "haricot", 
             "worteltjes", "champignons", "kastanjechampignons","puntpaprika", "portobello", "portabella", "portabella's",
             "salade ui", "bosui", "bosuien", "uien", "augurken", "rucola", "rucolamelange", "sperziebonen", 
-            "ijsbergsla", "romaatje", "trostomaten", "pompoen", "pompoenblokjes", "cherrytomaat", "cherrytomaatjes",
+            "ijsbergsla", "romaatje", "romatomaatjes", "trostomaten", "pompoen", "pompoenblokjes", "cherrytomaat", "cherrytomaatjes", "snacktomaten",
             "hutspot", "zuurkool", "snijbonen", "bleekselderij", "knolselderij", "wokgroenten", "bonduelle",
             "wokgroente", "maïskorrels","bieten", "pastinaak", "asperges", "kwartblikjes", "conserven",
             "haricots", "sjalotten", "babyspinazie", "kropsla", "sla", "slamelange", "eikenblad-slamelange", "slamelanges", 
@@ -74,18 +74,19 @@
     {
         "name": "brood",
         "keywords": [ 
-            "broodje", "brood", "suikerbrood", "feeststol", "bakkerij", "bollen", "knäckebröd", "broodjes", "bananenbrood", "kaiserbroodje", "kaiserbroodjes", "baguette", "crackers", 
-            "chocoladecronut", "chocoladebroodje", "chocoladebroodjes", "roomboterpuntjes", "donut", "donuts", "mueslibollen", "tijgerbollen",
+            "broodje", "brood", "suikerbrood", "feeststol", "bakkerij", "bollen", "broodjes", "bananenbrood", "kaiserbroodje", "kaiserbroodjes", "baguette",  
+            "chocoladecronut", "chocoladebroodje", "chocoladebroodjes", "roomboterpuntjes", "mueslibollen", "tijgerbollen",
             "pitabroodjes", "foccacia","croissant", "croissantjes", "croissants", "kampioentjes", "desempisolet", "desempistolets", "bloembroodjes",
-            "pistolets","pistolet", "pistoletjes", "olijvenbrood", "pecanbroodje", "worstenbrood", "bakkersgoud", "matzes",
+            "pistolets","pistolet", "pistoletjes", "olijvenbrood", "pecanbroodje", "worstenbrood", "bakkersgoud", "matzes", "pompoenpitbroodjes",
             "krentenbollen", "vloerbrood", "bakkersbollen", "meergranenbollen", "mini-puntjes", "volkorenpuntjes", "broodhaas",
-            "puntjes", "mini-rozijnen-krentenbollen", "rozijnenbollen", "mini-krentenbollen", "frikandelbroodje", "frikandelbroodjes",
+            "puntjes", "mini-rozijnen-krentenbollen", "rozijnenbollen", "mini-krentenbollen", "mini-rozijnenkrentenbollen", "boerenbruinbrood",
+             "frikandelbroodje", "frikandelbroodjes",
             "saucijzenbroodjes", "stol", "volkorenstol", "volkorennotenstol", "notenstol", "saucijzenbroodje", "zonnebloempittenbrood", "sesamvolkorenbrood",
             "vruchtenbrood", "bakkersbrood", "meerzadenbroodje", "meerzadenbrood", "volkorenbrood", "passiebrood", "passiebroden",
             "grofvolkorenbrood", "sesambrood", "meergranenbroodje", "meergranenbrood", "krokantjes", "paashaasbroodjes", "schnittbroodjes", "kruidenbroodje",
             "breekbrood", "desembol", "desembrood", "maisbrood", "speltbaguette", "seitanbroodje", "speltbroodjes", "stokbrood"
         ],
-        "ignore": ["salade", "salades", "chips"]
+        "ignore": ["salade", "salades", "chips", "donut", "donuts", "chio"]
     },
     {
         "name": "beleg",
@@ -97,9 +98,9 @@
     {
         "name": "ontbijt",
         "keywords": [ "beschuit", "bolletje", "volkorenbeschuit", "cracottes", "vitalu",
-            "cruesli", "muesli", "ontbijtgraan", "ontbijtgranen", "breaker", "wasa", "graanontbijt",
+            "cruesli", "muesli", "havermuesli", "ontbijtgraan", "ontbijtgranen", "breaker", "wasa", "graanontbijt",
             "ontbijt", "brinta", "ontbijtkoek", "havermout", "kellogg's", "granola", "cornflakes",
-            "jordans",  "haverflokken", "tarwezemelen", "lijnzaad", "weetabix"
+            "jordans",  "haverflokken", "tarwezemelen", "lijnzaad", "weetabix", "crackers","knäckebröd"
         ],
         "ignore": ["saus", "sauzen", "partysauzen", "olie"]
     },
@@ -144,12 +145,12 @@
             "poffertjes", "pizza", "pizza's","stoommaaltijden", "2-vaks", "3-vaks", "stoommaaltijd", "stamppotten","maaltijd", 
             "lunchsalade", "maaltijden", "soep", "aspergesoep", "erwtensoep", "pureersoepen", "pureersoep", "soepen", 
             "ovenmaaltijd", "ovenmaaltijden","maaltijdcomponenten", "lunchsalade", "lunchsalades",
-            "fruitsalades", "fruitsalade", "maaltijdsalade", "maaltijdsalades", "pastasalade", "pastasalades", 
+            "fruitsalades", "fruitsalade", "maaltijdsalade", "maaltijdsalades", "pastasalade", "pastasalades", "kapsalon",
             "maaltijdsalades", "3-vaks-maaltijden","3-vaksmaaltijden", "3-vaks-maaltijd", "cup-a-soup", "kleinstesoepfabriek",
             "3-vaksmaaltijd", "2-vaks-maaltijd", "2-vaks-maaltijden", "ovenschotels", "ovenschotel", "saladeschotel", 
             "prei-kerrie-ovenschotel", "quiche", "zalm-aspergequiche", "maaltijdpakket", "maaltijdpakketten", "pannenkoeken"
         ],
-        "ignore": []
+        "ignore": ["deeg"]
     },
     {
         "name": "noten",
@@ -223,7 +224,8 @@
             "bloemen", "geranium", "fuchsia", "rhododendron", "onkruid", "pokon", "violen", "tulpen", "tulpenboeket", 
             "bolhortensia", "rozen", "oleander", "bougainvillea", "astilbe", "pioenrozen",
             "magnolia", "bonsaiboompje", "geldboompje", "bonsai-/geldboompje", "plant", "hyacinten", 
-            "narcissen", "calla", "kamerplant", "kamerplanten", "keramische"
+            "narcissen", "calla", "kamerplant", "kamerplanten", "keramische", "esdoorn", "dipladenia",
+            "dracaena", "balkon", "tuinhortensia", "graszaad", "vingersboom", "bloemenmix"
         ],
         "ignore": []
     },
@@ -231,7 +233,8 @@
         "name": "frisdrank",
         "keywords": [
             "spa", "pepsi", "rivella", "coolbest", "fanta", "sprite", "fernandes", "royal", "club",
-            "lipton", "coca-cola", "7up", "cassis", "river", "cola", "crystal", "sisi", "taksi"
+            "lipton", "coca-cola", "7up", "cassis", "river", "cola", "crystal", "sisi", "taksi", "bull", 
+            "limondaine"
         ],
         "ignore": ["thee"]
     },
@@ -248,7 +251,7 @@
     {
         "name": "chips",
         "keywords": [
-            "cheetos", "lay's", "doritos", "bugles", "chips"
+            "cheetos", "lay's", "doritos", "bugles", "chips", "chio", "pom-bär"
         ],
         "ignore": []
     },
@@ -278,7 +281,7 @@
             "schepijs", "häagen-dazs", "viennetta", "waterijs", "waterijsjes", 
             "sorbetijs", "ice", "fruitijs", "fruitijsjes", "ijsstam"
         ],
-        "ignore": ["lipton", "tea"]
+        "ignore": ["lipton", "tea", "wijn", "wijnen", "rosé"]
     },
     {
         "name": "thee",
