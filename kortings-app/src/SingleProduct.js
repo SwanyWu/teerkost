@@ -5,6 +5,7 @@ import Price from './Price';
 import Category from './Category';
 import Deal from './Deal';
 import ShareDialog from "./ShareDialog";
+import ProductBookmark from "./ProductBookmark";
 
 const Image = React.lazy(() => import ('./Image'));
 
@@ -31,6 +32,7 @@ function SingleProduct(props) {
             <span className="product-info"> {props.item['productInfo']}</span>
           </summary>
           <Deal deal={props.item['deal']} />
+          <ProductBookmark id={props.item['productId']}/>
         </article>
         </div>
       </div>
