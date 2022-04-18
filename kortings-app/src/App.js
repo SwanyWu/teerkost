@@ -4,10 +4,10 @@ import './App.css';
 import { Routes, Route } from "react-router-dom";
 import Footer from './Footer';
 import Main from './Main';
+import Bookmarks from './Bookmarks';
 import SingleProduct from './SingleProduct';
 import Offers from './offers.json';
 import NotFound from "./NotFound";
-
 
 function App() {
   
@@ -58,6 +58,8 @@ function App() {
             })}
           
           <Route path="alle-winkels" element={<Main />} /> { /* Map all routes for all shops with everything */ }
+          
+          <Route path="bewaard" element={<Bookmarks />} />
           <Route path="*" element={<NotFound/>} />
         </Route>
       </Routes>
