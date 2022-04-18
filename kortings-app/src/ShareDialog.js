@@ -46,7 +46,7 @@ function ShareDialog(props) {
       <div className="share-dialog-wrap">
         <div className="share-dialog">delen
           <span className="title">teerkost</span>
-          <span className="share-title">DEEL TEERKOST</span>
+          <span className="share-title">Deel pagina</span>
           <div className="url-share">
             <input value={shareUrl}/>
             <span onClick={copyMe} className="url-copy">kopieer</span>
@@ -73,6 +73,7 @@ function ShareDialog(props) {
       <div className="button-cell">
         <div onClick={shareApi} className="button share-button">
           <i class="ri-share-box-fill"></i>
+          <div className="share-button-tag">deel pagina</div>
         </div>
       </div>
     </div>
