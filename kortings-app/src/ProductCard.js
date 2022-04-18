@@ -4,6 +4,7 @@ import DateLabel from './DateLabel';
 import Price from './Price';
 import Category from './Category';
 import Deal from './Deal';
+import ProductBookmark from "./ProductBookmark";
 
 const Image = React.lazy(() => import ('./Image'));
 
@@ -31,14 +32,14 @@ function ProductCard(props) {
 
     return (
       <article className="flex-item" onClick={toggleOverlay}>
-        {isOpen && (
+        {/* {isOpen && (
           <div className="item-overlay">
           <ul>
             <li><a target="_blank" rel="noreferrer" href={props.item['link']}>Open op {props.item['shop'] + ".nl"}</a></li>
             <li><a href={"https://teerkost.nl/#/" + props.item['shop'] +"/product/" + convertProductToLink(props.item['product']) + ""}>Open unieke link</a></li>
           </ul>
         </div>
-        )}
+        )} */}
         <span className={"product-shop " + props.item['shop']}>{props.item['shop']}</span>
         <Category category={props.item['category']}/>
         <DateLabel dateEnd={props.item['dateEnd']} dateStart={props.item['dateStart']}/>
@@ -51,6 +52,7 @@ function ProductCard(props) {
           <span className="product-info"> {props.item['productInfo']}</span>
         </summary>
         <Deal deal={props.item['deal']} />
+        <ProductBookmark id={props.item['productId']}/>
       </article>
     )
 }
