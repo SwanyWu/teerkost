@@ -14,7 +14,7 @@ All notable changes to the project are documented here. There is no versioning f
 ### Changed
 - Size of date label on small screens.
 - Show date instead of 'verlopen'.
-- Removes redudant logo on share-dialog.
+- Removes redundant logo on share-dialog.
 - Temporarily removes overlay with linking options on individual offers.
   
 # 14-04-2022
