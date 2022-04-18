@@ -213,6 +213,7 @@ footer .sub-title {
 .bottom-buttons .button-cell {
   display: table-cell;
 }
+.bottom-buttons .button-cell a { text-decoration: none;}
 
 .bottom-buttons .button {
   margin: 0px 0px 0px 5px;
@@ -224,17 +225,53 @@ footer .sub-title {
   padding: 0px 10px 0px 10px;
   font-size: 1.2em;
   height: 40px;
-  border-radius: 8px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: var(--shadow-elevation-medium);
 }
 .bottom-buttons .button span { margin: 0px 0px 0px 5px;}
 
-.bottom-buttons .button:hover {
-  background: #480000;
+
+.bottom-buttons .button:hover { background: #480000;}
+
+.bottom-buttons .button:hover .personal-list-button-tag { box-shadow: inset 0px 0px 0px 3px #480000; }
+
+.bottom-buttons .button.personal-list-button {
+  padding: 0px 0px 0px 10px;
 }
 
-/* .bottom-buttons .button.personal-list-button {
-  display: table-cell;
-} */
+.personal-list-button-tag {
+  background: #FFF;
+  display: inline-block;
+  color: #4a4a4a;
+  padding: 0px 10px;
+  vertical-align: top;
+  margin-left: 7px;
+  font-size: .7em;
+  box-shadow: inset 0px 0px 0px 3px #973434;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.share-button-tag {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 7px;
+  font-size: .7em;
+}
+
+.jumpy {
+  animation: jumpy 1200ms;
+}
+
+@keyframes jumpy {
+  0% { transform: translateY(0px);}
+  20% { transform: translateY(-30px);}
+  40% { transform: translateY(0px);}
+  60% { transform: translateY(-30px); }
+  80% { transform: translate(0px);}
+  100% { transform: translateY(0px);}
+}
 
 #dialog-on {
   display: block;
@@ -421,6 +458,38 @@ b.label-shop-lidl {
 .filter-wrap {
   max-width: 1590px;
   margin: 0px auto;
+}
+
+.bookmark-info {
+  color: #480000;
+  padding: 10px 0px 10px 10px;
+  display: block;
+  text-align: right;
+}
+.bookmark-options .button {
+  margin: 0px 0px 10px 0px;
+  cursor: pointer;
+  line-height: 40px;
+  color: #fff;
+  background: #973434;
+  box-shadow: inset 0px -1px 0px #00000061;
+  text-align: center;
+  padding: 0px 10px 0px 10px;
+  height: 40px;
+  border-radius: 15px;
+  overflow: hidden;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.bookmark-options .button:hover { background: #480000;}
+
+.bookmark-options .bookmark-copy { font-size: .8em; display: inline-block;}
+
+.bookmark-options .bookmark-copy .bookmark-copy-tag { 
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 7px;
 }
 
 .toggle-on {
@@ -625,12 +694,14 @@ b.label-shop-lidl {
 }
 
 .no-offers {
-  display: inline-block;
+  display: block;
   padding: 100px 10px 10px 10px;
   color: #973434;
   max-width: 250px;
   text-align: center;
+  margin: 0px auto;
 }
+
 .not-found {
   display: block;
   margin: 0px auto;
@@ -866,6 +937,16 @@ b.label-shop-lidl {
 .product-deal.on-fire {
   color: #867d00;
   background: #ffffc5;
+}
+
+.product-bookmark {
+  position: absolute;
+  right: 5px;
+  bottom: 0px;
+  color: #973434;
+}
+.product-bookmark:hover {
+  color: #480000;
 }
 
 .product-price::before {
