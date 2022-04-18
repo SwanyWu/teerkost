@@ -69,9 +69,8 @@ def returnOffers():
                 # endDate = endDateTime.split(" ")                
                 # offer.update({"dateStart": startDate[0]})
                 # offer.update({"dateEnd": endDate[0]})
-
-                offer.update({"dateStart", startDateValidity})
-                offer.update({"endDate", endDateValidity})
+                offer.update({"dateStart": startDateValidity})
+                offer.update({"dateEnd": endDateValidity})
 
                 offer.update({"link": "https://ah.nl" + i['href']})
                 collection.append(offer)
