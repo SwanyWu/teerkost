@@ -1,8 +1,15 @@
 import localForage from 'localforage'
+import React, {useEffect, useState} from 'react'
 
 function ProductBookmark(props) {
 
     const productId = props.id;
+
+    const [isBookmarked, setIsBookmarked] = useState(false)
+
+    useEffect(() => {
+        updateBookMarkButtonState(productId)
+    }, [])
 
     const triggerButtonAnimation = () => {
 
@@ -40,6 +47,7 @@ function ProductBookmark(props) {
                     localForage.setItem('teerkost-bookmarks', allBookmarks).then(function(value) {
                         triggerButtonAnimation()
                         triggerButtonUpdate()
+                        updateBookMarkButtonState(id)
                     }).catch(function (err) {
                         console.log("Iets misgegaan bij het opslaan van bookmarks: " + err)
                     })
@@ -50,6 +58,7 @@ function ProductBookmark(props) {
                     localForage.setItem('teerkost-bookmarks', allBookmarks).then(function(value) {
                         triggerButtonAnimation()
                         triggerButtonUpdate()
+                        updateBookMarkButtonState(id)
                     }).catch(function (err) {
                         console.log("Iets misgegaan bij het opslaan van bookmarks: " + err)
                     })
@@ -59,6 +68,9 @@ function ProductBookmark(props) {
                 console.log("niks gevonden. Tijd om te starten")
                 localForage.setItem('teerkost-bookmarks', allBookmarks).then(function(value) {
                     console.log("Voor het eerst, de array " + value + " toegevoegd")
+                    triggerButtonAnimation()
+                    triggerButtonUpdate()
+                    updateBookMarkButtonState(id)
                 }).catch(function (err) {
                     console.log("Iets misgegaan bij het opslaan van eerste bookmark: " + err)
                 })
@@ -68,25 +80,32 @@ function ProductBookmark(props) {
         })
     }
 
-    const getCorrectBookmarkIcon = (productId) => {
+    const updateBookMarkButtonState = (productId) => {
         localForage.getItem('teerkost-bookmarks').then(function (value) {
             if(value !== null) { // if something is present in browserstorage
                 const valueFound = value.find(element => element === productId)
                 if(valueFound === productId) {
-                    return "ja"
-                    // return <i class='ri-bookmark-line'></i>
+                    setIsBookmarked(true)
                 } else {
-                    return "nee"
+                    setIsBookmarked(false)
                 }
             } else {
-                return "aaaa"
+                setIsBookmarked(false)
             }
         })
-        return <i class='ri-bookmark-line'></i>
+    }
+
+    const showBookMarkIcon = () => {
+        if(isBookmarked === true) {
+            return (<span onClick={() => registerBookmark(productId)} className="product-bookmark product-bookmark-true"><i class='ri-bookmark-fill'></i></span>)
+        }
+        else {
+            return (<span onClick={() => registerBookmark(productId)} className="product-bookmark"><i class='ri-bookmark-line'></i></span>)
+        }
     }
 
     return (
-        <span onClick={() => registerBookmark(productId)} className="product-bookmark">{getCorrectBookmarkIcon(productId)}</span>
+        showBookMarkIcon()
     )
 
 }
