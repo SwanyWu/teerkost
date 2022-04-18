@@ -452,11 +452,13 @@ b.label-shop-lidl {
 }
 
 .bookmark-info {
-  color: #480000;
+  color: #973434;
   padding: 10px 0px 10px 10px;
   display: block;
   text-align: right;
 }
+.bookmark-info span { vertical-align: top;}
+
 .bookmark-options .button {
   margin: 0px 0px 10px 0px;
   cursor: pointer;
@@ -945,9 +947,20 @@ b.label-shop-lidl {
   line-height: 30px;
   font-size: .8em;
 }
+
 .product-bookmark:hover {
   color: #fff;
   background: #973434;
+}
+
+.product-bookmark-true {
+  color:#FFF;
+  background: #973434;
+}
+
+.product-bookmark-true:hover {
+  background: #f0808033;
+
 }
 
 .product-price::before {
@@ -1145,4 +1158,10 @@ b.label-shop-lidl {
   .product-date {
     font-size: .8em;
   }
+  .bookmark-info {
+    color: #480000;
+    padding: 10px 0px 0px 0px;
+    display: block;
+    text-align: center;
+  }  
 }
