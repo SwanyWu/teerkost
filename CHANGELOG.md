@@ -4,12 +4,14 @@ All notable changes to the project are documented here. There is no versioning f
 
 # 18-04-2022
 
-### 
+### Fixed
 - Fix for wrong validity period of 'AH' offers.
+- Fix double "korting" label in some offers.
 
 ### Changed
 - Size of date label on small screens.
 - Show date instead of 'verlopen'.
+- Removes redudant logo on share-dialog.
   
 # 14-04-2022
 ### Fixed
