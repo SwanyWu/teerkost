@@ -1076,6 +1076,9 @@ b.label-shop-lidl {
       .flex-item {
         width: 100%;
       }
+      .product-date {
+        font-size: .8em !important;
+      }
     }  
 
   }

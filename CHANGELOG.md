@@ -2,12 +2,21 @@
 
 All notable changes to the project are documented here. There is no versioning for now. Just what is changed on what date.
 
+# 18-04-2022
+
+### 
+- Fix for wrong validity period of 'AH' offers.
+
+### Changed
+- Size of date label on small screens.
+- Show date instead of 'verlopen'.
+  
 # 14-04-2022
 ### Fixed
-- Fix for when Jumbo does not provide an image
+- Fix for when 'Jumbo' does not provide an image.
 
 ### Added
-- Unittests for collecting 'Ekoplaza' offers
+- Unittests for collecting 'Ekoplaza' offers.
 
 ### Changed
 - Provide a consistent product id to every offer item.
