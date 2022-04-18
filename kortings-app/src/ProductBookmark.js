@@ -7,10 +7,11 @@ function ProductBookmark(props) {
     const triggerButtonAnimation = () => {
 
         const element = document.querySelector('.personal-list-button')
-
-        element.classList.remove('jumpy'); // reset animation
-        void element.offsetWidth; // trigger reflow
-        element.classList.add('jumpy'); // start animation
+        if(element !== null) {
+            element.classList.remove('jumpy'); // reset animation
+            void element.offsetWidth; // trigger reflow
+            element.classList.add('jumpy'); // start animation
+        }
     }
 
     const triggerButtonUpdate = () => {
@@ -20,7 +21,9 @@ function ProductBookmark(props) {
                 amount = value.length
             }
             const element = document.querySelector('.personal-list-button-tag')
-            element.textContent = amount    
+            if(element !== null) {
+                element.textContent = amount    
+            }
         }) 
     }
 
@@ -30,18 +33,25 @@ function ProductBookmark(props) {
                 const valueFound = value.find(element => element === id)
 
                 if(valueFound === id) {
-                    console.log("bestaat al")
-                    // FIXME id weggooien in dit geval?
-                } else {
                     var allBookmarks = value;
-                    allBookmarks.push(id) // push to the existing array
-        
+                    allBookmarks = allBookmarks.filter(element => element !== id) // remove from existing array
+                    console.log(id + " wordt verwijdert aan de bookmarks.")
+
                     localForage.setItem('teerkost-bookmarks', allBookmarks).then(function(value) {
-                        console.log("De array " + value + " is toegevoegd")
                         triggerButtonAnimation()
                         triggerButtonUpdate()
                     }).catch(function (err) {
-                        console.log("Iets misgegaan bij het opslaan van bookmark: " + err)
+                        console.log("Iets misgegaan bij het opslaan van bookmarks: " + err)
+                    })
+                } else {
+                    var allBookmarks = value;
+                    allBookmarks.push(id) // push to the existing array
+                    console.log(id + " wordt toegevoegt aan de bookmarks.")
+                    localForage.setItem('teerkost-bookmarks', allBookmarks).then(function(value) {
+                        triggerButtonAnimation()
+                        triggerButtonUpdate()
+                    }).catch(function (err) {
+                        console.log("Iets misgegaan bij het opslaan van bookmarks: " + err)
                     })
                 }
             } else {
