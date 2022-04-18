@@ -21,11 +21,12 @@ function ShareDialog(props) {
     } else {
       var shareButtonElement = document.querySelector('.share-button')
       var shareDialogElement = document.querySelector('.share-dialog')
-      var wrapElement = document.querySelector('.share-dialog-wrap')
+      var wrapElement = document.querySelector('.dialog-wrap')
 
       var clickOutside = function(e) {
         if ( !shareDialogElement.contains(e.target) && !shareButtonElement.contains(e.target)) {
           wrapElement.removeAttribute("id") 
+
           if(!wrapElement.hasAttribute("id")) { // stop listening to clicks outside the dialog
             return document.removeEventListener('click', clickOutside)
           }
@@ -33,8 +34,8 @@ function ShareDialog(props) {
       }  
 
       if(! wrapElement.hasAttribute("id")) {
-        wrapElement.id = "dialog-on"
-        if(wrapElement.id === "dialog-on") { // listen to clicks outside the dialog
+        wrapElement.id = "share-dialog-on"
+        if(wrapElement.id === "share-dialog-on") { // listen to clicks outside the dialog
           document.addEventListener('click', clickOutside) 
         }   
       }
@@ -43,9 +44,27 @@ function ShareDialog(props) {
 
   return (
     <div>
-      <div className="share-dialog-wrap">
-        <div className="share-dialog">delen
-          <span className="title">teerkost</span>
+      <div className="dialog-wrap">
+        {/* FIXME not the right place, create seperate component */}
+      <div className="copy-dialog">
+          <span className="share-title">Kopieer lijst</span>
+          <div>
+            <textarea>
+            </textarea>
+          </div>
+          <div className="socials">
+          <a className="whatsapp" href={"https://api.whatsapp.com/send?text="+shareUrl+""}>
+            <i class="ri-whatsapp-fill"></i>
+          </a>
+          <a className="telegram" href={"https://telegram.me/share/url?url="+shareUrl+"&text="+shareText+""}>
+            <i class="ri-telegram-fill"></i>
+          </a>
+          <a className="twitter" href={"https://twitter.com/intent/tweet?url="+shareUrl+"&text="+shareText+""}>
+            <i class="ri-twitter-fill"></i>
+          </a>
+          </div>
+        </div>
+        <div className="share-dialog">
           <span className="share-title">Deel pagina</span>
           <div className="url-share">
             <input value={shareUrl}/>

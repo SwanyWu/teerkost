@@ -273,11 +273,11 @@ footer .sub-title {
   100% { transform: translateY(0px);}
 }
 
-#dialog-on {
+#share-dialog-on, #copy-dialog-on {
   display: block;
 }
 
-.share-dialog-wrap {
+.dialog-wrap {
   top: 0px;
   left: 0px;
   display: none;
@@ -287,7 +287,16 @@ footer .sub-title {
   position: fixed;
   z-index: 999;
 }
-.share-dialog {
+
+#share-dialog-on .share-dialog {
+  display: block;
+}
+#copy-dialog-on .copy-dialog {
+  display:block;
+}
+
+.share-dialog, .copy-dialog {
+  display: none;
   position: relative;
   background: #FFF;
   width: 300px;
@@ -304,23 +313,9 @@ footer .sub-title {
   100% { opacity: 1; transform: translateY(0px);}
 }
 
-.share-dialog .title {
-  width: 100px;
-  height: 100px;
-  line-height: 100px;
-  font-size: .7em;
+.share-dialog .share-title, .copy-dialog .share-title {
   display: block;
-  top: -50px;
-  position: absolute;
-  left: calc(50% - 50px);
-}
-.share-dialog .title:hover {
-  background: #973434;
-}
-
-.share-dialog .share-title {
-  display: block;
-  padding-top: 40px;
+  padding: 30px 15px 0px 15px;
   color: #882f2f;
   font-weight: 800;
 }
@@ -363,26 +358,22 @@ footer .sub-title {
   background: #480000;
 }
 
-.share-dialog .socials {
+.dialog-wrap .socials {
   margin: 0px 0px 10px 0px;
   display: table;
   width: 100%;
 }
 
-.share-dialog .socials a {
-  display: table-cell;
-}
-.share-dialog .socials a.telegram { color: #0088cc;}
-.share-dialog .socials a.whatsapp { color: #075e54;}
-.share-dialog .socials a.twitter { color: #1da1f2;}
-.share-dialog .socials a.reddit { color: #ff4500;}
-.share-dialog .socials a.linkedin { color: #0077b5;}
+.dialog-wrap .socials a { display: table-cell; }
+.dialog-wrap .socials a.telegram { color: #0088cc; }
+.dialog-wrap .socials a.whatsapp { color: #075e54; }
+.dialog-wrap .socials a.twitter { color: #1da1f2; }
+.dialog-wrap .socials a.reddit { color: #ff4500; }
+.dialog-wrap .socials a.linkedin { color: #0077b5; }
 
-.share-dialog .socials a:hover i {
-  color: #000;
-}
+.dialog-wrap .socials a:hover i { color: #000; }
 
-.share-dialog .socials i {
+.dialog-wrap .socials i {
   padding: 10px;
   font-size: 1.5em;
   display: inline-block;
@@ -479,11 +470,13 @@ b.label-shop-lidl {
   border-radius: 15px;
   overflow: hidden;
   vertical-align: top;
+  float: right;
   display: inline-block;
 }
 
 .bookmark-options .button:hover { background: #480000;}
 
+.bookmark-options .share-button-tag { font-size: .8em; display: inline-block;}
 .bookmark-options .bookmark-copy { font-size: .8em; display: inline-block;}
 
 .bookmark-options .bookmark-copy .bookmark-copy-tag { 
@@ -941,12 +934,20 @@ b.label-shop-lidl {
 
 .product-bookmark {
   position: absolute;
-  right: 5px;
+  right: 0px;
   bottom: 0px;
-  color: #973434;
+  color: #a65555;
+  background: #f0808033;
+  border-radius: 8px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  font-size: .8em;
 }
 .product-bookmark:hover {
-  color: #480000;
+  color: #fff;
+  background: #973434;
 }
 
 .product-price::before {
