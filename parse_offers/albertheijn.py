@@ -58,7 +58,7 @@ def returnOffers():
                 href = i['href']
 
                 startDateValidity = i['validityPeriod']['start']
-                endDateValidity = i['validityPeriod'['end']]
+                endDateValidity = i['validityPeriod']['end']
 
                 # By weeknumber not needed, because dates are provided
                 # weekNumber = href.split("week=")[-1]
