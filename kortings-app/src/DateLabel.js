@@ -51,7 +51,7 @@ function DateLabel(props) {
                 else if(dateEndParsed < dateNowParsed) {
                     return (
                         <span className="product-date date-now">
-                            {"verlopen"}
+                            {"tot " + parseInt(dayEnd, 10) + " " + monthEnd}
                         </span>
                     )                    
                 }
