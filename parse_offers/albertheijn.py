@@ -56,16 +56,23 @@ def returnOffers():
                 offer.update({"image": i['image']['src']})
 
                 href = i['href']
-                weekNumber = href.split("week=")[-1]
-                now = datetime.now()
-                startDateTime = str(datetime.fromisocalendar(now.year, int(weekNumber), 1))
-                endDateTime = str(datetime.fromisocalendar(now.year, int(weekNumber), 7))
 
-                startDate = startDateTime.split(" ")
-                endDate = endDateTime.split(" ")
-                offer.update({"dateStart": startDate[0]})
-                offer.update({"dateEnd": endDate[0]})
-                
+                startDateValidity = i['validityPeriod']['start']
+                endDateValidity = i['validityPeriod'['end']]
+
+                # By weeknumber not needed, because dates are provided
+                # weekNumber = href.split("week=")[-1]
+                # now = datetime.now()
+                # startDateTime = str(datetime.fromisocalendar(now.year, int(weekNumber), 1))
+                # endDateTime = str(datetime.fromisocalendar(now.year, int(weekNumber), 7))
+                # startDate = startDateTime.split(" ")
+                # endDate = endDateTime.split(" ")                
+                # offer.update({"dateStart": startDate[0]})
+                # offer.update({"dateEnd": endDate[0]})
+
+                offer.update({"dateStart", startDateValidity})
+                offer.update({"endDate", endDateValidity})
+
                 offer.update({"link": "https://ah.nl" + i['href']})
                 collection.append(offer)
         except IndexError:
