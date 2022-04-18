@@ -477,7 +477,7 @@ b.label-shop-lidl {
 .bookmark-options .button:hover { background: #480000;}
 
 .bookmark-options .share-button-tag { font-size: .8em; display: inline-block;}
-.bookmark-options .bookmark-copy { font-size: .8em; display: inline-block;}
+.bookmark-options .bookmark-copy-tag { font-size: .8em; display: inline-block;}
 
 .bookmark-options .bookmark-copy .bookmark-copy-tag { 
   display: inline-block;
