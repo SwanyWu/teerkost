@@ -4,6 +4,9 @@ All notable changes to the project are documented here. There is no versioning f
 
 # 18-04-2022
 
+### Added
+- First version of bookmarking seperate offers, saving them locally in the browser.
+
 ### Fixed
 - Fix for wrong validity period of 'AH' offers.
 - Fix double "korting" label in some offers.
@@ -12,6 +15,7 @@ All notable changes to the project are documented here. There is no versioning f
 - Size of date label on small screens.
 - Show date instead of 'verlopen'.
 - Removes redudant logo on share-dialog.
+- Temporarily removes overlay with linking options on individual offers.
   
 # 14-04-2022
 ### Fixed
