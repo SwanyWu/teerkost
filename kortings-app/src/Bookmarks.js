@@ -37,7 +37,7 @@ function Bookmarks(props) {
 
     if(bookmarkIdList !== null) {
       productIdFilter = object => bookmarkIdList.includes(object.productId);
-      console.log("Filter voor categorie met " + bookmarkIdList + " ingesteld.")
+      console.log("Filter voor lijst met bookmarks ingesteld.")
     }
     else {
       console.log("Geen bookmarkId array gevonden, dus niks.")
@@ -58,9 +58,9 @@ function Bookmarks(props) {
             <header className="filter">
               <a className="title-sober" href='https://teerkost.nl'><span>Teerkost</span></a>
               <div className="filter-wrap">
-                <span className="bookmark-info">{bookmarkCount} bewaarde aanbiedingen.</span>
+                <span className="bookmark-info"><i class="ri-bookmark-line"></i><span>{bookmarkCount} bewaarde aanbieding{bookmarkCount !== 1 ? "en":""}</span></span>
                 <div className="bookmark-options">          
-                  <ShareDialog />
+                  {/* <ShareDialog /> */}
                   {/* <CopyButton /> */}
                 </div>
               </div>
