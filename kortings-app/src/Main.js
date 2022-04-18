@@ -1,6 +1,7 @@
 import React, {useState, useEffect, Suspense} from "react";
 import Offers from './offers.json';
 import ShareDialog from "./ShareDialog";
+import BookmarkButton from "./BookmarkButton";
 
 const ProductsContainer = React.lazy(() => import ('./ProductsContainer'));
 
@@ -212,11 +213,7 @@ function Main(props) {
   return (
     <div className="app-wrap">
         <div className="bottom-buttons">
-          {/* <div className="button-cell">
-            <div className="button personal-list-button">
-              <i class="ri-bookmark-line"></i>
-            </div>
-          </div> */}
+          <BookmarkButton />
           <ShareDialog />
         </div>
         <header className="filter">
@@ -226,7 +223,6 @@ function Main(props) {
                 <div className="filter-shop">
                   {shopsList.map((shop, key) => {
                     return <span onClick={() => clickOnShop(shop[0])} data-shop={shop[0]}>{shop[0]} <i className="counter">{shop[1]}</i></span>
-
                   })}
                 </div>
                 <div className="filter-cat">
