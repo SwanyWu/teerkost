@@ -52,17 +52,6 @@ function ShareDialog(props) {
             <textarea>
             </textarea>
           </div>
-          <div className="socials">
-          <a className="whatsapp" href={"https://api.whatsapp.com/send?text="+shareUrl+""}>
-            <i class="ri-whatsapp-fill"></i>
-          </a>
-          <a className="telegram" href={"https://telegram.me/share/url?url="+shareUrl+"&text="+shareText+""}>
-            <i class="ri-telegram-fill"></i>
-          </a>
-          <a className="twitter" href={"https://twitter.com/intent/tweet?url="+shareUrl+"&text="+shareText+""}>
-            <i class="ri-twitter-fill"></i>
-          </a>
-          </div>
         </div>
         <div className="share-dialog">
           <span className="share-title">Deel pagina</span>
