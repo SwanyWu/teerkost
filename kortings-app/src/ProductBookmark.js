@@ -9,7 +9,7 @@ function ProductBookmark(props) {
 
     useEffect(() => {
         updateBookMarkButtonState(productId)
-    }, [])
+    })
 
     const triggerButtonAnimation = () => {
 
