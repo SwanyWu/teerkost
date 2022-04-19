@@ -4,6 +4,9 @@ All notable changes to the project are documented here. There is no versioning f
 
 # 19-04-2022
 
+### Added
+- Category filter for 'snoep'.
+
 ### Fixed
 - Fix for not up-to-date state of bookmarked item when navigating.
 
