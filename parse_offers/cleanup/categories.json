@@ -138,14 +138,14 @@
             "forelfilets","forelfilet", "sliptong", "bakkeljauw", "oesters", "visschnitzels", "visschnitzel",
             "tonijnfilet", "tonijnstukken", "sea", "fishtales", "tonijnsteak","tonijn", "tonno","ansjovis", "ansjovisfilet", "ansjovisfilets"
         ],
-        "ignore": []
+        "ignore": ["maaltijden", "stoommaaltijden", "soepen"]
     },
     {
         "name": "kant-en-klaar",
         "keywords": [
             "poffertjes", "pizza", "pizza's","stoommaaltijden", "2-vaks", "3-vaks", "stoommaaltijd", "stamppotten","maaltijd", 
             "lunchsalade", "maaltijden", "soep", "aspergesoep", "erwtensoep", "pureersoepen", "pureersoep", "soepen", 
-            "ovenmaaltijd", "ovenmaaltijden","maaltijdcomponenten", "lunchsalade", "lunchsalades",
+            "ovenmaaltijd", "ovenmaaltijden","maaltijdcomponenten", "lunchsalade", "lunchsalades", "slaatjes",
             "fruitsalades", "fruitsalade", "maaltijdsalade", "maaltijdsalades", "pastasalade", "pastasalades", "kapsalon",
             "maaltijdsalades", "3-vaks-maaltijden","3-vaksmaaltijden", "3-vaks-maaltijd", "cup-a-soup", "kleinstesoepfabriek",
             "3-vaksmaaltijd", "2-vaks-maaltijd", "2-vaks-maaltijden", "ovenschotels", "ovenschotel", "saladeschotel", 
