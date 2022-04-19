@@ -18,7 +18,8 @@ def cleanUpInfo(infoText):
 
     badWords = ['Jumbo ', 'Alle soorten\n3 verpakkingen', 'Alle soorten\n2 verpakkingen',
     'Alle soorten ', 'Alle soorten\n',
-    'Alle soorten\n2 ', 'Alle soorten\n3 ', 'Alle soorten, ', 'Alle combinaties mogelijk ']
+    'Alle soorten\n2 ', 'Alle soorten\n3 ', 'Alle soorten, ', 'Alle combinaties mogelijk ', 'Diverse soorten',
+    'Alle varianten', 'Per stuk', 'Alle verpakkingen']
 
     infoText = infoText.replace("’", "'") # sanitize different kinds of apostrophes
     infoText = infoText.replace(" ", " ") # sanitize weird space character
