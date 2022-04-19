@@ -30,7 +30,7 @@ function App() {
     "aardappel", "brood", "kaas", 
     "koffie", "thee", "beleg", "ontbijt",
     "noten", "frisdrank", "ijs", "pasta", "chocola", 
-    "chips", "koek", "verzorging", "huishouden"
+    "chips", "koek", "snoep", "verzorging", "huishouden"
   ]
 
   return (

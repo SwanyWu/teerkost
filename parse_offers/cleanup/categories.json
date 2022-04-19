@@ -32,7 +32,7 @@
             "meat", "riblap", "poulet", "snackworst", "wokblokjes", "runderstooflap", "stoofvlees", "runderhachee", "varkensfiletrollade",
             "bout", "soepballetjes", "scharrelkipfilets", "scharrelkipfilet", "varkensfiletlapjes", "spareribs", "patéplakken", "crémepaté", "varkenshaas", "kalkoenrollade", "mini-kalkoenrollade",
             "borrelschotel", "quarterpounders", "gourmet", "eendenborst", "eendenborstfilet", "gourmet-mini's", "mini-hamburgers",
-            "ham", "beenham", "mini-beenham", "yorkham", "achterham", "truffelham", "gehaktstaaf", "runderhamburgers", "rundvleeshamburgers", "gehaktballetjes", "filet",
+            "ham", "beenham", "mini-beenham", "yorkham", "slagersachterham", "achterham", "truffelham", "gehaktstaaf", "runderhamburgers", "rundvleeshamburgers", "gehaktballetjes", "filet",
             "biefstuk", "ossenhaas", "ribeye", "entrecote", "ardennerpate", "spekreepjes", "worst", "ossenworst", "worsten", "rundvlees", "kipmedaillons",
             "carpaccio", "varkenshaas", "vleeswaren", "kookham", "wahid", "rundergehakt", "iberico", "pate", "roompaté", "lamsham",
             "hamlappen", "fund", "prosciutto", "pavé", "venkelsalami", "salami", "bbq", "grill", "paté", "mekkafood", 
@@ -138,7 +138,7 @@
             "forelfilets","forelfilet", "sliptong", "bakkeljauw", "oesters", "visschnitzels", "visschnitzel",
             "tonijnfilet", "tonijnstukken", "sea", "fishtales", "tonijnsteak","tonijn", "tonno","ansjovis", "ansjovisfilet", "ansjovisfilets"
         ],
-        "ignore": ["maaltijden", "stoommaaltijden", "soepen"]
+        "ignore": ["maaltijden", "stoommaaltijden", "soepen", "kattenvoer"]
     },
     {
         "name": "kant-en-klaar",
@@ -149,7 +149,8 @@
             "fruitsalades", "fruitsalade", "maaltijdsalade", "maaltijdsalades", "pastasalade", "pastasalades", "kapsalon",
             "maaltijdsalades", "3-vaks-maaltijden","3-vaksmaaltijden", "3-vaks-maaltijd", "cup-a-soup", "kleinstesoepfabriek",
             "3-vaksmaaltijd", "2-vaks-maaltijd", "2-vaks-maaltijden", "ovenschotels", "ovenschotel", "saladeschotel", 
-            "prei-kerrie-ovenschotel", "quiche", "zalm-aspergequiche", "maaltijdpakket", "maaltijdpakketten", "pannenkoeken"
+            "prei-kerrie-ovenschotel", "quiche", "zalm-aspergequiche", "maaltijdpakket", "maaltijdpakketten", "pannenkoeken",
+            "fairytales", "burrito's"
         ],
         "ignore": ["deeg"]
     },
@@ -285,6 +286,17 @@
             "sorbetijs", "ice", "fruitijs", "fruitijsjes", "ijsstam"
         ],
         "ignore": ["lipton", "tea", "wijn", "wijnen", "rosé"]
+    },
+    {
+        "name": "snoep",
+        "keywords": [
+            "drop", "katja", "venco", "band", "sportlife", "klene", "dropjes",
+            "snoep", "skittles", "haribo", "candy", "mentos", "autodrop",
+            "fruittella", "stophoest", "lonka", "dextro", "chupa", "pepermunt",
+            "spekjes", "napoleon", "gummi", "maoam", "frisia", "werther's", "toffee",
+            "toffees", "lonka", "gomballen", "matten"
+        ],
+        "ignore": []
     },
     {
         "name": "thee",

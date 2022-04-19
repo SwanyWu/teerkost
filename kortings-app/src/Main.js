@@ -31,6 +31,7 @@ function Main(props) {
     ['ijs', 0],
     ['chocola', 0], 
     ['chips', 0], 
+    ['snoep', 0],
     ['verzorging', 0], 
     ['huishouden', 0]
   ]
