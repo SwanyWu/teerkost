@@ -53,10 +53,10 @@ function Bookmarks(props) {
 
   return (
     <div className="app-wrap">
+        <a className="title-sober" href='https://teerkost.nl'><span>Teerkost</span></a>
         { selectedOffers.length > 0  ? 
           <div>
             <header className="filter">
-              <a className="title-sober" href='https://teerkost.nl'><span>Teerkost</span></a>
               <div className="filter-wrap">
                 <span className="bookmark-info"><i class="ri-bookmark-line"></i><span>{bookmarkCount} bewaarde aanbieding{bookmarkCount !== 1 ? "en":""}</span></span>
                 <div className="bookmark-options">          

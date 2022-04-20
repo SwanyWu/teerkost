@@ -18,6 +18,7 @@ function SingleProduct(props) {
     return (
       <div className="app-wrap">
         <ShareDialog />
+        <a className="title-sober" href='https://teerkost.nl'><span>Teerkost</span></a>
         <div className="container">
         <article className="single-item">
           <span className={"product-shop " + props.item['shop']}>{props.item['shop']}</span>

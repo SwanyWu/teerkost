@@ -46,12 +46,17 @@ body, html {
 
 a.title-sober {
   text-decoration: none;
-  display: none;
-  text-align: right;
+  display: block;
+  position: relative;
+  z-index: 999;
+  margin: 10px 0px 0px 0px;
+  text-align: center;
 
 }
 a.title-sober span {
   display: inline-block;
+  position: sticky;
+  top: 0px;
   color: #fff;
   font-weight: 800;
   font-size: 1.5em;
@@ -59,7 +64,6 @@ a.title-sober span {
   text-transform: uppercase;
   padding: 0px 10px 0px 10px;
   background: #973434;
-  margin: 15px 0px 0px 0px;
   line-height: 40px;
   box-shadow: inset 0px -4px 2px -4px #4d2323;
 }
@@ -225,7 +229,7 @@ footer .sub-title {
   padding: 0px 10px 0px 10px;
   font-size: 1.2em;
   height: 40px;
-  border-radius: 15px;
+  border-radius: 8px;
   overflow: hidden;
   box-shadow: var(--shadow-elevation-medium);
 }
@@ -249,8 +253,9 @@ footer .sub-title {
   margin-left: 7px;
   font-size: .7em;
   box-shadow: inset 0px 0px 0px 3px #973434;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
 }
 
 .share-button-tag {
@@ -647,7 +652,7 @@ b.label-shop-lidl {
   flex-wrap: wrap;
   justify-content: center;
   align-items: flex-start;
-  padding: 15px 0px 0px 15px;
+  padding: 5px 0px 0px 15px;
   max-width: 1590px;
   min-height: 50vh;
   margin: 0px auto;
@@ -1103,14 +1108,19 @@ b.label-shop-lidl {
 
   footer .donate { display: block; }
 
-  a.title-sober { display: block; }
   .flex-container {
     position: relative;
     width: calc(75% - 15px);
     justify-content: left;
     max-width: 2500px;
+    padding: 15px 0px 0px 15px;
     margin: 0px;
   }
+
+  #filter-dialog {
+    padding: 15px 0px 0px 10px;
+  }
+
   .filter {
     background: none;
     float: left;

@@ -217,8 +217,8 @@ function Main(props) {
           <BookmarkButton />
           <ShareDialog />
         </div>
-        <header className="filter">
         <a className="title-sober" href='https://teerkost.nl'><span>Teerkost</span></a>
+        <header className="filter">
             <div id="filter-dialog">
             <div className="filter-wrap">
                 <div className="filter-shop">
