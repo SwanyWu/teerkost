@@ -2,47 +2,17 @@ import React, {useState, useEffect, Suspense} from "react";
 import Offers from './offers.json';
 import ShareDialog from "./ShareDialog";
 import BookmarkButton from "./BookmarkButton";
+import { categoryList } from "./Categories";
 
 const ProductsContainer = React.lazy(() => import ('./ProductsContainer'));
 
 function Main(props) {
   
-  let categorySorting = [
-    'bier', 'groente', 'vlees', 'vis','fruit', 
-    'vegan', 'zuivel', 'kant-en-klaar', 'wijn',
-    'aardappel','brood','kaas','noten','koffie',
-    'thee','beleg','ontbijt','frisdrank','pasta',
-    'koek','ijs','chocola','chips','snoep',
-    'verzorging','huishouden',''
-  ]
-  let categories = [
-    ['bier', 0], 
-    ['groente', 0], 
-    ['vlees', 0], 
-    ['vis', 0],
-    ['fruit', 0], 
-    ['vegan', 0], 
-    ['zuivel', 0], 
-    ['kant-en-klaar', 0], 
-    ['wijn', 0], 
-    ['aardappel', 0],
-    ['brood', 0], 
-    ['kaas', 0], 
-    ['noten', 0], 
-    ['koffie', 0], 
-    ['thee', 0], 
-    ['beleg', 0],
-    ['ontbijt', 0],
-    ['frisdrank', 0],
-    ['pasta', 0], 
-    ['koek', 0], 
-    ['ijs', 0],
-    ['chocola', 0], 
-    ['chips', 0], 
-    ['snoep', 0],
-    ['verzorging', 0], 
-    ['huishouden', 0]
-  ]
+
+  const categories = []
+  categoryList.forEach(element => {
+    categories.push([element, 0])
+  })
 
   let shops = [
     ['ah', 0], ['jumbo', 0], ['lidl', 0], ['aldi', 0], ['ekoplaza', 0]
@@ -213,11 +183,10 @@ function Main(props) {
     }
     console.log("Totale aantal aanbiedingen: " + Offers.length)
 
+    categoryList.push('') // for offers without a category
     Offers.sort(function(a, b){  // sorting according to categorySorting array
-      console.log("sorteren op " + categorySorting)
-        return categorySorting.indexOf(a.category) - categorySorting.indexOf(b.category);
+        return categoryList.indexOf(a.category) - categoryList.indexOf(b.category);
     });
-    console.log(Offers)
 
     var filtered = Offers.filter(shopFilter).filter(dealFilter).filter(categoryFilter)
     

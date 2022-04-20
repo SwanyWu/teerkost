@@ -7,6 +7,7 @@ import Main from './Main';
 import Bookmarks from './Bookmarks';
 import SingleProduct from './SingleProduct';
 import Offers from './offers.json';
+import { categoryList } from "./Categories";
 import NotFound from "./NotFound";
 
 function App() {
@@ -24,14 +25,6 @@ function App() {
   }
 
   const shops = ["jumbo", "aldi", "ah", "lidl", "ekoplaza"]
-  const categories = [
-    "bier", "groente", "vlees", "vis", "fruit", 
-    "zuivel", "wijn", "vegan", "kant-en-klaar", 
-    "aardappel", "brood", "kaas", 
-    "koffie", "thee", "beleg", "ontbijt",
-    "noten", "frisdrank", "ijs", "pasta", "chocola", 
-    "chips", "koek", "snoep", "verzorging", "huishouden"
-  ]
 
   return (
     <div className="App">
@@ -48,12 +41,12 @@ function App() {
           })}
 
           {shops.map((shop) => { // Map all routes for shops and categories
-            return categories.map((category, key) => {
+            return categoryList.map((category, key) => {
               return <Route key={key} path={shop + "/" + category} element={<Main shop={shop} cat={category} />} />
             })
           })}
 
-          {categories.map((category, key) => { // Map all routes for categories for all shops
+          {categoryList.map((category, key) => { // Map all routes for categories for all shops
               return <Route key={key} path={"alle-winkels/" + category} element={<Main cat={category} />} />
             })}
           
