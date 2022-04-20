@@ -6,6 +6,7 @@ import Category from './Category';
 import Deal from './Deal';
 import ShareDialog from "./ShareDialog";
 import ProductBookmark from "./ProductBookmark";
+import BookmarkButton from "./BookmarkButton";
 
 const Image = React.lazy(() => import ('./Image'));
 
@@ -17,7 +18,10 @@ function SingleProduct(props) {
 
     return (
       <div className="app-wrap">
-        <ShareDialog />
+        <div className="bottom-buttons">
+          <BookmarkButton />
+          <ShareDialog />
+        </div>
         <a className="title-sober" href='https://teerkost.nl'><span>Teerkost</span></a>
         <div className="container">
         <article className="single-item">
