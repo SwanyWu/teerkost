@@ -8,6 +8,7 @@ All notable changes to the project are documented here. There is no versioning f
 - Clickable 'Teerkost' title added to the small screen version.
 
 ### Changed
+- Sort offers according to the ordering of the filter labels.
 - Clickable 'Teerkost' title always aligned to center of page.
 
 # 19-04-2022

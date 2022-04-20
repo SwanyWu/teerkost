@@ -7,6 +7,14 @@ const ProductsContainer = React.lazy(() => import ('./ProductsContainer'));
 
 function Main(props) {
   
+  let categorySorting = [
+    'bier', 'groente', 'vlees', 'vis','fruit', 
+    'vegan', 'zuivel', 'kant-en-klaar', 'wijn',
+    'aardappel','brood','kaas','noten','koffie',
+    'thee','beleg','ontbijt','frisdrank','pasta',
+    'koek','ijs','chocola','chips','snoep',
+    'verzorging','huishouden',''
+  ]
   let categories = [
     ['bier', 0], 
     ['groente', 0], 
@@ -204,6 +212,12 @@ function Main(props) {
       console.log("Filter voor shop met " + selectedShopRoute + " ingesteld.")
     }
     console.log("Totale aantal aanbiedingen: " + Offers.length)
+
+    Offers.sort(function(a, b){  // sorting according to categorySorting array
+      console.log("sorteren op " + categorySorting)
+        return categorySorting.indexOf(a.category) - categorySorting.indexOf(b.category);
+    });
+    console.log(Offers)
 
     var filtered = Offers.filter(shopFilter).filter(dealFilter).filter(categoryFilter)
     
