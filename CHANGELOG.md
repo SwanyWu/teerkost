@@ -9,6 +9,7 @@ All notable changes to the project are documented here. There is no versioning f
 
 ### Changed
 - Sort offers according to the ordering of the filter labels.
+- Refactor categories to seperate file.
 - Clickable 'Teerkost' title always aligned to center of page.
 
 # 19-04-2022
