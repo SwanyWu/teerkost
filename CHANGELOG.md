@@ -2,6 +2,14 @@
 
 All notable changes to the project are documented here. There is no versioning for now. Just what is changed on what date.
 
+# 20-04-2022
+
+### Added
+- Clickable 'Teerkost' title added to the small screen version.
+
+### Changed
+- Clickable 'Teerkost' title always aligned to center of page.
+
 # 19-04-2022
 
 ### Added
