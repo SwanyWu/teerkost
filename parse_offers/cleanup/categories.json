@@ -229,7 +229,7 @@
             "narcissen", "calla", "kamerplant", "kamerplanten", "keramische", "esdoorn", "dipladenia",
             "dracaena", "balkon", "tuinhortensia", "graszaad", "vingersboom", "bloemenmix"
         ],
-        "ignore": []
+        "ignore": ["aftersun", "zonnebrandcrème", "zonnebrand"]
     },
     {
         "name": "frisdrank",
