@@ -40,7 +40,7 @@
             "unox", "knaks", "kipfiletblokjes", "speklapjes", "zigeunerschnitzels", "smeerleverworst", "leverworst", "runderleverworst",
             "kipgrillworst", "varkensgrillworst", "kipbraadsticks", "beefburgers"
         ],
-        "ignore": ["vega", "vegan", "vegetarisch", "vegetarische"]
+        "ignore": ["vega", "vegan", "vegetarisch", "vegetarische", "paprika"]
     },
     {
         "name": "groente",
@@ -173,7 +173,7 @@
             "perssinaasappelen", "sinaasappels", "bloedsinaasappelen", "bloedsinaasappels", "aardbei", "aardbeien", "druiven", "bessen", 
             "handsinaasappels", "citroenen", "watermeloen", "frambozen", "nectarines", "mango", "mango's", "appels", "calinda",
             "appeltjes","kiwi", "kiwi's", "meloen", "conference", "peren", "ananas", "granaatappel", 
-            "elstar", "jonagold", "natyra"
+            "elstar", "jonagold", "natyra", "diepvriesfruit"
         ],
         "ignore": ["taart", "oetker", "trifle", "nectar", "gebak", "fruittella", "olvarit", "roomyoghurt", "yoghurt"]
     },
@@ -217,33 +217,62 @@
     {
         "name": "huishouden",
         "keywords": [
-            "ajax", "hg", "plenty", "solo", "purpose", "servetten", "lenor", "sun", "ambi-pur", "robijn", "formil", "swiffer", "sorbo", "antikal", "ariel", "lenor", 
-            "glorix", "andy", "leifheit", "cif", "dreft", "sun", "XG2", "reus", "persil", "fleuril", "finish",
-            "bleek", "luchtverfrissers", "luchtverfrisser", "vlekverwijderaar", "vlekverwijderaars", "vlekverwijdering",
-            "wasmiddel", "wasmiddelen", "stofzuigerzakken", "schoonmaakazijn", "waspoeder", "afvalzakjes",
-            "wasverzachter", "wasbeurt", "wasbeurten", "schuurspons", "zipzakjes", "schoonmaaksponzen", "keukenpapier", "toiletblok", "toiletblokken",
-            "huishoud", "ambi", "gasgrill", "barbeque", "grillthermometer", "grillborstel", "waterglazen", "pannenset", 
-            "vaatdoeken", "aanstekers", "gasaanstekers", "decokussen", "tafelkleed", "deco", "houtfakkel",
-            "grondverlichting", "parasolvoet", "schaduwdoek", "palletkussen", "pallet-rugkussen", "sneakers", "bh",
-            "tight", "sneakersokken", "t-shirt", "bermuda", "inlegzolen", "panty", "jeans", "hemden", "slips", 
-            "luchtverfrisser", "luchtverfrisserspray", "ontkalker", "wasmachinereiniger", "vaatwasmachineverfrisser",
-            "vloerwisser", "ontvetterdoekjes", "huishoudelijk", "afwasmiddel", "handafwas", "vaatwas", "vaatwasreinigingstabletten",
-            "vaatwasmiddel", "parketreiniger", "vaatwascapsules", "vaatwastablet", "vaatwastabletten","schoonmaakartikelen", 
-            "schoonmaakbenodigdheden", "schoonmaakdoekjes", "schoonmaaksprays", "schoonmaakspray", "reinigingsdoekje", "reinigingsmiddel", "reinigingsmiddelen",
-            "reinigingsdoekjes", "allesreiniger", "allesreinigers", "aanslagreiniger", "reiniger", "containerzakken", "vuilniszakken",
-            "bloemen", "geranium", "fuchsia", "rhododendron", "onkruid", "pokon", "violen", "tulpen", "tulpenboeket", 
-            "bolhortensia", "rozen", "oleander", "bougainvillea", "astilbe", "pioenrozen", "vanish", "dikbleek",
-            "magnolia", "bonsaiboompje", "geldboompje", "bonsai-/geldboompje", "plant", "hyacinten", "antistofdoekjes",
-            "narcissen", "calla", "kamerplant", "kamerplanten", "keramische", "esdoorn", "dipladenia",
-            "dracaena", "balkon", "tuinhortensia", "graszaad", "vingersboom", "bloemenmix",
-            "slakkendoder", "onkruidbestrijder", "compostversneller", "gazonmest", "gazonzaad", "boomschors",
-            "meststaafjes", "plantengeleiders", "bloempot", "tuinslang", "margriet", "dianthus", "perkplant",
-            "petunia", "perkplanten", "dwergfruitboom", "germini's", "zaaiset", "zaklamp", "werklamp", "ledverlichting",
-            "schroevendraaier", "ontstoppingsveer", "ontstoppingspomp", "buitenkraan", "borenset", "decoupeerzaagset",
+            "ajax", "hg", "plenty", "solo", "purpose", "servetten", "lenor", "sun", 
+            "ambi-pur", "robijn", "formil", "swiffer", "sorbo", "antikal", "ariel", "lenor", 
+            "glorix", "andy", "leifheit", "cif", "dreft", "sun", "XG2", "reus", "persil", 
+            "fleuril", "finish",
+            "bleek", "luchtverfrissers", "luchtverfrisser", "vlekverwijderaar", 
+            "vlekverwijderaars", "vlekverwijdering",
+            "wasmiddel", "wasmiddelen", "stofzuigerzakken", "schoonmaakazijn", 
+            "waspoeder", "afvalzakjes",
+            "wasverzachter", "wasbeurt", "wasbeurten", "schuurspons", "zipzakjes", 
+            "schoonmaaksponzen", "keukenpapier", "toiletblok", "toiletblokken",
+            "huishoud", "ambi","waterglazen", "pannenset", 
+            "vaatdoeken", "aanstekers", "gasaanstekers", "decokussen", 
+            "tafelkleed", "deco", "sneakers", "bh",
+            "tight", "sneakersokken", "t-shirt", "bermuda", "inlegzolen", 
+            "panty", "jeans", "hemden", "slips", 
+            "luchtverfrisser", "luchtverfrisserspray", "ontkalker", 
+            "wasmachinereiniger", "vaatwasmachineverfrisser",
+            "vloerwisser", "ontvetterdoekjes", "huishoudelijk", "afwasmiddel", 
+            "handafwas", "vaatwas", "vaatwasreinigingstabletten",
+            "vaatwasmiddel", "parketreiniger", "vaatwascapsules", 
+            "vaatwastablet", "vaatwastabletten","schoonmaakartikelen", 
+            "schoonmaakbenodigdheden", "schoonmaakdoekjes", "schoonmaaksprays", 
+            "schoonmaakspray", "reinigingsdoekje", "reinigingsmiddel", "reinigingsmiddelen",
+            "reinigingsdoekjes", "allesreiniger", "allesreinigers", 
+            "aanslagreiniger", "reiniger", "containerzakken", "vuilniszakken",
+            "vanish", "dikbleek","geldboompje", "antistofdoekjes",
+            "zaklamp", "werklamp", "ledverlichting",
+            "schroevendraaier", "ontstoppingsveer", "ontstoppingspomp", "borenset", "decoupeerzaagset",
             "bitset", "werkbank", "stofmaskers", "lak", "houtolie", "tape", "hondenjoggingset", "hondentuigje",
             "hondenpoepzakjes"
         ],
         "ignore": ["aftersun", "zonnebrandcrème", "zonnebrand"]
+    },
+    {
+        "name": "tuin",
+        "keywords": [
+            "narcissen", "calla", "kamerplant", "kamerplanten", "keramische", 
+            "esdoorn", "dipladenia","bonsaiboompje", 
+            "dracaena", "balkon", "tuinhortensia", "graszaad", "vingersboom", 
+            "bloemenmix","magnolia",  "gasgrill", "barbeque", "barbecue", 
+            "terrasverwarming", "grillthermometer", "grillborstel", 
+            "slakkendoder", "onkruidbestrijder", "compostversneller", "gazonmest", 
+            "gazonzaad", "boomschors","houtfakkel",
+            "grondverlichting", "parasolvoet", "schaduwdoek", 
+            "palletkussen", "pallet-rugkussen", 
+            "meststaafjes", "koemest", "plantengeleiders", "bloempot", "tuinslang", 
+            "margriet", "dianthus", "perkplant",
+            "petunia", "perkplanten", "dwergfruitboom", "germini's", "zaaiset", 
+            "bloemen", "geranium", "fuchsia", "rhododendron", "onkruid", 
+            "pokon", "violen", "tulpen", "tulpenboeket", 
+            "bolhortensia", "rozen", "oleander", "bougainvillea", "astilbe", 
+            "pioenrozen", "hyacinten", "bonsai-/geldboompje", "plant", 
+            "buitenkraan"
+            
+        ],
+        "ignore": ["thee"]
     },
     {
         "name": "frisdrank",
