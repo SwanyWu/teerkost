@@ -5,6 +5,7 @@ All notable changes to the project are documented here. There is no versioning f
 # 21-04-2022
 
 ### Added
+- Category filter for 'gebak'.
 - Visual feedback to copy-link when sharing the page.
 
 # 20-04-2022
