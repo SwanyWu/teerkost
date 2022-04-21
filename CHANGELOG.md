@@ -8,6 +8,9 @@ All notable changes to the project are documented here. There is no versioning f
 - Category filter for 'gebak'.
 - Visual feedback to copy-link when sharing the page.
 
+### Fixed
+- Fix for not finding offers from 'Aldi' when startday is not monday.
+
 # 20-04-2022
 
 ### Added
