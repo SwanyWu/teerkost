@@ -6,6 +6,7 @@ All notable changes to the project are documented here. There is no versioning f
 
 ### Added
 - Category filter for 'gebak'.
+- Category filter for 'tuin'.
 - Visual feedback to copy-link when sharing the page.
 
 ### Fixed
