@@ -3,6 +3,6 @@ export const categoryList = [
     'vis','fruit', 'vegan', 'zuivel', 'kant-en-klaar', 'wijn',
     'aardappel','brood','kaas','noten','koffie',
     'thee','beleg','ontbijt','frisdrank','pasta',
-    'koek','ijs','chocola','chips','snoep',
+    'koek','ijs','chocola','chips','snoep', 'gebak',
     'verzorging','huishouden'
   ]
