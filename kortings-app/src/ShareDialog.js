@@ -7,6 +7,13 @@ function ShareDialog(props) {
   const copyMe = () => {
     var linkElement = document.querySelector(".url-share input");
     navigator.clipboard.writeText(linkElement.value);
+    console.log(shareUrl + " gekopieerd")
+    var confirmElement = document.querySelector(".url-share .copy-confirm")
+    confirmElement.classList.add("hide"); // reset animation
+    void confirmElement.offsetWidth; // trigger reflow
+    setTimeout(function(){
+    confirmElement.classList.remove("hide"); // start animation
+    }, 5000);
   }
 
   const shareApi = (e) => {
@@ -15,7 +22,7 @@ function ShareDialog(props) {
         title: shareTitle,
         url: shareUrl
       }).then(() => {
-        console.log('Dankje');
+        console.log('Link gedeeld!');
       })
       .catch(console.error);
     } else {
@@ -58,6 +65,7 @@ function ShareDialog(props) {
           <div className="url-share">
             <input value={shareUrl}/>
             <span onClick={copyMe} className="url-copy">kopieer</span>
+            <div className="copy-confirm">link gekopieerd!</div>
           </div>
           <div className="socials">
           <a className="whatsapp" href={"https://api.whatsapp.com/send?text="+shareUrl+""}>

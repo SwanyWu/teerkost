@@ -370,6 +370,31 @@ footer .sub-title {
   background: #480000;
 }
 
+.share-dialog .url-share .copy-confirm {
+  display: none;
+  background: #000;
+  position: absolute;
+  bottom: -25px;
+  color: #FFF;
+  border-radius: 8px;
+  padding: 0px 10px 0px 10px;
+  line-height: 30px;
+  width: 150px;
+  left: calc(50% - 85px);
+}
+.share-dialog .url-share .hide {
+  display: block;
+  animation: floatIn 5s;
+}
+
+@keyframes floatIn {
+  0% { opacity: 0; transform: translateY(-15px);}
+  10% { opacity: 1; transform: translateY(0px);}
+  90% { opacity: 1; transform: translateY(0px);}
+  100% { opacity: 0; transform: translateY(15px);}
+}
+
+
 .dialog-wrap .socials {
   margin: 0px 0px 10px 0px;
   display: table;
