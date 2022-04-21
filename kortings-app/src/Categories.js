@@ -4,5 +4,5 @@ export const categoryList = [
     'aardappel','brood','kaas','noten','koffie',
     'thee','beleg','ontbijt','frisdrank','pasta',
     'koek','ijs','chocola','chips','snoep', 'gebak',
-    'verzorging','huishouden'
+    'verzorging','huishouden', 'tuin'
   ]
