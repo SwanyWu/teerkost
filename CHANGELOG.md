@@ -2,6 +2,14 @@
 
 All notable changes to the project are documented here. There is no versioning for now. Just what is changed on what date.
 
+# 22-04-2022
+
+### Changed
+- Filters stay sticky when screenheight is big enough.
+
+### Fixed
+- Fix alignment of page on very large screens.
+
 # 21-04-2022
 
 ### Added
