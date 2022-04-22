@@ -8,10 +8,9 @@ const ProductsContainer = React.lazy(() => import ('./ProductsContainer'));
 
 function Main(props) {
   
-
   const categories = []
   categoryList.forEach(element => {
-    categories.push([element, 0])
+    categories.push([element, 0]) // for filling the filters on screen
   })
 
   let shops = [
@@ -233,12 +232,16 @@ function Main(props) {
                 </div>
                 <div className="filter-cat">
                   {categoriesList.map((category, key) => {
-                    if(category[1] === 0) {
-                      return <span className='filter-no-interest' key={key} onClick={() => clickOnCat(category[0])} data-category={category[0]}>{category[0]}</span>
+                    if(category[0] !== "") { // don't show empty filters
+                      if(category[1] === 0) {
+                        return <span className='filter-no-interest' key={key} onClick={() => clickOnCat(category[0])} data-category={category[0]}>{category[0]}</span>
+                      }
+                      else {
+                        return <span key={key} onClick={() => clickOnCat(category[0])} data-category={category[0]}>{category[0]} <i className="counter" data-category="bier">{category[1]}</i></span>
+                      }
                     }
-                    else {
-                      return <span key={key} onClick={() => clickOnCat(category[0])} data-category={category[0]}>{category[0]} <i className="counter" data-category="bier">{category[1]}</i></span>
-                    }
+                    else { return ""}
+                    
                   })}
                 </div>
                 <div className="filter-deal">
