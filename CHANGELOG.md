@@ -9,6 +9,7 @@ All notable changes to the project are documented here. There is no versioning f
 
 ### Fixed
 - Fix alignment of page on very large screens.
+- Fix showing an empty filter without a category.
 
 # 21-04-2022
 
