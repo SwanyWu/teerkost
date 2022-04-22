@@ -1156,7 +1156,7 @@ b.label-shop-lidl {
     background: none;
     float: left;
     width: 250px;
-    padding: 0px 15px 0px 0px;
+    padding: 0px 0px 0px 15px;
     position: sticky;
   }
   .filter-wrap {
