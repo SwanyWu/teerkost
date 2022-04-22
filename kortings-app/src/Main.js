@@ -40,7 +40,29 @@ function Main(props) {
 
     updateOfferList(selectedShopRoute, selectedCatRoute, selectedDealRoute)
     updatePageTitle(selectedShopRoute, selectedCatRoute)
+
+    setFilterNotStickyOnSmallScreen()
+
   }, [])
+
+  const setFilterNotStickyOnSmallScreen = () => {
+    var checkSticky = () => {
+      var filterWrapElement = document.querySelector(".filter");
+      var minHeight = 900 // hardcoded because height of element is not known on mount
+      var heightWindow = window.innerHeight
+        if(heightWindow < minHeight ) {
+        filterWrapElement.classList.add('not-sticky') // make it not sticky
+      } else {
+        filterWrapElement.classList.remove('not-sticky') // make it sticky
+      }
+    }
+
+    // on load 
+    checkSticky()
+    // and on resize
+    window.onresize = () => { checkSticky() };
+  }
+
 
   const setCounterPerShop = () => {
     let tempList = []

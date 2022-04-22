@@ -23,6 +23,7 @@ body, html {
 .app-wrap {
   min-height: 100vh;
   margin: 0px auto;
+  max-width: 2500px;
 }
 
 .title {
@@ -1141,7 +1142,6 @@ b.label-shop-lidl {
 
   .flex-container {
     position: relative;
-    width: calc(75% - 15px);
     justify-content: left;
     max-width: 2500px;
     padding: 15px 0px 0px 15px;
@@ -1149,19 +1149,26 @@ b.label-shop-lidl {
   }
 
   #filter-dialog {
-    padding: 15px 0px 0px 10px;
+    padding: 15px 0px 0px 0px;
   }
 
   .filter {
     background: none;
     float: left;
-    width: 25%;
-    position: relative;
+    width: 250px;
+    padding: 0px 15px 0px 0px;
+    position: sticky;
   }
   .filter-wrap {
-    max-width: 250px;
+    position: relative;
+    padding-top: 0px;
+    top: 0px;
+    width: 250px;
     margin: 0px;
     float: right;
+  }
+  .not-sticky {
+    position: relative;
   }
   
   .filter-deal, .filter-cat, .filter-shop {
