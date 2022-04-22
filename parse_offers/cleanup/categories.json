@@ -272,7 +272,7 @@
             "buitenkraan"
             
         ],
-        "ignore": ["thee"]
+        "ignore": ["thee", "toiletblokken"]
     },
     {
         "name": "frisdrank",
