@@ -2,6 +2,11 @@
 
 All notable changes to the project are documented here. There is no versioning for now. Just what is changed on what date.
 
+# 24-04-2022
+
+### Changed
+- Wider sharing pop-up and added some information.
+
 # 22-04-2022
 
 ### Changed
