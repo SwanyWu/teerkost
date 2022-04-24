@@ -38,9 +38,10 @@
             "hamlappen", "fund", "prosciutto", "pavé", "venkelsalami", "salami", "bbq", "grill", "paté", "mekkafood", "braadvlees",
             "boerengehaktschnitzels", "saucijzen", "gehaktstaven", "snackbroodje", "snackbroodjes", "mora", "bapao", "pita", "hofstee",
             "unox", "knaks", "kipfiletblokjes", "speklapjes", "zigeunerschnitzels", "smeerleverworst", "leverworst", "runderleverworst",
-            "kipgrillworst", "varkensgrillworst", "kipbraadsticks", "beefburgers"
+            "kipgrillworst", "varkensgrillworst", "kipbraadsticks", "beefburgers", "rundertartaartjes",
+            "schouderkarbonades"
         ],
-        "ignore": ["vega", "vegan", "vegetarisch", "vegetarische", "paprika"]
+        "ignore": ["wagner", "vega", "vegan", "vegetarisch", "vegetarische", "paprika"]
     },
     {
         "name": "groente",
@@ -51,9 +52,9 @@
             "tomaten", "paprika", "paprika's", "paprikamix", "veldsla", "bladsla", "avocado", "avocado's", "snoeptomaatjes", "snoepgroente", "ovengroente", 
             "ovengroenten", "groenten", "groentemix", "groente", "kookgroente", "soepgroenten", "soepgroente",
             "kookgroenten","witlof", "stamppotgroenten", "roerbakgroente", "roerbakgroenten", "kool", "bindsla", "kiemen",
-            "komkommer", "courgette", "courgettes", "aubergine", "spruitjes", "haricots", "peulen", "haricot", 
+            "komkommer", "courgette", "courgettes", "aubergine", "aubergines", "spruitjes", "haricots", "peulen", "haricot", 
             "worteltjes", "champignons", "kastanjechampignons","puntpaprika", "portobello", "portabella", "portabella's",
-            "salade ui", "bosui", "bosuien", "uien", "uiensnippers", "augurken", "rucola", "rucolamelange", "sperziebonen", 
+            "salade ui", "bosui", "bosuien", "uien", "uiensnippers", "augurken", "rucola", "rucolamelange", "rucolaslamelange", "sperziebonen", 
             "ijsbergsla", "romaatje", "romatomaatjes", "trostomaten", "trostomaatjes", "pompoen", "pompoenblokjes", "cherrytomaat", "cherrytomaatjes", "snacktomaten",
             "hutspot", "zuurkool", "snijbonen", "bleekselderij", "knolselderij", "wokgroenten", "bonduelle",
             "wokgroente", "maïskorrels","bieten", "pastinaak", "asperges", "kwartblikjes", "conserven",
@@ -85,7 +86,8 @@
             "saucijzenbroodjes", "stol", "volkorenstol", "volkorennotenstol", "notenstol", "saucijzenbroodje", "zonnebloempittenbrood", "sesamvolkorenbrood",
             "vruchtenbrood", "bakkersbrood", "meerzadenbroodje", "meerzadenbrood", "volkorenbrood", "passiebrood", "passiebroden",
             "grofvolkorenbrood", "sesambrood", "meergranenbroodje", "meergranenbrood", "krokantjes", "paashaasbroodjes", "schnittbroodjes", "kruidenbroodje",
-            "breekbrood", "desembol", "desembrood", "maisbrood", "speltbaguette", "seitanbroodje", "speltbroodjes", "stokbrood"
+            "breekbrood", "desembol", "desembrood", "maisbrood", "speltbaguette", "seitanbroodje", "speltbroodjes", "stokbrood",
+            "boerenwit"
         ],
         "ignore": ["salade", "salades", "chips", "donut", "donuts", "chio"]
     },
@@ -152,7 +154,8 @@
             "maaltijdsalades", "3-vaks-maaltijden","3-vaksmaaltijden", "3-vaks-maaltijd", "cup-a-soup", "kleinstesoepfabriek",
             "3-vaksmaaltijd", "2-vaks-maaltijd", "2-vaks-maaltijden", "ovenschotels", "ovenschotel", "saladeschotel", 
             "prei-kerrie-ovenschotel", "quiche", "zalm-aspergequiche", "maaltijdpakket", "maaltijdpakketten", "pannenkoeken",
-            "fairytales", "burrito's", "noedels", "panini"
+            "fairytales", "burrito's", "noedels", "panini", "salades", "piccolinis", "wagner",
+            "verspakket", "verspakketten"
         ],
         "ignore": ["deeg", "geraspt"]
     },
@@ -212,7 +215,7 @@
             "douche", "cosmetics", "bodymilk", "hair", "gezichtsscrub", "shampoobar", "conditionerbar", "haarwax",
             "haarspray", "make-up", "huid", "haargel"
         ],
-        "ignore": []
+        "ignore": ["zalmfilets", "vis", "vers", "verse"]
     },
     {
         "name": "huishouden",
@@ -259,18 +262,18 @@
             "bloemenmix","magnolia",  "gasgrill", "barbeque", "barbecue", 
             "terrasverwarming", "grillthermometer", "grillborstel", 
             "slakkendoder", "onkruidbestrijder", "compostversneller", "gazonmest", 
-            "gazonzaad", "boomschors","houtfakkel",
+            "gazonzaad", "boomschors","houtfakkel", "vijgenboom", "oleanderstruik",
             "grondverlichting", "parasolvoet", "schaduwdoek", 
-            "palletkussen", "pallet-rugkussen", 
+            "palletkussen", "pallet-rugkussen", "lavendel", "balkonplanten",
             "meststaafjes", "koemest", "plantengeleiders", "bloempot", "tuinslang", 
-            "margriet", "dianthus", "perkplant",
+            "margriet", "dianthus", "perkplant", "terrasplanten",
             "petunia", "perkplanten", "dwergfruitboom", "germini's", "zaaiset", 
             "bloemen", "geranium", "fuchsia", "rhododendron", "onkruid", 
             "pokon", "violen", "tulpen", "tulpenboeket", 
             "bolhortensia", "rozen", "oleander", "bougainvillea", "astilbe", 
             "pioenrozen", "hyacinten", "bonsai-/geldboompje", "plant", 
-            "buitenkraan"
-            
+            "buitenkraan", "potgrond", "perkplanten", "lavendel", "anjer",
+            "campanula", "zonnester"
         ],
         "ignore": ["thee", "toiletblokken"]
     },
@@ -279,7 +282,7 @@
         "keywords": [
             "spa", "pepsi", "rivella", "coolbest", "fanta", "sprite", "fernandes", "royal", "club",
             "lipton", "coca-cola", "7up", "cassis", "river", "cola", "crystal", "sisi", "taksi", 
-            "bull", "bullit", "pepper", 
+            "bull", "bullit", "pepper", "oasis",
             "limondaine"
         ],
         "ignore": ["thee"]
@@ -292,7 +295,7 @@
             "reuzenpaasei", "chocolade-eieren", "eitjes", "chocoladepizza", "chocolade-eitjes",  "paaschocolade",
             "chololadehartjes", "melkchocolade", "d'or", "cacao", "m&m's", "chocolonely", "chocolademix"
         ],
-        "ignore": ["kalanchoë"]
+        "ignore": ["kalanchoë", "koekjes", "koekje"]
     },
     {
         "name": "chips",
@@ -304,7 +307,7 @@
     {
         "name": "koek",
         "keywords": [
-            "koekjes", "eierkoeken", "oreo", "koeken", "cakejes", "paascakejes",
+            "koekjes", "eierkoeken", "oreo", "koeken", "cakejes", "paascakejes", "biscuits",
             "spekkoek", "aardbeiencakejes", "kano's", "b'tween", "verkade", "sprits",
             "haverkoeken", "cantuccini", "koek", "liga", "evergreen", "grazebites", "mergpijpjes", "mergpijp",
             "bastogne", "b-ready", "bokkenpoten", "bitterkoekjes", "speculaar", "mueslikoek", "roomboterbabbelaars"
@@ -316,8 +319,8 @@
         "keywords": [
             "appeltaart", "appeltaartje", "appelkruimelvlaai", "slagroomsoesjes",
             "kersenrastervlaai", "kasteeltjes", "truffels", "macarons", "tartelette",
-            "marsepein", "chocosoesjes", "soesjes", "apfelstrudel", "tompoucen",
-            "cake", "moelleux", "vlaaipunten", "roombroodje", "roombroodjes",
+            "marsepein", "chocosoesjes", "soesjes", "apfelstrudel", "tompoucen", "oranje-tompoucen",
+            "cake", "moelleux", "vlaaipunten", "roombroodje", "roombroodjes", "mini-vlaaitje",
             "layercake", "appeltaartpunten", "aarbeienvlaai", "eclairs", "kruidcakemix", "bakmix",
             "schnitt", "cheesecake", "slagroomtaart", "daim", "taart", "donut", "zoenen",
             "hazelnootschuimtaart", "appeltaartjes", "moorkoppen", "fondant",
@@ -332,7 +335,8 @@
             "roombroodjes", "roombroodje", "vlaai", "paasgebak", "paasgebakjes", "banket",
             "banketbakkerij", "paasvlaaitjes", "cupcake", "appelovaaltjes",
             "abrikozenvlaai", "curd", "stroopwafelvlaai", "kersen-vanillebavaroisvlaai",
-            "nogatientjes", "gebakje", "roomboterappeltaart", "appel-kruimelvlaai"           
+            "nogatientjes", "gebakje", "roomboterappeltaart", "appel-kruimelvlaai", "donuts",
+            "muffins", "cookies", "custardcake", "custardcakes"          
         ],
         "ignore": []
     },
@@ -383,6 +387,6 @@
             "pasta", "pastasauzen", "cecco", "linguine", "spaghetti", "penne",
             "tagliatelle"
         ],
-        "ignore": ["salade"]
+        "ignore": ["salade", "stoommaaltijden", "stoommaaltijd"]
     }
 ]
