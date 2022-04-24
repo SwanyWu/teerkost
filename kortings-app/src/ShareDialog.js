@@ -1,5 +1,7 @@
 function ShareDialog(props) {
   
+  var buttonText = props.buttonText
+  var infoText = props.infoText
   var shareText = "Altijd de actuele aanbiedingen van supermarkten."
   var shareUrl = window.location.href
   var shareTitle = document.title
@@ -55,13 +57,16 @@ function ShareDialog(props) {
         {/* FIXME not the right place, create seperate component */}
       <div className="copy-dialog">
           <span className="share-title">Kopieer lijst</span>
-          <div>
+          <span className="share-info">Kopieer de bewaarde aanbiedingen als een boodschappenlijst.</span>
+
+          <div className="copy-textarea">
             <textarea>
             </textarea>
           </div>
         </div>
         <div className="share-dialog">
-          <span className="share-title">Deel pagina</span>
+          <span className="share-title">{buttonText}</span>
+          <span className="share-info">{infoText}</span>
           <div className="url-share">
             <input value={shareUrl}/>
             <span onClick={copyMe} className="url-copy">kopieer</span>
@@ -89,7 +94,7 @@ function ShareDialog(props) {
       <div className="button-cell">
         <div onClick={shareApi} className="button share-button">
           <i class="ri-share-box-fill"></i>
-          <div className="share-button-tag">deel pagina</div>
+          <div className="share-button-tag">{buttonText}</div>
         </div>
       </div>
     </div>
