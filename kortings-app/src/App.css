@@ -319,7 +319,6 @@ footer .sub-title {
   border-radius: 8px;
   text-align: center;
   animation: modal 200ms;
-  overflow: hidden;
 }
 
 @keyframes modal {
@@ -345,26 +344,60 @@ footer .sub-title {
   padding-top: 10px;
 }
 
-.copy-dialog .copy-textarea {
+.copy-dialog .list-share {
   padding: 10px 0px 10px 0px;
   margin: 10px 0px 10px 0px;
   background: #d27070;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  
 }
-.copy-dialog .copy-textarea textarea {
-  border-radius: 8px;
+.copy-dialog .list-share textarea {
+  font-weight: 800;
   border: none;
   outline: none;
-  padding: 10px 5px 10px 5px;
-  width: calc(100% - 30px);
+  padding: 10px 10px 10px 10px;
+  width: calc(100% - 40px);
   height: 25vh;
+  margin: 0px;
   max-height: 500px;
   min-height: 100px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
   resize: vertical;
+  box-shadow: inset 0px -1px 0px 0px #782929a1;
+
+}
+.copy-dialog .list-share span.list-copy {
+  cursor: pointer;
+  display: block;
+  line-height: 40px;
+  border: none;
+  padding: 0px 10px 0px 10px;
+  background: #882F2F;
+  color: #FFF;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  right: 0px;
+  position: relative;
+  margin: 0px 10px 0px 10px;
+  box-shadow: inset 0px -1px 0px 0px #0000003d; 
+  /* var van boxshadow maken */
+}
+.copy-dialog .list-share span.list-copy .label {
+  display: inline-block;
+  font-size: .8em;
+  vertical-align: top;
+  margin-left: 5px;
+}
+
+
+.copy-dialog .list-share span.list-copy:hover {
+  background: #480000;
 }
 
 .share-dialog .url-share {
   display: table;
-  font-size: .8em;
   background: #d27070;
   margin: 10px 0px 10px 0px;
   padding: 10px 5px 10px 5px;
@@ -381,26 +414,37 @@ footer .sub-title {
   width: calc(100% - 130px);
   display: inline-block;
   outline: none;
-  border-bottom-left-radius: 15px;
-  border-top-left-radius: 15px;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+  vertical-align: top;
+  box-shadow: inset 0px -1px 0px 0px #782929a1;
 }
+
 .share-dialog .url-share .url-copy {
   cursor: pointer;
   display: inline-block;
-  line-height: 40px;
+  line-height: 37px;
   border: none;
   padding: 0px 10px 0px 10px;
   background: #882F2F;
   color: #FFF;
-  border-bottom-right-radius: 15px;
-  border-top-right-radius: 15px;
-  font-weight: 800;
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
+  box-shadow: inset 0px -1px 0px 0px #0000003d;
 }
+
+.share-dialog .url-share .url-copy .label {
+  display: inline-block;
+  font-size: .8em;
+  vertical-align: top;
+  margin-left: 5px;
+}
+
 .share-dialog .url-share .url-copy:hover {
   background: #480000;
 }
 
-.share-dialog .url-share .copy-confirm {
+.copy-confirm {
   display: none;
   background: #000;
   position: absolute;
@@ -412,9 +456,9 @@ footer .sub-title {
   width: 150px;
   left: calc(50% - 85px);
 }
-.share-dialog .url-share .hide {
+.share-dialog .url-share .hide, .copy-dialog .list-share .hide {
   display: block;
-  animation: floatIn 5s;
+  animation: floatIn 3s;
 }
 
 @keyframes floatIn {
@@ -1112,6 +1156,12 @@ b.label-shop-lidl {
   padding: 5px 5px 5px 5px;
 }
 
+/* TODO create list style  */
+/* .list-style .flex-container { flex-direction: column !important;}
+.list-style .flex-item {
+  width: calc(100% - 15px);
+}
+ */
 
 @media screen and (max-width: 1000px) {
   .flex-item {

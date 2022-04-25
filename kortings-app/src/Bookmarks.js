@@ -56,18 +56,23 @@ function Bookmarks(props) {
         <a className="title-sober" href='https://teerkost.nl'><span>Teerkost</span></a>
         { selectedOffers.length > 0  ? 
           <div>
-            <header className="filter">
-              <div className="filter-wrap">
-                <span className="bookmark-info"><i class="ri-bookmark-line"></i><span>{bookmarkCount} bewaarde aanbieding{bookmarkCount !== 1 ? "en":""}</span></span>
-                <div className="bookmark-options">          
-                  {/* <ShareDialog /> */}
-                  {/* <CopyButton /> */}
+            <div className="bottom-buttons">
+              <CopyButton selectedOffers={selectedOffers}/>
+              <ShareDialog buttonText="deel lijst" infoText="Deel een link naar deze lijst met bewaarde aanbiedingen." />
+            </div>
+            <div>
+              <header className="filter">
+                <div className="filter-wrap">
+                  <span className="bookmark-info"><i class="ri-bookmark-line"></i><span>{bookmarkCount} bewaarde aanbieding{bookmarkCount !== 1 ? "en":""}</span></span>
+                  <div className="bookmark-options">          
+                    {/* <ShareDialog /> */}
+                  </div>
                 </div>
-              </div>
-            </header>
-            <Suspense fallback={<div className="even-geduld"><div className="notify-wrap"><span className='dot-dot-dot'></span></div></div>}>
-              <ProductsContainer selectedOffers={selectedOffers}/>
-            </Suspense>
+              </header>
+              <Suspense fallback={<div className="even-geduld"><div className="notify-wrap"><span className='dot-dot-dot'></span></div></div>}>
+                <ProductsContainer selectedOffers={selectedOffers}/>
+              </Suspense>
+            </div>
           </div> : <NoBookmarks />
         }
         

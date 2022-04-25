@@ -8,14 +8,26 @@ function ShareDialog(props) {
 
   const copyMe = () => {
     var linkElement = document.querySelector(".url-share input");
-    navigator.clipboard.writeText(linkElement.value);
+    navigator.clipboard.writeText(linkElement.value); 
     console.log(shareUrl + " gekopieerd")
     var confirmElement = document.querySelector(".url-share .copy-confirm")
     confirmElement.classList.add("hide"); // reset animation
     void confirmElement.offsetWidth; // trigger reflow
     setTimeout(function(){
     confirmElement.classList.remove("hide"); // start animation
-    }, 5000);
+    }, 3000);
+  }
+
+  const copyMeTextarea = () => {
+    var linkElement = document.querySelector(".list-share textarea");
+    navigator.clipboard.writeText(linkElement.value);
+    console.log("Bewaarlijst gekopieerd")
+    var confirmElement = document.querySelector(".list-share .copy-confirm")
+    confirmElement.classList.add("hide"); // reset animation
+    void confirmElement.offsetWidth; // trigger reflow
+    setTimeout(function(){
+    confirmElement.classList.remove("hide"); // start animation
+    }, 3000);
   }
 
   const shareApi = (e) => {
@@ -58,10 +70,11 @@ function ShareDialog(props) {
       <div className="copy-dialog">
           <span className="share-title">Kopieer lijst</span>
           <span className="share-info">Kopieer de bewaarde aanbiedingen als een boodschappenlijst.</span>
-
-          <div className="copy-textarea">
+          <div className="list-share">
             <textarea>
             </textarea>
+            <span onClick={copyMeTextarea} className="list-copy"><i class="ri-file-copy-2-line"></i><span className='label'>kopieer</span></span>
+            <div className="copy-confirm">lijst gekopieerd!</div>
           </div>
         </div>
         <div className="share-dialog">
@@ -69,7 +82,7 @@ function ShareDialog(props) {
           <span className="share-info">{infoText}</span>
           <div className="url-share">
             <input value={shareUrl}/>
-            <span onClick={copyMe} className="url-copy">kopieer</span>
+            <span onClick={copyMe} className="url-copy"><i class="ri-file-copy-2-line"></i><span className='label'>kopieer</span></span>
             <div className="copy-confirm">link gekopieerd!</div>
           </div>
           <div className="socials">

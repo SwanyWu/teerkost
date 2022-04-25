@@ -1,5 +1,24 @@
+
+import React, {useEffect} from "react";
+
 function CopyButton(props) {
   
+  const offers = props.selectedOffers;
+
+  useEffect(() => {
+    var textareaElement = document.querySelector('.list-share textarea')
+
+    var boodschappenlijst = []
+
+    offers.map(function(name, index){
+      boodschappenlijst.push("* " + name['shop'] +": " +name['product'] + " - " + name['deal'] + "")
+    })
+
+    console.log(boodschappenlijst)
+
+    textareaElement.value = boodschappenlijst.join('\r\n')
+  }, [])
+
   const copyList = (e) => {
       var copyButtonElement = document.querySelector('.bookmark-copy')
       var copyDialogElement = document.querySelector('.copy-dialog')
@@ -23,11 +42,11 @@ function CopyButton(props) {
   }
 
   return (
-    <div>        
-      <span onClick={copyList} className="button bookmark-copy">
+    <div className="button-cell">
+      <div onClick={copyList} className="button bookmark-copy">
         <i class="ri-file-copy-2-line"></i>
         <div className="bookmark-copy-tag">kopieer lijst</div>
-      </span>
+      </div>
     </div>
   )
 
