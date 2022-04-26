@@ -1080,6 +1080,9 @@ b.label-shop-lidl {
   display: flex;
   justify-content: space-between;
   line-height: 30px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  box-shadow: inset 0px 0px 0px 2px #FFF;
 }
 
 .product-header.lidl {   
