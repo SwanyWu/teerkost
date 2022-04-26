@@ -986,10 +986,9 @@ b.label-shop-lidl {
 
 .product-image {
   background: #fff;
-  border-radius: 8px;
-  display: flex;
   height: 100px;
   margin: 0;
+  display: flex;
   overflow: hidden;
   text-align: center;
   align-items: center;
@@ -997,7 +996,8 @@ b.label-shop-lidl {
 }
 
 .product-image img {
-  max-width: 130px;
+  max-width: 65%;
+  transform: translateY(-10%);
 }
 
 .product-name { 
@@ -1010,16 +1010,18 @@ b.label-shop-lidl {
 
 .product-category {
   position: absolute;
-  top: 40px;
+  top: 35px;
   left: 5px;
   display: inline-block;
   background: #d2e8ff;
   color: #3e5d8b;
-  border-radius: 8px;
-  font-weight: 800;
-  padding: 5px 10px 5px 10px;
+  border-radius: 4px;
+  font-weight: 600;
+  padding: 0px 10px 0px 10px;
   font-size: .7em;
   box-shadow: 0px 0px 0px 2px #FFF;
+  line-height: 20px;
+  z-index: 1;
 }
 
 .product-info { 
@@ -1073,88 +1075,79 @@ b.label-shop-lidl {
 
 }
 
+.product-header {
+  box-shadow: inset 0px -1px 0px #00000052;
+  display: flex;
+  justify-content: space-between;
+  line-height: 30px;
+}
+
+.product-header.lidl {   
+  background: #fff000; 
+  color: #0050aa; 
+}
+.product-header.lidl .product-date { color: #000; text-shadow: none;}
+
+.product-header.jumbo {   
+  background: #eeb717; 
+  color: #FFF;
+  text-shadow: 1px 1px #000;
+}
+.product-header.jumbo .product-date { color: #000; text-shadow: none;}
+
+.product-header.ah {
+  background: #00ade6;
+  color: #FFF;
+}
+.product-header.aldi {
+  background: #202b78;
+  color: #FFF;
+}
+.product-header.ekoplaza {
+  color: #FFF;
+  background: #6d1f80;
+  text-decoration: none;
+}
+
+.product-date {
+  display: inline-block;
+  align-items: right;
+  font-size: .8em;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 10px 0px 0px;
+}
+.date-now { font-style: italic;}
+
+.product-shop {
+  display: inline-block;
+  z-index: 800;
+  left: 0px;
+  top: 0px;
+  font-weight: 800;
+  font-size: .8em;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 10px;
+  text-transform: uppercase;
+}
+
 .product-price::before {
   content:"€";
 }
 .product-price { 
   display: inline-block;
-  position: absolute;
-  background: #16b000;
-  color: #fff;
-  font-weight: 800;
-  line-height: 40px;
+  background: #000;
+  color: #FFF;
+  line-height: 35px;
   text-align: center;
-  padding: 10px 10px 10px 10px;
-  right: 5px;
-  top: 30px;
-  min-width: 40px;
-  text-shadow: 0px 1px 5px #478a4b;
-  clip-path: polygon(50% 0%, 57.22% 6.71%, 66.23% 2.71%, 70.89% 11.40%, 80.71% 10.54%, 82.29% 20.27%, 91.86% 22.65%, 90.20% 32.37%, 98.47% 37.73%, 93.74% 46.38%, 99.83% 54.13%, 92.55% 60.78%, 95.79% 70.08%, 86.75% 74.01%, 86.79% 83.86%, 76.96% 84.64%, 73.80% 93.97%, 64.25% 91.51%, 58.23% 99.32%, 50% 93.89%, 41.77% 99.32%, 35.75% 91.51%, 26.20% 93.97%, 23.04% 84.64%, 13.21% 83.86%, 13.25% 74.01%, 4.21% 70.08%, 7.45% 60.78%, 0.17% 54.13%, 6.26% 46.38%, 1.53% 37.73%, 9.80% 32.37%, 8.14% 22.65%, 17.71% 20.27%, 19.29% 10.54%, 29.11% 11.40%, 33.77% 2.71%, 42.78% 6.71%);
-}
-
-.product-date {
-  display: inline-block;
+  padding: 0px 10px 0px 10px;
+  right:  5px;
+  top: 35px;
   position: absolute;
-  background: #fdfdfd;
-  right: 0px;
-  color: #35322a;
-  font-weight: 800;
-  font-size: .8em;
-  margin: 0px 0px 0px 0px;
-  padding: 5px 5px 5px 5px;
-  top: 0px;
   border-radius: 8px;
-}
-.date-now { color: #aa3a3a;}
-
-.product-shop {
-  display: inline-block;
-  z-index: 800;
-  background: #fff;
-  border-radius: 8px;
-  left: 5px;
-  top: 5px;
-  color: #000;
-  font-weight: 800;
-  min-width: 85px;
-  text-align: center;
-  font-size: .8em;
-  position: absolute;
-  margin: 0px 0px 0px 0px;
-  padding: 5px 10px 5px 10px;
-  text-transform: uppercase;
-  box-shadow: inset 0px -1px 0px #00000052;
+  z-index: 1;
 }
 
-.product-shop.lidl {   
-  background: #fff000; 
-  color: #0050aa; 
-  text-decoration: underline;
-  text-decoration-color: red;
-}
 
-.product-shop.jumbo {   
-  background: #eeb717; 
-  color: #FFF;
-  text-shadow: 1px 1px #000;
-}
-.product-shop.ah {
-  background: #00ade6;
-  color: #FFF;
-}
-.product-shop.aldi {
-  background: #202b78;
-  color: #FFF;
-  text-decoration: underline;
-  text-decoration-color: red;
-}
-.product-shop.ekoplaza {
-  color: #FFF;
-  background: #6d1f80;
-  text-decoration: none;
-  font-size: .65em;
-  padding: 5px 5px 5px 5px;
-}
 
 /* TODO create list style  */
 /* .list-style .flex-container { flex-direction: column !important;}

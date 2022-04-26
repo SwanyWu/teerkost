@@ -40,9 +40,11 @@ function ProductCard(props) {
           </ul>
         </div>
         )} */}
-        <span className={"product-shop " + props.item['shop']}>{props.item['shop']}</span>
+        <div className={"product-header " + props.item['shop']}>
+          <span className="product-shop">{props.item['shop']}</span>
+          <DateLabel dateEnd={props.item['dateEnd']} dateStart={props.item['dateStart']}/>
+        </div>
         <Category category={props.item['category']}/>
-        <DateLabel dateEnd={props.item['dateEnd']} dateStart={props.item['dateStart']}/>
         <Price newPrice={props.item['price']} />
         <Suspense fallback={<div className="even-geduld-image"></div>}>
           <Image image={props.item['image']} />
