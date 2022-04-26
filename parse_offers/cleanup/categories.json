@@ -43,7 +43,7 @@
             "kipgrillworst", "varkensgrillworst", "kipbraadsticks", "beefburgers", "rundertartaartjes",
             "schouderkarbonades", "schouderham", "gehaktrol"
         ],
-        "ignore": ["wagner", "vega", "vegan", "vegetarisch", "vegetarische", "paprika"]
+        "ignore": ["wagner", "vega", "vegan", "vegetarisch", "vegetarische"]
     },
     {
         "name": "groente",
@@ -63,7 +63,7 @@
             "haricots", "sjalotten", "babyspinazie", "kropsla", "sla", "slamelange", "eikenblad-slamelange", "slamelanges", 
             "bonen", "radijs", "radijsjes", "spitskool", "paksoi", "bimi", "venkel", "oesterzwammen"
         ],
-        "ignore": ["roomsaus", "saus", "hummus", "quiche", "pesto", "chips"]
+        "ignore": ["roomsaus", "saus", "hummus", "quiche", "pesto", "chips", "shoarma"]
     },
     {
         "name": "aardappel",
