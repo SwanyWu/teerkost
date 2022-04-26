@@ -1113,6 +1113,7 @@ b.label-shop-lidl {
   display: inline-block;
   align-items: right;
   font-size: .8em;
+  opacity: .7;
   margin: 0px 0px 0px 0px;
   padding: 0px 10px 0px 0px;
 }
@@ -1158,10 +1159,7 @@ b.label-shop-lidl {
 
 @media screen and (max-width: 1000px) {
   .flex-item {
-    width: 30%;
-  }
-  .product-date {
-    font-size: .6em;
+    min-width: 220px;
   }
 
   @media screen and (max-width: 790px) {
@@ -1172,10 +1170,6 @@ b.label-shop-lidl {
   @media screen and (max-width: 484px) {
     .flex-item {
       min-width: calc(50% - 15px);
-    }
-
-    .product-date {
-      font-size: .6em !important;
     }
 
     .product-image {
@@ -1198,9 +1192,6 @@ b.label-shop-lidl {
     @media screen and (max-width: 445px) {
       .flex-item {
         width: 100%;
-      }
-      .product-date {
-        font-size: .8em !important;
       }
     }  
 
@@ -1275,9 +1266,6 @@ b.label-shop-lidl {
 
 /* menu back to the top, mobile interface */
 @media screen and (max-width: 850px) {
-  .product-date {
-    font-size: .8em;
-  }
   .bookmark-info {
     color: #480000;
     padding: 10px 0px 0px 0px;
