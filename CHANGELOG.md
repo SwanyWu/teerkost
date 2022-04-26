@@ -5,7 +5,10 @@ All notable changes to the project are documented here. There is no versioning f
 # 26-04-2022
 
 ### Changed
-- Offer items have a cleaner look.
+- Itemcards have a cleaner look.
+
+### Fixed
+- Fix for overflowing datelabel when item gets to small.
 
 # 25-04-2022
 
