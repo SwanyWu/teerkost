@@ -2,13 +2,19 @@
 
 All notable changes to the project are documented here. There is no versioning for now. Just what is changed on what date.
 
+# 28-04-2022
+
+### Changed
+- Clean up more redundant text from product info.
+- Small styling changes for the item cards.
+  
 # 26-04-2022
 
 ### Changed
-- Itemcards have a cleaner look.
+- Item cards have a cleaner look.
 
 ### Fixed
-- Fix for overflowing datelabel when item gets to small.
+- Fix for overflowing date label when item gets to small.
 
 # 25-04-2022
 
