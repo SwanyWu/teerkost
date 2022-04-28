@@ -993,6 +993,7 @@ b.label-shop-lidl {
   text-align: center;
   align-items: center;
   justify-content: center;
+  animation: showUp 1000ms;
 }
 
 .product-image img {
@@ -1006,21 +1007,28 @@ b.label-shop-lidl {
   padding: 10px 10px 10px 10px;
   font-weight: 800;
   overflow-wrap: break-word;
+  animation: showUp 500ms;
+
 }
 
 .product-category {
-  background: #d2e8ff;
-  box-shadow: inset 2px 0 0 0px #fff, inset -2px 0px 0px #FFF, 0px 2px 0px 0px #FFF;
+  background: #FFF;
   color: #3e5d8b;
   display: inline-block;
   font-size: .7em;
   font-weight: 600;
   left: 0px;
-  line-height: 20px;
+  line-height: 25px;
   padding: 0 10px;
   position: absolute;
   top: 30px;
   z-index: 1;
+  animation: showUp 1500ms;
+}
+
+@keyframes showUp {
+  0% { opacity: 0;}
+  100% { opacity: 1;}
 }
 
 .product-info { 
@@ -1028,6 +1036,7 @@ b.label-shop-lidl {
   font-size: .7em;
   overflow-wrap: break-word;
   color: #686868;
+  animation: showUp 500ms;
 }
 
 .product-deal { 
@@ -1039,6 +1048,8 @@ b.label-shop-lidl {
   font-weight: 800;
   border-top: 2px dashed #CCC;
   margin: 0px 0px 0px 0px;
+  animation: showUp 500ms;
+
 }
 .product-deal.on-fire {
   color: #867d00;
@@ -1082,6 +1093,7 @@ b.label-shop-lidl {
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
   box-shadow: inset 0px 0px 0px 2px #FFF;
+  animation: showUp 200ms ease-in-out;
 }
 
 .product-header.lidl {   
@@ -1148,6 +1160,7 @@ b.label-shop-lidl {
   position: absolute;
   z-index: 1;
   box-shadow: inset 0px 0px 0px 2px #fff;
+  animation: showUp 500ms;
 }
 
 
