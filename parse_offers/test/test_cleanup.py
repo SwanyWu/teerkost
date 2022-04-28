@@ -98,6 +98,10 @@ class TestCleanup(unittest.TestCase):
         expectedInfoText = "300 gram"
         self.assertEqual(cleanInfoText, expectedInfoText)    
 
+        cleanInfoText = cleantext.cleanUpInfo("Bijv. de groene soort")
+        expectedInfoText = ""
+        self.assertEqual(cleanInfoText, expectedInfoText)    
+
     def test_give_id(self):
         """
         ✅ Product van een eigen ID voorzien 👉 
