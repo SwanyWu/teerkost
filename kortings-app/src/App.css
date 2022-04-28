@@ -1283,7 +1283,7 @@ b.label-shop-lidl {
 @media screen and (max-width: 850px) {
   .bookmark-info {
     color: #480000;
-    padding: 10px 0px 0px 0px;
+    padding: 10px 0px 10px 0px;
     display: block;
     text-align: center;
   }  
