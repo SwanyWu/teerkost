@@ -7,6 +7,9 @@ All notable changes to the project are documented here. There is no versioning f
 ### Changed
 - Clean up more redundant text from product info.
 - Small styling changes for the item cards.
+
+### Fixed
+- Fix for removing offer bookmarks that do not exist anymore.
   
 # 26-04-2022
 
