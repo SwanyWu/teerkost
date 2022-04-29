@@ -23,7 +23,7 @@
     {
         "name": "vlees",
         "keywords": [
-            "schouderkarbonade", "ribkarbonade", "haaskarbonade", "kipfilet", "kiprollade", "kipfilethaasjes", "lamshaasjes",
+            "schouderkarbonade", "ribkarbonade", "haaskarbonade", "kip", "kipfilet", "kiprollade", "kipfilethaasjes", "lamshaasjes",
             "kipdrumsticks", "gehaktbal", "gehaktballen", "filetlapjes", "rookworst", "kipblokjes", "oranjeburgers", "half-om-halfgehakt",
             "rund", "varken", "kipkrokant", "kipdijfilet", "kipschnitsels", "kipschnitzels", "kaasschnitzel", "kaasschnitzels", "knakworst", "braadworst", "cordon",
             "gehakt", "shoarma", "dijfilet", "slavink", "rundersaucijs", "saucijs", "gehaktschnitzel", "cervelaat", "jambon", "burger",
@@ -126,7 +126,7 @@
             "vache", "nurishh", "salut", "burrata", "kaaswiel", "strooikaas", "taleggio",
             "moravia"
         ],
-        "ignore": ["gehakt", "gebraden"]
+        "ignore": ["gehakt", "gebraden", "kipgrillworst", "grillworst", "vegan"]
     },
     {
         "name": "zuivel",
@@ -213,7 +213,7 @@
     {
         "name": "verzorging",
         "keywords": [
-            "pampers", "prevalin", "luiers", "aquafresh", "colgate", "prodent", "zendium", "elvive", "blends", "fa", "taft", "biodermal", "page", "axe", "zwitsal", "oral-b","palmolive","vaseline",
+            "pampers", "prevalin", "ecover", "vision", "luiers", "aquafresh", "colgate", "prodent", "zendium", "elvive", "blends", "fa", "taft", "biodermal", "page", "axe", "zwitsal", "oral-b","palmolive","vaseline",
             "always", "kneipp", "nivea", "sanex", "suplementen", "paradontax", "sensodyne", "listerine", "borotalco", 
             "periodeverzorging", "lucovitaal", "pampers", "tissues", "zakdoekjes", "guhl", "cien", "maandverband", "maandverb", "yoni",
             "andrélon", "edet", "nalys", "dettol", "dove", "rexona", "axe", "gillette", "venus", "elmex", "inlegkruisjes",
@@ -223,7 +223,8 @@
             "mondkapje", "mondkapjes", "cosmetica", "baby", "toiletpapier", "soft-picks", "verzorging",
             "bodybutter", "bodyscrub", "handcrème", "huidcrème", "nachtcrème", "dagcrème", "covid-19", "zelftest",
             "douche", "cosmetics", "bodymilk", "hair", "gezichtsscrub", "shampoobar", "conditionerbar", "haarwax",
-            "haarspray", "make-up", "huid", "haargel", "perskindol", "ambre", "mondverzorging",
+            "haarspray", "make-up", "huid", "haargel", "perskindol", "ambre", "mondverzorging", "haarverzorgingsproducten", 
+            "haarverzorging", "stylingsproducten",
             "dental", "jordan", "tandpasta", "scheerschuim", "aftershave", "scheercrème"
         ],
         "ignore": ["zalmfilets", "vis", "vers", "verse", "zalmfilet"]
@@ -278,7 +279,7 @@
             "palletkussen", "pallet-rugkussen", "lavendel", "balkonplanten",
             "meststaafjes", "koemest", "plantengeleiders", "bloempot", "tuinslang", 
             "margriet", "dianthus", "perkplant", "terrasplanten",
-            "petunia", "perkplanten", "dwergfruitboom", "germini's", "zaaiset", 
+            "petunia", "dwergfruitboom", "germini's", "zaaiset", 
             "bloemen", "geranium", "fuchsia", "rhododendron", "onkruid", 
             "pokon", "violen", "tulpen", "tulpenboeket", "hortensia",
             "pioenen",
@@ -345,7 +346,7 @@
             "chocoladefondant", "gebak", "gebaksbodem", "bossche", "soesjes",
             "pudding-kruimelvlaai", "kruimelvlaai", "rijstevlaai", "bavaroise",
             "abrikozenvlaai", "gebakjes", "roomboterslof", "kersenflappen", "popdots",
-            "popdots-mix",
+            "popdots-mix", "appelcake",
             "appelpunten", "slagroompunten", "slagroomschnitte", "bosvruchtenslofjes",
             "aardbeienschelpjes", "bosvruchtenslof", "citroenslofjes", "appelflap",
             "hazelnootgebak", "hazelnootgebakjes", "kersenhoef", "abrikozencarré",
@@ -385,9 +386,10 @@
         "keywords": [
             "drop", "katja", "venco", "band", "sportlife", "klene", "dropjes",
             "snoep", "skittles", "haribo", "candy", "mentos", "autodrop",
-            "fruittella", "stophoest", "lonka", "dextro", "chupa", "pepermunt",
+            "fruitella", "stophoest", "lonka", "dextro", "chupa", "pepermunt",
             "spekjes", "napoleon", "gummi", "maoam", "frisia", "werther's", "toffee",
-            "toffees", "lonka", "gomballen", "matten", "kauwgom", "freshlife"
+            "toffees", "lonka", "gomballen", "matten", "kauwgom", "freshlife",
+            "uitdeelsnoep", "stimorol"
         ],
         "ignore": []
     },
