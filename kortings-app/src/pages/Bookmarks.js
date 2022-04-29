@@ -1,11 +1,11 @@
 import React, {useState, useEffect, Suspense} from "react";
-import Offers from './offers.json';
-import ShareDialog from "./ShareDialog";
+import Offers from '../offers.json';
+import ShareDialog from "../components/ShareDialog";
 import localForage from "localforage";
-import NoBookmarks from "./NoBookmarks";
-import CopyButton from "./CopyButton";
+import NoBookmarks from "../NoBookmarks";
+import CopyButton from "../CopyButton";
 
-const ProductsContainer = React.lazy(() => import ('./ProductsContainer'));
+const ProductsContainer = React.lazy(() => import ('../ProductsContainer'));
 
 function Bookmarks(props) {
   
@@ -62,6 +62,8 @@ function Bookmarks(props) {
         console.log("Bookmark met het productId " + productId + " niet meer gevonden.")
         i = i + 1;
 
+        // FIXME gevonden id's in aparte array zetten en die verwijderen
+
         localForage.getItem('teerkost-bookmarks').then(function (value) {
           if(value !== null) { // if something is present in browserstorage
             var allBookmarks = value;
@@ -93,7 +95,7 @@ function Bookmarks(props) {
           <div>
             <div className="bottom-buttons">
               <CopyButton selectedOffers={selectedOffers}/>
-              <ShareDialog buttonText="deel lijst" infoText="Deel een link naar deze lijst met bewaarde aanbiedingen." />
+              <ShareDialog buttonText="deel lijst" customUrl="blabla" infoText="Deel een link naar deze lijst met bewaarde aanbiedingen." />
             </div>
             <div>
               <header className="filter">

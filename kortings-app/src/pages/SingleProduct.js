@@ -1,14 +1,14 @@
 import React, {Suspense, useEffect} from "react";
 
-import DateLabel from './DateLabel';
-import Price from './Price';
-import Category from './Category';
-import Deal from './Deal';
-import ShareDialog from "./ShareDialog";
-import ProductBookmark from "./ProductBookmark";
-import BookmarkButton from "./BookmarkButton";
+import DateLabel from '../components/product/DateLabel';
+import Price from '../components/product/Price';
+import Category from '../components/product/Category';
+import Deal from '../components/product/Deal';
+import ShareDialog from "../components/ShareDialog";
+import ProductBookmark from "../components/product/ProductBookmark";
+import BookmarkButton from "../BookmarkButton";
 
-const Image = React.lazy(() => import ('./Image'));
+const Image = React.lazy(() => import ('../components/product/Image'));
 
 function SingleProduct(props) {
 

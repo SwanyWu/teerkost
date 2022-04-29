@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from "react";
 import NoProduct from "./NoProduct";
-import ProductCard from "./ProductCard";
+import ProductCard from "./components/ProductCard";
 
 function ProductsContainer(props) {
 

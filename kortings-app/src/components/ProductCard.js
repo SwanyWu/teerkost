@@ -1,12 +1,12 @@
 import React, {Suspense, useState} from "react";
 
-import DateLabel from './DateLabel';
-import Price from './Price';
-import Category from './Category';
-import Deal from './Deal';
-import ProductBookmark from "./ProductBookmark";
+import DateLabel from './product/DateLabel';
+import Price from './product/Price';
+import Category from './product/Category';
+import Deal from './product/Deal';
+import ProductBookmark from "./product/ProductBookmark";
 
-const Image = React.lazy(() => import ('./Image'));
+const Image = React.lazy(() => import ('./product/Image'));
 
 function ProductCard(props) {
 

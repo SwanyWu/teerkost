@@ -3,7 +3,11 @@ function ShareDialog(props) {
   var buttonText = props.buttonText
   var infoText = props.infoText
   var shareText = "Altijd de actuele aanbiedingen van supermarkten."
-  var shareUrl = window.location.href
+  if(props.customUrl === undefined) {
+    var shareUrl = window.location.href
+  } else {
+    var shareUrl = props.customUrl
+  }
   var shareTitle = document.title
 
   const copyMe = () => {

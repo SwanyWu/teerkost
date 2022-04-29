@@ -2,10 +2,11 @@ import React from "react";
 import 'remixicon/fonts/remixicon.css'
 import './App.css';
 import { Routes, Route } from "react-router-dom";
-import Footer from './Footer';
-import Main from './Main';
-import Bookmarks from './Bookmarks';
-import SingleProduct from './SingleProduct';
+import Footer from './components/Footer';
+import Main from './pages/Main';
+import Bookmarks from './pages/Bookmarks';
+import SingleProduct from './pages/SingleProduct';
+import ListProduct from './pages/ListProduct';
 import Offers from './offers.json';
 import { categoryList } from "./Categories";
 import NotFound from "./NotFound";
