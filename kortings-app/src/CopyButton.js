@@ -14,8 +14,6 @@ function CopyButton(props) {
       boodschappenlijst.push("* " + name['shop'] +": " +name['product'] + " - " + name['deal'] + "")
     })
 
-    console.log(boodschappenlijst)
-
     textareaElement.value = boodschappenlijst.join('\r\n')
   }, [])
 
