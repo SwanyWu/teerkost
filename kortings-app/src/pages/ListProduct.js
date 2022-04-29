@@ -14,12 +14,12 @@ function Main(props) {
   const createProductIdsList = (id) => {
     var productIdFilter = object => object.productId === null;
 
-    const ids = id.split('+')
-    console.log(ids)
-    const aantal = ids.length
+    id = id.split(',')
+    console.log(id)
+    const aantal = id.length
     console.log(aantal)
 
-    productIdFilter = object => ids.includes(object.productId);
+    productIdFilter = object => id.includes(object.productId);
     var filtered = Offers.filter(productIdFilter)
     setSelectedOffers(filtered);
   }
