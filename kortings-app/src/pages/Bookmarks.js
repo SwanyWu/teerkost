@@ -95,7 +95,7 @@ function Bookmarks(props) {
           <div>
             <div className="bottom-buttons">
               <CopyButton selectedOffers={selectedOffers}/>
-              <ShareDialog buttonText="deel lijst" customUrl="blabla" infoText="Deel een link naar deze lijst met bewaarde aanbiedingen." />
+              <ShareDialog buttonText="deel lijst" customUrl="sorry, nog niet klaar" infoText="Deel een link naar deze lijst met bewaarde aanbiedingen." />
             </div>
             <div>
               <header className="filter">
