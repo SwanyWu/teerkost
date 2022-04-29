@@ -2,7 +2,6 @@ import React, {useState, useEffect, Suspense} from "react";
 import Offers from '../offers.json';
 import ShareDialog from "../components/ShareDialog";
 import BookmarkButton from "../BookmarkButton";
-import SettingsButton from "../SettingsButton";
 import { categoryList } from "../Categories";
 
 const ProductsContainer = React.lazy(() => import ('../ProductsContainer'));
@@ -219,7 +218,6 @@ function Main(props) {
   return (
     <div className="app-wrap">
         <div className="bottom-buttons">
-          {/* <SettingsButton /> */}
           <BookmarkButton />
           <ShareDialog buttonText="deel pagina" infoText="Deel de huidige pagina met de gekozen filters." />
         </div>
