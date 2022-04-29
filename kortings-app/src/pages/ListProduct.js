@@ -14,7 +14,7 @@ function Main(props) {
   const createProductIdsList = (id) => {
     var productIdFilter = object => object.productId === null;
 
-    const ids = id.split(',')
+    const ids = id.split('+')
     console.log(ids)
     const aantal = ids.length
     console.log(aantal)
@@ -45,7 +45,6 @@ function Main(props) {
         <header className="filter">
             <div id="filter-dialog">
             <div className="filter-wrap">
-
             </div>
             </div>
         </header>
