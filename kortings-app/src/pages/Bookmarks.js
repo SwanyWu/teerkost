@@ -15,7 +15,8 @@ function Bookmarks(props) {
 
   const [selectedOffers, setSelectedOffers] = useState([]);  
   const [bookmarkCount, setBookmarkCount] = useState(0);
-  const [oldBookmarksExist, setOldBookmarksExist] = useState(false);
+  const [bookmarkListUrl, setbookmarkListUrl] = useState("");
+  const [oldBookmarksExist, setOldBookmarksExist] = useState(false); // FIXME
 
 
   useEffect(() => {
@@ -27,6 +28,7 @@ function Bookmarks(props) {
         updateOfferListById(bookmarkedIds)
         checkIfOffersExist(bookmarkedIds)
         setBookmarkCount(bookmarkedIds.length)
+        createBookmarkListUrl(bookmarkedIds)
       } else {
         console.info("Er staan geen bookmarks in deze browser opgeslagen.")
       }
@@ -34,6 +36,15 @@ function Bookmarks(props) {
         console.warn("Iets misgegaan bij het ophalen van de bookmarks: " + err)
     })
   }, [])
+
+  const createBookmarkListUrl = (bookmarkIdList) => {
+    var url = "https://teerkost.nl"
+    var hash = "/#"
+    var page = "/lijst/"
+    var idsAsString = bookmarkIdList.toString()
+    setbookmarkListUrl(url + hash + page + idsAsString)
+
+  }
 
   const updateOfferListById = (bookmarkIdList) => {
     var productIdFilter = object => object.productId === null;
@@ -65,9 +76,9 @@ function Bookmarks(props) {
         // FIXME gevonden id's in aparte array zetten en die verwijderen
 
         localForage.getItem('teerkost-bookmarks').then(function (value) {
-          if(value !== null) { // if something is present in browserstorage
+          if(value !== null) {
             var allBookmarks = value;
-            allBookmarks = allBookmarks.filter(element => element !== productId) // remove from existing array
+            allBookmarks = allBookmarks.filter(element => element !== productId)
             localForage.setItem('teerkost-bookmarks', allBookmarks).then(function(value) {
               console.log(productId + " is niet meer actueel en wordt verwijdert uit de bookmarks.")
               setOldBookmarksExist(true)
@@ -95,7 +106,7 @@ function Bookmarks(props) {
           <div>
             <div className="bottom-buttons">
               <CopyButton selectedOffers={selectedOffers}/>
-              <ShareDialog buttonText="deel lijst" customUrl="sorry, nog niet klaar" infoText="Deel een link naar deze lijst met bewaarde aanbiedingen." />
+              <ShareDialog buttonText="deel lijst" customUrl={bookmarkListUrl} infoText="Deel een link naar deze lijst met bewaarde aanbiedingen." />
             </div>
             <div>
               <header className="filter">
