@@ -54,6 +54,7 @@ function App() {
           <Route path="alle-winkels" element={<Main />} /> { /* Map all routes for all shops with everything */ }
           
           <Route path="bewaard" element={<Bookmarks />} />
+          <Route path="lijst/:id" element={<ListProduct />} />
           <Route path="*" element={<NotFound/>} />
         </Route>
       </Routes>
