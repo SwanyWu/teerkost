@@ -164,7 +164,7 @@
             "fairytales", "burrito's", "noedels", "panini", "salades", "piccolinis", "wagner", "steenovenpizza",
             "verspakket", "verspakketten", "pangang", "ajam", "maaltijdverspakketten", "lasagne"
         ],
-        "ignore": ["deeg", "geraspt"]
+        "ignore": ["deeg", "geraspt", "paté"]
     },
     {
         "name": "noten",
