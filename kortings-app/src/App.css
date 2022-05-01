@@ -27,19 +27,19 @@ body, html {
 }
 
 .title {
-  clip-path: polygon(50% 0%, 57.22% 6.71%, 66.23% 2.71%, 70.89% 11.40%, 80.71% 10.54%, 82.29% 20.27%, 91.86% 22.65%, 90.20% 32.37%, 98.47% 37.73%, 93.74% 46.38%, 99.83% 54.13%, 92.55% 60.78%, 95.79% 70.08%, 86.75% 74.01%, 86.79% 83.86%, 76.96% 84.64%, 73.80% 93.97%, 64.25% 91.51%, 58.23% 99.32%, 50% 93.89%, 41.77% 99.32%, 35.75% 91.51%, 26.20% 93.97%, 23.04% 84.64%, 13.21% 83.86%, 13.25% 74.01%, 4.21% 70.08%, 7.45% 60.78%, 0.17% 54.13%, 6.26% 46.38%, 1.53% 37.73%, 9.80% 32.37%, 8.14% 22.65%, 17.71% 20.27%, 19.29% 10.54%, 29.11% 11.40%, 33.77% 2.71%, 42.78% 6.71%);
   text-transform: uppercase;
   display: inline-block;
-  color: #fff;
-  background: #973434;
-  width: 150px;
-  height: 150px;
-  line-height: 150px;
+  width: 190px;
   text-align: center;
-  font-weight: 800;
-  font-size: 1em;
-  transform: rotate(10deg);
   cursor: pointer;
+  color: #fff;
+  font-weight: 800;
+  font-size: 1.5em;
+  border-radius: 8px;
+  padding: 0px 10px 0px 10px;
+  background: #973434;
+  line-height: 40px;
+  box-shadow: inset 0px -4px 2px -4px #4d2323;
 }
 .title:hover {
     background: #480000;
@@ -58,6 +58,7 @@ a.title-sober span {
   display: inline-block;
   position: sticky;
   top: 0px;
+  width: 190px;
   color: #fff;
   font-weight: 800;
   font-size: 1.5em;
@@ -109,8 +110,8 @@ footer .donate .wave {
 }
 
 footer .title {
-  left: calc(50% - 75px);
-  bottom: calc(50vh - 75px);
+  left: calc(50% - 105px);
+  bottom: calc(50vh - 20px);
   position: absolute;
 }
 
@@ -642,8 +643,8 @@ b.label-shop-lidl {
 }
 
 .filter-cat span {
-  background: #d2e8ff;
-  color: #01245bb5;
+  background: #96caff;
+  color: #000000b5;
   padding: 10px 0px 10px 10px;
   overflow: hidden;
 }
@@ -659,7 +660,7 @@ b.label-shop-lidl {
 }
 
 .filter-cat i.counter {
-  background: #FFF;
+  background: #FFFFFFC2;
   color: #4a4a4a;
   text-shadow: none;
   font-style: normal;
@@ -668,14 +669,14 @@ b.label-shop-lidl {
 }
 
 .filter-shop span {
-  background: #fdeec4;
-  color: #80692a;
+  background: #ffd150;
+  color: #00000091;
   overflow: hidden;
   padding: 10px 0px 10px 10px;
 }
 
 .filter-shop i.counter {
-  background: #FFF;
+  background: #FFFFFFC2;
   color: #4a4a4a;
   text-shadow: none;
   font-style: normal;
@@ -709,7 +710,9 @@ b.label-shop-lidl {
 }
 
 #active-deal, #active-shop, #active-category {
-  box-shadow: var(--shadow-elevation-medium),inset 0 0 0 3px #fff,inset 0 -1px 2px 3px #318a35;
+  box-shadow: var(--shadow-elevation-medium), 
+              inset 0 0 0 2px #fff, 
+              inset 0 -1px 2px 2px #318a35;
   color: #FFF !important;
   text-shadow: 1px 1px #005305;
   background: #16b000 !important;
