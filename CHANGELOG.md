@@ -2,6 +2,12 @@
 
 All notable changes to the project are documented here. There is no versioning for now. Just what is changed on what date.
 
+# 01-05-2022
+
+### Changed
+- Small color changes to the theme.
+- Two column layout on small screens.
+
 # 29-04-2022
 
 ### Added
