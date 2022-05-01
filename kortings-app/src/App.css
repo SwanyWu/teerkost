@@ -1185,33 +1185,31 @@ b.label-shop-lidl {
       min-width: 220px;
     }
   }
-  @media screen and (max-width: 484px) {
-    .flex-item {
-      min-width: calc(50% - 15px);
-    }
-
-    .product-image {
-      height: 70px !important;
-    }
-
-    .even-geduld-image {
-      height: 70px !important;
-    }
-
-    .product-image img {
-      max-width: 100px !important;
-    }
-
-    .product-deal {
-      padding: 10px 15px 10px 15px !important;
-    }
-
-    /* smallest screen, switch to list */
-    @media screen and (max-width: 445px) {
-      .flex-item {
-        width: 100%;
+  @media screen and (max-width: 505px) {
+      .flex-container {
+        padding-left: 10px;
       }
-    }  
+      .flex-item {
+        min-width: 120px;
+        width: calc(50% - 10px);
+        margin: 0px 10px 10px 0px;
+        font-size: .8em;
+      }
+      .product-image {
+        height: 70px !important;
+      }
+  
+      .even-geduld-image {
+        height: 70px !important;
+      }
+  
+      .product-image img {
+        max-width: 100px !important;
+      }
+  
+      .product-deal {
+        padding: 10px 15px 10px 15px !important;
+      } 
 
   }
 }
