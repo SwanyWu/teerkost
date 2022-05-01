@@ -1,6 +1,6 @@
 
 :root {
-  --main-color: #f08080;
+  --main-color: #ff7e7e;
   --main-secondary-color: #c65b5b;
   --article-bg: #FFF;
   --shadow-color: #00000030;
@@ -721,7 +721,7 @@ b.label-shop-lidl {
 
 #filter-button {
   display: inline-block;
-  background: #F08080;
+  background: var(--main-color);
   color: #fff;
   padding: 5px 10px 5px 10px;
   font-weight: 800;
