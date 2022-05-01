@@ -90,7 +90,7 @@
             "vruchtenbrood", "bakkersbrood", "meerzadenbroodje", "meerzadenbrood", "volkorenbrood", "passiebrood", "passiebroden",
             "grofvolkorenbrood", "sesambrood", "meergranenbroodje", "meergranenbrood", "krokantjes", "paashaasbroodjes", "schnittbroodjes", "kruidenbroodje",
             "breekbrood", "desembol", "desembrood", "maisbrood", "speltbaguette", "seitanbroodje", "speltbroodjes", "stokbrood",
-            "boerenwit", "ciabatta", "simit", "walnotenbroodje",  "focaccia", "pinsa", "pizzabodem",
+            "boerenwit", "ciabatta", "simit", "walnotenbroodje",  "focaccia", "pinsa", "pizzabodem", "croissantdeeg",
             "baguettini", "bread'n", "woutkorn", "zonnebloempitbrood", "kornbol", "roombotercroissant"
         ],
         "ignore": ["salade", "salades", "chips", "donut", "donuts", "chio"]
@@ -284,7 +284,7 @@
             "bloemen", "geranium", "fuchsia", "rhododendron", "onkruid", 
             "pokon", "violen", "tulpen", "tulpenboeket", "hortensia",
             "pioenen", "vogelpindakaas", "klimplant", "orchidee",
-            "hangplant", "olijfboompje",
+            "hangplant", "olijfboompje", "tuintafel",
             "bolhortensia", "rozen", "oleander", "bougainvillea", "astilbe", 
             "pioenrozen", "hyacinten", "bonsai-/geldboompje", "plant", 
             "buitenkraan", "potgrond", "perkplanten", "lavendel", "anjer",
