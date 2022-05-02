@@ -14,7 +14,7 @@ function Main(props) {
   })
 
   let shops = [
-    ['ah', 0], ['jumbo', 0], ['lidl', 0], ['aldi', 0], ['ekoplaza', 0]
+    ['ah', 0], ['jumbo', 0], ['lidl', 0], ['aldi', 0], ['plus', 0], ['ekoplaza', 0]
   ]
 
   const [categoriesList, setCategoriesList] = useState(categories)
