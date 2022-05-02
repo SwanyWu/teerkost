@@ -1125,6 +1125,11 @@ b.label-shop-lidl {
   background: #6d1f80;
   text-decoration: none;
 }
+.product-header.plus {
+  color: #FFF;
+  background: #80bd1d;
+  text-decoration: none;
+}
 
 .product-date {
   display: inline-block;
