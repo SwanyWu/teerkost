@@ -24,8 +24,9 @@ def formatNumberAsFloat(number):
     numberAsList.insert(2, ".")
     numberAsList.reverse()
 
-    floatNumber = "".join(str(x) for x in numberAsList)
-    return floatNumber
+    floatNumber = float("".join(str(x) for x in numberAsList))
+    floatNumber = round(floatNumber, 2)
+    return str(floatNumber)
 
 def calculatePercentage(oldPrice, newPrice):
     calculateDeal = int((1 - (float(newPrice)/float(oldPrice))) * 100)
@@ -194,6 +195,12 @@ def returnOffers():
 
         #FIXME als weekendpakker bij staan de start en einddatum aanpassen
 
+        if price != '':
+            priceAsFloat = float(price)
+            price = str(round(priceAsFloat, 2))
+
+        print(price)    
+
         offer = {
             "productId":"",
             "product":"", 
@@ -220,7 +227,6 @@ def returnOffers():
         offer.update({"image": imageLink})
         offer.update({"link": link})
         offer.update({"shop": SHOP})
-
         if(offer.get('deal') != ""): # if no deal is found, don't add it
             collection.append(offer)
 
