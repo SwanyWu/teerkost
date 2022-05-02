@@ -2,7 +2,7 @@
 def cleanUpTitle(title):
     """Removes words from a string that are not useful."""
 
-    badWords = ['Alle AH ', 'Diverse AH ', 'Alle ', 'AH ', '*', 'Jumbo ']
+    badWords = ['PLUS ', 'Alle AH ', 'Diverse AH ', 'Alle ', 'AH ', '*', 'Jumbo ']
 
     title = title.replace("’", "'") # sanitize different kinds of apostrophes
     title = title.replace(" ", " ") # sanitize weird space character
@@ -19,7 +19,7 @@ def cleanUpInfo(infoText):
     if 'Bijv.' in infoText:
         infoText = ""
     else:     
-        badWords = ['Jumbo ', 'Alle soorten\n3 verpakkingen', 
+        badWords = ['PlUS ', 'Jumbo ', 'Alle soorten\n3 verpakkingen', 
                     'Alle soorten\n2 verpakkingen',
                     'Alle soorten ', 'Alle soorten\n', 'Alle soorten',
                     'Alle soorten\n2 ', 'Alle soorten\n3 ', 'Alle soorten, ', 

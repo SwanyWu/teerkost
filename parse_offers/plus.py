@@ -1,3 +1,4 @@
+from posixpath import split
 from selenium import webdriver
 from webdriver_manager.firefox import GeckoDriverManager
 from selenium.webdriver.firefox.options import Options
@@ -17,6 +18,7 @@ def returnMonthNumber(monthString):
     return monthNumberString
 
 def formatNumberAsFloat(number):
+    number = number.replace("\n", "") # character appears sometimes
     numberAsList = list(number)
     numberAsList.reverse()
     numberAsList.insert(2, ".")
@@ -24,6 +26,20 @@ def formatNumberAsFloat(number):
 
     floatNumber = "".join(str(x) for x in numberAsList)
     return floatNumber
+
+def calculatePercentage(oldPrice, newPrice):
+    calculateDeal = int((1 - (float(newPrice)/float(oldPrice))) * 100)
+    return str(calculateDeal)
+
+def returnMonth(monthString):   
+    monthString = monthString.replace("\xa0", "")
+    months = ["januari", "februari", "maart", "april", "mei",
+    "juni", "juli", "augustus", "september", "oktober", "november", "december"]
+
+    monthInt = months.index(monthString) + 1
+    monthNumberString = format(monthInt, '02')
+
+    return monthNumberString       
 
 def returnOffers():
 
@@ -58,22 +74,33 @@ def returnOffers():
     soup = BeautifulSoup(productSectionHTML, "html.parser")
     collection = []
 
-    dateStart = ""
-    dateEnd = ""
+    dateElement = soup.find("h3", {"class": "promotion-search-titelH3"})
+    if dateElement != None:
+        date = dateElement.get_text().strip()
+        date = date.split("t/m")
+        dateStartString = date[0]
+        dateEndString = date[1]
+
+        dateStartDay = dateStartString.split(" ")[1]
+        dateStartMonth = dateStartString.split(" ")[2]
+
+        dateEndDay = dateEndString.split(" ")[1]
+        dateEndMonth = dateEndString.split(" ")[2]
+
+        year = datetime.datetime.now().year
+
+        dateStart = str(year) +"-"+ returnMonth(dateStartMonth) +"-"+ dateStartDay
+        dateEnd = str(year) +"-"+ returnMonth(dateEndMonth) +"-"+ dateEndDay
     
     productTile = "ish-productList-item"
-    i = 0
     for product in soup.find_all("li", {"class": productTile}):
-        i = i + 1
 
-        # print(product)
         productId = ""
         title = ""
         info = ""
         imageLink = ""
         price = ""
         deal = ""
-        label = ""
         link = ""
 
         titleElement = product.find("div", {"class":"product-tile__info"})
@@ -89,10 +116,10 @@ def returnOffers():
         oldPrice = ""
         priceAboveCloverElement = product.find("div", {"class": "price-desktop"})
         if priceAboveCloverElement != None:
-            oldPrice = priceAboveCloverElement.get_text().strip()   
-
-        currentprice = ""
-        print("----")
+            oldPrice = priceAboveCloverElement.get_text().strip()  
+            if "\n" in oldPrice:
+                oldPriceSplit = oldPrice.split("\n")
+                oldPrice = oldPriceSplit[0]
 
         clover = ""
         cloverElement = product.find("div", {"class": "clover"})
@@ -100,13 +127,15 @@ def returnOffers():
             clover = cloverElement.get_text().strip()
             if "KORTING" in clover:
                 splitClover = clover.split("KORTING")
-                if "%" in splitClover[0]:
+                if "%" in splitClover[0]: # a percentage is found
                     percentage = splitClover[0]
                     deal = percentage + " korting"
+                    # TODO nieuwe prijs berekenen
                 else:
-                    deal = "EEN BEDRAG KORTING" 
-                    # TODO percentage berekenen met old price   
-                # TODO nieuwe prijs berekenen
+                    discount = formatNumberAsFloat(splitClover[0]) # a discount is found
+                    newPrice = float(oldPrice) - float(discount)
+                    deal = calculatePercentage(oldPrice, newPrice) + "% korting"
+                    price = str(newPrice)
             elif "VOOR" in clover:
                 splitClover = clover.split("VOOR")
                 formattedPrice = formatNumberAsFloat(splitClover[1])
@@ -116,22 +145,38 @@ def returnOffers():
                 splitClover = clover.split("+")
                 deal = splitClover[0] + "+1 gratis"
                 # TODO prijs berekenenen
-            elif "GRAM" in clover or "KILO" in clover:
-                deal = "IETS MET gram/kilo " + clover
-                # TODO prijs en deal berekenen (en info updaten?)
+            elif "GRAM" in clover:
+                splitClover = clover.split("GRAM")
+                prijsKilo = splitClover[1]
+                newPrice = formatNumberAsFloat(prijsKilo)
+                percentage = calculatePercentage(oldPrice, newPrice)
+                price = newPrice
+                if float(percentage) < 0.0:
+                    print("Wait wut, korting van " + str(percentage) + "%")
+                else:
+                    deal = percentage + "% korting"    
+            elif "KILO" in clover:
+                splitClover = clover.split("KILO")
+                prijsKilo = splitClover[1]
+                newPrice = formatNumberAsFloat(prijsKilo)
+                percentage = calculatePercentage(oldPrice, newPrice)
+                price = newPrice
+                if float(percentage) < 0.0:
+                    print("Wait wut, korting van " + str(percentage) + "%")
+                else:
+                    deal = percentage + "% korting"    
+                # TODO prijs berekenen
             elif "2eHALVEPRIJS" in clover:
                 deal = "2e halve prijs"
                 # TODO prijs berekenen
             else: 
                 try:
-                    int(clover)
-                    deal = "GEWOON DE PRIJS " + formatNumberAsFloat(clover) 
-                    # TODO korting berekenen
-                except:
-                    deal = "IETSA NDERS DAN PRIJS?" + clover
-                # TODO dan maar gewoon prijs en deal berekenen     
-
-        print("-> deal: " + deal)
+                    newPrice = formatNumberAsFloat(clover)
+                    deal = calculatePercentage(oldPrice, newPrice) + "% korting"
+                    # TODO prijs berekenen
+                except Exception as e:
+                    print("Geen idee wat de deal is hiervan: " + clover)
+                    deal = ""
 
         imageElement = product.find("img")
         if imageElement != None:
@@ -146,6 +191,8 @@ def returnOffers():
             linkElementsList.reverse()
             productId = linkElementsList[0]
             link = href
+
+        #FIXME als weekendpakker bij staan de start en einddatum aanpassen
 
         offer = {
             "productId":"",
@@ -165,7 +212,7 @@ def returnOffers():
         offer.update({"productId": productId})
         offer.update({"product": cleanTitle})
         offer.update({"productInfo": cleanInfo})
-        # offer.update({"category": categorize.findCategoryForProduct(cleanTitle, cleanInfo)})
+        offer.update({"category": categorize.findCategoryForProduct(cleanTitle, cleanInfo)})
         offer.update({"deal": deal})
         offer.update({"dateStart": dateStart})
         offer.update({"dateEnd": dateEnd})
