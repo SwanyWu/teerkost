@@ -9,6 +9,20 @@
     0px 0.6px 0.7px -0.8px var(--shadow-color),
     0px 1.5px 1.7px -1.7px var(--shadow-color),
     -0.1px 3.6px 4.1px -2.5px var(--shadow-color);
+
+  --flex-item-shadow: 0px 1px 1px #CCC;
+  --shop-filter-bg: #ffd150;
+  --shop-filter-shadow: inset 0px -1px 0px 0px #c49f39;
+  
+  --cat-filter-bg: #96caff;
+  --cat-filter-shadow: inset 0px -1px 0px 0px #567ea8;
+  
+  --deal-filter-bg: #f2f2f2;
+  --deal-filter-shadow: inset 0px -1px 0px 0px #66666678;
+
+  --filter-counter-bg: #FFFFFF36;
+
+  --active-filter-shadow: inset 0px -1px 0px 0px #005305;
 }
 
 body, html {
@@ -632,18 +646,20 @@ b.label-shop-lidl {
   font-weight: 800;
   cursor: pointer;
   scroll-snap-align: start;
-  box-shadow: var(--shadow-elevation-medium);
+  box-shadow: var(--subtle-inset-shadow);
 }
 
 .filter-deal span {
-  background: #f2f2f2;
+  background: var(--deal-filter-bg);
+  box-shadow: var(--deal-filter-shadow);
   color: #666;
   padding: 8px 10px 8px 10px;
   margin: 0px 5px 5px 0px;
 }
 
 .filter-cat span {
-  background: #96caff;
+  background: var(--cat-filter-bg);
+  box-shadow: var(--cat-filter-shadow);
   color: #000000b5;
   padding: 10px 0px 10px 10px;
   overflow: hidden;
@@ -660,7 +676,7 @@ b.label-shop-lidl {
 }
 
 .filter-cat i.counter {
-  background: #FFFFFFC2;
+  background: var(--filter-counter-bg);
   color: #4a4a4a;
   text-shadow: none;
   font-style: normal;
@@ -669,14 +685,15 @@ b.label-shop-lidl {
 }
 
 .filter-shop span {
-  background: #ffd150;
+  background: var(--shop-filter-bg);
+  box-shadow: var(--shop-filter-shadow);
   color: #00000091;
   overflow: hidden;
   padding: 10px 0px 10px 10px;
 }
 
 .filter-shop i.counter {
-  background: #FFFFFFC2;
+  background: var(--filter-counter-bg);
   color: #4a4a4a;
   text-shadow: none;
   font-style: normal;
@@ -684,35 +701,8 @@ b.label-shop-lidl {
   margin-left: 5px;
 }
 
-.filter-search {
-  margin: 0px 15px 15px 0px;
-  display: inline-block;
-  background: #FFF;
-  border-radius: 15px;
-  padding: 10px 5px 10px 5px;
-}
-
-.filter-search::before {
-  content: "zoeken";
-  text-transform: uppercase;
-  padding: 0px 10px 0px 5px;
-  font-size: .8em;
-  font-weight: 800;
-  color: #b25656;
-}
-
-.filter-search input[type="text"]{
-  border: none;
-  outline: none;
-  font-size: 1em;
-  border-radius: 15px;
-  padding: 5px 5px 5px 5px;
-}
-
 #active-deal, #active-shop, #active-category {
-  box-shadow: var(--shadow-elevation-medium), 
-              inset 0 0 0 2px #fff, 
-              inset 0 -1px 2px 2px #318a35;
+  box-shadow: var(--active-filter-shadow);
   color: #FFF !important;
   text-shadow: 1px 1px #005305;
   background: #16b000 !important;
