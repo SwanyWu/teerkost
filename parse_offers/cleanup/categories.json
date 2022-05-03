@@ -6,7 +6,7 @@
             "Grolsch", "desperados", "Amstel", "Bavaria", "Affligem", "Trappe", "Brand", "birra", "moretti", "Dors", "Veltins","Dommelsch", "Alfa",
             "Gulpener", "Westmalle", "tripel", "cornet" ,"karmeliet", "skuumkoppe", "corona", "bud", "perlenbacher", "hefeweizen", 
             "kordaat", "tequilabier", "finkbrau", "oettinger", "argus", "steenbrugge", "Schultenbräu", "palm", "lefort", "ale", "lowlander",
-            "Leffe", "Corona", "Warsteiner", "Jupiler", "Weizen", 
+            "Leffe", "Corona", "Warsteiner", "Jupiler", "Weizen", "hoegaarden",
             "witbieren", "witbier", "weizenbier", "hertog", "weizenbieren", 
             "ipa", "Chouffe", "Jopen", "Afflichem", "Duvel", "peroni"
         ],
@@ -44,7 +44,7 @@
             "unox", "knaks", "kipfiletblokjes", "speklapjes", "zigeunerschnitzels", "smeerleverworst", "leverworst", "runderleverworst",
             "kipgrillworst", "varkensgrillworst", "kipbraadsticks", "beefburgers", "rundertartaartjes",
             "schouderkarbonades", "schouderham", "gehaktrol", "grillworst", "bbq-steaks", "kippenbouten", "ontbijtspek",
-            "schinken", "abdijham", "porc"
+            "schinken", "abdijham", "porc", "scharrelkipfiletblokjes", "rundertartaar"
         ],
         "ignore": ["wagner", "vega", "vegan", "vegetarisch", "vegetarische", "omelet"]
     },
@@ -73,8 +73,8 @@
         "name": "aardappel",
         "keywords": [ "Aardappel-", "aardappelen", "aardappels", "potatoes", "krieltjes", "minikrieltjes", "mini-krieltjes", "aardappelspecialiteiten", "aardappelspecialiteit", "aardappelschijfjes", "aardappelkroketjes",
              "aardappelbolletjes", "aardappelfrites", "aardappelfriet", "pofaardappelen", "frites", "patat", "pommes", "boerenfriet", "frietjes", "friet", "aardappelgratin",
-             "aardappelroosjes", "aardappelgolfjes", "aardappelpuree", "aardappel", "krielaardappelen", "aardappelpartjes", "aardappelblokjes", "pom'",
-              "aardappelwedges", "ovenaardappelen", "opbakaardappelen", "rosti", "rostirondjes", "smulfriet", "cêlavita", "bakaardappeltjes"
+             "aardappelroosjes", "aardappelgolfjes", "aardappelpuree", "aardappel", "krielaardappelen", "aardappelpartjes", "aardappelblokjes", "pom'", "kriel", "vastkokend",
+              "aardappelwedges", "ovenaardappelen", "opbakaardappelen", "rosti", "rostirondjes", "smulfriet", "cêlavita", "bakaardappeltjes", "bakaardappelen"
         ],
         "ignore": []
 
@@ -95,9 +95,9 @@
             "breekbrood", "desembol", "desembrood", "maisbrood", "speltbaguette", "seitanbroodje", "speltbroodjes", "stokbrood",
             "boerenwit", "ciabatta", "simit", "walnotenbroodje",  "focaccia", "pinsa", "pizzabodem", "croissantdeeg",
             "baguettini", "bread'n", "woutkorn", "zonnebloempitbrood", "kornbol", "roombotercroissant",
-            "thuisafbakbrood", "afbakbrood"
+            "thuisafbakbrood", "afbakbrood", "afbakcroissants"
         ],
-        "ignore": ["salade", "salades", "chips", "donut", "donuts", "chio"]
+        "ignore": ["salade", "gebak", "hartjesgebak", "salades", "chips", "donut", "donuts", "chio"]
     },
     {
         "name": "beleg",
@@ -128,7 +128,7 @@
             "parrano", "feta", "fondue", "parmazan", "camembert","parmigiano", "reggiano", 
             "gorgonzola", "mozzerella", "buffelmozzerella", "kaasplateau", "babybell", "babybel", 
             "vache", "nurishh", "salut", "burrata", "kaaswiel", "strooikaas", "taleggio",
-            "moravia", "geitenkaasschijfjes"
+            "moravia", "geitenkaasschijfjes", "hüttenkäse"
         ],
         "ignore": ["gehakt", "gebraden", "kipgrillworst", "grillworst", "vegan"]
     },
@@ -152,7 +152,8 @@
             "makreel", "makreelflakes", "makreelfilet", "makreelfilets", "makreelzijde", "rivierkreeftenvlees", "mosselen", "zalmcarpaccio", "zalmamuses", 
             "haring", "braadharing","haringpartjes", "rolmops", "haringsalade","garnalen", "roerbakgarnalen", "wokgarnalen", 
             "forelfilets","forelfilet", "sliptong", "sardientjes", "sardinefilet", "sardinefilets", "algentartaar", "bakkeljauw", "oesters", "visschnitzels", "visschnitzel", "maatjesharing",
-            "tonijnfilet", "tonijnstukken", "sea", "fishtales", "tonijnsteak","tonijn", "tonno","ansjovis", "ansjovisfilet", "ansjovisfilets"
+            "tonijnfilet", "tonijnstukken", "sea", "fishtales", "tonijnsteak","tonijn", "tonno",
+            "ansjovis", "ansjovisfilet", "ansjovisfilets", "visconserven"
         ],
         "ignore": ["maaltijden", "stoommaaltijden", "soepen", "kattenvoer"]
     },
@@ -167,7 +168,7 @@
             "3-vaksmaaltijd", "2-vaks-maaltijd", "2-vaks-maaltijden", "ovenschotels", "ovenschotel", "saladeschotel", 
             "prei-kerrie-ovenschotel", "quiche", "zalm-aspergequiche", "maaltijdpakket", "maaltijdpakketten", "pannenkoeken",
             "fairytales", "burrito's", "noedels", "panini", "salades", "salade", "piccolinis", "wagner", "steenovenpizza",
-            "verspakket", "verspakketten", "pangang", "ajam", "maaltijdverspakketten", "lasagne"
+            "verspakket", "verspakketten", "pangang", "ajam", "maaltijdverspakketten", "lasagne", "pancakes"
         ],
         "ignore": ["deeg", "geraspt", "paté"]
     },
@@ -212,7 +213,7 @@
             "baronne", "undurrage", "reserva", "winemaker", "winemaker's",
             "cabernet", "cabernet-shiraz", "pig", "burgunder", "grauburgunder",
             "blanc", "noir", "spätburgunder", "appassimento", "welschriesling",
-            "grenache", "douro", "vistamonte",
+            "grenache", "douro", "vistamonte", "slurp!",
             "jacob's", "creek", "casillero", "diablo"
         ],
         "ignore": []
@@ -232,7 +233,8 @@
             "douche", "cosmetics", "bodymilk", "hair", "gezichtsscrub", "shampoobar", "conditionerbar", "haarwax",
             "haarspray", "make-up", "huid", "haargel", "perskindol", "ambre", "mondverzorging", "haarverzorgingsproducten", 
             "haarverzorging", "stylingsproducten", "waslotion", "scheersysteem", "scheermesjes", 
-            "dental", "jordan", "tandpasta", "scheerschuim", "aftershave", "scheercrème"
+            "dental", "jordan", "tandpasta", "scheerschuim", "aftershave", "scheercrème",
+            "soap", "marcel's"
         ],
         "ignore": ["zalmfilets", "vis", "vers", "verse", "zalmfilet"]
     },
@@ -244,10 +246,11 @@
             "glorix", "andy", "leifheit", "cif", "dreft", "sun", "XG2", "reus", "persil", 
             "fleuril", "finish", "reinigers", "wc-eend", "bathroomgel",
             "bleek", "luchtverfrissers", "luchtverfrisser", "vlekverwijderaar", 
-            "vlekverwijderaars", "vlekverwijdering",
+            "vlekverwijderaars", "vlekverwijdering", "hgx", 
             "wasmiddel", "wasmiddelen", "stofzuigerzakken", "schoonmaakazijn", 
             "waspoeder", "afvalzakjes", "wc", "una", "anti-kalktabletten",
-            "wasverzachter", "wasbeurt", "wasbeurten", "schuurspons", "zipzakjes", 
+            "wasverzachter", "wasverzachters", "geurenparels", 
+            "wasbeurt", "wasbeurten", "schuurspons", "zipzakjes", 
             "schoonmaaksponzen", "keukenpapier", "toiletblok", "toiletblokken",
             "huishoud", "ambi","waterglazen", "pannenset", 
             "vaatdoeken", "aanstekers", "gasaanstekers", "decokussen", 
@@ -318,7 +321,7 @@
             "reuzenpaasei", "chocolade-eieren", "eitjes", "chocoladepizza", 
             "chocolade-eitjes",  "paaschocolade",
             "chololadehartjes", "melkchocolade", "d'or", "cacao", "m&m's", 
-            "chocolonely", "chocolademix", "repen"
+            "chocolonely", "chocolademix", "repen", "atelier"
         ],
         "ignore": ["kalanchoë", "koekjes", "koekje", "koek", "kombucha"]
     },
@@ -335,7 +338,7 @@
         "keywords": [
             "koekjes", "eierkoeken", "oreo", "koeken", "cakejes", "paascakejes", "biscuits",
             "spekkoek", "aardbeiencakejes", "kano's", "b'tween", "verkade", "sprits", "bekind",
-            "speculoos", "prince", "fruitreep", "knoppers", "speculaas", "sultana",
+            "speculoos", "prince", "fruitreep", "knoppers", "speculaas", "sultana", "luiksewafel",
             "haverkoeken", "cantuccini", "koek", "liga", "evergreen", "grazebites", "mergpijpjes", "mergpijp",
             "bastogne", "b-ready", "bokkenpoten", "bitterkoekjes", "speculaar", "mueslikoek", "roomboterbabbelaars"
         ],
@@ -351,7 +354,7 @@
             "layercake", "appeltaartpunten", "aarbeienvlaai", "eclairs", "kruidcakemix", "bakmix",
             "schnitt", "cheesecake", "slagroomtaart", "daim", "taart", "donut", "zoenen",
             "hazelnootschuimtaart", "appeltaartjes", "moorkoppen", "fondant",
-            "chocoladefondant", "gebak", "gebaksbodem", "bossche", "soesjes",
+            "chocoladefondant", "gebak", "gebaksbodem", "bossche", "soesjes", "hartjesgebak",
             "pudding-kruimelvlaai", "kruimelvlaai", "rijstevlaai", "bavaroise",
             "abrikozenvlaai", "gebakjes", "roomboterslof", "kersenflappen", "popdots",
             "popdots-mix", "appelcake", "aardbeienslagroomvlaai", "monchou",
@@ -364,7 +367,7 @@
             "banketbakkerij", "paasvlaaitjes", "cupcake", "appelovaaltjes",
             "abrikozenvlaai", "curd", "stroopwafelvlaai", "kersen-vanillebavaroisvlaai",
             "nogatientjes", "gebakje", "roomboterappeltaart", "appel-kruimelvlaai", "donuts",
-            "muffins", "cookies", "custardcake", "custardcakes", "tulband"        
+            "muffins", "cookies", "custardcake", "custardcakes", "tulband", "bakmixen"       
         ],
         "ignore": ["chio", "popcorn", "pom-bär"]
     },
@@ -374,7 +377,7 @@
             "vegan", "snaqs", "vegetarisch", "vegetarische", "veggie", "soja", "vega", "biovegan",
             "haverdrink", "amandeldrink", "plantaardig", "plantaardige", "haver", "quorn",
             "falafel", "falafelballetjes", "abbot", "noomo", "meatless", "rootzz", "rijstdrink",
-            "kinowa", "ferme"
+            "kinowa", "ferme", "valess"
         ],
         "ignore": []
     },
