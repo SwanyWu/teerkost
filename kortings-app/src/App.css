@@ -569,7 +569,7 @@ b.label-shop-lidl {
 }
 
 #filter-dialog {
-  padding: 10px 0px 0px 10px;
+  padding: 10px 0px 0px 0px;
  }
 
 .filter-wrap {
@@ -627,8 +627,8 @@ b.label-shop-lidl {
   display: inline-block;
   white-space: nowrap;
   overflow-x: auto;
-  scroll-snap-type: block;
-  width: 100%;
+  width: calc(100% - 10px);
+  padding: 0px 0px 0px 10px;
   margin-top: 0px;
   margin-bottom: 5px;
   float: left;
@@ -647,6 +647,10 @@ b.label-shop-lidl {
   cursor: pointer;
   scroll-snap-align: start;
   box-shadow: var(--subtle-inset-shadow);
+}
+
+.filter-shop span:last-child, .filter-cat span:last-child, .filter-deal span:last-child {
+  margin: 0px 10px 0px 0px;
 }
 
 .filter-deal span {
@@ -707,7 +711,7 @@ b.label-shop-lidl {
   text-shadow: 1px 1px #005305;
   background: #16b000 !important;
   position: sticky;
-  right: 0px;
+  right: 10px;
   left: 0px;
   z-index: 800;
 }
@@ -1255,6 +1259,11 @@ b.label-shop-lidl {
     vertical-align: middle;
     margin: 0px 0px 5px 5px;
   }
+
+  .filter-shop span:last-child, .filter-cat span:last-child, .filter-deal span:last-child {
+    margin: 0px 0px 5px 5px;
+  }
+
   .filter-deal span {
     padding: 14px 10px 14px 10px;
   }
@@ -1270,6 +1279,10 @@ b.label-shop-lidl {
   }
   .filter-cat #active-category.filter-no-interest{
     padding: 17px 10px 17px 10px;
+  }
+
+  #active-deal, #active-shop, #active-category {
+    right: 0px;
   }
 
 }
