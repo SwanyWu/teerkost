@@ -979,7 +979,7 @@ b.label-shop-lidl {
 
 .product-image {
   background: #fff;
-  height: 100px;
+  min-height: 100px;
   margin: 0;
   display: flex;
   overflow: hidden;
@@ -991,7 +991,6 @@ b.label-shop-lidl {
 
 .product-image img {
   max-width: 65%;
-  transform: translateY(-10%);
 }
 
 .product-name { 
