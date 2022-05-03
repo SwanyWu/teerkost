@@ -182,7 +182,7 @@ def returnOffers():
         imageElement = product.find("img")
         if imageElement != None:
             imageSrc = imageElement['data-src']
-            imageLink = "https://www.plus.nl/" + imageSrc
+            imageLink = "https://www.plus.nl" + imageSrc
 
         linkElement = product.find("a", {"class": "product-tile"})
         if linkElement != None:
