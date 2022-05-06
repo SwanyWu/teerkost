@@ -2,7 +2,7 @@ import React, {useState, useEffect, Suspense} from "react";
 import Offers from '../offers.json';
 import ShareDialog from "../components/ShareDialog";
 import localForage from "localforage";
-import NoBookmarks from "../NoBookmarks";
+import NoBookmarks from "./NoBookmarks";
 import CopyButton from "../CopyButton";
 import ShareButton from "../ShareButton";
 import GoHomeButton from "../GoHomeButton";
@@ -108,10 +108,10 @@ function Bookmarks(props) {
 
   return (
     <div className="app-wrap">
-        <ShareDialog buttonText="deel lijst" customUrl={bookmarkListUrl} infoText="Deel een link naar deze lijst met bewaarde aanbiedingen." />
         <a className="title-sober" href='https://teerkost.nl'><span>Teerkost</span></a>
         { selectedOffers.length > 0  ? 
           <div>
+            <ShareDialog buttonText="deel lijst" customUrl={bookmarkListUrl} infoText="Deel een link naar deze lijst met bewaarde aanbiedingen." />
             <div className="bottom-buttons">
               <GoHomeButton />
               <CopyButton selectedOffers={selectedOffers}/>
