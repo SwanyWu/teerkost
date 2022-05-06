@@ -2,6 +2,12 @@
 
 All notable changes to the project are documented here. There is no versioning for now. Just what is changed on what date.
 
+# 06-05-2022
+
+### Changed
+- Bottom navigation component on small screens.
+- Home button on the bookmarks screen.
+
 # 02-05-2022
 
 ### Added
