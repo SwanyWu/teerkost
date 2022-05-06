@@ -8,6 +8,9 @@ All notable changes to the project are documented here. There is no versioning f
 - Bottom navigation component on small screens.
 - Home button on the bookmarks screen.
 
+### Fixed
+- Fix for wrong page title on other pages than home.
+
 # 02-05-2022
 
 ### Added
