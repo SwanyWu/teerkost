@@ -229,8 +229,6 @@ footer .sub-title {
 }
 .bottom-buttons .button span { margin: 0px 0px 0px 5px;}
 
-.bottom-buttons .button:hover { background: var(--button-bg-hover);}
-
 .bottom-buttons .button-tag {
   display: inline-block;
   padding: 0px;
