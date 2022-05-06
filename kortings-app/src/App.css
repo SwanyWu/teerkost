@@ -200,6 +200,7 @@ footer .sub-title {
   display: table;
   right: 10px;
   z-index: 900;
+  padding-bottom: env(safe-area-inset-bottom);
 }
 .bottom-buttons .button-cell {
   display: table-cell;
@@ -1057,6 +1058,7 @@ b.label-shop-lidl {
       right: 0px;
       table-layout: fixed;
       padding: 10px 10px 0px 10px;
+      padding-bottom: env(safe-area-inset-bottom);
       bottom: 0px;
     }
     .bottom-buttons .button { 
