@@ -191,12 +191,6 @@ footer .sub-title {
   clip-path: polygon(50% 0%, 57.22% 6.71%, 66.23% 2.71%, 70.89% 11.40%, 80.71% 10.54%, 82.29% 20.27%, 91.86% 22.65%, 90.20% 32.37%, 98.47% 37.73%, 93.74% 46.38%, 99.83% 54.13%, 92.55% 60.78%, 95.79% 70.08%, 86.75% 74.01%, 86.79% 83.86%, 76.96% 84.64%, 73.80% 93.97%, 64.25% 91.51%, 58.23% 99.32%, 50% 93.89%, 41.77% 99.32%, 35.75% 91.51%, 26.20% 93.97%, 23.04% 84.64%, 13.21% 83.86%, 13.25% 74.01%, 4.21% 70.08%, 7.45% 60.78%, 0.17% 54.13%, 6.26% 46.38%, 1.53% 37.73%, 9.80% 32.37%, 8.14% 22.65%, 17.71% 20.27%, 19.29% 10.54%, 29.11% 11.40%, 33.77% 2.71%, 42.78% 6.71%);
 }
 
-@keyframes slideIn {
-  0% { transform: translateY(100px);}
-  75% {transform: translateY(100px);}
-  100% { transform: translateY(0px);}
-}
-
 .bottom-buttons {
   background: var(--main-color);
   padding: 5px 5px 5px 0px;
@@ -206,7 +200,6 @@ footer .sub-title {
   display: table;
   right: 10px;
   z-index: 900;
-  animation: slideIn 2000ms;
 }
 .bottom-buttons .button-cell {
   display: table-cell;
@@ -777,88 +770,6 @@ b.label-shop-lidl {
   font-weight: 800;
   padding: 15px 0px 15px 0px;
 }
-
-.not-found .link-suggest { 
-  display: block; 
-  color: var(--button-bg);
-  position: relative;
-}
-
-.not-found .link-wrap {
-  display: inline-block;
-  width: 210px;
-  text-align: right; 
-}
-
-.not-found .example-wrap {
-  display: inline-block;
-  width: 210px;
-  text-align: left;
-}
-
-@media screen and (max-width: 500px) {
-  .not-found .link-wrap { display: block; width: auto; text-align: center;}
-  .not-found .example-wrap { display: block; width: auto; text-align: center;}
-}
-
-.not-found .example-shop::before {
- animation: toggleExampleShop 10s infinite;
- animation-play-state: inherit;
- display: inline-block;
- content: "#/jumbo";
- opacity: 0;
- transform: translateY(5px);
- color: var(--button-bg);
-}
-
-@keyframes toggleExampleShop {
-  0% { opacity: 0; transform: translateY(5px);}
-  7% { opacity: 1; transform: translateY(0px); content: "#/jumbo";}
-  25% { opacity: 1; transform: translateY(0px);  content: "#/jumbo";}
-  27% { opacity: 0; transform: translateY(5px);}
-  
-  31% { opacity: 1; transform: translateY(0px); content: "#/aldi";}
-  50% { opacity: 1; transform: translateY(0px); content: "#/aldi";}
-  52% { opacity: 0;transform: translateY(5px);}
-  
-  57% { opacity: 1; transform: translateY(0px); content: "#/ah";}
-  75% { opacity: 1; transform: translateY(0px); content: "#/ah";}
-  77% { opacity: 0;transform: translateY(5px);}
-  
-  82% { opacity: 1; transform: translateY(0px); content: "#/lidl"}
-  98% { opacity: 1; transform: translateY(0px); content: "#/lidl";}
-  99% {opacity: 0;transform: translateY(5px);}
-}
-
-.not-found .example-cat::before {
-  animation: toggleExampleCat 10s infinite;
-  animation-play-state: inherit;
-  display: inline-block;
-  opacity: 0;
-  transform: translateY(-5px);
-  content: "/bier";
-  color: var(--button-bg);
-}
- 
- @keyframes toggleExampleCat {
-  0% {opacity: 0;transform: translateY(-5px);}
-
-  7% { opacity: 1; transform: translateY(0px); content: "/bier";}
-  25% { opacity: 1; transform: translateY(0px);  content: "/bier";}
-  27% { opacity: 0; transform: translateY(-5px);}
-  
-  31% { opacity: 1; transform: translateY(0px); content: "/brood";}
-  50% { opacity: 1; transform: translateY(0px); content: "/brood";}
-  52% { opacity: 0;transform: translateY(-5px);}
-  
-  57% { opacity: 1; transform: translateY(0px); content: "/groente";}
-  75% { opacity: 1; transform: translateY(0px); content: "/groente";}
-  77% { opacity: 0;transform: translateY(-5px);}
-  
-  82% { opacity: 1; transform: translateY(0px); content: "/koffie"}
-  98% { opacity: 1; transform: translateY(0px); content: "/koffie";}
-  99% {opacity: 0;transform: translateY(-5px);}
- }
 
 .single-item {
   z-index: 100;
