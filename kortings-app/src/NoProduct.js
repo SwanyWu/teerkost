@@ -4,7 +4,7 @@ function NoProduct() {
       <div className="app-wrap">
         <div className="no-offers">
           <div className='notify-wrap'>
-            Geen korting gevonden.
+            Geen korting gevonden
           </div>
         </div>
       </div>
