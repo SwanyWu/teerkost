@@ -20,6 +20,9 @@ function Bookmarks(props) {
   const [bookmarkListUrl, setbookmarkListUrl] = useState("");
   const [oldBookmarksExist, setOldBookmarksExist] = useState(false); // FIXME
 
+  const updatePageTitle = () => {
+    document.title = "bewaard - Teerkost"
+  }
 
   useEffect(() => {
     var bookmarkedIds = undefined;
@@ -37,6 +40,8 @@ function Bookmarks(props) {
     }).catch(function(err) {
         console.warn("Iets misgegaan bij het ophalen van de bookmarks: " + err)
     })
+
+    updatePageTitle()
   }, [])
 
   const createBookmarkListUrl = (bookmarkIdList) => {
