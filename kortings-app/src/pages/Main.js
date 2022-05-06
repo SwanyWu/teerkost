@@ -243,7 +243,7 @@ function Main(props) {
                         return <span className='filter-no-interest' key={key} onClick={() => clickOnCat(category[0])} data-category={category[0]}>{category[0]}</span>
                       }
                       else {
-                        return <span key={key} onClick={() => clickOnCat(category[0])} data-category={category[0]}>{category[0]} <i className="counter" data-category="bier">{category[1]}</i></span>
+                        return <span key={key} onClick={() => clickOnCat(category[0])} data-category={category[0]}>{category[0]} <i className="counter" >{category[1]}</i></span>
                       }
                     }
                     else { return ""}
