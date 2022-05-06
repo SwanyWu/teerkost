@@ -23,8 +23,9 @@ function BookmarkButton(props) {
     return (
         <div className="button-cell">
         <Link to="/bewaard"><div className="button personal-list-button">
-            <i class="ri-bookmark-fill"></i> 
-            <div className="personal-list-button-tag">{bookmarkCount}</div>
+            <i class="ri-bookmark-3-line"></i>
+            <div className="button-tag">bewaard</div>
+            {/* <div className="personal-list-button-tag">{bookmarkCount}</div> */}
         </div></Link>
         </div>
     )

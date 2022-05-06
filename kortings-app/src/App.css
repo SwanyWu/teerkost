@@ -205,7 +205,7 @@ footer .sub-title {
   bottom: 10px;
   display: table;
   right: 10px;
-  z-index: 999;
+  z-index: 900;
   animation: slideIn 2000ms;
 }
 .bottom-buttons .button-cell {
@@ -231,8 +231,15 @@ footer .sub-title {
 
 .bottom-buttons .button:hover { background: var(--button-bg-hover);}
 
+.bottom-buttons .button-tag {
+  display: inline-block;
+  padding: 0px;
+  vertical-align: top;
+  margin-left: 7px;
+  font-size: .7em;
+}
 
-.search-button {
+/* .search-button {
 
 }
 .search-button-tag {
@@ -241,40 +248,10 @@ footer .sub-title {
   vertical-align: top;
   margin-left: 7px;
   font-size: .7em;
-}
+} */
 
-.bottom-buttons .button:hover .personal-list-button-tag { box-shadow: inset 0px 0px 0px 3px var(--button-bg-hover); }
+.home-button {
 
-.bottom-buttons .button.personal-list-button {
-  padding: 0px 0px 0px 10px;
-}
-
-.personal-list-button-tag {
-  background: #FFF;
-  display: inline-block;
-  color: #4a4a4a;
-  padding: 0px 10px;
-  vertical-align: top;
-  margin-left: 7px;
-  font-size: .7em;
-  box-shadow: var(--button-shadow), inset 0px 0px 0px 3px var(--button-bg);
-  border-top-right-radius: 8px;
-  border-bottom-right-radius: 8px;
-}
-
-.personal-settings-button-tag {
-  display: inline-block;
-  padding: 0px;
-  vertical-align: top;
-  margin-left: 7px;
-  font-size: .7em;
-}
-
-.share-button-tag, .bookmark-copy-tag {
-  display: inline-block;
-  vertical-align: top;
-  margin-left: 7px;
-  font-size: .7em;
 }
 
 .jumpy {
@@ -563,7 +540,7 @@ b.label-shop-lidl {
 }
 
 .bookmark-info {
-  color: #973434;
+  color: var(--button-bg);
   padding: 10px 0px 10px 10px;
   display: block;
   text-align: right;
@@ -1039,8 +1016,8 @@ b.label-shop-lidl {
   position: absolute;
   right: 0px;
   bottom: 0px;
-  color: #a65555;
-  background: #f0808033;
+  color: #777;
+  background: #c4c4c433;
   border-radius: 8px;
   width: 30px;
   height: 30px;
@@ -1050,17 +1027,18 @@ b.label-shop-lidl {
 }
 
 .product-bookmark:hover {
-  color: #fff;
-  background: #973434;
+  color: var(--button-color);
+  background: var(--button-bg);
 }
 
 .product-bookmark-true {
-  color:#FFF;
-  background: #973434;
+  color:var(--button-color);
+  background: var(--button-bg);
 }
 
 .product-bookmark-true:hover {
-  background: #480000;
+  color: #777;
+  background: #c4c4c433;
 
 }
 
@@ -1165,6 +1143,30 @@ b.label-shop-lidl {
     .flex-item {
       min-width: 220px;
     }
+    .bottom-buttons {
+      width: calc(100% - 20px);
+      right: 0px;
+      table-layout: fixed;
+      padding: 10px 10px 0px 10px;
+      bottom: 0px;
+    }
+    .bottom-buttons .button { 
+      height: auto;
+      line-height: 10px;
+      margin: 0px;
+      padding: 10px 10px 5px 10px;
+      color: var(--button-bg);
+      background: var(--button-color);
+      box-shadow: none;
+    }
+    .bottom-buttons .button-tag { 
+      display: block;
+      line-height: 20px;
+      margin: 0px;
+      padding: 5px 0px 0px 0px;
+      font-size: .5em;
+      opacity: .8;
+    }
   }
   @media screen and (max-width: 505px) {
       .flex-container {
@@ -1191,6 +1193,8 @@ b.label-shop-lidl {
       .product-deal {
         padding: 10px 15px 10px 15px !important;
       } 
+
+
 
   }
 }
@@ -1273,7 +1277,6 @@ b.label-shop-lidl {
 /* menu back to the top, mobile interface */
 @media screen and (max-width: 850px) {
   .bookmark-info {
-    color: #480000;
     padding: 10px 0px 10px 0px;
     display: block;
     text-align: center;

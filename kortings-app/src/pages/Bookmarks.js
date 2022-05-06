@@ -4,6 +4,8 @@ import ShareDialog from "../components/ShareDialog";
 import localForage from "localforage";
 import NoBookmarks from "../NoBookmarks";
 import CopyButton from "../CopyButton";
+import ShareButton from "../ShareButton";
+import GoHomeButton from "../GoHomeButton";
 
 const ProductsContainer = React.lazy(() => import ('../ProductsContainer'));
 
@@ -101,12 +103,14 @@ function Bookmarks(props) {
 
   return (
     <div className="app-wrap">
+        <ShareDialog buttonText="deel lijst" customUrl={bookmarkListUrl} infoText="Deel een link naar deze lijst met bewaarde aanbiedingen." />
         <a className="title-sober" href='https://teerkost.nl'><span>Teerkost</span></a>
         { selectedOffers.length > 0  ? 
           <div>
             <div className="bottom-buttons">
+              <GoHomeButton />
               <CopyButton selectedOffers={selectedOffers}/>
-              <ShareDialog buttonText="deel lijst" customUrl={bookmarkListUrl} infoText="Deel een link naar deze lijst met bewaarde aanbiedingen." />
+              <ShareButton buttonText="deel lijst" infoText="Deel de huidige pagina met de gekozen filters."/>
             </div>
             <div>
               <header className="filter">

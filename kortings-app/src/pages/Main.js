@@ -1,8 +1,11 @@
 import React, {useState, useEffect, Suspense} from "react";
 import Offers from '../offers.json';
 import ShareDialog from "../components/ShareDialog";
+import SearchButton from "../SearchButton";
+import GoHomeButton from "../GoHomeButton";
 import BookmarkButton from "../BookmarkButton";
 import { categoryList } from "../Categories";
+import ShareButton from "../ShareButton";
 
 const ProductsContainer = React.lazy(() => import ('../ProductsContainer'));
 
@@ -217,9 +220,12 @@ function Main(props) {
 
   return (
     <div className="app-wrap">
+        <ShareDialog buttonText="deel pagina" infoText="Deel de huidige pagina met de gekozen filters." />
         <div className="bottom-buttons">
+          {/* <SearchButton /> */}
+          <GoHomeButton />
           <BookmarkButton />
-          <ShareDialog buttonText="deel pagina" infoText="Deel de huidige pagina met de gekozen filters." />
+          <ShareButton buttonText="deel pagina" infoText="Deel de huidige pagina met de gekozen filters."/>
         </div>
         <a className="title-sober" href='https://teerkost.nl'><span>Teerkost</span></a>
         <header className="filter">

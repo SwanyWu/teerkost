@@ -34,43 +34,8 @@ function ShareDialog(props) {
     }, 3000);
   }
 
-  const shareApi = (e) => {
-    if (navigator.share) {
-      navigator.share({
-        title: shareTitle,
-        url: shareUrl
-      }).then(() => {
-        console.log('Link gedeeld!');
-      })
-      .catch(console.error);
-    } else {
-      var shareButtonElement = document.querySelector('.share-button')
-      var shareDialogElement = document.querySelector('.share-dialog')
-      var wrapElement = document.querySelector('.dialog-wrap')
-
-      var clickOutside = function(e) {
-        if ( !shareDialogElement.contains(e.target) && !shareButtonElement.contains(e.target)) {
-          wrapElement.removeAttribute("id") 
-
-          if(!wrapElement.hasAttribute("id")) { // stop listening to clicks outside the dialog
-            return document.removeEventListener('click', clickOutside)
-          }
-        }
-      }  
-
-      if(! wrapElement.hasAttribute("id")) {
-        wrapElement.id = "share-dialog-on"
-        if(wrapElement.id === "share-dialog-on") { // listen to clicks outside the dialog
-          document.addEventListener('click', clickOutside) 
-        }   
-      }
-    }
-  }
-
   return (
-    <div>
       <div className="dialog-wrap">
-        {/* FIXME not the right place, create seperate component */}
       <div className="copy-dialog">
           <span className="share-title">Kopieer lijst</span>
           <span className="share-info">Kopieer de bewaarde aanbiedingen als een boodschappenlijst.</span>
@@ -108,13 +73,6 @@ function ShareDialog(props) {
           </div>
         </div>
       </div>
-      <div className="button-cell">
-        <div onClick={shareApi} className="button share-button">
-          <i class="ri-share-box-fill"></i>
-          <div className="share-button-tag">{buttonText}</div>
-        </div>
-      </div>
-    </div>
   )
 
 }
