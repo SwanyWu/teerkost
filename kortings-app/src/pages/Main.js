@@ -83,12 +83,11 @@ function Main(props) {
   const setCounterPerCategory = (shop) => {
     if(shop !== undefined) {
       var shopFilter = object => object.shop === shop;
-
     }
     else {
       var shopFilter = object => object.shop !== null;
     }
-  
+      
     let tempList = []
     categoriesList.map((category, key) => {
       var categoryFilter = object => object.category === category[0];
@@ -269,8 +268,10 @@ function Main(props) {
             <ProductsContainer selectedOffers={selectedOffers}/>
         </Suspense>
     </div>
-  )
-}
 
+  )
+
+ 
+}
 export default Main;
   
