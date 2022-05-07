@@ -10,6 +10,7 @@ All notable changes to the project are documented here. There is no versioning f
 
 ### Fixed
 - Fix for wrong page title on other pages than home.
+- Fix bottom padding for non‑rectangular displays.
 
 # 02-05-2022
 
