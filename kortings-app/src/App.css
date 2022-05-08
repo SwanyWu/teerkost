@@ -101,19 +101,19 @@ footer {
 }
 
 footer .donate {
-  display: none;
+  display: block;
   width: 185px;
   position: relative;
-  left: 50vw;
   background: #FFD944;
-  margin: 50vh 10px 10px 10px;
+  margin: 0px auto;
   padding: 10px;
   border-radius: 15px;
   transform: rotate(-5deg);
   font-size: .8em;
   color: #6a5a19;
-  top: calc(100% - 50vh + 150px);
+  top: calc(100vh - 150px);
 }
+
 footer a { text-decoration: none;}
 footer .donate i { 
   text-decoration: underline;
@@ -1119,7 +1119,7 @@ b.label-shop-lidl {
 /* menu to the side, large screen */
 @media screen and (min-width: 850px) {
 
-  footer .donate { display: block; }
+  footer .donate {  }
 
   .flex-container {
     position: relative;
