@@ -111,7 +111,7 @@ footer .donate {
   transform: rotate(-5deg);
   font-size: .8em;
   color: #6a5a19;
-  top: calc(100vh - 150px);
+  top: calc(100vh - 175px);
 }
 
 footer a { text-decoration: none;}
