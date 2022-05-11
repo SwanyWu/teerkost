@@ -107,7 +107,7 @@
             "thuisafbakbrood", "afbakbrood", "afbakcroissants", "bol",
             "rozijnenkrentenbrood", "sesam-volkorenbrood", "maïsbollen"
         ],
-        "ignore": ["salade", "gebak", "hartjesgebak", "salades", "chips", "donut", "donuts", "chio"]
+        "ignore": ["kaas", "salade", "gebak", "hartjesgebak", "salades", "chips", "donut", "donuts", "chio"]
     },
     {
         "name": "beleg",
@@ -139,7 +139,7 @@
             "parrano", "feta", "fondue", "parmazan", "camembert","parmigiano", "reggiano", 
             "gorgonzola", "mozzerella", "buffelmozzerella", "kaasplateau", "babybell", "babybel", 
             "vache", "nurishh", "salut", "burrata", "kaaswiel", "strooikaas", "taleggio",
-            "moravia", "geitenkaasschijfjes", "hüttenkäse", "kaasplateaus"
+            "moravia", "geitenkaasschijfjes", "hüttenkäse", "kaasplateaus", "uniekaas"
         ],
         "ignore": ["gehakt", "gebraden", "kipgrillworst", "grillworst", "vegan"]
     },
@@ -149,7 +149,7 @@
              "kwark", "haverdrank", "vla", "skyr", "drinkyoghurt", "roomyoghurt", "yoghurt", "zuivelspread",
              "lurpak", "vruchtenkwark", "arla", "kuipen", "boter", "roomboter", "boerenboter", "roomboterfiguur",
              "geitenmelk", "geitenyoghurt", "kvarg", "kefir", "kokosdessert",
-             "bosbessenyoghurt", "halvarine", "almof", "margarine"
+             "bosbessenyoghurt", "halvarine", "almhof", "margarine"
         ],
         "ignore": ["taart", "gebak", "custardcakes", "appelcake"]
     },
@@ -193,7 +193,7 @@
             "pinda's", "amandelen", "notemix", "notenmix", "pistache", "pistachenoten",
             "macadamia", "borrelnoten", "suikerpinda's", "cashews", "macadamianoten"
         ],
-        "ignore": []
+        "ignore": ["shampoo", "bodywash"]
     },
     {
         "name": "fruit",
@@ -249,9 +249,9 @@
             "haarspray", "make-up", "huid", "haargel", "perskindol", "ambre", "mondverzorging", "haarverzorgingsproducten", 
             "haarverzorging", "stylingsproducten", "waslotion", "scheersysteem", "scheermesjes", 
             "dental", "jordan", "tandpasta", "scheerschuim", "aftershave", "scheercrème",
-            "soap", "marcel's", "huidtypes", "balsem", "ombra"
+            "soap", "marcel's", "huidtypes", "balsem", "ombra", "bodywash", "handwash"
         ],
-        "ignore": ["zalmfilets", "vis", "vers", "verse", "zalmfilet"]
+        "ignore": ["zalmfilets", "vis", "vers", "verse", "zalmfilet", "waspoeder", "wasmiddel"]
     },
     {
         "name": "huishouden",
@@ -259,9 +259,9 @@
             "ajax", "hg", "plenty", "solo", "purpose", "servetten", "lenor", "sun", 
             "ambi-pur", "robijn", "formil", "swiffer", "sorbo", "antikal", "ariel", "lenor", 
             "glorix", "andy", "leifheit", "cif", "dreft", "sun", "XG2", "reus", "persil", 
-            "fleuril", "finish", "reinigers", "wc-eend", "bathroomgel",
+            "fleuril", "finish", "reinigers", "wc-eend", "bathroomgel", "sensitive",
             "bleek", "luchtverfrissers", "luchtverfrisser", "vlekverwijderaar", 
-            "vlekverwijderaars", "vlekverwijdering", "hgx", 
+            "vlekverwijderaars", "vlekverwijdering", "hgx", "geurstokjes",
             "wasmiddel", "wasmiddelen", "stofzuigerzakken", "schoonmaakazijn", 
             "waspoeder", "afvalzakjes", "wc", "una", "anti-kalktabletten",
             "wasverzachter", "wasverzachters", "geurenparels", "microvezeldoeken", "microvezel-",
