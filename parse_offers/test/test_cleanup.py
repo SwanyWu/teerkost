@@ -1,5 +1,5 @@
 import unittest
-
+import xmlrunner
 from cleanup import categorize, cleantext, giveid
 
 class TestCleanup(unittest.TestCase):
@@ -160,4 +160,9 @@ class TestCleanup(unittest.TestCase):
         self.assertEqual(addId, testOfferObjectExpected)        
 
 if __name__ == '__main__':
-    unittest.main(verbosity=0)
+   unittest.main(
+        testRunner=xmlrunner.XMLTestRunner(output="."),
+        failfast=False,
+        buffer=False,
+        catchbreak=False,
+        verbosity=1)

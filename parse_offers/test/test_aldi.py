@@ -1,5 +1,5 @@
 import unittest
-
+import xmlrunner
 import aldi
 
 collection = aldi.returnOffers()
@@ -42,4 +42,9 @@ class TestAldi(unittest.TestCase):
             self.assertTrue(item['dateStart'] != '') # Item heeft een startdatum
             
 if __name__ == '__main__':
-    unittest.main(verbosity=0)
+   unittest.main(
+        testRunner=xmlrunner.XMLTestRunner(output="."),
+        failfast=False,
+        buffer=False,
+        catchbreak=False,
+        verbosity=1)

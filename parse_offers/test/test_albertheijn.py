@@ -1,5 +1,5 @@
 import unittest
-
+import xmlrunner
 import albertheijn
 
 collection = albertheijn.returnOffers()
@@ -42,4 +42,10 @@ class TestAlbertHeijn(unittest.TestCase):
             self.assertTrue(item['dateStart'] != '') # Item heeft een startdatum
             
 if __name__ == '__main__':
-    unittest.main(verbosity=0)
+
+    unittest.main(
+        testRunner=xmlrunner.XMLTestRunner(output="."),
+        failfast=False,
+        buffer=False,
+        catchbreak=False,
+        verbosity=1)
