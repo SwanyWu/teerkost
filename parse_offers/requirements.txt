@@ -3,3 +3,4 @@ requests
 Pillow
 selenium
 webdriver_manager
+unittest-xml-reporting
