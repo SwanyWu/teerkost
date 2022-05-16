@@ -82,4 +82,4 @@ def returnOffers():
     return collection
 
 if __name__ == "__main__":
-    returnOffers
+    returnOffers()
