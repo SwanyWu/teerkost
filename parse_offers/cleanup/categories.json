@@ -12,7 +12,7 @@
             "winterbieren", "leckere",
             "ipa", "Chouffe", "Jopen", "Afflichem", "Duvel", "peroni", "amigo"
         ],
-        "ignore": ["stoofvlees", "runderhachee", "ijs", "ijssalon"]
+        "ignore": ["stoofvlees", "runderhachee", "ijs", "ijssalon", "smeren", "boter", "kuipje"]
     },
     {
         "name": "koffie",
@@ -55,7 +55,7 @@
             "kipkrokantschnitzel", "vlees", "blikboterhamworst", "varkensschnitzel", "spekburgers",
             "rundergoulash", "kipschotel", "boerenmetworst", "wienerschnitzel", "wienerschnitzels", "kipfiletstukjes"
         ],
-        "ignore": ["blije", "wagner", "vega", "vegan", "vegetarisch", "vegetarische", "omelet", "beyond"]
+        "ignore": ["snackbroodje", "snackbroodjes", "blije", "wagner", "vega", "vegan", "vegetarisch", "vegetarische", "omelet", "beyond"]
     },
     {
         "name": "groente",
@@ -107,7 +107,7 @@
             "boerenwit", "ciabatta", "simit", "walnotenbroodje",  "focaccia", "pinsa", "pizzabodem", "croissantdeeg",
             "baguettini", "bread'n", "woutkorn", "zonnebloempitbrood", "kornbol", "roombotercroissant",
             "thuisafbakbrood", "afbakbrood", "afbakcroissants", "bol", "rozijnenbrood", "rozijnenbroodje",
-            "rozijnenkrentenbrood", "sesam-volkorenbrood", "maïsbollen", "kornbollen"
+            "rozijnenkrentenbrood", "sesam-volkorenbrood", "maïsbollen", "kornbollen", "snackbroodje", "snackbroodjes"
         ],
         "ignore": ["kaas", "salade", "gebak", "hartjesgebak", "salades", "chips", "donut", "donuts", "chio"]
     },
@@ -143,7 +143,7 @@
             "vache", "nurishh", "salut", "burrata", "kaaswiel", "strooikaas", "taleggio",
             "moravia", "geitenkaasschijfjes", "hüttenkäse", "kaasplateaus", "uniekaas", "cheddar"
         ],
-        "ignore": ["gehakt", "gebraden", "kipgrillworst", "grillworst", "vegan"]
+        "ignore": ["gehakt", "meergranen", "broodje", "maisbroodje", "gebraden", "kipgrillworst", "grillworst", "vegan"]
     },
     {
         "name": "zuivel",
