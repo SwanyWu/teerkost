@@ -32,4 +32,18 @@ jobs:
       - name: execute py script
         run: |
           cd parse_offers
-          python3 -m unittest -b -v
+          python3 -m xmlrunner discover
+
+      - name: test Summary
+        uses: test-summary/action@v1
+        with:
+          paths: |
+            TEST-*.xml
+        if: always()
+
+      - name: upload test summary
+        uses: actions/upload-artifact@v3
+        with:
+          name: test-summary
+          path: test-summary.md
+        if: always()  
