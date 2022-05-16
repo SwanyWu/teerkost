@@ -37,7 +37,7 @@ jobs:
       - name: test Summary
         uses: test-summary/action@v1
         with:
-          paths: "TEST-*.xml"
+          paths: "parse_offers/TEST-*.xml"
         if: always()
 
       - name: upload test summary
