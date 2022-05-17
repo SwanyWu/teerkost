@@ -34,15 +34,8 @@ jobs:
           cd parse_offers
           python3 -m xmlrunner discover
 
-      - name: test Summary
+      - name: test summary
         uses: test-summary/action@v1
         with:
           paths: "parse_offers/TEST-*.xml"
         if: always()
-
-      - name: upload test summary
-        uses: actions/upload-artifact@v3
-        with:
-          name: test-summary
-          path: test-summary.md
-        if: always()  
