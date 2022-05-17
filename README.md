@@ -4,7 +4,7 @@
 
 Teerkost collects the current discounts from popular Dutch supermarkets.
 
-## Running the app
+## Running or building the app
 
 Start the app called *kortings-app* locally:
 ```
@@ -32,16 +32,20 @@ Run the tests from within the parse_offers folder:
 ```
 python -m unittest -b -v
 ```
+Run the tests and output Junit XML reporting:
+```
+python -m xmlrunner discover
+```
 
 ## Continuous deployment
 
 Through three workflows the app is continously being updated, tested and deployed to Github Pages.
 
 ### 1. run-parse-offers-test.yml
-Runs unittests against the parse_offers package to see if it returns actual results.
+Runs unittests against the parse_offers package to see if it returns complete results.
 
 ### 2. get-latest-offers.yml
-Runs parse_offers by a daily schedule. A JSON file is populated with the offers found.
+Runs parse_offers by a daily schedule. A json file is populated with the offers found.
 
 ### 3. deploy-to-gh-pages.yml
 Creates a build from the *kortings-app* and pushes it to the *gh-pages* branch. Github Pages uses this branch as the source.

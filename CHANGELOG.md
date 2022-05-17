@@ -2,6 +2,11 @@
 
 All notable changes to the project are documented here. There is no versioning for now. Just what is changed on what date.
 
+# 17-05-2022
+
+### Added
+- Junit style test reporting to be used by Github actions.
+
 # 11-05-2022
 
 ### Changed
