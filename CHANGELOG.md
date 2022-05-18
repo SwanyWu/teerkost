@@ -2,6 +2,12 @@
 
 All notable changes to the project are documented here. There is no versioning for now. Just what is changed on what date.
 
+# 18-05-2022
+
+### Added
+- Explainer text to no-bookmarks, nothing-found and 404 pages.
+- Navigation bar and title to the 404 page.
+
 # 17-05-2022
 
 ### Added
