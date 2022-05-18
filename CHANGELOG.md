@@ -8,6 +8,9 @@ All notable changes to the project are documented here. There is no versioning f
 - Explainer text to no-bookmarks, nothing-found and 404 pages.
 - Navigation bar and title to the 404 page.
 
+### Fixed
+- Fix when price sometimes is not shown when it should for 'Plus'.
+
 # 17-05-2022
 
 ### Added
