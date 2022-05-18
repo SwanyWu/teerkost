@@ -141,7 +141,7 @@ def returnOffers():
                 splitClover = clover.split("VOOR")
                 formattedPrice = formatNumberAsFloat(splitClover[1])
                 deal = splitClover[0] + "voor " + formattedPrice
-                # TODO prijs berekenen
+                price = formattedPrice
             elif "+1GRATIS" in clover:
                 splitClover = clover.split("+")
                 deal = splitClover[0] + "+1 gratis"
@@ -155,7 +155,7 @@ def returnOffers():
                 if float(percentage) < 0.0:
                     print("Wait wut, korting van " + str(percentage) + "%")
                 else:
-                    deal = percentage + "% korting"    
+                    deal = percentage + "% korting"
             elif "KILO" in clover:
                 splitClover = clover.split("KILO")
                 prijsKilo = splitClover[1]
@@ -165,8 +165,7 @@ def returnOffers():
                 if float(percentage) < 0.0:
                     print("Wait wut, korting van " + str(percentage) + "%")
                 else:
-                    deal = percentage + "% korting"    
-                # TODO prijs berekenen
+                    deal = percentage + "% korting"
             elif "2eHALVEPRIJS" in clover:
                 deal = "2e halve prijs"
                 # TODO prijs berekenen
@@ -198,8 +197,6 @@ def returnOffers():
         if price != '':
             priceAsFloat = float(price)
             price = str(round(priceAsFloat, 2))
-
-        print(price)    
 
         offer = {
             "productId":"",
