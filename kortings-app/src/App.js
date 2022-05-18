@@ -10,7 +10,7 @@ import ListProduct from './pages/ListProduct';
 import Offers from './offers.json';
 import { categoryList } from "./Categories";
 import NotFound from "./pages/NotFound";
-import SearchProduct from "./pages/SearchProduct";
+// import SearchProduct from "./pages/SearchProduct";
 
 function App() {
   
@@ -55,6 +55,8 @@ function App() {
           <Route path="alle-winkels" element={<Main />} /> { /* Map all routes for all shops with everything */ }
           
           <Route path="bewaard" element={<Bookmarks />} />
+          {/* <Route path="zoek" element={<SearchProduct />} /> */}
+
           <Route path="lijst/:id" element={<ListProduct />} />
           <Route path="*" element={<NotFound/>} />
         </Route>
