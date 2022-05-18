@@ -15,7 +15,10 @@ function NoBookmarks() {
         </div>
         <div className="no-offers">
           <div className='notify-wrap'>
-            Geen bewaarde aanbiedingen gevonden
+            Geen bewaarde korting gevonden
+          </div>
+          <div className='notify-explainer'>
+            Voeg ze toe door op <i class="ri-bookmark-line"></i> te klikken bij een korting.
           </div>
         </div>
       </div>

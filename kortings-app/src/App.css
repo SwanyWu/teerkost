@@ -5,6 +5,7 @@
   --article-bg: #ffffff;
 
   --text-color: #9f2e2e;
+  --text-color-dark: #666;
   --button-bg: #ec4646;
   --button-bg-hover: #000;
   --button-shadow: inset 0px -1px 0px 0px #00000057;
@@ -766,13 +767,29 @@ b.label-shop-lidl {
   margin: 0px auto;
   padding: 100px 10px 10px 10px;
   color: var(--button-bg);
-  max-width: 500px;
+  max-width: 250px;
   text-align: center;
 }
 .notify-wrap {
   font-size: 1.6em;  
   font-weight: 800;
   padding: 15px 0px 15px 0px;
+}
+.notify-explainer {
+  color: var(--text-color-dark);
+  font-size: .8em;
+  padding: 15px 0px 15px 0px;
+}
+.notify-explainer .ri-bookmark-line {
+  display: inline-block;
+  color: #777;
+  background: #c4c4c433;
+  border-radius: 8px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  font-size: .9em;
 }
 
 .single-item {

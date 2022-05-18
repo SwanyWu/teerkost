@@ -9,7 +9,8 @@ import SingleProduct from './pages/SingleProduct';
 import ListProduct from './pages/ListProduct';
 import Offers from './offers.json';
 import { categoryList } from "./Categories";
-import NotFound from "./NotFound";
+import NotFound from "./pages/NotFound";
+import SearchProduct from "./pages/SearchProduct";
 
 function App() {
   
