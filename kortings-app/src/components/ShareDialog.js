@@ -38,7 +38,7 @@ function ShareDialog(props) {
       <div className="dialog-wrap">
       <div className="copy-dialog">
           <span className="share-title">Kopieer lijst</span>
-          <span className="share-info">Kopieer de bewaarde aanbiedingen als een boodschappenlijst.</span>
+          <span className="share-info">Kopieer de bewaarde korting als een boodschappenlijst.</span>
           <div className="list-share">
             <textarea>
             </textarea>
