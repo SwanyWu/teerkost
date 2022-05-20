@@ -118,13 +118,10 @@ function Bookmarks(props) {
               <ShareButton buttonText="deel lijst" infoText="Deel de huidige pagina met de gekozen filters."/>
             </div>
             <div>
-              <header className="filter">
-                <div className="filter-wrap">
-                  <span className="bookmark-info">
-                    Bewaarde aanbiedingen
+              <header className="header-title">
+                  <span>
+                    bewaarde korting
                   </span>
-                  {/* <span className="bookmark-old-info">{verlopenMelding(oldBookmarksExist)}</span> */}
-                </div>
               </header>
               <Suspense fallback={<div className="even-geduld"><div className="notify-wrap"><span className='dot-dot-dot'></span></div></div>}>
                 <ProductsContainer selectedOffers={selectedOffers}/>

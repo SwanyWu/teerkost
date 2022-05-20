@@ -51,12 +51,10 @@ function Main(props) {
           <ShareButton buttonText="deel lijst" infoText="Deel een link naar deze lijst met aanbiedingen."/>
         </div>
         <a className="title-sober" href='https://teerkost.nl'><span>Teerkost</span></a>
-        <header className="filter">
-                <div className="filter-wrap">
-                  <span className="bookmark-info">
-                    Gedeelde lijst
+        <header className="header-title">
+                  <span>
+                    gedeelde lijst
                   </span>
-                </div>
               </header>
         <Suspense fallback={<div className="even-geduld"><div className="notify-wrap"><span className='dot-dot-dot'></span></div></div>}>
             <ProductsContainer selectedOffers={selectedOffers}/>
