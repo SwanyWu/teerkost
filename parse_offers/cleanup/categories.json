@@ -12,7 +12,8 @@
             "winterbieren", "leckere",
             "ipa", "Chouffe", "Jopen", "Afflichem", "Duvel", "peroni", "amigo"
         ],
-        "ignore": ["stoofvlees", "runderhachee", "ijs", "ijssalon", "smeren", "boter", "kuipje"]
+        "ignore": ["stoofvlees", "runderhachee", "ijs", "ijssalon", "smeren", "boter", "kuipje", 
+        "bessen", "aardappelen", "pindakaas", "knorr"]
     },
     {
         "name": "koffie",
@@ -105,8 +106,8 @@
             "grofvolkorenbrood", "sesambrood", "meergranenbroodje", "meergranenbrood", "krokantjes", "paashaasbroodjes", "schnittbroodjes", "kruidenbroodje",
             "breekbrood", "desembol", "desembrood", "maisbrood", "speltbaguette", "seitanbroodje", "speltbroodjes", "stokbrood",
             "boerenwit", "ciabatta", "simit", "walnotenbroodje",  "focaccia", "pinsa", "pizzabodem", "croissantdeeg",
-            "baguettini", "bread'n", "woutkorn", "zonnebloempitbrood", "kornbol", "roombotercroissant",
-            "thuisafbakbrood", "afbakbrood", "afbakcroissants", "bol", "rozijnenbrood", "rozijnenbroodje",
+            "baguettini", "bread'n", "woutkorn", "zonnebloempitbrood", "kornbol", "roombotercroissant", "afbakbroodje",
+            "thuisafbakbrood", "afbakbrood", "afbakcroissants", "bol", "rozijnenbrood", "rozijnenbroodje", "maisbroodje",
             "rozijnenkrentenbrood", "sesam-volkorenbrood", "maïsbollen", "kornbollen", "snackbroodje", "snackbroodjes"
         ],
         "ignore": ["kaas", "salade", "gebak", "hartjesgebak", "salades", "chips", "donut", "donuts", "chio"]
@@ -117,7 +118,7 @@
             "hagelslag", "jam", "johma", "fruitbeleg", "honing", "bloemenhoning", "notenpasta",
             "nutella", "hazelnootpasta", "cacaopasta", "chocoladepasta", "hero", "duopasta", "berghoning",
             "lindehoning", "zonnebloemhoning", "chocopasta", "appelstroop", "boshoning",
-            "maman", "smeerkaas", "smeerkaaspuntjes"
+            "maman", "smeerkaas", "smeerkaaspuntjes", "venz"
         ],
         "ignore": ["saus", "sauzen", "partysauzen", "repen", "reep", "b-ready", "siroop", "limonade"]
     },
@@ -182,7 +183,7 @@
             "prei-kerrie-ovenschotel", "quiche", "zalm-aspergequiche", "maaltijdpakket", "maaltijdpakketten", "pannenkoeken",
             "fairytales", "burrito's", "noedels", "panini", "salades", "salade", "piccolinis", "wagner", "steenovenpizza",
             "verspakket", "verspakketten", "pangang", "ajam", "maaltijdverspakketten", "lasagne", "pancakes",
-            "omelet", "scharrelkipovenschotels", "steenovenpizza", "steenovenpizza's"
+            "omelet", "scharrelkipovenschotels", "steenovenpizza", "steenovenpizza's", "quiches"
         ],
         "ignore": ["deeg", "geraspt", "paté"]
     },
@@ -192,7 +193,7 @@
             "notenmix", "cashewnoten", "walnoten", "studentenhaver", "paranoten",
             "notenboer", "elitehaver", "multimix", "cashewnoten",
             "nootjes", "edamame", "noten", "notenmelange", "pecannoten", "nuts", "studentikoosje",
-            "pinda's", "amandelen", "notemix", "notenmix", "pistache", "pistachenoten",
+            "pinda's", "amandelen", "notemix", "notenmix", "notencups", "bollenmix", "pistache", "pistachenoten",
             "macadamia", "borrelnoten", "suikerpinda's", "cashews", "macadamianoten"
         ],
         "ignore": ["shampoo", "bodywash"]
@@ -231,7 +232,9 @@
             "blanc", "noir", "spätburgunder", "appassimento", "welschriesling",
             "grenache", "douro", "vistamonte", "slurp!",  "zuydpunt", "gallo",
             "jacob's", "creek", "casillero", "diablo", "barefoot",
-            "aliwen", "undurraga", "esteban", "favoritos"
+            "aliwen", "undurraga", "esteban", "favoritos",
+            "berberana", "fortaleza", "wijnfavoriet", "wijnfavorieten",
+            "balmont"
         ],
         "ignore": []
     },
@@ -275,7 +278,7 @@
             "vaatdoeken", "aanstekers", "gasaanstekers", "decokussen", 
             "tafelkleed", "deco", "sneakers", "bh",
             "tight", "sneakersokken", "t-shirt", "bermuda", "inlegzolen", 
-            "panty", "jeans", "hemden", "slips", 
+            "panty", "jeans", "hemden", "slips", "hygiënedoekjes",
             "luchtverfrisser", "luchtverfrisserspray", "ontkalker", 
             "wasmachinereiniger", "vaatwasmachineverfrisser",
             "vloerwisser", "ontvetterdoekjes", "huishoudelijk", "afwasmiddel", 
@@ -332,7 +335,7 @@
         "keywords": [
             "spa", "pepsi", "rivella", "coolbest", "fanta", "sprite", "fernandes", "royal", "club",
             "lipton", "coca-cola", "7up", "cassis", "river", "cola", "crystal", "sisi", "taksi", 
-            "bull", "bullit", "pepper", "oasis", "wicky", "ijsthee",
+            "bull", "bullit", "pepper", "oasis", "wicky", "ijsthee", "dubbelfrisss",
             "limondaine", "frisdrank", "vruchtendrank", "dubbeldrank"
         ],
         "ignore": ["thee", "kruidenthee"]
@@ -343,7 +346,7 @@
             "mars", "bros", "lion", "smarties", "kitkat", "rolo", "chocolaatjes", 
             "chocolade", "paaseitjes", "numove", "chocoladeschijfjes",
             "paaseieren", "milka", "delft", "delicata", "snickers", "twix", 
-            "chocoladedragees", "choco", "paashaas",
+            "chocoladedragees", "choco", "paashaas", "ritter", "tellus",
             "reuzenpaasei", "chocolade-eieren", "eitjes", "chocoladepizza", 
             "chocolade-eitjes",  "paaschocolade", "chocoladereep", "chocoladerepen",
             "chololadehartjes", "melkchocolade", "d'or", "cacao", "m&m's", 
@@ -367,7 +370,7 @@
             "speculoos", "prince", "fruitreep", "knoppers", "speculaas", "sultana", "luiksewafel",
             "haverkoeken", "cantuccini", "koek", "liga", "evergreen", "grazebites", "mergpijpjes", "mergpijp",
             "bastogne", "b-ready", "bokkenpoten", "bitterkoekjes", "speculaar",  "koekkie",
-            "koekhappers", "koekrepen", "peijnenburg",
+            "koekhappers", "koekrepen", "peijnenburg", "pindakaasrepen", "destrooper", "stroopwafels",
             "mueslikoek", "roomboterbabbelaars", "granenbiscuits", "jelle", "fruitbiscuit"
         ],
         "ignore": []
@@ -428,6 +431,7 @@
         "keywords": [
             "drop", "katja", "venco", "band", "sportlife", "klene", "dropjes",
             "snoep", "skittles", "haribo", "candy", "mentos", "autodrop",
+            "candyman", "salmiakknotsen",
             "fruitella", "stophoest", "lonka", "dextro", "chupa", "pepermunt",
             "spekjes", "napoleon", "gummi", "maoam", "frisia", "werther's", "toffee",
             "toffees", "lonka", "gomballen", "matten", "kauwgom", "freshlife",
