@@ -79,7 +79,9 @@
             "snoeptomaten", "cocktailtrostomaten", "tomaatjes", "linzen", "boterbonen", "nierbonen",
             "artisjokken", "snackgroenten", "kikkererwten", "cherrytomaten"
         ],
-        "ignore": ["limonade", "tortelli", "roomsaus", "saus", "hummus", "quiche", "pesto", "chips", "shoarma", "espresso", "koffie"]
+        "ignore": ["limonade", "tortelli", "roomsaus", "saus", 
+            "hummus", "quiche", "pesto", "chips", "shoarma", 
+            "espresso", "koffie", "capsules", "illy"]
     },
     {
         "name": "aardappel",
