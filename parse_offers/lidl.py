@@ -114,8 +114,12 @@ def returnOffers():
                 date = date.replace("vanaf ", "")
                 date = date.split(" ")
                 date = date[1].split("/")
+                dayStart = date[0]
+                monthStart = date[1]
+                print(dayStart +" = startday")
+                print(monthStart + " = month start")
                 currentYear = datetime.datetime.now().year
-                fullDateEnd = str(currentYear) + "-" + monthEnd + "-" + dayEnd
+                fullDateStart = str(currentYear) + "-" + monthStart + "-" + dayStart
                 offer.update({"dateStart": fullDateStart})
             else: # start and end date is provided
                 date = date.split(" - ")
