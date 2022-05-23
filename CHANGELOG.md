@@ -2,6 +2,11 @@
 
 All notable changes to the project are documented here. There is no versioning for now. Just what is changed on what date.
 
+# 23-05-2022
+
+### Fixed
+- Fix for not collecting offers from 'Lidl' when only startdate is provided.
+ 
 # 20-05-2022
 
 ### Changed
