@@ -30,6 +30,8 @@ jobs:
           
       - name: execute py script
         run: python3 parse_offers
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}  
           
       - name: commit files
         continue-on-error: true

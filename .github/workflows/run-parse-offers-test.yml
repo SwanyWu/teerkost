@@ -33,6 +33,8 @@ jobs:
         run: |
           cd parse_offers
           python3 -m xmlrunner discover
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}  
 
       - name: test summary
         uses: test-summary/action@v1
