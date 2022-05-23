@@ -116,8 +116,6 @@ def returnOffers():
                 date = date[1].split("/")
                 dayStart = date[0]
                 monthStart = date[1]
-                print(dayStart +" = startday")
-                print(monthStart + " = month start")
                 currentYear = datetime.datetime.now().year
                 fullDateStart = str(currentYear) + "-" + monthStart + "-" + dayStart
                 offer.update({"dateStart": fullDateStart})
