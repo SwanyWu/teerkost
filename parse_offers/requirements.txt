@@ -2,5 +2,5 @@ bs4
 requests
 Pillow
 selenium
-webdriver_manager
+webdriver_manager==3.5.4
 unittest-xml-reporting
