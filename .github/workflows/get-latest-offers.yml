@@ -1,14 +1,13 @@
 name: get-latest-offers
 
 on:
-  schedule:
-    - cron: '0 6 * * *'
-  push:
-    branches:
-      - main
+  workflow_run:
+    workflows: ["run-parse-offers-test"]
+    types:
+      - completed
 
 jobs:
-  build-parse-offers:
+  build:
     runs-on: ubuntu-latest
     steps:
 
@@ -26,25 +25,12 @@ jobs:
           
       - name: install python packages
         run: |
-          export GH_TOKEN=${{ secrets.GITHUB_TOKEN }}
+          export GH_TOKEN = ${{ secrets.GITHUB_TOKEN }}
           python -m pip install --upgrade pip
           pip install -r parse_offers/requirements.txt
-  test-parse-offers:   
-    runs-on: ubuntu-lastest
-    needs: build-parse-offers
-    steps:
-      - name: execute xmlrunner
-        run: |
-          cd parse_offers
-          python3 -m xmlrunner discover
-  run-parse-offers:
-    runs-on: ubuntu-latest
-    needs: test-parse-offers
-    steps:
-      - name: execute parse_offers
-        run: |
-          cd .. 
-          python3 parse_offers
+          
+      - name: execute py script
+        run: python3 parse_offers
           
       - name: commit files
         continue-on-error: true
