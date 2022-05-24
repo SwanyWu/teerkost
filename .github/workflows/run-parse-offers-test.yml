@@ -34,9 +34,3 @@ jobs:
         run: |
           cd parse_offers
           python3 -m xmlrunner discover
-
-      - name: test summary
-        uses: test-summary/action@v1
-        with:
-          paths: "parse_offers/TEST-*.xml"
-        if: always()
