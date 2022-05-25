@@ -59,7 +59,7 @@
         ],
         "ignore": ["snackbroodje", "snackbroodjes", "blije", 
             "wagner", "vega", "vegan", "vegetarisch", "vegetarische", 
-            "omelet", "beyond", "krieltjes", "potato"]
+            "omelet", "beyond", "krieltjes", "potato", "plantbased", "veggies", "veggie"]
     },
     {
         "name": "groente",
@@ -127,7 +127,7 @@
             "lindehoning", "zonnebloemhoning", "chocopasta", "appelstroop", "boshoning",
             "maman", "smeerkaas", "smeerkaaspuntjes", "venz", "linzenspread", "broodsalade"
         ],
-        "ignore": ["saus", "sauzen", "partysauzen", "repen", "reep", "b-ready", "siroop", "limonade"]
+        "ignore": ["saus", "beenham", "sauzen", "partysauzen", "repen", "reep", "b-ready", "siroop", "limonade"]
     },
     {
         "name": "ontbijt",
@@ -245,7 +245,7 @@
             "berberana", "fortaleza", "wijnfavoriet", "wijnfavorieten",
             "balmont", "hardys", "deetlefs", "stonecross", "tessa"
         ],
-        "ignore": []
+        "ignore": ["vruchtenspread"]
     },
     {
         "name": "verzorging",
@@ -421,12 +421,12 @@
     {
         "name": "vegan",
         "keywords": [
-            "vegan", "snaqs", "vegetarisch", "vegetarische", "veggie", "soja", "vega", "biovegan",
+            "vegan", "snaqs", "vegetarisch", "vegetarische", "veggie", "veggies", "soja", "vega", "biovegan",
             "haverdrink", "amandeldrink", "plantaardig", "plantaardige", "haver", "quorn",
             "falafel", "falafelballetjes", "abbot", "noomo", "meatless", "rootzz", "rijstdrink",
             "kinowa", "ferme", "valess", "beyond", "auberginespread", "broccolispread",
             "erwtenspread", "hummus", "lupinesalade", "paprikaspread", "vleesvervanger",
-            "bonenspread", "wortelspread", "sojadrink", "vivera"
+            "bonenspread", "wortelspread", "sojadrink", "vivera", "plantbased"
         ],
         "ignore": []
     },
@@ -463,7 +463,7 @@
             "pickwick", "clipper", "kamille", "sterrenmunt", "twinings", "celestial", "theefilter",
             "theefilters", "pukka", "lipton", "yogi", "chai", "maa", "ceylon", "grey", "tea"
         ],
-        "ignore": ["ice", "grootverpakkingen", "fuze"]
+        "ignore": ["ice", "grootverpakkingen", "fuze", "bodylotion", "lippenbalsem"]
     },
     {
         "name": "pasta",
