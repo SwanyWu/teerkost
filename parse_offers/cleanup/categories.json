@@ -13,7 +13,7 @@
             "ipa", "Chouffe", "Jopen", "Afflichem", "Duvel", "peroni", "amigo"
         ],
         "ignore": ["stoofvlees", "runderhachee", "ijs", "ijssalon", "smeren", "boter", "kuipje", 
-        "bessen", "aardappelen", "pindakaas", "knorr"]
+        "bessen", "aardappelen", "pindakaas", "knorr", "tickets", "prix"]
     },
     {
         "name": "koffie",
