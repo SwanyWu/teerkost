@@ -28,7 +28,7 @@ def returnOffers():
         imageUrl = ""
         link = ""
 
-        titleElement = item.find("h2", {"class":"product-grid-box__title"})
+        titleElement = item.find("h2", {"class":"grid-box__headline"})
         if titleElement != None:
             title = titleElement.get_text().strip()  
 
@@ -36,7 +36,7 @@ def returnOffers():
         if descrElement != None:
             description = descrElement.get_text().strip()
         
-        dateElement = item.find("p", {"class":"image-ribbons__ribbon--blue"})
+        dateElement = item.find("div", {"class":"label--blue"})
         if dateElement != None:
             date = dateElement.get_text().strip()
 
