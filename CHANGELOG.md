@@ -2,6 +2,11 @@
 
 All notable changes to the project are documented here. There is no versioning for now. Just what is changed on what date.
 
+# 18-06-2022
+
+### Fixed
+- Fix for properly filling display width with items.
+
 # 23-05-2022
 
 ### Fixed
