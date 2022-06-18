@@ -838,6 +838,7 @@ b.label-shop-lidl {
   margin: 0px 15px 15px 0px;
   width: 230px;
   position: relative;
+  max-width: 300px;
 }
 
 .item-overlay {
