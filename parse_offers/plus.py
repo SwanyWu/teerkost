@@ -55,7 +55,7 @@ def returnOffers():
     try: 
         driver.get(URL)
         WebDriverWait(driver, 120).until(
-            EC.visibility_of_element_located((By.ID, "_baby-en-drogisterij")) # wait for the last category
+            EC.visibility_of_element_located((By.ID, "_baby-drogisterij")) # wait for the last category
 
         )
         try:
