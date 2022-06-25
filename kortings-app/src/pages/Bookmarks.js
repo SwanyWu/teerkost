@@ -6,6 +6,7 @@ import NoBookmarks from "./NoBookmarks";
 import CopyButton from "../CopyButton";
 import ShareButton from "../ShareButton";
 import GoHomeButton from "../GoHomeButton";
+import SearchButton from "../SearchButton";
 
 const ProductsContainer = React.lazy(() => import ('../ProductsContainer'));
 
@@ -111,11 +112,12 @@ function Bookmarks(props) {
         <a className="title-sober" href='https://teerkost.nl'><span>Teerkost</span></a>
         { selectedOffers.length > 0  ? 
           <div>
-            <ShareDialog buttonText="deel lijst" customUrl={bookmarkListUrl} infoText="Deel een link naar deze lijst met bewaarde aanbiedingen." />
+            <ShareDialog buttonText="deel lijst" customUrl={bookmarkListUrl} infoText="Deel een link naar deze lijst met bewaarde korting." />
             <div className="bottom-buttons">
               <GoHomeButton />
+              <SearchButton />
               <CopyButton selectedOffers={selectedOffers}/>
-              <ShareButton buttonText="deel lijst" infoText="Deel de huidige pagina met de gekozen filters."/>
+              <ShareButton buttonText="deel" infoText="Deel de huidige pagina met de gekozen filters."/>
             </div>
             <div>
               <header className="header-title">

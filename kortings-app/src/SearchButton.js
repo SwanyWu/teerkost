@@ -9,10 +9,11 @@ function SearchButton(props) {
 
     return (
         <div className="button-cell">
-            <div className="button search-button">
+            <span className="new">nieuw</span>
+           <Link to="/zoek"><div className="button search-button">
             <i class="ri-search-line"></i>
-            <div className="search-button-tag">zoek</div>
-            </div>
+            <div className="button-tag">zoek</div>
+            </div></Link> 
         </div>
     )
   }

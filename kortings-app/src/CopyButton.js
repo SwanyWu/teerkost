@@ -43,7 +43,7 @@ function CopyButton(props) {
     <div className="button-cell">
       <div onClick={copyList} className="button bookmark-copy">
         <i class="ri-file-copy-2-line"></i>
-        <div className="button-tag">kopieer lijst</div>
+        <div className="button-tag">kopieer</div>
       </div>
     </div>
   )

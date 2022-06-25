@@ -221,10 +221,10 @@ function Main(props) {
     <div className="app-wrap">
         <ShareDialog buttonText="deel pagina" infoText="Deel de huidige pagina met de gekozen filters." />
         <div className="bottom-buttons">
-          {/* <SearchButton /> */}
           <GoHomeButton />
+          <SearchButton />
           <BookmarkButton />
-          <ShareButton buttonText="deel pagina" infoText="Deel de huidige pagina met de gekozen filters."/>
+          <ShareButton buttonText="deel" infoText="Deel de huidige pagina met de gekozen filters."/>
         </div>
         <a className="title-sober" href='https://teerkost.nl'><span>Teerkost</span></a>
         <header className="filter">

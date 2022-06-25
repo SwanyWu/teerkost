@@ -2,16 +2,17 @@ import ShareDialog from "../components/ShareDialog";
 import GoHomeButton from "../GoHomeButton";
 import BookmarkButton from "../BookmarkButton";
 import ShareButton from "../ShareButton";
+import SearchButton from "../SearchButton";
 
 function NoBookmarks() {
     return (
       <div className="app-wrap">
         <ShareDialog customUrl="https://teerkost.nl/#/bewaard" buttonText="deel pagina" infoText="Deel de huidige pagina." />
         <div className="bottom-buttons">
-          {/* <SearchButton /> */}
           <GoHomeButton />
+          <SearchButton />
           <BookmarkButton />
-          <ShareButton customUrl="https://teerkost.nl/#/bewaard" buttonText="deel pagina" infoText="Deel de huidige pagina."/>
+          <ShareButton customUrl="https://teerkost.nl/#/bewaard" buttonText="deel" infoText="Deel de huidige pagina."/>
         </div>
         <div className="no-offers">
           <div className='notify-wrap'>
