@@ -2,6 +2,11 @@
 
 All notable changes to the project are documented here. There is no versioning for now. Just what is changed on what date.
 
+# 25-06-2022
+
+### Added
+- Ability to search for offers.
+
 # 18-06-2022
 
 ### Fixed
