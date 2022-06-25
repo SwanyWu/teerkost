@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from "react";
-import NoProduct from "./NoProduct";
+import NoProduct from "./pages/NoProduct";
 import ProductCard from "./components/ProductCard";
 
 function ProductsContainer(props) {
