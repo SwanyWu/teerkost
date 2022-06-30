@@ -4,6 +4,11 @@
 
 Teerkost collects the current discounts from popular Dutch supermarkets.
 
+- It is fast - there is no backend it needs to call upon.
+- It is uncluttered - filter by category, shop, discount or do a search.
+- Bookmark offers by saving them locally using IndexedDb (i.e. "cookies").
+- It is made to feel like an app - has fullscreen and native sharing capability.
+
 ## Running or building the app
 
 Start the app called *kortings-app* locally:
