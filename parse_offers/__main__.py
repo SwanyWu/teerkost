@@ -65,7 +65,7 @@ def moveFolder(folderPath, destination):
     print(" ")
     if os.path.exists(destination):
         shutil.rmtree(destination)
-        print("✅ Folder " + folderPath + " bestaat op " + destination + ", die gooien we eerst weg.")
+        print("🧹 Folder " + folderPath + " bestaat op " + destination + ", die gooien we eerst weg.")
 
     shutil.move(folderPath, destination)
     if os.path.exists(destination):
@@ -76,27 +76,54 @@ def moveFolder(folderPath, destination):
 def moveFile(file, destination):
     """Moves the provided file to the destination."""
 
-    print(" ")
     if os.path.exists(destination + file):
         os.remove(destination + file)
-        print("✅ " + file + " bestaat op " + destination + ", die gooien we eerst weg.")
+        print("🧹 " + file + " bestaat op " + destination + ", die gooien we eerst weg.")
     
-    print("✅ Verplaats " + file + " uit het project naar " + destination + ".")
+    print("🚀 Verplaats " + file + " uit het project naar " + destination + ".")
     shutil.move(file, destination + file)
 
 if __name__ == "__main__":
 
     take_it_easy = 0
 
-    jumboOffers = jumbo.returnOffers()
-    ahOffers = albertheijn.returnOffers()
-    lidlOffers = lidl.returnOffers()
-    aldiOffers = aldi.returnOffers()
-    ekoplazaOffers = ekoplaza.returnOffers()
-    # plusOffers = plus.returnOffers()
+    allOffers = []
+    try:
+        jumboOffers = jumbo.returnOffers()
+        allOffers.append(jumboOffers)
+    except:
+        print("🟥 Aanbiedingen ophalen voor Jumbo mislukt, wordt overgeslagen.")
 
-    # allOffers = jumboOffers + ahOffers + lidlOffers + aldiOffers + plusOffers + ekoplazaOffers
-    allOffers = jumboOffers + ahOffers + lidlOffers + aldiOffers + ekoplazaOffers
+    try:    
+        ahOffers = albertheijn.returnOffers()
+        allOffers.append(ahOffers)
+    except:
+        print("🟥 Aanbiedingen ophalen voor Jumbo mislukt, wordt overgeslagen.")
+
+    try:
+        lidlOffers = lidl.returnOffers()
+        allOffers.append(lidlOffers)
+    except:
+        print("🟥 Aanbiedingen ophalen voor Lidl mislukt, wordt overgeslagen.")
+    
+    try:
+        aldiOffers = aldi.returnOffers()
+        allOffers.append(aldiOffers)
+    except:
+        print("🟥 Aanbiedingen ophalen voor Aldi mislukt, wordt overgeslagen.")
+
+    try:
+        ekoplazaOffers = ekoplaza.returnOffers()
+        allOffers.append(ekoplazaOffers)
+    except:
+        print("🟥 Aanbiedingen ophalen voor Ekoplaza mislukt, wordt overgeslagen.")
+
+    try:
+        plusOffers = plus.returnOffers()
+        allOffers.append(plusOffers)
+    except:
+        print("🟥 Aanbiedingen ophalen voor Plus mislukt, wordt overgeslagen.")
+
 
     allOffers = giveid.giveIdToOffers(allOffers)
     allOffers = sorted(allOffers, key=lambda p: p['category'])
@@ -107,28 +134,24 @@ if __name__ == "__main__":
 
     print("📄 Er zijn " + str(len(allOffers)) + " aanbiedingen gevonden.")
     time.sleep(take_it_easy)
-    print(" ")
     print("✊ Aan de slag met afbeeldingen downloaden en converteren naar webp.")
-    print(" ")
     time.sleep(take_it_easy)
 
     try:
         shutil.rmtree('parse_offers/img')
-        print("     ✅ Img folder met inhoud verwijderen uit het project.")
+        print("🧹 Img folder met inhoud verwijderen uit het project.")
     except FileNotFoundError:
-        print("     🤔 Geen img folder gevonden in dit project om te verwijderen.")
+        print("🤔 Geen img folder gevonden in dit project om te verwijderen.")
     
-    print (" ")
     os.mkdir('parse_offers/img')
-    print("     ✅ Schone img folder gemaakt in het project.")
-    print(" ")
+    print("✅ Schone img folder gemaakt in het project.")
 
     time.sleep(take_it_easy)
     index = 0    
     try:
         for offer in allOffers:
             print(" ")
-            print("     🔎 Afbeelding " + str(index+1))
+            print("# " + str(index+1))
             index = index+1
             imageUrl = offer['image']
             destination = 'parse_offers/img'
@@ -143,7 +166,6 @@ if __name__ == "__main__":
     moveFolder('parse_offers/img', 'kortings-app/public/img')
 
     time.sleep(take_it_easy)
-    print(" ")
     print("✅ Dump de aanbiedingen in een JSON bestand.")
     with open('offers.json', 'a+', encoding='utf-8') as f:
             json.dump(allOffers, f, indent=4,ensure_ascii = False)
