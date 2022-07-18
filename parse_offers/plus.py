@@ -42,10 +42,10 @@ def returnMonth(monthString):
 
     return monthNumberString       
 
-def getPageContent(URL, driver):
+def getPageContent(URL, driver, element_to_be_located):
     driver.get(URL)
     WebDriverWait(driver, 300).until(
-            EC.visibility_of_element_located((By.ID, "_baby-drogisterij")) # wait for the last category
+            EC.visibility_of_element_located((By.ID, element_to_be_located)) # wait for the last category
         )
     try:
         element = WebDriverWait(driver, 120).until(
@@ -70,10 +70,10 @@ def returnOffers():
     driver = webdriver.Firefox(options=options, executable_path=GeckoDriverManager().install())
 
     try: 
-        productSectionHTML = getPageContent(URL, driver)
+        productSectionHTML = getPageContent(URL, driver, "_baby-drogisterij")
     except Exception:
         print("Kan element nog niet zien, nog één keer proberen.")
-        productSectionHTML = getPageContent(URL, driver)
+        productSectionHTML = getPageContent(URL, driver, "_huishouden")
     finally:    
         driver.quit()
     
