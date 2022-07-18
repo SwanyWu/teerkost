@@ -26,7 +26,7 @@ def cleanUpInfo(infoText):
                     'Alle combinaties mogelijk ', 'Diverse soorten',
                     'Alle varianten', 'Per stuk', 'Alle verpakkingen', 
                     'Diverse varianten, combineren mogelijk', '<ul><li>',
-                    '<li>', '</li><li>', '</li></ul>', '<p>', '</p>']
+                    '<li>', '</li><li>', '</li>', '&nbsp;','</li></ul>', '<p>', '</p>']
 
         infoText = infoText.replace("’", "'") # sanitize different kinds of apostrophes
         infoText = infoText.replace(" ", " ") # sanitize weird space character
