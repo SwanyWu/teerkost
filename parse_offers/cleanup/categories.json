@@ -9,7 +9,7 @@
             "Leffe", "Corona", "Warsteiner", "Jupiler", "Weizen", "hoegaarden",
             "witbieren", "witbier", "weizenbier", "hertog", "weizenbieren", "lentebier",
             "lentebieren", "zomerbier", "zomerbieren", "herstbier", "herstbieren", "winterbier",
-            "winterbieren", "leckere", "victoria", "budels", "feuillien",
+            "winterbieren", "leckere", "victoria", "budels", "feuillien", "hoppy",
             "ipa", "Chouffe", "Jopen", "Afflichem", "Duvel", "peroni", "amigo"
         ],
         "ignore": ["stoofvlees", "runderhachee", "ijs", "ijssalon", "smeren", "boter", "kuipje", 
@@ -252,7 +252,8 @@
         ],
         "ignore": ["kwark", "passievruchtkwark", "vruchtenkwark", "coebergh","vodka", "taart", "oetker", "trifle", 
             "nectar", "gebak", "fruittella", "olvarit", "linzenspread", "tea", "limonadesiroop", "cocktail", "cake",
-            "roomyoghurt", "yoghurt", "maman", "spa", "icepops", "river", "douchegel", "badgel", "bodylotion", "elitehaver", "noten"]
+            "roomyoghurt", "yoghurt", "maman", "spa", "icepops", "river", "douchegel", "kombucha", 
+            "badgel", "bodylotion", "elitehaver", "noten", "koekrepen", "muffins", "limonade", "granola"]
     },
     {
         "name": "wijn",
@@ -262,7 +263,7 @@
             "waterval", "bradshaw", "villebois", "concha", "marques", "lindeman's", 
             "lindemans", "rosé", "descanso", "gato", "barton", "guestier", "tussock",
             "trivento", "stormhoek", "frontera", "adega", "médoc",
-            "bordeaux", "montalto", "i'am", "alpaca",
+            "bordeaux", "montalto", "i'am", "alpaca", "borgoletto",
             "codorníu", "brut", "rosso", "fantini", "brancott", "spatburgunder",
             "tulipe", "bastard",  "gort", "veltliner", "provence", "vinãs",
             "cordier","malbec", "zinfandel",  "clairette", "mezzacorona",
@@ -416,7 +417,7 @@
             "laviano", "pindarotsjes", "choco's", "chocolademousse",
             "chocolonely", "chocolademix", "repen", "atelier", "lindt", "balconi"
         ],
-        "ignore": ["kalanchoë", "koekjes", "koekje", "koek", "kombucha", "ijsjes", "ijs", "ijsje"]
+        "ignore": ["kalanchoë", "granola", "koekjes", "koekje", "koek", "kombucha", "ijsjes", "ijs", "ijsje"]
     },
     {
         "name": "chips",
@@ -535,7 +536,8 @@
             "pasta", "pastasauzen", "cecco", "linguine", "spaghetti", "penne",
             "tagliatelle", "tortelli", "ravioli", "tortellini", "gnocchi",
             "lasagnebladen", "fusilli", "macaroni", "rigatoni", "bertolli",
-            "petti", "grand'italia", "pastasaus", "tortelloni", "pastagroente"
+            "petti", "grand'italia", "pastasaus", "tortelloni", "pastagroente",
+            "pastagroenten"
         ],
         "ignore": ["salade", "stoommaaltijden", "stoommaaltijd"]
     }
