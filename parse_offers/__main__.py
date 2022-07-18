@@ -90,37 +90,37 @@ if __name__ == "__main__":
     allOffers = []
     try:
         jumboOffers = jumbo.returnOffers()
-        allOffers.append(jumboOffers)
+        allOffers = allOffers + jumboOffers
     except:
         print("🟥 Aanbiedingen ophalen voor Jumbo mislukt, wordt overgeslagen.")
 
     try:    
         ahOffers = albertheijn.returnOffers()
-        allOffers.append(ahOffers)
+        allOffers = allOffers + ahOffers
     except:
         print("🟥 Aanbiedingen ophalen voor Jumbo mislukt, wordt overgeslagen.")
 
     try:
         lidlOffers = lidl.returnOffers()
-        allOffers.append(lidlOffers)
+        allOffers = allOffers + lidlOffers
     except:
         print("🟥 Aanbiedingen ophalen voor Lidl mislukt, wordt overgeslagen.")
     
     try:
         aldiOffers = aldi.returnOffers()
-        allOffers.append(aldiOffers)
+        allOffers = allOffers + aldiOffers
     except:
         print("🟥 Aanbiedingen ophalen voor Aldi mislukt, wordt overgeslagen.")
 
     try:
         ekoplazaOffers = ekoplaza.returnOffers()
-        allOffers.append(ekoplazaOffers)
+        allOffers = allOffers + ekoplazaOffers
     except:
         print("🟥 Aanbiedingen ophalen voor Ekoplaza mislukt, wordt overgeslagen.")
 
     try:
         plusOffers = plus.returnOffers()
-        allOffers.append(plusOffers)
+        allOffers = allOffers + plusOffers
     except:
         print("🟥 Aanbiedingen ophalen voor Plus mislukt, wordt overgeslagen.")
 
