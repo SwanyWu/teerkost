@@ -47,6 +47,21 @@ def returnOffers():
         offer.update({"product": cleanTitle})
 
         deal = loadJsonList[0]['gridLabel']
+        if type(deal) != type(None):
+            print("deal in gridLabel gevonden")
+            deal = deal.lower()
+        else:
+            discount = loadJsonList[0]['price']['discount']['percentageDiscount']
+            if type(discount) != type(None):
+                print("deal in discount gevonden")
+                deal = str(discount) + "% korting"
+            else:
+                deal = ""
+
+        price = loadJsonList[0]['price']['price']
+        if type(price) == type(None):
+            price = ""
+
         imageUrl = loadJsonList[0]['image']
         
         canonicalUrl = loadJsonList[0]['canonicalUrl']
@@ -104,7 +119,7 @@ def returnOffers():
                 
                 offer.update({"dateStart": fullDateStart})
                 offer.update({"dateEnd": fullDateEnd})
-    
+
         if(offer.get('deal') != ""): # if no deal is found, don't add it
             collection.append(offer)
 
