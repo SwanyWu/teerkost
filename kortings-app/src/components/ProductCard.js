@@ -51,7 +51,7 @@ function ProductCard(props) {
         </Suspense> 
         <summary className="product-name">
           <a href={props.item['link']} target="blank">
-            {props.item['product']}
+            <span className="product-title">{props.item['product']}</span>
             <span className="product-info"> {props.item['productInfo']}</span>
           </a>
         </summary>
