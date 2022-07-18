@@ -926,6 +926,7 @@ input.filter-search {
 
 .product-image img {
   max-width: 65%;
+  transform: scale(1.2);
 }
 
 .product-name { 
@@ -937,10 +938,11 @@ input.filter-search {
   animation: showUp 500ms;
 }
 .product-name a {
+  display: block;
   color: inherit;
   text-decoration: none;
 }
-.product-name a:hover {
+.product-name a:hover .product-title {
   text-decoration: underline;
   text-decoration-thickness: 2px;
 }
