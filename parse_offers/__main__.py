@@ -93,9 +93,10 @@ if __name__ == "__main__":
     lidlOffers = lidl.returnOffers()
     aldiOffers = aldi.returnOffers()
     ekoplazaOffers = ekoplaza.returnOffers()
-    plusOffers = plus.returnOffers()
+    # plusOffers = plus.returnOffers()
 
-    allOffers = jumboOffers + ahOffers + lidlOffers + aldiOffers + plusOffers + ekoplazaOffers
+    # allOffers = jumboOffers + ahOffers + lidlOffers + aldiOffers + plusOffers + ekoplazaOffers
+    allOffers = jumboOffers + ahOffers + lidlOffers + aldiOffers + ekoplazaOffers
 
     allOffers = giveid.giveIdToOffers(allOffers)
     allOffers = sorted(allOffers, key=lambda p: p['category'])
