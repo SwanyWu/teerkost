@@ -846,7 +846,6 @@ input.filter-search {
 }
 
 .flex-item {
-  cursor: pointer;
   z-index: 100;
   -webkit-order: 0;
   -ms-flex-order: 0;
@@ -936,7 +935,14 @@ input.filter-search {
   font-weight: 800;
   overflow-wrap: break-word;
   animation: showUp 500ms;
-
+}
+.product-name a {
+  color: inherit;
+  text-decoration: none;
+}
+.product-name a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
 }
 
 .product-category {

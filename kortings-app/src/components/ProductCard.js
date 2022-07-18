@@ -31,7 +31,7 @@ function ProductCard(props) {
   }
 
     return (
-      <article className="flex-item" onClick={toggleOverlay}>
+      <article className="flex-item" data-cat={props.item['category']}>
         {/* {isOpen && (
           <div className="item-overlay">
           <ul>
@@ -50,8 +50,10 @@ function ProductCard(props) {
           <Image image={props.item['image']} />
         </Suspense> 
         <summary className="product-name">
-          {props.item['product']}
-          <span className="product-info"> {props.item['productInfo']}</span>
+          <a href={props.item['link']} target="blank">
+            {props.item['product']}
+            <span className="product-info"> {props.item['productInfo']}</span>
+          </a>
         </summary>
         <Deal deal={props.item['deal']} />
         <ProductBookmark id={props.item['productId']}/>
