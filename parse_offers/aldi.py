@@ -80,8 +80,7 @@ def returnOffers():
     for section in soup.find_all("div", {"class": sectionDiv}):
         startDateSection = section['data-rel']
         sectionIndex = sectionIndex + 1
-        print("Aanbiedingen die beginnen op " + returnCalculatedDate(startDateSection, 0) + " gevonden.")
-        print("-------------------------------------------------")
+
         for article in section.find_all("div", {"class", articleDiv}):
             offer = {"productId":"","product":"", "productInfo":"", "category":"", "image":"", "deal":"", "price": 0, "dateStart":"", "dateEnd":"", "link": "", "shop":""}
 

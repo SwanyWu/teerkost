@@ -48,12 +48,10 @@ def returnOffers():
 
         deal = loadJsonList[0]['gridLabel']
         if type(deal) != type(None):
-            print("deal in gridLabel gevonden")
             deal = deal.lower()
         else:
             discount = loadJsonList[0]['price']['discount']['percentageDiscount']
             if type(discount) != type(None):
-                print("deal in discount gevonden")
                 deal = str(discount) + "% korting"
             else:
                 deal = ""
