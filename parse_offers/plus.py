@@ -42,6 +42,23 @@ def returnMonth(monthString):
 
     return monthNumberString       
 
+def getPageContent(URL, driver):
+    driver.get(URL)
+    WebDriverWait(driver, 300).until(
+            EC.visibility_of_element_located((By.ID, "_baby-drogisterij")) # wait for the last category
+        )
+    try:
+        element = WebDriverWait(driver, 120).until(
+                EC.visibility_of_element_located((By.CLASS_NAME, "promotion-marketing-container")) # some more waiting, but probably not needed
+            )
+    finally:
+        randomTitleWebElement = element.find_element(By.CLASS_NAME, "pageTitel")
+        randomTitleInnerHTML = randomTitleWebElement.get_attribute("innerHTML")
+        if type(randomTitleInnerHTML) == str: 
+            productSectionWebElement = driver.find_element(By.CLASS_NAME, "promotion-block-container")
+            productSectionHTML = productSectionWebElement.get_attribute('outerHTML')
+    return productSectionHTML
+
 def returnOffers():
 
     SHOP = "plus"
@@ -53,21 +70,10 @@ def returnOffers():
     driver = webdriver.Firefox(options=options, executable_path=GeckoDriverManager().install())
 
     try: 
-        driver.get(URL)
-        WebDriverWait(driver, 120).until(
-            EC.visibility_of_element_located((By.ID, "_baby-drogisterij")) # wait for the last category
-
-        )
-        try:
-            element = WebDriverWait(driver, 120).until(
-                EC.visibility_of_element_located((By.CLASS_NAME, "promotion-marketing-container")) # some more waiting, but probably not needed
-            )
-        finally:
-            randomTitleWebElement = element.find_element(By.CLASS_NAME, "pageTitel")
-            randomTitleInnerHTML = randomTitleWebElement.get_attribute("innerHTML")
-            if type(randomTitleInnerHTML) == str: 
-                productSectionWebElement = driver.find_element(By.CLASS_NAME, "promotion-block-container")
-                productSectionHTML = productSectionWebElement.get_attribute('outerHTML')
+        productSectionHTML = getPageContent(URL, driver)
+    except Exception:
+        print("Kan element nog niet zien, nog één keer proberen.")
+        productSectionHTML = getPageContent(URL, driver)
     finally:    
         driver.quit()
     
