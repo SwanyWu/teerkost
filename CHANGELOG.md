@@ -8,6 +8,9 @@ All notable changes to the project are documented here. There is no versioning f
 - Clickable title to offers, to visit the shop homepage.
 - Actual prices to offers from 'Lidl'.
 
+### Changed
+- Saving offers no longer disrupted when a shop is unreachable.
+
 ### Fixed
 - Fix for not collecting data from 'Lidl'.
 
