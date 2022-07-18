@@ -13,6 +13,7 @@ All notable changes to the project are documented here. There is no versioning f
 
 ### Fixed
 - Fix for not collecting data from 'Lidl'.
+- For for unintentional clicks on donate button.
 
 # 25-06-2022
 
