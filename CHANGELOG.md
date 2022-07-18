@@ -4,6 +4,10 @@ All notable changes to the project are documented here. There is no versioning f
 
 # 18-07-2022
 
+### Added
+- Clickable title to offers, to visit the shop homepage.
+- Actual prices to offers from 'Lidl'.
+
 ### Fixed
 - Fix for not collecting data from 'Lidl'.
 
