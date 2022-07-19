@@ -190,7 +190,9 @@ header.header-title {
 }
 .even-geduld-image {
   height: 100px;
-  background: #eee;
+  background:rgba(255,255,255,1);
+  background: radial-gradient(circle, rgba(255,255,255,1) 40%, rgba(255,255,255,1) 63%, rgb(247, 247, 247) 100%); 
+
 }
 
 #logo {
@@ -858,7 +860,7 @@ input.filter-search {
   align-self: auto;
   border-radius: 15px;
   overflow: hidden;
-  box-shadow: var(--flex-item-shadow);
+  /* box-shadow: var(--flex-item-shadow); */
   background: var(--article-bg);
   margin: 0px 15px 15px 0px;
   width: 200px;
@@ -913,13 +915,16 @@ input.filter-search {
 }
 
 .product-image {
-  background: #fff;
+  background: rgb(255,255,255);
+  background: radial-gradient(circle, rgba(255,255,255,1) 40%, rgba(255,255,255,1) 63%, rgb(247, 247, 247) 100%); 
   min-height: 100px;
   margin: 0;
   display: flex;
   overflow: hidden;
   text-align: center;
   align-items: center;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
   justify-content: center;
   animation: showUp 1000ms;
 }
@@ -930,12 +935,18 @@ input.filter-search {
 }
 
 .product-name { 
+  background: rgb(255,255,255);
+  background: radial-gradient(circle, rgba(255,255,255,1) 40%, rgba(255,255,255,1) 63%, rgb(247, 247, 247) 100%); 
   display: block;
   color: #35322a;
   padding: 10px 10px 10px 10px;
   font-weight: 800;
   overflow-wrap: break-word;
   animation: showUp 500ms;
+  text-align: center;
+}
+.product-title {
+  display: block;
 }
 .product-name a {
   display: block;
@@ -951,14 +962,14 @@ input.filter-search {
   background: #FFF;
   color: #3e5d8b;
   display: inline-block;
-  font-size: .7em;
-  font-weight: 600;
-  left: 0px;
-  line-height: 25px;
+  font-size: .6em;
+  font-weight: 800;
+  left: 5px;
+  line-height: 18px;
   padding: 0 10px;
   position: absolute;
   border-radius: 4px;
-  top: 30px;
+  top: 35px;
   z-index: 1;
   animation: showUp 1500ms;
 }
@@ -983,14 +994,15 @@ input.filter-search {
   text-align: center;
   color: #666;
   font-weight: 800;
-  border-top: 2px dashed #CCC;
+  background: #F2F2F2;
+  box-shadow: inset 0px 5px 8px -5px #00000008;
   margin: 0px 0px 0px 0px;
   animation: showUp 500ms;
 
 }
 .product-deal.on-fire {
   color: #867d00;
-  background: #ffffc5;
+  background: #ffff004f;
 }
 
 .product-bookmark {
@@ -1032,7 +1044,6 @@ input.filter-search {
   border-top-right-radius: 15px;
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
-  box-shadow: inset 0px 0px 0px 2px #FFF;
   animation: showUp 200ms ease-in-out;
 }
 
@@ -1040,14 +1051,13 @@ input.filter-search {
   background: #fff000; 
   color: #0050aa; 
 }
-.product-header.lidl .product-date { color: #000; text-shadow: none;}
+.product-header.lidl .product-date { color: #000000d1; text-shadow: none;}
 
 .product-header.jumbo {   
   background: #eeb717; 
   color: #FFF;
-  text-shadow: 1px 1px #000;
 }
-.product-header.jumbo .product-date { color: #000; text-shadow: none;}
+.product-header.jumbo .product-date { color: #000000d9; text-shadow: none;}
 
 .product-header.ah {
   background: #00ade6;
@@ -1095,18 +1105,20 @@ input.filter-search {
 }
 .product-price { 
   display: inline-block;
-  background: #2a9b26;
+  background: #2fb000;
   color: #fff;
-  line-height: 35px;
+  line-height: 34px;
   text-align: center;
   padding: 0px 10px 0px 10px;
-  right: 0px;
-  top: 28px;
+  right: 5px;
+  top: 35px;
   position: absolute;
   z-index: 1;
-  border-radius: 4px;
-  box-shadow: inset 0px 0px 0px 2px #fff;
+  border-radius: 8px;
   animation: showUp 500ms;
+  font-size: .8em;
+  font-size: .8em;
+  font-weight: 800;
 }
 
 
