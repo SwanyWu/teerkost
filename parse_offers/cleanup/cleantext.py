@@ -19,14 +19,14 @@ def cleanUpInfo(infoText):
     if 'Bijv.' in infoText:
         infoText = ""
     else:     
-        badWords = ['PlUS ', 'Jumbo ', 'Alle soorten\n3 verpakkingen', 
+        badWords = ['PLUS ', 'Jumbo ', 'Alle soorten\n3 verpakkingen', 
                     'Alle soorten\n2 verpakkingen',
                     'Alle soorten ', 'Alle soorten\n', 'Alle soorten',
                     'Alle soorten\n2 ', 'Alle soorten\n3 ', 'Alle soorten, ', 
                     'Alle combinaties mogelijk ', 'Diverse soorten',
                     'Alle varianten', 'Per stuk', 'Alle verpakkingen', 
                     'Diverse varianten, combineren mogelijk', '<ul><li>',
-                    '<li>', '</li><li>', '</li>', '</ul>', '&nbsp;','</li></ul>', '<p>', '</p>']
+                    '<li>', '</li><li>', '</li>', '</ul>', '&nbsp;', '&oslash;', '</li></ul>', '<p>', '</p>']
 
         infoText = infoText.replace("’", "'") # sanitize different kinds of apostrophes
         infoText = infoText.replace(" ", " ") # sanitize weird space character
