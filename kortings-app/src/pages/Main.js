@@ -232,7 +232,11 @@ function Main(props) {
             <div className="filter-wrap">
                 <div className="filter-shop">
                   {shopsList.map((shop, key) => {
-                    return <span onClick={() => clickOnShop(shop[0])} data-shop={shop[0]}>{shop[0]} <i className="counter">{shop[1]}</i></span>
+                    if(shop[1] === 0) {
+                      return <span className='filter-shop-no-interest' key={key} onClick={() => clickOnShop(shop[0])} data-shop={shop[0]}>{shop[0]}</span>
+                    } else {
+                      return <span key={key} onClick={() => clickOnShop(shop[0])} data-shop={shop[0]}>{shop[0]} <i className="counter">{shop[1]}</i></span>
+                    }
                   })}
                 </div>
                 <div className="filter-cat">
