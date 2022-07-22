@@ -43,8 +43,6 @@ def returnOffers():
             else:
                 offer.update({"deal": "€" +str(i['NormalPrice']) })
                 # FIXME misschien zijn er andere type deals
-
-            # date start en date end acterhalen
             
             fullDateStart = i['StartDate']
             startDate = datetime.fromisoformat(fullDateStart).date()
