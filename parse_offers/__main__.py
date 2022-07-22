@@ -3,6 +3,7 @@ import jumbo
 import lidl
 import aldi
 import ekoplaza
+import dirk
 import plus
 import json
 import shutil
@@ -111,6 +112,12 @@ if __name__ == "__main__":
         allOffers = allOffers + aldiOffers
     except:
         print("🟥 Aanbiedingen ophalen voor Aldi mislukt, wordt overgeslagen.")
+
+    try:
+        dirkOffers = dirk.returnOffers()
+        allOffers = allOffers + dirkOffers
+    except:
+        print("🟥 Aanbiedingen ophalen voor Dirk mislukt, wordt overgeslagen.")
 
     try:
         ekoplazaOffers = ekoplaza.returnOffers()
