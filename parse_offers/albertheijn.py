@@ -60,15 +60,6 @@ def returnOffers():
                 startDateValidity = i['validityPeriod']['start']
                 endDateValidity = i['validityPeriod']['end']
 
-                # By weeknumber not needed, because dates are provided
-                # weekNumber = href.split("week=")[-1]
-                # now = datetime.now()
-                # startDateTime = str(datetime.fromisocalendar(now.year, int(weekNumber), 1))
-                # endDateTime = str(datetime.fromisocalendar(now.year, int(weekNumber), 7))
-                # startDate = startDateTime.split(" ")
-                # endDate = endDateTime.split(" ")                
-                # offer.update({"dateStart": startDate[0]})
-                # offer.update({"dateEnd": endDate[0]})
                 offer.update({"dateStart": startDateValidity})
                 offer.update({"dateEnd": endDateValidity})
 
