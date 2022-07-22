@@ -41,7 +41,7 @@ def returnOffers():
                 calculateDeal = int((1 - (float(price)/float(oldPrice))) * 100)
                 offer.update({"deal": str(calculateDeal) + "% korting" })
             else:
-                offer.update({"deal": "€" +str(i['NormalPrice']) })
+                offer.update({"deal": "€" +str(price) })
                 # FIXME misschien zijn er andere type deals
             
             fullDateStart = i['StartDate']
