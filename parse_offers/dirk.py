@@ -46,11 +46,11 @@ def returnOffers():
             
             fullDateStart = i['StartDate']
             startDate = datetime.fromisoformat(fullDateStart).date()
-            offer.update({"dateStart": startDate})
+            offer.update({"dateStart": str(startDate)})
 
             fullDateEnd = i['EndDate']
             endDate = datetime.fromisoformat(fullDateEnd).date()
-            offer.update({"dateEnd": endDate})
+            offer.update({"dateEnd": str(endDate)})
 
             if i['ProductOffers'][0]['Product']['ProductPicture']['Url'] != None:
                 imageUrl = i['ProductOffers'][0]['Product']['ProductPicture']['Url'] + "?width=170&height=170&mode=crop"
