@@ -52,8 +52,10 @@ def returnOffers():
             endDate = datetime.fromisoformat(fullDateEnd).date()
             offer.update({"dateEnd": endDate})
 
-            if i['ImageUrl'] != None:
-                offer.update({"image": i['ImageUrl']})
+            if i['ProductOffers'][0]['Product']['ProductPicture']['Url'] != None:
+                imageUrl = i['ProductOffers'][0]['Product']['ProductPicture']['Url'] + "?width=170&height=170&mode=crop"
+                offer.update({"image": imageUrl})
+                print(imageUrl)
 
             if i['OfferUrls'][0]['Url'] != None:
                 # https://www.dirk.nl/aanbiedingen/ambachtelijke-salade/84338
