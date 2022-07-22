@@ -57,6 +57,7 @@
             "kipkrokantschnitzel", "vlees", "blikboterhamworst", "varkensschnitzel", "spekburgers", "varkensvlees",
             "runderriblappen", "kogelbiefstuk", "hamburgers", "pancetta", "mortadella", "gehaktrollen",
             "runderchipolata's", "buikspek", "rosbief", "kalsfricandeau", "knakworsten",
+            "slavlinders", "kiphaasjes", "runderlappen", "kwartponders", 
             "nasi-bamivlees", "runderworst", "rundersteaks", "kip-kaasschnitzels", "hamreepjes", "kipreepjes", "hamblokjes",
             "boeren-kipgehaktschnitzel", "cervelaatworst", "seizoenspaté", "katenspek", "kipshoarma",
             "rundergoulash", "kipschotel", "boerenmetworst", "wienerschnitzel", "wienerschnitzels", "kipfiletstukjes"
@@ -136,7 +137,8 @@
             "notenbol", "kaas-uienbrood", "danerolles", "boerentarwe", "spinazie-kaasbroodje",
             "maïsbollen", "kornbollen", "snackbroodje", "snackbroodjes", "gehaktbalbroodje",
             "kruidenbroodjes", "bagels", "dadel-vijgenbrood", "tijgerbol", "chili-cheddar-broodje",
-            "roombotercroissants", "vanille-karamelcroissant", "walnootroggebrood", "naanbrood"
+            "roombotercroissants", "vanille-karamelcroissant", "walnootroggebrood", "naanbrood",
+            "boerenbruin", "boerenwit"
         ],
         "ignore": ["kaas", "salade", "cookie", "cookies", "gebak", 
             "hartjesgebak", "salades", "chips", "donut", "donuts", 
@@ -151,7 +153,7 @@
             "maman", "smeerkaas", "smeerkaaspuntjes", "venz", "linzenspread", "broodsalade",
             "boterhampasta", "fruitspread", "kerstomaatspread", "mierikswortelspread",
             "tomatenspread", "basilicumspread", "gemberspread", "groentespread", "pijnboompittenspread",
-            "preispread", "marmelade", "penotti", "speculoos"
+            "preispread", "marmelade", "penotti", "speculoos", "aardbeienjam", "abrikozenjam"
         ],
         "ignore": ["saus", "mosterd", "zeep",
             "variatiesauzen", "mayonaise", "snacksaus",
@@ -178,7 +180,7 @@
             "parrano", "feta", "fondue", "parmazan", "camembert","parmigiano", "reggiano", 
             "gorgonzola", "mozzerella", "buffelmozzerella", "mozzarella", "kaasplateau", "babybell", "babybel", 
             "vache", "nurishh", "salut", "burrata", "kaaswiel", "strooikaas", "taleggio",
-            "ovengratin", "cheesestrings", "manchego", "wapenaer",
+            "ovengratin", "cheesestrings", "manchego", "wapenaer", "kaasblokjes",
             "moravia", "geitenkaasschijfjes", "hüttenkäse", "kaasplateaus", "uniekaas", "cheddar"
         ],
         "ignore": ["gehakt", "meergranen", "broodje", "maisbroodje", "gebraden", "kipgrillworst", "grillworst", "vegan", "bollen", "uien"]
@@ -189,10 +191,10 @@
              "kwark", "haverdrank", "vla", "skyr", "drinkyoghurt", "roomyoghurt", "yoghurt", "zuivelspread",
              "lurpak", "vruchtenkwark", "arla", "kuipen", "boter", "roomboter", "boerenboter", "roomboterfiguur",
              "geitenmelk", "geitenyoghurt", "kvarg", "kefir", "kokosdessert", "yogarde",
-             "bosbessenyoghurt", "halvarine", "almhof", "margarine", "alpro", "wunda",
+             "bosbessenyoghurt", "halvarine", "almhof", "margarine", "alpro", "wunda", "danone",
              "zuivelhoeve", "boerderijzuivel", "zeezoutboter", "kruidenboter", "knoflookboter"
         ],
-        "ignore": ["taart", "gebak", "custardcakes", "appelcake", "galettes"]
+        "ignore": ["taart", "gebak", "custardcakes", "appelcake", "galettes", "boterkoeken"]
     },
     {
         "name": "vis",
@@ -247,12 +249,12 @@
             "handsinaasappels", "citroenen", "watermeloen", "frambozen", "nectarines", "mango", "mango's", "appels", "calinda",
             "appeltjes","kiwi", "kiwi's", "meloen", "conference", "peren", "ananas", "granaatappel", 
             "elstar", "jonagold", "natyra", "diepvriesfruit", "handsinaasappelen", "limoenen",
-            "perzik",
+            "perzik", "appelen",
             "handappels", "perziken", "bananen", "abrikozen", "vijgen", "cranberries", "kersen"
         ],
         "ignore": ["kwark", "passievruchtkwark", "vruchtenkwark", "coebergh","vodka", "taart", "oetker", "trifle", 
             "nectar", "gebak", "fruittella", "olvarit", "linzenspread", "tea", "limonadesiroop", "cocktail", "cake",
-            "roomyoghurt", "yoghurt", "maman", "spa", "icepops", "river", "douchegel", "kombucha", 
+            "roomyoghurt", "yoghurt", "maman", "spa", "icepops", "river", "douchegel", "kombucha", "danone",
             "badgel", "bodylotion", "elitehaver", "noten", "koekrepen", "muffins", "limonade", "granola"]
     },
     {
@@ -284,7 +286,8 @@
             "berberana", "fortaleza", "wijnfavoriet", "wijnfavorieten",
             "balmont", "hardys", "deetlefs", "stonecross", "tessa",
             "vinho", "vila", "château", "marzenac", "moncaro", "rosato",
-            "2wine", "almirante", "sangre", "roche"
+            "2wine", "almirante", "sangre", "roche", "villa",
+            "moscato", "qué", "horse"
         ],
         "ignore": ["vruchtenspread", "verkade", "nizza", "sprits"]
     },
@@ -300,7 +303,7 @@
             "gezichtsverzorging", "luiers", "zonnebrand", "zonnebrandcrème", "aftersun", "snoetenpoetsers", "supplementen",
             "mondkapje", "mondkapjes", "cosmetica", "baby", "toiletpapier", "soft-picks", "verzorging", "libresse",
             "bepanthen", "voetbandage", "gilette", "anti-insectenspray", "anti-tekenspray", "zeep",
-            "haarzeep", "tekentang", "handzepen", "na-de-beet",
+            "haarzeep", "tekentang", "handzepen", "na-de-beet", "tena",
             "bodybutter", "bodyscrub", "handcrème", "huidcrème", "nachtcrème", "dagcrème", "covid-19", "zelftest",
             "douche", "cosmetics", "bodymilk", "hair", "gezichtsscrub", "shampoobar", "conditionerbar", "haarwax",
             "haarspray", "make-up", "huid", "haargel", "perskindol", "ambre", "mondverzorging", "haarverzorgingsproducten", 
@@ -464,7 +467,7 @@
             "aardbeienschelpjes", "bosvruchtenslof", "citroenslofjes", "appelflap",
             "hazelnootgebak", "hazelnootgebakjes", "kersenhoef", "abrikozencarré",
             "vanille-roomvlaai", "chocotaart", "paassoesjes", "rijstevlaai", "bladerdeegschelpen",
-            "banketbakkersroom",
+            "banketbakkersroom", "aardbeienschnitt", "appel-kaneeltaart",
             "tompouce", "aardbeienbavarois", "roomboter-appeltaart", "kersenflap",
             "roombroodjes", "roombroodje", "vlaai", "paasgebak", "paasgebakjes", "banket",
             "banketbakkerij", "paasvlaaitjes", "cupcake", "appelovaaltjes",
