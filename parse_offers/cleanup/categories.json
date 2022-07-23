@@ -57,7 +57,7 @@
             "kipkrokantschnitzel", "vlees", "blikboterhamworst", "varkensschnitzel", "spekburgers", "varkensvlees",
             "runderriblappen", "kogelbiefstuk", "hamburgers", "pancetta", "mortadella", "gehaktrollen",
             "runderchipolata's", "buikspek", "rosbief", "kalsfricandeau", "knakworsten",
-            "slavlinders", "kiphaasjes", "runderlappen", "kwartponders", 
+            "slavlinders", "kiphaasjes", "runderlappen", "kwartponders", "bbq-seizoen",
             "nasi-bamivlees", "runderworst", "rundersteaks", "kip-kaasschnitzels", "hamreepjes", "kipreepjes", "hamblokjes",
             "boeren-kipgehaktschnitzel", "cervelaatworst", "seizoenspaté", "katenspek", "kipshoarma",
             "rundergoulash", "kipschotel", "boerenmetworst", "wienerschnitzel", "wienerschnitzels", "kipfiletstukjes"
@@ -138,7 +138,7 @@
             "maïsbollen", "kornbollen", "snackbroodje", "snackbroodjes", "gehaktbalbroodje",
             "kruidenbroodjes", "bagels", "dadel-vijgenbrood", "tijgerbol", "chili-cheddar-broodje",
             "roombotercroissants", "vanille-karamelcroissant", "walnootroggebrood", "naanbrood",
-            "boerenbruin", "boerenwit"
+            "boerenbruin", "boerenwit", "tijgerbrood"
         ],
         "ignore": ["kaas", "salade", "cookie", "cookies", "gebak", 
             "hartjesgebak", "salades", "chips", "donut", "donuts", 
@@ -180,8 +180,9 @@
             "parrano", "feta", "fondue", "parmazan", "camembert","parmigiano", "reggiano", 
             "gorgonzola", "mozzerella", "buffelmozzerella", "mozzarella", "kaasplateau", "babybell", "babybel", 
             "vache", "nurishh", "salut", "burrata", "kaaswiel", "strooikaas", "taleggio",
-            "ovengratin", "cheesestrings", "manchego", "wapenaer", "kaasblokjes",
-            "moravia", "geitenkaasschijfjes", "hüttenkäse", "kaasplateaus", "uniekaas", "cheddar"
+            "ovengratin", "cheesestrings", "manchego", "wapenaer", "kaasblokjes", "kaasstukken",
+            "moravia", "geitenkaasschijfjes", "hüttenkäse", "kaasplateaus", "uniekaas", "cheddar",
+            "kaasspecialiteiten"
         ],
         "ignore": ["gehakt", "meergranen", "broodje", "maisbroodje", "gebraden", "kipgrillworst", "grillworst", "vegan", "bollen", "uien"]
     },
@@ -287,7 +288,7 @@
             "balmont", "hardys", "deetlefs", "stonecross", "tessa",
             "vinho", "vila", "château", "marzenac", "moncaro", "rosato",
             "2wine", "almirante", "sangre", "roche", "villa",
-            "moscato", "qué", "horse"
+            "moscato", "qué", "horse", "favorite"
         ],
         "ignore": ["vruchtenspread", "verkade", "nizza", "sprits"]
     },
@@ -502,11 +503,11 @@
             "vrieslollies", "festini", "calippo", "magnum", "roomijs", "slagroomijs",
             "schepijs", "häagen-dazs", "viennetta", "waterijs", "waterijsjes", 
             "sorbetijs", "ice", "fruitijs", "fruitijsjes", "ijsstam", "mucci",
-            "ijslolly's", "ijsrepen",
+            "ijslolly's", "ijsrepen", 
             "ijstaart", "icepops", "cornetto", "chocoladeroomijsjes", "ijsbeker"
         ],
         "ignore": ["lipton", "tea", "wijn", "wijnen", "rosé", "stimorol",
-        "prosecco"]
+        "prosecco", "koek"]
     },
     {
         "name": "snoep",
@@ -518,6 +519,7 @@
             "spekjes", "napoleon", "gummi", "maoam", "frisia", "werther's", "toffee",
             "toffees", "lonka", "gomballen", "matten", "kauwgom", "freshlife",
             "uitdeelsnoep", "stimorol", "celebrations", "snoepgoed", "toffifee", 
+            "muntdrop", "honingdrop",
             "tumtum", "trolli", "fishermans", "candybars", "dropmakers", "dropschelpen"
         ],
         "ignore": ["blue"]
