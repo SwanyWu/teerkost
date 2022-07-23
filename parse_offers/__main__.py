@@ -5,6 +5,7 @@ import aldi
 import ekoplaza
 import dirk
 import plus
+import spar
 import json
 import shutil
 import requests
@@ -118,6 +119,12 @@ if __name__ == "__main__":
         allOffers = allOffers + dirkOffers
     except:
         print("🟥 Aanbiedingen ophalen voor Dirk mislukt, wordt overgeslagen.")
+
+    try:
+        sparOffers = spar.returnOffers()
+        allOffers = allOffers + sparOffers
+    except:
+        print("🟥 Aanbiedingen ophalen voor Spar mislukt, wordt overgeslagen.")
 
     try:
         ekoplazaOffers = ekoplaza.returnOffers()
