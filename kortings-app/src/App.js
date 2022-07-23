@@ -26,7 +26,7 @@ function App() {
     return parsedProduct;
   }
 
-  const shops = ["jumbo", "aldi", "ah", "lidl", "plus", "ekoplaza", "dirk"]
+  const shops = ["jumbo", "aldi", "ah", "lidl", "plus", "ekoplaza", "dirk", "spar"]
 
   return (
     <div className="App">
