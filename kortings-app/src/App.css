@@ -1042,7 +1042,6 @@ input.filter-search {
 .product-bookmark-true:hover {
   color: #777;
   background: #c4c4c433;
-
 }
 
 .product-header {
@@ -1078,6 +1077,11 @@ input.filter-search {
 }
 .product-header.dirk {
   background: #bd4451;
+  color: #FFF;
+}
+
+.product-header.spar {
+  background: #007a33;
   color: #FFF;
 }
 
