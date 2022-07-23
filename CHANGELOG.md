@@ -2,6 +2,11 @@
 
 All notable changes to the project are documented here. There is no versioning for now. Just what is changed on what date.
 
+# 23-07-2022
+
+### Added
+- Shop 'Spar' to the parser.
+  
 # 22-07-2022
 
 ### Added
