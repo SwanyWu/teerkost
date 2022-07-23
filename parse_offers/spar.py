@@ -21,9 +21,9 @@ def returnOffers():
             # de aanbiedingen uit deze folder zijn geldig van 21-07-2022 t/m 03-08-2022
             splitContent.reverse()
             # 03-08-2022 t/m 21-07-2022 van geldig zijn folder deze uit aanbiedingen de
-            dateStart = splitContent[0]
+            dateStart = splitContent[2]
             dateStartString = datetime.strptime(dateStart, "%d-%m-%Y").date()
-            dateEnd = splitContent[2]
+            dateEnd = splitContent[0]
             dateEndString = datetime.strptime(dateEnd, "%d-%m-%Y").date()
         else:
             print("Kan geen info vinden over start- en einddatum!")
