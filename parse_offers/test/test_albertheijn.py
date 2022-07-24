@@ -18,7 +18,14 @@ class TestAlbertHeijn(unittest.TestCase):
         ✅ Alle Albert Heijn aanbiedingen hebben een titel 👉 
         """
         for item in collection:
-            self.assertTrue(item['product'] != '') # Item heeft een titel
+            self.assertTrue(item['product'] != '')
+
+    def test_list_has_product_title(self):
+        """
+        ✅ Alle prijzen zijn een nummer 👉 
+        """
+        for item in collection:
+            self.assertTrue(isinstance(item['price'], float))
 
     def test_list_has_product_id(self):
         """

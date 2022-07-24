@@ -25,7 +25,14 @@ class TestAldi(unittest.TestCase):
         ✅ Alle Aldi aanbiedingen hebben een productId 👉 
         """
         for item in collection:
-            self.assertTrue(item['productId'] != '')               
+            self.assertTrue(item['productId'] != '')   
+            
+    def test_list_has_product_title(self):
+        """
+        ✅ Alle prijzen zijn een nummer 👉 
+        """
+        for item in collection:
+            self.assertTrue(isinstance(item['price'], float))                    
 
     def test_list_has_product_deal(self):
         """
