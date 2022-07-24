@@ -33,13 +33,15 @@ def returnOffers():
                 calculateDeal = 0
                 if('price' in i):
                     priceNow = i['price']['now']
+                    priceNow = "{:.2f}".format(priceNow)
                     try:
                         priceOld = i['price']['was']
+
                         calculateDeal = int((1 - (float(priceNow)/float(priceOld))) * 100)
                     except KeyError:
                         pass
-
-                    offer.update({"price": priceNow})
+                    
+                    offer.update({"price": float(priceNow)})
                 
 
                 if('shields' in i):

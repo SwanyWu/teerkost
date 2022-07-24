@@ -39,8 +39,14 @@ def returnOffers():
             if "voor € " in deal: # when "voor €" is found, the price can be calculated
                 deal = deal.split("voor € ")
                 price = deal[1]
-                offer.update({"price": price.replace(",", ".")})
+                price = price.replace(",", ".")
+                price = float(price)
+                price = float(format(price, '.2f')) 
+                offer.update({"price": price})
 
+            if(offer['price'] == 0):
+                offer.update({"price": float(0)})
+                
             if "promotionImage" in i:
                 offer.update({"image": i['promotionImage']['main']})
             else:

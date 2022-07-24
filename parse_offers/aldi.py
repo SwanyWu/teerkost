@@ -152,6 +152,12 @@ def returnOffers():
             offer.update({"category": categorize.findCategoryForProduct(cleanTitle, cleanInfo)})
             offer.update({"image": imageLink})
             offer.update({"deal": deal})
+
+            if price.count('.') == 2:
+                price = price.replace(".", "", 1)
+
+            price = float(format(float(price), '.2f')) 
+
             offer.update({"price": price})
             offer.update({"dateStart": dateStart})
             offer.update({"dateEnd": dateEnd})
