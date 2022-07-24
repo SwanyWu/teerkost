@@ -34,6 +34,13 @@ class TestSpar(unittest.TestCase):
         for item in collection:
             self.assertTrue(item['deal'] != '')
 
+    def test_list_prices_are_numbers(self):
+        """
+        ✅ Alle prijzen zijn een nummer 👉 
+        """
+        for item in collection:
+            self.assertTrue(isinstance(item['price'], float))   
+            
     def test_list_has_product_date_start(self):
         """
         ✅ Alle Spar aanbiedingen hebben een startdatum 👉 

@@ -106,7 +106,7 @@ def returnOffers():
         title = ""
         info = ""
         imageLink = ""
-        price = ""
+        price = 0
         deal = ""
         link = ""
 
@@ -142,12 +142,12 @@ def returnOffers():
                     discount = formatNumberAsFloat(splitClover[0]) # a discount is found
                     newPrice = float(oldPrice) - float(discount)
                     deal = calculatePercentage(oldPrice, newPrice) + "% korting"
-                    price = str(newPrice)
+                    price = float(str(newPrice))
             elif "VOOR" in clover:
                 splitClover = clover.split("VOOR")
                 formattedPrice = formatNumberAsFloat(splitClover[1])
                 deal = splitClover[0] + "voor " + formattedPrice
-                price = formattedPrice
+                price = float(formattedPrice)
             elif "+1GRATIS" in clover:
                 splitClover = clover.split("+")
                 deal = splitClover[0] + "+1 gratis"
@@ -157,7 +157,7 @@ def returnOffers():
                 prijsKilo = splitClover[1]
                 newPrice = formatNumberAsFloat(prijsKilo)
                 percentage = calculatePercentage(oldPrice, newPrice)
-                price = newPrice
+                price = float(newPrice)
                 if float(percentage) < 0.0:
                     print("Wait wut, korting van " + str(percentage) + "%")
                 else:
@@ -167,7 +167,7 @@ def returnOffers():
                 prijsKilo = splitClover[1]
                 newPrice = formatNumberAsFloat(prijsKilo)
                 percentage = calculatePercentage(oldPrice, newPrice)
-                price = newPrice
+                price = float(newPrice)
                 if float(percentage) < 0.0:
                     print("Wait wut, korting van " + str(percentage) + "%")
                 else:
@@ -226,7 +226,7 @@ def returnOffers():
         offer.update({"deal": deal})
         offer.update({"dateStart": dateStart})
         offer.update({"dateEnd": dateEnd})
-        offer.update({"price": price})
+        offer.update({"price": float(price)})
         offer.update({"image": imageLink})
         offer.update({"link": link})
         offer.update({"shop": SHOP})

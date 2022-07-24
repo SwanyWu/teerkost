@@ -94,7 +94,7 @@ def returnOffers():
                     newPrice = base + decimal
                     newPrice = newPrice.rstrip(".-")
                     oldPrice = oldPrice.get_text().strip().rstrip(".-")
-                    offer.update({"price": newPrice})
+                    offer.update({"price": float(newPrice)})
 
                     calculateDeal = int((1 - (float(newPrice)/float(oldPrice))) * 100)
                     deal = str(calculateDeal) + "% korting"
