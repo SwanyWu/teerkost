@@ -27,7 +27,7 @@ class TestJumbo(unittest.TestCase):
         for item in collection:
             self.assertTrue(item['productId'] != '')    
 
-    def test_list_has_product_title(self):
+    def test_list_prices_are_numbers(self):
         """
         ✅ Alle prijzen zijn een nummer 👉 
         """

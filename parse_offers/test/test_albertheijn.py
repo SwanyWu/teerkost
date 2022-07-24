@@ -20,12 +20,12 @@ class TestAlbertHeijn(unittest.TestCase):
         for item in collection:
             self.assertTrue(item['product'] != '')
 
-    def test_list_has_product_title(self):
+    def test_list_prices_are_numbers(self):
         """
         ✅ Alle prijzen zijn een nummer 👉 
         """
         for item in collection:
-            self.assertTrue(isinstance(item['price'], float))
+            self.assertTrue(isinstance(item['price'], float))      
 
     def test_list_has_product_id(self):
         """
