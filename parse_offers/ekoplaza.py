@@ -156,7 +156,7 @@ def returnOffers():
         offer.update({"deal": deal})
         offer.update({"dateStart": dateStart})
         offer.update({"dateEnd": dateEnd})
-        offer.update({"price": price})
+        offer.update({"price": float(price)})
         offer.update({"image": imageLink})
         offer.update({"link": link})
         offer.update({"shop": SHOP})
