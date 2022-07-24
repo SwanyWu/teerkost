@@ -34,7 +34,7 @@ def returnOffers():
         title = ""
         description = ""
         date = ""
-        price = ""
+        price = 0
         imageUrl = ""
         link = ""
 
@@ -58,7 +58,7 @@ def returnOffers():
 
         price = loadJsonList[0]['price']['price']
         if type(price) == type(None):
-            price = ""
+            price = 0
 
         imageUrl = loadJsonList[0]['image']
         
@@ -82,7 +82,7 @@ def returnOffers():
         offer.update({"productId": productId})
 
         offer.update({"shop": SHOP})
-        offer.update({"price": price})
+        offer.update({"price": float(price)})
         offer.update({"image": imageUrl})
         offer.update({"link": link})
         offer.update({"deal": deal})
