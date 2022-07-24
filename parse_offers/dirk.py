@@ -34,7 +34,7 @@ def returnOffers():
                 offer.update({"productInfo": cleanInfo})
 
             price = i['OfferPrice'];
-            offer.update({"price": price})
+            offer.update({"price": float(price)})
 
             if i['NormalPrice'] != None:
                 oldPrice = i['NormalPrice']
@@ -55,7 +55,6 @@ def returnOffers():
             if i['ProductOffers'][0]['Product']['ProductPicture']['Url'] != None:
                 imageUrl = i['ProductOffers'][0]['Product']['ProductPicture']['Url'] + "?width=170&height=170&mode=crop"
                 offer.update({"image": imageUrl})
-                print(imageUrl)
 
             if i['OfferUrls'][0]['Url'] != None:
                 # https://www.dirk.nl/aanbiedingen/ambachtelijke-salade/84338
