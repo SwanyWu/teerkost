@@ -35,6 +35,9 @@ def cleanUpInfo(infoText):
         for word in badWords:
             infoText = infoText.replace(word, '')
 
-    cleanInfoText = infoText.strip().capitalize()
+    if len(infoText) == 1:
+        infoText = ""
+
+    cleanInfoText = infoText.strip().rstrip(".").capitalize()
     
     return cleanInfoText
