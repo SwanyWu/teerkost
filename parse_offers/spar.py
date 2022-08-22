@@ -37,7 +37,7 @@ def returnOffers():
         "category":"", 
         "image":"", 
         "deal":"", 
-        "price": 0, 
+        "price": float("0"), 
         "dateStart":"",
         "dateEnd":"", 
         "link": "", 
