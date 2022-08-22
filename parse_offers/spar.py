@@ -110,15 +110,19 @@ def returnOffers():
                 r = requests.get(fullLink)
                 soup = BeautifulSoup(r.content, "html.parser")
                 promotionSummary = soup.find("div", {"class":"c-promotion-summary__content"})
-                promotion = promotionSummary.select_one("strong").get_text().strip()
-                if len(promotion) > 20:
-                    promotionSplitted = promotion.split("voor")
-                    promotionSplitted.reverse()
-                    deal = "voor" + promotionSplitted[0]
-                    offer.update({"deal": deal })    
-                else:    
-                    deal = promotion
-                    offer.update({"deal": deal })    
+                promotionSummaryDeal = promotionSummary.select_one("strong")
+                if promotionSummaryDeal != None:
+                    promotion = promotionSummary.get_text().strip()
+                    if len(promotion) > 20:
+                        promotionSplitted = promotion.split("voor")
+                        promotionSplitted.reverse()
+                        deal = "voor" + promotionSplitted[0]
+                        offer.update({"deal": deal })    
+                    else:    
+                        deal = promotion
+                        offer.update({"deal": deal })
+                else:
+                    print("Kan geen deal vinden op productpagina!")            
             else:
                 print("Geen prijs en geen URL")
 
