@@ -110,7 +110,7 @@ def returnOffers():
                 r = requests.get(fullLink)
                 soup = BeautifulSoup(r.content, "html.parser")
                 promotionSummary = soup.find("div", {"class":"c-promotion-summary__content"})
-                promotion = promotionSummary.select_one('h4').get_text().strip()
+                promotion = promotionSummary.select_one("strong").get_text().strip()
                 if len(promotion) > 20:
                     promotionSplitted = promotion.split("voor")
                     promotionSplitted.reverse()
@@ -124,7 +124,6 @@ def returnOffers():
 
         offer.update({"dateStart": str(dateStartString)})
         offer.update({"dateEnd": str(dateEndString)})
-
         if(offer.get('deal') != ""): # if no deal is found, don't add it
             collection.append(offer)
 
