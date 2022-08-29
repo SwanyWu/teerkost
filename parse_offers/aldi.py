@@ -135,6 +135,10 @@ def returnOffers():
                 deal = str(priceLabel) + " korting"
             else:
                 if oldPrice != "" and price != "": # calculate the deal when old and new price is found
+                    if len(price) == 8: # when price to large to convert to float
+                        price = price.replace(".", "", 1)
+                    if len(oldPrice) == 8:
+                        oldPrice = oldPrice.replace(".", "", 1)
                     calculateDeal = int((1 - (float(price)/float(oldPrice))) * 100)
                     deal = str(calculateDeal) + "% korting"
                 else:
