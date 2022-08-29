@@ -50,11 +50,17 @@ def returnOffers():
         if type(deal) != type(None):
             deal = deal.lower()
         else:
-            discount = loadJsonList[0]['price']['discount']['percentageDiscount']
+            discount = loadJsonList[0]['price']['discount']
             if type(discount) != type(None):
-                deal = str(discount) + "% korting"
+                discountPercentage = loadJsonList[0]['price']['discount']['percentageDiscount']
+                if type(discountPercentage) != type(None):
+                    deal = str(discountPercentage) + "% korting"
+                else:
+                    deal = ""
+                    print("geen percentage voor "+ title)
+                    print(loadJsonList[0])
             else:
-                deal = ""
+              deal = ""
 
         price = loadJsonList[0]['price']['price']
         if type(price) == type(None):
