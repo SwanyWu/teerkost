@@ -98,7 +98,6 @@ def returnOffers():
 
                     calculateDeal = int((1 - (float(newPrice)/float(oldPrice))) * 100)
                     deal = str(calculateDeal) + "% korting"
-                    offer.update({"deal": deal })    
                 else:
                     print("Geen nieuwe prijs, geen deal")
             else:
@@ -112,19 +111,27 @@ def returnOffers():
                 promotionSummary = soup.find("div", {"class":"c-promotion-summary__content"})
                 promotionSummaryDeal = promotionSummary.select_one("h4")
                 if promotionSummaryDeal != None:
-                    promotion = promotionSummary.get_text().strip()
+                    promotion = promotionSummaryDeal.get_text().strip()
                     if len(promotion) > 20:
-                        promotionSplitted = promotion.split("voor")
-                        promotionSplitted.reverse()
-                        deal = "voor" + promotionSplitted[0]
-                        offer.update({"deal": deal })    
+                        if 'nu met' in deal:
+                            deal = deal.replace('nu met', '')
+                        else:
+                            if 'voor' in deal:
+                                promotionSplitted = promotion.split("voor")
+                                promotionSplitted.reverse()
+                                deal = "voor" + promotionSplitted[0]
                     else:    
                         deal = promotion
-                        offer.update({"deal": deal })
                 else:
                     print("Kan geen deal vinden op " + fullLink)            
             else:
                 print("Geen prijs en geen URL")
+
+        deal = deal.replace('!', '')
+        deal = deal.replace('Nu ', '')
+        deal = deal.replace('nu ', '')
+        offer.update({"deal": deal })   
+        print("Deal: " + deal) 
 
         offer.update({"dateStart": str(dateStartString)})
         offer.update({"dateEnd": str(dateEndString)})
