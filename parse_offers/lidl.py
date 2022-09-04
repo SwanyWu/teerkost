@@ -57,10 +57,13 @@ def returnOffers():
                     deal = str(discountPercentage) + "% korting"
                 else:
                     deal = ""
-                    print("geen percentage voor "+ title)
-                    print(loadJsonList[0])
+                    # no percentage or deal found, so use discountText
+                    deal = str(loadJsonList[0]['price']['discount']['discountText']).lower()
+
             else:
               deal = ""
+              print("Geen aanbieding gevonden voor " + title)
+              # deal is on the image
 
         price = loadJsonList[0]['price']['price']
         if type(price) == type(None):
@@ -91,7 +94,6 @@ def returnOffers():
         offer.update({"price": float(price)})
         offer.update({"image": imageUrl})
         offer.update({"link": link})
-        offer.update({"deal": deal})
 
         date = loadJsonList[0]['ribbons'][0]['text']
         if len(date) != 0: # check if something of a date is found
@@ -105,24 +107,31 @@ def returnOffers():
                 fullDateStart = str(currentYear) + "-" + monthStart + "-" + dayStart
                 offer.update({"dateStart": fullDateStart})
             else: # start and end date is provided
-                date = date.split(" - ")
-                dateStringEnd = date[1].split(" ")
-                dateStringEnd = dateStringEnd[1].split("/")
-                dayEnd = dateStringEnd[0]
-                monthEnd = dateStringEnd[1]
+                if "/" in date:
+                    date = date.split(" - ")
+                    dateStringEnd = date[1].split(" ")
+                    dateStringEnd = dateStringEnd[1].split("/")
+                    dayEnd = dateStringEnd[0]
+                    monthEnd = dateStringEnd[1]
 
-                dateStringStart = date[0].split(" ")
-                dateStringStart = dateStringStart[1].split("/")
-                dayStart = dateStringStart[0]
-                monthStart = dateStringStart[1]
+                    dateStringStart = date[0].split(" ")
+                    dateStringStart = dateStringStart[1].split("/")
+                    dayStart = dateStringStart[0]
+                    monthStart = dateStringStart[1]
 
-                currentYear = datetime.datetime.now().year
+                    currentYear = datetime.datetime.now().year
 
-                fullDateEnd = str(currentYear) + "-" + monthEnd + "-" + dayEnd
-                fullDateStart = str(currentYear) + "-" + monthStart + "-" + dayStart 
-                
-                offer.update({"dateStart": fullDateStart})
-                offer.update({"dateEnd": fullDateEnd})
+                    fullDateEnd = str(currentYear) + "-" + monthEnd + "-" + dayEnd
+                    fullDateStart = str(currentYear) + "-" + monthStart + "-" + dayStart 
+                    
+                    offer.update({"dateStart": fullDateStart})
+                    offer.update({"dateEnd": fullDateEnd})
+                else: 
+                    deal = "" # no deal because no date is found
+                    print("Geen datum gevonden voor " + title)
+
+
+        offer.update({"deal": deal})
 
         if(offer.get('deal') != ""): # if no deal is found, don't add it
             collection.append(offer)
