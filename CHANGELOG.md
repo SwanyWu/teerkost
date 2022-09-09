@@ -2,6 +2,12 @@
 
 All notable changes to the project are documented here. There is no versioning for now. Just what is changed on what date.
 
+# 04-09-2022
+
+### Fixed
+- Fix for wrong deal text from 'Spar'.
+- Fix for no date or deal found from 'Lidl'.
+
 # 23-07-2022
 
 ### Added
