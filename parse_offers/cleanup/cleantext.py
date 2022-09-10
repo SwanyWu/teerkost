@@ -2,7 +2,7 @@
 def cleanUpTitle(title):
     """Removes words from a string that are not useful."""
 
-    badWords = ['PLUS ', 'Alle AH ', 'Diverse AH ', 'Alle ', 'AH ', '*', 'Jumbo ', '1 de beste ']
+    badWords = ['PLUS ', 'Alle AH ', 'Diverse AH ', 'Alle ', 'AH ', '*', 'Jumbo ', '1 de beste ', '1 de Beste ']
 
     title = title.replace("’", "'") # sanitize different kinds of apostrophes
     title = title.replace(" ", " ") # sanitize weird space character
