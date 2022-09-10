@@ -150,6 +150,9 @@ def returnOffers():
 
             if "op=op" in deal:
                 deal = "op = op"
+
+            if "voor" in deal.lower() and "€" not in deal:
+                deal = deal.replace('voor', 'voor €')    
                 
             cleanTitle = cleantext.cleanUpTitle(title)
             cleanInfo = cleantext.cleanUpInfo(info)
