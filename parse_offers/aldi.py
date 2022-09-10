@@ -142,12 +142,15 @@ def returnOffers():
                     calculateDeal = int((1 - (float(price)/float(oldPrice))) * 100)
                     deal = str(calculateDeal) + "% korting"
                 else:
-                    if "VOOR" in priceLabel or "Vanaf" in priceLabel:
+                    if "voor" in priceLabel.lower() or "vanaf" in priceLabel.lower():
                         deal = str(priceLabel.strip() + " " + price)
                     else:
                         deal = str(priceLabel)
                     deal = deal.lower()
 
+            if "op=op" in deal:
+                deal = "op = op"
+                
             cleanTitle = cleantext.cleanUpTitle(title)
             cleanInfo = cleantext.cleanUpInfo(info)
             offer.update({"productId": productIdFromLink})
@@ -155,6 +158,7 @@ def returnOffers():
             offer.update({"productInfo": cleanInfo})
             offer.update({"category": categorize.findCategoryForProduct(cleanTitle, cleanInfo)})
             offer.update({"image": imageLink})
+
             offer.update({"deal": deal})
 
             if price.count('.') == 2:
