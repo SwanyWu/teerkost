@@ -2,6 +2,11 @@
 
 All notable changes to the project are documented here. There is no versioning for now. Just what is changed on what date.
 
+# 10-09-2022
+
+### Changed
+- Deal text more consistent across shops.
+
 # 04-09-2022
 
 ### Fixed
