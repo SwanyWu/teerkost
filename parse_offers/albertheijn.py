@@ -48,12 +48,17 @@ def returnOffers():
                     shield = i['shields'][0]['text']
                     dealString = " ".join(str(x) for x in shield)
                     if "nu voor" in dealString and calculateDeal != 0: # when "nu voor" is found, use discount percentage as deal
-                        offer.update({"deal": str(calculateDeal) + "% korting"})
+                        deal = str(calculateDeal) + "% korting"
                     else:
-                        offer.update({"deal": dealString })
+                        deal = dealString
 
                     if "2e gratis" in dealString:
-                        offer.update({"deal": "1+1 gratis"})
+                        deal = "1+1 gratis"
+
+                if "voor" in deal.lower() and "€" not in deal:
+                    deal = deal.replace('voor', 'voor €')
+                    
+                offer.update({"deal": deal})
 
                 offer.update({"image": i['image']['src']})
 
