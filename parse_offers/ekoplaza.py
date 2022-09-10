@@ -147,6 +147,9 @@ def returnOffers():
             "link": "", 
             "shop":""}
 
+        if "voor" in deal.lower() and "€" not in deal:
+            deal = deal.replace('voor', 'voor €')
+
         cleanTitle = cleantext.cleanUpTitle(title)
         cleanInfo = cleantext.cleanUpInfo(info)
         offer.update({"productId": productId})

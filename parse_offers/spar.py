@@ -130,6 +130,7 @@ def returnOffers():
         deal = deal.replace('!', '')
         deal = deal.replace('Nu ', '')
         deal = deal.replace('nu ', '')
+        deal = deal.replace('stuks voor', 'voor')
         offer.update({"deal": deal })   
         print("Deal: " + deal) 
 
