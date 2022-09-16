@@ -263,7 +263,6 @@ function Main(props) {
                   <span onClick={() => clickOnDeal("40% korting")} data-deal="40% korting">40%</span>
                   <span onClick={() => clickOnDeal("50% korting")} data-deal="50% korting">50%</span>
                   <span onClick={() => clickOnDeal("2e halve prijs")} data-deal="2e halve prijs">2e halve prijs</span>
-                  <span onClick={() => clickOnDeal("op=op")} data-deal="op=op">op=op</span>
                 </div>
             </div>
             </div>
