@@ -262,21 +262,6 @@ header.header-title {
   font-size: .7em;
 }
 
-/* .search-button {
-
-}
-.search-button-tag {
-  display: inline-block;
-  padding: 0px;
-  vertical-align: top;
-  margin-left: 7px;
-  font-size: .7em;
-} */
-
-.home-button {
-
-}
-
 .jumpy {
   animation: jumpy 1200ms;
 }
@@ -602,15 +587,19 @@ b.label-shop-lidl {
 }
 
 input.filter-search {
-  width: calc(100% - 55px);
+  width: calc(100% - 50px);
   max-width: 400px;
   padding: 15px;
+  position: relative;
   border-radius: 15px;
   font-size: 16px;
-  box-shadow: 0px 0px 0px 2px #CCC;
+  /* box-shadow: 0px 0px 0px 2px #CCC; */
+  background: var(--deal-filter-bg);
+  color: #666;
   font-weight: 800;
   outline: none;
   border: none;
+  animation: ShowFilters 1500ms;
 }
 
 .filter-deal, .filter-cat, .filter-shop {
@@ -766,7 +755,7 @@ input.filter-search {
   flex-wrap: wrap;
   justify-content: center;
   align-items: flex-start;
-  padding: 5px 0px 0px 15px;
+  padding: 0px 0px 0px 15px;
   max-width: 1590px;
   min-height: 50vh;
   margin: 0px auto;
