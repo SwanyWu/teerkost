@@ -40,6 +40,7 @@ def returnOffers():
                 deal = deal.split("voor € ")
                 price = deal[1]
                 price = price.replace(",", ".")
+                price = price.replace(" euro", "")
                 price = float(price)
                 price = float(format(price, '.2f')) 
                 offer.update({"price": price})
