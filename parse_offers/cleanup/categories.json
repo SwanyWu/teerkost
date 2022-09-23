@@ -80,7 +80,7 @@
             "veggies", "veggie", "maaltijdsalade", "paella", "garden", "noodles",
             "hulpbroodje", "trolli", "vis", "soup", "biscuits", "boterbiscuit", 
             "galettes", "koekjes", "kattenbrokjes", "kattenpaté", "hondenpaté", "hondenbrokjes",
-            "kattenvoer", "hondensnacks", "hondenbrokken"]
+            "kattenvoer", "hondensnacks", "hondenbrokken", "kapsalon"]
     },
     {
         "name": "groente",
@@ -271,7 +271,7 @@
             "courgettesoep", "gazpacho", "broodsnacks", "roerbaksensatie", "2-vaks-stampotten", "scharrelkipovenschotels",
             "empanada's", "schotels", "zomerstamppot", "broodsalade", "toastsalade", "loempia", "instant",
             "loempia's", "pompoen-wortelsoep", "currysoep", "tomaat-basilicumsoep", "groentesoep", 
-            "aardappel-wortelsoep", "pastagerecht"
+            "aardappel-wortelsoep", "pastagerecht", "kapsalon"
         ],
         "ignore": ["deeg", "geraspt", "paté", "krulslamelange", "eikenbladslamelange",
         "amandelen"]
