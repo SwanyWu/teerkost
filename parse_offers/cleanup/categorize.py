@@ -30,13 +30,14 @@ def findCategoryForProduct(title, description):
             for ignore in category['ignore']:
                 if ignore.lower() == word: # bad word found, add category to ignoreList
                     categoriesToIgnore.append(category['name'])
-                    # print("" + word + " is bij " + category['name']+ " is een te negeren woord.")
 
     for word in wordsList:
         for category in categories:                
             for keyword in category['keywords']:
                 if keyword.lower() == word and category['name'] not in categoriesToIgnore: # keyword matched and not an ignored category
                     foundCategory = category['name']
-                    # print("categorie voor " + foundCategory + " gevonden bij woord " + word)
+    
+    if foundCategory is "":
+        foundCategory = "geen-categorie"
 
     return foundCategory
