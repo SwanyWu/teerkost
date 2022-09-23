@@ -26,6 +26,17 @@ class TestCleanup(unittest.TestCase):
         resultingCategory = categorize.findCategoryForProduct("calvé saus", "bla bla")
         self.assertTrue(resultingCategory != 'beleg')
 
+    def test_return_category_none_found(self):
+        resultingCategory = categorize.findCategoryForProduct("derpie derp", "")
+        self.assertTrue(resultingCategory == 'geen-categorie')
+
+        resultingCategory = categorize.findCategoryForProduct("", "derpie derp")
+        self.assertTrue(resultingCategory == 'geen-categorie')
+
+        resultingCategory = categorize.findCategoryForProduct("", "")
+        self.assertTrue(resultingCategory == 'geen-categorie')
+
+
     def test_return_category_by_title(self):
         """
         ✅ Categorie voor product wordt gevonden in titel 👉 
@@ -67,20 +78,6 @@ class TestCleanup(unittest.TestCase):
         """        
         resultingCategory = categorize.findCategoryForProduct("Mango's Ready to Eat", "2-pack")
         self.assertTrue(resultingCategory == 'fruit')    
-
-    def test_return_empty_w_empty_input(self):
-        """
-        ✅ Categorie voor product wordt leeg teruggegeven bij lege titel input 👉 
-        """
-        resultingCategory = categorize.findCategoryForProduct("", "")
-        self.assertTrue(resultingCategory == '') 
-
-    def test_return_empty(self):
-        """
-        ✅ Categorie voor product wordt leeg teruggegeven bij onbekend product 👉 
-        """
-        resultingCategory = categorize.findCategoryForProduct("niets", "niks")
-        self.assertTrue(resultingCategory == '')
 
     def test_clean_title(self):
         """
