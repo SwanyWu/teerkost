@@ -4,6 +4,9 @@ All notable changes to the project are documented here. There is no versioning f
 
 # 23-09-2022
 
+### Fixed
+- Fix for incomplete url when sharing a bookmarks list.
+  
 ### Added
 - Category filter for 'dier'.
 - Category filter for 'sap'.
@@ -70,7 +73,7 @@ All notable changes to the project are documented here. There is no versioning f
 - Navigation bar and title to the 404 page.
 
 ### Fixed
-- Fix when price sometimes is not shown when it should for 'Plus'.
+- Fix when price sometimes is not shown for 'Plus'.
 
 # 17-05-2022
 
