@@ -6,6 +6,7 @@ All notable changes to the project are documented here. There is no versioning f
 
 ### Added
 - Category filter for 'dier'.
+- Category filter for 'sap'.
 - Category filter for uncategorized offers.
 
 # 10-09-2022
