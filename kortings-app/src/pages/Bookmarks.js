@@ -101,7 +101,7 @@ function Bookmarks(props) {
 
   const verlopenMelding = (exist) => {
     if(exist === false) {
-      return "Er zijn niet actuele aanbiedingen verwijdert."
+      return "Er zijn niet-actuele aanbiedingen verwijderd."
     } else {
       return ""
     }
@@ -117,7 +117,7 @@ function Bookmarks(props) {
               <GoHomeButton />
               <SearchButton />
               <CopyButton selectedOffers={selectedOffers}/>
-              <ShareButton buttonText="deel" infoText="Deel de huidige pagina met de gekozen filters."/>
+              <ShareButton buttonText="deel" customUrl={bookmarkListUrl} infoText="Deel een link naar deze lijst met bewaarde korting."/>
             </div>
             <div>
               <header className="header-title">
