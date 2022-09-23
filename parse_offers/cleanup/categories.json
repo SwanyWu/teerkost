@@ -11,7 +11,8 @@
             "lentebieren", "zomerbier", "zomerbieren", "herstbier", "herstbieren", "winterbier",
             "winterbieren", "leckere", "victoria", "budels", "feuillien", "hoppy", "8.6",
             "fruitbieren", "weissbier", "benediktiner", "texels", "lagunitas", "oedipus",
-            "ipa", "Chouffe", "Jopen", "Afflichem", "Duvel", "peroni", "amigo", "brewdog"
+            "ipa", "Chouffe", "Jopen", "Afflichem", "Duvel", "peroni", "amigo", "brewdog",
+            "herfstbok"
         ],
         "ignore": ["stoofvlees", "runderhachee", "ijs", "ijssalon", "smeren", "boter", "kuipje", 
         "bessen", "aardappelen", "pindakaas", "knorr", "tickets", "prix"]
@@ -531,7 +532,7 @@
             "zandkoekjes", "brownies", "jodekoek", "jodekoeken", "stroopkoekjes",
             "koekhappers", "koekrepen", "peijnenburg", "pindakaasrepen", "destrooper", "stroopwafels",
             "mueslikoek", "roomboterbabbelaars", "granenbiscuits", "jelle", "fruitbiscuit", "tuc",
-            "kanjers", "buys"
+            "kanjers", "buys", "pindakoeken"
         ],
         "ignore": ["speculoos", "penotti", "ijs"]
     },
@@ -557,8 +558,10 @@
             "tompouce", "aardbeienbavarois", "roomboter-appeltaart", "kersenflap",
             "roombroodjes", "roombroodje", "vlaai", "paasgebak", "paasgebakjes", "banket",
             "banketbakkerij", "paasvlaaitjes", "cupcake", "appelovaaltjes",
-            "chocolademuffins", "cakes", "soezen",
+            "chocolademuffins", "cakes", "soezen", "appeltaartmix",
+            "cakemix", "slagroomschnitte", "mokkaschnitte",
             "vanilleroomvlaai", "banaanvlaai", "torta",
+            "aardbeiencakerol",
             "aardbeienbavaroisegebakjes", "citroenbavaroisegebakjes",
             "abrikozenvlaai", "curd", "stroopwafelvlaai", "kersen-vanillebavaroisvlaai",
             "nogatientjes", "gebakje", "roomboterappeltaart", "appel-kruimelvlaai", "donuts",
@@ -642,7 +645,7 @@
     {
         "name": "dier",
         "keywords": [
-            "diervoer", "hondenbrokjes", "hondenbrokken", "kattenvoer", "hondenvoer",
+            "diervoer", "diervoeding", "hondenbrokjes", "hondenbrokken", "kattenvoer", "hondenvoer",
             "vogelvoer", "kattenbrokjes", "kattenbrokken", "kattenpaté", "hondenpaté",
             "diersnacks", "kattensnacks", "hondensnacks", "kattensnack", "hondensnack",
             "kattenbakvulling", "brokkenmix", "vitakraft", "felix", "houtvezel",
