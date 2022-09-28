@@ -15,7 +15,7 @@
             "herfstbok", "miguel"
         ],
         "ignore": ["stoofvlees", "runderhachee", "ijs", "ijssalon", "smeren", "boter", "kuipje", 
-        "bessen", "aardappelen", "pindakaas", "knorr", "tickets", "prix"]
+        "bessen", "aardappelen", "pindakaas", "knorr", "tickets", "prix", "limonade", "cola"]
     },
     {
         "name": "koffie",
@@ -80,7 +80,9 @@
             "veggies", "veggie", "maaltijdsalade", "paella", "garden", "noodles",
             "hulpbroodje", "trolli", "vis", "soup", "biscuits", "boterbiscuit", 
             "galettes", "koekjes", "kattenbrokjes", "kattenpaté", "hondenpaté", "hondenbrokjes",
-            "kattenvoer", "hondensnacks", "hondenbrokken", "kapsalon"]
+            "kattenvoer", "hondensnacks", "hondenbrokken", "kapsalon", "kattenbrokken",
+            "hondenpaté", "hondenkauwsticks", "pizza", "lahmacun"
+        ]
     },
     {
         "name": "groente",
@@ -132,8 +134,8 @@
              "aardappel", "aardappelpannetje", "krielaardappelen", "opperdoezer",
              "aardappelpartjes", "aardappelblokjes", "pom'", "kriel", "vastkokend",
               "aardappelwedges", "ovenaardappelen", "opbakaardappelen", 
-              "churros", "rosti", "rostirondjes", "smulfriet", "cêlavita", 
-              "bakaardappeltjes", "bakaardappelen", "kilo'tje"
+              "churros", "rosti", "rostirondjes", "rösti", "röstirondjes", "smulfriet", "cêlavita", 
+              "bakaardappeltjes", "bakaardappelen", "kilo'tje", "beyerlander"
         ],
         "ignore": []
 
@@ -169,6 +171,7 @@
         "ignore": ["kaas", "salade", "cookie", "cookies", "gebak", 
             "hartjesgebak", "salades", "chips", "donut", "donuts", 
             "chio", "bertolli", "aardbeiengebak", "shoarma", "koeken",
+            "cake", "cakeplakken",
             "bloembollen", "tulpenbollen", "vlokken", "herfstbloembollen", "kaars", "allium"]
     },
     {
@@ -228,7 +231,7 @@
              "geitenmelk", "geitenyoghurt", "kvarg", "kefir", "kokosdessert", "yogarde",
              "paturain", "müllermilk", "sense", "koffiemelk", "boursin", "chocomel",
              "chocomelk", "fristi", "schapenkefir", "schapenyoghurt",
-
+            "bavarois", "bavaroise", "aardbeienbavarois",
              "roeryoghurt", "standyoghurt", "dreumesmelk", "opvolgmelk",
              "philadelphia", "activia", "eelder", "globemilk", "ehrmann", "zuivel", "boerenkwark",
              "bosbessenyoghurt", "halvarine", "almhof", "margarine", "alpro", "wunda", "danone",
@@ -255,14 +258,16 @@
         "ignore": ["maaltijden", "stoommaaltijden", "soepen", "kattenvoer", 
             "roerbaksensatie", "chocola", "chocolade", "caramel",
             "kattenbrokjes", "kattenpaté", "hondenpaté", "hondenbrokjes",
-            "kattenvoer", "hondensnacks", "hondenbrokken", "schoonmaakdoekjes"]
+            "kattenvoer", "hondensnacks", "hondenbrokken", "schoonmaakdoekjes",
+            "kattenbrokken", "kattenkauwsticks", "hondenkauwsticks"
+        ]
     },
     {
         "name": "kant-en-klaar",
         "keywords": [
             "poffertjes", "pizza", "pizza's","stoommaaltijden", "2-vaks", "3-vaks", "stoommaaltijd", "stamppotten","maaltijd", 
             "lunchsalade", "maaltijden", "soep", "aspergesoep", "erwtensoep", "pureersoepen", "pureersoep", "soepen", 
-            "ovenmaaltijd", "ovenmaaltijden","maaltijdcomponenten", "lunchsalade", "lunchsalades", "slaatjes",
+            "ovenmaaltijd", "ovenmaaltijden","maaltijdcomponenten", "lunchsalade", "lunchsalades", "slaatje", "slaatjes",
             "fruitsalades", "fruitsalade", "maaltijdsalade", "maaltijdsalades", "pastasalade", "pastasalades", "kapsalon",
             "maaltijdsalades", "3-vaks-maaltijden","3-vaksmaaltijden", "3-vaks-maaltijd", "cup-a-soup", "kleinstesoepfabriek",
             "3-vaksmaaltijd", "2-vaks-maaltijd", "2-vaks-maaltijden", "ovenschotels", "ovenschotel", "saladeschotel", 
@@ -310,6 +315,7 @@
             "roomyoghurt", "yoghurt", "maman", "spa", "icepops", "river", "douchegel", "kombucha", "danone",
             "badgel", "bodylotion", "elitehaver", "noten", "valley", "koekrepen", "muffins", "limonade", "granola",
             "nachtcrème", "sneeuwster", "boerenkwark", "douchecreme", "deoroller",
+            "sportdrank", "koek", "chocolade", "chocola",
             "handcrème", "huidolie", "shampoobar", "notenboer", "notenmix", "vruchtenspread", "nut"]
     },
     {
@@ -354,7 +360,7 @@
             "moscato", "qué", "horse", "favorite"
         ],
         "ignore": ["vruchtenspread", "verkade", "nizza", "sprits", "tofu",
-            "kweeper", "spread", "mosterd"
+            "kweeper", "spread", "mosterd", "milk", "mouse"
         ]
     },
     {
@@ -481,7 +487,7 @@
         ],
         "ignore": ["thee", "toiletblokken", "handzeep", "zeep", "handcrème",
             "kombucha", "bodylotion", "huidolie", "showerbar", "deodorant",
-            "zeepbakje", "nachtcrème"
+            "zeepbakje", "nachtcrème", "worst"
         ]
     },
     {
@@ -544,7 +550,7 @@
             "zandkoekjes", "brownies", "jodekoek", "jodekoeken", "stroopkoekjes",
             "koekhappers", "koekrepen", "peijnenburg", "pindakaasrepen", "destrooper", "stroopwafels",
             "mueslikoek", "roomboterbabbelaars", "granenbiscuits", "jelle", "fruitbiscuit", "tuc",
-            "kanjers", "buys", "pindakoeken"
+            "kanjers", "buys", "pindakoeken", "cakeplakken"
         ],
         "ignore": ["speculoos", "penotti", "ijs"]
     },
@@ -567,7 +573,7 @@
             "schnitt", "cheesecake", "slagroomtaart", "daim", "taart", "donut", "zoenen",
             "hazelnootschuimtaart", "schuimgebak", "schuimgebakjes", "appeltaartjes", "moorkoppen", "fondant", "aardbeienslof",
             "chocoladefondant", "gebak", "gebaksbodem", "bossche", "soesjes", "hartjesgebak",
-            "pudding-kruimelvlaai", "kruimelvlaai", "rijstevlaai", "bavaroise", "bananensoezen",
+            "pudding-kruimelvlaai", "kruimelvlaai", "rijstevlaai", "bananensoezen",
             "abrikozenvlaai", "gebakjes", "roomboterslof", "kersenflappen", "popdots",
             "popdots-mix", "appelcake", "aardbeienslagroomvlaai", "monchou", "stercakes",
             "appelpunten", "slagroompunten", "slagroomschnitte", "bosvruchtenslofjes",
@@ -575,7 +581,7 @@
             "hazelnootgebak", "hazelnootgebakjes", "kersenhoef", "abrikozencarré",
             "vanille-roomvlaai", "chocotaart", "paassoesjes", "rijstevlaai", "bladerdeegschelpen",
             "banketbakkersroom", "aardbeienschnitt", "appel-kaneeltaart",
-            "tompouce", "aardbeienbavarois", "roomboter-appeltaart", "kersenflap",
+            "tompouce", "roomboter-appeltaart", "kersenflap",
             "roombroodjes", "roombroodje", "vlaai", "paasgebak", "paasgebakjes", "banket",
             "banketbakkerij", "paasvlaaitjes", "cupcake", "appelovaaltjes",
             "chocolademuffins", "cakes", "soezen", "appeltaartmix",
@@ -668,15 +674,17 @@
             "diervoer", "diervoeding", "dierenvoeding", "kluifjes",
             "hondenbrokjes", "hondenbrokken", "kattenvoer", "hondenvoer",
             "vogelvoer", "kattenbrokjes", "kattenbrokken", "kattenpaté", "hondenpaté",
-            "diersnacks", "kattensnacks", "hondensnacks", "kattensnack", "hondensnack",
+            "diersnacks", "hondenkauwsticks", "kattensnacks", "hondensnacks", "kattensnack", "hondensnack",
             "kattenbakvulling", "brokkenmix", "vitakraft", "felix", "houtvezel",
-            "kauwstok", "kauwsticks", "kauwstick", "kauwstokken", "kattenbakkorrels", 
+            "kauwstok", "kauwsticks", "kauwstick", "kattenkauwsticks", "kauwstokken", "kattenbakkorrels", 
             "kattenbak", "mergkoekjes", "kattenmelk", "hond", "honden", "katten", "kat",
             "huisdier", "huisdieren", "droogvoer", "natvoer", "catisfactions",
             "hondenkoekjes", "kattenkoekjes", "dierensnacks", "hondensnoepjes",
             "baldo", "roméo", "vetbollen", "vetbollenhanger", "vogelvoerketting",
             "vogelvoermix", "vogeltaart", "vogelvoederhuisje", "kattenmand",
-            "hondenmand", "hondendeken", "voerbak", "voerbakset"
+            "hondenmand", "hondendeken", "voerbak", "voerbakset", "purina", "beneful",
+            "whiskas", "pedigree", "catisfaction", "voerstation", "krabmeubilair",
+            "tandenverzorgingsspeeltje", "dierentondeuse", "kattenbakmat"
         ],
         "ignore": []
     }
