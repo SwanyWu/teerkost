@@ -21,7 +21,8 @@ def formatNumberAsFloat(number):
     number = number.replace("\n", "") # character appears sometimes
     numberAsList = list(number)
     numberAsList.reverse()
-    numberAsList.insert(2, ".")
+    if "." not in numberAsList:
+        numberAsList.insert(2, ".")
     numberAsList.reverse()
 
     floatNumber = float("".join(str(x) for x in numberAsList))
