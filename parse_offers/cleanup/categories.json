@@ -201,7 +201,7 @@
             "ontbijtkoekrepen", "barnhouse", "volkorengranen",
             "jordans",  "haverflokken", "tarwezemelen", "lijnzaad", "weetabix", "crackers","knäckebröd"
         ],
-        "ignore": ["saus", "sauzen", "partysauzen", "olie", "chips"]
+        "ignore": ["saus", "sauzen", "partysauzen", "olie", "chips", "vogelvoer"]
     },
     {
         "name": "kaas",
@@ -331,7 +331,8 @@
             "bicicleta", "njoy", "settesoli", "cabirol", "d'avola",
             "capellana", "colección", "viñas", "norton",
             "espanoso", "viejo", "malvasia", "frappato", 
-            "viognier", "tiempo", "tierra",
+            "viognier", "tiempo", "tierra", "schalkenbosch",
+            "pengwine",
             "vitis", "castel", "chenet", "chilano", "cruse", "doornbosch",
             "garnache", "andres", "syra", "vinhas", "barossa",
             "shiraz", "canivaes", "nardelli", "verdejo", "rustenberg",
@@ -531,6 +532,14 @@
         "ignore": ["popcorn", "magnetronpopcorn"]
     },
     {
+        "name": "siroop",
+        "keywords": [
+            "slimpie", "cevitam", "cévitam", "limonade", "siroop",
+            "teisseire", "vruchtensiroop", "roosvicee"
+        ],
+        "ignore": []
+    },
+    {
         "name": "koek",
         "keywords": [
             "koekjes", "eierkoeken", "oreo", "koeken", "cakejes", "paascakejes", "biscuits",
@@ -558,7 +567,12 @@
         "name": "sap",
         "keywords": [
             "wortelsap", "zuurkoolsap", "bietensap", "kombucha", "gembershot", "cocktailsap",
-            "groentesap", "sappen", "smoothies", "innocent", "appelsientje"
+            "groentesap", "sappen", "smoothies", "innocent", "appelsientje", "appelaere",
+            "appelsap", "perensap", "tomatensap", "sinaasappelsap", "roosvicee", 
+            "multivruchtendrink", "coolbest", "flevosap", "dubbelfrisss", "druivensap",
+            "fruitsap", "multifruit", "dubbeldrank", "innocent", "kombucha",
+            "groentesap", "granaatappelsap", "melonade", "druiveleare", "bessensap",
+            "citroen-gembersap", "holyshot"
         ],
         "ignore": []
     },
