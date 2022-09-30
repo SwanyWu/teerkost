@@ -504,7 +504,7 @@
         "ignore": ["thee", "kruidenthee", "ligure", "panetteria", "rundersteaks", "lay-z"]
     },
     {
-        "name": "chocola",
+        "name": "zoetigheid",
         "keywords": [
             "mars", "bros", "lion", "smarties", "kitkat", "rolo", "chocolaatjes", 
             "chocolade", "paaseitjes", "numove", "chocoladeschijfjes",
@@ -516,32 +516,7 @@
             "laviano", "pindarotsjes", "choco's", "chocolademousse",
             "l'atelier", "bonbons", "merci", "koetjesrepen", "chocoladeletter",
             "chocoladeletters", "chocoladethins",
-            "chocolonely", "chocolademix", "repen", "atelier", "lindt", "balconi"
-        ],
-        "ignore": ["kalanchoë", "granola", "koekjes", "koekje", 
-        "koek", "kombucha", "ijsjes", "ijs", "ijsje", "rijstdrink",
-        "havermoutkoek", "biscuits"]
-    },
-    {
-        "name": "chips",
-        "keywords": [
-            "cheetos", "moonpop", "lay's", "doritos", "bugles", "chips", "chio", "pom-bär", "kraax",
-            "pringles", "linzenchips", "lays", "tortillachips", "kikkererwtenchips",
-            "bonensticks", "maischips", "aardappelchips"
-        ],
-        "ignore": ["popcorn", "magnetronpopcorn"]
-    },
-    {
-        "name": "siroop",
-        "keywords": [
-            "slimpie", "cevitam", "cévitam", "limonade", "siroop",
-            "teisseire", "vruchtensiroop", "roosvicee"
-        ],
-        "ignore": []
-    },
-    {
-        "name": "koek",
-        "keywords": [
+            "chocolonely", "chocolademix", "repen", "atelier", "lindt", "balconi",
             "koekjes", "eierkoeken", "oreo", "koeken", "cakejes", "paascakejes", "biscuits",
             "spekkoek", "aardbeiencakejes", "kano's", "b'tween", "verkade", "sprits", "bekind",
             "speculoos", "prince", "fruitreep", "knoppers", "speculaas", "sultana", "luiksewafel",
@@ -561,7 +536,27 @@
             "mueslikoek", "roomboterbabbelaars", "granenbiscuits", "jelle", "fruitbiscuit", "tuc",
             "kanjers", "buys", "pindakoeken", "cakeplakken"
         ],
-        "ignore": ["speculoos", "penotti", "ijs"]
+        "ignore": [
+            "kalanchoë", "granola","kombucha", "ijsjes", 
+            "ijs", "ijsje", "rijstdrink", "penotti"
+        ]
+    },
+    {
+        "name": "chips",
+        "keywords": [
+            "cheetos", "moonpop", "lay's", "doritos", "bugles", "chips", "chio", "pom-bär", "kraax",
+            "pringles", "linzenchips", "lays", "tortillachips", "kikkererwtenchips",
+            "bonensticks", "maischips", "aardappelchips"
+        ],
+        "ignore": ["popcorn", "magnetronpopcorn"]
+    },
+    {
+        "name": "siroop",
+        "keywords": [
+            "slimpie", "cevitam", "cévitam", "limonade", "siroop",
+            "teisseire", "vruchtensiroop", "roosvicee"
+        ],
+        "ignore": []
     },
     {
         "name": "sap",
