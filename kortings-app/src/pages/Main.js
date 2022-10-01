@@ -22,15 +22,14 @@ function Main(props) {
 
   const [categoriesList, setCategoriesList] = useState(categories)
   const [shopsList, setShopsList] = useState(shops)
-
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  });
-
   const [selectedOffers, setSelectedOffers] = useState(Offers);  
   const [selectedShopRoute, setSelectedShopRoute] = useState(props.shop);
   const [selectedDealRoute, setSelectedDealRoute] = useState(props.deal);
   const [selectedCatRoute, setSelectedCatRoute] = useState(props.cat);
+
+  useEffect(() => {
+    setScrollHeight();
+  });
 
   useEffect(() => {
     toggleFilterButton(selectedShopRoute, "shop")
@@ -44,7 +43,6 @@ function Main(props) {
     updatePageTitle(selectedShopRoute, selectedCatRoute)
 
     setFilterNotStickyOnSmallScreen()
-
   }, [])
 
   const setFilterNotStickyOnSmallScreen = () => {
@@ -185,6 +183,18 @@ function Main(props) {
       }
   }
 
+  const setScrollHeight = () => {
+    var titleElementHeight = document.querySelector(".title-sober").offsetHeight + 10
+    var scrollHeight = window.scrollY
+    if(scrollHeight >= titleElementHeight) {
+      window.scrollTo(0, titleElementHeight) // Scroll to top, but below title element      
+    } else if (scrollHeight !== 0) {
+      window.scrollTo(0, scrollHeight) // Keep scroll position with logo partial in view
+    } else {
+      window.scrollTo(0,0) // Go to top
+    }
+  }
+
   const updateOfferList = (selectedShopRoute, selectedCatRoute, selectedDealRoute) => {
     var shopFilter = object => object.shop !== null;
     var dealFilter = object => object.deal !== null;
@@ -256,11 +266,7 @@ function Main(props) {
                 <div className="filter-deal">
                   <span onClick={() => clickOnDeal("1+1 gratis")} data-deal="1+1 gratis">1+1</span>
                   <span onClick={() => clickOnDeal("2+1 gratis")} data-deal="2+1 gratis">2+1</span>
-                  <span onClick={() => clickOnDeal("3+1 gratis")} data-deal="3+1 gratis">3+1</span>
-                  <span onClick={() => clickOnDeal("10% korting")} data-deal="10% korting">10%</span>
                   <span onClick={() => clickOnDeal("25% korting")} data-deal="25% korting">25%</span>
-                  <span onClick={() => clickOnDeal("30% korting")} data-deal="30% korting">30%</span>
-                  <span onClick={() => clickOnDeal("40% korting")} data-deal="40% korting">40%</span>
                   <span onClick={() => clickOnDeal("50% korting")} data-deal="50% korting">50%</span>
                   <span onClick={() => clickOnDeal("2e halve prijs")} data-deal="2e halve prijs">2e halve prijs</span>
                 </div>
