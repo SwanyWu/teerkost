@@ -2,6 +2,11 @@
 
 All notable changes to the project are documented here. There is no versioning for now. Just what is changed on what date.
 
+# 01-10-2022
+
+### Fixed
+- Fix for resetting scroll to top position when changing a filter.
+
 # 30-09-2022
 
 ### Added
