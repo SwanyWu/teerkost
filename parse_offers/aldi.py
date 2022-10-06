@@ -3,7 +3,7 @@ import requests
 from datetime import datetime, timedelta
 from bs4 import BeautifulSoup
 from cleanup import categorize, cleantext
-  
+
 def returnWeekday(datestring):
     datestring = datestring.split("-")
     year = int(datestring[0])
@@ -79,6 +79,11 @@ def returnOffers():
     sectionIndex = 0
     for section in soup.find_all("div", {"class": sectionDiv}):
         startDateSection = section['data-rel']
+
+        print(returnWeekday(startDateSection))
+        if "zaterdag" in returnWeekday(startDateSection):
+            continue # Aldi offers only non-food on saturday, so skip collecting these
+
         sectionIndex = sectionIndex + 1
 
         for article in section.find_all("div", {"class", articleDiv}):
