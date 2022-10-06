@@ -2,6 +2,11 @@
 
 All notable changes to the project are documented here. There is no versioning for now. Just what is changed on what date.
 
+# 06-10-2022
+
+### Changed
+- Skip collecting the huge amount of non-food offers from 'Aldi'.
+
 # 01-10-2022
 
 ### Fixed
