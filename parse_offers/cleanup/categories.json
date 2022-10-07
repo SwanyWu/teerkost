@@ -9,14 +9,15 @@
             "schultenbraü", "palm", "lefort", "ale", "lowlander",
             "Leffe", "Corona", "Warsteiner", "Jupiler", "Weizen", "hoegaarden", "bokbieren",
             "witbieren", "witbier", "weizenbier", "hertog", "weizenbieren", "lentebier",
-            "lentebieren", "zomerbier", "zomerbieren", "herstbier", "herstbieren", "winterbier",
+            "lentebieren", "zomerbier", "zomerbieren", "herfstbier", "herfstbieren", "winterbier",
             "winterbieren", "leckere", "victoria", "budels", "feuillien", "hoppy", "8.6",
             "fruitbieren", "weissbier", "benediktiner", "texels", "lagunitas", "oedipus",
             "ipa", "Chouffe", "Jopen", "Afflichem", "Duvel", "peroni", "amigo", "brewdog",
             "herfstbok", "miguel"
         ],
         "ignore": ["stoofvlees", "runderhachee", "ijs", "ijssalon", "smeren", "boter", "kuipje", 
-        "bessen", "aardappelen", "pindakaas", "knorr", "tickets", "prix", "limonade", "cola"]
+        "bessen", "aardappelen", "pindakaas", "knorr", "tickets", "prix", "limonade", "cola",
+        "jerry's"]
     },
     {
         "name": "koffie",
@@ -66,11 +67,10 @@
             "runderchipolata's", "buikspek", "rosbief", "kalsfricandeau", "knakworsten",
             "slavlinders", "kiphaasjes", "runderlappen", "kwartponders", "bbq-seizoen",
             "bockworsten", "varkenssaté", "pork", "varkensreepjes", "ribkarbonade",
-            "gehaktbroodballetje", "rundersucade",
+            "gehaktbroodballetje", "rundersucade", "gehaktbroodballetjes",
             "boerenkarbonade", "kipborrelhapjes", "wijncervelaat", "vleesovenschotel",
             "varkensfiletlappen", "runderbraadlappen", "varkensbraadworst", "grillmasters",
             "sukadelap", "sukadelappen", "rundersoepballetjes", "vleeswarenspecialiteiten",
-
             "slagersgehaktballen", "procureurlapjes", "kiplapje", "speklapje",
             "procureurlapje", "varkensfiletlapje", "kipgyros", "scharrelkipborrelhapjes",
             "pepersteaks", "kipworsten", "rostbratworsten", "slagersgehakt", "grillburgers",
@@ -85,7 +85,7 @@
             "hulpbroodje", "trolli", "vis", "soup", "biscuits", "boterbiscuit", 
             "galettes", "koekjes", "kattenbrokjes", "kattenpaté", "hondenpaté", "hondenbrokjes",
             "kattenvoer", "hondensnacks", "hondenbrokken", "kapsalon", "kattenbrokken",
-            "hondenpaté", "hondenkauwsticks", "pizza", "lahmacun"
+            "hondenpaté", "hondenkauwsticks", "pizza", "lahmacun", "gold", "soep", "hondepaté"
         ]
     },
     {
@@ -124,7 +124,7 @@
             "kaas", "bollen", "worst", "tortillachips", "aardappelchips",
             "pizzasaus", "passata", "falafel", "pea", "kruidenthee", "vruchtendrank",
             "cocktailsap", "kombucha", "citroenkoekjes", "koekjes", "hondenbrokjes",
-            "kip"
+            "kip", "chio", "donuts", "popcorn", "tea", "ice"
         ]
     },
     {
@@ -166,8 +166,9 @@
             "notenbol", "kaas-uienbrood", "danerolles", "boerentarwe", "spinazie-kaasbroodje",
             "kaas-uienbollen", "kaas-uienbol", "beemsterkaasbroodje", "batard", "batards", "rozijnenkrentenbollen",
             "gehaktbrood", "gehaktbalbroodjes", "haverbroodjes", "souq", "mezeast", "borek",
-            "börek", "burek", "flammkuchendeeg", "kaas-pompoenbroodje", "waddenbollen",
+            "börek", "burek", "flammkuchendeeg", "kaas-pompoenbroodje", "waddenbollen", "broodmix",
             "korenlanders", "focaccia's", "waddenbrood", "kaas-maïsbroodje", "klinkertje",
+            "curryworstbroodje", "pizzabroodje",
             "maïsbollen", "kornbollen", "snackbroodje", "snackbroodjes", "gehaktbalbroodje",
             "kruidenbroodjes", "bagels", "dadel-vijgenbrood", "tijgerbol", "chili-cheddar-broodje",
             "roombotercroissants", "vanille-karamelcroissant", "walnootroggebrood", "naanbrood", "pompoenbrood",
@@ -177,7 +178,8 @@
         "ignore": ["kaas", "salade", "cookie", "cookies", "gebak", 
             "hartjesgebak", "salades", "chips", "donut", "donuts", 
             "chio", "bertolli", "aardbeiengebak", "shoarma", "koeken",
-            "cake", "cakeplakken",
+            "cake", "cakeplakken", "vache", "spiralen", "speltbuisjes", "soepstengel",
+            "soepstengels",
             "bloembollen", "tulpenbollen", "vlokken", "herfstbloembollen", "kaars", "allium"]
     },
     {
@@ -191,7 +193,7 @@
             "kaasspread", "heks'nkaas", "heksenkaas", "maza", "honing", "eru", "groentespreads","vruchtenspread", "amandelpasta",
             "tomatenspread", "basilicumspread", "gemberspread", "groentespread", "pijnboompittenspread",
             "preispread", "marmelade", "penotti", "speculoos", "aardbeienjam", "abrikozenjam",
-            "speculoospasta", "agavesiroop", "dadelsiroop", "tahin"
+            "speculoospasta", "agavesiroop", "dadelsiroop", "tahin", "dadelstroop"
         ],
         "ignore": ["saus", "mosterd", "zeep",
             "variatiesauzen", "mayonaise", "snacksaus",
@@ -227,7 +229,7 @@
             "fenegriek", "schapenkaasje", "rookkaas", "apetina", "halloumi"
         ],
         "ignore": ["gehakt", "meergranen", "broodje", "maisbroodje", "gebraden",
-        "kipgrillworst", "grillworst", "vegan", "bollen", "uien",
+        "kipgrillworst", "grillworst", "vegan", "bollen", "uien", "kip", "spek", "boerenkipdijschotel",
         "kapsalon", "kipschotel", "pangasiusfilets", "vega", "douchegel", "shampoo", "borek"]
     },
     {
@@ -285,8 +287,9 @@
             "omelet", "scharrelkipovenschotels", "steenovenpizza", "aardappel-baconsalade", "zomerstampot", "ovenwraps", "americans",
             "moussaka", "steenovenpizza's", "quiches", "ristorante", "wereldkeuken", "rustlers", "stoofpotje", "ossenstaartsoep",
             "courgettesoep", "gazpacho", "broodsnacks", "roerbaksensatie", "2-vaks-stampotten", "scharrelkipovenschotels",
-            "empanada's", "schotels", "zomerstamppot", "broodsalade", "toastsalade", 
-            "maaltijdmix", "loempia", "instant", "wereldgerechten", "bapao's",
+            "empanada's", "schotels", "zomerstamppot", "broodsalade", "toastsalade", "boerenkipdijschotel",
+            "maaltijdmix", "loempia", "instant", "wereldgerechten", "bapao's", "kiploempia's",
+            "noodles", "tosti's", "slaschotel",
             "loempia's", "pompoen-wortelsoep", "currysoep", "tomaat-basilicumsoep", "groentesoep", 
             "aardappel-wortelsoep", "pastagerecht", "kapsalon", "pannenkoekenmixen", "pannnenkoekenmix"
         ],
@@ -341,7 +344,7 @@
             "capellana", "colección", "viñas", "norton",
             "espanoso", "viejo", "malvasia", "frappato", 
             "viognier", "tiempo", "tierra", "schalkenbosch",
-            "pengwine", "herstwijnmarkt", "herstwijn", "stellenbosch",
+            "pengwine", "herfstwijnmarkt", "herfstwijn", "stellenbosch",
             "wijnmarkt", "topwijn", "topwijnen", "chantecaille",
             "vitis", "castel", "chenet", "chilano", "cruse", "doornbosch",
             "garnache", "andres", "syra", "vinhas", "barossa",
@@ -444,7 +447,8 @@
             "hondenpoepzakjes", "kamergeur", "omo", "muscle"
         ],
         "ignore": ["aftersun", "zonnebrandcrème", "zonnebrand", "pesto", 
-        "aardappelpartjes", "mini-krieltjes", "kruidenthee"]
+        "aardappelpartjes", "mini-krieltjes", "kruidenthee", "aardappel", "bloemkool", 
+        "prei"]
     },
     {
         "name": "tuin",
@@ -473,6 +477,7 @@
             "herfstbloembollen", "struikheide", "mini-cactus",
             "phalaenopsis", "sierpompoen", "chrysantenboeket",
             "winterviolen", "strelitzia", "snijbloemen",
+            "amaryllis",
             "heideplant", "hebemix", "alstroemeria", "ameryllis",
             "pioenen", "vogelpindakaas", "klimplant", "orchidee", "lelies",
             "klimplantenmix", "passifloramix", "salvia", "hibiscus", "portulaca", "plantenmix",
@@ -488,7 +493,7 @@
             "weerstation", "palletkussens", "tuintafelkleed", "bewateringssysteem",
             "houtskool", "citrusboompje", "palmplant", "fruitklimplant",
             "voorjaarsboeket", "violieren", "violenschaal", "deurmat",
-            "santini", "herstbloembollen", "tuinafvalzak", "gazonkalk",
+            "santini", "herfstbloembollen", "tuinafvalzak", "gazonkalk",
             "meststoftabletten", "calluna", "asters", "zonnehoed",
             "bolchrysant", "cyclamen", "aster", "zomeraster", "heide",
             "zilverstruik", "trosanjers", "allium", "herfstplant",
@@ -512,7 +517,7 @@
             "bull", "bullit", "pepper", "oasis", "wicky", "ijsthee", "dubbelfrisss", "westminster",
             "limondaine", "frisdrank", "vruchtendrank", "dubbeldrank", "citrusfrisdrank", "capri-sun",
             "schweppes", "orangina", "fuze", "slurpie", "redbull", "aquarius",
-            "tenzing", "maaza", "sparkling"
+            "tenzing", "maaza", "sparkling", "gazeuse", "fruitdrink"
         ],
         "ignore": ["thee", "kruidenthee", "ligure", "panetteria", "rundersteaks", "lay-z"]
     },
