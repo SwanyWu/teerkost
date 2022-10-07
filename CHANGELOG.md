@@ -2,6 +2,11 @@
 
 All notable changes to the project are documented here. There is no versioning for now. Just what is changed on what date.
 
+# 07-10-2022
+
+### Added
+- Improved categorizing by text with multiple words and whitespace.
+  
 # 06-10-2022
 
 ### Changed
