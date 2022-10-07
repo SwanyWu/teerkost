@@ -24,20 +24,31 @@ def findCategoryForProduct(title, description):
 
     foundCategory = ""
 
+    # 1 Select the categories to ignore when a bad word is found
     categoriesToIgnore = []
     for word in wordsList:
         for category in categories:
             for ignore in category['ignore']:
-                if ignore.lower() == word: # bad word found, add category to ignoreList
+                if ignore.lower() == word:
                     categoriesToIgnore.append(category['name'])
 
+    # 2 Find and select the right category if matched to a singular keyword
     for word in wordsList:
         for category in categories:                
             for keyword in category['keywords']:
-                if keyword.lower() == word and category['name'] not in categoriesToIgnore: # keyword matched and not an ignored category
+                if keyword.lower() == word and category['name'] not in categoriesToIgnore:
                     foundCategory = category['name']
-    
-    if foundCategory is "":
+
+    # 3 If no category found, try and match with a string with whitespace in it.
+    if foundCategory == "":
+        completeString = title.lower().replace(',', '') + description.lower().replace(',', '')
+        for category in categories:
+            for keywordWithSpace in category['keywordsWithSpace']:
+                if keywordWithSpace.lower() in completeString and category['name'] not in categoriesToIgnore:
+                    foundCategory = category['name']
+
+    # If no category found, then use the nothing-found category
+    if foundCategory == "":
         foundCategory = "geen-categorie"
 
     return foundCategory
