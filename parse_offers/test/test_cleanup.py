@@ -36,7 +36,6 @@ class TestCleanup(unittest.TestCase):
         resultingCategory = categorize.findCategoryForProduct("", "")
         self.assertTrue(resultingCategory == 'geen-categorie')
 
-
     def test_return_category_by_title(self):
         """
         ✅ Categorie voor product wordt gevonden in titel 👉 
@@ -78,6 +77,13 @@ class TestCleanup(unittest.TestCase):
         """        
         resultingCategory = categorize.findCategoryForProduct("Mango's Ready to Eat", "2-pack")
         self.assertTrue(resultingCategory == 'fruit')    
+
+    def test_return_category_found_by_multiple_keyword_string(self):
+        """
+        ✅ Categorie voor product wordt gevonden op basis van meerdere woorden in een string 👉 
+        """                
+        resultingCategory = categorize.findCategoryForProduct("Een friesche vlag latte pak", "2-pack")
+        self.assertTrue(resultingCategory == 'zuivel')    
 
     def test_clean_title(self):
         """
