@@ -2,20 +2,24 @@
     {
         "name": "bier",
         "keywords": [
-            "brouwerij", "brewery", "bier", "bieren", "biermerken", "speciaalbier", "0.0", "pilsener", "pils", "Heineken", "Radler", "speciaalbieren", 
-            "Grolsch", "desperados", "Amstel", "Bavaria", "Affligem", "Trappe", "Brand", "birra", "moretti", "Dors", "Veltins","Dommelsch", "Alfa",
-            "Gulpener", "Westmalle", "tripel", "cornet" ,"karmeliet", "skuumkoppe", "corona", "bud", "perlenbacher", "hefeweizen", 
-            "kordaat", "tequilabier", "finkbrau", "oettinger", "argus", "steenbrugge", "schultenbräu", 
+            "brouwerij", "brewery", "bier", "bieren", "biermerken", "speciaalbier", "0.0", 
+            "pilsener", "pils", "Heineken", "Radler", "speciaalbieren", 
+            "Grolsch", "desperados", "Amstel", "Bavaria", "Affligem", "Trappe", "Brand", 
+            "birra", "moretti", "Dors", "Veltins","Dommelsch", "Alfa",
+            "Gulpener", "Westmalle", "tripel", "cornet" ,"karmeliet", "skuumkoppe", 
+            "corona", "bud", "perlenbacher", "hefeweizen", 
+            "kordaat", "tequilabier", "finkbrau", "oettinger", "argus", "steenbrugge", 
+            "schultenbräu", 
             "schultenbraü", "palm", "lefort", "ale", "lowlander",
             "Leffe", "Corona", "Warsteiner", "Jupiler", "Weizen", "hoegaarden", "bokbieren",
-            "witbieren", "witbier", "weizenbier", "hertog", "weizenbieren", "lentebier",
+            "witbieren", "witbier", "weizenbier", "weizenbieren", "lentebier",
             "lentebieren", "zomerbier", "zomerbieren", "herfstbier", "herfstbieren", "winterbier",
             "winterbieren", "leckere", "victoria", "budels", "feuillien", "hoppy", "8.6",
             "fruitbieren", "weissbier", "benediktiner", "texels", "lagunitas", "oedipus",
             "ipa", "Chouffe", "Jopen", "Afflichem", "Duvel", "peroni", "amigo", "brewdog",
             "herfstbok", "miguel"
         ],
-        "keywordsWithSpace": [],
+        "keywordsWithSpace": ["hertog jan"],
         "ignore": ["stoofvlees", "runderhachee", "ijs", "ijssalon", "smeren", "boter", "kuipje", 
         "bessen", "aardappelen", "pindakaas", "knorr", "tickets", "prix", "limonade", "cola",
         "jerry's"]
@@ -146,7 +150,7 @@
               "churros", "rosti", "rostirondjes", "rösti", "röstirondjes", "smulfriet", "cêlavita", 
               "bakaardappeltjes", "bakaardappelen", "kilo'tje", "beyerlander"
         ],
-        "keywordsWithSpace": [],
+        "keywordsWithSpace": ["lamb weston"],
         "ignore": []
 
     },
@@ -256,7 +260,7 @@
              "bosbessenyoghurt", "halvarine", "almhof", "margarine", "alpro", "wunda", "danone",
              "zuivelhoeve", "boerderijzuivel", "zeezoutboter", "kruidenboter", "knoflookboter"
         ],
-        "keywordsWithSpace": ["flower farm", "hipro drinks", "friesche vlag latte"],
+        "keywordsWithSpace": ["flower farm", "hipro drinks", "friesche vlag latte", "blue band"],
         "ignore": ["taart", "gebak", "custardcakes", "appelcake", "galettes", 
             "boterkoeken", "punten", "koeken", "appelflappen", "appelflap", "zoutjes", "speculaaspiccolo's"]
     },
@@ -300,7 +304,7 @@
             "courgettesoep", "gazpacho", "broodsnacks", "roerbaksensatie", "2-vaks-stampotten", "scharrelkipovenschotels",
             "empanada's", "schotels", "zomerstamppot", "broodsalade", "toastsalade", "boerenkipdijschotel",
             "maaltijdmix", "loempia", "instant", "wereldgerechten", "bapao's", "kiploempia's",
-            "noodles", "tosti's", "slaschotel", "wokmix",
+            "noodles", "tosti's", "slaschotel", "wokmix", "tridelli",
             "loempia's", "pompoen-wortelsoep", "currysoep", "tomaat-basilicumsoep", "groentesoep", 
             "aardappel-wortelsoep", "pastagerecht", "kapsalon", "pannenkoekenmixen", "pannnenkoekenmix"
         ],
@@ -537,7 +541,9 @@
             "schweppes", "orangina", "fuze", "slurpie", "redbull", "aquarius",
             "tenzing", "maaza", "sparkling", "gazeuse", "fruitdrink", "rockstar", "nocco"
         ],
-        "keywordsWithSpace": ["rockstar energy", "bang energy"],
+        "keywordsWithSpace": ["rockstar energy", "bang energy", "premium dutch", "arizona icetea",
+            "ice tea"
+        ],
         "ignore": ["thee", "kruidenthee", "ligure", "panetteria", "rundersteaks", "lay-z"]
     },
     {
@@ -574,7 +580,7 @@
             "mueslikoek", "roomboterbabbelaars", "granenbiscuits", "jelle", "fruitbiscuit", "tuc",
             "kanjers", "buys", "pindakoeken", "cakeplakken", "bokkenpootjes", "spritsen", "muffin"
         ],
-        "keywordsWithSpace": ["nature valley", "melk puur en hazelnoot"],
+        "keywordsWithSpace": ["nature valley", "melk puur en hazelnoot", "zoete snacks"],
         "ignore": [
             "kalanchoë", "granola","kombucha", "ijsjes", 
             "ijs", "ijsje", "rijstdrink", "penotti"
@@ -610,7 +616,8 @@
             "groentesap", "granaatappelsap", "melonade", "druiveleare", "bessensap",
             "citroen-gembersap", "holyshot", "sap", "appel-limoensap", "banaan-vanilledrank",
             "bloedsinaasappeldrank", "grapefruitsap", "bosvruchtensap", "gembersap", "appel-gembersap",
-            "kersendrank", "mango-passievruchtendrank", "mangodrank", "multisap", "vruchtensap"
+            "kersendrank", "mango-passievruchtendrank", "mangodrank", "multisap", "vruchtensap",
+            "appel-limoensap"
 
         ],
         "keywordsWithSpace": [],
@@ -664,12 +671,12 @@
             "kinowa", "ferme", "valess", "beyond", "auberginespread", "broccolispread",
             "erwtenspread", "hummus", "lupinesalade", "paprikaspread", "vleesvervanger",
             "vleesvervangers", "quinoa-nuggets", "cashewdrink", "hazelnootdrink",
-            "kokosdrink", "tijgernootdrink", "tumeric", "garden", "cremisso",
+            "kokosdrink", "tijgernootdrink", "tumeric", "cremisso",
             "bonenspread", "wortelspread", "sojadrink", "vivera", "plantbased",
             "groenteburger", "tofu", "provamel", "likemeat", "oatly", "tempeh", "zeewier",
             "broccoliburger", "kaasburger", "spinazieburger", "vega(n)", "zeewierburger"
         ],
-        "keywordsWithSpace": [],
+        "keywordsWithSpace": ["garden gourmet", "meat free"],
         "ignore": ["conditioner", "shampoo", "frikandelbroodje", "hondenbrokken",
             "hondenbrokjes", "hondenkoekjes"]
     },
@@ -727,7 +734,7 @@
             "petti", "grand'italia", "pastasaus", "tortelloni", "pastagroente",
             "pastagroenten", "passata", "spagheroni", "barilla", "pastaspecialiteit"
         ],
-        "keywordsWithSpace": [],
+        "keywordsWithSpace": ["volkoren speltbuisjes", "spelt spiralen"],
         "ignore": ["salade", "stoommaaltijden", "stoommaaltijd"]
     },
     {
@@ -746,7 +753,7 @@
             "vogelvoermix", "vogeltaart", "vogelvoederhuisje", "kattenmand",
             "hondenmand", "hondendeken", "voerbak", "voerbakset", "purina", "beneful",
             "whiskas", "pedigree", "catisfaction", "voerstation", "krabmeubilair",
-            "tandenverzorgingsspeeltje", "dierentondeuse", "kattenbakmat"
+            "tandenverzorgingsspeeltje", "dierentondeuse", "kattenbakmat", "hondepaté"
         ],
         "keywordsWithSpace": ["perfect fit", "gourmet gold", "best for your friend"],
         "ignore": []
