@@ -19,7 +19,7 @@ function NoBookmarks() {
             Geen bewaarde korting gevonden
           </div>
           <div className='notify-explainer'>
-            Voeg ze toe door op <i class="ri-bookmark-line"></i> te klikken bij een korting.
+            Voeg ze toe door op <i className="ri-bookmark-line"></i> te klikken bij een korting.
           </div>
         </div>
       </div>

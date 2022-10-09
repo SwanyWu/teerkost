@@ -6,7 +6,7 @@ function GoHomeButton(props) {
     return (
         <div className="button-cell">
         <Link to="/"><div className="button home-button">
-            <i class="ri-home-2-line"></i>
+            <i className="ri-home-2-line"></i>
             <div className="button-tag">teerkost</div>
         </div></Link>
         </div>

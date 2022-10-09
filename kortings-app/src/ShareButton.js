@@ -48,7 +48,7 @@ function ShareButton(props) {
     return (
         <div className="button-cell">
             <div onClick={shareApi} className="button share-button">
-                <i class="ri-share-box-fill"></i>
+                <i className="ri-share-box-fill"></i>
                 <div className="button-tag">{buttonText}</div>
             </div>
         </div>

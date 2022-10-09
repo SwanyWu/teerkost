@@ -97,10 +97,10 @@ function ProductBookmark(props) {
 
     const showBookMarkIcon = () => {
         if(isBookmarked === true) {
-            return (<span onClick={() => registerBookmark(productId)} className="product-bookmark product-bookmark-true"><i class='ri-bookmark-fill'></i></span>)
+            return (<span onClick={() => registerBookmark(productId)} className="product-bookmark product-bookmark-true"><i className='ri-bookmark-fill'></i></span>)
         }
         else {
-            return (<span onClick={() => registerBookmark(productId)} className="product-bookmark"><i class='ri-bookmark-line'></i></span>)
+            return (<span onClick={() => registerBookmark(productId)} className="product-bookmark"><i className='ri-bookmark-line'></i></span>)
         }
     }
 
