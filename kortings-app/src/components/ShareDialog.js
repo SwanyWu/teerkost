@@ -42,7 +42,7 @@ function ShareDialog(props) {
           <div className="list-share">
             <textarea>
             </textarea>
-            <span onClick={copyMeTextarea} className="list-copy"><i class="ri-file-copy-2-line"></i><span className='label'>kopieer</span></span>
+            <span onClick={copyMeTextarea} className="list-copy"><i className="ri-file-copy-2-line"></i><span className='label'>kopieer</span></span>
             <div className="copy-confirm">lijst gekopieerd!</div>
           </div>
         </div>
@@ -51,24 +51,24 @@ function ShareDialog(props) {
           <span className="share-info">{infoText}</span>
           <div className="url-share">
             <input defaultValue={shareUrl}/>
-            <span onClick={copyMe} className="url-copy"><i class="ri-file-copy-2-line"></i><span className='label'>kopieer</span></span>
+            <span onClick={copyMe} className="url-copy"><i className="ri-file-copy-2-line"></i><span className='label'>kopieer</span></span>
             <div className="copy-confirm">link gekopieerd!</div>
           </div>
           <div className="socials">
           <a className="whatsapp" href={"https://api.whatsapp.com/send?text="+shareUrl+""}>
-            <i class="ri-whatsapp-fill"></i>
+            <i className="ri-whatsapp-fill"></i>
           </a>
           <a className="telegram" href={"https://telegram.me/share/url?url="+shareUrl+"&text="+shareText+""}>
-            <i class="ri-telegram-fill"></i>
+            <i className="ri-telegram-fill"></i>
           </a>
           <a className="twitter" href={"https://twitter.com/intent/tweet?url="+shareUrl+"&text="+shareText+""}>
-            <i class="ri-twitter-fill"></i>
+            <i className="ri-twitter-fill"></i>
           </a>
           <a className="reddit" href={"https://reddit.com/submit?url="+shareUrl+"&title="+shareTitle+""}>
-            <i class="ri-reddit-fill"></i>
+            <i className="ri-reddit-fill"></i>
           </a>
           <a className="linkedin" href={"https://www.linkedin.com/sharing/share-offsite/?url="+shareUrl+""}>
-            <i class="ri-linkedin-box-fill"></i>
+            <i className="ri-linkedin-box-fill"></i>
           </a>
           </div>
         </div>
