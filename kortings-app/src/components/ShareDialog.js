@@ -50,7 +50,7 @@ function ShareDialog(props) {
           <span className="share-title">{buttonText}</span>
           <span className="share-info">{infoText}</span>
           <div className="url-share">
-            <input value={shareUrl}/>
+            <input defaultValue={shareUrl}/>
             <span onClick={copyMe} className="url-copy"><i class="ri-file-copy-2-line"></i><span className='label'>kopieer</span></span>
             <div className="copy-confirm">link gekopieerd!</div>
           </div>
