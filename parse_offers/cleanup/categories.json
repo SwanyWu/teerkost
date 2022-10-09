@@ -29,12 +29,12 @@
         "keywords": [
             "oploskoffie", "koffie", "ijskoffie", "koffiebonen", "filterkoffie", 
             "snelfiltermaling", "koffiepads", "koffiecups","koffiecapsules", "barista",
-            "Douwe", "Egberts", "nespresso", "senseo", "espresso", "espresso",
+            "nespresso", "senseo", "espresso", "espresso",
             "moreno", "intención", "dolce",
             "yannoh", "snelfilterkoffie", "koffiedrank", "nescafe", "espressomaling",
             "lungo", "starbucks", "Nescafé", "perla", "Lavazza", "segafredo", "illy", "l'or"
         ],
-        "keywordsWithSpace": [],
+        "keywordsWithSpace": ["douwe egberts"],
         "ignore": []
     },
     {
@@ -240,7 +240,7 @@
             "kaasfondue",
             "fenegriek", "schapenkaasje", "rookkaas", "apetina", "halloumi"
         ],
-        "keywordsWithSpace": [],
+        "keywordsWithSpace": ["old amsterdam"],
         "ignore": ["gehakt", "meergranen", "broodje", "maisbroodje", "gebraden",
         "kipgrillworst", "grillworst", "vegan", "bollen", "uien", "kip", "spek", "boerenkipdijschotel",
         "kapsalon", "kipschotel", "pangasiusfilets", "vega", "douchegel", "shampoo", "borek"]
@@ -304,11 +304,11 @@
             "courgettesoep", "gazpacho", "broodsnacks", "roerbaksensatie", "2-vaks-stampotten", "scharrelkipovenschotels",
             "empanada's", "schotels", "zomerstamppot", "broodsalade", "toastsalade", "boerenkipdijschotel",
             "maaltijdmix", "loempia", "instant", "wereldgerechten", "bapao's", "kiploempia's",
-            "noodles", "tosti's", "slaschotel", "wokmix", "tridelli",
+            "noodles", "tosti's", "slaschotel", "wokmix", "tridelli", "komkommersalade",
             "loempia's", "pompoen-wortelsoep", "currysoep", "tomaat-basilicumsoep", "groentesoep", 
             "aardappel-wortelsoep", "pastagerecht", "kapsalon", "pannenkoekenmixen", "pannnenkoekenmix"
         ],
-        "keywordsWithSpace": ["cup a soup", "dr. oetker bistro", "hebro saté"],
+        "keywordsWithSpace": ["cup a soup", "dr. oetker bistro", "hebro saté", "asia green garden"],
         "ignore": ["deeg", "geraspt", "paté", "krulslamelange", "eikenbladslamelange",
         "amandelen"]
     },
@@ -320,10 +320,9 @@
             "nootjes", "edamame", "noten", "notenmelange", "pecannoten", "nuts", "studentikoosje",
             "pinda's", "amandelen", "notemix", "notenmix", "notencups", "bollenmix", "pistache", "pistachenoten",
             "macadamia", "borrelnoten", "suikerpinda's", "cashews", "macadamianoten", "cocktailnoten",
-            "cranberrymix", "noten-superfood", "noten-bessenmix", "hazelnoten", "baknoten",
-            "katjang"
+            "cranberrymix", "noten-superfood", "noten-bessenmix", "hazelnoten", "baknoten"
         ],
-        "keywordsWithSpace": [],
+        "keywordsWithSpace": ["katjang pedis"],
         "ignore": ["shampoo", "bodywash", "melkchocolade", "pindakaas"]
     },
     {
@@ -423,7 +422,7 @@
             "lippenbalsem", "douchecreme", "l'oreál", "valdispert", "schiepz", "melatomatine",
             "soap", "marcel's", "huidtypes", "balsem", "ombra", "bodywash", "handwash", "therme"
         ],
-        "keywordsWithSpace": [],
+        "keywordsWithSpace": ["sport whey"],
         "ignore": ["zalmfilets", "vis", "vers", "verse", "zalmfilet", "waspoeder", "wasmiddel", "zalmzijde"]
     },
     {
@@ -431,7 +430,7 @@
         "keywords": [
             "ajax", "hg", "plenty", "solo", "purpose", "servetten", "lenor", "sun", 
             "ambi-pur", "robijn", "formil", "swiffer", "sorbo", "antikal", "ariel", "lenor", 
-            "glorix", "andy", "leifheit", "cif", "dreft", "sun", "XG2", "reus", "persil", 
+            "glorix", "andy", "leifheit", "cif", "dreft", "sun", "XG2", "persil", 
             "fleuril", "finish", "reinigers", "wc-eend", "bathroomgel",
             "bleek", "luchtverfrissers", "luchtverfrisser", "vlekverwijderaar", 
             "vlekverwijderaars", "vlekverwijdering", "hgx", "geurstokjes",
@@ -466,7 +465,7 @@
             "bitset", "werkbank", "stofmaskers", "lak", "houtolie", "tape", "hondenjoggingset", "hondentuigje",
             "hondenpoepzakjes", "kamergeur", "omo", "muscle"
         ],
-        "keywordsWithSpace": [],
+        "keywordsWithSpace": ["witte reus"],
         "ignore": ["aftersun", "zonnebrandcrème", "zonnebrand", "pesto", 
         "aardappelpartjes", "mini-krieltjes", "kruidenthee", "aardappel", "bloemkool", 
         "prei"]
@@ -534,15 +533,15 @@
     {
         "name": "frisdrank",
         "keywords": [
-            "spa", "pepsi", "rivella", "coolbest", "fanta", "sprite", "fernandes", "royal", "club",
-            "lipton", "coca-cola", "7up", "cassis", "river", "cola", "crystal", "sisi", "taksi", 
-            "bull", "bullit", "pepper", "oasis", "wicky", "ijsthee", "dubbelfrisss", "westminster",
+            "spa", "pepsi", "rivella", "coolbest", "fanta", "sprite", "fernandes",
+            "lipton", "coca-cola", "7up", "cassis", "river", "cola", "sisi", "taksi", 
+            "bullit", "pepper", "oasis", "wicky", "ijsthee", "dubbelfrisss", "westminster",
             "limondaine", "frisdrank", "vruchtendrank", "dubbeldrank", "citrusfrisdrank", "capri-sun",
             "schweppes", "orangina", "fuze", "slurpie", "redbull", "aquarius",
             "tenzing", "maaza", "sparkling", "gazeuse", "fruitdrink", "rockstar", "nocco"
         ],
         "keywordsWithSpace": ["rockstar energy", "bang energy", "premium dutch", "arizona icetea",
-            "ice tea"
+            "ice tea", "royal club", "red bull", "crystal clear"
         ],
         "ignore": ["thee", "kruidenthee", "ligure", "panetteria", "rundersteaks", "lay-z"]
     },
@@ -591,10 +590,10 @@
         "keywords": [
             "cheetos", "moonpop", "lay's", "doritos", "bugles", "chips", "chio", "pom-bär", "kraax",
             "pringles", "linzenchips", "lays", "tortillachips", "kikkererwtenchips",
-            "bonensticks", "maischips", "aardappelchips"
+            "bonensticks", "maischips", "aardappelchips", "pom-bar", "kroepoek"
         ],
         "keywordsWithSpace": [],
-        "ignore": ["popcorn", "magnetronpopcorn"]
+        "ignore": []
     },
     {
         "name": "siroop",
@@ -683,14 +682,14 @@
     {
         "name": "ijs",
         "keywords": [
-            "ijssalon", "ijs", "jerry's", "ijsdessert", "ola", "ijsjes", 
+            "ijssalon", "ijs", "ijsdessert", "ola", "ijsjes", 
             "vrieslollies", "festini", "calippo", "magnum", "roomijs", "slagroomijs",
             "schepijs", "häagen-dazs", "viennetta", "waterijs", "waterijsjes", 
             "sorbetijs", "ice", "fruitijs", "fruitijsjes", "ijsstam", "mucci",
             "ijslolly's", "ijsrepen", "cornets", "halotop",
             "ijstaart", "icepops", "cornetto", "chocoladeroomijsjes", "ijsbeker"
         ],
-        "keywordsWithSpace": [],
+        "keywordsWithSpace": ["ben & jerry's"],
         "ignore": ["lipton", "tea", "wijn", "wijnen", "rosé", "stimorol",
         "prosecco", "koek", "barón"]
     },
@@ -734,7 +733,7 @@
             "petti", "grand'italia", "pastasaus", "tortelloni", "pastagroente",
             "pastagroenten", "passata", "spagheroni", "barilla", "pastaspecialiteit"
         ],
-        "keywordsWithSpace": ["volkoren speltbuisjes", "spelt spiralen"],
+        "keywordsWithSpace": ["volkoren speltbuisjes", "spelt spiralen", "spelt spiraaltjes"],
         "ignore": ["salade", "stoommaaltijden", "stoommaaltijd"]
     },
     {
