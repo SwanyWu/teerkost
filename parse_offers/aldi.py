@@ -80,7 +80,6 @@ def returnOffers():
     for section in soup.find_all("div", {"class": sectionDiv}):
         startDateSection = section['data-rel']
 
-        print(returnWeekday(startDateSection))
         if "zaterdag" in returnWeekday(startDateSection):
             continue # Aldi offers only non-food on saturday, so skip collecting these
 
