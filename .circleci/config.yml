@@ -7,11 +7,13 @@ jobs:
   build-and-review: 
     docker:
       - image: cimg/python:3.10.2
+
+    working_directory: ~/parse_offers  
     steps:
       - checkout
       - python/install-packages:
           pkg-manager: pip
-          app-dir: ~/parse_offers
+          # app-dir: ~/parse_offers
       - run:
           name: Run pyLint
           command: |
