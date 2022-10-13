@@ -11,7 +11,7 @@ jobs:
       - checkout
       - python/install-packages:
           pkg-manager: pip
-          app-dir: parse_offers
+          working_directory: ~/parse_offers
       - run:
           name: Run pyLint
           command: |
