@@ -11,10 +11,10 @@ from cleanup import categorize, cleantext
 def return_month_number(monthString):
 
     months = ['januari', 'februari', 'maart', 'april', 'mei', 'juni', 'juli', 'augustus', 'september', 'oktober', 'november','december']
-    monthInt = months.index(monthString) + 1
+    month_number = months.index(monthString) + 1
 
-    monthNumberString = format(monthInt, '02')
-    return monthNumberString
+    month_number_string = format(month_number, '02')
+    return month_number_string
 
 def return_offers():
 
@@ -43,11 +43,11 @@ def return_offers():
     soup = BeautifulSoup(productSectionHTML, "html.parser")
     collection = []
 
-    dateStart = ""
-    dateEnd = ""
+    date_start = ""
+    date_end = ""
 
     dateElement = soup.find("div", {"class": "sub-wrapper"}).find("span", {"class": "sub-title"})
-    if dateElement != None:
+    if dateElement is not None:
         fullDateString = dateElement.get_text().strip()
         fullDateString = fullDateString.replace("\n", "").split(' ')
         while '' in fullDateString:
@@ -64,7 +64,7 @@ def return_offers():
             startMonth = return_month_number(fullDateStringMonthStart)
 
         formattedStartDate = str(currentYear) + "-" + str(startMonth) + "-" + str(startDay)
-        dateStart = formattedStartDate
+        date_start = formattedStartDate
 
         if fullDateString[3] == 'Vandaag':
             endDay = datetime.datetime.now().day
@@ -79,60 +79,60 @@ def return_offers():
             endMonth = return_month_number(fullDateStringMonth)
 
         formattedEndDate = str(currentYear) + "-" + str(endMonth) + "-" + str(endDay)
-        dateEnd = formattedEndDate
+        date_end = formattedEndDate
 
     productTile = "product-tile"
     for product in soup.find_all("div", {"class": productTile}):
 
         title = ""
         info = ""
-        imageLink = ""
+        image_link = ""
         price = ""
         deal = ""
         label = ""
         link = ""
 
-        titleElement = product.find("h4", {"class", "title"})
-        if titleElement != None:
-            title = titleElement.get_text().strip()
+        title_element = product.find("h4", {"class", "title"})
+        if title_element is not None:
+            title = title_element.get_text().strip()
 
-        infoElement = product.find("p", {"class", "mb-0"})
-        if infoElement != None:
-            info = infoElement.get_text().strip()
+        info_element = product.find("p", {"class", "mb-0"})
+        if info_element is not None:
+            info = info_element.get_text().strip()
 
-        primaryLabel = product.find("span", {"class", "label-primary"})
-        if primaryLabel != None:
-            label = primaryLabel.get_text().strip()
+        primary_label = product.find("span", {"class", "label-primary"})
+        if primary_label is not None:
+            label = primary_label.get_text().strip()
 
-        priceMainDigit = product.find("strong", {"class", "price-integer"}).get_text().strip()
-        priceMainDigitSmall = product.find("sup", {"class", "price-digit"}).get_text().strip()
-        if priceMainDigit != None and priceMainDigitSmall != None:
-            price = priceMainDigit + "." + priceMainDigitSmall
+        price_main_digit = product.find("strong", {"class", "price-integer"}).get_text().strip()
+        price_main_digit_small = product.find("sup", {"class", "price-digit"}).get_text().strip()
+        if price_main_digit is not None and price_main_digit_small is not None:
+            price = price_main_digit + "." + price_main_digit_small
 
-        oldPrice = product.find("small", {"class", "price-list"})
-        if oldPrice != None:
-            oldPrice = oldPrice.get_text().strip()
-            oldPrice = oldPrice.replace(",", ".") # make it convertable to float
+        old_price = product.find("small", {"class", "price-list"})
+        if old_price is not None:
+            old_price = old_price.get_text().strip()
+            old_price = old_price.replace(",", ".") # make it convertable to float
 
-            if oldPrice != "" and price != "": # calculate a discount
-                calculateDeal = int((1 - (float(price)/float(oldPrice))) * 100)
-                deal = str(calculateDeal) + "% korting"
+            if old_price != "" and price != "": # calculate a discount
+                calculate_deal = int((1 - (float(price)/float(old_price))) * 100)
+                deal = str(calculate_deal) + "% korting"
         else: # or use the label for the discount
             deal = label.lower()
 
-        imageElement = product.find("img")
-        if imageElement != None:
-            imageSrc = imageElement['data-src']
-            imageLink = imageSrc
+        image_element = product.find("img")
+        if image_element != None:
+            image_src = image_element['data-src']
+            image_link = image_src
 
-        linkElement = product.find("a", {"class", "link-contnet"})
-        if linkElement != None:
-            linkHref = linkElement['href']
-            link = "https://www.ekoplaza.nl" + linkHref
+        link_element = product.find("a", {"class", "link-contnet"})
+        if link_element != None:
+            link_href = link_element['href']
+            link = "https://www.ekoplaza.nl" + link_href
             # Example /nl/producten/product/groene-asperges-0001184648
-            linkElementsList = linkHref.split("-")
-            linkElementsList.reverse()
-            productId = linkElementsList[0]
+            link_elements_list = link_href.split("-")
+            link_elements_list.reverse()
+            productId = link_elements_list[0]
 
         offer = {
             "productId":"",
@@ -150,17 +150,17 @@ def return_offers():
         if "voor" in deal.lower() and "€" not in deal:
             deal = deal.replace('voor', 'voor €')
 
-        cleanTitle = cleantext.clean_up_title(title)
-        cleanInfo = cleantext.clean_up_info(info)
+        clean_title = cleantext.clean_up_title(title)
+        clean_info = cleantext.clean_up_info(info)
         offer.update({"productId": productId})
-        offer.update({"product": cleanTitle})
-        offer.update({"productInfo": cleanInfo})
-        offer.update({"category": categorize.find_category_for_product(cleanTitle, cleanInfo)})
+        offer.update({"product": clean_title})
+        offer.update({"productInfo": clean_info})
+        offer.update({"category": categorize.find_category_for_product(clean_title, clean_info)})
         offer.update({"deal": deal})
-        offer.update({"dateStart": dateStart})
-        offer.update({"dateEnd": dateEnd})
+        offer.update({"dateStart": date_start})
+        offer.update({"dateEnd": date_end})
         offer.update({"price": float(price)})
-        offer.update({"image": imageLink})
+        offer.update({"image": image_link})
         offer.update({"link": link})
         offer.update({"shop": SHOP})
 
