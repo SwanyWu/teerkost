@@ -39,7 +39,9 @@ jobs:
           coverage html
 
       - name: generate genbadge
-        run: genbadge coverage -i coverage.xml
+        run: |
+          cd parse_offers
+          genbadge coverage -i coverage.xml
 
       - name: commit files
         continue-on-error: true
@@ -47,7 +49,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add coverage-badge.svg
-          git add coverage.html
+          git add htmlcov/index.html
           git commit -m "add coverage report" -a
           
       - name: push changes
