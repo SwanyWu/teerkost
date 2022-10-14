@@ -1,0 +1,56 @@
+name: run-py-test-coverage
+
+on:
+  schedule:
+    - cron: '0 9 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: checkout repo content
+        uses: actions/checkout@v2
+
+      - name: pull unrelated histories
+        run: |
+          git pull --allow-unrelated-histories
+
+      - name: setup python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.8.2'
+          
+      - name: install python packages
+        run: |
+          export GH_TOKEN=${{ secrets.GITHUB_TOKEN }}
+          python -m pip install --upgrade pip
+          pip install -r parse_offers/requirements.txt
+
+      - name: run coverage
+        run: |
+          cd parse_offers
+          coverage run -m unittest
+          coverage report
+          coverage xml
+          coverage html
+
+      - name: generate genbadge
+        run: genbadge coverage -i coverage.xml
+
+      - name: commit files
+        continue-on-error: true
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add coverage-badge.svg
+          git add coverage.html
+          git commit -m "add coverage report" -a
+          
+      - name: push changes
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
+
+
