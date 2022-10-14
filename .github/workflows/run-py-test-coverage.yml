@@ -1,11 +1,10 @@
 name: run-py-test-coverage
 
 on:
-  schedule:
-    - cron: '0 9 * * *'
-  push:
-    branches:
-      - main
+  workflow_run:
+    workflows: ["run-parse-offers-test"]
+    types:
+      - completed
 
 jobs:
   build:
@@ -41,7 +40,7 @@ jobs:
       - name: generate genbadge
         run: |
           cd parse_offers
-          genbadge coverage -i coverage.xml
+          genbadge coverage -n "python code coverage" -i coverage.xml
 
       - name: commit files
         continue-on-error: true
