@@ -4,7 +4,7 @@ import plus
 
 collection = plus.return_offers()
 
-class test_plus(unittest.TestCase):
+class TestPlus(unittest.TestCase):
     """
     Testen van het ophalen van Plus aanbiedingen
     """
@@ -43,13 +43,6 @@ class test_plus(unittest.TestCase):
         """
         for item in collection:
             self.assertTrue(item['deal'] != '') # Item heeft een deal
-
-    def test_list_prices_are_numbers(self):
-        """
-        ✅ Alle prijzen zijn een nummer 👉
-        """
-        for item in collection:
-            self.assertTrue(isinstance(item['price'], float))
 
     def test_list_has_product_date_start(self):
         """

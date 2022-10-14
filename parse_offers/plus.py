@@ -231,7 +231,7 @@ def return_offers():
         offer.update({"productId": product_id})
         offer.update({"product": clean_title})
         offer.update({"productInfo": clean_info})
-        offer.update({"category": categorize.find_category_for_product(clean_title, clean_info)})
+        offer.update({"category": categorize.find_category(clean_title, clean_info)})
         offer.update({"deal": deal})
         offer.update({"dateStart": date_start})
         offer.update({"dateEnd": date_end})

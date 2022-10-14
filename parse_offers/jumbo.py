@@ -12,7 +12,6 @@ def return_offers():
     }
 
     r = requests.get(url=URL, headers=HEADERS)
-
     data = r.json()
 
     collection = []
@@ -21,15 +20,15 @@ def return_offers():
         if "zegels" not in i['tag'] and "bezorgkorting" not in i['tag'] and "bestelkosten" not in i['tag']:
             offer = {"productId":"", "product":"", "productInfo":"", "category":"", "image":"", "deal":"", "price": 0, "dateStart":"", "dateEnd":"", "link": "", "shop":""}
 
-            cleanTitle = cleantext.clean_up_title(i['name'])
-            offer.update({"product": cleanTitle})
+            clean_title = cleantext.clean_up_title(i['name'])
+            offer.update({"product": clean_title})
 
-            cleanInfoText = cleantext.clean_up_info(i['summary'])
-            offer.update({"productInfo": cleanInfoText})
+            clean_info = cleantext.clean_up_info(i['summary'])
+            offer.update({"productInfo": clean_info})
 
             offer.update({"productId": i['id']})
 
-            category = categorize.find_category_for_product(cleanTitle, cleanInfoText)
+            category = categorize.find_category(clean_title, clean_info)
             offer.update({"category": category})
 
             offer.update({"shop": SHOP})
@@ -51,12 +50,12 @@ def return_offers():
             if "promotionImage" in i:
                 offer.update({"image": i['promotionImage']['main']})
             else:
-                print("Geen afbeelding gevonden bij " + cleanTitle + ".")
+                print("Geen afbeelding gevonden bij " + clean_title + ".")
 
-            startDate = datetime.fromtimestamp(i['fromDate']/1000).strftime('%Y-%m-%d')
-            endDate = datetime.fromtimestamp(i['toDate']/1000).strftime('%Y-%m-%d')
-            offer.update({"dateStart": str(startDate)})
-            offer.update({"dateEnd": str(endDate)})
+            start_date = datetime.fromtimestamp(i['fromDate']/1000).strftime('%Y-%m-%d')
+            end_date = datetime.fromtimestamp(i['toDate']/1000).strftime('%Y-%m-%d')
+            offer.update({"dateStart": str(start_date)})
+            offer.update({"dateEnd": str(end_date)})
 
             offer.update({"link": "https://jumbo.com/aanbiedingen/" + i['id']})
             collection.append(offer)

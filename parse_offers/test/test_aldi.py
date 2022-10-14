@@ -4,7 +4,7 @@ import aldi
 
 collection = aldi.return_offers()
 
-class test_aldi(unittest.TestCase):
+class TestAldi(unittest.TestCase):
     """
     Testen van het ophalen van Aldi aanbiedingen
     """

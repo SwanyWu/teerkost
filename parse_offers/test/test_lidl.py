@@ -4,7 +4,7 @@ import lidl
 
 collection = lidl.return_offers()
 
-class test_lidl(unittest.TestCase):
+class TestLidl(unittest.TestCase):
     """
     Testen van het ophalen van Lidl aanbiedingen
     """

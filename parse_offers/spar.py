@@ -59,7 +59,7 @@ def return_offers():
             cleanInfoText = cleantext.clean_up_info(description)
             offer.update({"productInfo": cleanInfoText})
 
-        category = categorize.find_category_for_product(cleanTitle, cleanInfoText)
+        category = categorize.find_category(cleanTitle, cleanInfoText)
         offer.update({"category": category})
 
         imageTile = item.find("div", {"class":"c-product-tile__image"})

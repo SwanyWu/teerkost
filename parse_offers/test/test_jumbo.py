@@ -4,7 +4,7 @@ import jumbo
 
 collection = jumbo.return_offers()
 
-class test_jumbo(unittest.TestCase):
+class TestJumbo(unittest.TestCase):
     """
     Testen van het ophalen van Jumbo aanbiedingen
     """

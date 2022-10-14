@@ -2,7 +2,7 @@ import unittest
 import xmlrunner
 import os
 
-class test_app(unittest.TestCase):
+class TestApp(unittest.TestCase):
     """
     Testen of de GUI bestaat
     """
@@ -11,8 +11,8 @@ class test_app(unittest.TestCase):
         """
         ✅ De kortings-app bestaat 👉
         """
-        PATH_SRC = '../kortings-app/src/'
-        self.assertTrue(os.path.isdir(PATH_SRC))
+        path_src = '../kortings-app/src/'
+        self.assertTrue(os.path.isdir(path_src))
 
 
 if __name__ == '__main__':

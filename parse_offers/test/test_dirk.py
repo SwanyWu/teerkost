@@ -4,7 +4,7 @@ import dirk
 
 collection = dirk.return_offers()
 
-class test_dirk(unittest.TestCase):
+class TestDirk(unittest.TestCase):
     """
     Testen van het ophalen van Dirk aanbiedingen
     """

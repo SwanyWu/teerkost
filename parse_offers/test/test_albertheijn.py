@@ -4,7 +4,7 @@ import albertheijn
 
 collection = albertheijn.return_offers()
 
-class test_albertheijn(unittest.TestCase):
+class TestAlbertheijn(unittest.TestCase):
     """
     Testen van het ophalen van Albert Heijn aanbiedingen
     """

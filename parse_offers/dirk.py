@@ -4,20 +4,18 @@ from cleanup import categorize, cleantext
 
 def return_offers():
     SHOP = "dirk"
-
-    api_key = "6d3a42a3-6d93-4f98-838d-bcc0ab2307fd"
-    categories = [1,2,3,4,5,6,7,8,9,10,11,13,14,15,16,18]
+    API_KEY = "6d3a42a3-6d93-4f98-838d-bcc0ab2307fd"
+    CATEGORIES = [1,2,3,4,5,6,7,8,9,10,11,13,14,15,16,18]
 
     collection = []
 
     # TODO vanaf woensdag aanbiedings ook
-    for categorie in categories:
-        categorieString = str(categorie)
+    for categorie in CATEGORIES:
+        category_string = str(categorie)
 
-        URL = "https://api.dirk.nl/v1/offerscache/department/66/"+categorieString+"?api_key=" + api_key
+        URL = "https://api.dirk.nl/v1/offerscache/department/66/"+category_string+"?api_key=" + API_KEY
 
         r = requests.get(url = URL)
-
         data = r.json()
 
         for i in data:
@@ -25,45 +23,45 @@ def return_offers():
 
             offer.update({"productId": i['OfferID']})
 
-            cleanTitle = cleantext.clean_up_title(i['HeaderText'])
-            offer.update({"product": cleanTitle})
+            clean_title = cleantext.clean_up_title(i['HeaderText'])
+            offer.update({"product": clean_title})
 
             description = i['Packaging']
             if description != None:
-                cleanInfo = cleantext.clean_up_info(description)
-                offer.update({"productInfo": cleanInfo})
+                clean_info = cleantext.clean_up_info(description)
+                offer.update({"productInfo": clean_info})
 
             price = i['OfferPrice'];
             offer.update({"price": float(price)})
 
             if i['NormalPrice'] != None:
-                oldPrice = i['NormalPrice']
-                calculateDeal = int((1 - (float(price)/float(oldPrice))) * 100)
-                offer.update({"deal": str(calculateDeal) + "% korting" })
+                old_price = i['NormalPrice']
+                calculate_deal = int((1 - (float(price)/float(old_price))) * 100)
+                offer.update({"deal": str(calculate_deal) + "% korting" })
             else:
                 offer.update({"deal": "€" +str(price) })
                 # FIXME misschien zijn er andere type deals
 
-            fullDateStart = i['StartDate']
-            startDate = datetime.fromisoformat(fullDateStart).date()
-            offer.update({"dateStart": str(startDate)})
+            full_date_start = i['StartDate']
+            start_date = datetime.fromisoformat(full_date_start).date()
+            offer.update({"dateStart": str(start_date)})
 
-            fullDateEnd = i['EndDate']
-            endDate = datetime.fromisoformat(fullDateEnd).date()
-            offer.update({"dateEnd": str(endDate)})
+            full_date_end = i['EndDate']
+            end_date = datetime.fromisoformat(full_date_end).date()
+            offer.update({"dateEnd": str(end_date)})
 
-            if i['ProductOffers'][0]['Product']['ProductPicture']['Url'] != None:
-                imageUrl = i['ProductOffers'][0]['Product']['ProductPicture']['Url'] + "?width=170&height=170&mode=crop"
-                offer.update({"image": imageUrl})
+            if i['ProductOffers'][0]['Product']['ProductPicture']['Url'] is not None:
+                imageurl = i['ProductOffers'][0]['Product']['ProductPicture']['Url'] + "?width=170&height=170&mode=crop"
+                offer.update({"image": imageurl})
 
-            if i['OfferUrls'][0]['Url'] != None:
+            if i['OfferUrls'][0]['Url'] is not None:
                 # https://www.dirk.nl/aanbiedingen/ambachtelijke-salade/84338
-                offerId = str(i['OfferID'])
-                offerUrl = i['OfferUrls'][0]['Url']
-                url = "https://www.dirk.nl/aanbiedingen/" + offerUrl + "/" + offerId
+                offer_id = str(i['OfferID'])
+                offer_url = i['OfferUrls'][0]['Url']
+                url = "https://www.dirk.nl/aanbiedingen/" + offer_url + "/" + offer_id
                 offer.update({"link": url})
 
-            category = categorize.find_category_for_product(cleanTitle, cleanInfo)
+            category = categorize.find_category(clean_title, clean_info)
             offer.update({"category": category})
 
             offer.update({"shop": SHOP})

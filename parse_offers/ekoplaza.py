@@ -32,57 +32,57 @@ def return_offers():
             EC.visibility_of_element_located((By.CLASS_NAME, "product-tile"))
         )
     finally:
-        randomTitleWebElement = element.find_element(By.CSS_SELECTOR, 'h4')
-        randomTitleInnerHTML = randomTitleWebElement.get_attribute("innerHTML")
-        if type(randomTitleInnerHTML) == str:
-            productSectionWebElement = driver.find_element(By.CLASS_NAME, "aanbiedingen-page")
-            productSectionHTML = productSectionWebElement.get_attribute('outerHTML')
+        random_title_webelement = element.find_element(By.CSS_SELECTOR, 'h4')
+        random_title_innerhtml = random_title_webelement.get_attribute("innerHTML")
+        if type(random_title_innerhtml) == str:
+            productsection_webelement = driver.find_element(By.CLASS_NAME, "aanbiedingen-page")
+            productsection_outerhtml = productsection_webelement.get_attribute('outerHTML')
 
         driver.quit()
 
-    soup = BeautifulSoup(productSectionHTML, "html.parser")
+    soup = BeautifulSoup(productsection_outerhtml, "html.parser")
     collection = []
 
     date_start = ""
     date_end = ""
 
-    dateElement = soup.find("div", {"class": "sub-wrapper"}).find("span", {"class": "sub-title"})
-    if dateElement is not None:
-        fullDateString = dateElement.get_text().strip()
-        fullDateString = fullDateString.replace("\n", "").split(' ')
-        while '' in fullDateString:
-            fullDateString.remove('')
+    date_element = soup.find("div", {"class": "sub-wrapper"}).find("span", {"class": "sub-title"})
+    if date_element is not None:
+        full_date_string = date_element.get_text().strip()
+        full_date_string = full_date_string.replace("\n", "").split(' ')
+        while '' in full_date_string:
+            full_date_string.remove('')
 
-        currentYear = datetime.datetime.now().year
+        current_year = datetime.datetime.now().year
 
-        if fullDateString[0] == 'Vandaag':
-            startDay = datetime.datetime.now().day
-            startMonth = datetime.datetime.now().month
+        if full_date_string[0] == 'Vandaag':
+            start_day = datetime.datetime.now().day
+            start_month = datetime.datetime.now().month
         else:
-            startDay = fullDateString[0]
-            fullDateStringMonthStart = fullDateString[1]
-            startMonth = return_month_number(fullDateStringMonthStart)
+            start_day = full_date_string[0]
+            full_date_string_month_start = full_date_string[1]
+            start_month = return_month_number(full_date_string_month_start)
 
-        formattedStartDate = str(currentYear) + "-" + str(startMonth) + "-" + str(startDay)
-        date_start = formattedStartDate
+        formatted_start_date = str(current_year) + "-" + str(start_month) + "-" + str(start_day)
+        date_start = formatted_start_date
 
-        if fullDateString[3] == 'Vandaag':
-            endDay = datetime.datetime.now().day
-            endMonth = datetime.datetime.now().month
-        elif fullDateString[0] == 'Vandaag':
-            endDay = fullDateString[2]
-            fullDateStringMonth = fullDateString[3]
-            endMonth = return_month_number(fullDateStringMonth)
+        if full_date_string[3] == 'Vandaag':
+            end_day = datetime.datetime.now().day
+            end_month = datetime.datetime.now().month
+        elif full_date_string[0] == 'Vandaag':
+            end_day = full_date_string[2]
+            full_date_string_month = full_date_string[3]
+            end_month = return_month_number(full_date_string_month)
         else:
-            endDay = fullDateString[3]
-            fullDateStringMonth = fullDateString[4]
-            endMonth = return_month_number(fullDateStringMonth)
+            end_day = full_date_string[3]
+            full_date_string_month = full_date_string[4]
+            end_month = return_month_number(full_date_string_month)
 
-        formattedEndDate = str(currentYear) + "-" + str(endMonth) + "-" + str(endDay)
-        date_end = formattedEndDate
+        formatted_end_date = str(current_year) + "-" + str(end_month) + "-" + str(end_day)
+        date_end = formatted_end_date
 
-    productTile = "product-tile"
-    for product in soup.find_all("div", {"class": productTile}):
+    product_tile = "product-tile"
+    for product in soup.find_all("div", {"class": product_tile}):
 
         title = ""
         info = ""
@@ -155,7 +155,7 @@ def return_offers():
         offer.update({"productId": productId})
         offer.update({"product": clean_title})
         offer.update({"productInfo": clean_info})
-        offer.update({"category": categorize.find_category_for_product(clean_title, clean_info)})
+        offer.update({"category": categorize.find_category(clean_title, clean_info)})
         offer.update({"deal": deal})
         offer.update({"dateStart": date_start})
         offer.update({"dateEnd": date_end})

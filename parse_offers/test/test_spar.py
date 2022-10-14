@@ -4,7 +4,7 @@ import spar
 
 collection = spar.return_offers()
 
-class test_spar(unittest.TestCase):
+class TestSpar(unittest.TestCase):
     """
     Testen van het ophalen van Spar aanbiedingen
     """
@@ -52,7 +52,7 @@ class test_spar(unittest.TestCase):
             self.assertTrue(item['dateStart'] != '')
 
 if __name__ == '__main__':
-   unittest.main(
+    unittest.main(
         testRunner=xmlrunner.XMLTestRunner(output="."),
         failfast=False,
         buffer=False,

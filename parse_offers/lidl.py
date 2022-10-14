@@ -30,102 +30,102 @@ def return_offers():
                 "shop":""
                 }
 
-        productId = ""
+        product_id = ""
         title = ""
         description = ""
         date = ""
         price = 0
-        imageUrl = ""
+        image_url = ""
         link = ""
 
-        detailElement = item.find("div", {"class":"detail__grids"})
-        detailElementData = detailElement.attrs['data-grid-data']
-        loadJsonList = json.loads(detailElementData)
+        detail_element = item.find("div", {"class":"detail__grids"})
+        detail_element_data = detail_element.attrs['data-grid-data']
+        load_jsonlist = json.loads(detail_element_data)
 
-        title = loadJsonList[0]['fullTitle']
-        cleanTitle = cleantext.clean_up_title(title)
-        offer.update({"product": cleanTitle})
+        title = load_jsonlist[0]['fullTitle']
+        clean_title = cleantext.clean_up_title(title)
+        offer.update({"product": clean_title})
 
-        deal = loadJsonList[0]['gridLabel']
+        deal = load_jsonlist[0]['gridLabel']
         if type(deal) != type(None):
             deal = deal.lower()
         else:
-            discount = loadJsonList[0]['price']['discount']
+            discount = load_jsonlist[0]['price']['discount']
             if type(discount) != type(None):
-                discountPercentage = loadJsonList[0]['price']['discount']['percentageDiscount']
-                if type(discountPercentage) != type(None):
-                    deal = str(discountPercentage) + "% korting"
+                discount_percentage = load_jsonlist[0]['price']['discount']['percentageDiscount']
+                if type(discount_percentage) != type(None):
+                    deal = str(discount_percentage) + "% korting"
                 else:
                     deal = ""
                     # no percentage or deal found, so use discountText
-                    deal = str(loadJsonList[0]['price']['discount']['discountText']).lower()
+                    deal = str(load_jsonlist[0]['price']['discount']['discountText']).lower()
 
             else:
               deal = ""
               print("Geen aanbieding gevonden voor " + title)
               # deal is on the image
 
-        price = loadJsonList[0]['price']['price']
+        price = load_jsonlist[0]['price']['price']
         if type(price) == type(None):
             price = 0
 
-        imageUrl = loadJsonList[0]['image']
+        image_url = load_jsonlist[0]['image']
 
-        canonicalUrl = loadJsonList[0]['canonicalUrl']
-        link = "https://www.lidl.nl" + canonicalUrl
+        canonical_url = load_jsonlist[0]['canonicalUrl']
+        link = "https://www.lidl.nl" + canonical_url
 
-        linkElement = canonicalUrl.split("/")
-        linkElement.reverse()
-        productId = linkElement[0]
+        link_element = canonical_url.split("/")
+        link_element.reverse()
+        product_id = link_element[0]
 
-        description = loadJsonList[0]['keyfacts']['description']
+        description = load_jsonlist[0]['keyfacts']['description']
         if type(description) != type(None):
-            cleanInfoText = cleantext.clean_up_info(description.strip())
+            clean_info = cleantext.clean_up_info(description.strip())
         else:
-            cleanInfoText = ""
+            clean_info = ""
 
-        offer.update({"productInfo": cleanInfoText})
-        category = categorize.find_category_for_product(cleanTitle, cleanInfoText)
+        offer.update({"productInfo": clean_info})
+        category = categorize.find_category(clean_title, clean_info)
         offer.update({"category": category})
 
-        offer.update({"productId": productId})
+        offer.update({"productId": product_id})
 
         offer.update({"shop": SHOP})
         offer.update({"price": float(price)})
-        offer.update({"image": imageUrl})
+        offer.update({"image": image_url})
         offer.update({"link": link})
 
-        date = loadJsonList[0]['ribbons'][0]['text']
+        date = load_jsonlist[0]['ribbons'][0]['text']
         if len(date) != 0: # check if something of a date is found
             if "vanaf" in date: # check if only the startdate is provided
                 date = date.replace("vanaf ", "")
                 date = date.split(" ")
                 date = date[1].split("/")
-                dayStart = date[0]
-                monthStart = date[1]
-                currentYear = datetime.datetime.now().year
-                fullDateStart = str(currentYear) + "-" + monthStart + "-" + dayStart
-                offer.update({"dateStart": fullDateStart})
+                day_start = date[0]
+                month_start = date[1]
+                current_year = datetime.datetime.now().year
+                full_date_start = str(current_year) + "-" + month_start + "-" + day_start
+                offer.update({"dateStart": full_date_start})
             else: # start and end date is provided
                 if "/" in date:
                     date = date.split(" - ")
-                    dateStringEnd = date[1].split(" ")
-                    dateStringEnd = dateStringEnd[1].split("/")
-                    dayEnd = dateStringEnd[0]
-                    monthEnd = dateStringEnd[1]
+                    date_string_end = date[1].split(" ")
+                    date_string_end = date_string_end[1].split("/")
+                    day_end = date_string_end[0]
+                    month_end = date_string_end[1]
 
-                    dateStringStart = date[0].split(" ")
-                    dateStringStart = dateStringStart[1].split("/")
-                    dayStart = dateStringStart[0]
-                    monthStart = dateStringStart[1]
+                    date_string_start = date[0].split(" ")
+                    date_string_start = date_string_start[1].split("/")
+                    day_start = date_string_start[0]
+                    month_start = date_string_start[1]
 
-                    currentYear = datetime.datetime.now().year
+                    current_year = datetime.datetime.now().year
 
-                    fullDateEnd = str(currentYear) + "-" + monthEnd + "-" + dayEnd
-                    fullDateStart = str(currentYear) + "-" + monthStart + "-" + dayStart
+                    full_date_end = str(current_year) + "-" + month_end + "-" + day_end
+                    full_date_start = str(current_year) + "-" + month_start + "-" + day_start
 
-                    offer.update({"dateStart": fullDateStart})
-                    offer.update({"dateEnd": fullDateEnd})
+                    offer.update({"dateStart": full_date_start})
+                    offer.update({"dateEnd": full_date_end})
                 else:
                     deal = "" # no deal because no date is found
                     print("Geen datum gevonden voor " + title)

@@ -4,7 +4,7 @@ import ekoplaza
 
 collection = ekoplaza.return_offers()
 
-class test_ekoplaza(unittest.TestCase):
+class TestEkoplaza(unittest.TestCase):
     """
     Testen van het ophalen van Ekoplaza aanbiedingen
     """

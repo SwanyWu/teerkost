@@ -4,13 +4,10 @@ from cleanup import categorize, cleantext
 
 def return_offers():
     SHOP = "ah"
-
     URL = "https://www.ah.nl/bonus/api/segments?segmentType=-PREMIUM"
 
     r = requests.get(url = URL)
-
     data = r.json()
-
     collection = []
 
     for i in data['collection']:
@@ -19,40 +16,40 @@ def return_offers():
             if i['segmentType'] == "AH" and i['category'] != 'Koken, tafelen, vrije tijd' and "bezorging" not in i['shields'][0]['text'] and "miles" not in i['shields'][0]['text']:
 
                 offer.update({"productId": i['id']})
-                cleanTitle = cleantext.clean_up_title(i['title'])
-                offer.update({"product": cleanTitle})
+                clean_title = cleantext.clean_up_title(i['title'])
+                offer.update({"product": clean_title})
 
-                cleanInfo = cleantext.clean_up_info(i['description'])
-                offer.update({"productInfo": cleanInfo})
+                clean_info = cleantext.clean_up_info(i['description'])
+                offer.update({"productInfo": clean_info})
 
-                category = categorize.find_category_for_product(cleanTitle, cleanInfo)
+                category = categorize.find_category(clean_title, clean_info)
                 offer.update({"category": category})
 
                 offer.update({"shop": SHOP})
 
-                calculateDeal = 0
+                calculated_deal = 0
                 if "price" in i:
-                    priceNow = i['price']['now']
-                    priceNow = "{:.2f}".format(priceNow)
+                    price_now = i['price']['now']
+                    price_now = "{:.2f}".format(price_now)
                     try:
-                        priceOld = i['price']['was']
+                        price_old = i['price']['was']
 
-                        calculateDeal = int((1 - (float(priceNow)/float(priceOld))) * 100)
+                        calculated_deal = int((1 - (float(price_now)/float(price_old))) * 100)
                     except KeyError:
                         pass
 
-                    offer.update({"price": float(priceNow)})
+                    offer.update({"price": float(price_now)})
 
 
                 if "shields" in i:
                     shield = i['shields'][0]['text']
-                    dealString = " ".join(str(x) for x in shield)
-                    if "nu voor" in dealString and calculateDeal != 0: # when "nu voor" is found, use discount percentage as deal
-                        deal = str(calculateDeal) + "% korting"
+                    deal_string = " ".join(str(x) for x in shield)
+                    if "nu voor" in deal_string and calculated_deal != 0: # when "nu voor" is found, use discount percentage as deal
+                        deal = str(calculated_deal) + "% korting"
                     else:
-                        deal = dealString
+                        deal = deal_string
 
-                    if "2e gratis" in dealString:
+                    if "2e gratis" in deal_string:
                         deal = "1+1 gratis"
 
                 if "voor" in deal.lower() and "€" not in deal:
@@ -64,11 +61,11 @@ def return_offers():
 
                 href = i['href']
 
-                startDateValidity = i['validityPeriod']['start']
-                endDateValidity = i['validityPeriod']['end']
+                start_date_validity = i['validityPeriod']['start']
+                end_date_validity = i['validityPeriod']['end']
 
-                offer.update({"dateStart": startDateValidity})
-                offer.update({"dateEnd": endDateValidity})
+                offer.update({"dateStart": start_date_validity})
+                offer.update({"dateEnd": end_date_validity})
 
                 offer.update({"link": "https://ah.nl" + i['href']})
                 collection.append(offer)

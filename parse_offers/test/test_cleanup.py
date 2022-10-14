@@ -2,7 +2,7 @@ import unittest
 import xmlrunner
 from cleanup import categorize, cleantext, giveid
 
-class test_cleanup(unittest.TestCase):
+class TestCleanup(unittest.TestCase):
     """
     Testen van de cleanup module
     """
@@ -11,81 +11,81 @@ class test_cleanup(unittest.TestCase):
         """
         ✅ Categorie voor product vinden maar ook woorden negeren 👉
         """
-        resulting_category = categorize.find_category_for_product("een biefstuk", "bla bla")
+        resulting_category = categorize.find_category("een biefstuk", "bla bla")
         self.assertTrue(resulting_category == 'vlees')
 
-        resulting_category = categorize.find_category_for_product("een vegan", "bla bla")
+        resulting_category = categorize.find_category("een vegan", "bla bla")
         self.assertTrue(resulting_category == 'vegan')
 
-        resulting_category = categorize.find_category_for_product("een vegan biefstuk", "bla bla")
+        resulting_category = categorize.find_category("een vegan biefstuk", "bla bla")
         self.assertTrue(resulting_category == 'vegan')
 
-        resulting_category = categorize.find_category_for_product("een biefstuk vegan", "bla bla")
+        resulting_category = categorize.find_category("een biefstuk vegan", "bla bla")
         self.assertTrue(resulting_category == 'vegan')
 
-        resulting_category = categorize.find_category_for_product("een biefstuk vegan biefstuk", "bla bla")
+        resulting_category = categorize.find_category("een biefstuk vegan biefstuk", "bla bla")
         self.assertTrue(resulting_category == 'vegan')
 
-        resulting_category = categorize.find_category_for_product("calvé saus", "bla bla")
+        resulting_category = categorize.find_category("calvé saus", "bla bla")
         self.assertTrue(resulting_category != 'beleg')
 
     def test_return_category_none_found(self):
-        resulting_category = categorize.find_category_for_product("derpie derp", "")
+        resulting_category = categorize.find_category("derpie derp", "")
         self.assertTrue(resulting_category == 'geen-categorie')
 
-        resulting_category = categorize.find_category_for_product("", "derpie derp")
+        resulting_category = categorize.find_category("", "derpie derp")
         self.assertTrue(resulting_category == 'geen-categorie')
 
-        resulting_category = categorize.find_category_for_product("", "")
+        resulting_category = categorize.find_category("", "")
         self.assertTrue(resulting_category == 'geen-categorie')
 
     def test_return_category_by_title(self):
         """
         ✅ Categorie voor product wordt gevonden in titel 👉
         """
-        resulting_category = categorize.find_category_for_product("bier water", "een flesje")
+        resulting_category = categorize.find_category("bier water", "een flesje")
         self.assertTrue(resulting_category == 'bier')
 
     def test_return_category_by_description(self):
         """
         ✅ Categorie voor product wordt gevonden in beschrijving 👉
         """
-        resulting_category = categorize.find_category_for_product("een flesje", "water bier")
+        resulting_category = categorize.find_category("een flesje", "water bier")
         self.assertTrue(resulting_category == 'bier')
 
     def test_return_category_w_empty_title(self):
         """
         ✅ Categorie voor product wordt gevonden met ontbrekende titel 👉
         """
-        resulting_category = categorize.find_category_for_product("", "bier")
+        resulting_category = categorize.find_category("", "bier")
         self.assertTrue(resulting_category == 'bier')
 
     def test_return_category_w_empty_description(self):
         """
         ✅ Categorie voor product wordt gevonden met ontbrekende beschrijving 👉
         """
-        resulting_category = categorize.find_category_for_product("bier", "")
+        resulting_category = categorize.find_category("bier", "")
         self.assertTrue(resulting_category == 'bier')
 
     def test_return_single_word_capitalized(self):
         """
         ✅ Categorie voor product wordt gevonden met enkel woord en hoofdletter 👉
         """
-        resulting_category = categorize.find_category_for_product("Lenor", "derp derp")
+        resulting_category = categorize.find_category("Lenor", "derp derp")
         self.assertTrue(resulting_category == 'huishouden')
 
     def test_return_single_word_w_apostrof(self):
         """
         ✅ Categorie voor product wordt gevonden met enkel woord en apostrof 👉
         """
-        resulting_category = categorize.find_category_for_product("Mango's Ready to Eat", "2-pack")
+        resulting_category = categorize.find_category("Mango's Ready to Eat", "2-pack")
         self.assertTrue(resulting_category == 'fruit')
 
     def test_return_category_found_by_multiple_keyword_string(self):
         """
         ✅ Categorie voor product wordt gevonden op basis van meerdere woorden in een string 👉
         """
-        resulting_category = categorize.find_category_for_product("Een friesche vlag latte pak", "2-pack")
+        resulting_category = categorize.find_category("Een friesche vlag latte pak", "2-pack")
         self.assertTrue(resulting_category == 'zuivel')
 
     def test_clean_title(self):
