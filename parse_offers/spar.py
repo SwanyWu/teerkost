@@ -132,7 +132,6 @@ def return_offers():
         deal = deal.replace('nu ', '')
         deal = deal.replace('stuks voor', 'voor')
         offer.update({"deal": deal })
-        print("Deal: " + deal)
 
         offer.update({"dateStart": str(dateStartString)})
         offer.update({"dateEnd": str(dateEndString)})
