@@ -2,7 +2,7 @@ name: get-latest-offers
 
 on:
   workflow_run:
-    workflows: ["run-parse-offers-test"]
+    workflows: ["run-py-test-coverage"]
     types:
       - completed
 
