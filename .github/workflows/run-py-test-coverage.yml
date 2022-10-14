@@ -3,6 +3,9 @@ name: run-py-test-coverage
 on:
   schedule:
     - cron: '0 9 * * *'
+  push:
+    branches:
+      - main
 
 jobs:
   build:
