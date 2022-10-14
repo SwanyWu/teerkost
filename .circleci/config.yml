@@ -8,18 +8,23 @@ jobs:
     docker:
       - image: cimg/python:3.10.2
 
-    working_directory: ~/parse_offers  
     steps:
       - checkout
-      - python/install-packages:
-          pkg-manager: pip
-          # app-dir: ~/parse_offers
+      - run:
+          name: Install pyLint and json2html
+          command: pip install pylint pylint-json2html
       - run:
           name: Run pyLint
           command: |
-                    pip install pylint
-                    pylint parse_offers
-
+            pylint parse_offers --output-format=json:pylint.json,colorized || true
+            pylint-json2html -o pylint.html pylint.json
+      - run:
+          command: |
+            mkdir -p /tmp/report_dump
+            cp pylint.json /tmp/report_dump
+            cp pylint.html /tmp/report_dump
+      - store_artifacts:
+          path: /tmp/report_dump
 workflows:
   code-review: 
     jobs:
