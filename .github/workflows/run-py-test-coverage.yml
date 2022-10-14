@@ -48,8 +48,8 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add coverage-badge.svg
-          git add htmlcov/index.html
+          git add parse_offers/coverage-badge.svg
+          git add parse_offers/htmlcov/index.html
           git commit -m "add coverage report" -a
           
       - name: push changes
