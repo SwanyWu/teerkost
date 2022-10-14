@@ -49,7 +49,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add parse_offers/coverage-badge.svg
-          git add parse_offers/htmlcov/index.html
+          git add parse_offers/htmlcov -f
           git commit -m "add coverage report" -a
           
       - name: push changes
