@@ -133,7 +133,7 @@ def return_offers():
 
         offer.update({"deal": deal})
 
-        if(offer.get('deal') != ""): # if no deal is found, don't add it
+        if offer.get('deal') != "": # if no deal is found, don't add it
             collection.append(offer)
 
     print("📄 " + str(len(collection)) + " aanbiedingen van de Lidl bij elkaar verzameld.")

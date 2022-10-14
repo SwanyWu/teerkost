@@ -179,7 +179,7 @@ def return_offers():
             offer.update({"link": link})
             offer.update({"shop": SHOP})
 
-            if(offer.get('deal') != ""): # if no deal is found, don't add it
+            if offer.get('deal') != "": # if no deal is found, don't add it
                 collection.append(offer)
 
     print("📄 " + str(len(collection)) + " aanbiedingen van de Aldi bij elkaar verzameld.")

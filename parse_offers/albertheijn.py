@@ -31,7 +31,7 @@ def return_offers():
                 offer.update({"shop": SHOP})
 
                 calculateDeal = 0
-                if('price' in i):
+                if "price" in i:
                     priceNow = i['price']['now']
                     priceNow = "{:.2f}".format(priceNow)
                     try:
@@ -44,7 +44,7 @@ def return_offers():
                     offer.update({"price": float(priceNow)})
 
 
-                if('shields' in i):
+                if "shields" in i:
                     shield = i['shields'][0]['text']
                     dealString = " ".join(str(x) for x in shield)
                     if "nu voor" in dealString and calculateDeal != 0: # when "nu voor" is found, use discount percentage as deal

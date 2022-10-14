@@ -18,7 +18,7 @@ from cleanup import giveid
 def update_image_url_offer(url, offer):
     """Update the field for image in the json object"""
 
-    if(offer['image'] == url):
+    if offer['image'] == url:
         print("     🤔 De remote URL blijven we gebruiken: " + url)
     else:
         offer.update({"image": url})

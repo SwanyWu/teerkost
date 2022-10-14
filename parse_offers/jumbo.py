@@ -45,7 +45,7 @@ def return_offers():
                 price = float(format(price, '.2f'))
                 offer.update({"price": price})
 
-            if(offer['price'] == 0):
+            if offer['price'] == 0:
                 offer.update({"price": float(0)})
 
             if "promotionImage" in i:
