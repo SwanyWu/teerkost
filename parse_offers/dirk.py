@@ -2,7 +2,7 @@ import requests
 from datetime import datetime
 from cleanup import categorize, cleantext
 
-def returnOffers(): 
+def returnOffers():
     SHOP = "dirk"
 
     api_key = "6d3a42a3-6d93-4f98-838d-bcc0ab2307fd"
@@ -13,11 +13,11 @@ def returnOffers():
     # TODO vanaf woensdag aanbiedings ook
     for categorie in categories:
         categorieString = str(categorie)
-        
+
         URL = "https://api.dirk.nl/v1/offerscache/department/66/"+categorieString+"?api_key=" + api_key
 
         r = requests.get(url = URL)
-        
+
         data = r.json()
 
         for i in data:
@@ -43,7 +43,7 @@ def returnOffers():
             else:
                 offer.update({"deal": "€" +str(price) })
                 # FIXME misschien zijn er andere type deals
-            
+
             fullDateStart = i['StartDate']
             startDate = datetime.fromisoformat(fullDateStart).date()
             offer.update({"dateStart": str(startDate)})

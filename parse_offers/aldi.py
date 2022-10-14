@@ -33,9 +33,9 @@ def returnFirstSundayByStartDateString(datestring):
     newDate = date + timedelta(days=daysRemaining)
     newDateString = newDate.strftime('%Y-%m-%d')
 
-    return str(newDateString)  
+    return str(newDateString)
 
-def returnMonth(datestring):   
+def returnMonth(datestring):
     datestring = datestring.split("-")
     year = int(datestring[0])
     month = int(datestring[1])
@@ -48,7 +48,7 @@ def returnMonth(datestring):
 
     month = date.month()
 
-    return months[month]     
+    return months[month]
 
 def returnCalculatedDate(datestring, plusDays):
     datestring = datestring.split("-")
@@ -125,14 +125,14 @@ def returnOffers():
                 imageSrcSet = imageSrcSet.split(" 288w")
                 imageLink = "https://www.aldi.nl" + imageSrcSet[0] # extract a link from the srcset attribute
 
-            linkElement = article.find("a", {"class", "mod-article-tile__action"}) 
+            linkElement = article.find("a", {"class", "mod-article-tile__action"})
             if linkElement != None:
                 link = "https://www.aldi.nl" + linkElement['href']
-                # Example: /aanbiedingen/wk15_vanaf_maandag_11-04/kaiser-en-schnittbroodjes-wit-4790-1-0.article.html 
+                # Example: /aanbiedingen/wk15_vanaf_maandag_11-04/kaiser-en-schnittbroodjes-wit-4790-1-0.article.html
                 linkElementsList = linkElement['href'].split("-")
                 linkElementsList.reverse()
                 productIdFromLink = linkElementsList[2] # get the productId part from the href
-            
+
             deal = ""
             if "%" in priceLabel: # a percentage is known, use it as the deal
                 priceLabel = priceLabel.replace("-", "").lower().replace(" korting", "")
@@ -156,8 +156,8 @@ def returnOffers():
                 deal = "op = op"
 
             if "voor" in deal.lower() and "€" not in deal:
-                deal = deal.replace('voor', 'voor €')    
-                
+                deal = deal.replace('voor', 'voor €')
+
             cleanTitle = cleantext.cleanUpTitle(title)
             cleanInfo = cleantext.cleanUpInfo(info)
             offer.update({"productId": productIdFromLink})
@@ -171,14 +171,14 @@ def returnOffers():
             if price.count('.') == 2:
                 price = price.replace(".", "", 1)
 
-            price = float(format(float(price), '.2f')) 
+            price = float(format(float(price), '.2f'))
 
             offer.update({"price": price})
             offer.update({"dateStart": dateStart})
             offer.update({"dateEnd": dateEnd})
             offer.update({"link": link})
             offer.update({"shop": SHOP})
-            
+
             if(offer.get('deal') != ""): # if no deal is found, don't add it
                 collection.append(offer)
 

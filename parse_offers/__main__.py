@@ -20,7 +20,7 @@ def updateImageUrlForOffer(url, offer):
 
     if(offer['image'] == url):
         print("     🤔 De remote URL blijven we gebruiken: " + url)
-    else:    
+    else:
         offer.update({"image": url})
         print("     ✅ De lokale URL wordt gebruikt: " + url)
 
@@ -40,7 +40,7 @@ def tryAndSaveTheImage(url, destination):
                 with open(destination + '/'+ newFileName +'.png', 'wb') as i:
                     i.write(imageData)
                     print("     ✅ Afbeelding " + newFileName + " opslaan.")
-                    
+
                     try:
                         img = Image.open(destination + '/' + newFileName +'.png')
                         img.save(destination + '/'+newFileName+'.webp', format="webp")
@@ -58,7 +58,7 @@ def tryAndSaveTheImage(url, destination):
             print("     🟥 Antwoord " + str(response.status_code) + ", laat maar zitten.")
     except requests.exceptions.Timeout:
         print("     🟥 Time out ontvangen, laat maar zitten.")
-            
+
     return resultingUrl
 
 def moveFolder(folderPath, destination):
@@ -73,7 +73,7 @@ def moveFolder(folderPath, destination):
     if os.path.exists(destination):
         print("✅ Folder " + folderPath + " uit project verplaatst naar " + destination + ".")
     else:
-        raise Exception("     🟥 Verplaatsen niet gelukt: folder " +folderPath + " niet gevonden op " + destination + ".")    
+        raise Exception("     🟥 Verplaatsen niet gelukt: folder " +folderPath + " niet gevonden op " + destination + ".")
 
 def moveFile(file, destination):
     """Moves the provided file to the destination."""
@@ -81,7 +81,7 @@ def moveFile(file, destination):
     if os.path.exists(destination + file):
         os.remove(destination + file)
         print("🧹 " + file + " bestaat op " + destination + ", die gooien we eerst weg.")
-    
+
     print("🚀 Verplaats " + file + " uit het project naar " + destination + ".")
     shutil.move(file, destination + file)
 
@@ -96,7 +96,7 @@ if __name__ == "__main__":
     except:
         print("🟥 Aanbiedingen ophalen voor Jumbo mislukt, wordt overgeslagen.")
 
-    try:    
+    try:
         ahOffers = albertheijn.returnOffers()
         allOffers = allOffers + ahOffers
     except:
@@ -107,7 +107,7 @@ if __name__ == "__main__":
         allOffers = allOffers + lidlOffers
     except:
         print("🟥 Aanbiedingen ophalen voor Lidl mislukt, wordt overgeslagen.")
-    
+
     try:
         aldiOffers = aldi.returnOffers()
         allOffers = allOffers + aldiOffers
@@ -156,12 +156,12 @@ if __name__ == "__main__":
         print("🧹 Img folder met inhoud verwijderen uit het project.")
     except FileNotFoundError:
         print("🤔 Geen img folder gevonden in dit project om te verwijderen.")
-    
+
     os.mkdir('parse_offers/img')
     print("✅ Schone img folder gemaakt in het project.")
 
     time.sleep(take_it_easy)
-    index = 0    
+    index = 0
     try:
         for offer in allOffers:
             print(" ")
@@ -183,5 +183,5 @@ if __name__ == "__main__":
     print("✅ Dump de aanbiedingen in een JSON bestand.")
     with open('offers.json', 'a+', encoding='utf-8') as f:
             json.dump(allOffers, f, indent=4,ensure_ascii = False)
-    
+
     moveFile('offers.json', 'kortings-app/src/')

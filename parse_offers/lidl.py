@@ -16,17 +16,17 @@ def returnOffers():
     collection = []
 
     for item in soup.find_all("li", {"class": "ACampaignGrid__item--product"}):
-        
-        offer = { "productId":"", 
-                "product":"", 
-                "productInfo":"", 
-                "category":"", 
-                "image":"", 
-                "deal":"", 
-                "price": 0, 
-                "dateStart":"", 
-                "dateEnd":"", 
-                "link": "", 
+
+        offer = { "productId":"",
+                "product":"",
+                "productInfo":"",
+                "category":"",
+                "image":"",
+                "deal":"",
+                "price": 0,
+                "dateStart":"",
+                "dateEnd":"",
+                "link": "",
                 "shop":""
                 }
 
@@ -70,7 +70,7 @@ def returnOffers():
             price = 0
 
         imageUrl = loadJsonList[0]['image']
-        
+
         canonicalUrl = loadJsonList[0]['canonicalUrl']
         link = "https://www.lidl.nl" + canonicalUrl
 
@@ -83,7 +83,7 @@ def returnOffers():
             cleanInfoText = cleantext.cleanUpInfo(description.strip())
         else:
             cleanInfoText = ""
-        
+
         offer.update({"productInfo": cleanInfoText})
         category = categorize.findCategoryForProduct(cleanTitle, cleanInfoText)
         offer.update({"category": category})
@@ -122,11 +122,11 @@ def returnOffers():
                     currentYear = datetime.datetime.now().year
 
                     fullDateEnd = str(currentYear) + "-" + monthEnd + "-" + dayEnd
-                    fullDateStart = str(currentYear) + "-" + monthStart + "-" + dayStart 
-                    
+                    fullDateStart = str(currentYear) + "-" + monthStart + "-" + dayStart
+
                     offer.update({"dateStart": fullDateStart})
                     offer.update({"dateEnd": fullDateEnd})
-                else: 
+                else:
                     deal = "" # no deal because no date is found
                     print("Geen datum gevonden voor " + title)
 
@@ -140,4 +140,4 @@ def returnOffers():
     return collection
 
 if __name__ == "__main__":
-    returnOffers() 
+    returnOffers()

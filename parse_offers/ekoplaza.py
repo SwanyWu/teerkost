@@ -7,9 +7,9 @@ from selenium.webdriver.support import expected_conditions as EC
 import datetime
 from bs4 import BeautifulSoup
 from cleanup import categorize, cleantext
-  
+
 def returnMonthNumber(monthString):
-    
+
     months = ['januari', 'februari', 'maart', 'april', 'mei', 'juni', 'juli', 'augustus', 'september', 'oktober', 'november','december']
     monthInt = months.index(monthString) + 1
 
@@ -64,15 +64,15 @@ def returnOffers():
             startMonth = returnMonthNumber(fullDateStringMonthStart)
 
         formattedStartDate = str(currentYear) + "-" + str(startMonth) + "-" + str(startDay)
-        dateStart = formattedStartDate    
-        
+        dateStart = formattedStartDate
+
         if fullDateString[3] == 'Vandaag':
             endDay = datetime.datetime.now().day
             endMonth = datetime.datetime.now().month
         elif fullDateString[0] == 'Vandaag':
             endDay = fullDateString[2]
             fullDateStringMonth = fullDateString[3]
-            endMonth = returnMonthNumber(fullDateStringMonth)           
+            endMonth = returnMonthNumber(fullDateStringMonth)
         else:
             endDay = fullDateString[3]
             fullDateStringMonth = fullDateString[4]
@@ -95,7 +95,7 @@ def returnOffers():
         titleElement = product.find("h4", {"class", "title"})
         if titleElement != None:
             title = titleElement.get_text().strip()
-        
+
         infoElement = product.find("p", {"class", "mb-0"})
         if infoElement != None:
             info = infoElement.get_text().strip()
@@ -116,7 +116,7 @@ def returnOffers():
 
             if oldPrice != "" and price != "": # calculate a discount
                 calculateDeal = int((1 - (float(price)/float(oldPrice))) * 100)
-                deal = str(calculateDeal) + "% korting" 
+                deal = str(calculateDeal) + "% korting"
         else: # or use the label for the discount
             deal = label.lower()
 
@@ -136,15 +136,15 @@ def returnOffers():
 
         offer = {
             "productId":"",
-            "product":"", 
-            "productInfo":"", 
-            "category":"", 
-            "image":"", 
-            "deal":"", 
-            "price": 0, 
-            "dateStart":"", 
-            "dateEnd":"", 
-            "link": "", 
+            "product":"",
+            "productInfo":"",
+            "category":"",
+            "image":"",
+            "deal":"",
+            "price": 0,
+            "dateStart":"",
+            "dateEnd":"",
+            "link": "",
             "shop":""}
 
         if "voor" in deal.lower() and "€" not in deal:
@@ -163,7 +163,7 @@ def returnOffers():
         offer.update({"image": imageLink})
         offer.update({"link": link})
         offer.update({"shop": SHOP})
-                
+
         if(offer.get('deal') != ""): # if no deal is found, don't add it
             collection.append(offer)
 

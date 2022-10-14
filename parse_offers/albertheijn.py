@@ -2,13 +2,13 @@ import requests
 from datetime import datetime
 from cleanup import categorize, cleantext
 
-def returnOffers(): 
+def returnOffers():
     SHOP = "ah"
 
     URL = "https://www.ah.nl/bonus/api/segments?segmentType=-PREMIUM"
-    
+
     r = requests.get(url = URL)
-    
+
     data = r.json()
 
     collection = []
@@ -17,11 +17,11 @@ def returnOffers():
         offer = {"productId": "","product":"", "productInfo":"", "category":"", "image":"", "deal":"", "price": 0, "dateStart":"", "dateEnd":"", "link": "", "shop":""}
         try:
             if i['segmentType'] == "AH" and i['category'] != 'Koken, tafelen, vrije tijd' and "bezorging" not in i['shields'][0]['text'] and "miles" not in i['shields'][0]['text']:
-                
+
                 offer.update({"productId": i['id']})
                 cleanTitle = cleantext.cleanUpTitle(i['title'])
                 offer.update({"product": cleanTitle})
-                
+
                 cleanInfo = cleantext.cleanUpInfo(i['description'])
                 offer.update({"productInfo": cleanInfo})
 
@@ -40,9 +40,9 @@ def returnOffers():
                         calculateDeal = int((1 - (float(priceNow)/float(priceOld))) * 100)
                     except KeyError:
                         pass
-                    
+
                     offer.update({"price": float(priceNow)})
-                
+
 
                 if('shields' in i):
                     shield = i['shields'][0]['text']
@@ -57,7 +57,7 @@ def returnOffers():
 
                 if "voor" in deal.lower() and "€" not in deal:
                     deal = deal.replace('voor', 'voor €')
-                    
+
                 offer.update({"deal": deal})
 
                 offer.update({"image": i['image']['src']})

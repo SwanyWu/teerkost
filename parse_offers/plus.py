@@ -8,9 +8,9 @@ from selenium.webdriver.support import expected_conditions as EC
 import datetime
 from bs4 import BeautifulSoup
 from cleanup import categorize, cleantext
-  
+
 def returnMonthNumber(monthString):
-    
+
     months = ['januari', 'februari', 'maart', 'april', 'mei', 'juni', 'juli', 'augustus', 'september', 'oktober', 'november','december']
     monthInt = months.index(monthString) + 1
 
@@ -33,7 +33,7 @@ def calculatePercentage(oldPrice, newPrice):
     calculateDeal = int((1 - (float(newPrice)/float(oldPrice))) * 100)
     return str(calculateDeal)
 
-def returnMonth(monthString):   
+def returnMonth(monthString):
     monthString = monthString.replace("\xa0", "")
     months = ["januari", "februari", "maart", "april", "mei",
     "juni", "juli", "augustus", "september", "oktober", "november", "december"]
@@ -41,7 +41,7 @@ def returnMonth(monthString):
     monthInt = months.index(monthString) + 1
     monthNumberString = format(monthInt, '02')
 
-    return monthNumberString       
+    return monthNumberString
 
 def getPageContent(URL, driver, element_to_be_located):
     driver.get(URL)
@@ -55,7 +55,7 @@ def getPageContent(URL, driver, element_to_be_located):
     finally:
         randomTitleWebElement = element.find_element(By.CLASS_NAME, "pageTitel")
         randomTitleInnerHTML = randomTitleWebElement.get_attribute("innerHTML")
-        if type(randomTitleInnerHTML) == str: 
+        if type(randomTitleInnerHTML) == str:
             productSectionWebElement = driver.find_element(By.CLASS_NAME, "promotion-block-container")
             productSectionHTML = productSectionWebElement.get_attribute('outerHTML')
     return productSectionHTML
@@ -70,14 +70,14 @@ def returnOffers():
 
     driver = webdriver.Firefox(options=options, executable_path=GeckoDriverManager().install())
 
-    try: 
+    try:
         productSectionHTML = getPageContent(URL, driver, "_baby-drogisterij")
     except Exception:
         print("Kan element nog niet zien, nog één keer proberen.")
         productSectionHTML = getPageContent(URL, driver, "_huishouden")
-    finally:    
+    finally:
         driver.quit()
-    
+
 
     soup = BeautifulSoup(productSectionHTML, "html.parser")
     collection = []
@@ -99,7 +99,7 @@ def returnOffers():
 
         dateStart = str(year) +"-"+ returnMonth(dateStartMonth) +"-"+ dateStartDay
         dateEnd = str(year) +"-"+ returnMonth(dateEndMonth) +"-"+ dateEndDay
-    
+
     productTile = "ish-productList-item"
     for product in soup.find_all("li", {"class": productTile}):
 
@@ -124,7 +124,7 @@ def returnOffers():
         oldPrice = ""
         priceAboveCloverElement = product.find("div", {"class": "price-desktop"})
         if priceAboveCloverElement != None:
-            oldPrice = priceAboveCloverElement.get_text().strip()  
+            oldPrice = priceAboveCloverElement.get_text().strip()
             if "\n" in oldPrice:
                 oldPriceSplit = oldPrice.split("\n")
                 oldPrice = oldPriceSplit[0]
@@ -176,7 +176,7 @@ def returnOffers():
             elif "2eHALVEPRIJS" in clover:
                 deal = "2e halve prijs"
                 # TODO prijs berekenen
-            else: 
+            else:
                 try:
                     newPrice = formatNumberAsFloat(clover)
                     deal = calculatePercentage(oldPrice, newPrice) + "% korting"
@@ -200,6 +200,14 @@ def returnOffers():
             link = href
 
         #FIXME als weekendpakker bij staan de start en einddatum aanpassen
+        productLabelTop = product.find("span",  {"class": "product-tile__label--top"})
+        if productLabelTop != None:
+            productLabelText = productLabelTop.get_text().strip()
+            if "weekendpakker" in productLabelText.lower():
+                print("He, " + title + " is een weekendpakker!")
+                # datetime = datetime.datetime.strptime(dateStart, "%Y-%m-%d")
+
+                # print(datetime.date().
 
         if price != '':
             priceAsFloat = float(price)
@@ -207,15 +215,15 @@ def returnOffers():
 
         offer = {
             "productId":"",
-            "product":"", 
-            "productInfo":"", 
-            "category":"", 
-            "image":"", 
-            "deal":"", 
-            "price": 0, 
-            "dateStart":"", 
-            "dateEnd":"", 
-            "link": "", 
+            "product":"",
+            "productInfo":"",
+            "category":"",
+            "image":"",
+            "deal":"",
+            "price": 0,
+            "dateStart":"",
+            "dateEnd":"",
+            "link": "",
             "shop":""}
 
         if "voor" in deal.lower() and "€" not in deal:

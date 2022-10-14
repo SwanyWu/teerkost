@@ -17,7 +17,7 @@ def findCategoryForProduct(title, description):
     if ' ' in title: # space found, so split string by space
         wordsList = re.split(' ', title.lower().replace(',', ''))
     else: # no space, just one word
-        wordsList.append(title.lower()) 
+        wordsList.append(title.lower())
 
     descriptionWordList = re.split(' ', description.lower().replace(',', ''))
     wordsList.extend(descriptionWordList)
@@ -34,7 +34,7 @@ def findCategoryForProduct(title, description):
 
     # 2 Find and select the right category if matched to a singular keyword
     for word in wordsList:
-        for category in categories:                
+        for category in categories:
             for keyword in category['keywords']:
                 if keyword.lower() == word and category['name'] not in categoriesToIgnore:
                     foundCategory = category['name']

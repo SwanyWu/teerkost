@@ -6,7 +6,7 @@ def giveIdToOffers(offers):
     value = 0
 
     for offer in offers:
-        value = value + 1 
+        value = value + 1
         offer[key] = value
 
-    return offers;    
+    return offers;

@@ -12,7 +12,7 @@ def cleanUpTitle(title):
         title = title.replace(word, '')
 
     cleanTitle = title.strip().capitalize()
-    
+
     return cleanTitle
 
 def cleanUpInfo(infoText):
@@ -20,15 +20,15 @@ def cleanUpInfo(infoText):
 
     if 'Bijv.' in infoText:
         infoText = ""
-    else:     
-        badWords = ['PLUS ', 'Jumbo ', 'Alle soorten\n3 verpakkingen', 
+    else:
+        badWords = ['PLUS ', 'Jumbo ', 'Alle soorten\n3 verpakkingen',
                     'Alle soorten\n2 verpakkingen',
                     'Alle soorten ', 'Alle soorten\n', 'Alle soorten',
-                    'Alle soorten\n2 ', 'Alle soorten\n3 ', 'Alle soorten, ', 
+                    'Alle soorten\n2 ', 'Alle soorten\n3 ', 'Alle soorten, ',
                     'Alle combinaties mogelijk ', 'Diverse soorten',
-                    'Alle varianten', 'Per stuk', 'Alle verpakkingen', 
+                    'Alle varianten', 'Per stuk', 'Alle verpakkingen',
                     'Diverse varianten, combineren mogelijk', '<ul><li>',
-                    '<li>', '</li><li>', '</li>', '</ul>', '&nbsp;', '&oslash;', 
+                    '<li>', '</li><li>', '</li>', '</ul>', '&nbsp;', '&oslash;',
                     '</li></ul>', '<p>', '</p>', 'prijsvoorbeeld:']
 
         infoText = infoText.replace("’", "'") # sanitize different kinds of apostrophes
@@ -41,5 +41,5 @@ def cleanUpInfo(infoText):
         infoText = ""
 
     cleanInfoText = infoText.strip().rstrip(".").capitalize()
-    
+
     return cleanInfoText

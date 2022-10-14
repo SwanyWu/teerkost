@@ -31,16 +31,16 @@ def returnOffers():
 
     collection = []
     for item in soup.find_all("div", {"class": "c-product-tile"}):
-        offer = {"productId":"", 
-        "product":"", 
-        "productInfo":"", 
-        "category":"", 
-        "image":"", 
-        "deal":"", 
-        "price": float("0"), 
+        offer = {"productId":"",
+        "product":"",
+        "productInfo":"",
+        "category":"",
+        "image":"",
+        "deal":"",
+        "price": float("0"),
         "dateStart":"",
-        "dateEnd":"", 
-        "link": "", 
+        "dateEnd":"",
+        "link": "",
         "shop":""}
 
         cleanTitle = ""
@@ -49,7 +49,7 @@ def returnOffers():
         metaElement = item.find("div", {"class":"c-product-tile__meta"})
         titleElement = metaElement.find("a")
         if titleElement != None:
-            title = titleElement.get_text().strip()  
+            title = titleElement.get_text().strip()
             cleanTitle = cleantext.cleanUpTitle(title)
             offer.update({"product": cleanTitle})
 
@@ -58,7 +58,7 @@ def returnOffers():
             description = descrElement.get_text().strip()
             cleanInfoText = cleantext.cleanUpInfo(description)
             offer.update({"productInfo": cleanInfoText})
-        
+
         category = categorize.findCategoryForProduct(cleanTitle, cleanInfoText)
         offer.update({"category": category})
 
@@ -80,7 +80,7 @@ def returnOffers():
             idFromLink.reverse()
             productId = idFromLink[1]
             offer.update({"productId": productId})
-        
+
         offer.update({"shop": SHOP})
 
         priceElement = item.find("div", {"class":"c-product-tile__image--pricing"})
@@ -120,10 +120,10 @@ def returnOffers():
                                 promotionSplitted = promotion.split("voor")
                                 promotionSplitted.reverse()
                                 deal = "voor" + promotionSplitted[0]
-                    else:    
+                    else:
                         deal = promotion
                 else:
-                    print("Kan geen deal vinden op " + fullLink)            
+                    print("Kan geen deal vinden op " + fullLink)
             else:
                 print("Geen prijs en geen URL")
 
@@ -131,8 +131,8 @@ def returnOffers():
         deal = deal.replace('Nu ', '')
         deal = deal.replace('nu ', '')
         deal = deal.replace('stuks voor', 'voor')
-        offer.update({"deal": deal })   
-        print("Deal: " + deal) 
+        offer.update({"deal": deal })
+        print("Deal: " + deal)
 
         offer.update({"dateStart": str(dateStartString)})
         offer.update({"dateEnd": str(dateEndString)})
@@ -143,4 +143,4 @@ def returnOffers():
     return collection
 
 if __name__ == "__main__":
-    returnOffers() 
+    returnOffers()
