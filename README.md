@@ -10,7 +10,7 @@ Teerkost collects the current discounts from popular Dutch supermarkets.
 - It is fast - there is no backend it needs to call upon.
 - It is uncluttered - filter by category, shop, discount or do a search.
 - Bookmark offers by saving them locally using IndexedDb (i.e. "cookies").
-- It is made to feel like an app - has fullscreen and native sharing capability.
+- It is made to feel like an app.
 
 ## Running or building the app
 
@@ -23,7 +23,7 @@ npm start
 
 The data is collected trough a Python package called *parse_offers*. 
 
-It will populate a json file containing all the discount and move it to the app source code.
+It will populate a json file containing all the discounts and move it to the app source code.
 
 Run the Python script:
 
@@ -39,13 +39,23 @@ Run the tests and output Junit XML reporting:
 ```
 python -m xmlrunner discover
 ```
+Generate a code coverage report
+```
+coverage run -m unittest
+coverage report
+coverage html
+```
+
 
 ## Continuous deployment
 
-Through three workflows the app is continously being updated, tested and deployed to Github Pages.
+Through Github workflows the app is continously being updated, tested and deployed to Github Pages.
 
 ### 1. run-parse-offers-test.yml
 Runs unittests against the parse_offers package to see if it returns complete results.
+
+### 4. run-py-test-coverage.yml
+Generates a code coverage report for the parse_offers package.
 
 ### 2. get-latest-offers.yml
 Runs parse_offers by a daily schedule. A json file is populated with the offers found.
