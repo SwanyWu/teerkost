@@ -8,7 +8,7 @@ import datetime
 from bs4 import BeautifulSoup
 from cleanup import categorize, cleantext
 
-def returnMonthNumber(monthString):
+def return_month_number(monthString):
 
     months = ['januari', 'februari', 'maart', 'april', 'mei', 'juni', 'juli', 'augustus', 'september', 'oktober', 'november','december']
     monthInt = months.index(monthString) + 1
@@ -16,7 +16,7 @@ def returnMonthNumber(monthString):
     monthNumberString = format(monthInt, '02')
     return monthNumberString
 
-def returnOffers():
+def return_offers():
 
     SHOP = "ekoplaza"
     URL = "https://www.ekoplaza.nl/nl/aanbiedingen"
@@ -61,7 +61,7 @@ def returnOffers():
         else:
             startDay = fullDateString[0]
             fullDateStringMonthStart = fullDateString[1]
-            startMonth = returnMonthNumber(fullDateStringMonthStart)
+            startMonth = return_month_number(fullDateStringMonthStart)
 
         formattedStartDate = str(currentYear) + "-" + str(startMonth) + "-" + str(startDay)
         dateStart = formattedStartDate
@@ -72,11 +72,11 @@ def returnOffers():
         elif fullDateString[0] == 'Vandaag':
             endDay = fullDateString[2]
             fullDateStringMonth = fullDateString[3]
-            endMonth = returnMonthNumber(fullDateStringMonth)
+            endMonth = return_month_number(fullDateStringMonth)
         else:
             endDay = fullDateString[3]
             fullDateStringMonth = fullDateString[4]
-            endMonth = returnMonthNumber(fullDateStringMonth)
+            endMonth = return_month_number(fullDateStringMonth)
 
         formattedEndDate = str(currentYear) + "-" + str(endMonth) + "-" + str(endDay)
         dateEnd = formattedEndDate
@@ -150,12 +150,12 @@ def returnOffers():
         if "voor" in deal.lower() and "€" not in deal:
             deal = deal.replace('voor', 'voor €')
 
-        cleanTitle = cleantext.cleanUpTitle(title)
-        cleanInfo = cleantext.cleanUpInfo(info)
+        cleanTitle = cleantext.clean_up_title(title)
+        cleanInfo = cleantext.clean_up_info(info)
         offer.update({"productId": productId})
         offer.update({"product": cleanTitle})
         offer.update({"productInfo": cleanInfo})
-        offer.update({"category": categorize.findCategoryForProduct(cleanTitle, cleanInfo)})
+        offer.update({"category": categorize.find_category_for_product(cleanTitle, cleanInfo)})
         offer.update({"deal": deal})
         offer.update({"dateStart": dateStart})
         offer.update({"dateEnd": dateEnd})
@@ -171,4 +171,4 @@ def returnOffers():
     return collection
 
 if __name__ == "__main__":
-    returnOffers()
+    return_offers()

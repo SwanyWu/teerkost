@@ -2,9 +2,9 @@ import unittest
 import xmlrunner
 import jumbo
 
-collection = jumbo.returnOffers()
+collection = jumbo.return_offers()
 
-class TestJumbo(unittest.TestCase):
+class test_jumbo(unittest.TestCase):
 
     def test_return_list_jumbo(self):
         """

@@ -2,7 +2,7 @@ import requests
 from datetime import datetime
 from cleanup import categorize, cleantext
 
-def returnOffers():
+def return_offers():
     SHOP = "dirk"
 
     api_key = "6d3a42a3-6d93-4f98-838d-bcc0ab2307fd"
@@ -25,12 +25,12 @@ def returnOffers():
 
             offer.update({"productId": i['OfferID']})
 
-            cleanTitle = cleantext.cleanUpTitle(i['HeaderText'])
+            cleanTitle = cleantext.clean_up_title(i['HeaderText'])
             offer.update({"product": cleanTitle})
 
             description = i['Packaging']
             if description != None:
-                cleanInfo = cleantext.cleanUpInfo(description)
+                cleanInfo = cleantext.clean_up_info(description)
                 offer.update({"productInfo": cleanInfo})
 
             price = i['OfferPrice'];
@@ -63,7 +63,7 @@ def returnOffers():
                 url = "https://www.dirk.nl/aanbiedingen/" + offerUrl + "/" + offerId
                 offer.update({"link": url})
 
-            category = categorize.findCategoryForProduct(cleanTitle, cleanInfo)
+            category = categorize.find_category_for_product(cleanTitle, cleanInfo)
             offer.update({"category": category})
 
             offer.update({"shop": SHOP})
@@ -74,4 +74,4 @@ def returnOffers():
     return collection
 
 if __name__ == "__main__":
-    returnOffers()
+    return_offers()

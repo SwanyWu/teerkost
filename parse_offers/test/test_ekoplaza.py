@@ -2,9 +2,9 @@ import unittest
 import xmlrunner
 import ekoplaza
 
-collection = ekoplaza.returnOffers()
+collection = ekoplaza.return_offers()
 
-class TestEkoplaza(unittest.TestCase):
+class test_ekoplaza(unittest.TestCase):
 
     def test_return_list_ekoplaza(self):
         """

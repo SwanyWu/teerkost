@@ -62,7 +62,7 @@ def returnCalculatedDate(datestring, plusDays):
 
     return str(newDateString)
 
-def returnOffers():
+def return_offers():
 
     SHOP = "aldi"
     URL = "https://www.aldi.nl/aanbiedingen.html"
@@ -158,12 +158,12 @@ def returnOffers():
             if "voor" in deal.lower() and "€" not in deal:
                 deal = deal.replace('voor', 'voor €')
 
-            cleanTitle = cleantext.cleanUpTitle(title)
-            cleanInfo = cleantext.cleanUpInfo(info)
+            cleanTitle = cleantext.clean_up_title(title)
+            cleanInfo = cleantext.clean_up_info(info)
             offer.update({"productId": productIdFromLink})
             offer.update({"product": cleanTitle})
             offer.update({"productInfo": cleanInfo})
-            offer.update({"category": categorize.findCategoryForProduct(cleanTitle, cleanInfo)})
+            offer.update({"category": categorize.find_category_for_product(cleanTitle, cleanInfo)})
             offer.update({"image": imageLink})
 
             offer.update({"deal": deal})
@@ -186,4 +186,4 @@ def returnOffers():
     return collection
 
 if __name__ == "__main__":
-    returnOffers()
+    return_offers()

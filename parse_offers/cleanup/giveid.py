@@ -1,5 +1,5 @@
 
-def giveIdToOffers(offers):
+def give_id_to_offers(offers):
     """Adds a id to each offer in the offers dictionary."""
 
     key = "id"

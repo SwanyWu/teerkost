@@ -2,9 +2,9 @@ import unittest
 import xmlrunner
 import plus
 
-collection = plus.returnOffers()
+collection = plus.return_offers()
 
-class TestPlus(unittest.TestCase):
+class test_plus(unittest.TestCase):
 
     def test_return_list_plus(self):
         """

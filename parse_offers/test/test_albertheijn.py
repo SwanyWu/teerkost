@@ -2,9 +2,9 @@ import unittest
 import xmlrunner
 import albertheijn
 
-collection = albertheijn.returnOffers()
+collection = albertheijn.return_offers()
 
-class TestAlbertHeijn(unittest.TestCase):
+class test_albertheijn(unittest.TestCase):
 
     def test_return_list_albertheijn(self):
         """

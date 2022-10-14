@@ -3,7 +3,7 @@ from datetime import datetime
 from cleanup import categorize, cleantext
 
 
-def returnOffers():
+def return_offers():
     SHOP = "jumbo"
     URL = "https://mobileapi.jumbo.com/v17/promotions"
 
@@ -21,15 +21,15 @@ def returnOffers():
         if "zegels" not in i['tag'] and "bezorgkorting" not in i['tag'] and "bestelkosten" not in i['tag']:
             offer = {"productId":"", "product":"", "productInfo":"", "category":"", "image":"", "deal":"", "price": 0, "dateStart":"", "dateEnd":"", "link": "", "shop":""}
 
-            cleanTitle = cleantext.cleanUpTitle(i['name'])
+            cleanTitle = cleantext.clean_up_title(i['name'])
             offer.update({"product": cleanTitle})
 
-            cleanInfoText = cleantext.cleanUpInfo(i['summary'])
+            cleanInfoText = cleantext.clean_up_info(i['summary'])
             offer.update({"productInfo": cleanInfoText})
 
             offer.update({"productId": i['id']})
 
-            category = categorize.findCategoryForProduct(cleanTitle, cleanInfoText)
+            category = categorize.find_category_for_product(cleanTitle, cleanInfoText)
             offer.update({"category": category})
 
             offer.update({"shop": SHOP})
@@ -65,4 +65,4 @@ def returnOffers():
     return collection
 
 if __name__ == "__main__":
-    returnOffers()
+    return_offers()

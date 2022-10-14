@@ -2,94 +2,94 @@ import unittest
 import xmlrunner
 from cleanup import categorize, cleantext, giveid
 
-class TestCleanup(unittest.TestCase):
+class test_cleanup(unittest.TestCase):
 
     def test_return_category_but_ignore_words(self):
         """
         ✅ Categorie voor product vinden maar ook woorden negeren 👉 
         """
-        resultingCategory = categorize.findCategoryForProduct("een biefstuk", "bla bla")
+        resultingCategory = categorize.find_category_for_product("een biefstuk", "bla bla")
         self.assertTrue(resultingCategory == 'vlees')
 
-        resultingCategory = categorize.findCategoryForProduct("een vegan", "bla bla")
+        resultingCategory = categorize.find_category_for_product("een vegan", "bla bla")
         self.assertTrue(resultingCategory == 'vegan')
 
-        resultingCategory = categorize.findCategoryForProduct("een vegan biefstuk", "bla bla")
+        resultingCategory = categorize.find_category_for_product("een vegan biefstuk", "bla bla")
         self.assertTrue(resultingCategory == 'vegan')
 
-        resultingCategory = categorize.findCategoryForProduct("een biefstuk vegan", "bla bla")
+        resultingCategory = categorize.find_category_for_product("een biefstuk vegan", "bla bla")
         self.assertTrue(resultingCategory == 'vegan')
 
-        resultingCategory = categorize.findCategoryForProduct("een biefstuk vegan biefstuk", "bla bla")
+        resultingCategory = categorize.find_category_for_product("een biefstuk vegan biefstuk", "bla bla")
         self.assertTrue(resultingCategory == 'vegan')
 
-        resultingCategory = categorize.findCategoryForProduct("calvé saus", "bla bla")
+        resultingCategory = categorize.find_category_for_product("calvé saus", "bla bla")
         self.assertTrue(resultingCategory != 'beleg')
 
     def test_return_category_none_found(self):
-        resultingCategory = categorize.findCategoryForProduct("derpie derp", "")
+        resultingCategory = categorize.find_category_for_product("derpie derp", "")
         self.assertTrue(resultingCategory == 'geen-categorie')
 
-        resultingCategory = categorize.findCategoryForProduct("", "derpie derp")
+        resultingCategory = categorize.find_category_for_product("", "derpie derp")
         self.assertTrue(resultingCategory == 'geen-categorie')
 
-        resultingCategory = categorize.findCategoryForProduct("", "")
+        resultingCategory = categorize.find_category_for_product("", "")
         self.assertTrue(resultingCategory == 'geen-categorie')
 
     def test_return_category_by_title(self):
         """
         ✅ Categorie voor product wordt gevonden in titel 👉 
         """
-        resultingCategory = categorize.findCategoryForProduct("bier water", "een flesje")
+        resultingCategory = categorize.find_category_for_product("bier water", "een flesje")
         self.assertTrue(resultingCategory == 'bier')
 
     def test_return_category_by_description(self):
         """
         ✅ Categorie voor product wordt gevonden in beschrijving 👉 
         """
-        resultingCategory = categorize.findCategoryForProduct("een flesje", "water bier")
+        resultingCategory = categorize.find_category_for_product("een flesje", "water bier")
         self.assertTrue(resultingCategory == 'bier')
 
     def test_return_category_w_empty_title(self):
         """
         ✅ Categorie voor product wordt gevonden met ontbrekende titel 👉 
         """
-        resultingCategory = categorize.findCategoryForProduct("", "bier")
+        resultingCategory = categorize.find_category_for_product("", "bier")
         self.assertTrue(resultingCategory == 'bier')    
     
     def test_return_category_w_empty_description(self):
         """
         ✅ Categorie voor product wordt gevonden met ontbrekende beschrijving 👉 
         """
-        resultingCategory = categorize.findCategoryForProduct("bier", "")
+        resultingCategory = categorize.find_category_for_product("bier", "")
         self.assertTrue(resultingCategory == 'bier')   
 
     def test_return_single_word_capitalized(self):
         """
         ✅ Categorie voor product wordt gevonden met enkel woord en hoofdletter 👉 
         """        
-        resultingCategory = categorize.findCategoryForProduct("Lenor", "derp derp")
+        resultingCategory = categorize.find_category_for_product("Lenor", "derp derp")
         self.assertTrue(resultingCategory == 'huishouden')
 
     def test_return_single_word_w_apostrof(self):
         """
         ✅ Categorie voor product wordt gevonden met enkel woord en apostrof 👉 
         """        
-        resultingCategory = categorize.findCategoryForProduct("Mango's Ready to Eat", "2-pack")
+        resultingCategory = categorize.find_category_for_product("Mango's Ready to Eat", "2-pack")
         self.assertTrue(resultingCategory == 'fruit')    
 
     def test_return_category_found_by_multiple_keyword_string(self):
         """
         ✅ Categorie voor product wordt gevonden op basis van meerdere woorden in een string 👉 
         """                
-        resultingCategory = categorize.findCategoryForProduct("Een friesche vlag latte pak", "2-pack")
+        resultingCategory = categorize.find_category_for_product("Een friesche vlag latte pak", "2-pack")
         self.assertTrue(resultingCategory == 'zuivel')    
 
     def test_clean_title(self):
         """
         ✅ Titel van een product is netjes 👉 
         """
-        cleanTitle = cleantext.cleanUpTitle("Jumbo Alle AH bananen* met schil ")
+        cleanTitle = cleantext.clean_up_title("Jumbo Alle AH bananen* met schil ")
         expectedTitle = "Bananen met schil"
         self.assertEqual(cleanTitle, expectedTitle)
 
@@ -97,11 +97,11 @@ class TestCleanup(unittest.TestCase):
         """
         ✅ Productinfo van een product is netjes 👉 
         """
-        cleanInfoText = cleantext.cleanUpInfo("Alle soorten 300 gram")
+        cleanInfoText = cleantext.clean_up_info("Alle soorten 300 gram")
         expectedInfoText = "300 gram"
         self.assertEqual(cleanInfoText, expectedInfoText)    
 
-        cleanInfoText = cleantext.cleanUpInfo("Bijv. de groene soort")
+        cleanInfoText = cleantext.clean_up_info("Bijv. de groene soort")
         expectedInfoText = ""
         self.assertEqual(cleanInfoText, expectedInfoText)    
 
@@ -159,7 +159,7 @@ class TestCleanup(unittest.TestCase):
             'id': 2
         }]
 
-        addId = giveid.giveIdToOffers(testOfferObject)
+        addId = giveid.give_id_to_offers(testOfferObject)
         self.assertEqual(addId, testOfferObjectExpected)        
 
 if __name__ == '__main__':

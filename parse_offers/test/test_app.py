@@ -2,14 +2,14 @@ import unittest
 import xmlrunner
 import os
 
-class TestApp(unittest.TestCase):
+class test_app(unittest.TestCase):
 
     def test_app_exists(self):
         """
         ✅ De kortings-app bestaat 👉 
         """
-        pathForJson = '../kortings-app/src/'
-        self.assertTrue(os.path.isdir(pathForJson))
+        PATH_SRC = '../kortings-app/src/'
+        self.assertTrue(os.path.isdir(PATH_SRC))
 
 
 if __name__ == '__main__':

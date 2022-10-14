@@ -2,7 +2,7 @@ import requests
 from datetime import datetime
 from cleanup import categorize, cleantext
 
-def returnOffers():
+def return_offers():
     SHOP = "ah"
 
     URL = "https://www.ah.nl/bonus/api/segments?segmentType=-PREMIUM"
@@ -19,13 +19,13 @@ def returnOffers():
             if i['segmentType'] == "AH" and i['category'] != 'Koken, tafelen, vrije tijd' and "bezorging" not in i['shields'][0]['text'] and "miles" not in i['shields'][0]['text']:
 
                 offer.update({"productId": i['id']})
-                cleanTitle = cleantext.cleanUpTitle(i['title'])
+                cleanTitle = cleantext.clean_up_title(i['title'])
                 offer.update({"product": cleanTitle})
 
-                cleanInfo = cleantext.cleanUpInfo(i['description'])
+                cleanInfo = cleantext.clean_up_info(i['description'])
                 offer.update({"productInfo": cleanInfo})
 
-                category = categorize.findCategoryForProduct(cleanTitle, cleanInfo)
+                category = categorize.find_category_for_product(cleanTitle, cleanInfo)
                 offer.update({"category": category})
 
                 offer.update({"shop": SHOP})
@@ -80,4 +80,4 @@ def returnOffers():
     return collection
 
 if __name__ == "__main__":
-    returnOffers()
+    return_offers()

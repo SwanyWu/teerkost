@@ -4,7 +4,7 @@ import datetime
 import json
 from bs4 import BeautifulSoup
 
-def returnOffers():
+def return_offers():
 
     SHOP = "lidl"
     URL = "https://www.lidl.nl/c/aanbiedingen/a10008785"
@@ -43,7 +43,7 @@ def returnOffers():
         loadJsonList = json.loads(detailElementData)
 
         title = loadJsonList[0]['fullTitle']
-        cleanTitle = cleantext.cleanUpTitle(title)
+        cleanTitle = cleantext.clean_up_title(title)
         offer.update({"product": cleanTitle})
 
         deal = loadJsonList[0]['gridLabel']
@@ -80,12 +80,12 @@ def returnOffers():
 
         description = loadJsonList[0]['keyfacts']['description']
         if type(description) != type(None):
-            cleanInfoText = cleantext.cleanUpInfo(description.strip())
+            cleanInfoText = cleantext.clean_up_info(description.strip())
         else:
             cleanInfoText = ""
 
         offer.update({"productInfo": cleanInfoText})
-        category = categorize.findCategoryForProduct(cleanTitle, cleanInfoText)
+        category = categorize.find_category_for_product(cleanTitle, cleanInfoText)
         offer.update({"category": category})
 
         offer.update({"productId": productId})
@@ -140,4 +140,4 @@ def returnOffers():
     return collection
 
 if __name__ == "__main__":
-    returnOffers()
+    return_offers()

@@ -2,9 +2,9 @@ import unittest
 import xmlrunner
 import aldi
 
-collection = aldi.returnOffers()
+collection = aldi.return_offers()
 
-class TestAldi(unittest.TestCase):
+class test_aldi(unittest.TestCase):
 
     def test_return_list(self):
         """

@@ -1,3 +1,6 @@
+import os
+import time
+import uuid
 import albertheijn
 import jumbo
 import lidl
@@ -11,11 +14,8 @@ import shutil
 import requests
 from PIL import Image
 from cleanup import giveid
-import os
-import time
-import uuid
 
-def updateImageUrlForOffer(url, offer):
+def update_image_url_offer(url, offer):
     """Update the field for image in the json object"""
 
     if(offer['image'] == url):
@@ -25,32 +25,32 @@ def updateImageUrlForOffer(url, offer):
         print("     ✅ De lokale URL wordt gebruikt: " + url)
 
 
-def tryAndSaveTheImage(url, destination):
+def try_and_save_image(url, destination):
     """Tries to download and save the image and convert it to webp format."""
 
     domain = "https://teerkost.nl/img/"
-    resultingUrl = url
+    resulting_url = url
 
     try:
         response = requests.get(imageUrl,timeout=5)
         if response.status_code == 200:
             try:
                 imageData = requests.get(imageUrl, headers=headers).content
-                newFileName = str(uuid.uuid4().hex)
-                with open(destination + '/'+ newFileName +'.png', 'wb') as i:
+                new_filename = str(uuid.uuid4().hex)
+                with open(destination + '/'+ new_filename +'.png', 'wb') as i:
                     i.write(imageData)
-                    print("     ✅ Afbeelding " + newFileName + " opslaan.")
+                    print("     ✅ Afbeelding " + new_filename + " opslaan.")
 
                     try:
-                        img = Image.open(destination + '/' + newFileName +'.png')
-                        img.save(destination + '/'+newFileName+'.webp', format="webp")
+                        img = Image.open(destination + '/' + new_filename +'.png')
+                        img.save(destination + '/'+new_filename+'.webp', format="webp")
                         print("     ✅ Afbeelding geconverteerd naar webp.")
-                        resultingUrl = domain + '' + newFileName + '.webp'
-                        os.remove(destination + '/' + newFileName + '.png')
+                        resulting_url = domain + '' + new_filename + '.webp'
+                        os.remove(destination + '/' + new_filename + '.png')
                     except Exception as e:
                         print("     " + e)
                         print("     🤔 Converteren naar webp mislukt, we blijven bij png.")
-                        resultingUrl = domain + '' + newFileName + '.png'
+                        resulting_url = domain + '' + new_filename + '.png'
             except Exception as e:
                 print("     🟥 Opslaan is mislukt, we gaan verder.")
                 pass
@@ -59,23 +59,23 @@ def tryAndSaveTheImage(url, destination):
     except requests.exceptions.Timeout:
         print("     🟥 Time out ontvangen, laat maar zitten.")
 
-    return resultingUrl
+    return resulting_url
 
-def moveFolder(folderPath, destination):
+def move_folder(folder_path, destination):
     """Moves the provided folder to the destination."""
 
     print(" ")
     if os.path.exists(destination):
         shutil.rmtree(destination)
-        print("🧹 Folder " + folderPath + " bestaat op " + destination + ", die gooien we eerst weg.")
+        print("🧹 Folder " + folder_path + " bestaat op " + destination + ", die gooien we eerst weg.")
 
-    shutil.move(folderPath, destination)
+    shutil.move(folder_path, destination)
     if os.path.exists(destination):
-        print("✅ Folder " + folderPath + " uit project verplaatst naar " + destination + ".")
+        print("✅ Folder " + folder_path + " uit project verplaatst naar " + destination + ".")
     else:
-        raise Exception("     🟥 Verplaatsen niet gelukt: folder " +folderPath + " niet gevonden op " + destination + ".")
+        raise Exception("     🟥 Verplaatsen niet gelukt: folder " + folder_path + " niet gevonden op " + destination + ".")
 
-def moveFile(file, destination):
+def move_file(file, destination):
     """Moves the provided file to the destination."""
 
     if os.path.exists(destination + file):
@@ -87,69 +87,69 @@ def moveFile(file, destination):
 
 if __name__ == "__main__":
 
-    take_it_easy = 0
+    TAKE_IT_EASY = 0
 
-    allOffers = []
+    all_offers = []
     try:
-        jumboOffers = jumbo.returnOffers()
-        allOffers = allOffers + jumboOffers
-    except:
+        jumbo_offers = jumbo.return_offers()
+        all_offers = all_offers + jumbo_offers
+    except Exception:
         print("🟥 Aanbiedingen ophalen voor Jumbo mislukt, wordt overgeslagen.")
 
     try:
-        ahOffers = albertheijn.returnOffers()
-        allOffers = allOffers + ahOffers
-    except:
+        ah_offers = albertheijn.return_offers()
+        all_offers = all_offers + ah_offers
+    except Exception:
         print("🟥 Aanbiedingen ophalen voor Jumbo mislukt, wordt overgeslagen.")
 
     try:
-        lidlOffers = lidl.returnOffers()
-        allOffers = allOffers + lidlOffers
-    except:
+        lidl_offers = lidl.return_offers()
+        all_offers = all_offers + lidl_offers
+    except Exception:
         print("🟥 Aanbiedingen ophalen voor Lidl mislukt, wordt overgeslagen.")
 
     try:
-        aldiOffers = aldi.returnOffers()
-        allOffers = allOffers + aldiOffers
-    except:
+        aldi_offers = aldi.return_offers()
+        all_offers = all_offers + aldi_offers
+    except Exception:
         print("🟥 Aanbiedingen ophalen voor Aldi mislukt, wordt overgeslagen.")
 
     try:
-        dirkOffers = dirk.returnOffers()
-        allOffers = allOffers + dirkOffers
-    except:
+        dirk_offers = dirk.return_offers()
+        all_offers = all_offers + dirk_offers
+    except Exception:
         print("🟥 Aanbiedingen ophalen voor Dirk mislukt, wordt overgeslagen.")
 
     try:
-        sparOffers = spar.returnOffers()
-        allOffers = allOffers + sparOffers
-    except:
+        spar_offers = spar.return_offers()
+        all_offers = all_offers + spar_offers
+    except Exception:
         print("🟥 Aanbiedingen ophalen voor Spar mislukt, wordt overgeslagen.")
 
     try:
-        ekoplazaOffers = ekoplaza.returnOffers()
-        allOffers = allOffers + ekoplazaOffers
-    except:
+        ekoplaza_offers = ekoplaza.return_offers()
+        all_offers = all_offers + ekoplaza_offers
+    except Exception:
         print("🟥 Aanbiedingen ophalen voor Ekoplaza mislukt, wordt overgeslagen.")
 
     try:
-        plusOffers = plus.returnOffers()
-        allOffers = allOffers + plusOffers
-    except:
+        plus_offers = plus.return_offers()
+        all_offers = all_offers + plus_offers
+    except Exception:
         print("🟥 Aanbiedingen ophalen voor Plus mislukt, wordt overgeslagen.")
 
 
-    allOffers = giveid.giveIdToOffers(allOffers)
-    allOffers = sorted(allOffers, key=lambda p: p['category'])
+    all_offers = giveid.give_id_to_offers(all_offers)
+    all_offers = sorted(all_offers, key=lambda p: p['category'])
 
     headers = {
         "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:97.0) Gecko/20100101 Firefox/97.0"
         }
 
-    print("📄 Er zijn " + str(len(allOffers)) + " aanbiedingen gevonden.")
-    time.sleep(take_it_easy)
+    print("📄 Er zijn " + str(len(all_offers)) + " aanbiedingen gevonden.")
+    time.sleep(TAKE_IT_EASY)
     print("✊ Aan de slag met afbeeldingen downloaden en converteren naar webp.")
-    time.sleep(take_it_easy)
+    time.sleep(TAKE_IT_EASY)
 
     try:
         shutil.rmtree('parse_offers/img')
@@ -160,28 +160,28 @@ if __name__ == "__main__":
     os.mkdir('parse_offers/img')
     print("✅ Schone img folder gemaakt in het project.")
 
-    time.sleep(take_it_easy)
+    time.sleep(TAKE_IT_EASY)
     index = 0
     try:
-        for offer in allOffers:
+        for offer in all_offers:
             print(" ")
             print("# " + str(index+1))
             index = index+1
             imageUrl = offer['image']
             destination = 'parse_offers/img'
-            resultingUrl = tryAndSaveTheImage(imageUrl, destination)
-            updateImageUrlForOffer(resultingUrl, offer)
+            resulting_url = try_and_save_image(imageUrl, destination)
+            update_image_url_offer(resulting_url, offer)
 
     except Exception as e:
         print(e)
 
-    time.sleep(take_it_easy)
+    time.sleep(TAKE_IT_EASY)
 
-    moveFolder('parse_offers/img', 'kortings-app/public/img')
+    move_folder('parse_offers/img', 'kortings-app/public/img')
 
-    time.sleep(take_it_easy)
+    time.sleep(TAKE_IT_EASY)
     print("✅ Dump de aanbiedingen in een JSON bestand.")
     with open('offers.json', 'a+', encoding='utf-8') as f:
-            json.dump(allOffers, f, indent=4,ensure_ascii = False)
+        json.dump(all_offers, f, indent=4,ensure_ascii = False)
 
-    moveFile('offers.json', 'kortings-app/src/')
+    move_file('offers.json', 'kortings-app/src/')

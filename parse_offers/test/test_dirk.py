@@ -2,9 +2,9 @@ import unittest
 import xmlrunner
 import dirk
 
-collection = dirk.returnOffers()
+collection = dirk.return_offers()
 
-class TestDirk(unittest.TestCase):
+class test_dirk(unittest.TestCase):
 
     def test_return_list(self):
         """

@@ -2,9 +2,9 @@ import unittest
 import xmlrunner
 import spar
 
-collection = spar.returnOffers()
+collection = spar.return_offers()
 
-class TestSpar(unittest.TestCase):
+class test_spar(unittest.TestCase):
 
     def test_return_list_spar(self):
         """

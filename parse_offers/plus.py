@@ -9,7 +9,7 @@ import datetime
 from bs4 import BeautifulSoup
 from cleanup import categorize, cleantext
 
-def returnMonthNumber(monthString):
+def return_month_number(monthString):
 
     months = ['januari', 'februari', 'maart', 'april', 'mei', 'juni', 'juli', 'augustus', 'september', 'oktober', 'november','december']
     monthInt = months.index(monthString) + 1
@@ -17,7 +17,7 @@ def returnMonthNumber(monthString):
     monthNumberString = format(monthInt, '02')
     return monthNumberString
 
-def formatNumberAsFloat(number):
+def format_number_float(number):
     number = number.replace("\n", "") # character appears sometimes
     numberAsList = list(number)
     numberAsList.reverse()
@@ -29,11 +29,11 @@ def formatNumberAsFloat(number):
     floatNumber = round(floatNumber, 2)
     return str(floatNumber)
 
-def calculatePercentage(oldPrice, newPrice):
+def calculate_percentage(oldPrice, newPrice):
     calculateDeal = int((1 - (float(newPrice)/float(oldPrice))) * 100)
     return str(calculateDeal)
 
-def returnMonth(monthString):
+def return_month(monthString):
     monthString = monthString.replace("\xa0", "")
     months = ["januari", "februari", "maart", "april", "mei",
     "juni", "juli", "augustus", "september", "oktober", "november", "december"]
@@ -43,7 +43,7 @@ def returnMonth(monthString):
 
     return monthNumberString
 
-def getPageContent(URL, driver, element_to_be_located):
+def get_page_content(URL, driver, element_to_be_located):
     driver.get(URL)
     WebDriverWait(driver, 300).until(
             EC.visibility_of_element_located((By.ID, element_to_be_located)) # wait for the last category
@@ -60,7 +60,7 @@ def getPageContent(URL, driver, element_to_be_located):
             productSectionHTML = productSectionWebElement.get_attribute('outerHTML')
     return productSectionHTML
 
-def returnOffers():
+def return_offers():
 
     SHOP = "plus"
     URL = "https://www.plus.nl/aanbiedingen"
@@ -71,10 +71,10 @@ def returnOffers():
     driver = webdriver.Firefox(options=options, executable_path=GeckoDriverManager().install())
 
     try:
-        productSectionHTML = getPageContent(URL, driver, "_baby-drogisterij")
+        productSectionHTML = get_page_content(URL, driver, "_baby-drogisterij")
     except Exception:
         print("Kan element nog niet zien, nog één keer proberen.")
-        productSectionHTML = getPageContent(URL, driver, "_huishouden")
+        productSectionHTML = get_page_content(URL, driver, "_huishouden")
     finally:
         driver.quit()
 
@@ -97,8 +97,8 @@ def returnOffers():
 
         year = datetime.datetime.now().year
 
-        dateStart = str(year) +"-"+ returnMonth(dateStartMonth) +"-"+ dateStartDay
-        dateEnd = str(year) +"-"+ returnMonth(dateEndMonth) +"-"+ dateEndDay
+        dateStart = str(year) +"-"+ return_month(dateStartMonth) +"-"+ dateStartDay
+        dateEnd = str(year) +"-"+ return_month(dateEndMonth) +"-"+ dateEndDay
 
     productTile = "ish-productList-item"
     for product in soup.find_all("li", {"class": productTile}):
@@ -140,13 +140,13 @@ def returnOffers():
                     deal = percentage + " korting"
                     # TODO nieuwe prijs berekenen
                 else:
-                    discount = formatNumberAsFloat(splitClover[0]) # a discount is found
+                    discount = format_number_float(splitClover[0]) # a discount is found
                     newPrice = float(oldPrice) - float(discount)
-                    deal = calculatePercentage(oldPrice, newPrice) + "% korting"
+                    deal = calculate_percentage(oldPrice, newPrice) + "% korting"
                     price = float(str(newPrice))
             elif "VOOR" in clover:
                 splitClover = clover.split("VOOR")
-                formattedPrice = formatNumberAsFloat(splitClover[1])
+                formattedPrice = format_number_float(splitClover[1])
                 deal = splitClover[0] + "voor " + formattedPrice
                 price = float(formattedPrice)
             elif "+1GRATIS" in clover:
@@ -156,8 +156,8 @@ def returnOffers():
             elif "GRAM" in clover:
                 splitClover = clover.split("GRAM")
                 prijsKilo = splitClover[1]
-                newPrice = formatNumberAsFloat(prijsKilo)
-                percentage = calculatePercentage(oldPrice, newPrice)
+                newPrice = format_number_float(prijsKilo)
+                percentage = calculate_percentage(oldPrice, newPrice)
                 price = float(newPrice)
                 if float(percentage) < 0.0:
                     print("Wait wut, korting van " + str(percentage) + "%")
@@ -166,8 +166,8 @@ def returnOffers():
             elif "KILO" in clover:
                 splitClover = clover.split("KILO")
                 prijsKilo = splitClover[1]
-                newPrice = formatNumberAsFloat(prijsKilo)
-                percentage = calculatePercentage(oldPrice, newPrice)
+                newPrice = format_number_float(prijsKilo)
+                percentage = calculate_percentage(oldPrice, newPrice)
                 price = float(newPrice)
                 if float(percentage) < 0.0:
                     print("Wait wut, korting van " + str(percentage) + "%")
@@ -178,8 +178,8 @@ def returnOffers():
                 # TODO prijs berekenen
             else:
                 try:
-                    newPrice = formatNumberAsFloat(clover)
-                    deal = calculatePercentage(oldPrice, newPrice) + "% korting"
+                    newPrice = format_number_float(clover)
+                    deal = calculate_percentage(oldPrice, newPrice) + "% korting"
                     # TODO prijs berekenen
                 except Exception as e:
                     print("Geen idee wat de deal is hiervan: " + clover)
@@ -229,12 +229,12 @@ def returnOffers():
         if "voor" in deal.lower() and "€" not in deal:
             deal = deal.replace('voor', 'voor €')
 
-        cleanTitle = cleantext.cleanUpTitle(title)
-        cleanInfo = cleantext.cleanUpInfo(info)
+        cleanTitle = cleantext.clean_up_title(title)
+        cleanInfo = cleantext.clean_up_info(info)
         offer.update({"productId": productId})
         offer.update({"product": cleanTitle})
         offer.update({"productInfo": cleanInfo})
-        offer.update({"category": categorize.findCategoryForProduct(cleanTitle, cleanInfo)})
+        offer.update({"category": categorize.find_category_for_product(cleanTitle, cleanInfo)})
         offer.update({"deal": deal})
         offer.update({"dateStart": dateStart})
         offer.update({"dateEnd": dateEnd})
@@ -249,4 +249,4 @@ def returnOffers():
     return collection
 
 if __name__ == "__main__":
-    returnOffers()
+    return_offers()

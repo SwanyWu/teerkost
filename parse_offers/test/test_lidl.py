@@ -2,9 +2,9 @@ import unittest
 import xmlrunner
 import lidl
 
-collection = lidl.returnOffers()
+collection = lidl.return_offers()
 
-class TestLidl(unittest.TestCase):
+class test_lidl(unittest.TestCase):
 
     def test_return_list_lidl(self):
         """

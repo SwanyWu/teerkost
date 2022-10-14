@@ -4,7 +4,7 @@ from cleanup import categorize, cleantext
 from datetime import datetime
 from bs4 import BeautifulSoup
 
-def returnOffers():
+def return_offers():
 
     SHOP = "spar"
     URL = "https://www.spar.nl/aanbiedingen/"
@@ -50,16 +50,16 @@ def returnOffers():
         titleElement = metaElement.find("a")
         if titleElement != None:
             title = titleElement.get_text().strip()
-            cleanTitle = cleantext.cleanUpTitle(title)
+            cleanTitle = cleantext.clean_up_title(title)
             offer.update({"product": cleanTitle})
 
         descrElement = metaElement.find("span")
         if descrElement != None:
             description = descrElement.get_text().strip()
-            cleanInfoText = cleantext.cleanUpInfo(description)
+            cleanInfoText = cleantext.clean_up_info(description)
             offer.update({"productInfo": cleanInfoText})
 
-        category = categorize.findCategoryForProduct(cleanTitle, cleanInfoText)
+        category = categorize.find_category_for_product(cleanTitle, cleanInfoText)
         offer.update({"category": category})
 
         imageTile = item.find("div", {"class":"c-product-tile__image"})
@@ -143,4 +143,4 @@ def returnOffers():
     return collection
 
 if __name__ == "__main__":
-    returnOffers()
+    return_offers()
