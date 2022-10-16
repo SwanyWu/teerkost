@@ -1,7 +1,6 @@
 import requests
 from datetime import datetime
 from cleanup import categorize, cleantext
-from single_offer import single_offer
 
 def return_offers():
     SHOP = "dirk"

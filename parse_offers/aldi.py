@@ -3,7 +3,6 @@ import requests
 from datetime import datetime, timedelta
 from bs4 import BeautifulSoup
 from cleanup import categorize, cleantext
-from single_offer import single_offer
 
 def return_weekday(date_string):
     date_string = date_string.split("-")
