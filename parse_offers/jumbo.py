@@ -1,7 +1,6 @@
 import requests
 from datetime import datetime
 from cleanup import categorize, cleantext
-from offer import offer
 
 def return_offers():
     SHOP = "jumbo"
@@ -18,6 +17,19 @@ def return_offers():
 
     for i in data['sections'][0]['current']['promotions']:
         if "zegels" not in i['tag'] and "bezorgkorting" not in i['tag'] and "bestelkosten" not in i['tag']:
+            offer = {
+                "productId": "",
+                "product":"", 
+                "productInfo":"", 
+                "category":"", 
+                "image":"", 
+                "deal":"",
+                "price": float(0), 
+                "dateStart":"", 
+                "dateEnd":"", 
+                "link": "", 
+                "shop":""
+            }
 
             clean_title = cleantext.clean_up_title(i['name'])
             offer.update({"product": clean_title})

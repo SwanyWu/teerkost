@@ -3,7 +3,7 @@ import requests
 from datetime import datetime, timedelta
 from bs4 import BeautifulSoup
 from cleanup import categorize, cleantext
-from offer import offer
+from single_offer import single_offer
 
 def return_weekday(date_string):
     date_string = date_string.split("-")
@@ -87,6 +87,20 @@ def return_offers():
         section_index = section_index + 1
 
         for article in section.find_all("div", {"class", article_div}):
+
+            offer = {
+                "productId": "",
+                "product":"", 
+                "productInfo":"", 
+                "category":"", 
+                "image":"", 
+                "deal":"",
+                "price": float(0), 
+                "dateStart":"", 
+                "dateEnd":"", 
+                "link": "", 
+                "shop":""
+            }
 
             title = ""
             info = ""

@@ -3,7 +3,6 @@ from cleanup import categorize, cleantext
 import datetime
 import json
 from bs4 import BeautifulSoup
-from offer import offer
 
 def return_offers():
 
@@ -17,6 +16,19 @@ def return_offers():
     collection = []
 
     for item in soup.find_all("li", {"class": "ACampaignGrid__item--product"}):
+        offer = {
+            "productId": "",
+            "product":"", 
+            "productInfo":"", 
+            "category":"", 
+            "image":"", 
+            "deal":"",
+            "price": float(0), 
+            "dateStart":"", 
+            "dateEnd":"", 
+            "link": "", 
+            "shop":""
+        }
 
         product_id = ""
         title = ""

@@ -7,7 +7,6 @@ from selenium.webdriver.support import expected_conditions as EC
 import datetime
 from bs4 import BeautifulSoup
 from cleanup import categorize, cleantext
-from offer import offer
 
 def return_month_number(monthString):
 
@@ -84,6 +83,20 @@ def return_offers():
 
     product_tile = "product-tile"
     for product in soup.find_all("div", {"class": product_tile}):
+
+        offer = {
+            "productId": "",
+            "product":"", 
+            "productInfo":"", 
+            "category":"", 
+            "image":"", 
+            "deal":"",
+            "price": float(0), 
+            "dateStart":"", 
+            "dateEnd":"", 
+            "link": "", 
+            "shop":""
+        }
 
         title = ""
         info = ""

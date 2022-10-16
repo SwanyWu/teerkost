@@ -3,7 +3,6 @@ import requests
 from cleanup import categorize, cleantext
 from datetime import datetime
 from bs4 import BeautifulSoup
-from offer import offer
 
 def return_offers():
 
@@ -31,6 +30,19 @@ def return_offers():
 
     collection = []
     for item in soup.find_all("div", {"class": "c-product-tile"}):
+        offer = {
+            "productId": "",
+            "product":"", 
+            "productInfo":"", 
+            "category":"", 
+            "image":"", 
+            "deal":"",
+            "price": float(0), 
+            "dateStart":"", 
+            "dateEnd":"", 
+            "link": "", 
+            "shop":""
+        }
 
         clean_title = ""
         clean_info = ""
@@ -134,6 +146,7 @@ def return_offers():
             collection.append(offer)
 
     print("📄 " + str(len(collection)) + " aanbiedingen van de "+SHOP+" bij elkaar verzameld.")
+
     return collection
 
 if __name__ == "__main__":

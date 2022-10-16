@@ -1,7 +1,7 @@
 import requests
 from datetime import datetime
 from cleanup import categorize, cleantext
-from offer import offer
+from single_offer import single_offer
 
 def return_offers():
     SHOP = "dirk"
@@ -20,7 +20,19 @@ def return_offers():
         data = r.json()
 
         for i in data:
-
+            offer = {
+                "productId": "",
+                "product":"", 
+                "productInfo":"", 
+                "category":"", 
+                "image":"", 
+                "deal":"",
+                "price": float(0), 
+                "dateStart":"", 
+                "dateEnd":"", 
+                "link": "", 
+                "shop":""
+            }
             offer.update({"productId": i['OfferID']})
 
             clean_title = cleantext.clean_up_title(i['HeaderText'])
@@ -67,10 +79,11 @@ def return_offers():
             
             offer.update({"category": category})
             offer.update({"shop": SHOP})
-
+            
             collection.append(offer)
-
+            
     print("📄 " + str(len(collection)) + " aanbiedingen van de Dirk bij elkaar verzameld.")
+
     return collection
 
 if __name__ == "__main__":

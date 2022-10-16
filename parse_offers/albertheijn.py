@@ -1,7 +1,6 @@
 import requests
 from datetime import datetime
 from cleanup import categorize, cleantext
-from offer import offer
 
 def return_offers():
     SHOP = "ah"
@@ -15,7 +14,19 @@ def return_offers():
 
         try:
             if i['segmentType'] == "AH" and i['category'] != 'Koken, tafelen, vrije tijd' and "bezorging" not in i['shields'][0]['text'] and "miles" not in i['shields'][0]['text']:
-
+                offer = {
+                    "productId": "",
+                    "product":"", 
+                    "productInfo":"", 
+                    "category":"", 
+                    "image":"", 
+                    "deal":"",
+                    "price": float(0), 
+                    "dateStart":"", 
+                    "dateEnd":"", 
+                    "link": "", 
+                    "shop":""
+                }
                 offer.update({"productId": i['id']})
                 clean_title = cleantext.clean_up_title(i['title'])
                 offer.update({"product": clean_title})
