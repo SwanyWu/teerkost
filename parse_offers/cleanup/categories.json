@@ -62,8 +62,9 @@
             "schouderkarbonades", "schouderham", "gehaktrol", "grillworst", "bbq-steaks", "kippenbouten", "ontbijtspek",
             "schinken", "abdijham", "porc", "scharrelkipfiletblokjes", "rundertartaar", "kip-champignonschnitzels",
             "kipsaucijzen", "jalapeño-beefburgers", "schouderfiletsteaks", "bbq-worstjes", "serranoham", "varkensschnitzels",
-            "runderrookvlees", "kipburgers", "leverkaas", "greenfields",
-            "wildzwijnmedaillon", "hertenbiefstuk", "reebiefstuk",
+            "runderrookvlees", "kipburgers", "leverkaas", "greenfields", "runderstooflappen",
+            "hacheevlees", "stamppotvinken",
+            "wildzwijnmedaillon", "hertenbiefstuk", "reebiefstuk", "biefstukreepjes",
             "kipdijshoarma", "riblappen", "scharrelkipblokjes", "paté-plakken",
             "bacon", "casselerrib", "porchetta", "schijf", "worstjes", "ribkarbonades",
             "varkenssaucijzen", "rostbratwursten", "slagersrookworst", "kippenbout",
@@ -85,7 +86,7 @@
             "boeren-kipgehaktschnitzel", "cervelaatworst", "seizoenspaté", "katenspek", "kipshoarma",
             "rundergoulash", "kipschotel", "boerenmetworst", "wienerschnitzel", "wienerschnitzels", "kipfiletstukjes"
         ],
-        "keywordsWithSpace": ["beef jerky"],
+        "keywordsWithSpace": ["beef jerky", "diepvriesspecialiteit snacks"],
         "ignore": ["snackbroodje", "snackbroodjes", "blije", "pitabroodjes",
             "wagner", "vega", "vegan", "vega(n)", "vegetarisch", "vegetarische",
             "omelet", "beyond", "krieltjes", "potato", "plantbased",
@@ -122,7 +123,7 @@
             "stamppotgroente", "pompoenen", "hutspotgroenten", "stampppotgroenten",
             "snijbiet", "eikenbladsla", "broccolikiemen", "romaatjes", "snoepgroenten",
             "mosselgroenten", "botersla", "bamigroenten", "nasigroenten", "shiitake",
-            "radijskiemen", "boerensoepgroente",
+            "radijskiemen", "boerensoepgroente", "spliterwten",
             "waterkers", "ijsbergslamelange", "eikenbladslamelange", "kluitsla", "koolrabi",
             "cavolo", "mais", "doperwten", "doperwten-wortelen", "tuinbonen", "boerensoepgroente"
 
@@ -145,7 +146,7 @@
             "aardappelspecialiteit", "aardappelschijfjes", "aardappelkroketjes",
              "aardappelbolletjes", "aardappelfrites", "aardappelfriet", "pofaardappelen",
              "frites", "patat", "pommes", "boerenfriet", "frietjes", "friet",
-             "aardappelgratin", "aardappelgratins",
+             "aardappelgratin", "aardappelgratins", "stamppotaardappelen",
              "aardappelroosjes", "aardappelgolfjes", "aardappelpuree",
              "aardappel", "aardappelpannetje", "krielaardappelen", "opperdoezer",
              "aardappelpartjes", "aardappelblokjes", "pom'", "kriel", "vastkokend",
@@ -184,15 +185,15 @@
             "maïsbollen", "kornbollen", "snackbroodje", "snackbroodjes", "gehaktbalbroodje",
             "kruidenbroodjes", "bagels", "dadel-vijgenbrood", "tijgerbol", "chili-cheddar-broodje",
             "roombotercroissants", "vanille-karamelcroissant", "walnootroggebrood", "naanbrood", "pompoenbrood",
-            "pompoenbroodje", "krenten-rozijnenbollen",
+            "pompoenbroodje", "krenten-rozijnenbollen", "volkorenbollen",
             "boerenbruin", "boerenwit", "tijgerbrood", "steenovenbaguettes", "volkoren", "kaasbroodje"
         ],
-        "keywordsWithSpace": [],
+        "keywordsWithSpace": ["boeren bruin", "topfit meergranen"],
         "ignore": ["kaas", "salade", "cookie", "cookies", "gebak",
             "hartjesgebak", "salades", "chips", "donut", "donuts",
             "chio", "bertolli", "aardbeiengebak", "shoarma", "koeken",
             "cake", "cakeplakken", "vache", "spiralen", "speltbuisjes", "soepstengel",
-            "soepstengels",
+            "soepstengels", 
             "bloembollen", "tulpenbollen", "vlokken", "herfstbloembollen", "kaars", "allium"]
     },
     {
@@ -207,7 +208,7 @@
             "tomatenspread", "basilicumspread", "gemberspread", "groentespread", "pijnboompittenspread",
             "preispread", "marmelade", "penotti", "speculoos", "aardbeienjam", "abrikozenjam",
             "speculoospasta", "agavesiroop", "dadelsiroop", "tahin", "dadelstroop",
-            "veldbloemenhoning", "sinaasappelhoning"
+            "veldbloemenhoning", "sinaasappelhoning", "fruitstroop"
         ],
         "keywordsWithSpace": [],
         "ignore": ["saus", "mosterd", "zeep",
@@ -241,7 +242,7 @@
             "ovengratin", "cheesestrings", "manchego", "wapenaer", "kaasblokjes", "kaasstukken",
             "moravia", "geitenkaasschijfjes", "hüttenkäse", "kaasplateaus", "uniekaas", "cheddar",
             "kaasspecialiteiten", "geitensmeerkaas", "camelia", "fermentino",
-            "kaasfondue",
+            "kaasfondue", "kaasjes",
             "fenegriek", "schapenkaasje", "rookkaas", "apetina", "halloumi"
         ],
         "keywordsWithSpace": ["old amsterdam"],
@@ -313,7 +314,7 @@
             "loempia's", "pompoen-wortelsoep", "currysoep", "tomaat-basilicumsoep", "groentesoep",
             "aardappel-wortelsoep", "pastagerecht", "kapsalon", "pannenkoekenmixen", "pannnenkoekenmix"
         ],
-        "keywordsWithSpace": ["hollandse stamppot", "cup a soup", "dr. oetker bistro", "hebro saté", "asia green garden"],
+        "keywordsWithSpace": ["oriental delight", "hollandse stamppot", "cup a soup", "dr. oetker bistro", "hebro saté", "asia green garden"],
         "ignore": ["deeg", "geraspt", "paté", "krulslamelange", "eikenbladslamelange",
         "amandelen"]
     },
@@ -327,7 +328,7 @@
             "macadamia", "borrelnoten", "suikerpinda's", "cashews", "macadamianoten", "cocktailnoten",
             "cranberrymix", "noten-superfood", "noten-bessenmix", "hazelnoten", "baknoten"
         ],
-        "keywordsWithSpace": ["katjang pedis"],
+        "keywordsWithSpace": ["katjang pedis", "trader joe's borrelmix"],
         "ignore": ["shampoo", "bodywash", "melkchocolade", "pindakaas"]
     },
     {
@@ -393,9 +394,10 @@
             "balmont", "hardys", "deetlefs", "stonecross", "tessa",
             "vinho", "vila", "château", "marzenac", "moncaro", "rosato",
             "2wine", "almirante", "sangre", "roche", "villa",
-            "moscato", "qué", "horse", "favorite", "beauchamps"
+            "moscato", "qué", "horse", "favorite", "beauchamps", "mcguigan"
         ],
-        "keywordsWithSpace": ["georges duboeuf", "corte fresca", "chateau pradeau"],
+        "keywordsWithSpace": ["just 0", "georges duboeuf", "van zijl", 
+            "corte fresca", "chateau pradeau"],
         "ignore": ["vruchtenspread", "verkade", "nizza", "sprits", "tofu",
             "kweeper", "spread", "mosterd", "milk", "mouse"
         ]
@@ -417,6 +419,7 @@
             "pleisters", "demak'up", "lactacyd", "babydoekjes", "centrum", "deostick",
             "reinigingsmelk", "zelfbruincrème", "reinigingslotion", "levertraan",
             "gezichtsmasker", "botanique", "sea.line", "sanature", "echinaforce",
+            "neusspray", "keelspray", "keelpastilles", "vitalis", "neusspoelzout",
             "weleda", "douchescrub", "orthica", "babyverzorging", "happysoap", "happysoaps",
             "bodybutter", "bodyscrub", "handcrème", "huidcrème", "nachtcrème", "dagcrème", "covid-19", "zelftest",
             "douche", "cosmetics", "bodymilk", "hair", "gezichtsscrub", "shampoobar", "conditionerbar", "haarwax",
@@ -427,7 +430,7 @@
             "lippenbalsem", "douchecreme", "l'oreál", "valdispert", "schiepz", "melatomatine",
             "soap", "marcel's", "huidtypes", "balsem", "ombra", "bodywash", "handwash", "therme"
         ],
-        "keywordsWithSpace": ["sport whey"],
+        "keywordsWithSpace": ["sport whey", "ombia olie", "ombia kruidenbad"],
         "ignore": ["zalmfilets", "vis", "vers", "verse", "zalmfilet", "waspoeder", "wasmiddel", "zalmzijde"]
     },
     {
@@ -439,7 +442,7 @@
             "fleuril", "finish", "reinigers", "wc-eend", "bathroomgel",
             "bleek", "luchtverfrissers", "luchtverfrisser", "vlekverwijderaar",
             "vlekverwijderaars", "vlekverwijdering", "hgx", "geurstokjes",
-            "badkamereiniger", "vochtregelaar", "vaatwasverfrisser",
+            "badkamereiniger", "vochtregelaar", "vaatwasverfrisser", "brise",
             "keukendoekenset", "ecotoiletreiniger", "schoonmaakmiddel",
             "schoonmaakmiddelen", "keukenrol", "wasmiddelcaps", "kleenex",
             "wasmiddel", "wasmiddelen", "stofzuigerzakken", "schoonmaakazijn",
@@ -502,9 +505,11 @@
             "skimmia", "pernettya", "harlekijnrozen", "tuinzak",
             "herfstbloembollen", "struikheide", "mini-cactus",
             "phalaenopsis", "sierpompoen", "chrysantenboeket",
-            "winterviolen", "strelitzia", "snijbloemen",
+            "winterviolen", "strelitzia", "snijbloemen", "bromelia",
+            "germini", "plantenbeschermhoes", "buitenhaard",
             "amaryllis", "jungleplant", "bloembollen",
-            "anthurium",
+            "anthurium", "alocasia", "klimplanten", "varens",
+            "palmen", "gaultheria",
             "heideplant", "hebemix", "alstroemeria", "ameryllis",
             "pioenen", "vogelpindakaas", "klimplant", "orchidee", "lelies",
             "klimplantenmix", "passifloramix", "salvia", "hibiscus", "portulaca", "plantenmix",
@@ -544,11 +549,11 @@
             "lipton", "coca-cola", "7up", "cassis", "river", "cola", "sisi", "taksi",
             "bullit", "pepper", "oasis", "wicky", "ijsthee", "dubbelfrisss", "westminster",
             "limondaine", "frisdrank", "vruchtendrank", "dubbeldrank", "citrusfrisdrank", "capri-sun",
-            "schweppes", "orangina", "fuze", "slurpie", "redbull", "aquarius",
+            "schweppes", "orangina", "fuze", "slurpie", "redbull", "aquarius", "freeway",
             "tenzing", "maaza", "sparkling", "gazeuse", "fruitdrink", "rockstar", "nocco"
         ],
         "keywordsWithSpace": ["rockstar energy", "bang energy", "premium dutch", "arizona icetea",
-            "ice tea", "royal club", "red bull", "crystal clear"
+            "ice tea", "royal club", "red bull", "crystal clear", "aa drink"
         ],
         "ignore": ["thee", "kruidenthee", "ligure", "panetteria", "rundersteaks", "lay-z"]
     },
@@ -564,7 +569,7 @@
             "chololadehartjes", "melkchocolade", "d'or", "cacao", "m&m's",
             "laviano", "pindarotsjes", "choco's", "chocolademousse",
             "galettewafels", "chocoladepepernoten", "chocoladenoten",
-            "verkadekoek", "speculaaskoek", "lovechock",
+            "verkadekoek", "speculaaskoek", "lovechock", "reeses", "cupcakes",
             "l'atelier", "bonbons", "merci", "koetjesrepen", "chocoladeletter",
             "chocoladeletters", "chocoladethins", "kruidnoten", "pepernoten", "mcvitie's",
             "chocolonely", "chocolademix", "repen", "atelier", "lindt", "balconi",
@@ -587,7 +592,7 @@
             "mueslikoek", "roomboterbabbelaars", "granenbiscuits", "jelle", "fruitbiscuit", "tuc",
             "kanjers", "buys", "pindakoeken", "cakeplakken", "bokkenpootjes", "spritsen", "muffin"
         ],
-        "keywordsWithSpace": ["kinder bueno", "nature valley", "melk puur en hazelnoot", "zoete snacks"],
+        "keywordsWithSpace": ["halloween uitdeelzakken", "kinder bueno", "nature valley", "melk puur en hazelnoot", "zoete snacks"],
         "ignore": [
             "kalanchoë", "granola","kombucha", "ijsjes",
             "ijs", "ijsje", "rijstdrink", "penotti"
@@ -648,7 +653,7 @@
             "hazelnootgebak", "hazelnootgebakjes", "kersenhoef", "abrikozencarré",
             "vanille-roomvlaai", "chocotaart", "paassoesjes", "rijstevlaai", "bladerdeegschelpen",
             "banketbakkersroom", "aardbeienschnitt", "appel-kaneeltaart",
-            "tompouce", "roomboter-appeltaart", "kersenflap",
+            "tompouce", "roomboter-appeltaart", "kersenflap", "schnitte",
             "roombroodjes", "roombroodje", "vlaai", "paasgebak", "paasgebakjes", "banket",
             "banketbakkerij", "paasvlaaitjes", "cupcake", "appelovaaltjes",
             "chocolademuffins", "cakes", "soezen", "appeltaartmix",
@@ -677,12 +682,12 @@
             "kinowa", "ferme", "valess", "beyond", "auberginespread", "broccolispread",
             "erwtenspread", "hummus", "lupinesalade", "paprikaspread", "vleesvervanger",
             "vleesvervangers", "quinoa-nuggets", "cashewdrink", "hazelnootdrink",
-            "kokosdrink", "tijgernootdrink", "tumeric", "cremisso", "yakso",
-            "bonenspread", "wortelspread", "sojadrink", "vivera", "plantbased",
+            "kokosdrink", "tijgernootdrink", "tumeric", "cremisso", "yakso", "sojagurt",
+            "bonenspread", "wortelspread", "sojadrink", "vivera", "plantbased", 
             "groenteburger", "tofu", "provamel", "likemeat", "oatly", "tempeh", "zeewier",
             "broccoliburger", "kaasburger", "spinazieburger", "vega(n)", "zeewierburger"
         ],
-        "keywordsWithSpace": ["easy on tase","plant portein", "garden gourmet", "meat free", "like meat", "dutch weed"],
+        "keywordsWithSpace": ["easy on tase","plant portein", "isola bio", "garden gourmet", "meat free", "like meat", "dutch weed"],
         "ignore": ["conditioner", "shampoo", "frikandelbroodje", "hondenbrokken",
             "hondenbrokjes", "hondenkoekjes"]
     },
@@ -712,7 +717,7 @@
             "uitdeelsnoep", "stimorol", "celebrations", "snoepgoed", "toffifee",
             "muntdrop", "honingdrop", "harlekijntjes", "oldtimers", "salmiak",
             "fruitlolly's", "salmiaklolly's", "smoeltjes", "heksehyl",
-            "kauwgomblisters", "italiano",
+            "kauwgomblisters", "italiano", "look-o-look",
             "tumtum", "trolli", "fishermans", "candybars", "dropmakers", "dropschelpen"
         ],
         "keywordsWithSpace": [],
@@ -736,6 +741,7 @@
         "keywords": [
             "pasta", "pastasauzen", "cecco", "linguine", "spaghetti", "penne",
             "tagliatelle", "tortelli", "ravioli", "tortellini", "gnocchi",
+            "pasta's",
             "lasagnebladen", "fusilli", "macaroni", "rigatoni", "bertolli",
             "petti", "grand'italia", "pastasaus", "tortelloni", "pastagroente",
             "pastagroenten", "passata", "spagheroni", "barilla", "pastaspecialiteit"
@@ -758,6 +764,7 @@
             "hondenkoekjes", "kattenkoekjes", "dierensnacks", "hondensnoepjes",
             "baldo", "roméo", "vetbollen", "vetbollenhanger", "vogelvoerketting",
             "vogelvoermix", "vogeltaart", "vogelvoederhuisje", "kattenmand",
+            "kauwbotten", "kauwbot", 
             "hondenmand", "hondendeken", "voerbak", "voerbakset", "purina", "beneful",
             "whiskas", "pedigree", "catisfaction", "voerstation", "krabmeubilair",
             "tandenverzorgingsspeeltje", "dierentondeuse", "kattenbakmat", "hondepaté",
