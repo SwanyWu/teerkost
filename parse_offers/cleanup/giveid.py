@@ -9,4 +9,4 @@ def give_id_to_offers(offers):
         value = value + 1
         offer[key] = value
 
-    return offers;
+    return offers
