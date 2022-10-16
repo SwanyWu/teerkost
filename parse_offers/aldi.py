@@ -3,6 +3,7 @@ import requests
 from datetime import datetime, timedelta
 from bs4 import BeautifulSoup
 from cleanup import categorize, cleantext
+from offer import offer
 
 def return_weekday(date_string):
     date_string = date_string.split("-")
@@ -86,7 +87,6 @@ def return_offers():
         section_index = section_index + 1
 
         for article in section.find_all("div", {"class", article_div}):
-            offer = {"productId":"","product":"", "productInfo":"", "category":"", "image":"", "deal":"", "price": 0, "dateStart":"", "dateEnd":"", "link": "", "shop":""}
 
             title = ""
             info = ""
@@ -160,20 +160,20 @@ def return_offers():
 
             clean_title = cleantext.clean_up_title(title)
             clean_info = cleantext.clean_up_info(info)
-            offer.update({"productId": product_id_from_link})
-            offer.update({"product": clean_title})
-            offer.update({"productInfo": clean_info})
-            offer.update({"category": categorize.find_category(clean_title, clean_info)})
-            offer.update({"image": image_link})
 
-            offer.update({"deal": deal})
 
             if price.count('.') == 2:
                 price = price.replace(".", "", 1)
 
             price = float(format(float(price), '.2f'))
 
+            offer.update({"productId": product_id_from_link})
+            offer.update({"product": clean_title})
+            offer.update({"productInfo": clean_info})
+            offer.update({"category": categorize.find_category(clean_title, clean_info)})
+            offer.update({"image": image_link})
             offer.update({"price": price})
+            offer.update({"deal": deal})
             offer.update({"dateStart": date_start})
             offer.update({"dateEnd": date_end})
             offer.update({"link": link})

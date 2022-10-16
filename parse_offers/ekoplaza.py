@@ -7,6 +7,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import datetime
 from bs4 import BeautifulSoup
 from cleanup import categorize, cleantext
+from offer import offer
 
 def return_month_number(monthString):
 
@@ -133,19 +134,6 @@ def return_offers():
             link_elements_list = link_href.split("-")
             link_elements_list.reverse()
             productId = link_elements_list[0]
-
-        offer = {
-            "productId":"",
-            "product":"",
-            "productInfo":"",
-            "category":"",
-            "image":"",
-            "deal":"",
-            "price": 0,
-            "dateStart":"",
-            "dateEnd":"",
-            "link": "",
-            "shop":""}
 
         if "voor" in deal.lower() and "€" not in deal:
             deal = deal.replace('voor', 'voor €')

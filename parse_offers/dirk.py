@@ -1,6 +1,7 @@
 import requests
 from datetime import datetime
 from cleanup import categorize, cleantext
+from offer import offer
 
 def return_offers():
     SHOP = "dirk"
@@ -19,7 +20,6 @@ def return_offers():
         data = r.json()
 
         for i in data:
-            offer = {"productId": "","product":"", "productInfo":"", "category":"", "image":"", "deal":"", "price": 0, "dateStart":"", "dateEnd":"", "link": "", "shop":""}
 
             offer.update({"productId": i['OfferID']})
 
@@ -37,10 +37,12 @@ def return_offers():
             if i['NormalPrice'] != None:
                 old_price = i['NormalPrice']
                 calculate_deal = int((1 - (float(price)/float(old_price))) * 100)
-                offer.update({"deal": str(calculate_deal) + "% korting" })
+                deal = str(calculate_deal) + "% korting"
             else:
-                offer.update({"deal": "€" +str(price) })
-                # FIXME misschien zijn er andere type deals
+                deal = "€" +str(price)
+                # TODO misschien zijn er andere type deals
+
+            offer.update({"deal": deal})
 
             full_date_start = i['StartDate']
             start_date = datetime.fromisoformat(full_date_start).date()
@@ -62,8 +64,8 @@ def return_offers():
                 offer.update({"link": url})
 
             category = categorize.find_category(clean_title, clean_info)
+            
             offer.update({"category": category})
-
             offer.update({"shop": SHOP})
 
             collection.append(offer)

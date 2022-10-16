@@ -1,6 +1,7 @@
 import requests
 from datetime import datetime
 from cleanup import categorize, cleantext
+from offer import offer
 
 def return_offers():
     SHOP = "ah"
@@ -11,7 +12,7 @@ def return_offers():
     collection = []
 
     for i in data['collection']:
-        offer = {"productId": "","product":"", "productInfo":"", "category":"", "image":"", "deal":"", "price": 0, "dateStart":"", "dateEnd":"", "link": "", "shop":""}
+
         try:
             if i['segmentType'] == "AH" and i['category'] != 'Koken, tafelen, vrije tijd' and "bezorging" not in i['shields'][0]['text'] and "miles" not in i['shields'][0]['text']:
 
