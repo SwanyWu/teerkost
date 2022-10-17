@@ -1,6 +1,6 @@
 import requests
 from datetime import datetime
-from cleanup import categorize, cleantext
+from cleanup import categorize, cleantext, cleandeal
 
 def return_offers():
     SHOP = "dirk"
@@ -38,17 +38,17 @@ def return_offers():
             offer.update({"product": clean_title})
 
             description = i['Packaging']
-            if description != None:
+            if description is not None:
                 clean_info = cleantext.clean_up_info(description)
                 offer.update({"productInfo": clean_info})
 
             price = i['OfferPrice'];
             offer.update({"price": float(price)})
 
-            if i['NormalPrice'] != None:
+            if i['NormalPrice'] is not None:
                 old_price = i['NormalPrice']
-                calculate_deal = int((1 - (float(price)/float(old_price))) * 100)
-                deal = str(calculate_deal) + "% korting"
+                calculate_deal = cleandeal.calculate_percentage(old_price, price)
+                deal = calculate_deal + "% korting"
             else:
                 deal = "€" +str(price)
                 # TODO misschien zijn er andere type deals
