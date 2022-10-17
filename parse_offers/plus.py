@@ -6,15 +6,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import datetime
 from bs4 import BeautifulSoup
-from cleanup import categorize, cleantext
-
-def return_month_number(monthString):
-
-    months = ['januari', 'februari', 'maart', 'april', 'mei', 'juni', 'juli', 'augustus', 'september', 'oktober', 'november','december']
-    monthInt = months.index(monthString) + 1
-
-    month_number_string = format(monthInt, '02')
-    return month_number_string
+from cleanup import categorize, cleantext, cleandate, cleandeal
 
 def format_number_float(number):
     number = number.replace("\n", "") # character appears sometimes
@@ -27,20 +19,6 @@ def format_number_float(number):
     float_number = float("".join(str(x) for x in number_as_list))
     float_number = round(float_number, 2)
     return str(float_number)
-
-def calculate_percentage(oldPrice, newPrice):
-    calculated_deal = int((1 - (float(newPrice)/float(oldPrice))) * 100)
-    return str(calculated_deal)
-
-def return_month(month_string):
-    month_string = month_string.replace("\xa0", "")
-    months = ["januari", "februari", "maart", "april", "mei",
-    "juni", "juli", "augustus", "september", "oktober", "november", "december"]
-
-    month_number = months.index(month_string) + 1
-    month_number_string = format(month_number, '02')
-
-    return month_number_string
 
 def get_page_content(URL, driver, element_to_be_located):
     driver.get(URL)
@@ -96,8 +74,8 @@ def return_offers():
 
         year = datetime.datetime.now().year
 
-        date_start = str(year) +"-"+ return_month(date_start_month) +"-"+ date_start_day
-        date_end = str(year) +"-"+ return_month(date_end_month) +"-"+ date_end_day
+        date_start = str(year) +"-"+ cleandate.return_index_by_full_month_text(date_start_month) +"-"+ date_start_day
+        date_end = str(year) +"-"+ cleandate.return_index_by_full_month_text(date_end_month) +"-"+ date_end_day
 
     product_tile = "ish-productList-item"
     for product in soup.find_all("li", {"class": product_tile}):
@@ -153,7 +131,7 @@ def return_offers():
                 else:
                     discount = format_number_float(split_clover[0]) # a discount is found
                     new_price = float(old_price) - float(discount)
-                    deal = calculate_percentage(old_price, new_price) + "% korting"
+                    deal = cleandeal.calculate_percentage(old_price, new_price) + "% korting"
                     price = float(str(new_price))
             elif "VOOR" in clover:
                 split_clover = clover.split("VOOR")

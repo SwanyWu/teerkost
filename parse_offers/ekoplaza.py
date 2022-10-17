@@ -6,15 +6,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import datetime
 from bs4 import BeautifulSoup
-from cleanup import categorize, cleantext
-
-def return_month_number(monthString):
-
-    months = ['januari', 'februari', 'maart', 'april', 'mei', 'juni', 'juli', 'augustus', 'september', 'oktober', 'november','december']
-    month_number = months.index(monthString) + 1
-
-    month_number_string = format(month_number, '02')
-    return month_number_string
+from cleanup import categorize, cleantext, cleandate, cleandeal
 
 def return_offers():
 
@@ -61,7 +53,7 @@ def return_offers():
         else:
             start_day = full_date_string[0]
             full_date_string_month_start = full_date_string[1]
-            start_month = return_month_number(full_date_string_month_start)
+            start_month = cleandate.return_index_by_full_month_text(full_date_string_month_start)
 
         formatted_start_date = str(current_year) + "-" + str(start_month) + "-" + str(start_day)
         date_start = formatted_start_date
@@ -72,11 +64,11 @@ def return_offers():
         elif full_date_string[0] == 'Vandaag':
             end_day = full_date_string[2]
             full_date_string_month = full_date_string[3]
-            end_month = return_month_number(full_date_string_month)
+            end_month = cleandate.return_index_by_full_month_text(full_date_string_month)
         else:
             end_day = full_date_string[3]
             full_date_string_month = full_date_string[4]
-            end_month = return_month_number(full_date_string_month)
+            end_month = cleandate.return_index_by_full_month_text(full_date_string_month)
 
         formatted_end_date = str(current_year) + "-" + str(end_month) + "-" + str(end_day)
         date_end = formatted_end_date
@@ -129,8 +121,8 @@ def return_offers():
             old_price = old_price.replace(",", ".") # make it convertable to float
 
             if old_price != "" and price != "": # calculate a discount
-                calculate_deal = int((1 - (float(price)/float(old_price))) * 100)
-                deal = str(calculate_deal) + "% korting"
+                calculate_deal = cleandeal.calculate_percentage(old_price, price)
+                deal = calculate_deal + "% korting"
         else: # or use the label for the discount
             deal = label.lower()
 
