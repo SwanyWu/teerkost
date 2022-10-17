@@ -146,7 +146,7 @@ def return_offers():
                 split_clover = clover.split("GRAM")
                 prijs_kilo = split_clover[1]
                 new_price = format_number_float(prijs_kilo)
-                percentage = calculate_percentage(old_price, new_price)
+                percentage = cleandeal.calculate_percentage(old_price, new_price)
                 price = float(new_price)
                 if float(percentage) < 0.0:
                     print("Wait wut, korting van " + str(percentage) + "%")
@@ -156,7 +156,7 @@ def return_offers():
                 split_clover = clover.split("KILO")
                 prijs_kilo = split_clover[1]
                 new_price = format_number_float(prijs_kilo)
-                percentage = calculate_percentage(old_price, new_price)
+                percentage = cleandeal.calculate_percentage(old_price, new_price)
                 price = float(new_price)
                 if float(percentage) < 0.0:
                     print("Wait wut, korting van " + str(percentage) + "%")
@@ -168,7 +168,7 @@ def return_offers():
             else:
                 try:
                     new_price = format_number_float(clover)
-                    deal = calculate_percentage(old_price, new_price) + "% korting"
+                    deal = cleandeal.calculate_percentage(old_price, new_price) + "% korting"
                     # TODO prijs berekenen
                 except Exception as e:
                     print("Geen idee wat de deal is hiervan: " + clover)
