@@ -63,12 +63,13 @@ def return_offers():
 
         image_tile = item.find("div", {"class":"c-product-tile__image"})
         image_src = image_tile.find("img")
+        image_url = ""
         if image_src is not None:
             image_url = image_src['data-src']
-        else:
-            image_url = ""
 
         full_href = ""
+        product_id = ""
+
         link_element = image_tile.find("a")
         if link_element is not None:
             link = link_element['href']
@@ -78,9 +79,6 @@ def return_offers():
             id_from_link = link.split("/")
             id_from_link.reverse()
             product_id = id_from_link[1]
-        else:
-            full_href = ""
-            product_id = ""
 
         price_element = item.find("div", {"class":"c-product-tile__image--pricing"})
         if price_element is not None:
