@@ -2,6 +2,19 @@
 
 All notable changes to the project are documented here. There is no versioning for now. Just what is changed on what date.
 
+# 17-10-2022
+
+### Added
+- CI pipeline: Code quality scanning with Pylint on every change.
+- CI pipeline: Code coverage scanning on every change, including SVG badge in readme.
+
+### Changed
+- Refactor in parse_offers related to getting the right date (new module).
+- Refactor in parse_offers related to price and deals (new module).
+
+### Fixed
+- Fixed many code quality issues that came up with Pylint.
+
 # 07-10-2022
 
 ### Added
