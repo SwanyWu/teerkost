@@ -1,6 +1,6 @@
 import requests
 from datetime import datetime
-from cleanup import categorize, cleantext
+from cleanup import categorize, cleantext, cleandeal
 
 def return_offers():
     SHOP = "ah"
@@ -39,14 +39,13 @@ def return_offers():
 
                 offer.update({"shop": SHOP})
 
-                calculated_deal = 0
+                calculated_deal = ""
                 if "price" in i:
                     price_now = i['price']['now']
                     price_now = "{:.2f}".format(price_now)
                     try:
                         price_old = i['price']['was']
-
-                        calculated_deal = int((1 - (float(price_now)/float(price_old))) * 100)
+                        calculated_deal = cleandeal.calculate_percentage(price_old, price_now)
                     except KeyError:
                         pass
 
@@ -56,8 +55,8 @@ def return_offers():
                 if "shields" in i:
                     shield = i['shields'][0]['text']
                     deal_string = " ".join(str(x) for x in shield)
-                    if "nu voor" in deal_string and calculated_deal != 0: # when "nu voor" is found, use discount percentage as deal
-                        deal = str(calculated_deal) + "% korting"
+                    if "nu voor" in deal_string and calculated_deal != "": # when "nu voor" is found, use discount percentage as deal
+                        deal = calculated_deal + "% korting"
                     else:
                         deal = deal_string
 
