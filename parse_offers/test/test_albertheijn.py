@@ -1,3 +1,4 @@
+from datetime import datetime
 import unittest
 import xmlrunner
 import albertheijn
@@ -44,12 +45,17 @@ class TestAlbertheijn(unittest.TestCase):
         for item in collection:
             self.assertTrue(item['deal'] != '') # Item heeft een deal
 
-    def test_list_has_product_date_start(self):
+    def test_list_has_valid_date_start(self):
         """
-        ✅ Alle Albert Heijn aanbiedingen hebben een startdatum 👉
+        ✅ Alle aanbiedingen hebben een valide startdatum 👉
         """
         for item in collection:
             self.assertTrue(item['dateStart'] != '') # Item heeft een startdatum
+            try:
+                dt_object = datetime.strptime(item['dateStart'], "%Y-%m-%d")
+                self.assertTrue(isinstance(dt_object, datetime))
+            except:    
+                raise AssertionError ("dateStart '"+ item['dateStart'] + "' cannot be converted into a datetime object.")
 
 if __name__ == '__main__':
     unittest.main(
