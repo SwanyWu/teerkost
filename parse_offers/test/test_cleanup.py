@@ -1,6 +1,6 @@
 import unittest
 import xmlrunner
-from cleanup import categorize, cleantext, giveid
+from cleanup import categorize, cleantext, cleandate, giveid, cleandeal
 
 class TestCleanup(unittest.TestCase):
     """
@@ -164,6 +164,39 @@ class TestCleanup(unittest.TestCase):
 
         addId = giveid.give_id_to_offers(test_offer_object)
         self.assertEqual(addId, test_offer_object_expected)
+
+    def test_clean_date(self):
+        """
+            ✅ Definitions from cleandate module return results 👉
+        """
+        expected_date_string = "2017-01-01"
+        created_date_string = cleandate.return_full_datestring("2017", "01", "01")
+        self.assertTrue(created_date_string == expected_date_string)
+
+        expected_month_index = "02"
+        created_month_index = cleandate.return_index_by_full_month_text("februari")
+
+        self.assertTrue(created_month_index == expected_month_index)
+
+        expected_weekday = "maandag"
+        created_weekday_string = cleandate.return_weekday_string("2022-10-17")
+        self.assertTrue(created_weekday_string == expected_weekday)
+
+        expected_future_date_string = "2023-01-02"
+        created_future_date = cleandate.return_calculated_date("2022-12-31", 2)
+        self.assertTrue(created_future_date == expected_future_date_string)
+        
+        expected_sunday_day = "2022-10-23"
+        created_first_sunday = cleandate.return_first_sunday_startdate_string("2022-10-18")
+        self.assertTrue(created_first_sunday == expected_sunday_day)
+
+    def test_clean_deal(self):
+        """
+            ✅ Definitions from cleandeal module return results 👉
+        """       
+        expected_deal = "50"
+        calculated_deal = cleandeal.calculate_percentage("15.00", "7.50")
+        self.assertTrue(calculated_deal == expected_deal)
 
 if __name__ == '__main__':
     unittest.main(
