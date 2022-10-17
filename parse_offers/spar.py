@@ -1,6 +1,6 @@
 from xml.etree.ElementTree import ElementTree
 import requests
-from cleanup import categorize, cleantext
+from cleanup import categorize, cleantext, cleandeal
 from datetime import datetime
 from bs4 import BeautifulSoup
 
@@ -93,8 +93,8 @@ def return_offers():
                     old_price = old_price.get_text().strip().rstrip(".-")
                     offer.update({"price": float(new_price)})
 
-                    calculate_deal = int((1 - (float(new_price)/float(old_price))) * 100)
-                    deal = str(calculate_deal) + "% korting"
+                    calculate_deal = cleandeal.calculate_percentage(old_price, new_price)
+                    deal = calculate_deal + "% korting"
                 else:
                     print("Geen nieuwe prijs, geen deal")
             else:
