@@ -1,5 +1,5 @@
 import requests
-from cleanup import categorize, cleantext
+from cleanup import categorize, cleantext, cleandate
 import datetime
 import json
 from bs4 import BeautifulSoup
@@ -103,8 +103,9 @@ def return_offers():
                 date = date[1].split("/")
                 day_start = date[0]
                 month_start = date[1]
-                current_year = datetime.datetime.now().year
-                full_date_start = str(current_year) + "-" + month_start + "-" + day_start
+                current_year = str(datetime.datetime.now().year)
+                full_date_start = cleandate.return_full_datestring(current_year, month_start, day_start)
+
                 offer.update({"dateStart": full_date_start})
             else: # start and end date is provided
                 if "/" in date:
@@ -119,10 +120,10 @@ def return_offers():
                     day_start = date_string_start[0]
                     month_start = date_string_start[1]
 
-                    current_year = datetime.datetime.now().year
+                    current_year = str(datetime.datetime.now().year)
 
-                    full_date_end = str(current_year) + "-" + month_end + "-" + day_end
-                    full_date_start = str(current_year) + "-" + month_start + "-" + day_start
+                    full_date_end = cleandate.return_full_datestring(current_year, month_end, day_end)
+                    full_date_start = cleandate.return_full_datestring(current_year, month_start, day_start)
 
                     offer.update({"dateStart": full_date_start})
                     offer.update({"dateEnd": full_date_end})
