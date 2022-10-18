@@ -206,7 +206,7 @@ function Main(props) {
     }
 
     if(selectedDealRoute !== undefined) {
-      dealFilter = object => object.deal === selectedDealRoute;
+      dealFilter = object => object.percentage >= selectedDealRoute;
       console.log("Filter voor deal met " + selectedDealRoute + " ingesteld.")
     }
 
@@ -264,11 +264,11 @@ function Main(props) {
                   })}
                 </div>
                 <div className="filter-deal">
-                  <span onClick={() => clickOnDeal("1+1 gratis")} data-deal="1+1 gratis">1+1</span>
-                  <span onClick={() => clickOnDeal("2+1 gratis")} data-deal="2+1 gratis">2+1</span>
-                  <span onClick={() => clickOnDeal("25% korting")} data-deal="25% korting">25%</span>
-                  <span onClick={() => clickOnDeal("50% korting")} data-deal="50% korting">50%</span>
-                  <span onClick={() => clickOnDeal("2e halve prijs")} data-deal="2e halve prijs">2e halve prijs</span>
+                  <span onClick={() => clickOnDeal("10")} data-deal="10">{'≥ 10%'}</span>
+                  <span onClick={() => clickOnDeal("20")} data-deal="20">{'≥ 20%'}</span>
+                  <span onClick={() => clickOnDeal("30")} data-deal="30">{'≥ 30%'}</span>
+                  <span onClick={() => clickOnDeal("40")} data-deal="40">{'≥ 40%'}</span>
+                  <span onClick={() => clickOnDeal("50")} data-deal="50">{'≥ 50%'}</span>
                 </div>
             </div>
             </div>
