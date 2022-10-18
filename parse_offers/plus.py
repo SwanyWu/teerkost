@@ -87,6 +87,7 @@ def return_offers():
             "image":"", 
             "deal":"",
             "price": float(0), 
+            "percentage":0,
             "dateStart":"", 
             "dateEnd":"", 
             "link": "", 
@@ -98,6 +99,7 @@ def return_offers():
         info = ""
         image_link = ""
         price = 0
+        percentage = 0
         deal = ""
         link = ""
 
@@ -125,13 +127,16 @@ def return_offers():
             if "KORTING" in clover:
                 split_clover = clover.split("KORTING")
                 if "%" in split_clover[0]: # a percentage is found
-                    percentage = split_clover[0]
-                    deal = percentage + " korting"
+                    percentage_found = split_clover[0]
+                    deal = percentage_found + " korting"
+                    percentage = int(float(percentage_found.replace("%", "")))
                     # TODO nieuwe prijs berekenen
                 else:
                     discount = format_number_float(split_clover[0]) # a discount is found
                     new_price = float(old_price) - float(discount)
-                    deal = cleandeal.calculate_percentage(old_price, new_price) + "% korting"
+                    calculated_deal = cleandeal.calculate_percentage(old_price, new_price)
+                    deal = calculated_deal + "% korting"
+                    percentage = int(float(calculated_deal))
                     price = float(str(new_price))
             elif "VOOR" in clover:
                 split_clover = clover.split("VOOR")
@@ -141,34 +146,55 @@ def return_offers():
             elif "+1GRATIS" in clover:
                 split_clover = clover.split("+")
                 deal = split_clover[0] + "+1 gratis"
+                calculate_percentage = 1 / (int(split_clover[0]) + 1)
+                percentage = int(float(calculate_percentage))
                 # TODO prijs berekenenen
             elif "GRAM" in clover:
                 split_clover = clover.split("GRAM")
                 prijs_kilo = split_clover[1]
                 new_price = format_number_float(prijs_kilo)
-                percentage = cleandeal.calculate_percentage(old_price, new_price)
+                calculated_deal = cleandeal.calculate_percentage(old_price, new_price)
                 price = float(new_price)
-                if float(percentage) < 0.0:
-                    print("Wait wut, korting van " + str(percentage) + "%")
+                if float(calculated_deal) < 0.0:
+                    print("Wait wut, korting van " + calculated_deal + "%")
                 else:
-                    deal = percentage + "% korting"
+                    deal = calculated_deal + "% korting"
+
+                percentage = int(float(calculated_deal))    
             elif "KILO" in clover:
                 split_clover = clover.split("KILO")
                 prijs_kilo = split_clover[1]
                 new_price = format_number_float(prijs_kilo)
-                percentage = cleandeal.calculate_percentage(old_price, new_price)
+                calculated_deal = cleandeal.calculate_percentage(old_price, new_price)
                 price = float(new_price)
-                if float(percentage) < 0.0:
-                    print("Wait wut, korting van " + str(percentage) + "%")
+                if float(calculated_deal) < 0.0:
+                    print("Wait wut, korting van " + calculated_deal + "%")
                 else:
-                    deal = percentage + "% korting"
+                    deal = calculated_deal + "% korting"
+
+                percentage = int(float(calculated_deal))
             elif "2eHALVEPRIJS" in clover:
                 deal = "2e halve prijs"
+                percentage = 25
                 # TODO prijs berekenen
+            elif "HALEN" in clover and "BETALEN" in clover:
+                clover = clover.replace("HALEN", "HALEN ")
+                clover = clover.split(" ")
+                hoeveel_halen = int(clover[0])
+                hoeveel_betalen = int(clover[2])
+
+                deal = clover[0] + " halen " + clover[2] + " betalen"
+
+                calculate_percentage = (1 - (hoeveel_betalen/hoeveel_halen)) * 100
+                percentage = int(float(calculate_percentage))
+                print(deal)
+                print(percentage)
             else:
                 try:
                     new_price = format_number_float(clover)
-                    deal = cleandeal.calculate_percentage(old_price, new_price) + "% korting"
+                    calculated_deal = cleandeal.calculate_percentage(old_price, new_price)
+                    percentage = int(float(calculated_deal))
+                    deal = calculated_deal + "% korting"
                     # TODO prijs berekenen
                 except Exception as e:
                     print("Geen idee wat de deal is hiervan: " + clover)
@@ -214,6 +240,7 @@ def return_offers():
         offer.update({"dateStart": date_start})
         offer.update({"dateEnd": date_end})
         offer.update({"price": float(price)})
+        offer.update({"percentage": percentage})
         offer.update({"image": image_link})
         offer.update({"link": link})
         offer.update({"shop": SHOP})
