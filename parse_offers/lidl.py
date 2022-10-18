@@ -24,6 +24,7 @@ def return_offers():
             "image":"", 
             "deal":"",
             "price": float(0), 
+            "percentage":0,
             "dateStart":"", 
             "dateEnd":"", 
             "link": "", 
@@ -35,6 +36,7 @@ def return_offers():
         description = ""
         date = ""
         price = 0
+        percentage = 0
         image_url = ""
         link = ""
 
@@ -54,6 +56,7 @@ def return_offers():
             if type(discount) != type(None):
                 discount_percentage = load_jsonlist[0]['price']['discount']['percentageDiscount']
                 if type(discount_percentage) != type(None):
+                    percentage = int(float(discount_percentage))
                     deal = str(discount_percentage) + "% korting"
                 else:
                     deal = ""
@@ -79,10 +82,10 @@ def return_offers():
         product_id = link_element[0]
 
         description = load_jsonlist[0]['keyfacts']['description']
+        clean_info = ""
+
         if type(description) != type(None):
             clean_info = cleantext.clean_up_info(description.strip())
-        else:
-            clean_info = ""
 
         offer.update({"productInfo": clean_info})
         category = categorize.find_category(clean_title, clean_info)
@@ -92,6 +95,7 @@ def return_offers():
 
         offer.update({"shop": SHOP})
         offer.update({"price": float(price)})
+        offer.update({"percentage": percentage})
         offer.update({"image": image_url})
         offer.update({"link": link})
 

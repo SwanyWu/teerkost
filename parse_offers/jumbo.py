@@ -25,6 +25,7 @@ def return_offers():
                 "image":"", 
                 "deal":"",
                 "price": float(0), 
+                "percentage":0,
                 "dateStart":"", 
                 "dateEnd":"", 
                 "link": "", 

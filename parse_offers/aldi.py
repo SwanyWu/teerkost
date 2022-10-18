@@ -37,6 +37,7 @@ def return_offers():
                 "image":"", 
                 "deal":"",
                 "price": float(0), 
+                "percentage":0,
                 "dateStart":"", 
                 "dateEnd":"", 
                 "link": "", 
@@ -89,8 +90,10 @@ def return_offers():
                 product_id_from_link = link_elements_list[2] # get the productId part from the href
 
             deal = ""
+            percentage = 0
             if "%" in price_label: # a percentage is known, use it as the deal
                 price_label = price_label.replace("-", "").lower().replace(" korting", "")
+                percentage = int(float(price_label.replace("%", "")))
                 deal = str(price_label) + " korting"
             else:
                 if old_price != "" and price != "": # calculate the deal when old and new price is found
@@ -99,6 +102,7 @@ def return_offers():
                     if len(old_price) == 8:
                         old_price = old_price.replace(".", "", 1)
                     calculated_deal = cleandeal.calculate_percentage(old_price, price)
+                    percentage = int(float(calculated_deal))
                     deal = calculated_deal + "% korting"
                 else:
                     if "voor" in price_label.lower() or "vanaf" in price_label.lower():
@@ -128,6 +132,7 @@ def return_offers():
             offer.update({"image": image_link})
             offer.update({"price": price})
             offer.update({"deal": deal})
+            offer.update({"percentage": percentage})
             offer.update({"dateStart": date_start})
             offer.update({"dateEnd": date_end})
             offer.update({"link": link})

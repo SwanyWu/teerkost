@@ -27,6 +27,7 @@ def return_offers():
                 "image":"", 
                 "deal":"",
                 "price": float(0), 
+                "percentage":0,
                 "dateStart":"", 
                 "dateEnd":"", 
                 "link": "", 
@@ -45,15 +46,18 @@ def return_offers():
             price = i['OfferPrice'];
             offer.update({"price": float(price)})
 
+            percentage = 0
             if i['NormalPrice'] is not None:
                 old_price = i['NormalPrice']
                 calculate_deal = cleandeal.calculate_percentage(old_price, price)
+                percentage = int(float(calculate_deal))
                 deal = calculate_deal + "% korting"
             else:
                 deal = "€" +str(price)
                 # TODO misschien zijn er andere type deals
 
             offer.update({"deal": deal})
+            offer.update({"percentage": percentage})
 
             full_date_start = i['StartDate']
             start_date = datetime.fromisoformat(full_date_start).date()

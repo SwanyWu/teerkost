@@ -84,6 +84,7 @@ def return_offers():
             "image":"", 
             "deal":"",
             "price": float(0), 
+            "percentage":0,
             "dateStart":"", 
             "dateEnd":"", 
             "link": "", 
@@ -94,6 +95,7 @@ def return_offers():
         info = ""
         image_link = ""
         price = ""
+        percentage = 0
         deal = ""
         label = ""
         link = ""
@@ -122,6 +124,7 @@ def return_offers():
 
             if old_price != "" and price != "": # calculate a discount
                 calculate_deal = cleandeal.calculate_percentage(old_price, price)
+                percentage = int(float(calculate_deal))
                 deal = calculate_deal + "% korting"
         else: # or use the label for the discount
             deal = label.lower()
@@ -153,6 +156,7 @@ def return_offers():
         offer.update({"dateStart": date_start})
         offer.update({"dateEnd": date_end})
         offer.update({"price": float(price)})
+        offer.update({"percentage": percentage})
         offer.update({"image": image_link})
         offer.update({"link": link})
         offer.update({"shop": SHOP})

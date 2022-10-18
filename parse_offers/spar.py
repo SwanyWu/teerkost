@@ -38,6 +38,7 @@ def return_offers():
             "image":"", 
             "deal":"",
             "price": float(0), 
+            "percentage":0,
             "dateStart":"", 
             "dateEnd":"", 
             "link": "", 
@@ -52,7 +53,6 @@ def return_offers():
         if title_element is not None:
             title = title_element.get_text().strip()
             clean_title = cleantext.clean_up_title(title)
-
 
         description_element = meta_element.find("span")
         if description_element is not None:
@@ -94,6 +94,7 @@ def return_offers():
                     offer.update({"price": float(new_price)})
 
                     calculate_deal = cleandeal.calculate_percentage(old_price, new_price)
+                    percentage = int(float(calculate_deal))
                     deal = calculate_deal + "% korting"
                 else:
                     print("Geen nieuwe prijs, geen deal")
@@ -135,6 +136,7 @@ def return_offers():
         offer.update({"category": category})
         offer.update({"link": full_href})
         offer.update({"deal": deal })
+        offer.update({"percentage": percentage})
         offer.update({"image": image_url})
         offer.update({"dateStart": str(date_start_string)})
         offer.update({"dateEnd": str(date_end_string)})

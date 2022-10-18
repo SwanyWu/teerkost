@@ -22,6 +22,7 @@ def return_offers():
                     "image":"", 
                     "deal":"",
                     "price": float(0), 
+                    "percentage":0,
                     "dateStart":"", 
                     "dateEnd":"", 
                     "link": "", 
@@ -40,12 +41,14 @@ def return_offers():
                 offer.update({"shop": SHOP})
 
                 calculated_deal = ""
+                percentage = 0
                 if "price" in i:
                     price_now = i['price']['now']
                     price_now = "{:.2f}".format(price_now)
                     try:
                         price_old = i['price']['was']
                         calculated_deal = cleandeal.calculate_percentage(price_old, price_now)
+                        percentage = int(float(calculated_deal))
                     except KeyError:
                         pass
 
@@ -62,12 +65,13 @@ def return_offers():
 
                     if "2e gratis" in deal_string:
                         deal = "1+1 gratis"
+                        percentage = 50
 
                 if "voor" in deal.lower() and "€" not in deal:
                     deal = deal.replace('voor', 'voor €')
 
                 offer.update({"deal": deal})
-
+                offer.update({"percentage": percentage})
                 offer.update({"image": i['image']['src']})
 
                 href = i['href']
