@@ -1,5 +1,5 @@
 
-def clean_up_title(title):
+def clean_up_title(title: str):
     """Removes words from a string that are not useful."""
 
     badWords = ['PLUS ', 'Alle AH ', 'Diverse AH ', 'Alle ', 'AH ', '*', 'Jumbo ', '1 de beste ', '1 de Beste ']
@@ -15,7 +15,7 @@ def clean_up_title(title):
 
     return clean_title
 
-def clean_up_info(info_text):
+def clean_up_info(info_text: str):
     """Removes words from a string that are not useful."""
 
     if 'Bijv.' in info_text:
