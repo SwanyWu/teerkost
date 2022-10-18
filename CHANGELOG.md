@@ -2,6 +2,11 @@
 
 All notable changes to the project are documented here. There is no versioning for now. Just what is changed on what date.
 
+# 18-10-2022
+
+### Added
+- Buttons for filtering by discount percentages.
+
 # 17-10-2022
 
 ### Added
