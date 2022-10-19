@@ -98,7 +98,7 @@ def return_offers():
         title = ""
         info = ""
         image_link = ""
-        price = 0
+        price = float(0)
         percentage = 0
         deal = ""
         link = ""
@@ -187,8 +187,6 @@ def return_offers():
 
                 calculate_percentage = (1 - (hoeveel_betalen/hoeveel_halen)) * 100
                 percentage = int(float(calculate_percentage))
-                print(deal)
-                print(percentage)
             else:
                 try:
                     new_price = format_number_float(clover)
@@ -222,10 +220,6 @@ def return_offers():
                 print("He, " + title + " is een weekendpakker!")
                 # datetime = datetime.datetime.strptime(dateStart, "%Y-%m-%d")
                 # print(datetime.date().
-
-        if price != '':
-            price_as_float = float(price)
-            price = str(round(price_as_float, 2))
 
         if "voor" in deal.lower() and "€" not in deal:
             deal = deal.replace('voor', 'voor €')
