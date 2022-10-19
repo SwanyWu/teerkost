@@ -35,7 +35,6 @@ def return_offers():
         title = ""
         description = ""
         date = ""
-        price = 0
         percentage = 0
         image_url = ""
         link = ""
@@ -68,9 +67,10 @@ def return_offers():
               print("Geen aanbieding gevonden voor " + title)
               # deal is on the image
 
+        price = float(0)
         price = load_jsonlist[0]['price']['price']
         if type(price) == type(None):
-            price = 0
+            price = float(0)
 
         image_url = load_jsonlist[0]['image']
 
@@ -134,7 +134,6 @@ def return_offers():
                 else:
                     deal = "" # no deal because no date is found
                     print("Geen datum gevonden voor " + title)
-
 
         offer.update({"deal": deal})
 
