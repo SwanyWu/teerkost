@@ -46,7 +46,24 @@ def return_offers():
             offer.update({"shop": SHOP})
 
             deal = i['tag']
+            percentage = 0
+            if "2e halve prijs" in deal:
+                percentage = 25
+            elif "gratis" in deal and "+" in deal:
+                deal_split = deal.replace(" gratis", "").split("+")
+                hoeveel_betalen = int(deal_split[0])
+                hoeveel_halen = int(deal_split[0]) + int(deal_split[1])
+                calculate_percentage = (1 - (hoeveel_betalen/hoeveel_halen)) * 100
+                percentage = int(float(calculate_percentage))
+            elif "% korting" in deal:
+                deal = deal.replace(" stuks", "")
+                deal_split = deal.split("%")
+                if len(deal_split) <= 2:
+                    percentage = int(deal_split[0])
+
             offer.update({"deal": deal})
+
+            price = float(0)
             if "voor € " in deal: # when "voor €" is found, the price can be calculated
                 deal = deal.split("voor € ")
                 price = deal[1]
@@ -54,10 +71,8 @@ def return_offers():
                 price = price.replace(" euro", "")
                 price = float(price)
                 price = float(format(price, '.2f'))
-                offer.update({"price": price})
-
-            if offer['price'] == 0:
-                offer.update({"price": float(0)})
+            
+            offer.update({"price": price})
 
             if "promotionImage" in i:
                 offer.update({"image": i['promotionImage']['main']})
