@@ -91,49 +91,49 @@ def return_offers():
             "shop":""
         }
 
-        title = ""
-        info = ""
-        image_link = ""
-        price = ""
-        percentage = 0
-        deal = ""
-        label = ""
-        link = ""
 
+        title = ""
         title_element = product.find("h4", {"class", "title"})
         if title_element is not None:
             title = title_element.get_text().strip()
 
+        info = ""
         info_element = product.find("p", {"class", "mb-0"})
         if info_element is not None:
             info = info_element.get_text().strip()
 
+        label = ""
         primary_label = product.find("span", {"class", "label-primary"})
         if primary_label is not None:
             label = primary_label.get_text().strip()
 
+        price = float(0)
         price_main_digit = product.find("strong", {"class", "price-integer"}).get_text().strip()
         price_main_digit_small = product.find("sup", {"class", "price-digit"}).get_text().strip()
         if price_main_digit is not None and price_main_digit_small is not None:
-            price = price_main_digit + "." + price_main_digit_small
+            price = float(price_main_digit + "." + price_main_digit_small)
 
+        deal = ""
+        percentage = 0
         old_price = product.find("small", {"class", "price-list"})
         if old_price is not None:
             old_price = old_price.get_text().strip()
             old_price = old_price.replace(",", ".") # make it convertable to float
 
-            if old_price != "" and price != "": # calculate a discount
-                calculate_deal = cleandeal.calculate_percentage(old_price, price)
+            if old_price != "" and price != 0: # calculate a discount
+                calculate_deal = cleandeal.calculate_percentage(str(old_price), str(price))
                 percentage = int(float(calculate_deal))
                 deal = calculate_deal + "% korting"
         else: # or use the label for the discount
             deal = label.lower()
 
+        image_link = ""
         image_element = product.find("img")
         if image_element != None:
             image_src = image_element['data-src']
             image_link = image_src
 
+        link = ""
         link_element = product.find("a", {"class", "link-contnet"})
         if link_element != None:
             link_href = link_element['href']
@@ -148,14 +148,15 @@ def return_offers():
 
         clean_title = cleantext.clean_up_title(title)
         clean_info = cleantext.clean_up_info(info)
+        category = categorize.find_category(clean_title, clean_info)
         offer.update({"productId": productId})
         offer.update({"product": clean_title})
         offer.update({"productInfo": clean_info})
-        offer.update({"category": categorize.find_category(clean_title, clean_info)})
+        offer.update({"category": category})
         offer.update({"deal": deal})
         offer.update({"dateStart": date_start})
         offer.update({"dateEnd": date_end})
-        offer.update({"price": float(price)})
+        offer.update({"price": price})
         offer.update({"percentage": percentage})
         offer.update({"image": image_link})
         offer.update({"link": link})
