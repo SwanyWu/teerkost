@@ -58,10 +58,10 @@ def return_offers():
             elif "% korting" in deal:
                 deal = deal.replace(" stuks", "")
                 deal_split = deal.split("%")
-                if len(deal_split) <= 2:
-                    percentage = int(deal_split[0])
+                percentage = int(deal_split[0])
 
             offer.update({"deal": deal})
+            offer.update({"percentage": percentage})
 
             price = float(0)
             if "voor € " in deal: # when "voor €" is found, the price can be calculated
